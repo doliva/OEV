@@ -1,0 +1,12 @@
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\bin\Debug\BLL.dll
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\bin\Debug\BLL.pdb
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\bin\Debug\DAL.dll
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\bin\Debug\Entities.dll
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\bin\Debug\Utils.dll
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\bin\Debug\DAL.pdb
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\bin\Debug\Entities.pdb
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\bin\Debug\Utils.pdb
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\obj\Debug\BLL.dll
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\obj\Debug\BLL.pdb

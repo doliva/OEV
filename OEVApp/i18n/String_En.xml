@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Multiidioma>
+  <EtiquetasComunes>
+    <btnLogout>Logout</btnLogout>
+    <btnGuardar>Save</btnGuardar>
+    <btnBuscar>Search</btnBuscar>
+    <lblUsuario>User</lblUsuario>
+    <mensajeBoxInfo>Information</mensajeBoxInfo>
+    <mensajeBoxError>Error</mensajeBoxError>
+
+    <lblId>Id:</lblId>
+    <lblApellido>(*) Lastname:</lblApellido>
+    <lblDni>(*) DNI:</lblDni>
+    <lblEmail>(*) Email:</lblEmail>
+    <lblEstado>Enabled:</lblEstado>
+    <lblFecNac>Birthday:</lblFecNac>
+    <lblNombre>(*) Name:</lblNombre>
+    <lblTelefono>Telephone:</lblTelefono>
+    <lblDireccion>Address:</lblDireccion>
+    <lblCiudad>City:</lblCiudad>
+    <lblEstado>Enabled:</lblEstado>
+  </EtiquetasComunes>
+  
+  <LoginForm>
+    <lblUsuario>User:</lblUsuario>
+    <lblClave>Password:</lblClave>
+    <claveIncorrecta>The user and/or password are invalid</claveIncorrecta>
+  </LoginForm>
+
+  <InicioAdministrador>
+    <InicioAdministradorForm>OEV - Administrator</InicioAdministradorForm>
+    <sideBarPanelBD>DB Management</sideBarPanelBD>
+
+    <btnItemBackup>DB Backup</btnItemBackup>
+    <tabItemBackup>DB Backup</tabItemBackup>
+    <lblRutaBackup>Destination path:</lblRutaBackup>
+    <btnBackup>Generate backup</btnBackup>
+    <MSJ_BACKUP_EXITOSO>Backup successfuly created in </MSJ_BACKUP_EXITOSO>
+    <MSJ_BACKUP_ERROR>Error generating backup, please try again</MSJ_BACKUP_ERROR>
+    <MSJ_RUTA_BACKUP_VACIA>Please, select a path</MSJ_RUTA_BACKUP_VACIA>
+
+    <btnItemRestore>DB Restore</btnItemRestore>
+    <tabItemRestore>DB Restore</tabItemRestore>
+    <lblRutaRestore>Source path:</lblRutaRestore>
+    <btnRestore>Restore database</btnRestore>
+    <MSJ_RESTORE_INVALIDO>Backup file not valid</MSJ_RESTORE_INVALIDO>
+    <MSJ_RESTORE_EXITOSO>Restore successfuly completed</MSJ_RESTORE_EXITOSO>
+    <MSJ_RESTORE_ERROR>Error restoring database, please try again</MSJ_RESTORE_ERROR>
+
+    <sideBarPanelDV>Check Digit</sideBarPanelDV>
+
+    <btnItemDVH>Horizontal</btnItemDVH>
+    <tabItemDVH>Horizontal</tabItemDVH>
+    <radioGroupDVH>Check Horizontal Digit for Users</radioGroupDVH>
+    <radioUsuarioDVH>Users</radioUsuarioDVH>
+    <radioTodosDVH>All users</radioTodosDVH>
+    <btnVerificarDVH>Verify</btnVerificarDVH>
+
+    <btnItemDVV>Vertical</btnItemDVV>
+    <tabItemDVV>Vertical</tabItemDVV>
+    <radioGroupDVV>Check Vertical Digit for Users</radioGroupDVV>
+    <btnVerificarDVV>Verify</btnVerificarDVV>
+    <MSJ_USUARIO_VACIO>Enter an id for verification</MSJ_USUARIO_VACIO>
+    <MSJ_VERIFICACION_EXITOSA>Verification successfully completed!</MSJ_VERIFICACION_EXITOSA>
+    <MSJ_VERIFICACION_ERRONEA>Errors during verification</MSJ_VERIFICACION_ERRONEA>
+    <MSJ_VERIFICACION_ERRONEA_TODOS>Errors during verification with ids: </MSJ_VERIFICACION_ERRONEA_TODOS>
+
+    <sideBarPanelCripto>Cryptography</sideBarPanelCripto>
+    <tabItemCripto>Cryptography</tabItemCripto>
+    <radioGroupOpcion>Select option</radioGroupOpcion>
+    <radioEncriptar>Encrypt</radioEncriptar>
+    <radioDesencriptar>Decrypt</radioDesencriptar>
+    <lblTextoCripto>Text:</lblTextoCripto>
+    <lblResCripto>Result:</lblResCripto>
+
+    <sideBarPanelUsuario>Users</sideBarPanelUsuario>
+    <btnItemAgregar>Add</btnItemAgregar>
+    <tabItemAgregar>Add</tabItemAgregar>
+    <confirmar>Please, confirm data entered</confirmar>
+    <fecNacInvalida>Should be at least 18 years</fecNacInvalida>
+    <formatoEmail>Invalid email format</formatoEmail>
+    <formatoDni>Invalid dni format</formatoDni>
+    <NOMBRE_APELLIDO_DNI_EMAIL_REQUERIDOS>Name, lastname, DNI and email are mandatory fields.</NOMBRE_APELLIDO_DNI_EMAIL_REQUERIDOS>
+    <USUARIO_YA_EXISTE>User {0} {1} with DNI {2} already exists</USUARIO_YA_EXISTE>
+    <USUARIO_NUEVO>User {0} {1} with id {2} registered successfully</USUARIO_NUEVO>
+    <mensajeBoxConfirmar>Accept</mensajeBoxConfirmar>
+    <btnItemModificar>Edit</btnItemModificar>
+    <tabItemModificar>Edit</tabItemModificar>
+    <NINGUN_REGISTRO>No records found</NINGUN_REGISTRO>
+    <confirmarBaja>Inactive state will delete user. Are you sure?</confirmarBaja>
+
+    <btnItemConsultar>Select</btnItemConsultar>
+    <tabItemConsultar>Select</tabItemConsultar>
+    <radioId>Id</radioId>
+    <radioDni>DNI</radioDni>
+    <radioRol>Role</radioRol>
+    <radioTodos>All</radioTodos>
+    <hId>Id</hId>
+    <hApellido>Lastname</hApellido>
+    <hNombre>Name</hNombre>
+    <hDni>DNI</hDni>
+    <hFecNac>Birthday</hFecNac>
+    <hDireccion>Address</hDireccion>
+    <hCiudad>City</hCiudad>
+    <hTelefono>Telephone</hTelefono>
+    <hEmail>Email</hEmail>
+    <hRol>Role</hRol>
+    <hEstado>Enabled</hEstado>
+  </InicioAdministrador>
+
+</Multiidioma>

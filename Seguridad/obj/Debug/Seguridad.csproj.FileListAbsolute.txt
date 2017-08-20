@@ -1,0 +1,14 @@
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Seguridad\bin\Debug\Seguridad.dll.config
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Seguridad\bin\Debug\Seguridad.dll
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Seguridad\bin\Debug\Seguridad.pdb
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Seguridad\bin\Debug\BLL.dll
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Seguridad\bin\Debug\Entities.dll
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Seguridad\bin\Debug\DAL.dll
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Seguridad\bin\Debug\Utils.dll
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Seguridad\bin\Debug\BLL.pdb
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Seguridad\bin\Debug\Entities.pdb
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Seguridad\bin\Debug\DAL.pdb
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Seguridad\bin\Debug\Utils.pdb
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Seguridad\obj\Debug\Seguridad.csprojResolveAssemblyReference.cache
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Seguridad\obj\Debug\Seguridad.dll
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Seguridad\obj\Debug\Seguridad.pdb

@@ -1,0 +1,7 @@
+D:\UAI\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Utils\bin\Debug\Utils.dll.config
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Utils\bin\Debug\Utils.dll
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Utils\bin\Debug\Utils.pdb
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Utils\obj\Debug\Utils.dll
+C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Utils\obj\Debug\Utils.pdb
