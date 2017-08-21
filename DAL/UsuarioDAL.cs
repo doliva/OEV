@@ -18,7 +18,7 @@ namespace DAL
 
         public static Int32 Insert(Usuario usuario)
         {
-            //string connectionString = ConfigurationManager.ConnectionStrings["OEVbdConnectionString"].ConnectionString;
+            
             SqlConnection conn = new SqlConnection(connectionString);
             StringBuilder queryBuilder = new StringBuilder();
             queryBuilder.Append("INSERT INTO USUARIO (NOMBRE, APELLIDO, DNI, FECHA_NACIMIENTO, DIRECCION, CIUDAD, TELEFONO, EMAIL, ESTADO, ROL, CLAVE, DVH) ");
