@@ -12,3 +12,17 @@ C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVA
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Seguridad\obj\Debug\Seguridad.csprojResolveAssemblyReference.cache
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Seguridad\obj\Debug\Seguridad.dll
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Seguridad\obj\Debug\Seguridad.pdb
+D:\Proyectos\OEV\Seguridad\bin\Debug\Seguridad.dll.config
+D:\Proyectos\OEV\Seguridad\bin\Debug\Seguridad.dll
+D:\Proyectos\OEV\Seguridad\bin\Debug\Seguridad.pdb
+D:\Proyectos\OEV\Seguridad\bin\Debug\BLL.dll
+D:\Proyectos\OEV\Seguridad\bin\Debug\Entities.dll
+D:\Proyectos\OEV\Seguridad\bin\Debug\DAL.dll
+D:\Proyectos\OEV\Seguridad\bin\Debug\Utils.dll
+D:\Proyectos\OEV\Seguridad\bin\Debug\BLL.pdb
+D:\Proyectos\OEV\Seguridad\bin\Debug\Entities.pdb
+D:\Proyectos\OEV\Seguridad\bin\Debug\DAL.pdb
+D:\Proyectos\OEV\Seguridad\bin\Debug\Utils.pdb
+D:\Proyectos\OEV\Seguridad\obj\Debug\Seguridad.csprojResolveAssemblyReference.cache
+D:\Proyectos\OEV\Seguridad\obj\Debug\Seguridad.dll
+D:\Proyectos\OEV\Seguridad\obj\Debug\Seguridad.pdb

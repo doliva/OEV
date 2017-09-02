@@ -8,3 +8,13 @@ C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVA
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\DAL\obj\Debug\DAL.dll
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\DAL\obj\Debug\DAL.pdb
+D:\Proyectos\OEV\DAL\bin\Debug\DAL.dll.config
+D:\Proyectos\OEV\DAL\bin\Debug\DAL.dll
+D:\Proyectos\OEV\DAL\bin\Debug\DAL.pdb
+D:\Proyectos\OEV\DAL\bin\Debug\Entities.dll
+D:\Proyectos\OEV\DAL\bin\Debug\Utils.dll
+D:\Proyectos\OEV\DAL\bin\Debug\Entities.pdb
+D:\Proyectos\OEV\DAL\bin\Debug\Utils.pdb
+D:\Proyectos\OEV\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Proyectos\OEV\DAL\obj\Debug\DAL.dll
+D:\Proyectos\OEV\DAL\obj\Debug\DAL.pdb

@@ -10,3 +10,15 @@ C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVA
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\obj\Debug\BLL.dll
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\obj\Debug\BLL.pdb
+D:\Proyectos\OEV\BLL\bin\Debug\BLL.dll.config
+D:\Proyectos\OEV\BLL\bin\Debug\BLL.dll
+D:\Proyectos\OEV\BLL\bin\Debug\BLL.pdb
+D:\Proyectos\OEV\BLL\bin\Debug\DAL.dll
+D:\Proyectos\OEV\BLL\bin\Debug\Entities.dll
+D:\Proyectos\OEV\BLL\bin\Debug\Utils.dll
+D:\Proyectos\OEV\BLL\bin\Debug\DAL.pdb
+D:\Proyectos\OEV\BLL\bin\Debug\Entities.pdb
+D:\Proyectos\OEV\BLL\bin\Debug\Utils.pdb
+D:\Proyectos\OEV\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Proyectos\OEV\BLL\obj\Debug\BLL.dll
+D:\Proyectos\OEV\BLL\obj\Debug\BLL.pdb

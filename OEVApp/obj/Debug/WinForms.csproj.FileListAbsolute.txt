@@ -36,3 +36,24 @@ C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVA
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\OEVApp\obj\Debug\WinForms.csproj.GenerateResource.Cache
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\OEVApp\obj\Debug\OEVApp.exe
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\OEVApp\obj\Debug\OEVApp.pdb
+D:\Proyectos\OEV\OEVApp\bin\Debug\OEVApp.exe.config
+D:\Proyectos\OEV\OEVApp\obj\Debug\OEVApp.exe
+D:\Proyectos\OEV\OEVApp\obj\Debug\OEVApp.pdb
+D:\Proyectos\OEV\OEVApp\bin\Debug\OEVApp.exe
+D:\Proyectos\OEV\OEVApp\bin\Debug\OEVApp.pdb
+D:\Proyectos\OEV\OEVApp\bin\Debug\BLL.dll
+D:\Proyectos\OEV\OEVApp\bin\Debug\Entities.dll
+D:\Proyectos\OEV\OEVApp\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+D:\Proyectos\OEV\OEVApp\bin\Debug\Seguridad.dll
+D:\Proyectos\OEV\OEVApp\bin\Debug\Utils.dll
+D:\Proyectos\OEV\OEVApp\bin\Debug\DAL.dll
+D:\Proyectos\OEV\OEVApp\bin\Debug\BLL.pdb
+D:\Proyectos\OEV\OEVApp\bin\Debug\Entities.pdb
+D:\Proyectos\OEV\OEVApp\bin\Debug\Seguridad.pdb
+D:\Proyectos\OEV\OEVApp\bin\Debug\Utils.pdb
+D:\Proyectos\OEV\OEVApp\bin\Debug\DAL.pdb
+D:\Proyectos\OEV\OEVApp\obj\Debug\WinForms.csprojResolveAssemblyReference.cache
+D:\Proyectos\OEV\OEVApp\obj\Debug\OEVApp.Administrador.resources
+D:\Proyectos\OEV\OEVApp\obj\Debug\OEVApp.Login.resources
+D:\Proyectos\OEV\OEVApp\obj\Debug\OEVApp.Properties.Resources.resources
+D:\Proyectos\OEV\OEVApp\obj\Debug\WinForms.csproj.GenerateResource.Cache

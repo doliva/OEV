@@ -5,3 +5,9 @@ C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVA
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Utils\obj\Debug\Utils.dll
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Utils\obj\Debug\Utils.pdb
+D:\Proyectos\OEV\Utils\bin\Debug\Utils.dll.config
+D:\Proyectos\OEV\Utils\bin\Debug\Utils.dll
+D:\Proyectos\OEV\Utils\bin\Debug\Utils.pdb
+D:\Proyectos\OEV\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
+D:\Proyectos\OEV\Utils\obj\Debug\Utils.dll
+D:\Proyectos\OEV\Utils\obj\Debug\Utils.pdb

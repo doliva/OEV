@@ -107,6 +107,19 @@
     <hEmail>Email</hEmail>
     <hRol>Rol</hRol>
     <hEstado>Estado</hEstado>
+
+    <sideBarPanelBitacora>Bitácora</sideBarPanelBitacora>
+    <btnItemConsultarB>Consultar</btnItemConsultarB>
+    <tabItemConsultarB>Consultar</tabItemConsultarB>
+    <groupBoxConsultarB>Buscar</groupBoxConsultarB>
+    <radioButtonRolConsularB>Rol</radioButtonRolConsularB>
+    <radioButtonFechaConsultarB>Fecha</radioButtonFechaConsultarB>
+    <radioButtonEventoConsultarB>Evento</radioButtonEventoConsultarB>
+    <dataGridViewTextBoxColumnIdConsultarB>Id</dataGridViewTextBoxColumnIdConsultarB>
+    <dataGridViewTextBoxColumnRoleConsultarB>Rol</dataGridViewTextBoxColumnRoleConsultarB>
+    <dataGridViewTextBoxColumnFechaConsultarB>Fecha</dataGridViewTextBoxColumnFechaConsultarB>
+    <dataGridViewTextBoxColumnDetalleConsultarB>Detalle</dataGridViewTextBoxColumnDetalleConsultarB>
+    
   </InicioAdministrador>
   
 </Multiidioma>
