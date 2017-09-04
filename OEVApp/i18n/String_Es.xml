@@ -119,7 +119,9 @@
     <dataGridViewTextBoxColumnRoleConsultarB>Rol</dataGridViewTextBoxColumnRoleConsultarB>
     <dataGridViewTextBoxColumnFechaConsultarB>Fecha</dataGridViewTextBoxColumnFechaConsultarB>
     <dataGridViewTextBoxColumnDetalleConsultarB>Detalle</dataGridViewTextBoxColumnDetalleConsultarB>
-    
+    <lblHastaConsultarB>Hasta</lblHastaConsultarB>
+    <lblDesdeConsultarB>Desde</lblDesdeConsultarB>
+    <btnBuscarB>Buscar</btnBuscarB>
   </InicioAdministrador>
   
 </Multiidioma>
