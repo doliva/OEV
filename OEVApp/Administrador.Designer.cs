@@ -31,8 +31,10 @@ namespace OEVApp
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.sideBar1 = new DevComponents.DotNetBar.SideBar();
-            this.sideBarPanelBitacora = new DevComponents.DotNetBar.SideBarPanelItem();
-            this.btnItemConsultarB = new DevComponents.DotNetBar.ButtonItem();
+            this.sideBarPanelUsuario = new DevComponents.DotNetBar.SideBarPanelItem();
+            this.btnItemAgregar = new DevComponents.DotNetBar.ButtonItem();
+            this.btnItemModificar = new DevComponents.DotNetBar.ButtonItem();
+            this.btnItemConsultar = new DevComponents.DotNetBar.ButtonItem();
             this.sideBarPanelBD = new DevComponents.DotNetBar.SideBarPanelItem();
             this.btnItemBackup = new DevComponents.DotNetBar.ButtonItem();
             this.btnItemRestore = new DevComponents.DotNetBar.ButtonItem();
@@ -40,10 +42,8 @@ namespace OEVApp
             this.btnItemDVH = new DevComponents.DotNetBar.ButtonItem();
             this.btnItemDVV = new DevComponents.DotNetBar.ButtonItem();
             this.sideBarPanelCripto = new DevComponents.DotNetBar.SideBarPanelItem();
-            this.sideBarPanelUsuario = new DevComponents.DotNetBar.SideBarPanelItem();
-            this.btnItemAgregar = new DevComponents.DotNetBar.ButtonItem();
-            this.btnItemModificar = new DevComponents.DotNetBar.ButtonItem();
-            this.btnItemConsultar = new DevComponents.DotNetBar.ButtonItem();
+            this.sideBarPanelBitacora = new DevComponents.DotNetBar.SideBarPanelItem();
+            this.btnItemConsultarB = new DevComponents.DotNetBar.ButtonItem();
             this.superTabCtrol = new DevComponents.DotNetBar.SuperTabControl();
             this.superTabControlPanel9 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.cmbEventoConsultarB = new DevComponents.DotNetBar.Controls.ComboBoxEx();
@@ -223,47 +223,62 @@ namespace OEVApp
             this.sideBar1.TabIndex = 0;
             this.sideBar1.UsingSystemColors = true;
             // 
-            // sideBarPanelBitacora
+            // sideBarPanelUsuario
             // 
-            this.sideBarPanelBitacora.BackgroundStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
-            this.sideBarPanelBitacora.BackgroundStyle.BackColor2.Color = System.Drawing.Color.White;
-            this.sideBarPanelBitacora.BackgroundStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.sideBarPanelBitacora.BackgroundStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
-            this.sideBarPanelBitacora.HeaderHotStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(171)))), ((int)(((byte)(228)))));
-            this.sideBarPanelBitacora.HeaderHotStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
-            this.sideBarPanelBitacora.HeaderHotStyle.GradientAngle = 90;
-            this.sideBarPanelBitacora.HeaderSideHotStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(171)))), ((int)(((byte)(228)))));
-            this.sideBarPanelBitacora.HeaderSideHotStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
-            this.sideBarPanelBitacora.HeaderSideHotStyle.GradientAngle = 90;
-            this.sideBarPanelBitacora.HeaderSideStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(220)))), ((int)(((byte)(248)))));
-            this.sideBarPanelBitacora.HeaderSideStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(137)))), ((int)(((byte)(207)))));
-            this.sideBarPanelBitacora.HeaderSideStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.sideBarPanelBitacora.HeaderSideStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
-            this.sideBarPanelBitacora.HeaderSideStyle.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Top) 
+            this.sideBarPanelUsuario.BackgroundStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
+            this.sideBarPanelUsuario.BackgroundStyle.BackColor2.Color = System.Drawing.Color.White;
+            this.sideBarPanelUsuario.BackgroundStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.sideBarPanelUsuario.BackgroundStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
+            this.sideBarPanelUsuario.HeaderHotStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(171)))), ((int)(((byte)(228)))));
+            this.sideBarPanelUsuario.HeaderHotStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
+            this.sideBarPanelUsuario.HeaderHotStyle.GradientAngle = 90;
+            this.sideBarPanelUsuario.HeaderSideHotStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(171)))), ((int)(((byte)(228)))));
+            this.sideBarPanelUsuario.HeaderSideHotStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
+            this.sideBarPanelUsuario.HeaderSideHotStyle.GradientAngle = 90;
+            this.sideBarPanelUsuario.HeaderSideStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(220)))), ((int)(((byte)(248)))));
+            this.sideBarPanelUsuario.HeaderSideStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(137)))), ((int)(((byte)(207)))));
+            this.sideBarPanelUsuario.HeaderSideStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.sideBarPanelUsuario.HeaderSideStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
+            this.sideBarPanelUsuario.HeaderSideStyle.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Top) 
             | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.sideBarPanelBitacora.HeaderSideStyle.GradientAngle = 90;
-            this.sideBarPanelBitacora.HeaderStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
-            this.sideBarPanelBitacora.HeaderStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(171)))), ((int)(((byte)(228)))));
-            this.sideBarPanelBitacora.HeaderStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.sideBarPanelBitacora.HeaderStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
-            this.sideBarPanelBitacora.HeaderStyle.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Right | DevComponents.DotNetBar.eBorderSide.Top) 
+            this.sideBarPanelUsuario.HeaderSideStyle.GradientAngle = 90;
+            this.sideBarPanelUsuario.HeaderStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
+            this.sideBarPanelUsuario.HeaderStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(171)))), ((int)(((byte)(228)))));
+            this.sideBarPanelUsuario.HeaderStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.sideBarPanelUsuario.HeaderStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
+            this.sideBarPanelUsuario.HeaderStyle.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Right | DevComponents.DotNetBar.eBorderSide.Top) 
             | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.sideBarPanelBitacora.HeaderStyle.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
-            this.sideBarPanelBitacora.HeaderStyle.ForeColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.sideBarPanelBitacora.HeaderStyle.GradientAngle = 90;
-            this.sideBarPanelBitacora.Name = "sideBarPanelBitacora";
-            this.sideBarPanelBitacora.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.btnItemConsultarB});
-            this.sideBarPanelBitacora.Text = "Bitacora";
-            this.sideBarPanelBitacora.Click += new System.EventHandler(this.sideBarPanelBitacora_Click);
+            this.sideBarPanelUsuario.HeaderStyle.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.sideBarPanelUsuario.HeaderStyle.ForeColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.sideBarPanelUsuario.HeaderStyle.GradientAngle = 90;
+            this.sideBarPanelUsuario.Name = "sideBarPanelUsuario";
+            this.sideBarPanelUsuario.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnItemAgregar,
+            this.btnItemModificar,
+            this.btnItemConsultar});
+            this.sideBarPanelUsuario.Text = "Usuarios";
+            this.sideBarPanelUsuario.Click += new System.EventHandler(this.sideBarPanelUsuario_Click);
             // 
-            // btnItemConsultarB
+            // btnItemAgregar
             // 
-            this.btnItemConsultarB.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.btnItemConsultarB.ImagePosition = DevComponents.DotNetBar.eImagePosition.Right;
-            this.btnItemConsultarB.Name = "btnItemConsultarB";
-            this.btnItemConsultarB.Text = "Consultar";
-            this.btnItemConsultarB.Click += new System.EventHandler(this.btnItemConsultarB_Click);
+            this.btnItemAgregar.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.btnItemAgregar.Name = "btnItemAgregar";
+            this.btnItemAgregar.Text = "Agregar";
+            this.btnItemAgregar.Click += new System.EventHandler(this.btnItemAgregar_Click);
+            // 
+            // btnItemModificar
+            // 
+            this.btnItemModificar.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.btnItemModificar.Name = "btnItemModificar";
+            this.btnItemModificar.Text = "Modificar";
+            this.btnItemModificar.Click += new System.EventHandler(this.btnItemModificar_Click);
+            // 
+            // btnItemConsultar
+            // 
+            this.btnItemConsultar.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.btnItemConsultar.Name = "btnItemConsultar";
+            this.btnItemConsultar.Text = "Consultar";
+            this.btnItemConsultar.Click += new System.EventHandler(this.btnItemConsultar_Click);
             // 
             // sideBarPanelBD
             // 
@@ -401,62 +416,47 @@ namespace OEVApp
             this.sideBarPanelCripto.Text = "Criptografia";
             this.sideBarPanelCripto.Click += new System.EventHandler(this.sideBarPanelCripto_Click);
             // 
-            // sideBarPanelUsuario
+            // sideBarPanelBitacora
             // 
-            this.sideBarPanelUsuario.BackgroundStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
-            this.sideBarPanelUsuario.BackgroundStyle.BackColor2.Color = System.Drawing.Color.White;
-            this.sideBarPanelUsuario.BackgroundStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.sideBarPanelUsuario.BackgroundStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
-            this.sideBarPanelUsuario.HeaderHotStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(171)))), ((int)(((byte)(228)))));
-            this.sideBarPanelUsuario.HeaderHotStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
-            this.sideBarPanelUsuario.HeaderHotStyle.GradientAngle = 90;
-            this.sideBarPanelUsuario.HeaderSideHotStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(171)))), ((int)(((byte)(228)))));
-            this.sideBarPanelUsuario.HeaderSideHotStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
-            this.sideBarPanelUsuario.HeaderSideHotStyle.GradientAngle = 90;
-            this.sideBarPanelUsuario.HeaderSideStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(220)))), ((int)(((byte)(248)))));
-            this.sideBarPanelUsuario.HeaderSideStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(137)))), ((int)(((byte)(207)))));
-            this.sideBarPanelUsuario.HeaderSideStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.sideBarPanelUsuario.HeaderSideStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
-            this.sideBarPanelUsuario.HeaderSideStyle.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Top) 
+            this.sideBarPanelBitacora.BackgroundStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
+            this.sideBarPanelBitacora.BackgroundStyle.BackColor2.Color = System.Drawing.Color.White;
+            this.sideBarPanelBitacora.BackgroundStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.sideBarPanelBitacora.BackgroundStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
+            this.sideBarPanelBitacora.HeaderHotStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(171)))), ((int)(((byte)(228)))));
+            this.sideBarPanelBitacora.HeaderHotStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
+            this.sideBarPanelBitacora.HeaderHotStyle.GradientAngle = 90;
+            this.sideBarPanelBitacora.HeaderSideHotStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(171)))), ((int)(((byte)(228)))));
+            this.sideBarPanelBitacora.HeaderSideHotStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
+            this.sideBarPanelBitacora.HeaderSideHotStyle.GradientAngle = 90;
+            this.sideBarPanelBitacora.HeaderSideStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(220)))), ((int)(((byte)(248)))));
+            this.sideBarPanelBitacora.HeaderSideStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(137)))), ((int)(((byte)(207)))));
+            this.sideBarPanelBitacora.HeaderSideStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.sideBarPanelBitacora.HeaderSideStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
+            this.sideBarPanelBitacora.HeaderSideStyle.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Top) 
             | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.sideBarPanelUsuario.HeaderSideStyle.GradientAngle = 90;
-            this.sideBarPanelUsuario.HeaderStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
-            this.sideBarPanelUsuario.HeaderStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(171)))), ((int)(((byte)(228)))));
-            this.sideBarPanelUsuario.HeaderStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.sideBarPanelUsuario.HeaderStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
-            this.sideBarPanelUsuario.HeaderStyle.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Right | DevComponents.DotNetBar.eBorderSide.Top) 
+            this.sideBarPanelBitacora.HeaderSideStyle.GradientAngle = 90;
+            this.sideBarPanelBitacora.HeaderStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(254)))));
+            this.sideBarPanelBitacora.HeaderStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(133)))), ((int)(((byte)(171)))), ((int)(((byte)(228)))));
+            this.sideBarPanelBitacora.HeaderStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.sideBarPanelBitacora.HeaderStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(97)))), ((int)(((byte)(156)))));
+            this.sideBarPanelBitacora.HeaderStyle.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Right | DevComponents.DotNetBar.eBorderSide.Top) 
             | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.sideBarPanelUsuario.HeaderStyle.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
-            this.sideBarPanelUsuario.HeaderStyle.ForeColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
-            this.sideBarPanelUsuario.HeaderStyle.GradientAngle = 90;
-            this.sideBarPanelUsuario.Name = "sideBarPanelUsuario";
-            this.sideBarPanelUsuario.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.btnItemAgregar,
-            this.btnItemModificar,
-            this.btnItemConsultar});
-            this.sideBarPanelUsuario.Text = "Usuarios";
-            this.sideBarPanelUsuario.Click += new System.EventHandler(this.sideBarPanelUsuario_Click);
+            this.sideBarPanelBitacora.HeaderStyle.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.sideBarPanelBitacora.HeaderStyle.ForeColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.sideBarPanelBitacora.HeaderStyle.GradientAngle = 90;
+            this.sideBarPanelBitacora.Name = "sideBarPanelBitacora";
+            this.sideBarPanelBitacora.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnItemConsultarB});
+            this.sideBarPanelBitacora.Text = "Bitacora";
+            this.sideBarPanelBitacora.Click += new System.EventHandler(this.sideBarPanelBitacora_Click);
             // 
-            // btnItemAgregar
+            // btnItemConsultarB
             // 
-            this.btnItemAgregar.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.btnItemAgregar.Name = "btnItemAgregar";
-            this.btnItemAgregar.Text = "Agregar";
-            this.btnItemAgregar.Click += new System.EventHandler(this.btnItemAgregar_Click);
-            // 
-            // btnItemModificar
-            // 
-            this.btnItemModificar.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.btnItemModificar.Name = "btnItemModificar";
-            this.btnItemModificar.Text = "Modificar";
-            this.btnItemModificar.Click += new System.EventHandler(this.btnItemModificar_Click);
-            // 
-            // btnItemConsultar
-            // 
-            this.btnItemConsultar.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.btnItemConsultar.Name = "btnItemConsultar";
-            this.btnItemConsultar.Text = "Consultar";
-            this.btnItemConsultar.Click += new System.EventHandler(this.btnItemConsultar_Click);
+            this.btnItemConsultarB.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.btnItemConsultarB.ImagePosition = DevComponents.DotNetBar.eImagePosition.Right;
+            this.btnItemConsultarB.Name = "btnItemConsultarB";
+            this.btnItemConsultarB.Text = "Consultar";
+            this.btnItemConsultarB.Click += new System.EventHandler(this.btnItemConsultarB_Click);
             // 
             // superTabCtrol
             // 
@@ -548,6 +548,7 @@ namespace OEVApp
             this.btnBuscarB.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnBuscarB.TabIndex = 52;
             this.btnBuscarB.Text = "Buscar";
+            this.btnBuscarB.Click += new System.EventHandler(this.btnBuscarB_Click);
             // 
             // lblHastaConsultarB
             // 
@@ -584,9 +585,9 @@ namespace OEVApp
             this.dateHastaConsultaB.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
             this.dateHastaConsultaB.ButtonDropDown.Visible = true;
             this.dateHastaConsultaB.IsPopupCalendarOpen = false;
-            this.dateHastaConsultaB.Location = new System.Drawing.Point(304, 63);
-            this.dateHastaConsultaB.MaxDate = new System.DateTime(1999, 12, 31, 0, 0, 0, 0);
-            this.dateHastaConsultaB.MinDate = new System.DateTime(1930, 1, 1, 0, 0, 0, 0);
+            this.dateHastaConsultaB.Location = new System.Drawing.Point(455, 63);
+            this.dateHastaConsultaB.MaxDate = new System.DateTime(2099, 12, 31, 0, 0, 0, 0);
+            this.dateHastaConsultaB.MinDate = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
             // 
             // 
             // 
@@ -634,9 +635,9 @@ namespace OEVApp
             this.dateDesdeConsultaB.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
             this.dateDesdeConsultaB.ButtonDropDown.Visible = true;
             this.dateDesdeConsultaB.IsPopupCalendarOpen = false;
-            this.dateDesdeConsultaB.Location = new System.Drawing.Point(455, 63);
-            this.dateDesdeConsultaB.MaxDate = new System.DateTime(1999, 12, 31, 0, 0, 0, 0);
-            this.dateDesdeConsultaB.MinDate = new System.DateTime(1930, 1, 1, 0, 0, 0, 0);
+            this.dateDesdeConsultaB.Location = new System.Drawing.Point(304, 63);
+            this.dateDesdeConsultaB.MaxDate = new System.DateTime(2099, 12, 31, 0, 0, 0, 0);
+            this.dateDesdeConsultaB.MinDate = new System.DateTime(1970, 12, 31, 0, 0, 0, 0);
             // 
             // 
             // 

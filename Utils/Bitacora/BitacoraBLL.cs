@@ -22,11 +22,41 @@ namespace Utils.Bitacora
             }
         }
 
-        public static Bitacora obtenerBitacoraPorRol(string rol)
+        public static List<Bitacora> obtenerBitacorasPorRol(string rol)
         {
-            
-            return BitacoraDAL.SelectBitacoraByRol(rol);
-            
+            try
+            {
+                return BitacoraDAL.SelectBitacorasByRol(rol);
+            }
+            catch (Excepcion dalE)
+            {
+                throw new Excepcion(Constantes.EXCEPCION_BLL_SEL + " Bitacora Por Role", dalE);
+            }          
+        }
+
+        public static List<Bitacora> obtenerBitacorasPorEvento(string evento)
+        {
+            try
+            {
+                return BitacoraDAL.SelectBitacorasByEvento(evento);
+            }
+            catch (Excepcion dalE)
+            {
+                throw new Excepcion(Constantes.EXCEPCION_BLL_SEL + " Bitacora Por Evento", dalE);
+            } 
+        }
+
+        public static List<Bitacora> obtenerBitacorasPorFechas(DateTime desde, DateTime hasta)
+        {
+            try
+            {
+                return BitacoraDAL.SelectBitacorasByFechas(desde, hasta);
+            }
+            catch (Excepcion dalE)
+            {
+                throw new Excepcion(Constantes.EXCEPCION_BLL_SEL + " Bitacora Por Fechas", dalE);
+            } 
+         
         }
 
         /// <summary>

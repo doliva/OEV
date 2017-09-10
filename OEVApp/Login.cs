@@ -77,8 +77,8 @@ namespace OEVApp
                 {
                     Administrador inicio = new Administrador(usuario, idioma);
                     string dv = seguridad.generarSHA(usr.estado.ToString() + usr.email + usr.clave);
-                    
-                    Bitacora bitacora = new Bitacora(Convert.ToInt16(usuario), Constantes.ROL_ADMINISTRADOR, DateTime.Now, Constantes.LOGIN, "");
+
+                    Bitacora bitacora = new Bitacora(Convert.ToInt16(usuario), Constantes.ROL_ADMINISTRADOR, DateTime.Now, EnumEvento.LOGIN.ToString(), "");
                     BitacoraBLL.registrarBitacora(bitacora);
                     inicio.Show();
                     this.Hide();

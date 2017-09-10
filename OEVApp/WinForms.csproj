@@ -100,7 +100,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="i18n\String_En.xml" />
+    <Content Include="i18n\String_En.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="i18n\String_Es.xml">
       <SubType>Designer</SubType>
     </Content>

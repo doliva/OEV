@@ -63,7 +63,22 @@ namespace OEVApp
             generarBitacoraStrings();
 
             cargarComboRol(cmbRolConsultarB);
+            cargarComboEvento(cmbEventoConsultarB);
         }
+
+        private void cargarComboEvento(DevComponents.DotNetBar.Controls.ComboBoxEx comboBox)
+        {
+            comboBox.DataSource = Enum.GetValues(typeof(EnumEvento)).Cast<EnumEvento>().ToList();
+            if (comboBox.Items.Count != 0)
+            {
+                string evento = comboBox.SelectedValue.ToString();
+            }
+            else
+            {
+                comboBox.DataSource = null;
+            }
+        }
+
 
         private void cargarComboRol(DevComponents.DotNetBar.Controls.ComboBoxEx comboBoxRol)
         {
@@ -945,6 +960,7 @@ namespace OEVApp
                 txtFiltroC.Text = "";
                 txtFiltroC.Visible = true;
                 cmbRolC.Visible = false;
+                gridConsultaUsuario.Visible = false;
             }
         }
 
@@ -955,6 +971,7 @@ namespace OEVApp
                 txtFiltroC.Text = "";
                 txtFiltroC.Visible = true;
                 cmbRolC.Visible = false;
+                gridConsultaUsuario.Visible = false;
             }
         }
 
@@ -965,6 +982,7 @@ namespace OEVApp
                 txtFiltroC.Visible = false;
                 cmbRolC.DataSource = Enum.GetValues(typeof(EnumRol)).Cast<EnumRol>().ToList();
                 cmbRolC.Visible = true;
+                gridConsultaUsuario.Visible = false;
             }
         }
 
@@ -974,6 +992,7 @@ namespace OEVApp
             {
                 txtFiltroC.Visible = false;
                 cmbRolC.Visible = false;
+                gridConsultaUsuario.Visible = false;
             }
         }
 
@@ -996,6 +1015,8 @@ namespace OEVApp
             dateDesdeConsultaB.Visible = false;
 
             cmbRolConsultarB.Visible = true;
+
+            dataConsultarB.Visible = false;
         }
 
         private void btnItemConsultarB_Click(object sender, EventArgs e)
@@ -1012,6 +1033,10 @@ namespace OEVApp
             tabItemConsultarB.Visible = true;
             superTabCtrol.SelectedTab = tabItemConsultarB;
 
+            radioButtonEventoConsultarB.Checked = true;
+
+            dataConsultarB.Visible = false;
+
             radioEventoConsultarB_Click(null, null);
         }
 
@@ -1024,6 +1049,8 @@ namespace OEVApp
             dateDesdeConsultaB.Visible = true;
 
             cmbRolConsultarB.Visible = false;
+
+            dataConsultarB.Visible = false;
         }
 
         private void radioEventoConsultarB_Click(object sender, EventArgs e)
@@ -1036,14 +1063,13 @@ namespace OEVApp
 
             cmbEventoConsultarB.Visible = true;
 
+            dataConsultarB.Visible = false;
+
         }
 
         private void sideBarPanelBitacora_Click(object sender, EventArgs e)
         {
             superTabCtrol.Visible = true;
-            //sideBarPanelBD.Visible = false;
-            //sideBarPanelCripto.Visible = false;
-            //sideBarPanelUsuario.Visible = false;
 
             tabItemDVH.Visible = false;
             tabItemDVV.Visible = false;
@@ -1058,6 +1084,49 @@ namespace OEVApp
             
             superTabCtrol.SelectedTab = tabItemConsultarB;
 
+        }
+
+        private void btnBuscarB_Click(object sender, EventArgs e)
+        {
+            List<Bitacora> listaBitacoras = new List<Bitacora>();
+
+            if (radioButtonEventoConsultarB.Checked)
+            {
+                listaBitacoras = BitacoraBLL.obtenerBitacorasPorEvento(cmbEventoConsultarB.Text);
+            } else if(radioButtonRolConsularB.Checked)
+            {
+                listaBitacoras = BitacoraBLL.obtenerBitacorasPorRol(cmbRolConsultarB.Text);
+            }
+            else if (radioButtonFechaConsultarB.Checked) 
+            {
+                if (!dateDesdeConsultaB.IsEmpty && !dateHastaConsultaB.IsEmpty )
+                {
+                    listaBitacoras = BitacoraBLL.obtenerBitacorasPorFechas(dateDesdeConsultaB.Value, dateHastaConsultaB.Value);
+                }
+            }
+
+
+            if (listaBitacoras != null && listaBitacoras.Count > 0)
+            {
+                dataConsultarB.Visible = true;
+                for (int i = 0; i < listaBitacoras.Count; i++)
+                {
+                    dataConsultarB.Rows.Add(1);
+                    dataConsultarB.Rows[i].Cells["dataGridViewTextBoxColumnIdConsultarB"].Value = listaBitacoras[i].idBitacora.ToString();
+                    dataConsultarB.Rows[i].Cells["dataGridViewTextBoxColumnRoleConsultarB"].Value = listaBitacoras[i].rol;
+                    dataConsultarB.Rows[i].Cells["dataGridViewTextBoxColumnEventoConsultarB"].Value = listaBitacoras[i].evento;
+                    dataConsultarB.Rows[i].Cells["dataGridViewTextBoxColumnFechaConsultarB"].Value = listaBitacoras[i].fecha;
+                    dataConsultarB.Rows[i].Cells["dataGridViewTextBoxColumnDetalleConsultarB"].Value = listaBitacoras[i].detalle;
+                    dataConsultarB.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
+                }
+            }
+            else
+            {
+                dataConsultarB.Visible = false;
+                MessageBox.Show(ningunRegistro, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+
+           
         }
 
     }
