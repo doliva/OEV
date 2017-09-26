@@ -1,127 +1,104 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Multiidioma>
   <EtiquetasComunes>
-    <btnLogout>Salir</btnLogout>
-    <btnGuardar>Guardar</btnGuardar>
-    <btnBuscar>Buscar</btnBuscar>
-    <lblUsuario>Usuario</lblUsuario>
-    <mensajeBoxInfo>Información</mensajeBoxInfo>
-    <mensajeBoxError>Error</mensajeBoxError>
+    <logout>Salir</logout>
+    <guardar>Guardar</guardar>
+    <buscar>Buscar</buscar>
+    <usuario>Usuario</usuario>
 
-    <lblId>Id:</lblId>
-    <lblApellido>(*) Apellido:</lblApellido>
-    <lblDni>(*) DNI:</lblDni>
-    <lblEmail>(*) Email:</lblEmail>
-    <lblEstado>Estado:</lblEstado>
-    <lblFecNac>Fecha de Nac:</lblFecNac>
-    <lblNombre>(*) Nombre:</lblNombre>
-    <lblTelefono>Teléfono:</lblTelefono>
-    <lblDireccion>Dirección:</lblDireccion>
-    <lblCiudad>Ciudad:</lblCiudad>
-    <lblEstado>Estado:</lblEstado>
+    <agregar>Agregar</agregar>
+    <editar>Editar</editar>
+    <consultar>Consultar</consultar>
+    
+    <id>Id</id>
+    <apellido>Apellido</apellido>
+    <dni>DNI</dni>
+    <email>Email</email>
+    <estado>Estado</estado>
+    <fecNac>Fecha de Nac</fecNac>
+    <nombre>Nombre</nombre>
+    <telefono>Teléfono</telefono>
+    <direccion>Dirección</direccion>
+    <ciudad>Ciudad</ciudad>
+
+    <rol>Rol</rol>
+    <todos>Todos</todos>
   </EtiquetasComunes>
   
   <LoginForm>
-    <lblUsuario>Usuario:</lblUsuario>
-    <lblClave>Clave:</lblClave>
-    <claveIncorrecta>El usuario y/o clave son incorrectos</claveIncorrecta>
+    <clave>Clave</clave>
   </LoginForm>
 
-  <InicioAdministrador>
-    <InicioAdministradorForm>OEV - Administrador</InicioAdministradorForm>
-    <sideBarPanelBD>Gestión de BD</sideBarPanelBD>
+  <Mensaje>
+    <claveIncorrecta>El usuario y/o clave son incorrectos</claveIncorrecta>
+    <usuarioClaveVacios>Usuario y/o clave vacias</usuarioClaveVacios>
+    <info>Información</info>
+    <error>Error</error>
+    <confirmar>Confirmar</confirmar>
+    <backupExitoso>Copia de BD generada con éxito en </backupExitoso>
+    <backupError>Error al generar backup, intente nuevamente</backupError>
+    <rutaBackupVacia>Debe seleccionar una ruta</rutaBackupVacia>
+    <restoreInvalido>Copia de seguridad inválida</restoreInvalido>
+    <restoreExitoso>Restauración de BD generada con éxito</restoreExitoso>
+    <restoreError>Error al restaurar la base de datos, intente nuevamente</restoreError>
+    <usuarioVacio>Debe ingresar un usuario</usuarioVacio>
+    <verificacionExitosa>Verificación exitosa!</verificacionExitosa>
+    <verificacionErronea>Verificación con errores</verificacionErronea>
+    <verificacionErroneaTodos>Verificación con errores en usuarios: </verificacionErroneaTodos>
 
-    <btnItemBackup>Copia de BD</btnItemBackup>
-    <tabItemBackup>Copia de BD</tabItemBackup>
-    <lblRutaBackup>Ruta destino:</lblRutaBackup>
-    <btnBackup>Crear copia</btnBackup>
-    <MSJ_BACKUP_EXITOSO>Copia de BD generada con éxito en </MSJ_BACKUP_EXITOSO>
-    <MSJ_BACKUP_ERROR>Error al generar backup, intente nuevamente</MSJ_BACKUP_ERROR>
-    <MSJ_RUTA_BACKUP_VACIA>Debe seleccionar una ruta</MSJ_RUTA_BACKUP_VACIA>
-
-    <btnItemRestore>Restaurar BD</btnItemRestore>
-    <tabItemRestore>Restaurar BD</tabItemRestore>
-    <lblRutaRestore>Ruta origen:</lblRutaRestore>
-    <btnRestore>Restaurar copia</btnRestore>
-    <MSJ_RESTORE_INVALIDO>Copia de seguridad inválida</MSJ_RESTORE_INVALIDO>
-    <MSJ_RESTORE_EXITOSO>Restauración de BD generada con éxito</MSJ_RESTORE_EXITOSO>
-    <MSJ_RESTORE_ERROR>Error al restaurar la base de datos, intente nuevamente</MSJ_RESTORE_ERROR>
-
-    <sideBarPanelDV>Dígito Verificador</sideBarPanelDV>
-
-    <btnItemDVH>Horizontal</btnItemDVH>
-    <tabItemDVH>Horizontal</tabItemDVH>
-    <radioGroupDVH>Dígito Verificador Horizontal para Usuarios</radioGroupDVH>
-    <radioUsuarioDVH>Usuario</radioUsuarioDVH>
-    <radioTodosDVH>Todos los usuarios</radioTodosDVH>
-    <btnVerificarDVH>Verificar</btnVerificarDVH>
-
-    <btnItemDVV>Vertical</btnItemDVV>
-    <tabItemDVV>Vertical</tabItemDVV>
-    <radioGroupDVV>Dígito Verificador Vertical para Usuarios</radioGroupDVV>
-    <btnVerificarDVV>Verificar</btnVerificarDVV>
-    <MSJ_USUARIO_VACIO>Debe ingresar un usuario</MSJ_USUARIO_VACIO>
-    <MSJ_VERIFICACION_EXITOSA>Verificación exitosa!</MSJ_VERIFICACION_EXITOSA>
-    <MSJ_VERIFICACION_ERRONEA>Verificación con errores</MSJ_VERIFICACION_ERRONEA>
-    <MSJ_VERIFICACION_ERRONEA_TODOS>Verificación con errores en usuarios: </MSJ_VERIFICACION_ERRONEA_TODOS>
-
-    <sideBarPanelCripto>Criptografía</sideBarPanelCripto>
-    <tabItemCripto>Criptografía</tabItemCripto>
-    <radioGroupOpcion>Seleccionar Opción</radioGroupOpcion>
-    <radioEncriptar>Encriptar</radioEncriptar>
-    <radioDesencriptar>Desencriptar</radioDesencriptar>
-    <lblTextoCripto>Texto:</lblTextoCripto>
-    <lblResCripto>Resultado:</lblResCripto>
-
-    <sideBarPanelUsuario>Usuarios</sideBarPanelUsuario>
-    <btnItemAgregar>Agregar</btnItemAgregar>
-    <tabItemAgregar>Agregar</tabItemAgregar>
-    <confirmar>¿Confirma los datos ingresados?</confirmar>
     <fecNacInvalida>Debe tener al menos 18 años</fecNacInvalida>
     <formatoEmail>Formato de email inválido</formatoEmail>
     <formatoDni>Formato dni inválido</formatoDni>
-    <NOMBRE_APELLIDO_DNI_EMAIL_REQUERIDOS>Los campos nombre, apellido, DNI y email son obligatorios</NOMBRE_APELLIDO_DNI_EMAIL_REQUERIDOS>
-    <USUARIO_YA_EXISTE>Usuario {0} {1} con DNI {2} ya existe</USUARIO_YA_EXISTE>
-    <USUARIO_NUEVO>Usuario {0} {1} con id {2} registrado exitosamente</USUARIO_NUEVO>
-    <mensajeBoxConfirmar>Confirmar</mensajeBoxConfirmar>
 
-    <btnItemModificar>Modificar</btnItemModificar>
-    <tabItemModificar>Modificar</tabItemModificar>
-    <NINGUN_REGISTRO>No se encontraron registros</NINGUN_REGISTRO>
+    <nombreApellidoDniEmailRequeridos>Los campos nombre, apellido, DNI y email son obligatorios</nombreApellidoDniEmailRequeridos>
+    <usuarioYaExiste>Usuario {0} {1} con DNI {2} ya existe</usuarioYaExiste>
+    <usuarioNuevo>Usuario {0} {1} con id {2} registrado exitosamente</usuarioNuevo>
+
+    <ningunRegistro>No se encontraron registros</ningunRegistro>
     <confirmarBaja>El estado inactivo dará de baja al usuario ¿Desea eliminarlo?</confirmarBaja>
+  </Mensaje>
 
-    <btnItemConsultar>Consultar</btnItemConsultar>
-    <tabItemConsultar>Consultar</tabItemConsultar>
-    <radioId>Id</radioId>
-    <radioDni>DNI</radioDni>
-    <radioRol>Rol</radioRol>
-    <radioTodos>Todos</radioTodos>
-    <hId>Id</hId>
-    <hApellido>Apellido</hApellido>
-    <hNombre>Nombre</hNombre>
-    <hDni>DNI</hDni>
-    <hFecNac>Fecha Nacimiento</hFecNac>
-    <hDireccion>Dirección</hDireccion>
-    <hCiudad>Ciudad</hCiudad>
-    <hTelefono>Teléfono</hTelefono>
-    <hEmail>Email</hEmail>
-    <hRol>Rol</hRol>
-    <hEstado>Estado</hEstado>
+  <InicioAdministrador>
+    <inicioAdministradorForm>OEV - Administrador</inicioAdministradorForm>
+    <gestionBD>Gestión de BD</gestionBD>
 
-    <sideBarPanelBitacora>Bitácora</sideBarPanelBitacora>
-    <btnItemConsultarB>Consultar</btnItemConsultarB>
-    <tabItemConsultarB>Consultar</tabItemConsultarB>
-    <groupBoxConsultarB>Buscar</groupBoxConsultarB>
-    <radioButtonRolConsularB>Rol</radioButtonRolConsularB>
-    <radioButtonFechaConsultarB>Fecha</radioButtonFechaConsultarB>
-    <radioButtonEventoConsultarB>Evento</radioButtonEventoConsultarB>
-    <dataGridViewTextBoxColumnIdConsultarB>Id</dataGridViewTextBoxColumnIdConsultarB>
-    <dataGridViewTextBoxColumnRoleConsultarB>Rol</dataGridViewTextBoxColumnRoleConsultarB>
-    <dataGridViewTextBoxColumnFechaConsultarB>Fecha</dataGridViewTextBoxColumnFechaConsultarB>
-    <dataGridViewTextBoxColumnDetalleConsultarB>Detalle</dataGridViewTextBoxColumnDetalleConsultarB>
-    <lblHastaConsultarB>Hasta</lblHastaConsultarB>
-    <lblDesdeConsultarB>Desde</lblDesdeConsultarB>
-    <btnBuscarB>Buscar</btnBuscarB>
+    <backup>Copia de BD</backup>
+    <rutaBackup>Ruta destino:</rutaBackup>
+    <crearCopia>Crear copia</crearCopia>
+
+    <restore>Restaurar BD</restore>
+    <rutaRestore>Ruta origen:</rutaRestore>
+    <restaurarCopia>Restaurar copia</restaurarCopia>
+
+    <dv>Dígito Verificador</dv>
+
+    <dvhorizontal>Horizontal</dvhorizontal>
+    <dvhUsuarios>Dígito Verificador Horizontal para Usuarios</dvhUsuarios>
+    <todosUsuarios>Todos los usuarios</todosUsuarios>
+    <verificar>Verificar</verificar>
+
+    <dvVertical>Vertical</dvVertical>
+    <dvvUsuarios>Dígito Verificador Vertical para Usuarios</dvvUsuarios>
+
+    <criptografia>Criptografía</criptografia>
+    <opcion>Seleccionar Opción</opcion>
+    <encriptar>Encriptar</encriptar>
+    <desencriptar>Desencriptar</desencriptar>
+    <texto>Texto</texto>
+    <resultado>Resultado</resultado>
+
+    <usuarios>Usuarios</usuarios>
+    <buscarPor>Buscar por</buscarPor>
+    
+    <confirmar>¿Confirma los datos ingresados?</confirmar>
+
+    <bitacora>Bitácora</bitacora>
+    
+    <fecha>Fecha</fecha>
+    <evento>Evento</evento>
+    <detalle>Detalle</detalle>
+    <fechaHasta>Hasta</fechaHasta>
+    <fechaDesde>Desde</fechaDesde>
   </InicioAdministrador>
   
 </Multiidioma>

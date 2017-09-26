@@ -38,7 +38,8 @@ namespace Utils
         public static String LOGIN = "Login de usuario";
         public static String LOGOUT = "Logout de usuario";
 
-
+        public static String MANDATORY = "(*) ";
+        public static String DOS_PUNTOS = ":";
 
         public static string DVH = "Digito Verificador Horizontal";
         public static string DVV = "Digito Verificador Vertical";

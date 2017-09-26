@@ -22,7 +22,8 @@ namespace OEVApp
     public partial class Login : Form
     {
 
-        String _claveIncorrecta = null;
+        String msjClaveIncorrecta = null;
+        String msjUsuarioClaveVacios = null;
         IUsuarioBLL usuarioBLL = new UsuarioBLL();
         ISeguridad seguridad = new Seguridad.Seguridad();
         string idioma = null;
@@ -38,9 +39,10 @@ namespace OEVApp
        
         private void generarStrings()
         {
-            lblUsuario.Text = I18n.obtenerString("LoginForm","lblUsuario");
-            lblClave.Text = I18n.obtenerString("LoginForm", "lblClave");
-            _claveIncorrecta = I18n.obtenerString("LoginForm", "claveIncorrecta");
+            lblUsuario.Text = new StringBuilder(I18n.obtenerString("LoginForm","usuario")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblClave.Text = new StringBuilder(I18n.obtenerString("LoginForm", "clave")).Append(Constantes.DOS_PUNTOS).ToString();
+            msjClaveIncorrecta = I18n.obtenerString("Mensaje", "claveIncorrecta");
+            msjUsuarioClaveVacios = I18n.obtenerString("Mensaje", "usuarioClaveVacios");
         }
 
         private void cargarComboIdioma(ComboBox cbbIdioma)
@@ -85,12 +87,12 @@ namespace OEVApp
                 }
                 else
                 {
-                    MessageBox.Show("Usuario y/o clave invalidos", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(msjClaveIncorrecta, "", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
             {
-                MessageBox.Show("Usuario y/o clave vacias", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(msjUsuarioClaveVacios, "", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

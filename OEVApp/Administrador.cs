@@ -95,32 +95,32 @@ namespace OEVApp
 
         private void generarBitacoraStrings()
         {
-            sideBarPanelBitacora.Text = I18n.obtenerString("InicioAdministrador", "sideBarPanelBitacora");
-            btnItemConsultarB.Text = I18n.obtenerString("InicioAdministrador", "btnItemConsultarB");
-            tabItemConsultarB.Text = I18n.obtenerString("InicioAdministrador", "tabItemConsultarB");
-            groupBoxConsultarB.Text = I18n.obtenerString("InicioAdministrador", "groupBoxConsultarB");
-            radioButtonRolConsularB.Text = I18n.obtenerString("InicioAdministrador", "radioButtonRolConsularB");
-            radioButtonFechaConsultarB.Text = I18n.obtenerString("InicioAdministrador", "radioButtonFechaConsultarB");
-            radioButtonEventoConsultarB.Text = I18n.obtenerString("InicioAdministrador", "radioButtonEventoConsultarB");
-            dataGridViewTextBoxColumnIdConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "dataGridViewTextBoxColumnIdConsultarB");
-            dataGridViewTextBoxColumnRoleConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "dataGridViewTextBoxColumnRoleConsultarB");
-            dataGridViewTextBoxColumnFechaConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "dataGridViewTextBoxColumnFechaConsultarB");
-            dataGridViewTextBoxColumnDetalleConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "dataGridViewTextBoxColumnDetalleConsultarB");
+            sideBarPanelBitacora.Text = I18n.obtenerString("InicioAdministrador", "bitacora");
+            btnItemConsultarB.Text = I18n.obtenerString("InicioAdministrador", "consultar");
+            tabItemConsultarB.Text = I18n.obtenerString("InicioAdministrador", "consultar");
+            groupBoxConsultarB.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "buscarPor")).Append(Constantes.DOS_PUNTOS).ToString();
+            radioButtonRolConsularB.Text = I18n.obtenerString("InicioAdministrador", "rol");
+            radioButtonFechaConsultarB.Text = I18n.obtenerString("InicioAdministrador", "fecha");
+            radioButtonEventoConsultarB.Text = I18n.obtenerString("InicioAdministrador", "evento");
+            dataGridViewTextBoxColumnIdConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "id");
+            dataGridViewTextBoxColumnRoleConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "rol");
+            dataGridViewTextBoxColumnFechaConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "fecha");
+            dataGridViewTextBoxColumnDetalleConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "detalle");
             
-            lblHastaConsultarB.Text = I18n.obtenerString("InicioAdministrador", "lblHastaConsultarB");
-            lblDesdeConsultarB.Text = I18n.obtenerString("InicioAdministrador", "lblDesdeConsultarB");
-            btnBuscarB.Text = I18n.obtenerString("InicioAdministrador", "btnBuscarB");
+            lblHastaConsultarB.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "fechaHasta")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblDesdeConsultarB.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "fechaDesde")).Append(Constantes.DOS_PUNTOS).ToString();
+            btnBuscarB.Text = I18n.obtenerString("InicioAdministrador", "buscar");
         }
 
         private void generarUsuariosStrings()
         {
-            sideBarPanelUsuario.Text = I18n.obtenerString("InicioAdministrador", "sideBarPanelUsuario");
-            btnItemAgregar.Text = I18n.obtenerString("InicioAdministrador", "btnItemAgregar");
-            tabItemAgregar.Text = I18n.obtenerString("InicioAdministrador", "tabItemAgregar");
-            btnItemModificar.Text = I18n.obtenerString("InicioAdministrador", "btnItemModificar");
-            tabItemModificar.Text = I18n.obtenerString("InicioAdministrador", "tabItemModificar");
-            btnItemConsultar.Text = I18n.obtenerString("InicioAdministrador", "btnItemConsultar");
-            tabItemConsultar.Text = I18n.obtenerString("InicioAdministrador", "tabItemConsultar");
+            sideBarPanelUsuario.Text = I18n.obtenerString("InicioAdministrador", "usuarios");
+            btnItemAgregar.Text = I18n.obtenerString("InicioAdministrador", "agregar");
+            tabItemAgregar.Text = I18n.obtenerString("InicioAdministrador", "agregar");
+            btnItemModificar.Text = I18n.obtenerString("InicioAdministrador", "editar");
+            tabItemModificar.Text = I18n.obtenerString("InicioAdministrador", "editar");
+            btnItemConsultar.Text = I18n.obtenerString("InicioAdministrador", "consultar");
+            tabItemConsultar.Text = I18n.obtenerString("InicioAdministrador", "consultar");
             generarAgregarUsuariosStrings();
             generarModificarUsuariosStrings();
             generarConsultarUsuarioStrings();
@@ -130,130 +130,130 @@ namespace OEVApp
 
         private void generarAgregarUsuariosStrings()
         {
-            lblApellido.Text = I18n.obtenerString("InicioAdministrador", "lblApellido");
-            lblNombre.Text = I18n.obtenerString("InicioAdministrador", "lblNombre");
-            lblDni.Text = I18n.obtenerString("InicioAdministrador", "lblDni");
-            lblFecNac.Text = I18n.obtenerString("InicioAdministrador", "lblFecNac");
-            lblDireccion.Text = I18n.obtenerString("InicioAdministrador", "lblDireccion");
-            lblCiudad.Text = I18n.obtenerString("InicioAdministrador", "lblCiudad");
-            lblTelefono.Text = I18n.obtenerString("InicioAdministrador", "lblTelefono");
-            lblEmail.Text = I18n.obtenerString("InicioAdministrador", "lblEmail");
-            btnGuardar.Text = I18n.obtenerString("InicioAdministrador", "btnGuardar");
-            fecNacInvalida = I18n.obtenerString("InicioAdministrador", "fecNacInvalida");
-            formatoEmail = I18n.obtenerString("InicioAdministrador", "formatoEmail");
-            formatoDni = I18n.obtenerString("InicioAdministrador", "formatoDni");
-            camposRequeridos = I18n.obtenerString("InicioAdministrador", "NOMBRE_APELLIDO_DNI_EMAIL_REQUERIDOS");
-            confirmar = I18n.obtenerString("InicioAdministrador", "confirmar");
-            msjExistente = I18n.obtenerString("InicioAdministrador", "USUARIO_YA_EXISTE");
-            msjNuevo = I18n.obtenerString("InicioAdministrador", "USUARIO_NUEVO");
-            msjConfirmar = I18n.obtenerString("InicioAdministrador", "mensajeBoxConfirmar");
-            msjInfo = I18n.obtenerString("InicioAdministrador", "mensajeBoxInfo");
-            msjError = I18n.obtenerString("InicioAdministrador", "mensajeBoxError");
+            lblApellido.Text = new StringBuilder(Constantes.MANDATORY).Append(I18n.obtenerString("InicioAdministrador", "apellido")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblNombre.Text = new StringBuilder(Constantes.MANDATORY).Append(I18n.obtenerString("InicioAdministrador", "nombre")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblDni.Text = new StringBuilder(Constantes.MANDATORY).Append(I18n.obtenerString("InicioAdministrador", "dni")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblFecNac.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "fecNac")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblDireccion.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "direccion")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblCiudad.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "ciudad")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblTelefono.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "telefono")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblEmail.Text = new StringBuilder(Constantes.MANDATORY).Append(I18n.obtenerString("InicioAdministrador", "email")).Append(Constantes.DOS_PUNTOS).ToString();
+            btnGuardar.Text = I18n.obtenerString("InicioAdministrador", "guardar");
+            fecNacInvalida = I18n.obtenerString("Mensaje", "fecNacInvalida");
+            formatoEmail = I18n.obtenerString("Mensaje", "formatoEmail");
+            formatoDni = I18n.obtenerString("Mensaje", "formatoDni");
+            camposRequeridos = I18n.obtenerString("Mensaje", "nombreApellidoDniEmailRequeridos");
+            confirmar = I18n.obtenerString("Mensaje", "confirmar");
+            msjExistente = I18n.obtenerString("Mensaje", "usuarioYaExiste");
+            msjNuevo = I18n.obtenerString("Mensaje", "usuarioNuevo");
+            msjConfirmar = I18n.obtenerString("Mensaje", "confirmar");
+            msjInfo = I18n.obtenerString("Mensaje", "info");
+            msjError = I18n.obtenerString("Mensaje", "error");
         }
 
         private void generarModificarUsuariosStrings()
         {
-            lblIdM.Text = I18n.obtenerString("InicioAdministrador", "lblId");
-            lblApellidoM.Text = I18n.obtenerString("InicioAdministrador", "lblApellido");
-            lblNombreM.Text = I18n.obtenerString("InicioAdministrador", "lblNombre");
-            lblDniM.Text = I18n.obtenerString("InicioAdministrador", "lblDni");
-            lblFecNacM.Text = I18n.obtenerString("InicioAdministrador", "lblFecNac");
-            lblDireccionM.Text = I18n.obtenerString("InicioAdministrador", "lblDireccion");
-            lblCiudadM.Text = I18n.obtenerString("InicioAdministrador", "lblCiudad");
-            lblTelefonoM.Text = I18n.obtenerString("InicioAdministrador", "lblTelefono");
-            lblEmailM.Text = I18n.obtenerString("InicioAdministrador", "lblEmail");
-            lblEstadoM.Text = I18n.obtenerString("InicioAdministrador", "lblEstado");
-            radioGroupBuscar.Text = I18n.obtenerString("InicioAdministrador", "btnBuscar");
-            btnBuscarM.Text = I18n.obtenerString("InicioAdministrador", "btnBuscar");
-            btnGuardarM.Text = I18n.obtenerString("InicioAdministrador", "btnGuardar");
-            ningunRegistro = I18n.obtenerString("InicioAdministrador", "NINGUN_REGISTRO");
-            confirmarBaja = I18n.obtenerString("InicioAdministrador", "confirmarBaja");
+            lblIdM.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "id")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblApellidoM.Text = new StringBuilder(Constantes.MANDATORY).Append(I18n.obtenerString("InicioAdministrador", "apellido")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblNombreM.Text = new StringBuilder(Constantes.MANDATORY).Append(I18n.obtenerString("InicioAdministrador", "nombre")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblDniM.Text = new StringBuilder(Constantes.MANDATORY).Append(I18n.obtenerString("InicioAdministrador", "dni")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblFecNacM.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "fecNac")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblDireccionM.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "direccion")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblCiudadM.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "ciudad")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblTelefonoM.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "telefono")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblEmailM.Text = new StringBuilder(Constantes.MANDATORY).Append(I18n.obtenerString("InicioAdministrador", "email")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblEstadoM.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "estado")).Append(Constantes.DOS_PUNTOS).ToString();
+            radioGroupBuscar.Text = I18n.obtenerString("InicioAdministrador", "buscar");
+            btnBuscarM.Text = I18n.obtenerString("InicioAdministrador", "buscar");
+            btnGuardarM.Text = I18n.obtenerString("InicioAdministrador", "guardar");
+            ningunRegistro = I18n.obtenerString("Mensaje", "ningunRegistro");
+            confirmarBaja = I18n.obtenerString("Mensaje", "confirmarBaja");
         }
 
         private void generarConsultarUsuarioStrings()
         {
-            groupBuscarC.Text = I18n.obtenerString("InicioAdministrador", "btnBuscar");
-            radioIdC.Text = I18n.obtenerString("InicioAdministrador", "radioId");
-            radioDniC.Text = I18n.obtenerString("InicioAdministrador", "radioDni");
-            radioRolC.Text = I18n.obtenerString("InicioAdministrador", "radioRol");
-            radioTodosC.Text = I18n.obtenerString("InicioAdministrador", "radioTodos");
-            btnBuscarC.Text = I18n.obtenerString("InicioAdministrador", "btnBuscar");
+            groupBuscarC.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "buscarPor")).Append(Constantes.DOS_PUNTOS).ToString();
+            radioIdC.Text = I18n.obtenerString("InicioAdministrador", "id");
+            radioDniC.Text = I18n.obtenerString("InicioAdministrador", "dni");
+            radioRolC.Text = I18n.obtenerString("InicioAdministrador", "rol");
+            radioTodosC.Text = I18n.obtenerString("InicioAdministrador", "todos");
+            btnBuscarC.Text = I18n.obtenerString("InicioAdministrador", "buscar");
 
-            gridConsultaUsuario.Columns["HId"].HeaderText = I18n.obtenerString("InicioAdministrador", "hId");
-            gridConsultaUsuario.Columns["HApellido"].HeaderText = I18n.obtenerString("InicioAdministrador", "hApellido");
-            gridConsultaUsuario.Columns["HNombre"].HeaderText = I18n.obtenerString("InicioAdministrador", "hNombre");
-            gridConsultaUsuario.Columns["HDni"].HeaderText = I18n.obtenerString("InicioAdministrador", "hDni");
-            gridConsultaUsuario.Columns["HFecNac"].HeaderText = I18n.obtenerString("InicioAdministrador", "hFecNac");
-            gridConsultaUsuario.Columns["HDireccion"].HeaderText = I18n.obtenerString("InicioAdministrador", "hDireccion");
-            gridConsultaUsuario.Columns["HCiudad"].HeaderText = I18n.obtenerString("InicioAdministrador", "hCiudad");
-            gridConsultaUsuario.Columns["HTelefono"].HeaderText = I18n.obtenerString("InicioAdministrador", "hTelefono");
-            gridConsultaUsuario.Columns["HEmail"].HeaderText = I18n.obtenerString("InicioAdministrador", "hEmail");
-            gridConsultaUsuario.Columns["HRol"].HeaderText = I18n.obtenerString("InicioAdministrador", "hRol");
-            gridConsultaUsuario.Columns["HEstado"].HeaderText = I18n.obtenerString("InicioAdministrador", "hEstado");
+            gridConsultaUsuario.Columns["HId"].HeaderText = I18n.obtenerString("InicioAdministrador", "id");
+            gridConsultaUsuario.Columns["HApellido"].HeaderText = I18n.obtenerString("InicioAdministrador", "apellido");
+            gridConsultaUsuario.Columns["HNombre"].HeaderText = I18n.obtenerString("InicioAdministrador", "nombre");
+            gridConsultaUsuario.Columns["HDni"].HeaderText = I18n.obtenerString("InicioAdministrador", "dni");
+            gridConsultaUsuario.Columns["HFecNac"].HeaderText = I18n.obtenerString("InicioAdministrador", "fecNac");
+            gridConsultaUsuario.Columns["HDireccion"].HeaderText = I18n.obtenerString("InicioAdministrador", "direccion");
+            gridConsultaUsuario.Columns["HCiudad"].HeaderText = I18n.obtenerString("InicioAdministrador", "ciudad");
+            gridConsultaUsuario.Columns["HTelefono"].HeaderText = I18n.obtenerString("InicioAdministrador", "telefono");
+            gridConsultaUsuario.Columns["HEmail"].HeaderText = I18n.obtenerString("InicioAdministrador", "email");
+            gridConsultaUsuario.Columns["HRol"].HeaderText = I18n.obtenerString("InicioAdministrador", "rol");
+            gridConsultaUsuario.Columns["HEstado"].HeaderText = I18n.obtenerString("InicioAdministrador", "estado");
 
         }
 
         private void generaraCriptoStrings()
         {
-            sideBarPanelCripto.Text = I18n.obtenerString("InicioAdministrador", "sideBarPanelCripto");
-            tabItemCripto.Text = I18n.obtenerString("InicioAdministrador", "tabItemCripto");
-            radioGroupOpcion.Text = I18n.obtenerString("InicioAdministrador", "radioGroupOpcion");
-            radioEncriptar.Text = I18n.obtenerString("InicioAdministrador", "radioEncriptar");
-            radioDesencriptar.Text = I18n.obtenerString("InicioAdministrador", "radioDesencriptar");
-            lblTextoCripto.Text = I18n.obtenerString("InicioAdministrador", "lblTextoCripto");
-            lblResCripto.Text = I18n.obtenerString("InicioAdministrador", "lblResCripto");
+            sideBarPanelCripto.Text = I18n.obtenerString("InicioAdministrador", "criptografia");
+            tabItemCripto.Text = I18n.obtenerString("InicioAdministrador", "criptografia");
+            radioGroupOpcion.Text = I18n.obtenerString("InicioAdministrador", "opcion");
+            radioEncriptar.Text = I18n.obtenerString("InicioAdministrador", "encriptar");
+            radioDesencriptar.Text = I18n.obtenerString("InicioAdministrador", "desencriptar");
+            lblTextoCripto.Text = I18n.obtenerString("InicioAdministrador", "texto") + ":";
+            lblResCripto.Text = I18n.obtenerString("InicioAdministrador", "resultado") + ":";
         }
 
         private void generarDVStrings()
         {
-            sideBarPanelDV.Text = I18n.obtenerString("InicioAdministrador", "sideBarPanelDV");
-            btnItemDVH.Text = I18n.obtenerString("InicioAdministrador", "btnItemDVH");
-            tabItemDVH.Text = I18n.obtenerString("InicioAdministrador", "tabItemDVH");
-            lblUsuarioDVH.Text = I18n.obtenerString("InicioAdministrador", "lblUsuario");
-            radioGroupDVH.Text = I18n.obtenerString("InicioAdministrador", "radioGroupDVH");
-            radioUsuarioDVH.Text = I18n.obtenerString("InicioAdministrador", "radioUsuarioDVH");
-            radioTodosDVH.Text = I18n.obtenerString("InicioAdministrador", "radioTodosDVH");
-            btnVerificarDVH.Text = I18n.obtenerString("InicioAdministrador", "btnVerificarDVH");
+            sideBarPanelDV.Text = I18n.obtenerString("InicioAdministrador", "dv");
+            btnItemDVH.Text = I18n.obtenerString("InicioAdministrador", "dvhorizontal");
+            tabItemDVH.Text = I18n.obtenerString("InicioAdministrador", "dvhorizontal");
+            lblUsuarioDVH.Text = I18n.obtenerString("InicioAdministrador", "usuario") + ":";
+            radioGroupDVH.Text = I18n.obtenerString("InicioAdministrador", "dvhUsuarios");
+            radioUsuarioDVH.Text = I18n.obtenerString("InicioAdministrador", "usuario");
+            radioTodosDVH.Text = I18n.obtenerString("InicioAdministrador", "todosUsuarios");
+            btnVerificarDVH.Text = I18n.obtenerString("InicioAdministrador", "verificar");
 
-            btnItemDVV.Text = I18n.obtenerString("InicioAdministrador", "btnItemDVV");
-            tabItemDVV.Text = I18n.obtenerString("InicioAdministrador", "tabItemDVV");
-            radioGroupDVV.Text = I18n.obtenerString("InicioAdministrador", "radioGroupDVV");
-            btnVerificarDVV.Text = I18n.obtenerString("InicioAdministrador", "btnVerificarDVV");
+            btnItemDVV.Text = I18n.obtenerString("InicioAdministrador", "dvVertical");
+            tabItemDVV.Text = I18n.obtenerString("InicioAdministrador", "dvVertical");
+            radioGroupDVV.Text = I18n.obtenerString("InicioAdministrador", "dvvUsuarios");
+            btnVerificarDVV.Text = I18n.obtenerString("InicioAdministrador", "verificar");
 
-            MSJ_VERIFICACION_EXITOSA = I18n.obtenerString("InicioAdministrador", "MSJ_VERIFICACION_EXITOSA");
-            MSJ_VERIFICACION_ERRONEA = I18n.obtenerString("InicioAdministrador", "MSJ_VERIFICACION_ERRONEA");
-            MSJ_VERIFICACION_ERRONEA_TODOS = I18n.obtenerString("InicioAdministrador", "MSJ_VERIFICACION_ERRONEA_TODOS");
-            MSJ_USUARIO_VACIO = I18n.obtenerString("InicioAdministrador", "MSJ_USUARIO_VACIO");
+            MSJ_VERIFICACION_EXITOSA = I18n.obtenerString("Mensaje", "verificacionExitosa");
+            MSJ_VERIFICACION_ERRONEA = I18n.obtenerString("Mensaje", "verificacionErronea");
+            MSJ_VERIFICACION_ERRONEA_TODOS = I18n.obtenerString("Mensaje", "verificacionErroneaTodos");
+            MSJ_USUARIO_VACIO = I18n.obtenerString("Mensaje", "usuarioVacio");
         }
 
         private void generarGestionBDStrings()
         {
-            sideBarPanelBD.Text = I18n.obtenerString("InicioAdministrador", "sideBarPanelBD");
-            btnItemBackup.Text = I18n.obtenerString("InicioAdministrador", "btnItemBackup");
-            tabItemBackup.Text = I18n.obtenerString("InicioAdministrador", "tabItemBackup");
-            lblRutaBackup.Text = I18n.obtenerString("InicioAdministrador", "lblRutaBackup");
-            btnBackup.Text = I18n.obtenerString("InicioAdministrador", "btnBackup");
-            MSJ_BACKUP_EXITOSO = I18n.obtenerString("InicioAdministrador", "MSJ_BACKUP_EXITOSO");
-            MSJ_BACKUP_ERROR = I18n.obtenerString("InicioAdministrador", "MSJ_BACKUP_ERROR");
-            MSJ_RUTA_BACKUP_VACIA = I18n.obtenerString("InicioAdministrador", "MSJ_RUTA_BACKUP_VACIA");
+            sideBarPanelBD.Text = I18n.obtenerString("InicioAdministrador", "gestionBD");
+            btnItemBackup.Text = I18n.obtenerString("InicioAdministrador", "backup");
+            tabItemBackup.Text = I18n.obtenerString("InicioAdministrador", "backup");
+            lblRutaBackup.Text = I18n.obtenerString("InicioAdministrador", "rutaBackup");
+            btnBackup.Text = I18n.obtenerString("InicioAdministrador", "crearCopia");
+            MSJ_BACKUP_EXITOSO = I18n.obtenerString("Mensaje", "backupExitoso");
+            MSJ_BACKUP_ERROR = I18n.obtenerString("Mensaje", "backupError");
+            MSJ_RUTA_BACKUP_VACIA = I18n.obtenerString("Mensaje", "rutaBackupVacia");
 
-            btnItemRestore.Text = I18n.obtenerString("InicioAdministrador", "btnItemRestore");
-            tabItemRestore.Text = I18n.obtenerString("InicioAdministrador", "tabItemRestore");
-            lblRutaRestore.Text = I18n.obtenerString("InicioAdministrador", "lblRutaRestore");
-            btnRestore.Text = I18n.obtenerString("InicioAdministrador", "btnRestore");
+            btnItemRestore.Text = I18n.obtenerString("InicioAdministrador", "restore");
+            tabItemRestore.Text = I18n.obtenerString("InicioAdministrador", "restore");
+            lblRutaRestore.Text = I18n.obtenerString("InicioAdministrador", "rutaRestore");
+            btnRestore.Text = I18n.obtenerString("InicioAdministrador", "restaurarCopia");
 
-            MSJ_RESTORE_EXITOSO = I18n.obtenerString("InicioAdministrador", "MSJ_RESTORE_EXITOSO");
-            MSJ_RESTORE_ERROR = I18n.obtenerString("InicioAdministrador", "MSJ_RESTORE_ERROR");
-            MSJ_RESTORE_INVALIDO = I18n.obtenerString("InicioAdministrador", "MSJ_RESTORE_INVALIDO");
+            MSJ_RESTORE_EXITOSO = I18n.obtenerString("Mensaje", "restoreExitoso");
+            MSJ_RESTORE_ERROR = I18n.obtenerString("Mensaje", "restoreError");
+            MSJ_RESTORE_INVALIDO = I18n.obtenerString("Mensaje", "restoreInvalido");
         }
 
         private void generarInicioAdministrador()
         {
-            this.Text = I18n.obtenerString("InicioAdministrador", "InicioAdministradorForm");
-            btnLogout.Text = I18n.obtenerString("InicioAdministrador", "btnLogout");
-            lblUsuario.Text = I18n.obtenerString("InicioAdministrador", "lblUsuario");
-            msjInfo = I18n.obtenerString("InicioAdministrador", "mensajeBoxInfo");
-            msjError = I18n.obtenerString("InicioAdministrador", "mensajeBoxError");
+            this.Text = I18n.obtenerString("InicioAdministrador", "inicioAdministradorForm");
+            btnLogout.Text = I18n.obtenerString("InicioAdministrador", "logout");
+            lblUsuario.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "usuario")).Append(Constantes.DOS_PUNTOS).ToString();
+            msjInfo = I18n.obtenerString("Mensaje", "info");
+            msjError = I18n.obtenerString("Mensaje", "error");
         }
 
         private void btnRestore_Click(object sender, EventArgs e)
