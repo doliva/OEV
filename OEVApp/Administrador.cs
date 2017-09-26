@@ -61,7 +61,24 @@ namespace OEVApp
             generaraCriptoStrings();
             generarUsuariosStrings();
             generarBitacoraStrings();
+
+            cargarComboRol(cmbRolConsultarB);
+            cargarComboEvento(cmbEventoConsultarB);
         }
+
+        private void cargarComboEvento(DevComponents.DotNetBar.Controls.ComboBoxEx comboBox)
+        {
+            comboBox.DataSource = Enum.GetValues(typeof(EnumEvento)).Cast<EnumEvento>().ToList();
+            if (comboBox.Items.Count != 0)
+            {
+                string evento = comboBox.SelectedValue.ToString();
+            }
+            else
+            {
+                comboBox.DataSource = null;
+            }
+        }
+
 
         private void cargarComboRol(DevComponents.DotNetBar.Controls.ComboBoxEx comboBoxRol)
         {
@@ -89,6 +106,10 @@ namespace OEVApp
             dataGridViewTextBoxColumnRoleConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "dataGridViewTextBoxColumnRoleConsultarB");
             dataGridViewTextBoxColumnFechaConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "dataGridViewTextBoxColumnFechaConsultarB");
             dataGridViewTextBoxColumnDetalleConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "dataGridViewTextBoxColumnDetalleConsultarB");
+            
+            lblHastaConsultarB.Text = I18n.obtenerString("InicioAdministrador", "lblHastaConsultarB");
+            lblDesdeConsultarB.Text = I18n.obtenerString("InicioAdministrador", "lblDesdeConsultarB");
+            btnBuscarB.Text = I18n.obtenerString("InicioAdministrador", "btnBuscarB");
         }
 
         private void generarUsuariosStrings()
@@ -267,6 +288,7 @@ namespace OEVApp
             tabItemAgregar.Visible = false;
             tabItemModificar.Visible = false;
             tabItemConsultar.Visible = false;
+            tabItemConsultarB.Visible = false;
             superTabCtrol.SelectedTab = tabItemBackup;
         }
 
@@ -309,6 +331,7 @@ namespace OEVApp
             tabItemAgregar.Visible = false;
             tabItemModificar.Visible = false;
             tabItemConsultar.Visible = false;
+            tabItemConsultarB.Visible = false;
             superTabCtrol.SelectedTab = tabItemDVH;
         }
 
@@ -350,6 +373,7 @@ namespace OEVApp
             tabItemAgregar.Visible = false;
             tabItemModificar.Visible = false;
             tabItemConsultar.Visible = false;
+            tabItemConsultarB.Visible = false;
             superTabCtrol.SelectedTab = tabItemCripto;
             limpiarCampos();
         }
@@ -365,6 +389,7 @@ namespace OEVApp
             tabItemRestore.Visible = false;
             tabItemDVH.Visible = false;
             tabItemDVV.Visible = false;
+            tabItemConsultarB.Visible = false;
             superTabCtrol.SelectedTab = tabItemAgregar;
             limpiarCampos();
         }
@@ -813,6 +838,7 @@ namespace OEVApp
             tabItemBackup.Visible = false;
             tabItemRestore.Visible = false;
             tabItemCripto.Visible = false;
+            tabItemConsultarB.Visible = false;
             tabItemAgregar.Visible = true;
             tabItemModificar.Visible = true;
             tabItemConsultar.Visible = true;
@@ -831,6 +857,7 @@ namespace OEVApp
             tabItemAgregar.Visible = true;
             tabItemModificar.Visible = true;
             tabItemConsultar.Visible = true;
+            tabItemConsultarB.Visible = false;
             superTabCtrol.SelectedTab = tabItemModificar;
             ocultarCampos();
             limpiarCampos();
@@ -847,6 +874,7 @@ namespace OEVApp
             tabItemAgregar.Visible = true;
             tabItemModificar.Visible = true;
             tabItemConsultar.Visible = true;
+            tabItemConsultarB.Visible = false;
             superTabCtrol.SelectedTab = tabItemConsultar;
             limpiarCampos();
             gridConsultaUsuario.Visible = false;
@@ -864,6 +892,7 @@ namespace OEVApp
             tabItemAgregar.Visible = true;
             tabItemModificar.Visible = true;
             tabItemConsultar.Visible = true;
+            tabItemConsultarB.Visible = false;
             superTabCtrol.SelectedTab = tabItemConsultar;
             limpiarCampos();
             gridConsultaUsuario.Visible = false;
@@ -931,6 +960,7 @@ namespace OEVApp
                 txtFiltroC.Text = "";
                 txtFiltroC.Visible = true;
                 cmbRolC.Visible = false;
+                gridConsultaUsuario.Visible = false;
             }
         }
 
@@ -941,6 +971,7 @@ namespace OEVApp
                 txtFiltroC.Text = "";
                 txtFiltroC.Visible = true;
                 cmbRolC.Visible = false;
+                gridConsultaUsuario.Visible = false;
             }
         }
 
@@ -951,6 +982,7 @@ namespace OEVApp
                 txtFiltroC.Visible = false;
                 cmbRolC.DataSource = Enum.GetValues(typeof(EnumRol)).Cast<EnumRol>().ToList();
                 cmbRolC.Visible = true;
+                gridConsultaUsuario.Visible = false;
             }
         }
 
@@ -960,17 +992,8 @@ namespace OEVApp
             {
                 txtFiltroC.Visible = false;
                 cmbRolC.Visible = false;
+                gridConsultaUsuario.Visible = false;
             }
-        }
-
-        private void radioButton4_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
         }
 
         private void dataGridViewX1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -978,9 +1001,133 @@ namespace OEVApp
 
         }
 
-        private void radioButtonFechaConsultarB_CheckedChanged(object sender, EventArgs e)
+        private void labelX1_Click(object sender, EventArgs e)
         {
 
         }
+
+        private void radioRolConsultarB_Click(object sender, EventArgs e)
+        {
+            cmbEventoConsultarB.Visible = false;
+            lblDesdeConsultarB.Visible = false;
+            dateHastaConsultaB.Visible = false;
+            lblHastaConsultarB.Visible = false;
+            dateDesdeConsultaB.Visible = false;
+
+            cmbRolConsultarB.Visible = true;
+
+            dataConsultarB.Visible = false;
+        }
+
+        private void btnItemConsultarB_Click(object sender, EventArgs e)
+        {
+            superTabCtrol.Visible = true;
+            tabItemDVH.Visible = false;
+            tabItemDVV.Visible = false;
+            tabItemBackup.Visible = false;
+            tabItemRestore.Visible = false;
+            tabItemCripto.Visible = false;
+            tabItemAgregar.Visible = false;
+            tabItemModificar.Visible = false;
+            tabItemConsultar.Visible = false;
+            tabItemConsultarB.Visible = true;
+            superTabCtrol.SelectedTab = tabItemConsultarB;
+
+            radioButtonEventoConsultarB.Checked = true;
+
+            dataConsultarB.Visible = false;
+
+            radioEventoConsultarB_Click(null, null);
+        }
+
+        private void radioFechaConsultarB_Click(object sender, EventArgs e)
+        {
+            cmbEventoConsultarB.Visible = false;
+            lblDesdeConsultarB.Visible = true;
+            dateHastaConsultaB.Visible = true;
+            lblHastaConsultarB.Visible = true;
+            dateDesdeConsultaB.Visible = true;
+
+            cmbRolConsultarB.Visible = false;
+
+            dataConsultarB.Visible = false;
+        }
+
+        private void radioEventoConsultarB_Click(object sender, EventArgs e)
+        {
+            cmbRolConsultarB.Visible = false;
+            lblDesdeConsultarB.Visible = false;
+            dateHastaConsultaB.Visible = false;
+            lblHastaConsultarB.Visible = false;
+            dateDesdeConsultaB.Visible = false;
+
+            cmbEventoConsultarB.Visible = true;
+
+            dataConsultarB.Visible = false;
+
+        }
+
+        private void sideBarPanelBitacora_Click(object sender, EventArgs e)
+        {
+            superTabCtrol.Visible = true;
+
+            tabItemDVH.Visible = false;
+            tabItemDVV.Visible = false;
+            tabItemCripto.Visible = false;
+            tabItemAgregar.Visible = false;
+            tabItemModificar.Visible = false;
+            tabItemConsultar.Visible = false;
+            tabItemBackup.Visible = false;
+            tabItemRestore.Visible = false;
+
+            tabItemConsultarB.Visible = true;
+            
+            superTabCtrol.SelectedTab = tabItemConsultarB;
+
+        }
+
+        private void btnBuscarB_Click(object sender, EventArgs e)
+        {
+            List<Bitacora> listaBitacoras = new List<Bitacora>();
+
+            if (radioButtonEventoConsultarB.Checked)
+            {
+                listaBitacoras = BitacoraBLL.obtenerBitacorasPorEvento(cmbEventoConsultarB.Text);
+            } else if(radioButtonRolConsularB.Checked)
+            {
+                listaBitacoras = BitacoraBLL.obtenerBitacorasPorRol(cmbRolConsultarB.Text);
+            }
+            else if (radioButtonFechaConsultarB.Checked) 
+            {
+                if (!dateDesdeConsultaB.IsEmpty && !dateHastaConsultaB.IsEmpty )
+                {
+                    listaBitacoras = BitacoraBLL.obtenerBitacorasPorFechas(dateDesdeConsultaB.Value, dateHastaConsultaB.Value);
+                }
+            }
+
+
+            if (listaBitacoras != null && listaBitacoras.Count > 0)
+            {
+                dataConsultarB.Visible = true;
+                for (int i = 0; i < listaBitacoras.Count; i++)
+                {
+                    dataConsultarB.Rows.Add(1);
+                    dataConsultarB.Rows[i].Cells["dataGridViewTextBoxColumnIdConsultarB"].Value = listaBitacoras[i].idBitacora.ToString();
+                    dataConsultarB.Rows[i].Cells["dataGridViewTextBoxColumnRoleConsultarB"].Value = listaBitacoras[i].rol;
+                    dataConsultarB.Rows[i].Cells["dataGridViewTextBoxColumnEventoConsultarB"].Value = listaBitacoras[i].evento;
+                    dataConsultarB.Rows[i].Cells["dataGridViewTextBoxColumnFechaConsultarB"].Value = listaBitacoras[i].fecha;
+                    dataConsultarB.Rows[i].Cells["dataGridViewTextBoxColumnDetalleConsultarB"].Value = listaBitacoras[i].detalle;
+                    dataConsultarB.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
+                }
+            }
+            else
+            {
+                dataConsultarB.Visible = false;
+                MessageBox.Show(ningunRegistro, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+
+           
+        }
+
     }
 }

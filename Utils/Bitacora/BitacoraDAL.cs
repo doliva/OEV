@@ -51,10 +51,10 @@ namespace Utils.Bitacora
         }
 
         /// <summary>
-        /// Selecciona un registro desde la tabla Bitacora.
+        /// Selecciona lista de registros desde la tabla Bitacora por rol.
         /// </summary>
-        /// <returns>DataSet</returns>
-        public static Bitacora SelectBitacoraByRol(string rol)
+        /// <returns>List<Bitacora></returns>
+        public static List<Bitacora> SelectBitacorasByRol(string rol)
         {
             //string connectionString = "Data Source=NATI-PC\\SQLEXPRESS;Initial Catalog=BD_OEV;Integrated Security=True";
             SqlConnection conn = new SqlConnection(connectionString);
@@ -67,30 +67,111 @@ namespace Utils.Bitacora
             cmd.CommandType = CommandType.Text;
             SqlDataReader reader;
             conn.Open();
+            List<Bitacora> listaBitacoras = new List<Bitacora>();
             try
             {
                 reader = cmd.ExecuteReader();
-                if (reader.Read())
+                while (reader.Read())
                 {
-                    Bitacora bitacora = new Bitacora();
-                    bitacora.idBitacora = Int16.Parse(reader["id_bitacora"].ToString());
-                    bitacora.rol = reader["rol"].ToString();
-                    bitacora.evento = reader["evento"].ToString();
-                    bitacora.detalle = reader["detalle"].ToString();
-                    bitacora.fecha = DateTime.Parse(reader["fecha"].ToString());
-                    
-                    return bitacora;
+                    listaBitacoras.Add(obtenerBitacoraDesdeReader(reader));
                 }
-                return null;
+                return listaBitacoras;
             }
             catch (Exception ex)
             {
-                throw new Excepcion(Constantes.EXCEPCION_DAL_UPD + " usuario", ex);
+                throw new Excepcion(Constantes.EXCEPCION_DAL_UPD + " bitacora", ex);
             }
             finally
             {
                 conn.Close();
             }
+        }
+
+        /// <summary>
+        /// Selecciona lista de registros desde la tabla Bitacora por evento.
+        /// </summary>
+        /// <returns>List<Bitacora></returns>
+        public static List<Bitacora> SelectBitacorasByEvento(string evento)
+        {
+            //string connectionString = "Data Source=NATI-PC\\SQLEXPRESS;Initial Catalog=BD_OEV;Integrated Security=True";
+            SqlConnection conn = new SqlConnection(connectionString);
+            StringBuilder queryBuilder = new StringBuilder();
+            queryBuilder.Append("SELECT * FROM BITACORA ");
+            queryBuilder.Append("WHERE evento=@evento");
+            SqlCommand cmd = new SqlCommand(queryBuilder.ToString(), conn);
+            cmd.Parameters.Add("@evento", SqlDbType.VarChar, 30).Value = evento;
+
+            cmd.CommandType = CommandType.Text;
+            SqlDataReader reader;
+            conn.Open();
+            List<Bitacora> listaBitacoras = new List<Bitacora>();
+            try
+            {
+                reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    listaBitacoras.Add(obtenerBitacoraDesdeReader(reader));
+                }
+                return listaBitacoras;
+            }
+            catch (Exception ex)
+            {
+                throw new Excepcion(Constantes.EXCEPCION_DAL_UPD + " bitacora", ex);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        /// <summary>
+        /// Selecciona lista de registros desde la tabla Bitacora por rango de fechas.
+        /// </summary>
+        /// <returns>List<Bitacora></returns>
+        public static List<Bitacora> SelectBitacorasByFechas(DateTime desde, DateTime hasta)
+        {
+            //string connectionString = "Data Source=NATI-PC\\SQLEXPRESS;Initial Catalog=BD_OEV;Integrated Security=True";
+            SqlConnection conn = new SqlConnection(connectionString);
+            StringBuilder queryBuilder = new StringBuilder();
+            queryBuilder.Append("SELECT * FROM BITACORA ");
+            queryBuilder.Append("WHERE fecha>=@desde and fecha<@hasta");
+            SqlCommand cmd = new SqlCommand(queryBuilder.ToString(), conn);
+            cmd.Parameters.Add("@desde", SqlDbType.DateTime).Value = desde;
+            cmd.Parameters.Add("@hasta", SqlDbType.DateTime).Value = hasta;
+
+            cmd.CommandType = CommandType.Text;
+            SqlDataReader reader;
+            conn.Open();
+            List<Bitacora> listaBitacoras = new List<Bitacora>();
+            try
+            {
+                reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    listaBitacoras.Add(obtenerBitacoraDesdeReader(reader));
+                }
+                return listaBitacoras;
+            }
+            catch (Exception ex)
+            {
+                throw new Excepcion(Constantes.EXCEPCION_DAL_UPD + " bitacora", ex);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+
+        private static Bitacora obtenerBitacoraDesdeReader(SqlDataReader reader){
+            Bitacora bitacora = new Bitacora();
+            bitacora.idBitacora = Int16.Parse(reader["id_bitacora"].ToString());
+            bitacora.rol = reader["rol"].ToString();
+            bitacora.evento = reader["evento"].ToString();
+            bitacora.detalle = reader["detalle"].ToString();
+            bitacora.fecha = DateTime.Parse(reader["fecha"].ToString());
+
+            return bitacora;
         }
 
         /// <summary>
