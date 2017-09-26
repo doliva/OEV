@@ -58,7 +58,7 @@ namespace OEVApp
             this.lblUsuarioLogueado = new DevComponents.DotNetBar.LabelX();
             this.btnLogout = new DevComponents.DotNetBar.ButtonX();
             this.superTabControl1 = new DevComponents.DotNetBar.SuperTabControl();
-           // this.superTabControlPanel2 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.superTabControlPanel2 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.groupAPEventoA = new System.Windows.Forms.GroupBox();
             this.radioAPBikeA = new System.Windows.Forms.RadioButton();
             this.radioAPRunA = new System.Windows.Forms.RadioButton();
