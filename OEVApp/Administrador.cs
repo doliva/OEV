@@ -60,6 +60,7 @@ namespace OEVApp
             generarDVStrings();
             generaraCriptoStrings();
             generarUsuariosStrings();
+            generarBitacoraStrings();
         }
 
         private void cargarComboRol(DevComponents.DotNetBar.Controls.ComboBoxEx comboBoxRol)
@@ -73,6 +74,21 @@ namespace OEVApp
             {
                 comboBoxRol.DataSource = null;
             }
+        }
+
+        private void generarBitacoraStrings()
+        {
+            sideBarPanelBitacora.Text = I18n.obtenerString("InicioAdministrador", "sideBarPanelBitacora");
+            btnItemConsultarB.Text = I18n.obtenerString("InicioAdministrador", "btnItemConsultarB");
+            tabItemConsultarB.Text = I18n.obtenerString("InicioAdministrador", "tabItemConsultarB");
+            groupBoxConsultarB.Text = I18n.obtenerString("InicioAdministrador", "groupBoxConsultarB");
+            radioButtonRolConsularB.Text = I18n.obtenerString("InicioAdministrador", "radioButtonRolConsularB");
+            radioButtonFechaConsultarB.Text = I18n.obtenerString("InicioAdministrador", "radioButtonFechaConsultarB");
+            radioButtonEventoConsultarB.Text = I18n.obtenerString("InicioAdministrador", "radioButtonEventoConsultarB");
+            dataGridViewTextBoxColumnIdConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "dataGridViewTextBoxColumnIdConsultarB");
+            dataGridViewTextBoxColumnRoleConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "dataGridViewTextBoxColumnRoleConsultarB");
+            dataGridViewTextBoxColumnFechaConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "dataGridViewTextBoxColumnFechaConsultarB");
+            dataGridViewTextBoxColumnDetalleConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "dataGridViewTextBoxColumnDetalleConsultarB");
         }
 
         private void generarUsuariosStrings()
@@ -945,6 +961,26 @@ namespace OEVApp
                 txtFiltroC.Visible = false;
                 cmbRolC.Visible = false;
             }
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridViewX1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void radioButtonFechaConsultarB_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

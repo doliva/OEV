@@ -14,6 +14,32 @@ namespace OEVApp
         public Director()
         {
             InitializeComponent();
+            
+        }
+
+        private void timeSelector1_SelectedTimeChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelX3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimeInput1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimeInput2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
