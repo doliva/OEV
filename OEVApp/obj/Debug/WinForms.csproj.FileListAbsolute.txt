@@ -36,3 +36,6 @@ C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVA
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\OEVApp\obj\Debug\WinForms.csproj.GenerateResource.Cache
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\OEVApp\obj\Debug\OEVApp.exe
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\OEVApp\obj\Debug\OEVApp.pdb
+D:\Proyectos\OEV\OEVApp\bin\Debug\OEVApp.exe.config
+D:\Proyectos\OEV\OEVApp\obj\Debug\OEVApp.exe
+D:\Proyectos\OEV\OEVApp\obj\Debug\OEVApp.pdb
