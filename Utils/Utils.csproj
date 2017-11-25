@@ -69,6 +69,7 @@
     <Compile Include="EnumRol.cs" />
     <Compile Include="Constantes.cs" />
     <Compile Include="Excepciones\Excepcion.cs" />
+    <Compile Include="PDFUtil.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -87,6 +88,12 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{448f5a83-c26e-429d-ae4e-b8d7c83db696}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
