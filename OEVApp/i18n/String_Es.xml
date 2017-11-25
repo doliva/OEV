@@ -9,6 +9,8 @@
     <agregar>Agregar</agregar>
     <editar>Editar</editar>
     <consultar>Consultar</consultar>
+    <permitir>Permitir</permitir>
+    <denegar>Denegar</denegar>
     
     <id>Id</id>
     <apellido>Apellido</apellido>
@@ -56,6 +58,20 @@
 
     <ningunRegistro>No se encontraron registros</ningunRegistro>
     <confirmarBaja>El estado inactivo dará de baja al usuario ¿Desea eliminarlo?</confirmarBaja>
+
+    <requerido>El campo {0} es obligatorio</requerido>
+    <elementoNuevo>{0} registrado exitosamente!</elementoNuevo>
+    <elementoActualizado>{0} actualizado exitosamente!</elementoActualizado>
+    <elementoExistente>{0} ya existe</elementoExistente>
+  
+    <funcion>Escriba el nombre de {0} para {1}</funcion>
+    <obtenerTodos>Vacío para obtener todos</obtenerTodos>
+    <editarAdmin>El rol ADMINISTRADOR no puede editarse</editarAdmin>
+  
+    <permitirMsj>Permitir a {0} acceder a {1}</permitirMsj>
+    <permitirMsjPlus>Permisos de acceso de {0} {1} a {2} {3} otorgados</permitirMsjPlus>
+    <denegarMsj>Denegar a {0} acceder a {1}</denegarMsj>
+    <denegarMsjPlus>Permisos de acceso de {0} {1} a {2} {3} denegados</denegarMsjPlus>
   </Mensaje>
 
   <InicioAdministrador>
@@ -99,6 +115,21 @@
     <detalle>Detalle</detalle>
     <fechaHasta>Hasta</fechaHasta>
     <fechaDesde>Desde</fechaDesde>
+
+    <permisos>Permisos</permisos>
+    <funciones>Funciones</funciones>
+    <gestionFunciones>Gestión de Funciones</gestionFunciones>
+    <asignar>Asignar</asignar>
+    <opciones>Opciones</opciones>
+    <seleccionar>Seleccionar</seleccionar>
+    <patente>Patente</patente>
+    <familia>Familia</familia>
+    <estadoPatente>Estado Patente</estadoPatente>
+    <estadoFamilia>Estado Familia</estadoFamilia>
+    <estadoRol>Estado Rol</estadoRol>
+    <a>A</a>
+    <accederA>Acceder a</accederA>
+    <descripcion>Descripción</descripcion>
   </InicioAdministrador>
   
 </Multiidioma>

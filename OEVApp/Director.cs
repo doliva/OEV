@@ -11,10 +11,15 @@ namespace OEVApp
 {
     public partial class Director : DevComponents.DotNetBar.Metro.MetroForm
     {
-        public Director()
+        public Director(string usuario, string idioma)
         {
             InitializeComponent();
             
+        }
+
+        public Director()
+        {
+            // TODO: Complete member initialization
         }
 
         private void timeSelector1_SelectedTimeChanged(object sender, EventArgs e)

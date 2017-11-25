@@ -36,3 +36,27 @@ C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVA
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\OEVApp\obj\Debug\WinForms.csproj.GenerateResource.Cache
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\OEVApp\obj\Debug\OEVApp.exe
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\OEVApp\obj\Debug\OEVApp.pdb
+C:\Projects\OEVApp\OEV\OEVApp\obj\Debug\WinForms.csprojResolveAssemblyReference.cache
+C:\Projects\OEVApp\OEV\OEVApp\obj\Debug\OEVApp.Administrador.resources
+C:\Projects\OEVApp\OEV\OEVApp\obj\Debug\OEVApp.Director.resources
+C:\Projects\OEVApp\OEV\OEVApp\obj\Debug\OEVApp.Login.resources
+C:\Projects\OEVApp\OEV\OEVApp\obj\Debug\OEVApp.Properties.Resources.resources
+C:\Projects\OEVApp\OEV\OEVApp\obj\Debug\WinForms.csproj.GenerateResource.Cache
+C:\Projects\OEVApp\OEV\OEVApp\bin\Debug\OEVApp.exe.config
+C:\Projects\OEVApp\OEV\OEVApp\bin\Debug\OEVApp.exe
+C:\Projects\OEVApp\OEV\OEVApp\bin\Debug\OEVApp.pdb
+C:\Projects\OEVApp\OEV\OEVApp\bin\Debug\BLL.dll
+C:\Projects\OEVApp\OEV\OEVApp\bin\Debug\Entities.dll
+C:\Projects\OEVApp\OEV\OEVApp\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Projects\OEVApp\OEV\OEVApp\bin\Debug\QuickStart.dll
+C:\Projects\OEVApp\OEV\OEVApp\bin\Debug\RadControlSpy.dll
+C:\Projects\OEVApp\OEV\OEVApp\bin\Debug\Seguridad.dll
+C:\Projects\OEVApp\OEV\OEVApp\bin\Debug\Utils.dll
+C:\Projects\OEVApp\OEV\OEVApp\bin\Debug\DAL.dll
+C:\Projects\OEVApp\OEV\OEVApp\bin\Debug\BLL.pdb
+C:\Projects\OEVApp\OEV\OEVApp\bin\Debug\Entities.pdb
+C:\Projects\OEVApp\OEV\OEVApp\bin\Debug\Seguridad.pdb
+C:\Projects\OEVApp\OEV\OEVApp\bin\Debug\Utils.pdb
+C:\Projects\OEVApp\OEV\OEVApp\bin\Debug\DAL.pdb
+C:\Projects\OEVApp\OEV\OEVApp\obj\Debug\OEVApp.exe
+C:\Projects\OEVApp\OEV\OEVApp\obj\Debug\OEVApp.pdb

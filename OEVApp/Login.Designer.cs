@@ -51,11 +51,13 @@
             // 
             // txtUsuario
             // 
+            this.txtUsuario.BackColor = System.Drawing.Color.White;
             // 
             // 
             // 
             this.txtUsuario.Border.Class = "TextBoxBorder";
             this.txtUsuario.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtUsuario.ForeColor = System.Drawing.Color.Black;
             this.txtUsuario.Location = new System.Drawing.Point(118, 71);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(142, 20);
@@ -63,11 +65,13 @@
             // 
             // txtClave
             // 
+            this.txtClave.BackColor = System.Drawing.Color.White;
             // 
             // 
             // 
             this.txtClave.Border.Class = "TextBoxBorder";
             this.txtClave.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtClave.ForeColor = System.Drawing.Color.Black;
             this.txtClave.Location = new System.Drawing.Point(118, 108);
             this.txtClave.Name = "txtClave";
             this.txtClave.PasswordChar = '*';
