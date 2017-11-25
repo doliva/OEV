@@ -8,15 +8,3 @@ C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVA
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\DAL\obj\Debug\DAL.dll
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\DAL\obj\Debug\DAL.pdb
-C:\Projects\OEVApp\OEV\DAL\bin\Debug\DAL.dll.config
-C:\Projects\OEVApp\OEV\DAL\bin\Debug\DAL.dll
-C:\Projects\OEVApp\OEV\DAL\bin\Debug\DAL.pdb
-C:\Projects\OEVApp\OEV\DAL\bin\Debug\Entities.dll
-C:\Projects\OEVApp\OEV\DAL\bin\Debug\Seguridad.dll
-C:\Projects\OEVApp\OEV\DAL\bin\Debug\Utils.dll
-C:\Projects\OEVApp\OEV\DAL\bin\Debug\Entities.pdb
-C:\Projects\OEVApp\OEV\DAL\bin\Debug\Seguridad.pdb
-C:\Projects\OEVApp\OEV\DAL\bin\Debug\Utils.pdb
-C:\Projects\OEVApp\OEV\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
-C:\Projects\OEVApp\OEV\DAL\obj\Debug\DAL.dll
-C:\Projects\OEVApp\OEV\DAL\obj\Debug\DAL.pdb

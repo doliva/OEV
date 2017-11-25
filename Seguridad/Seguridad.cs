@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Security.Cryptography;
-using Base.BLL;
+using Entities;
+using BLL;
+using BLL.IBLL;
 
-namespace Base
+namespace Seguridad
 {
     public class Seguridad : ISeguridad
     {

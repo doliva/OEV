@@ -7,14 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using DevComponents.DotNetBar;
-using Base;
+using Seguridad;
 using BLL.IBLL;
 using BLL;
 using OEVApp.i18n;
+using Utils.Bitacora;
+using Utils.BackupRestoreBD;
 using Utils;
 using Entities;
-using Base.BLL;
-using DevComponents.DotNetBar.Metro;
+using Utils.Excepciones;
 
 namespace OEVApp
 {
@@ -34,12 +35,8 @@ namespace OEVApp
         String MSJ_VERIFICACION_ERRONEA = null;
         String MSJ_VERIFICACION_ERRONEA_TODOS = null;
         String MSJ_USUARIO_VACIO = null;
-        ISeguridad seguridad = new Seguridad();
+        ISeguridad seguridad = new Seguridad.Seguridad();
         IUsuarioBLL usuarioBLL = new UsuarioBLL();
-        IRolBLL rolBLL = new RolBLL();
-        IPatenteBLL patenteBLL = new PatenteBLL();
-        IFamiliaBLL familiaBLL = new FamiliaBLL();
-        IFamiliaPatenteBLL familiaPatenteBLL = new FamiliaPatenteBLL();
         String fecNacInvalida = null;
         String formatoEmail = null;
         String formatoDni = null;
@@ -51,20 +48,12 @@ namespace OEVApp
         String confirmarBaja = null;
         String ningunRegistro = null;
         String codRolM = null;
-        String requerido = null;
-        String elementoNuevo = null;
-        String elementoExistente = null;
-        Usuario usuarioLogueado = null;
-        Rol rolUsrLogueado = null;
         
-        public Administrador(Usuario usuario, string idioma,List<Familia> familiasPermitidas, List<Patente> patentesPermitidas)
+        public Administrador(string usuario, string idioma)
         {
             InitializeComponent();
-            lblUsuarioLogueado.Text = usuario.id + " - " + usuario.nombre + " " + usuario.apellido;
-            this.usuarioLogueado = usuario;
-            rolUsrLogueado = rolBLL.obtenerRolPorId(Convert.ToInt32(usuarioBLL.obtnerRolPorIdUsuario(usuario.id)));
-            cargarFuncionalidades(familiasPermitidas, patentesPermitidas);
-            cargarCombos();
+            lblUsuarioLogueado.Text = usuario;
+            cargarComboRol(comboBoxRol);
             I18n.cargarIdioma((EnumIdioma)Enum.Parse(typeof(EnumIdioma), idioma));
             generarInicioAdministrador();
             generarGestionBDStrings();
@@ -72,127 +61,36 @@ namespace OEVApp
             generaraCriptoStrings();
             generarUsuariosStrings();
             generarBitacoraStrings();
-            generarPermisosStrings();
-           
+
+            cargarComboRol(cmbRolConsultarB);
+            cargarComboEvento(cmbEventoConsultarB);
         }
 
-        public Administrador()
+        private void cargarComboEvento(DevComponents.DotNetBar.Controls.ComboBoxEx comboBox)
         {
-            // TODO: Complete member initialization
+            comboBox.DataSource = Enum.GetValues(typeof(EnumEvento)).Cast<EnumEvento>().ToList();
+            if (comboBox.Items.Count != 0)
+            {
+                string evento = comboBox.SelectedValue.ToString();
+            }
+            else
+            {
+                comboBox.DataSource = null;
+            }
         }
 
-        private void cargarFuncionalidades(List<Familia> familiasPermitidas, List<Patente> patentesPermitidas)
+
+        private void cargarComboRol(DevComponents.DotNetBar.Controls.ComboBoxEx comboBoxRol)
         {
-
-            List<Patente> listaPatentes = patenteBLL.obtenerPatentes();
-            List<Patente> noPermPatentes = listaPatentes.Where(l => !patentesPermitidas.Any(p => l.id == p.id)).ToList();
-            Dictionary<String, BaseItem> patentesItems = new Dictionary<string, BaseItem>();
-            patentesItems.Add("COPIA BD", btnItemBackup);
-            patentesItems.Add("RESTAURAR BD", btnItemRestore);
-            patentesItems.Add("HORIZONTAL", btnItemDVH);
-            patentesItems.Add("VERTICAL", btnItemDVV);
-            patentesItems.Add("AGREGAR USUARIO", btnItemAgregar);
-            patentesItems.Add("EDITAR USUARIO", btnItemEditar);
-            patentesItems.Add("CONSULTAR USUARIO", btnItemConsultar);
-            patentesItems.Add("CONSULTAR BITACORA", btnItemConsultarB);
-            patentesItems.Add("FUNCIONES", btnItemFunc);
-            patentesItems.Add("ASIGNAR", btnItemAsignar);
-            patentesItems.Add("CONSULTAR PERMISOS", btnItemPermConsultar);
-
-            //foreach (String item in patentesItems.Keys)
-            //{
-            //    foreach (Patente pat in noPermPatentes)
-            //    {
-            //        if (item.Contains(pat.descripcion))
-            //            patentesItems[item].Visible = false;
-            //    }
-            //}
-            //////noPermPatentes.ForEach(n => sideBar1.ExpandedPanel.SubItems.Remove(patentesItems[n.descripcion].Name));
-
-            List<Familia> listaFamilias = familiaBLL.obtenerFamilias();
-            List<Familia> noPermFamilias = listaFamilias.Where(l => !familiasPermitidas.Any(f => l.id == f.id)).ToList();          
-            Dictionary<String,SideBarPanelItem> familiasSideBars = new Dictionary<string,SideBarPanelItem>();
-            familiasSideBars.Add("GESTION BD", sideBarPanelBD);
-            familiasSideBars.Add("DIGITO VERIFICADOR", sideBarPanelDV);
-            familiasSideBars.Add("CRIPTOGRAFIA", sideBarPanelCripto);
-            familiasSideBars.Add("GESTION USUARIOS", sideBarPanelUsuario);
-            familiasSideBars.Add("BITACORA", sideBarPanelBitacora);
-            familiasSideBars.Add("PERMISOS", sideBarPanelPermisos);
-
-            //noPermFamilias.ForEach(n => sideBar1.Panels.Remove(familiasSideBars[n.descripcion].Name));
-
-        }
-
-        private void generarPermisosStrings()
-        {
-            sideBarPanelPermisos.Text = I18n.obtenerString("InicioAdministrador", "permisos");
-            btnItemFunc.Text = I18n.obtenerString("InicioAdministrador", "funciones");
-            btnItemAsignar.Text = I18n.obtenerString("InicioAdministrador", "asignar");
-            btnItemPermConsultar.Text = I18n.obtenerString("InicioAdministrador", "consultar");
-            //tab Funciones
-            tabItemFunc.Text = I18n.obtenerString("InicioAdministrador", "funciones");
-            radioGroupABM.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "opciones")).Append(Constantes.DOS_PUNTOS).ToString();
-            radioAgregar.Text = I18n.obtenerString("InicioAdministrador", "agregar");
-            radioEditar.Text = I18n.obtenerString("InicioAdministrador", "editar");
-            radioConsultar.Text = I18n.obtenerString("InicioAdministrador", "consultar");
-            radioGroupPatFam.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "seleccionar")).Append(Constantes.DOS_PUNTOS).ToString();
-            radioPatente.Text = I18n.obtenerString("InicioAdministrador", "patente");
-            radioFamilia.Text = I18n.obtenerString("InicioAdministrador", "familia");
-            radioRol.Text = I18n.obtenerString("InicioAdministrador", "rol");
-            lblFuncGestion.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "gestionFunciones")).Append(Constantes.DOS_PUNTOS).ToString();
-            lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "patente"), I18n.obtenerString("InicioAdministrador", "editar"))).Append(Constantes.DOS_PUNTOS).ToString();
-            lblFuncNombre.Text = new StringBuilder(Constantes.MANDATORY).Append(I18n.obtenerString("InicioAdministrador", "nombre")).Append(Constantes.DOS_PUNTOS).ToString();
-            btnFuncGuardar.Text = I18n.obtenerString("InicioAdministrador", "guardar");
-            btnFuncBuscar.Text = I18n.obtenerString("InicioAdministrador", "buscar");
-            gridFuncionesHeaderPatente.HeaderText = I18n.obtenerString("InicioAdministrador", "patente");
-            gridFuncionesHeaderEstadoPatente.Text = I18n.obtenerString("InicioAdministrador", "estadoPatente");
-            gridFuncionesHeaderFamilia.HeaderText = I18n.obtenerString("InicioAdministrador", "familia");
-            gridFuncionesHeaderEstadoFamilia.Text = I18n.obtenerString("InicioAdministrador", "estadoFamilia");
-            gridFuncionesHeaderRol.HeaderText = I18n.obtenerString("InicioAdministrador", "rol");
-            gridFuncionesHeaderEstadoRol.Text = I18n.obtenerString("InicioAdministrador", "estadoRol");
-            requerido = I18n.obtenerString("Mensaje", "requerido");
-            elementoNuevo = I18n.obtenerString("Mensaje", "elementoNuevo");
-            elementoExistente = I18n.obtenerString("Mensaje", "elementoExistente");
-            //tab Asignar
-            tabItemAsignar.Text = I18n.obtenerString("InicioAdministrador", "asignar");
-            radioGroupOp1.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "a")).Append(Constantes.DOS_PUNTOS).ToString();
-            radioOp1Usuario.Text = I18n.obtenerString("InicioAdministrador", "usuario");
-            radioOp1Rol.Text = I18n.obtenerString("InicioAdministrador", "rol");
-            radioOp1Patente.Text = I18n.obtenerString("InicioAdministrador", "patente");
-            lblPermitir.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "usuario")).Append(Constantes.DOS_PUNTOS).ToString();
-            switchBtn.OnText = I18n.obtenerString("InicioAdministrador", "permitir");
-            switchBtn.OffText = I18n.obtenerString("InicioAdministrador", "denegar");
-            radioGroupOp2.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "accederA")).Append(Constantes.DOS_PUNTOS).ToString();
-            radioOp2Familia.Text = I18n.obtenerString("InicioAdministrador", "familia");
-            radioOp2Patente.Text = I18n.obtenerString("InicioAdministrador", "patente");
-            radioOp2Rol.Text = I18n.obtenerString("InicioAdministrador", "rol");
-            lblAcceder.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "familia")).Append(Constantes.DOS_PUNTOS).ToString();
-            lblDescripcion.ForeColor = Color.Navy;
-            lblDescripcion.Text = String.Format(I18n.obtenerString("Mensaje", "permitirMsj"), I18n.obtenerString("InicioAdministrador", "usuario"), I18n.obtenerString("InicioAdministrador", "familia"));
-            btnAsignarGuardar.Text = I18n.obtenerString("InicioAdministrador", "guardar");
-            //tab Consultar Permisos
-            tabItemPermConsultar.Text = I18n.obtenerString("InicioAdministrador", "consultar");
-            radioGroupAsignar.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "asignar")).Append(Constantes.DOS_PUNTOS).ToString();
-            radioPermCUsuario.Text = I18n.obtenerString("InicioAdministrador", "usuario");
-            radioPermCRol.Text = I18n.obtenerString("InicioAdministrador", "rol");
-            radioPermCPatente.Text = I18n.obtenerString("InicioAdministrador", "patente");
-            radioPermCFamilia.Text = I18n.obtenerString("InicioAdministrador", "familia");
-            btnPermCBuscar.Text = I18n.obtenerString("InicioAdministrador", "buscar");
-            gridPermConsultarHeaderUsuario.Text = I18n.obtenerString("InicioAdministrador", "usuario");
-            gridPermConsultarHeaderRol.Text = I18n.obtenerString("InicioAdministrador", "rol");
-            gridPermConsultarHeaderPatente.Text = I18n.obtenerString("InicioAdministrador", "patente");
-            gridPermConsultarHeaderFamilia.Text = I18n.obtenerString("InicioAdministrador", "familia");
-        }
-
-        private void cargarCombos()
-        {
-            comboBoxRolM.DataSource = rolBLL.obtenerRoles().Where(r => r.estado == true).Select(r => r.descripcion).ToList();
-            cmbEventoConsultarB.DataSource = Enum.GetValues(typeof(EnumEvento)).Cast<EnumEvento>().ToList();
-            cmbRolConsultarB.DataSource = rolBLL.obtenerRoles().Select(r => r.descripcion).ToList();
-            comboBoxRol.DataSource = rolBLL.obtenerRoles().Where(r => r.estado == true).Select(r => r.descripcion).ToList();
-            comboOp1.DataSource = usuarioBLL.obtenerUsuarios().Where(u => u.estado == true).Select(u => u.apellido + "" + u.nombre + " - DNI: " + u.dni).ToList();
-            comboOp2.DataSource = familiaBLL.obtenerFamilias().Where(f => f.estado == true).Select(f => f.descripcion).ToList();
-            comboPermC.DataSource = usuarioBLL.obtenerUsuarios().Where(u => u.estado == true).Select(u => u.apellido + "" + u.nombre + " - DNI: " + u.dni).ToList();
+            comboBoxRol.DataSource = Enum.GetValues(typeof(EnumRol)).Cast<EnumRol>().ToList();
+            if (comboBoxRol.Items.Count != 0)
+            {
+                string rol = comboBoxRol.SelectedValue.ToString();
+            }
+            else
+            {
+                comboBoxRol.DataSource = null;
+            }
         }
 
         private void generarBitacoraStrings()
@@ -204,7 +102,7 @@ namespace OEVApp
             radioButtonRolConsularB.Text = I18n.obtenerString("InicioAdministrador", "rol");
             radioButtonFechaConsultarB.Text = I18n.obtenerString("InicioAdministrador", "fecha");
             radioButtonEventoConsultarB.Text = I18n.obtenerString("InicioAdministrador", "evento");
-            //dataGridViewTextBoxColumnIdConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "id");
+            dataGridViewTextBoxColumnIdConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "id");
             dataGridViewTextBoxColumnRoleConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "rol");
             dataGridViewTextBoxColumnFechaConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "fecha");
             dataGridViewTextBoxColumnDetalleConsultarB.HeaderText = I18n.obtenerString("InicioAdministrador", "detalle");
@@ -219,8 +117,8 @@ namespace OEVApp
             sideBarPanelUsuario.Text = I18n.obtenerString("InicioAdministrador", "usuarios");
             btnItemAgregar.Text = I18n.obtenerString("InicioAdministrador", "agregar");
             tabItemAgregar.Text = I18n.obtenerString("InicioAdministrador", "agregar");
-            btnItemEditar.Text = I18n.obtenerString("InicioAdministrador", "editar");
-            tabItemEditar.Text = I18n.obtenerString("InicioAdministrador", "editar");
+            btnItemModificar.Text = I18n.obtenerString("InicioAdministrador", "editar");
+            tabItemModificar.Text = I18n.obtenerString("InicioAdministrador", "editar");
             btnItemConsultar.Text = I18n.obtenerString("InicioAdministrador", "consultar");
             tabItemConsultar.Text = I18n.obtenerString("InicioAdministrador", "consultar");
             generarAgregarUsuariosStrings();
@@ -292,9 +190,6 @@ namespace OEVApp
             gridConsultaUsuario.Columns["HEmail"].HeaderText = I18n.obtenerString("InicioAdministrador", "email");
             gridConsultaUsuario.Columns["HRol"].HeaderText = I18n.obtenerString("InicioAdministrador", "rol");
             gridConsultaUsuario.Columns["HEstado"].HeaderText = I18n.obtenerString("InicioAdministrador", "estado");
-            gridConsultaUsuario.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
-            gridConsultaUsuario.AutoResizeRows(DataGridViewAutoSizeRowsMode.DisplayedCells);
-            gridConsultaUsuario.AutoSize = true;
 
         }
 
@@ -367,7 +262,7 @@ namespace OEVApp
             try
             {
                 BackupRestoreBLL.obtenerRestore(rutaRestore);
-                bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.RESTORE_BD, "Ruta de restore: " + rutaRestore);
+                bitacora = new Bitacora(Convert.ToInt16(lblUsuarioLogueado.Text), Constantes.ROL_ADMINISTRADOR, DateTime.Now, Constantes.RESTORE_BD, "Ruta de restore: " + rutaRestore);
                 BitacoraBLL.registrarBitacora(bitacora);
                 MessageBox.Show(MSJ_RESTORE_EXITOSO, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 lblValorRutaRestore.Text = "";
@@ -376,7 +271,7 @@ namespace OEVApp
             }
             catch (Excepcion ne)
             {
-                bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.EXCEPCION_BLL_RESTORE, ne.ToString());
+                bitacora = new Bitacora(Convert.ToInt16(lblUsuarioLogueado.Text), Constantes.ROL_ADMINISTRADOR, DateTime.Now, Constantes.EXCEPCION_BLL_RESTORE, ne.ToString());
                 BitacoraBLL.registrarBitacora(bitacora);
                 MessageBox.Show(MSJ_RESTORE_ERROR, msjError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -384,122 +279,87 @@ namespace OEVApp
 
         private void sideBarPanelBD_Click(object sender, EventArgs e)
         {
-            //superTabCtrol.Visible = true;
-            //tabItemBackup.Visible = true;
-            //tabItemRestore.Visible = true;
-            //tabItemDVH.Visible = false;
-            //tabItemDVV.Visible = false;
-            //tabItemCripto.Visible = false;
-            //tabItemAgregar.Visible = false;
-            //tabItemEditar.Visible = false;
-            //tabItemConsultar.Visible = false;
-            //tabItemConsultarB.Visible = false;
-            //tabItemFunc.Visible = false;
-            //tabItemAsignar.Visible = false;
-            //tabItemPermConsultar.Visible = false;
-            //superTabCtrol.SelectedTab = tabItemBackup;
-        }
-
-        private void btnItemBackup_Click(object sender, EventArgs e)
-        {
-            if (btnItemRestore.Visible == false)
-                tabItemRestore.Visible = false;
             superTabCtrol.Visible = true;
             tabItemBackup.Visible = true;
-            //tabItemRestore.Visible = true;
-            tabItemDVH.Visible = false;
-            tabItemDVV.Visible = false;
-            tabItemCripto.Visible = false;
-            tabItemAgregar.Visible = false;
-            tabItemEditar.Visible = false;
-            tabItemConsultar.Visible = false;
-            tabItemConsultarB.Visible = false;
-            tabItemFunc.Visible = false;
-            tabItemAsignar.Visible = false;
-            tabItemPermConsultar.Visible = false;
-            superTabCtrol.SelectedTab = tabItemBackup;
-            limpiarCampos();
-        }
-
-        private void btnItemRestore_Click(object sender, EventArgs e)
-        {
-            if (btnItemBackup.Visible == false)
-                tabItemBackup.Visible = false;
-            superTabCtrol.Visible = true;
-            //tabItemBackup.Visible = true;
             tabItemRestore.Visible = true;
             tabItemDVH.Visible = false;
             tabItemDVV.Visible = false;
             tabItemCripto.Visible = false;
             tabItemAgregar.Visible = false;
-            tabItemEditar.Visible = false;
+            tabItemModificar.Visible = false;
             tabItemConsultar.Visible = false;
             tabItemConsultarB.Visible = false;
-            tabItemFunc.Visible = false;
-            tabItemAsignar.Visible = false;
-            tabItemPermConsultar.Visible = false;
+            superTabCtrol.SelectedTab = tabItemBackup;
+        }
+
+        private void btnItemBackup_Click(object sender, EventArgs e)
+        {
+            superTabCtrol.Visible = true;
+            tabItemBackup.Visible = true;
+            tabItemRestore.Visible = true;
+            tabItemDVH.Visible = false;
+            tabItemDVV.Visible = false;
+            tabItemCripto.Visible = false;
+            tabItemAgregar.Visible = false;
+            tabItemModificar.Visible = false;
+            tabItemConsultar.Visible = false;
+            superTabCtrol.SelectedTab = tabItemBackup;
+        }
+
+        private void btnItemRestore_Click(object sender, EventArgs e)
+        {
+            superTabCtrol.Visible = true;
+            tabItemBackup.Visible = true;
+            tabItemRestore.Visible = true;
+            tabItemDVH.Visible = false;
+            tabItemDVV.Visible = false;
+            tabItemCripto.Visible = false;
+            tabItemAgregar.Visible = false;
+            tabItemModificar.Visible = false;
+            tabItemConsultar.Visible = false;
             superTabCtrol.SelectedTab = tabItemRestore;
-            limpiarCampos();
         }
 
         private void sideBarPanelDV_Click(object sender, EventArgs e)
         {
-            //superTabCtrol.Visible = true;
-            //tabItemDVH.Visible = true;
-            //tabItemDVV.Visible = true;
-            //tabItemBackup.Visible = false;
-            //tabItemRestore.Visible = false;
-            //tabItemCripto.Visible = false;
-            //tabItemAgregar.Visible = false;
-            //tabItemEditar.Visible = false;
-            //tabItemConsultar.Visible = false;
-            //tabItemConsultarB.Visible = false;
-            //tabItemFunc.Visible = false;
-            //tabItemAsignar.Visible = false;
-            //tabItemPermConsultar.Visible = false;
-            //superTabCtrol.SelectedTab = tabItemDVH;
+            superTabCtrol.Visible = true;
+            tabItemDVH.Visible = true;
+            tabItemDVV.Visible = true;
+            tabItemBackup.Visible = false;
+            tabItemRestore.Visible = false;
+            tabItemCripto.Visible = false;
+            tabItemAgregar.Visible = false;
+            tabItemModificar.Visible = false;
+            tabItemConsultar.Visible = false;
+            tabItemConsultarB.Visible = false;
+            superTabCtrol.SelectedTab = tabItemDVH;
         }
 
         private void btnItemDVH_Click(object sender, EventArgs e)
         {
-            if (btnItemDVV.Visible == false)
-                tabItemDVV.Visible = false;
             superTabCtrol.Visible = true;
             tabItemDVH.Visible = true;
-            //tabItemDVV.Visible = true;
-            tabItemCripto.Visible = false;
+            tabItemDVV.Visible = true;
             tabItemBackup.Visible = false;
             tabItemRestore.Visible = false;
             tabItemAgregar.Visible = false;
-            tabItemEditar.Visible = false;
+            tabItemModificar.Visible = false;
             tabItemConsultar.Visible = false;
-            tabItemConsultarB.Visible = false;
-            tabItemFunc.Visible = false;
-            tabItemAsignar.Visible = false;
-            tabItemPermConsultar.Visible = false;
             superTabCtrol.SelectedTab = tabItemDVH;
             limpiarCampos();
         }
 
         private void btnItemDVV_Click(object sender, EventArgs e)
         {
-            if (btnItemDVH.Visible == false)
-                tabItemDVH.Visible = false;
             superTabCtrol.Visible = true;
-            //tabItemDVH.Visible = true;
+            tabItemDVH.Visible = true;
             tabItemDVV.Visible = true;
-            tabItemCripto.Visible = false;
             tabItemBackup.Visible = false;
             tabItemRestore.Visible = false;
             tabItemAgregar.Visible = false;
-            tabItemEditar.Visible = false;
+            tabItemModificar.Visible = false;
             tabItemConsultar.Visible = false;
-            tabItemConsultarB.Visible = false;
-            tabItemFunc.Visible = false;
-            tabItemAsignar.Visible = false;
-            tabItemPermConsultar.Visible = false;
             superTabCtrol.SelectedTab = tabItemDVV;
-            limpiarCampos();
         }
 
         private void sideBarPanelCripto_Click(object sender, EventArgs e)
@@ -511,33 +371,27 @@ namespace OEVApp
             tabItemDVH.Visible = false;
             tabItemDVV.Visible = false;
             tabItemAgregar.Visible = false;
-            tabItemEditar.Visible = false;
+            tabItemModificar.Visible = false;
             tabItemConsultar.Visible = false;
             tabItemConsultarB.Visible = false;
-            tabItemFunc.Visible = false;
-            tabItemAsignar.Visible = false;
-            tabItemPermConsultar.Visible = false;
             superTabCtrol.SelectedTab = tabItemCripto;
             limpiarCampos();
         }
 
         private void sideBarPanelUsuario_Click(object sender, EventArgs e)
         {
-            //superTabCtrol.Visible = true;
-            //tabItemAgregar.Visible = true;
-            //tabItemEditar.Visible = true;
-            //tabItemConsultar.Visible = true;
-            //tabItemCripto.Visible = false;
-            //tabItemBackup.Visible = false;
-            //tabItemRestore.Visible = false;
-            //tabItemDVH.Visible = false;
-            //tabItemDVV.Visible = false;
-            //tabItemConsultarB.Visible = false;
-            //tabItemFunc.Visible = false;
-            //tabItemAsignar.Visible = false;
-            //tabItemPermConsultar.Visible = false;
-            //superTabCtrol.SelectedTab = tabItemAgregar;
-            //limpiarCampos();
+            superTabCtrol.Visible = true;
+            tabItemAgregar.Visible = true;
+            tabItemModificar.Visible = true;
+            tabItemConsultar.Visible = true;
+            tabItemCripto.Visible = false;
+            tabItemBackup.Visible = false;
+            tabItemRestore.Visible = false;
+            tabItemDVH.Visible = false;
+            tabItemDVV.Visible = false;
+            tabItemConsultarB.Visible = false;
+            superTabCtrol.SelectedTab = tabItemAgregar;
+            limpiarCampos();
         }
 
         private void btnRutaBackup_Click(object sender, EventArgs e)
@@ -566,7 +420,7 @@ namespace OEVApp
                 String backup = BackupRestoreBLL.crearBackup(rutaBackup);
                 //string detalle = "Ruta de backup: " + rutaBackup + "\\" + backup;
                 string detalle = rutaBackup;
-                bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.BACKUP_BD, detalle);
+                bitacora = new Bitacora(Convert.ToInt16(lblUsuarioLogueado.Text), Constantes.ROL_ADMINISTRADOR, DateTime.Now, Constantes.BACKUP_BD, detalle);
                 BitacoraBLL.registrarBitacora(bitacora);
                 MessageBox.Show(MSJ_BACKUP_EXITOSO + rutaBackup + "\\" + backup, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 rutaBackup = "";
@@ -575,7 +429,7 @@ namespace OEVApp
             }
             catch (Excepcion ne)
             {
-                bitacora = new Bitacora(usuarioLogueado.id, usuarioBLL.obtnerRolPorIdUsuario(Convert.ToInt32(lblUsuarioLogueado.Text)), DateTime.Now.Date, Constantes.EXCEPCION_BLL_BACKUP, ne.ToString());
+                bitacora = new Bitacora(Convert.ToInt16(lblUsuarioLogueado.Text), Constantes.ROL_ADMINISTRADOR, DateTime.Now, Constantes.EXCEPCION_BLL_BACKUP, ne.ToString());
                 BitacoraBLL.registrarBitacora(bitacora);
                 MessageBox.Show(MSJ_BACKUP_ERROR, msjError, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -624,7 +478,7 @@ namespace OEVApp
                         MessageBox.Show(MSJ_VERIFICACION_EXITOSA, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     else
                     {
-                        bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.DVH, "Error en legajo: " + txtUsuarioDVH.Text);
+                        bitacora = new Bitacora(Convert.ToInt16(lblUsuarioLogueado.Text), Constantes.ROL_ADMINISTRADOR, DateTime.Now, Constantes.DVH, "Error en legajo: " + txtUsuarioDVH.Text);
                         BitacoraBLL.registrarBitacora(bitacora);
                         MessageBox.Show(MSJ_VERIFICACION_ERRONEA, msjError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
@@ -646,9 +500,9 @@ namespace OEVApp
                     String legajos = "";
                     foreach (Usuario usr in listaUsuarios)
                     {
-                        legajos = +usr.id + " - ";
+                        legajos = +usr.idUsuario + " - ";
                     }
-                    bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.DVH, "Error en legajos: " + legajos);
+                    bitacora = new Bitacora(Convert.ToInt16(lblUsuarioLogueado.Text), Constantes.ROL_ADMINISTRADOR, DateTime.Now, Constantes.DVH, "Error en legajos: " + legajos);
                     BitacoraBLL.registrarBitacora(bitacora);
                     MessageBox.Show(MSJ_VERIFICACION_ERRONEA_TODOS + legajos, msjError, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
@@ -709,7 +563,7 @@ namespace OEVApp
             Login login = new Login();
             login.Show();
             this.Hide();
-            Bitacora bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.LOGOUT, "");
+            Bitacora bitacora = new Bitacora(Convert.ToInt16(lblUsuarioLogueado.Text), Constantes.ROL_ADMINISTRADOR, DateTime.Now, Constantes.LOGOUT, "");
             BitacoraBLL.registrarBitacora(bitacora);
         }
 
@@ -727,7 +581,7 @@ namespace OEVApp
                 usuario.estado = true;
                 usuario.nombre = txtNombre.Text;
                 usuario.telefono = txtTelefono.Text;
-                //usuario.idRol = rolBLL.obtenerRolPorDesc(this.comboBoxRol.SelectedItem.ToString()).id;
+                usuario.rol = this.comboBoxRol.SelectedItem.ToString();
 
                 String cadena = usuario.estado.ToString() + usuario.email.ToString() + usuario.clave;
                 usuario.digitoVerificador = seguridad.generarSHA(cadena);
@@ -741,11 +595,8 @@ namespace OEVApp
                         DialogResult siNoRes = MessageBox.Show(confirmar, msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                         if (siNoRes.Equals(DialogResult.Yes))
                         {
-                            usuario.id = usuarioBLL.agregarUsuario(usuario);
-                            //Asocia al nuevo usuario con el rol seleccionado
-                            Rol rol = rolBLL.obtenerRolPorDesc(this.comboBoxRol.SelectedItem.ToString());
-                            rol.Agregar(usuario);
-                            mensaje = String.Format(msjNuevo, usuario.apellido, usuario.nombre, usuario.id);
+                            usuario.idUsuario = usuarioBLL.agregarUsuario(usuario);
+                            mensaje = String.Format(msjNuevo, usuario.apellido, usuario.nombre, usuario.idUsuario);
                             MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                             limpiarCampos();
                         }
@@ -758,7 +609,7 @@ namespace OEVApp
                 }
                 catch (Exception ex)
                 {
-                    Bitacora bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.EXCEPCION_BLL_INS + "Usuario", ex.ToString());
+                    Bitacora bitacora = new Bitacora(Convert.ToInt16(lblUsuarioLogueado.Text), Constantes.ROL_ADMINISTRADOR, DateTime.Now, Constantes.EXCEPCION_BLL_INS + "Usuario", ex.ToString());
                     BitacoraBLL.registrarBitacora(bitacora);
                 }
             }
@@ -774,12 +625,11 @@ namespace OEVApp
             txtEmail.Text = "";
             txtTelefono.Text = "";
             dateFecNac.Value = new DateTime();
-            comboBoxRol.DataSource = rolBLL.obtenerRoles().Where(r => r.estado == true).Select(r => r.descripcion).ToList();
+            comboBoxRol.DataSource = Enum.GetValues(typeof(EnumRol)).Cast<EnumRol>().ToList();
             txtResCripto.Text = "";
             txtTextoCripto.Text = "";
             txtUsuarioDVH.Text = "";
             txtFiltro.Text = "";
-            txtFuncNombre.Text = "";
         }
 
         private Boolean verificarCamposRequeridos(String txtNom, String txtApe, String txtDni, String txtEmail)
@@ -816,14 +666,6 @@ namespace OEVApp
 
         private void btnItemAgregar_Click(object sender, EventArgs e)
         {
-            if (btnItemEditar.Visible == false)
-                tabItemEditar.Visible = false;
-            else if (tabItemEditar.Visible == true)
-                tabItemEditar.Visible = true;
-            if (btnItemConsultar.Visible == false)
-                tabItemConsultar.Visible = false;
-            else if (btnItemConsultar.Visible == true)
-                tabItemConsultar.Visible = true;
             superTabCtrol.Visible = true;
             tabItemDVH.Visible = false;
             tabItemDVV.Visible = false;
@@ -831,40 +673,24 @@ namespace OEVApp
             tabItemRestore.Visible = false;
             tabItemCripto.Visible = false;
             tabItemAgregar.Visible = true;
-            //tabItemEditar.Visible = true;
-            //tabItemConsultar.Visible = true;
-            tabItemConsultarB.Visible = false;
-            tabItemFunc.Visible = false;
-            tabItemAsignar.Visible = false;
-            tabItemPermConsultar.Visible = false;
+            tabItemModificar.Visible = true;
+            tabItemConsultar.Visible = true;
             superTabCtrol.SelectedTab = tabItemAgregar;
             limpiarCampos();
         }
 
         private void btnItemModificar_Click(object sender, EventArgs e)
         {
-            if (btnItemAgregar.Visible == false)
-                tabItemAgregar.Visible = false;
-            else if (btnItemAgregar.Visible == true)
-                tabItemAgregar.Visible = true;
-            if (btnItemConsultar.Visible == false)
-                tabItemConsultar.Visible = false;
-            else if (btnItemConsultar.Visible == true)
-                tabItemConsultar.Visible = true;
             superTabCtrol.Visible = true;
             tabItemDVH.Visible = false;
             tabItemDVV.Visible = false;
             tabItemBackup.Visible = false;
             tabItemRestore.Visible = false;
             tabItemCripto.Visible = false;
-            //tabItemAgregar.Visible = true;
-            tabItemEditar.Visible = true;
-            //tabItemConsultar.Visible = true;
-            tabItemConsultarB.Visible = false;
-            tabItemFunc.Visible = false;
-            tabItemAsignar.Visible = false;
-            tabItemPermConsultar.Visible = false;
-            superTabCtrol.SelectedTab = tabItemEditar;
+            tabItemAgregar.Visible = true;
+            tabItemModificar.Visible = true;
+            tabItemConsultar.Visible = true;
+            superTabCtrol.SelectedTab = tabItemModificar;
             ocultarCampos();
             limpiarCampos();
         }
@@ -937,13 +763,14 @@ namespace OEVApp
             }
             if (usuario != null)
             {
-                txtIdM.Text = usuario.id.ToString();
+                txtIdM.Text = usuario.idUsuario.ToString();
                 txtApellidoM.Text = usuario.apellido;
                 txtNombreM.Text = usuario.nombre;
                 txtDniM.Text = usuario.dni;
                 dateFecNacM.Text = usuario.fecNac.ToShortDateString();
-                comboBoxRolM.DataSource = rolBLL.obtenerRoles().Where(r => r.estado == true).Select(r => r.descripcion).ToList();
-                comboBoxRolM.SelectedItem = usuarioBLL.obtnerRolPorIdUsuario(usuario.id);
+                comboBoxRolM.DataSource = Enum.GetValues(typeof(EnumRol)).Cast<EnumRol>().ToList();
+                codRolM = usuario.rol;
+                comboBoxRolM.SelectedItem = (EnumRol)Enum.Parse(typeof(EnumRol), codRolM);
                 txtDireccionM.Text = usuario.domicilio;
                 txtCiudadM.Text = usuario.ciudad;
                 txtTelefonoM.Text = usuario.telefono;
@@ -961,11 +788,12 @@ namespace OEVApp
         private void btnGuardarM_click(object sender, EventArgs e)
         {
             if(verificarCamposRequeridos(txtNombreM.Text, txtApellidoM.Text, txtDniM.Text, txtEmailM.Text)){
-                Usuario usuario = new Usuario(Int32.Parse(txtIdM.Text));
+                Usuario usuario = new Usuario();
+                usuario.idUsuario = Int32.Parse(txtIdM.Text);
                 usuario.apellido = txtApellidoM.Text;
                 usuario.nombre = txtNombreM.Text;
                 usuario.fecNac = dateFecNacM.Value;
-                //usuario.idRol = rolBLL.obtenerRolPorDesc(codRolM).id;
+                usuario.rol = codRolM;
                 usuario.domicilio = txtDireccionM.Text;
                 usuario.ciudad = txtCiudadM.Text;
                 usuario.telefono = txtTelefonoM.Text;
@@ -982,28 +810,16 @@ namespace OEVApp
                         if (siNoBaja.Equals(DialogResult.Yes))
                         {
                             usuarioBLL.actualizarUsuario(usuario);
-                            Bitacora bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.BAJA_USUARIO, "Usuario: " + usuario.id);
+                            Bitacora bitacora = new Bitacora(Convert.ToInt16(lblUsuarioLogueado.Text), Constantes.ROL_ADMINISTRADOR, DateTime.Now, Constantes.BAJA_USUARIO, "Usuario: " + usuario.idUsuario);
                             BitacoraBLL.registrarBitacora(bitacora);
                         }
                     }else{
                         DialogResult siNoRes = MessageBox.Show(confirmar, msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                         if (siNoRes.Equals(DialogResult.Yes))
-                        {
-                            Rol nuevoRol = rolBLL.obtenerRolPorId(rolBLL.obtenerRolPorDesc(codRolM).id);
-                            Usuario viejoUsr = usuarioBLL.obtenerUsuarioPorId(usuario.id);
-                            Rol viejoRol = rolBLL.obtenerRolPorId(viejoUsr.idRol);
-                            if (nuevoRol.id != viejoRol.id)
-                            {
-                                //Asocia al usuario con el nuevo rol seleccionado
-                                nuevoRol.Agregar(usuario);
-                                //Elimina la asociacion del usuario con el rol anterior
-                                viejoRol.Eliminar(viejoUsr);
-                            }
                             usuarioBLL.actualizarUsuario(usuario);
-                        }
                     }
                 }catch(Exception ex){
-                    Bitacora bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.EXCEPCION_BLL_UPD + " usuario", ex.ToString());
+                    Bitacora bitacora = new Bitacora(Convert.ToInt16(lblUsuarioLogueado.Text), Constantes.ROL_ADMINISTRADOR, DateTime.Now, Constantes.EXCEPCION_BLL_UPD + " usuario", ex.ToString());
                     BitacoraBLL.registrarBitacora(bitacora);
                 }
             }
@@ -1024,11 +840,8 @@ namespace OEVApp
             tabItemCripto.Visible = false;
             tabItemConsultarB.Visible = false;
             tabItemAgregar.Visible = true;
-            tabItemEditar.Visible = true;
+            tabItemModificar.Visible = true;
             tabItemConsultar.Visible = true;
-            tabItemFunc.Visible = false;
-            tabItemAsignar.Visible = false;
-            tabItemPermConsultar.Visible = false;
             superTabCtrol.SelectedTab = tabItemAgregar;
             limpiarCampos();
         }
@@ -1042,40 +855,26 @@ namespace OEVApp
             tabItemRestore.Visible = false;
             tabItemCripto.Visible = false;
             tabItemAgregar.Visible = true;
-            tabItemEditar.Visible = true;
+            tabItemModificar.Visible = true;
             tabItemConsultar.Visible = true;
             tabItemConsultarB.Visible = false;
-            tabItemFunc.Visible = false;
-            tabItemAsignar.Visible = false;
-            tabItemPermConsultar.Visible = false;
-            superTabCtrol.SelectedTab = tabItemEditar;
+            superTabCtrol.SelectedTab = tabItemModificar;
             ocultarCampos();
             limpiarCampos();
         }
 
         private void btnItemConsultar_Click(object sender, EventArgs e)
         {
-            if (btnItemAgregar.Visible == false)
-                tabItemAgregar.Visible = false;
-            else if (btnItemAgregar.Visible == true)
-                tabItemAgregar.Visible = true;
-            if (btnItemEditar.Visible == false)
-                tabItemEditar.Visible = false;
-            else if (btnItemEditar.Visible == true)
-                btnItemEditar.Visible = true;
             superTabCtrol.Visible = true;
             tabItemDVH.Visible = false;
             tabItemDVV.Visible = false;
             tabItemBackup.Visible = false;
             tabItemRestore.Visible = false;
             tabItemCripto.Visible = false;
-            //tabItemAgregar.Visible = true;
-            //tabItemEditar.Visible = true;
+            tabItemAgregar.Visible = true;
+            tabItemModificar.Visible = true;
             tabItemConsultar.Visible = true;
             tabItemConsultarB.Visible = false;
-            tabItemFunc.Visible = false;
-            tabItemAsignar.Visible = false;
-            tabItemPermConsultar.Visible = false;
             superTabCtrol.SelectedTab = tabItemConsultar;
             limpiarCampos();
             gridConsultaUsuario.Visible = false;
@@ -1091,12 +890,9 @@ namespace OEVApp
             tabItemRestore.Visible = false;
             tabItemCripto.Visible = false;
             tabItemAgregar.Visible = true;
-            tabItemEditar.Visible = true;
+            tabItemModificar.Visible = true;
             tabItemConsultar.Visible = true;
             tabItemConsultarB.Visible = false;
-            tabItemFunc.Visible = false;
-            tabItemAsignar.Visible = false;
-            tabItemPermConsultar.Visible = false;
             superTabCtrol.SelectedTab = tabItemConsultar;
             limpiarCampos();
             gridConsultaUsuario.Visible = false;
@@ -1135,7 +931,7 @@ namespace OEVApp
                 for (int i = 0; i < usrList.Count; i++)
                 {
                     gridConsultaUsuario.Rows.Add(1);
-                    gridConsultaUsuario.Rows[i].Cells["hId"].Value = usrList[i].id.ToString();
+                    gridConsultaUsuario.Rows[i].Cells["hId"].Value = usrList[i].idUsuario.ToString();
                     gridConsultaUsuario.Rows[i].Cells["hApellido"].Value = usrList[i].apellido;
                     gridConsultaUsuario.Rows[i].Cells["hNombre"].Value = usrList[i].nombre;
                     gridConsultaUsuario.Rows[i].Cells["hDni"].Value = usrList[i].dni;
@@ -1144,7 +940,7 @@ namespace OEVApp
                     gridConsultaUsuario.Rows[i].Cells["hCiudad"].Value = usrList[i].ciudad;
                     gridConsultaUsuario.Rows[i].Cells["hTelefono"].Value = usrList[i].telefono;
                     gridConsultaUsuario.Rows[i].Cells["hEmail"].Value = usrList[i].email;
-                    gridConsultaUsuario.Rows[i].Cells["hRol"].Value = usuarioBLL.obtnerRolPorIdUsuario(usrList[i].id);
+                    gridConsultaUsuario.Rows[i].Cells["hRol"].Value = usrList[i].rol;
                     gridConsultaUsuario.Rows[i].Cells["hEstado"].Value = usrList[i].estado;
                     gridConsultaUsuario.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
                 }
@@ -1184,7 +980,7 @@ namespace OEVApp
             if(radioRolC.Checked)
             {
                 txtFiltroC.Visible = false;
-                cmbRolC.DataSource = rolBLL.obtenerRoles().Select(r => r.descripcion).ToList();
+                cmbRolC.DataSource = Enum.GetValues(typeof(EnumRol)).Cast<EnumRol>().ToList();
                 cmbRolC.Visible = true;
                 gridConsultaUsuario.Visible = false;
             }
@@ -1199,6 +995,17 @@ namespace OEVApp
                 gridConsultaUsuario.Visible = false;
             }
         }
+
+        private void dataGridViewX1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void labelX1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void radioRolConsultarB_Click(object sender, EventArgs e)
         {
             cmbEventoConsultarB.Visible = false;
@@ -1221,12 +1028,9 @@ namespace OEVApp
             tabItemRestore.Visible = false;
             tabItemCripto.Visible = false;
             tabItemAgregar.Visible = false;
-            tabItemEditar.Visible = false;
+            tabItemModificar.Visible = false;
             tabItemConsultar.Visible = false;
             tabItemConsultarB.Visible = true;
-            tabItemFunc.Visible = false;
-            tabItemAsignar.Visible = false;
-            tabItemPermConsultar.Visible = false;
             superTabCtrol.SelectedTab = tabItemConsultarB;
 
             radioButtonEventoConsultarB.Checked = true;
@@ -1265,21 +1069,20 @@ namespace OEVApp
 
         private void sideBarPanelBitacora_Click(object sender, EventArgs e)
         {
-            //superTabCtrol.Visible = true;
+            superTabCtrol.Visible = true;
 
-            //tabItemDVH.Visible = false;
-            //tabItemDVV.Visible = false;
-            //tabItemCripto.Visible = false;
-            //tabItemAgregar.Visible = false;
-            //tabItemEditar.Visible = false;
-            //tabItemConsultar.Visible = false;
-            //tabItemBackup.Visible = false;
-            //tabItemRestore.Visible = false;
-            //tabItemConsultarB.Visible = true;
-            //tabItemFunc.Visible = false;
-            //tabItemAsignar.Visible = false;
-            //tabItemPermConsultar.Visible = false;
-            //superTabCtrol.SelectedTab = tabItemConsultarB;
+            tabItemDVH.Visible = false;
+            tabItemDVV.Visible = false;
+            tabItemCripto.Visible = false;
+            tabItemAgregar.Visible = false;
+            tabItemModificar.Visible = false;
+            tabItemConsultar.Visible = false;
+            tabItemBackup.Visible = false;
+            tabItemRestore.Visible = false;
+
+            tabItemConsultarB.Visible = true;
+            
+            superTabCtrol.SelectedTab = tabItemConsultarB;
 
         }
 
@@ -1306,18 +1109,15 @@ namespace OEVApp
             if (listaBitacoras != null && listaBitacoras.Count > 0)
             {
                 dataConsultarB.Visible = true;
-                dataConsultarB.Rows.Clear();
                 for (int i = 0; i < listaBitacoras.Count; i++)
                 {
                     dataConsultarB.Rows.Add(1);
-                    //dataConsultarB.Rows[i].Cells["dataGridViewTextBoxColumnIdConsultarB"].Value = listaBitacoras[i].idBitacora.ToString();
+                    dataConsultarB.Rows[i].Cells["dataGridViewTextBoxColumnIdConsultarB"].Value = listaBitacoras[i].idBitacora.ToString();
                     dataConsultarB.Rows[i].Cells["dataGridViewTextBoxColumnRoleConsultarB"].Value = listaBitacoras[i].rol;
                     dataConsultarB.Rows[i].Cells["dataGridViewTextBoxColumnEventoConsultarB"].Value = listaBitacoras[i].evento;
-                    dataConsultarB.Rows[i].Cells["dataGridViewTextBoxColumnFechaConsultarB"].Value = listaBitacoras[i].fecha.Date.ToLongDateString();
+                    dataConsultarB.Rows[i].Cells["dataGridViewTextBoxColumnFechaConsultarB"].Value = listaBitacoras[i].fecha;
                     dataConsultarB.Rows[i].Cells["dataGridViewTextBoxColumnDetalleConsultarB"].Value = listaBitacoras[i].detalle;
                     dataConsultarB.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
-                    dataConsultarB.AutoResizeRows(DataGridViewAutoSizeRowsMode.DisplayedCells);
-                    dataConsultarB.AutoSize = true;
                 }
             }
             else
@@ -1329,945 +1129,5 @@ namespace OEVApp
            
         }
 
-        private void sideBarPanelPermisos_Click(object sender, EventArgs e)
-        {
-            //superTabCtrol.Visible = true;
-            //tabItemAgregar.Visible = false;
-            //tabItemEditar.Visible = false;
-            //tabItemConsultar.Visible = false;
-            //tabItemCripto.Visible = false;
-            //tabItemBackup.Visible = false;
-            //tabItemRestore.Visible = false;
-            //tabItemDVH.Visible = false;
-            //tabItemDVV.Visible = false;
-            //tabItemConsultarB.Visible = false;
-            //tabItemFunc.Visible = true;
-            //tabItemAsignar.Visible = true;
-            //tabItemPermConsultar.Visible = true;
-            //superTabCtrol.SelectedTab = tabItemFunc;
-            //limpiarCampos();
-        }
-
-        private void btnItemFunc_Click(object sender, EventArgs e)
-        {
-            if (btnItemAsignar.Visible == false)
-                tabItemAsignar.Visible = false;
-            if (btnItemPermConsultar.Visible == false)
-                tabItemPermConsultar.Visible = false;
-            superTabCtrol.Visible = true;
-            tabItemDVH.Visible = false;
-            tabItemDVV.Visible = false;
-            tabItemBackup.Visible = false;
-            tabItemRestore.Visible = false;
-            tabItemCripto.Visible = false;
-            tabItemAgregar.Visible = false;
-            tabItemEditar.Visible = false;
-            tabItemConsultar.Visible = false;
-            tabItemConsultarB.Visible = false;
-            tabItemFunc.Visible = true;
-            //tabItemAsignar.Visible = true;
-            //tabItemPermConsultar.Visible = true;
-            superTabCtrol.SelectedTab = tabItemFunc;
-            limpiarCampos();
-        }
-
-        private void btnItemAsignar_Click(object sender, EventArgs e)
-        {
-            if (btnItemFunc.Visible == false)
-                tabItemFunc.Visible = false;
-            if (btnItemPermConsultar.Visible == false)
-                tabItemPermConsultar.Visible = false;
-            superTabCtrol.Visible = true;
-            tabItemDVH.Visible = false;
-            tabItemDVV.Visible = false;
-            tabItemBackup.Visible = false;
-            tabItemRestore.Visible = false;
-            tabItemCripto.Visible = false;
-            tabItemAgregar.Visible = false;
-            tabItemEditar.Visible = false;
-            tabItemConsultar.Visible = false;
-            tabItemConsultarB.Visible = false;
-            //tabItemFunc.Visible = true;
-            tabItemAsignar.Visible = true;
-            //tabItemPermConsultar.Visible = true;
-            superTabCtrol.SelectedTab = tabItemAsignar;
-            limpiarCampos();
-        }
-
-        private void btnItemPermCons_Click(object sender, EventArgs e)
-        {
-            if (btnItemAsignar.Visible == false)
-                tabItemAsignar.Visible = false;
-            if (btnItemFunc.Visible == false)
-                tabItemFunc.Visible = false;
-            superTabCtrol.Visible = true;
-            tabItemDVH.Visible = false;
-            tabItemDVV.Visible = false;
-            tabItemBackup.Visible = false;
-            tabItemRestore.Visible = false;
-            tabItemCripto.Visible = false;
-            tabItemAgregar.Visible = false;
-            tabItemEditar.Visible = false;
-            tabItemConsultar.Visible = false;
-            tabItemConsultarB.Visible = false;
-            //tabItemFunc.Visible = true;
-            //tabItemAsignar.Visible = true;
-            tabItemPermConsultar.Visible = true;
-            superTabCtrol.SelectedTab = tabItemPermConsultar;
-            limpiarCampos();
-        }
-
-        private void radioFuncAgregar_Click(object sender, EventArgs e)
-        {
-            limpiarCampos();
-            if (radioAgregar.Checked)
-            {
-                lblFuncTodos.Visible = false;
-                if (radioPatente.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "patente"), I18n.obtenerString("InicioAdministrador", "agregar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                else if (radioFamilia.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "familia"), I18n.obtenerString("InicioAdministrador", "agregar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                else if (radioRol.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "rol"), I18n.obtenerString("InicioAdministrador", "agregar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                btnFuncBuscar.Visible = false;
-                //btnFuncGuardar.Location = new Point(btnFuncBuscar.Location.X, btnFuncBuscar.Location.Y);
-                btnFuncGuardar.Visible = true;
-                gridFunciones.Visible = false;
-            }
-        }
-
-        private void radioFuncEditar_Click(object sender, EventArgs e)
-        {
-            limpiarCampos();
-            if (radioEditar.Checked)
-            {
-                lblFuncTodos.Visible = false;
-                if (radioPatente.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "patente"), I18n.obtenerString("InicioAdministrador", "editar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                else if (radioFamilia.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "familia"), I18n.obtenerString("InicioAdministrador", "editar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                else if (radioRol.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "rol"), I18n.obtenerString("InicioAdministrador", "editar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                //btnFuncBuscar.Location = new Point(btnFuncGuardar.Location.X, btnFuncGuardar.Location.Y);
-                btnFuncBuscar.Visible = true;
-                //btnFuncGuardar.Location = new Point(btnFuncBuscar.Location.X + 130, btnFuncBuscar.Location.Y);
-                btnFuncGuardar.Visible = true;
-                gridFunciones.Visible = false;
-            }
-        }
-
-        private void radioFuncConsultar_Click(object sender, EventArgs e)
-        {
-            limpiarCampos();
-            if (radioConsultar.Checked)
-            {
-                lblFuncTodos.Visible = true;
-                lblFuncTodos.Text = I18n.obtenerString("Mensaje", "obtenerTodos");
-                if (radioPatente.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "patente"), I18n.obtenerString("InicioAdministrador", "consultar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                    
-                else if (radioFamilia.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "familia"), I18n.obtenerString("InicioAdministrador", "consultar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                else if (radioRol.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "rol"), I18n.obtenerString("InicioAdministrador", "consultar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                    btnFuncGuardar.Visible = false;
-                    //btnFuncBuscar.Location = new Point(355, 20);
-                    btnFuncBuscar.Visible = true;
-                    gridFunciones.Visible = false;
-            }
-
-        }
-
-        private void btnFuncBuscar_Click(object sender, EventArgs e)
-        {
-            if (radioConsultar.Checked && radioPatente.Checked)
-                buscarPatente(Constantes.CONSULTAR);
-            else if (radioConsultar.Checked && radioFamilia.Checked)
-                buscarFamilia(Constantes.CONSULTAR);
-            else if (radioConsultar.Checked && radioRol.Checked)
-                buscarRol(Constantes.CONSULTAR);
-            else if (radioEditar.Checked && radioPatente.Checked)
-                buscarPatente(Constantes.EDITAR);
-            else if (radioEditar.Checked && radioFamilia.Checked)
-                buscarFamilia(Constantes.EDITAR);
-            else if (radioEditar.Checked && radioRol.Checked)
-                buscarRol(Constantes.EDITAR);
-        }
-
-        private void buscarRol(String accion)
-        {
-            if (!String.IsNullOrEmpty(txtFuncNombre.Text) && (Constantes.CONSULTAR == accion || Constantes.EDITAR == accion))
-            {
-                Rol rol = rolBLL.obtenerRolPorDesc(txtFuncNombre.Text.ToUpper());
-                if (rol == null)
-                {
-                    MessageBox.Show(ningunRegistro, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                        gridFunciones.Visible = true;
-                        gridFunciones.Rows.Clear();
-                        gridFunciones.Rows.Add(1);
-                        gridFunciones.Columns["gridFuncionesHeaderPatente"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoPatente"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderFamilia"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoFamilia"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderRol"].Visible = true;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoRol"].Visible = true;
-                        gridFunciones.Rows[0].Cells["gridFuncionesHeaderRol"].Value = rol.descripcion;
-                        gridFunciones.Rows[0].Cells["gridFuncionesHeaderEstadoRol"].Value = rol.estado;
-                        gridFunciones.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
-                        gridFunciones.AutoResizeRows(DataGridViewAutoSizeRowsMode.DisplayedCells);
-                        gridFunciones.AutoSize = true;
-                        gridFunciones.EditMode = DataGridViewEditMode.EditOnEnter;
-                        gridFunciones.Columns["gridFuncionesHeaderRol"].ReadOnly = false;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoRol"].ReadOnly = false;
-                }
-            }
-            else if (String.IsNullOrEmpty(txtFuncNombre.Text) && Constantes.CONSULTAR == accion)
-            {
-                List<Rol> listaRoles = rolBLL.obtenerRoles();
-                if (listaRoles.Count > 0)
-                {
-                    gridFunciones.Rows.Clear();
-                    for (int i = 0; i < listaRoles.Count; i++)
-                    {
-                            gridFunciones.Visible = true;
-
-                            gridFunciones.Rows.Add(1);
-                            gridFunciones.Columns["gridFuncionesHeaderPatente"].Visible = false;
-                            gridFunciones.Columns["gridFuncionesHeaderEstadoPatente"].Visible = false;
-                            gridFunciones.Columns["gridFuncionesHeaderFamilia"].Visible = false;
-                            gridFunciones.Columns["gridFuncionesHeaderEstadoFamilia"].Visible = false;
-                            gridFunciones.Columns["gridFuncionesHeaderRol"].Visible = true;
-                            gridFunciones.Columns["gridFuncionesHeaderEstadoRol"].Visible = true;
-                            gridFunciones.Rows[i].Cells["gridFuncionesHeaderRol"].Value = listaRoles[i].descripcion;
-                            gridFunciones.Rows[i].Cells["gridFuncionesHeaderEstadoRol"].Value = listaRoles[i].estado;
-                            gridFunciones.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
-                            gridFunciones.AutoResizeRows(DataGridViewAutoSizeRowsMode.DisplayedCells);
-                            gridFunciones.AutoSize = true;
-                    }
-                }
-            }
-            else if (String.IsNullOrEmpty(txtFuncNombre.Text) && Constantes.EDITAR == accion)
-                MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "funcion"), Constantes.ROL, Constantes.EDITAR), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
-        private void buscarFamilia(String accion)
-        {
-            if (!String.IsNullOrEmpty(txtFuncNombre.Text) && (Constantes.CONSULTAR == accion || Constantes.EDITAR == accion))
-            {
-                Familia familia = familiaBLL.obtenerFamiliaPorDesc(txtFuncNombre.Text.ToUpper());
-                if (familia == null)
-                {
-                    MessageBox.Show(ningunRegistro, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                        gridFunciones.Visible = true;
-                        gridFunciones.Rows.Clear();
-                        gridFunciones.Rows.Add(1);
-                        gridFunciones.Columns["gridFuncionesHeaderRol"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoRol"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderPatente"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoPatente"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderFamilia"].Visible = true;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoFamilia"].Visible = true;
-                        gridFunciones.Rows[0].Cells["gridFuncionesHeaderFamilia"].Value = familia.descripcion;
-                        gridFunciones.Rows[0].Cells["gridFuncionesHeaderEstadoFamilia"].Value = familia.estado;
-                        gridFunciones.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
-                        gridFunciones.AutoResizeRows(DataGridViewAutoSizeRowsMode.DisplayedCells);
-                        gridFunciones.AutoSize = true;
-                        gridFunciones.EditMode = DataGridViewEditMode.EditOnEnter;
-                        gridFunciones.Columns["gridFuncionesHeaderFamilia"].ReadOnly = false;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoFamilia"].ReadOnly = false;
-                }
-            }
-            else if (String.IsNullOrEmpty(txtFuncNombre.Text) && Constantes.CONSULTAR == accion)
-            {
-                List<Familia> listaFamilias = familiaBLL.obtenerFamilias();
-                if (listaFamilias.Count > 0)
-                {
-                    gridFunciones.Rows.Clear();
-                    for (int i = 0; i < listaFamilias.Count; i++)
-                    {
-                            gridFunciones.Visible = true;
-
-                            gridFunciones.Rows.Add(1);
-                            gridFunciones.Columns["gridFuncionesHeaderRol"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoRol"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderPatente"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoPatente"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderFamilia"].Visible = true;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoFamilia"].Visible = true;
-                            gridFunciones.Rows[i].Cells["gridFuncionesHeaderFamilia"].Value = listaFamilias[i].descripcion;
-                            gridFunciones.Rows[i].Cells["gridFuncionesHeaderEstadoFamilia"].Value = listaFamilias[i].estado;
-                            gridFunciones.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
-                            gridFunciones.AutoResizeRows(DataGridViewAutoSizeRowsMode.DisplayedCells);
-                           gridFunciones.AutoSize = true;
-                    }
-                }else
-                    MessageBox.Show(ningunRegistro, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else if (String.IsNullOrEmpty(txtFuncNombre.Text) && Constantes.EDITAR == accion)
-                MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "funcion"), Constantes.FAMILIA, Constantes.EDITAR), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
-        private void buscarPatente(String accion)
-        {
-            if (!String.IsNullOrEmpty(txtFuncNombre.Text) && (Constantes.CONSULTAR==accion || Constantes.EDITAR==accion))
-            {
-                    Patente patente = patenteBLL.obtenerPatentePorDesc(txtFuncNombre.Text.ToUpper());
-                    if (patente == null)
-                    {
-                        MessageBox.Show(ningunRegistro, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                    else
-                    {
-                        gridFunciones.Visible = true;
-                        gridFunciones.Rows.Clear();
-                        gridFunciones.Rows.Add(1);
-                        gridFunciones.Columns["gridFuncionesHeaderRol"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoRol"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderFamilia"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoFamilia"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderPatente"].Visible = true;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoPatente"].Visible = true;
-                        gridFunciones.Rows[0].Cells["gridFuncionesHeaderPatente"].Value = patente.descripcion;
-                        gridFunciones.Rows[0].Cells["gridFuncionesHeaderEstadoPatente"].Value = patente.estado;
-                        gridFunciones.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
-                        gridFunciones.AutoResizeRows(DataGridViewAutoSizeRowsMode.DisplayedCells);
-                        gridFunciones.AutoSize = true;
-                        gridFunciones.EditMode = DataGridViewEditMode.EditOnEnter;
-                        gridFunciones.Columns["gridFuncionesHeaderPatente"].ReadOnly = false;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoPatente"].ReadOnly = false;
-                    }
-            }
-            else if (String.IsNullOrEmpty(txtFuncNombre.Text) && Constantes.CONSULTAR==accion)
-            {
-                List<Patente> listaPatentes = patenteBLL.obtenerPatentes();
-                if (listaPatentes.Count > 0)
-                {
-                    gridFunciones.Rows.Clear();
-                    for (int i = 0; i < listaPatentes.Count; i++)
-                    {
-                        gridFunciones.Visible = true; 
-                        gridFunciones.Rows.Add(1);
-                        gridFunciones.Columns["gridFuncionesHeaderRol"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoRol"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderFamilia"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoFamilia"].Visible = false;
-                        gridFunciones.Columns["gridFuncionesHeaderPatente"].Visible = true;
-                        gridFunciones.Columns["gridFuncionesHeaderEstadoPatente"].Visible = true;
-                        gridFunciones.Rows[i].Cells["gridFuncionesHeaderPatente"].Value = listaPatentes[i].descripcion;
-                        gridFunciones.Rows[i].Cells["gridFuncionesHeaderEstadoPatente"].Value = listaPatentes[i].estado;
-                        gridFunciones.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
-                        gridFunciones.AutoResizeRows(DataGridViewAutoSizeRowsMode.DisplayedCells);
-                        gridFunciones.AutoSize = true;
-                    }
-                }else
-                    MessageBox.Show(ningunRegistro, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-            } else if (String.IsNullOrEmpty(txtFuncNombre.Text) && Constantes.EDITAR == accion)
-                MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "funcion"), Constantes.PATENTE, Constantes.EDITAR), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
-        private void btnFuncGuardar_Click(object sender, EventArgs e)
-        {
-
-            if (radioAgregar.Checked && radioPatente.Checked)
-                guardarPatente(Constantes.AGREGAR);
-            else if (radioAgregar.Checked && radioFamilia.Checked)
-                guardarFamilia(Constantes.AGREGAR);
-            else if (radioAgregar.Checked && radioRol.Checked)
-                guardarRol(Constantes.AGREGAR);
-            else if(radioEditar.Checked && radioPatente.Checked)
-                guardarPatente(Constantes.EDITAR);
-            else if (radioAgregar.Checked && radioFamilia.Checked)
-                guardarFamilia(Constantes.EDITAR);
-            else if (radioAgregar.Checked && radioRol.Checked)
-                guardarRol(Constantes.EDITAR);
-        }
-
-        private void guardarRol(String accion)
-        {
-            String mensaje = null;
-            String campoRequerido = null;
-            if (!String.IsNullOrEmpty(txtFuncNombre.Text))
-            {
-                if(txtFuncNombre.Text==Constantes.ADMINISTRADOR)
-                    MessageBox.Show(I18n.obtenerString("Mensaje", "editarAdmin"), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                Rol rol = new Rol();
-                rol.descripcion = txtFuncNombre.Text.ToUpper();
-                rol.estado = true;
-                try
-                {
-                    Rol rolRes = rolBLL.obtenerRolPorDesc(rol.descripcion);
-                    if (rolRes == null && Constantes.AGREGAR == accion)
-                    {
-                        DialogResult siNoRes = MessageBox.Show(confirmar, msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                        if (siNoRes.Equals(DialogResult.Yes))
-                        {
-                            int res = rolBLL.agregarRol(rol);
-                            mensaje = String.Format(elementoNuevo, "Rol " + rol.descripcion + " ");
-                            MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            limpiarCampos();
-                        }
-                    }
-                    else if (rolRes != null && Constantes.AGREGAR == accion)
-                    {
-                        mensaje = String.Format(elementoExistente, "Rol " + rolRes.descripcion + " ");
-                        MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                    }
-                    else if (rolRes != null && Constantes.EDITAR == accion)
-                    {
-                        rolRes.descripcion = gridFunciones.Rows[0].Cells["gridFuncionesHeaderRol"].Value.ToString().ToUpper();
-                        rolRes.estado = Boolean.Parse(gridFunciones.Rows[0].Cells["gridFuncionesHeaderEstadoRol"].Value.ToString());
-                        rolBLL.actualizarRol(rolRes);
-                        MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "elementoActualizado"), Constantes.ROL), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                    limpiarCampos();
-                }
-                catch (Exception ex)
-                {
-                    Bitacora bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.EXCEPCION_BLL_INS + " Rol", ex.ToString());
-                    BitacoraBLL.registrarBitacora(bitacora);
-                }
-            }
-            else
-            {
-                campoRequerido = String.Format(requerido, "Nombre");
-                MessageBox.Show(campoRequerido, msjError, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
-        }
-
-        private void guardarFamilia(String accion)
-        {
-            String mensaje = null;
-            String campoRequerido = null;
-            if (!String.IsNullOrEmpty(txtFuncNombre.Text))
-            {
-                Familia familia = new Familia();
-                familia.descripcion = txtFuncNombre.Text.ToUpper();
-                familia.estado = true;
-                try
-                {
-                    Familia famRes = familiaBLL.obtenerFamiliaPorDesc(familia.descripcion);
-                    if (famRes == null  && Constantes.AGREGAR == accion)
-                    {
-                        DialogResult siNoRes = MessageBox.Show(confirmar, msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                        if (siNoRes.Equals(DialogResult.Yes))
-                        {
-                            int res = familiaBLL.agregarFamilia(familia);
-                            mensaje = String.Format(elementoNuevo, "Familia " + familia.descripcion + " ");
-                            MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            limpiarCampos();
-                        }
-                    } else if (famRes != null && Constantes.AGREGAR == accion)
-                    {
-                        mensaje = String.Format(elementoExistente, "Familia " + famRes.descripcion + " ");
-                        MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                    else if (famRes != null && Constantes.EDITAR == accion){
-                        famRes.descripcion = gridFunciones.Rows[0].Cells["gridFuncionesHeaderFamilia"].Value.ToString().ToUpper();
-                        famRes.estado = Boolean.Parse(gridFunciones.Rows[0].Cells["gridFuncionesHeaderEstadoFamilia"].Value.ToString());
-                        familiaBLL.actualizarFamilia(famRes);
-                        MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "elementoActualizado"), Constantes.FAMILIA), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                    limpiarCampos();
-                } 
-                catch (Exception ex)
-                {
-                    Bitacora bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.EXCEPCION_BLL_INS + " Familia", ex.ToString());
-                    BitacoraBLL.registrarBitacora(bitacora);
-                }
-            }
-            else
-            {
-                campoRequerido = String.Format(requerido, "Nombre");
-                MessageBox.Show(campoRequerido, msjError, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
-        }
-
-        private void guardarPatente(String accion)
-        {
-            String mensaje = null;
-            String campoRequerido = null;
-            if (!String.IsNullOrEmpty(txtFuncNombre.Text))
-            {
-                Patente patente = new Patente();
-                patente.descripcion = txtFuncNombre.Text.ToUpper();
-                patente.estado = true;
-                try
-                {
-                    Patente patRes = patenteBLL.obtenerPatentePorDesc(patente.descripcion);
-                    if (patRes == null && Constantes.AGREGAR == accion)
-                    {
-                        DialogResult siNoRes = MessageBox.Show(confirmar, msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                        if (siNoRes.Equals(DialogResult.Yes))
-                        {
-                            int res = patenteBLL.agregarPatente(patente);
-                            mensaje = String.Format(elementoNuevo, "Patente " + patente.descripcion + " ");
-                            MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            limpiarCampos();
-                        }
-                    }
-                    else if (patRes != null && Constantes.AGREGAR == accion)
-                    {
-                        mensaje = String.Format(elementoExistente, "Patente " + patRes.descripcion + " ");
-                        MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                    else if (patRes != null && Constantes.EDITAR == accion)
-                    {
-                        patRes.descripcion = gridFunciones.Rows[0].Cells["gridFuncionesHeaderPatente"].Value.ToString().ToUpper();
-                        patRes.estado = Boolean.Parse(gridFunciones.Rows[0].Cells["gridFuncionesHeaderEstadoPatente"].Value.ToString());
-                        patenteBLL.actualizarPatente(patRes);
-                        MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "elementoActualizado"), Constantes.PATENTE), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                    limpiarCampos();
-                }
-                catch (Exception ex)
-                {
-                    Bitacora bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.EXCEPCION_BLL_INS + " Patente", ex.ToString());
-                    BitacoraBLL.registrarBitacora(bitacora);
-                }
-            }
-            else
-            {
-                campoRequerido = String.Format(requerido, "Nombre");
-                MessageBox.Show(campoRequerido, msjError, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
-        }
-
-        private void radioFuncPatente_Click(object sender, EventArgs e)
-        {
-            obtenerMensajeFuncion();
-        }
-
-        private void obtenerMensajeFuncion()
-        {
-            if (radioConsultar.Checked)
-            {
-                lblFuncTodos.Visible = true;
-                lblFuncTodos.Text = I18n.obtenerString("Mensaje", "obtenerTodos");
-                if (radioPatente.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "patente"), I18n.obtenerString("InicioAdministrador", "consultar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                else if (radioFamilia.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "familia"), I18n.obtenerString("InicioAdministrador", "consultar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                else if (radioRol.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "rol"), I18n.obtenerString("InicioAdministrador", "consultar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                btnFuncGuardar.Visible = false;
-                btnFuncBuscar.Visible = true;
-                gridFunciones.Visible = false;
-            }
-            else if (radioEditar.Checked)
-            {
-                lblFuncTodos.Visible = false;
-                if (radioPatente.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "patente"), I18n.obtenerString("InicioAdministrador", "editar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                else if (radioFamilia.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "familia"), I18n.obtenerString("InicioAdministrador", "editar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                else if (radioRol.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "rol"), I18n.obtenerString("InicioAdministrador", "editar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                //btnFuncBuscar.Location = new Point(355, 20);
-                btnFuncBuscar.Visible = true;
-                //btnFuncGuardar.Location = new Point(355, 63);
-                btnFuncGuardar.Visible = true;
-                gridFunciones.Visible = false;
-            }
-            else if (radioAgregar.Checked)
-            {
-                lblFuncTodos.Visible = false;
-                if (radioPatente.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "patente"), I18n.obtenerString("InicioAdministrador", "agregar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                else if (radioFamilia.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "familia"), I18n.obtenerString("InicioAdministrador", "agregar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                else if (radioRol.Checked)
-                    lblFuncInfo.Text = new StringBuilder(String.Format(I18n.obtenerString("Mensaje", "funcion"), I18n.obtenerString("InicioAdministrador", "rol"), I18n.obtenerString("InicioAdministrador", "agregar"))).Append(Constantes.DOS_PUNTOS).ToString();
-                btnFuncBuscar.Visible = false;
-                btnFuncGuardar.Visible = true;
-                gridFunciones.Visible = false;
-            }
-        }
-
-        private void radioFuncFamilia_Click(object sender, EventArgs e)
-        {
-            obtenerMensajeFuncion();
-        }
-
-        private void radioFuncRol_Click(object sender, EventArgs e)
-        {
-            obtenerMensajeFuncion();
-        }
-
-        private void radioAsigUsuario_Click(object sender, EventArgs e)
-        {
-            radioOp2Patente.Visible = true;
-            radioOp2Rol.Visible = false;
-            lblPermitir.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "usuario")).Append(Constantes.DOS_PUNTOS).ToString();
-            comboOp1.DataSource = usuarioBLL.obtenerUsuarios().Where(u => u.estado == true).Select(u => u.apellido + " " + u.nombre + " - DNI: " + u.dni).ToList();
-            obtenerMensajeAsignar();
-            if (radioOp2Familia.Checked)
-            {
-                lblAcceder.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "familia")).Append(Constantes.DOS_PUNTOS).ToString();
-                comboOp2.DataSource = familiaBLL.obtenerFamilias().Where(f => f.estado == true).Select(f => f.descripcion).ToList();
-            }
-            else if (radioOp2Patente.Checked)
-            {
-                lblAcceder.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "patente")).Append(Constantes.DOS_PUNTOS).ToString();
-                comboOp2.DataSource = patenteBLL.obtenerPatentes().Where(p => p.estado == true).Select(p => p.descripcion).ToList();
-            }
-            //else if (radioOp2Rol.Checked)
-            //    comboAcceder.DataSource = rolBLL.obtenerRoles().Select(r => r.descripcion).ToList();
-        }
-
-        private void radioAsigRol_Click(object sender, EventArgs e)
-        {
-            radioOp2Rol.Visible = false;
-            radioOp2Familia.Checked = true;
-            radioOp2Patente.Visible = true;
-            lblPermitir.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "rol")).Append(Constantes.DOS_PUNTOS).ToString();
-            comboOp1.DataSource = rolBLL.obtenerRoles().Where(r => r.estado == true).Select(r => r.descripcion).ToList();
-            obtenerMensajeAsignar();
-            if (radioOp2Familia.Checked)
-            {
-                lblAcceder.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "familia")).Append(Constantes.DOS_PUNTOS).ToString();
-                comboOp2.DataSource = familiaBLL.obtenerFamilias().Where(f => f.estado == true).Select(f => f.descripcion).ToList();
-            }
-            else if (radioOp2Patente.Checked)
-            {
-                lblAcceder.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "patente")).Append(Constantes.DOS_PUNTOS).ToString();
-                comboOp2.DataSource = patenteBLL.obtenerPatentes().Where(p => p.estado == true).Select(p => p.descripcion).ToList();
-            }
-        }
-
-        private void radioAsigPatente_Click(object sender, EventArgs e)
-        {
-            radioOp2Familia.Checked = true;
-            radioOp2Patente.Visible = false;
-            radioOp2Rol.Visible = false;
-            lblPermitir.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "patente")).Append(Constantes.DOS_PUNTOS).ToString();
-            comboOp1.DataSource = patenteBLL.obtenerPatentes().Where(p => p.estado == true).Select(p => p.descripcion).ToList();
-            obtenerMensajeAsignar();
-            if (radioOp2Familia.Checked)
-            {
-                lblAcceder.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "familia")).Append(Constantes.DOS_PUNTOS).ToString();
-                comboOp2.DataSource = familiaBLL.obtenerFamilias().Where(f => f.estado == true).Select(f => f.descripcion).ToList();
-            }
-            else if (radioOp2Rol.Checked)
-            {
-                lblAcceder.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "rol")).Append(Constantes.DOS_PUNTOS).ToString();
-                comboOp2.DataSource = rolBLL.obtenerRoles().Where(r => r.estado == true).Select(r => r.descripcion).ToList();
-            }
-        }
-
-        private void radioAFamilia_Click(object sender, EventArgs e)
-        {
-            lblAcceder.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "familia")).Append(Constantes.DOS_PUNTOS).ToString();
-            comboOp2.DataSource = familiaBLL.obtenerFamilias().Where(f => f.estado == true).Select(f => f.descripcion).ToList();
-            obtenerMensajeAsignar();
-        }
-
-        private void radioAPatente_Click(object sender, EventArgs e)
-        {
-            if (radioOp1Patente.Checked)
-                radioOp2Patente.Visible = false;
-            comboOp2.DataSource = patenteBLL.obtenerPatentes().Where(p => p.estado == true).Select(p => p.descripcion).ToList();
-            lblAcceder.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "patente")).Append(Constantes.DOS_PUNTOS).ToString();
-            obtenerMensajeAsignar();
-        }
-
-        private void radioARol_Click(object sender, EventArgs e)
-        {
-            if (radioOp1Rol.Checked)
-                radioOp2Rol.Visible = false;
-            else if (radioOp1Usuario.Checked)
-                radioOp2Rol.Visible = false;
-            comboOp2.DataSource = rolBLL.obtenerRoles().Where(r => r.estado == true).Select(r => r.descripcion).ToList();
-            lblAcceder.Text = new StringBuilder(I18n.obtenerString("InicioAdministrador", "rol")).Append(Constantes.DOS_PUNTOS).ToString();
-            obtenerMensajeAsignar();
-        }
-
-        private void obtenerMensajeAsignar()
-        {
-            lblDescripcion.ForeColor = Color.Navy;
-            if (radioOp1Usuario.Checked && radioOp2Familia.Checked && switchBtn.Value)
-                lblDescripcion.Text = String.Format(I18n.obtenerString("Mensaje", "permitirMsj"), I18n.obtenerString("InicioAdministrador", "usuario"), I18n.obtenerString("InicioAdministrador", "familia"));
-            else if (radioOp1Usuario.Checked && radioOp2Patente.Checked && switchBtn.Value)
-                lblDescripcion.Text = String.Format(I18n.obtenerString("Mensaje", "permitirMsj"), I18n.obtenerString("InicioAdministrador", "usuario"), I18n.obtenerString("InicioAdministrador", "patente"));
-            else if (radioOp1Rol.Checked && radioOp2Familia.Checked && switchBtn.Value)
-                lblDescripcion.Text = String.Format(I18n.obtenerString("Mensaje", "permitirMsj"), I18n.obtenerString("InicioAdministrador", "rol"), I18n.obtenerString("InicioAdministrador", "familia"));
-            else if (radioOp1Rol.Checked && radioOp2Patente.Checked && switchBtn.Value)
-                lblDescripcion.Text = String.Format(I18n.obtenerString("Mensaje", "permitirMsj"), I18n.obtenerString("InicioAdministrador", "rol"), I18n.obtenerString("InicioAdministrador", "patente"));
-            else if (radioOp1Patente.Checked && radioOp2Familia.Checked && switchBtn.Value)
-                lblDescripcion.Text = String.Format(I18n.obtenerString("Mensaje", "permitirMsj"), I18n.obtenerString("InicioAdministrador", "patente"), I18n.obtenerString("InicioAdministrador", "familia"));
-            else if (radioOp1Usuario.Checked && radioOp2Familia.Checked && !switchBtn.Value)
-                lblDescripcion.Text = String.Format(I18n.obtenerString("Mensaje", "denegarMsj"), I18n.obtenerString("InicioAdministrador", "usuario"), I18n.obtenerString("InicioAdministrador", "familia"));
-            else if (radioOp1Usuario.Checked && radioOp2Patente.Checked && !switchBtn.Value)
-                lblDescripcion.Text = String.Format(I18n.obtenerString("Mensaje", "denegarMsj"), I18n.obtenerString("InicioAdministrador", "usuario"), I18n.obtenerString("InicioAdministrador", "patente"));
-            else if (radioOp1Rol.Checked && radioOp2Familia.Checked && !switchBtn.Value)
-                lblDescripcion.Text = String.Format(I18n.obtenerString("Mensaje", "denegarMsj"), I18n.obtenerString("InicioAdministrador", "rol"), I18n.obtenerString("InicioAdministrador", "familia"));
-            else if (radioOp1Rol.Checked && radioOp2Patente.Checked && !switchBtn.Value)
-                lblDescripcion.Text = String.Format(I18n.obtenerString("Mensaje", "denegarMsj"), I18n.obtenerString("InicioAdministrador", "rol"), I18n.obtenerString("InicioAdministrador", "patente"));
-            else if (radioOp1Patente.Checked && radioOp2Familia.Checked && !switchBtn.Value)
-                lblDescripcion.Text = String.Format(I18n.obtenerString("Mensaje", "denegarMsj"), I18n.obtenerString("InicioAdministrador", "patente"), I18n.obtenerString("InicioAdministrador", "familia"));
-        }
-
-        private void btnAsigGuardar_click(object sender, EventArgs e)
-        {
-            try
-            {
-                    //permitir accesos
-                    if (radioOp1Usuario.Checked && radioOp2Familia.Checked && switchBtn.Value)
-                    {
-                       String dni = comboOp1.SelectedItem.ToString().Split(new string[] { " - DNI: " }, StringSplitOptions.None)[1];
-                       Usuario usuario = usuarioBLL.obtenerUsuarioPorDni(dni);
-                       Familia familia = familiaBLL.obtenerFamiliaPorDesc(comboOp2.SelectedItem.ToString());
-                        DialogResult siNoRes = MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "permitirMsj"), I18n.obtenerString("InicioAdministrador", "usuario") + " "+ usuario.apellido.ToUpper() + " " + usuario.nombre.ToUpper(), I18n.obtenerString("InicioAdministrador", "familia") + " " + familia.descripcion + Constantes.INTERROGATION),
-                            msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                        if (siNoRes.Equals(DialogResult.Yes))
-                        {
-                            usuario.PermitirAcceso(familia);
-                            MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "permitirMsjPlus"), I18n.obtenerString("InicioAdministrador", "usuario"), usuario.apellido + " " + usuario.nombre, I18n.obtenerString("InicioAdministrador", "familia"), familia.descripcion)
-                                , msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        }
-                    }
-                    else if (radioOp1Usuario.Checked && radioOp2Patente.Checked && switchBtn.Value)
-                    {
-                        String dni = comboOp1.SelectedItem.ToString().Split(new string[] { " - DNI: " }, StringSplitOptions.None)[1];
-                        Usuario usuario = usuarioBLL.obtenerUsuarioPorDni(dni);
-                        Patente patente = patenteBLL.obtenerPatentePorDesc(comboOp2.SelectedItem.ToString());
-                        DialogResult siNoRes = MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "permitirMsj"), I18n.obtenerString("InicioAdministrador", "usuario") + " "+ usuario.apellido.ToUpper() + " " + usuario.nombre.ToUpper(), I18n.obtenerString("InicioAdministrador", "patente") + " " + patente.descripcion + Constantes.INTERROGATION),
-                            msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                        if (siNoRes.Equals(DialogResult.Yes))
-                        {
-                            usuario.PermitirAcceso(patente);
-                            MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "permitirMsjPlus"), I18n.obtenerString("InicioAdministrador", "usuario"), usuario.apellido + " " + usuario.nombre, I18n.obtenerString("InicioAdministrador", "patente"), patente.descripcion),
-                                msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        }
-                        }
-                    else if (radioOp1Rol.Checked && radioOp2Familia.Checked && switchBtn.Value)
-                    {
-                        Familia familia = familiaBLL.obtenerFamiliaPorDesc(comboOp2.SelectedItem.ToString());
-                        Rol rol = rolBLL.obtenerRolPorDesc(comboOp1.SelectedItem.ToString());
-                         DialogResult siNoRes = MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "permitirMsj"), I18n.obtenerString("InicioAdministrador", "rol") + " "+ rol.descripcion, I18n.obtenerString("InicioAdministrador", "familia") + " " + familia.descripcion + Constantes.INTERROGATION),
-                            msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                         if (siNoRes.Equals(DialogResult.Yes))
-                         {
-                             rol.PermitirAcceso(familia);
-                             MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "permitirMsjPlus"), I18n.obtenerString("InicioAdministrador", "rol"), rol.descripcion, I18n.obtenerString("InicioAdministrador", "familia"), familia.descripcion),
-                                 msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                         }
-                    }
-                    else if (radioOp1Rol.Checked && radioOp2Patente.Checked && switchBtn.Value)
-                    {
-                        Patente patente = patenteBLL.obtenerPatentePorDesc(comboOp2.SelectedItem.ToString());
-                        Rol rol = rolBLL.obtenerRolPorDesc(comboOp1.SelectedItem.ToString());
-                         DialogResult siNoRes = MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "permitirMsj"), I18n.obtenerString("InicioAdministrador", "usuario") + " "+ rol.descripcion, I18n.obtenerString("InicioAdministrador", "patente") + " " + patente.descripcion + Constantes.INTERROGATION),
-                            msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                         if (siNoRes.Equals(DialogResult.Yes))
-                         {
-                             rol.PermitirAcceso(patente);
-                             MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "permitirMsjPlus"), I18n.obtenerString("InicioAdministrador", "rol"), rol.descripcion, I18n.obtenerString("InicioAdministrador", "patente"), patente.descripcion),
-                                 msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                         }
-                    }
-                    else if (radioOp1Patente.Checked && radioOp2Familia.Checked && switchBtn.Value)
-                    {
-                        Patente patente = patenteBLL.obtenerPatentePorDesc(comboOp1.SelectedItem.ToString());
-                        Familia familia = familiaBLL.obtenerFamiliaPorDesc(comboOp2.SelectedItem.ToString());
-                         DialogResult siNoRes = MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "permitirMsj"), I18n.obtenerString("InicioAdministrador", "patente") + " "+ patente.descripcion, I18n.obtenerString("InicioAdministrador", "familia") + " " + familia.descripcion + Constantes.INTERROGATION),
-                            msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                         if (siNoRes.Equals(DialogResult.Yes))
-                         {
-                             familia.Add(patente);
-                             MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "permitirMsjPlus"), I18n.obtenerString("InicioAdministrador", "patente"), patente.descripcion, I18n.obtenerString("InicioAdministrador", "familia"), familia.descripcion),
-                                 msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                         }
-                    }
-                    //Denegar accesos
-                    else if (radioOp1Usuario.Checked && radioOp2Familia.Checked && !switchBtn.Value)
-                    {
-                        String dni = comboOp1.SelectedItem.ToString().Split(new string[] { " - DNI: " }, StringSplitOptions.None)[1];
-                        Usuario usuario = usuarioBLL.obtenerUsuarioPorDni(dni);
-                        Familia familia = familiaBLL.obtenerFamiliaPorDesc(comboOp2.SelectedItem.ToString());
-                         DialogResult siNoRes = MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "denegarMsj"), I18n.obtenerString("InicioAdministrador", "usuario") + " "+ usuario.apellido.ToUpper() + " " + usuario.nombre.ToUpper(), I18n.obtenerString("InicioAdministrador", "familia") + " " + familia.descripcion + Constantes.INTERROGATION),
-                            msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                         if (siNoRes.Equals(DialogResult.Yes))
-                         {
-                             usuario.DenegarAcceso(familia);
-                             MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "denegarMsjPlus"), I18n.obtenerString("InicioAdministrador", "usuario"), usuario.apellido + " " + usuario.nombre, I18n.obtenerString("InicioAdministrador", "familia"), familia.descripcion),
-                                 msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                         }
-                    }
-                    else if (radioOp1Usuario.Checked && radioOp2Patente.Checked && !switchBtn.Value)
-                    {
-                        String dni = comboOp1.SelectedItem.ToString().Split(new string[] { " - DNI: " }, StringSplitOptions.None)[1];
-                        Usuario usuario = usuarioBLL.obtenerUsuarioPorDni(dni);
-                        Patente patente = patenteBLL.obtenerPatentePorDesc(comboOp2.SelectedItem.ToString());
-                        DialogResult siNoRes = MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "denegarMsj"), I18n.obtenerString("InicioAdministrador", "usuario") + " "+ usuario.apellido.ToUpper() + " " + usuario.nombre.ToUpper(), I18n.obtenerString("InicioAdministrador", "patente") + " " + patente.descripcion + Constantes.INTERROGATION),
-                            msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                        if (siNoRes.Equals(DialogResult.Yes))
-                        {
-                            usuario.DenegarAcceso(patente);
-                            MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "denegarMsjPlus"), I18n.obtenerString("InicioAdministrador", "usuario"), usuario.apellido + " " + usuario.nombre, I18n.obtenerString("InicioAdministrador", "patente"), patente.descripcion),
-                                msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        }
-                    }
-                    else if (radioOp1Rol.Checked && radioOp2Familia.Checked && !switchBtn.Value)
-                    {
-                        Familia familia = familiaBLL.obtenerFamiliaPorDesc(comboOp2.SelectedItem.ToString());
-                        Rol rol = rolBLL.obtenerRolPorDesc(comboOp1.SelectedItem.ToString());
-                        DialogResult siNoRes = MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "denegarMsj"), I18n.obtenerString("InicioAdministrador", "rol") + " "+ rol.descripcion, I18n.obtenerString("InicioAdministrador", "familia") + " " + familia.descripcion + Constantes.INTERROGATION),
-                            msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                        if (siNoRes.Equals(DialogResult.Yes))
-                        {
-                            rol.DenegarAcceso(familia);
-                            MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "denegarMsjPlus"), I18n.obtenerString("InicioAdministrador", "rol"), rol.descripcion, I18n.obtenerString("InicioAdministrador", "familia"), familia.descripcion),
-                                msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        }
-                    }
-                    else if (radioOp1Rol.Checked && radioOp2Patente.Checked && !switchBtn.Value)
-                    {
-                        Patente patente = patenteBLL.obtenerPatentePorDesc(comboOp2.SelectedItem.ToString());
-                        Rol rol = rolBLL.obtenerRolPorDesc(comboOp1.SelectedItem.ToString());
-                        DialogResult siNoRes = MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "denegarMsj"), I18n.obtenerString("InicioAdministrador", "rol") + " "+ rol.descripcion, I18n.obtenerString("InicioAdministrador", "patente") + " " + patente.descripcion + Constantes.INTERROGATION),
-                            msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                        if (siNoRes.Equals(DialogResult.Yes))
-                        {
-                            rol.DenegarAcceso(patente);
-                            MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "denegarMsjPlus"), I18n.obtenerString("InicioAdministrador", "rol"), rol.descripcion, I18n.obtenerString("InicioAdministrador", "patente"), patente.descripcion),
-                                msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        }
-                    }
-                    else if (radioOp1Patente.Checked && radioOp2Familia.Checked && !switchBtn.Value)
-                    {
-                        Patente patente = patenteBLL.obtenerPatentePorDesc(comboOp1.SelectedItem.ToString());
-                        Familia familia = familiaBLL.obtenerFamiliaPorDesc(comboOp2.SelectedItem.ToString());
-                        DialogResult siNoRes = MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "denegarMsj"), I18n.obtenerString("InicioAdministrador", "patente") + " "+ patente.descripcion, I18n.obtenerString("InicioAdministrador", "familia") + " " + familia.descripcion + Constantes.INTERROGATION),
-                            msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                        if (siNoRes.Equals(DialogResult.Yes))
-                        {
-                            familia.Remove(patente);
-                            MessageBox.Show(String.Format(I18n.obtenerString("Mensaje", "denegarMsjPlus"), I18n.obtenerString("InicioAdministrador", "patente"), patente.descripcion, I18n.obtenerString("InicioAdministrador", "familia"), familia.descripcion),
-                                msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        }
-                    }
-                
-            }
-            catch (Exception ex)
-            {
-                Bitacora bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.EXCEPCION_BLL_INS + "Permisos", ex.ToString());
-                BitacoraBLL.registrarBitacora(bitacora);
-            }
-        }
-
-        private void radioPermCUsuario_Click(object sender, EventArgs e)
-        {
-            comboPermC.DataSource = usuarioBLL.obtenerUsuarios().Where(u => u.estado == true).Select(u => u.apellido + "" + u.nombre + " - DNI: " + u.dni).ToList();
-        }
-
-        private void radioPermCRol_Click(object sender, EventArgs e)
-        {
-            comboPermC.DataSource = rolBLL.obtenerRoles().Where(r => r.estado == true).Select(r => r.descripcion).ToList();
-        }
-
-        private void radioPermCPatente_Click(object sender, EventArgs e)
-        {
-            comboPermC.DataSource = patenteBLL.obtenerPatentes().Where(p => p.estado == true).Select(p => p.descripcion).ToList();
-        }
-
-        private void radioPermCFamilia_Click(object sender, EventArgs e)
-        {
-            comboPermC.DataSource = familiaBLL.obtenerFamilias().Where(f => f.estado == true).Select(f => f.descripcion).ToList();
-        }
-
-        private void btnPermCBuscar_Click(object sender, EventArgs e)
-        {
-            if (radioPermCUsuario.Checked)
-            {
-                gridPermConsultar.Visible = true;
-                String dni = comboPermC.SelectedItem.ToString().Split(new string[] { " - DNI: " }, StringSplitOptions.None)[1];
-                Usuario usuario = usuarioBLL.obtenerUsuarioPorDni(dni);
-                Rol rol = rolBLL.obtenerRolPorId(Int32.Parse(usuarioBLL.obtnerRolPorIdUsuario(usuario.id)));
-                List<Patente> listaPatentes = usuarioBLL.obtenerPatentesPorId(usuario.id);
-                gridPermConsultar.Rows.Clear();
-                for (int i = 0; i < listaPatentes.Count; i++)
-			   {
-                    gridPermConsultar.Rows.Add(1);
-                    gridPermConsultar.Rows[i].Cells["gridPermConsultarHeaderUsuario"].Value = usuario.apellido + " " + usuario.nombre + " - DNI: " + usuario.dni;
-                    gridPermConsultar.Rows[i].Cells["gridPermConsultarHeaderRol"].Value = rol.descripcion;
-                    gridPermConsultar.Rows[i].Cells["gridPermConsultarHeaderPatente"].Value = listaPatentes[i].descripcion;
-                    gridPermConsultar.Rows[i].Cells["gridPermConsultarHeaderFamilia"].Value = familiaBLL.obtenerFamiliaPorIdPat(listaPatentes[i].id).descripcion;
-                    gridPermConsultar.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
-                    gridPermConsultar.AutoResizeRows(DataGridViewAutoSizeRowsMode.DisplayedCells);
-                    gridPermConsultar.AutoSize = true;
-                }
-            }
-            else if (radioPermCRol.Checked)
-            {
-                gridPermConsultar.Visible = true;
-                Rol rol = rolBLL.obtenerRolPorDesc(comboPermC.SelectedItem.ToString());
-                List<Usuario> listaUsuario = usuarioBLL.obtenerUsuariosPorRol(rol.descripcion);
-                gridPermConsultar.Rows.Clear();
-                for (int i = 0; i < listaUsuario.Count; i++)
-                {
-                    List<Patente> listaPatentes = usuarioBLL.obtenerPatentesPorId(listaUsuario[i].id);
-                    for (int j = 0; j < listaPatentes.Count; j++)
-                    {
-                        gridPermConsultar.Rows.Add(1);
-                        gridPermConsultar.Rows[i+j].Cells["gridPermConsultarHeaderUsuario"].Value = listaUsuario[i].apellido + " " + listaUsuario[i].nombre + " - DNI: " + listaUsuario[i].dni;
-                        gridPermConsultar.Rows[i+j].Cells["gridPermConsultarHeaderRol"].Value = rol.descripcion;
-                        gridPermConsultar.Rows[i+j].Cells["gridPermConsultarHeaderPatente"].Value = listaPatentes[j].descripcion;
-                        gridPermConsultar.Rows[i+j].Cells["gridPermConsultarHeaderFamilia"].Value = familiaBLL.obtenerFamiliaPorIdPat(listaPatentes[j].id).descripcion;
-                        gridPermConsultar.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
-                        gridPermConsultar.AutoResizeRows(DataGridViewAutoSizeRowsMode.DisplayedCells);
-                        gridPermConsultar.AutoSize = true;
-                    }
-                }
-            }
-            else if (radioPermCPatente.Checked)
-            {
-                gridPermConsultar.Visible = true;
-                Patente patente = patenteBLL.obtenerPatentePorDesc(comboPermC.SelectedItem.ToString());
-                List<Usuario> listaUsuarios = patenteBLL.obtenerUsuariosPorIdPat(patente.id);
-                gridPermConsultar.Rows.Clear();
-                for (int i = 0; i < listaUsuarios.Count; i++)
-                {
-                    gridPermConsultar.Rows.Add(1);
-                    gridPermConsultar.Rows[i].Cells["gridPermConsultarHeaderUsuario"].Value = listaUsuarios[i].apellido + " " + listaUsuarios[i].nombre + " - DNI: " + listaUsuarios[i].dni;
-                    gridPermConsultar.Rows[i].Cells["gridPermConsultarHeaderRol"].Value = rolBLL.obtenerRolPorId(Int32.Parse(usuarioBLL.obtnerRolPorIdUsuario(listaUsuarios[i].id))).descripcion;
-                    gridPermConsultar.Rows[i].Cells["gridPermConsultarHeaderPatente"].Value = patente.descripcion;
-                    gridPermConsultar.Rows[i].Cells["gridPermConsultarHeaderFamilia"].Value = familiaBLL.obtenerFamiliaPorIdPat(patente.id).descripcion;
-                    gridPermConsultar.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
-                    gridPermConsultar.AutoResizeRows(DataGridViewAutoSizeRowsMode.DisplayedCells);
-                    gridPermConsultar.AutoSize = true;
-                }
-            }
-            else if (radioPermCFamilia.Checked)
-            {
-                gridPermConsultar.Visible = true;
-                gridPermConsultar.Rows.Clear();
-                Familia familia = familiaBLL.obtenerFamiliaPorDesc(comboPermC.SelectedItem.ToString());
-                List<Patente> listaPatente = patenteBLL.obtenerPatentesPorIdFam(familia.id);
-                for (int i = 0; i < listaPatente.Count; i++)
-                {
-                    List<Usuario> listaUsuarios = patenteBLL.obtenerUsuariosPorIdPat(listaPatente[i].id);
-                    for (int j = 0; j < listaUsuarios.Count; j++)
-                    {
-                        gridPermConsultar.Rows.Add(1);
-                        gridPermConsultar.Rows[i + j].Cells["gridPermConsultarHeaderUsuario"].Value = listaUsuarios[j].apellido + " " + listaUsuarios[j].nombre + " - DNI: " + listaUsuarios[j].dni;
-                        gridPermConsultar.Rows[i + j].Cells["gridPermConsultarHeaderRol"].Value = rolBLL.obtenerRolPorId(Int32.Parse(usuarioBLL.obtnerRolPorIdUsuario(listaUsuarios[j].id))).descripcion;
-                        gridPermConsultar.Rows[i + j].Cells["gridPermConsultarHeaderPatente"].Value = listaPatente[i].descripcion;
-                        gridPermConsultar.Rows[i+j].Cells["gridPermConsultarHeaderFamilia"].Value = familia.descripcion;
-                        gridPermConsultar.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
-                        gridPermConsultar.AutoResizeRows(DataGridViewAutoSizeRowsMode.DisplayedCells);
-                        gridPermConsultar.AutoSize = true;
-                    }
-                    
-                }
-            }
-        }
     }
 }

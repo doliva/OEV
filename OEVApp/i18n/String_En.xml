@@ -9,8 +9,6 @@
     <agregar>Add</agregar>
     <editar>Edit</editar>
     <consultar>Search</consultar>
-    <permitir>Allow</permitir>
-    <denegar>Deny</denegar>
 
     <id>Id</id>
     <apellido>Lastname</apellido>
@@ -28,7 +26,8 @@
   </EtiquetasComunes>
   
   <LoginForm>
-    <clave>Clave</clave>
+    <usuario>User</usuario>
+    <clave>Password</clave>
   </LoginForm>
 
   <Mensaje>
@@ -52,28 +51,13 @@
     <formatoEmail>Invalid email format</formatoEmail>
     <formatoDni>Invalid dni format</formatoDni>
 
-    <nombreApellidoDniEmailRequeridos>Name, lastname, DNI and email are mandatory fields</nombreApellidoDniEmailRequeridos>
+    <nombreApellidoDniEmailRequeridos>Name, lastname, DNI and email are mandatory fields.</nombreApellidoDniEmailRequeridos>
     <usuarioYaExiste>User {0} {1} with DNI {2} already exists</usuarioYaExiste>
-    <usuarioNuevo>User {0} {1} with id {2} successfully registered</usuarioNuevo>
+    <usuarioNuevo>User {0} {1} with id {2} registered successfully</usuarioNuevo>
 
     <ningunRegistro>No records found</ningunRegistro>
     <confirmarBaja>Inactive state will delete user. Are you sure?</confirmarBaja>
-
-    <requerido>{0} is a mandatory field</requerido>
-    <elementoNuevo>{0} successfully registered!</elementoNuevo>
-    <elementoActualizado>{0} successfully updated!</elementoActualizado>
-    <elementoExistente>{0} already exists</elementoExistente>
-
-    <funcion>Write {0} name to {1}</funcion>
-    <obtenerTodos>Empty to get all</obtenerTodos>
-    <editarAdmin>ADMIN role can not be edited</editarAdmin>
-
-    <permitirMsj>Allow {0} access to {1}</permitirMsj>
-    <permitirMsjPlus>{0} {1} access permissions to {2} {3} granted.</permitirMsjPlus>
-    <denegarMsj>Deny {0} access to {1}</denegarMsj>
-    <denegarMsjPlus>{0} {1} access permissions to {2} {3} denied.</denegarMsjPlus>
-  
-</Mensaje>
+  </Mensaje>
   
   <InicioAdministrador>
     <inicioAdministradorForm>OEV - Administrator</inicioAdministradorForm>
@@ -116,21 +100,6 @@
     <fechaHasta>To</fechaHasta>
     <fechaDesde>From</fechaDesde>
   
-    <permisos>Access</permisos>
-    <funciones>Functions</funciones>
-    <gestionFunciones>Functions Management</gestionFunciones>
-    <asignar>Asign</asignar>
-    <opciones>Options</opciones>
-    <seleccionar>Select</seleccionar>
-    <patente>Patent</patente>
-    <familia>Family</familia>
-    <estadoPatente>Patent Status</estadoPatente>
-    <estadoFamilia>Family Status</estadoFamilia>
-    <estadoRol>Role Status</estadoRol>
-    <a>To</a>
-    <permitirA>Allow to</permitirA>
-    <accederA>Access to</accederA>
-    <descripcion>Description</descripcion>
 </InicioAdministrador>
 
 </Multiidioma>

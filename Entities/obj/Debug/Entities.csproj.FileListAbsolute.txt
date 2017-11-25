@@ -5,9 +5,3 @@ C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVA
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Entities\obj\Debug\Entities.dll
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\Entities\obj\Debug\Entities.pdb
-C:\Projects\OEVApp\OEV\Entities\bin\Debug\Entities.dll.config
-C:\Projects\OEVApp\OEV\Entities\bin\Debug\Entities.dll
-C:\Projects\OEVApp\OEV\Entities\bin\Debug\Entities.pdb
-C:\Projects\OEVApp\OEV\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
-C:\Projects\OEVApp\OEV\Entities\obj\Debug\Entities.dll
-C:\Projects\OEVApp\OEV\Entities\obj\Debug\Entities.pdb

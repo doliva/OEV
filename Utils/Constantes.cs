@@ -28,6 +28,8 @@ namespace Utils
         public static String EXCEPCION_DAL_SEL = "Error de DAL intentar selectBy: ";
         public static String EXCEPCION_DAL_ALL = "Error de DAL al intentar selectAll:";
 
+        public static String ROL_ADMINISTRADOR = "ADMINISTRADOR";
+
         public static String BAJA_USUARIO = "Baja de usuario";
 
         public static String BACKUP_BD = "Backup de BD";
@@ -39,19 +41,7 @@ namespace Utils
         public static String MANDATORY = "(*) ";
         public static String DOS_PUNTOS = ":";
 
-        public static String DVH = "Digito Verificador Horizontal";
-        public static String DVV = "Digito Verificador Vertical";
-
-        public static String PATENTE = "PATENTE";
-        public static String FAMILIA = "FAMILIA";
-        public static String ROL = "ROL";
-
-        public static String CONSULTAR = "CONSULTAR";
-        public static String AGREGAR = "AGREGAR";
-        public static String EDITAR = "EDITAR";
-
-        public static String ADMINISTRADOR = "ADMINISTRADOR";
-        public static String USUARIO = "USUARIO";
-        public static String INTERROGATION = "?";
+        public static string DVH = "Digito Verificador Horizontal";
+        public static string DVV = "Digito Verificador Vertical";
     }
 }
