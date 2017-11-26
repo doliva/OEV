@@ -15,7 +15,7 @@ namespace Utils
     {
         void GenerarVoucherPDF(Voucher voucher)
         {
-            String filePath = Environment.SpecialFolder.MyDocuments + "\\Test.pdf";
+            String filePath = "";
             Document doc = new Document(iTextSharp.text.PageSize.LETTER, 10, 10, 42, 35);
             PdfWriter pdfWriter = PdfWriter.GetInstance(doc, new FileStream(filePath, FileMode.Create));
             doc.Open();

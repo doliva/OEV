@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-    class Voucher
+    public class Voucher
     {
         public Int16 cantindad { set; get; }
         public Cliente cliente { set; get; }
@@ -15,7 +15,6 @@ namespace Entities
         public DateTime fecha { set; get; }
         public String numero { set; get; }
         public Producto producto { set; get; }
-        public String numero { set; get; }
         // TODO: Agregar cambio a la documentación
         public DateTime fechaInicioActividad { set; get; }
         // TODO: Agregar cambio a la documentación

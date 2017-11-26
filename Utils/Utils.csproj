@@ -78,6 +78,15 @@
     <Compile Include="Validacion.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\PDFCreation\PDFCreation\PDFCreation\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>..\..\PDFCreation\PDFCreation\PDFCreation\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>..\..\PDFCreation\PDFCreation\PDFCreation\itextsharp.xtra.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
