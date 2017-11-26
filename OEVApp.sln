@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms", "OEVApp\WinForms.csproj", "{FDB03ED1-2ADF-43E8-B51F-85BFC44B5596}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seguridad", "Seguridad\Seguridad.csproj", "{B4CEF7F9-8366-4E3C-97FF-975DFDD808CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base", "Seguridad\Base.csproj", "{B4CEF7F9-8366-4E3C-97FF-975DFDD808CE}"
 	ProjectSection(ProjectDependencies) = postProject
 		{448F5A83-C26E-429D-AE4E-B8D7C83DB696} = {448F5A83-C26E-429D-AE4E-B8D7C83DB696}
 	EndProjectSection

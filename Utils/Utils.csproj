@@ -55,20 +55,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BackupRestoreBD\BackupRestoreBDDAL.cs" />
-    <Compile Include="BackupRestoreBD\BackupRestoreBLL.cs" />
     <Compile Include="BD_OEVDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BD_OEVDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Bitacora\Bitacora.cs" />
-    <Compile Include="Bitacora\BitacoraDAL.cs" />
-    <Compile Include="Bitacora\BitacoraBLL.cs" />
     <Compile Include="EnumEvento.cs" />
-    <Compile Include="EnumRol.cs" />
     <Compile Include="Constantes.cs" />
-    <Compile Include="Excepciones\Excepcion.cs" />
     <Compile Include="PDFUtil.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>

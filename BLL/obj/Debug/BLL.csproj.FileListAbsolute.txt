@@ -10,3 +10,18 @@ C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVA
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\obj\Debug\BLL.dll
 C:\Users\Nati\Documents\Nueva carpeta\3 - Trabajo Campo I\Cursada II\TP_OEV\OEVApp\BLL\obj\Debug\BLL.pdb
+C:\Projects\OEVApp\OEV\BLL\bin\Debug\BLL.dll.config
+C:\Projects\OEVApp\OEV\BLL\bin\Debug\BLL.dll
+C:\Projects\OEVApp\OEV\BLL\bin\Debug\BLL.pdb
+C:\Projects\OEVApp\OEV\BLL\bin\Debug\DAL.dll
+C:\Projects\OEVApp\OEV\BLL\bin\Debug\Entities.dll
+C:\Projects\OEVApp\OEV\BLL\bin\Debug\Seguridad.dll
+C:\Projects\OEVApp\OEV\BLL\bin\Debug\Utils.dll
+C:\Projects\OEVApp\OEV\BLL\bin\Debug\itextsharp.dll
+C:\Projects\OEVApp\OEV\BLL\bin\Debug\DAL.pdb
+C:\Projects\OEVApp\OEV\BLL\bin\Debug\Entities.pdb
+C:\Projects\OEVApp\OEV\BLL\bin\Debug\Seguridad.pdb
+C:\Projects\OEVApp\OEV\BLL\bin\Debug\Utils.pdb
+C:\Projects\OEVApp\OEV\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Projects\OEVApp\OEV\BLL\obj\Debug\BLL.dll
+C:\Projects\OEVApp\OEV\BLL\obj\Debug\BLL.pdb
