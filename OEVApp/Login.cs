@@ -103,7 +103,7 @@ namespace OEVApp
                         }
                         else if (rol.descripcion.Trim() == director.GetType().Name.ToUpper())
                         {
-                            director = new Director(usuario, idioma);
+                            director = new Director(usr, idioma, familiasPermitidas, patentesPermitidas);
                             director.Show();
                         }
                         //string dv = seguridad.generarSHA(usr.estado.ToString() + usr.email + usr.clave);

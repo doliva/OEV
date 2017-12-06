@@ -404,7 +404,7 @@ namespace OEVApp
         {
             if (btnItemRestore.Visible == false)
                 tabItemRestore.Visible = false;
-            superTabCtrol.Visible = true;
+            superTabCtrolAdmin.Visible = true;
             tabItemBackup.Visible = true;
             //tabItemRestore.Visible = true;
             tabItemDVH.Visible = false;
@@ -417,7 +417,7 @@ namespace OEVApp
             tabItemFunc.Visible = false;
             tabItemAsignar.Visible = false;
             tabItemPermConsultar.Visible = false;
-            superTabCtrol.SelectedTab = tabItemBackup;
+            superTabCtrolAdmin.SelectedTab = tabItemBackup;
             limpiarCampos();
         }
 
@@ -425,7 +425,7 @@ namespace OEVApp
         {
             if (btnItemBackup.Visible == false)
                 tabItemBackup.Visible = false;
-            superTabCtrol.Visible = true;
+            superTabCtrolAdmin.Visible = true;
             //tabItemBackup.Visible = true;
             tabItemRestore.Visible = true;
             tabItemDVH.Visible = false;
@@ -438,7 +438,7 @@ namespace OEVApp
             tabItemFunc.Visible = false;
             tabItemAsignar.Visible = false;
             tabItemPermConsultar.Visible = false;
-            superTabCtrol.SelectedTab = tabItemRestore;
+            superTabCtrolAdmin.SelectedTab = tabItemRestore;
             limpiarCampos();
         }
 
@@ -464,7 +464,7 @@ namespace OEVApp
         {
             if (btnItemDVV.Visible == false)
                 tabItemDVV.Visible = false;
-            superTabCtrol.Visible = true;
+            superTabCtrolAdmin.Visible = true;
             tabItemDVH.Visible = true;
             //tabItemDVV.Visible = true;
             tabItemCripto.Visible = false;
@@ -477,7 +477,7 @@ namespace OEVApp
             tabItemFunc.Visible = false;
             tabItemAsignar.Visible = false;
             tabItemPermConsultar.Visible = false;
-            superTabCtrol.SelectedTab = tabItemDVH;
+            superTabCtrolAdmin.SelectedTab = tabItemDVH;
             limpiarCampos();
         }
 
@@ -485,7 +485,7 @@ namespace OEVApp
         {
             if (btnItemDVH.Visible == false)
                 tabItemDVH.Visible = false;
-            superTabCtrol.Visible = true;
+            superTabCtrolAdmin.Visible = true;
             //tabItemDVH.Visible = true;
             tabItemDVV.Visible = true;
             tabItemCripto.Visible = false;
@@ -498,13 +498,13 @@ namespace OEVApp
             tabItemFunc.Visible = false;
             tabItemAsignar.Visible = false;
             tabItemPermConsultar.Visible = false;
-            superTabCtrol.SelectedTab = tabItemDVV;
+            superTabCtrolAdmin.SelectedTab = tabItemDVV;
             limpiarCampos();
         }
 
         private void sideBarPanelCripto_Click(object sender, EventArgs e)
         {
-            superTabCtrol.Visible = true;
+            superTabCtrolAdmin.Visible = true;
             tabItemCripto.Visible = true;
             tabItemBackup.Visible = false;
             tabItemRestore.Visible = false;
@@ -517,7 +517,7 @@ namespace OEVApp
             tabItemFunc.Visible = false;
             tabItemAsignar.Visible = false;
             tabItemPermConsultar.Visible = false;
-            superTabCtrol.SelectedTab = tabItemCripto;
+            superTabCtrolAdmin.SelectedTab = tabItemCripto;
             limpiarCampos();
         }
 
@@ -824,7 +824,7 @@ namespace OEVApp
                 tabItemConsultar.Visible = false;
             else if (btnItemConsultar.Visible == true)
                 tabItemConsultar.Visible = true;
-            superTabCtrol.Visible = true;
+            superTabCtrolAdmin.Visible = true;
             tabItemDVH.Visible = false;
             tabItemDVV.Visible = false;
             tabItemBackup.Visible = false;
@@ -837,7 +837,7 @@ namespace OEVApp
             tabItemFunc.Visible = false;
             tabItemAsignar.Visible = false;
             tabItemPermConsultar.Visible = false;
-            superTabCtrol.SelectedTab = tabItemAgregar;
+            superTabCtrolAdmin.SelectedTab = tabItemAgregar;
             limpiarCampos();
         }
 
@@ -851,7 +851,7 @@ namespace OEVApp
                 tabItemConsultar.Visible = false;
             else if (btnItemConsultar.Visible == true)
                 tabItemConsultar.Visible = true;
-            superTabCtrol.Visible = true;
+            superTabCtrolAdmin.Visible = true;
             tabItemDVH.Visible = false;
             tabItemDVV.Visible = false;
             tabItemBackup.Visible = false;
@@ -864,7 +864,7 @@ namespace OEVApp
             tabItemFunc.Visible = false;
             tabItemAsignar.Visible = false;
             tabItemPermConsultar.Visible = false;
-            superTabCtrol.SelectedTab = tabItemEditar;
+            superTabCtrolAdmin.SelectedTab = tabItemEditar;
             ocultarCampos();
             limpiarCampos();
         }
@@ -926,7 +926,7 @@ namespace OEVApp
         private void btnBuscar_click(object sender, EventArgs e)
         {
             Usuario usuario = new Usuario();
-            String filtro = (!String.IsNullOrEmpty(txtFiltro.Text)) ? txtFiltro.Text : null; ;
+            String filtro = (!String.IsNullOrEmpty(txtFiltro.Text)) ? txtFiltro.Text : null;
             if (radioDni.Checked && filtro != null)
             {
                 usuario = usuarioBLL.obtenerUsuarioPorDni(txtFiltro.Text);
@@ -978,6 +978,7 @@ namespace OEVApp
 
                 try{
                     if(!usuario.estado){
+                        confirmarBaja = String.Format(I18n.obtenerString("Mensaje", "confirmarBaja"), I18n.obtenerString("Mensaje", "usuario"));
                         DialogResult siNoBaja = MessageBox.Show(confirmarBaja, msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                         if (siNoBaja.Equals(DialogResult.Yes))
                         {
@@ -991,7 +992,7 @@ namespace OEVApp
                         {
                             Rol nuevoRol = rolBLL.obtenerRolPorId(rolBLL.obtenerRolPorDesc(codRolM).id);
                             Usuario viejoUsr = usuarioBLL.obtenerUsuarioPorId(usuario.id);
-                            Rol viejoRol = rolBLL.obtenerRolPorId(viejoUsr.idRol);
+                            Rol viejoRol = rolBLL.obtenerRolPorDesc(usuarioBLL.obtnerRolPorIdUsuario(viejoUsr.id));
                             if (nuevoRol.id != viejoRol.id)
                             {
                                 //Asocia al usuario con el nuevo rol seleccionado
@@ -1016,7 +1017,7 @@ namespace OEVApp
 
         private void tabItemAgregar_Click(object sender, EventArgs e)
         {
-            superTabCtrol.Visible = true;
+            superTabCtrolAdmin.Visible = true;
             tabItemDVH.Visible = false;
             tabItemDVV.Visible = false;
             tabItemBackup.Visible = false;
@@ -1029,13 +1030,13 @@ namespace OEVApp
             tabItemFunc.Visible = false;
             tabItemAsignar.Visible = false;
             tabItemPermConsultar.Visible = false;
-            superTabCtrol.SelectedTab = tabItemAgregar;
+            superTabCtrolAdmin.SelectedTab = tabItemAgregar;
             limpiarCampos();
         }
 
         private void tabItemModificar_Click(object sender, EventArgs e)
         {
-            superTabCtrol.Visible = true;
+            superTabCtrolAdmin.Visible = true;
             tabItemDVH.Visible = false;
             tabItemDVV.Visible = false;
             tabItemBackup.Visible = false;
@@ -1048,7 +1049,7 @@ namespace OEVApp
             tabItemFunc.Visible = false;
             tabItemAsignar.Visible = false;
             tabItemPermConsultar.Visible = false;
-            superTabCtrol.SelectedTab = tabItemEditar;
+            superTabCtrolAdmin.SelectedTab = tabItemEditar;
             ocultarCampos();
             limpiarCampos();
         }
@@ -1063,7 +1064,7 @@ namespace OEVApp
                 tabItemEditar.Visible = false;
             else if (btnItemEditar.Visible == true)
                 btnItemEditar.Visible = true;
-            superTabCtrol.Visible = true;
+            superTabCtrolAdmin.Visible = true;
             tabItemDVH.Visible = false;
             tabItemDVV.Visible = false;
             tabItemBackup.Visible = false;
@@ -1076,7 +1077,7 @@ namespace OEVApp
             tabItemFunc.Visible = false;
             tabItemAsignar.Visible = false;
             tabItemPermConsultar.Visible = false;
-            superTabCtrol.SelectedTab = tabItemConsultar;
+            superTabCtrolAdmin.SelectedTab = tabItemConsultar;
             limpiarCampos();
             gridConsultaUsuario.Visible = false;
             cmbRolC.Visible = false;
@@ -1084,7 +1085,7 @@ namespace OEVApp
 
         private void tabItemConsultar_Click(object sender, EventArgs e)
         {
-            superTabCtrol.Visible = true;
+            superTabCtrolAdmin.Visible = true;
             tabItemDVH.Visible = false;
             tabItemDVV.Visible = false;
             tabItemBackup.Visible = false;
@@ -1097,7 +1098,7 @@ namespace OEVApp
             tabItemFunc.Visible = false;
             tabItemAsignar.Visible = false;
             tabItemPermConsultar.Visible = false;
-            superTabCtrol.SelectedTab = tabItemConsultar;
+            superTabCtrolAdmin.SelectedTab = tabItemConsultar;
             limpiarCampos();
             gridConsultaUsuario.Visible = false;
             cmbRolC.Visible = false;
@@ -1214,7 +1215,7 @@ namespace OEVApp
 
         private void btnItemConsultarB_Click(object sender, EventArgs e)
         {
-            superTabCtrol.Visible = true;
+            superTabCtrolAdmin.Visible = true;
             tabItemDVH.Visible = false;
             tabItemDVV.Visible = false;
             tabItemBackup.Visible = false;
@@ -1227,7 +1228,7 @@ namespace OEVApp
             tabItemFunc.Visible = false;
             tabItemAsignar.Visible = false;
             tabItemPermConsultar.Visible = false;
-            superTabCtrol.SelectedTab = tabItemConsultarB;
+            superTabCtrolAdmin.SelectedTab = tabItemConsultarB;
 
             radioButtonEventoConsultarB.Checked = true;
 
@@ -1354,7 +1355,7 @@ namespace OEVApp
                 tabItemAsignar.Visible = false;
             if (btnItemPermConsultar.Visible == false)
                 tabItemPermConsultar.Visible = false;
-            superTabCtrol.Visible = true;
+            superTabCtrolAdmin.Visible = true;
             tabItemDVH.Visible = false;
             tabItemDVV.Visible = false;
             tabItemBackup.Visible = false;
@@ -1367,7 +1368,7 @@ namespace OEVApp
             tabItemFunc.Visible = true;
             //tabItemAsignar.Visible = true;
             //tabItemPermConsultar.Visible = true;
-            superTabCtrol.SelectedTab = tabItemFunc;
+            superTabCtrolAdmin.SelectedTab = tabItemFunc;
             limpiarCampos();
         }
 
@@ -1377,7 +1378,7 @@ namespace OEVApp
                 tabItemFunc.Visible = false;
             if (btnItemPermConsultar.Visible == false)
                 tabItemPermConsultar.Visible = false;
-            superTabCtrol.Visible = true;
+            superTabCtrolAdmin.Visible = true;
             tabItemDVH.Visible = false;
             tabItemDVV.Visible = false;
             tabItemBackup.Visible = false;
@@ -1390,7 +1391,7 @@ namespace OEVApp
             //tabItemFunc.Visible = true;
             tabItemAsignar.Visible = true;
             //tabItemPermConsultar.Visible = true;
-            superTabCtrol.SelectedTab = tabItemAsignar;
+            superTabCtrolAdmin.SelectedTab = tabItemAsignar;
             limpiarCampos();
         }
 
@@ -1400,7 +1401,7 @@ namespace OEVApp
                 tabItemAsignar.Visible = false;
             if (btnItemFunc.Visible == false)
                 tabItemFunc.Visible = false;
-            superTabCtrol.Visible = true;
+            superTabCtrolAdmin.Visible = true;
             tabItemDVH.Visible = false;
             tabItemDVV.Visible = false;
             tabItemBackup.Visible = false;
@@ -1413,7 +1414,7 @@ namespace OEVApp
             //tabItemFunc.Visible = true;
             //tabItemAsignar.Visible = true;
             tabItemPermConsultar.Visible = true;
-            superTabCtrol.SelectedTab = tabItemPermConsultar;
+            superTabCtrolAdmin.SelectedTab = tabItemPermConsultar;
             limpiarCampos();
         }
 

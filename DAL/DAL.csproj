@@ -53,7 +53,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlojamientoDAL.cs" />
     <Compile Include="FamiliaPatenteDAL.cs" />
+    <Compile Include="InstructorDAL.cs" />
+    <Compile Include="InstructorEspecialidadDAL.cs" />
     <Compile Include="OEVbdDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -64,6 +67,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="TrasladoDAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

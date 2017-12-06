@@ -106,7 +106,7 @@ namespace Base.BLL
             }
             catch (Exception dalE)
             {
-                throw new Excepcion(Constantes.EXCEPCION_DAL_INS + "Usuario", dalE);
+                throw new Excepcion(Constantes.EXCEPCION_DAL_INS + " Usuario", dalE);
             }
         }
     }

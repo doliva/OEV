@@ -5,6 +5,7 @@
     <guardar>Guardar</guardar>
     <buscar>Buscar</buscar>
     <usuario>Usuario</usuario>
+    <legajo>Legajo</legajo>
 
     <agregar>Agregar</agregar>
     <editar>Editar</editar>
@@ -23,8 +24,13 @@
     <direccion>Dirección</direccion>
     <ciudad>Ciudad</ciudad>
 
+    <razonSocial>Razón Social</razonSocial>
+    <cuit>CUIT</cuit>
+    
     <rol>Rol</rol>
     <todos>Todos</todos>
+  
+  <descripcion>Descripción</descripcion>
   </EtiquetasComunes>
   
   <LoginForm>
@@ -50,14 +56,15 @@
 
     <fecNacInvalida>Debe tener al menos 18 años</fecNacInvalida>
     <formatoEmail>Formato de email inválido</formatoEmail>
-    <formatoDni>Formato dni inválido</formatoDni>
+    <formatoDni>Formato DNI inválido</formatoDni>
+    <formatoCuit>Formato CUIT inválido</formatoCuit>
 
     <nombreApellidoDniEmailRequeridos>Los campos nombre, apellido, DNI y email son obligatorios</nombreApellidoDniEmailRequeridos>
     <usuarioYaExiste>Usuario {0} {1} con DNI {2} ya existe</usuarioYaExiste>
     <usuarioNuevo>Usuario {0} {1} con id {2} registrado exitosamente</usuarioNuevo>
 
     <ningunRegistro>No se encontraron registros</ningunRegistro>
-    <confirmarBaja>El estado inactivo dará de baja al usuario ¿Desea eliminarlo?</confirmarBaja>
+    <confirmarBaja>El estado inactivo dará de baja al {0} ¿Desea eliminarlo?</confirmarBaja>
 
     <requerido>El campo {0} es obligatorio</requerido>
     <elementoNuevo>{0} registrado exitosamente!</elementoNuevo>
@@ -72,6 +79,15 @@
     <permitirMsjPlus>Permisos de acceso de {0} {1} a {2} {3} otorgados</permitirMsjPlus>
     <denegarMsj>Denegar a {0} acceder a {1}</denegarMsj>
     <denegarMsjPlus>Permisos de acceso de {0} {1} a {2} {3} denegados</denegarMsjPlus>
+
+    <razonCuitEmailRequeridos>Los campos razón social y CUIT son obligatorios</razonCuitEmailRequeridos>
+    <proveedorNuevo>{0} {1} con CUIT {2} registrado exitosamente</proveedorNuevo>
+    <proveedorYaExiste>{0} {1} con CUIT {2} ya existe</proveedorYaExiste>
+    <proveedorActualizado>{0} {1} con CUIT {2} actualizado exitosamente</proveedorActualizado>
+  
+    <instructorNuevo>Instructor {0} {1} con legajo {2} registrado exitosamente</instructorNuevo>
+    <instructorYaExiste>Instructor {0} {1} con DNI {2} ya existe</instructorYaExiste>
+    <especialidadesRequeridas>Debe ingresar especialidades para el instructor</especialidadesRequeridas>
   </Mensaje>
 
   <InicioAdministrador>
@@ -129,7 +145,40 @@
     <estadoRol>Estado Rol</estadoRol>
     <a>A</a>
     <accederA>Acceder a</accederA>
-    <descripcion>Descripción</descripcion>
+    
   </InicioAdministrador>
-  
+
+  <InicioDirector>
+    <inicioDirectorForm>OEV - Director</inicioDirectorForm>
+    <calendario>Calendario</calendario>
+    <actividad>Actividad</actividad>
+    <cursoEntrenamiento>Curso de entrenamiento</cursoEntrenamiento>
+    <precio>Precio</precio>
+    <dias>Días</dias>
+    <lunes>Lunes</lunes>
+    <martes>Martes</martes>
+    <miercoles>Miércoles</miercoles>
+    <jueves>Jueves</jueves>
+    <viernes>Viernes</viernes>
+    <horaInicio>Hora de inicio</horaInicio>
+    <horaFin>Hora de fin</horaFin>
+    <dificultad>Dificultad</dificultad>
+    <entrenamientoDe>Entrenamiento de</entrenamientoDe>
+    <montania>Montaña</montania>
+    <running>Running</running>
+    <trekking>Trekking</trekking>
+    <bike>Mountain bike</bike>
+    <auxilios>Primeros auxilios y RCP</auxilios>
+    <orientacion>Orientación y GPS</orientacion>
+    <capacidad>Capacidad</capacidad>
+    <tarifa>Tarifa</tarifa>
+    <alojamiento>Alojamiento</alojamiento>
+    <traslado>Traslado</traslado>
+    <servicios>Servicios</servicios>
+    <tipoAlojamiento>Categoría</tipoAlojamiento>
+    <tipoTraslado>Vehículo</tipoTraslado>
+    <instructor>Instructor</instructor>
+    <especialidad>Especialidad</especialidad>
+    <experiencia>Experiencia</experiencia>
+  </InicioDirector>
 </Multiidioma>

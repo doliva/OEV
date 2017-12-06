@@ -28,57 +28,53 @@ namespace OEVApp
         /// </summary>
         private void InitializeComponent()
         {
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable6 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates6 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable6 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable10 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates10 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable10 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable7 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates7 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable7 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable8 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates8 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable8 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable11 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates11 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable11 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates2 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable9 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates9 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable9 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates1 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates3 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
             DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates2 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates1 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable4 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates4 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
             DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable4 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable5 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates5 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
             DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable5 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable13 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates13 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable13 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable6 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates6 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable6 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable7 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates7 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable7 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable8 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates8 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable8 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable9 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates9 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable9 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable10 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates10 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable10 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable11 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates11 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable11 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable12 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates12 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable12 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
             this.sideBar1 = new DevComponents.DotNetBar.SideBar();
-            this.sideBarPanelPermisos = new DevComponents.DotNetBar.SideBarPanelItem();
-            this.btnItemFunc = new DevComponents.DotNetBar.ButtonItem();
-            this.btnItemAsignar = new DevComponents.DotNetBar.ButtonItem();
-            this.btnItemPermConsultar = new DevComponents.DotNetBar.ButtonItem();
             this.sideBarPanelBD = new DevComponents.DotNetBar.SideBarPanelItem();
             this.btnItemBackup = new DevComponents.DotNetBar.ButtonItem();
             this.btnItemRestore = new DevComponents.DotNetBar.ButtonItem();
@@ -92,35 +88,79 @@ namespace OEVApp
             this.btnItemConsultar = new DevComponents.DotNetBar.ButtonItem();
             this.sideBarPanelBitacora = new DevComponents.DotNetBar.SideBarPanelItem();
             this.btnItemConsultarB = new DevComponents.DotNetBar.ButtonItem();
-            this.superTabCtrol = new DevComponents.DotNetBar.SuperTabControl();
-            this.superTabCripto = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.btnCripto = new DevComponents.DotNetBar.ButtonX();
-            this.lblResCripto = new DevComponents.DotNetBar.LabelX();
-            this.txtResCripto = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtTextoCripto = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.lblTextoCripto = new DevComponents.DotNetBar.LabelX();
-            this.radioGroupOpcion = new System.Windows.Forms.GroupBox();
-            this.radioDesencriptar = new System.Windows.Forms.RadioButton();
-            this.radioEncriptar = new System.Windows.Forms.RadioButton();
-            this.tabItemCripto = new DevComponents.DotNetBar.SuperTabItem();
+            this.sideBarPanelPermisos = new DevComponents.DotNetBar.SideBarPanelItem();
+            this.btnItemFunc = new DevComponents.DotNetBar.ButtonItem();
+            this.btnItemAsignar = new DevComponents.DotNetBar.ButtonItem();
+            this.btnItemPermConsultar = new DevComponents.DotNetBar.ButtonItem();
+            this.superTabCtrolAdmin = new DevComponents.DotNetBar.SuperTabControl();
+            this.superTabAgregar = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.comboBoxRol = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.lblRol = new DevComponents.DotNetBar.LabelX();
+            this.dateFecNac = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
+            this.txtEmail = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtTelefono = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtCiudad = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtDireccion = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtDni = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtApellido = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtNombre = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.lblEmail = new DevComponents.DotNetBar.LabelX();
+            this.lblTelefono = new DevComponents.DotNetBar.LabelX();
+            this.lblCiudad = new DevComponents.DotNetBar.LabelX();
+            this.lblDireccion = new DevComponents.DotNetBar.LabelX();
+            this.lblFecNac = new DevComponents.DotNetBar.LabelX();
+            this.lblDni = new DevComponents.DotNetBar.LabelX();
+            this.lblApellido = new DevComponents.DotNetBar.LabelX();
+            this.lblNombre = new DevComponents.DotNetBar.LabelX();
+            this.btnGuardar = new DevComponents.DotNetBar.ButtonX();
+            this.tabItemAgregar = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabBackup = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.lblValorRutaBackup = new DevComponents.DotNetBar.LabelX();
             this.lblRutaBackup = new DevComponents.DotNetBar.LabelX();
             this.btnBackup = new DevComponents.DotNetBar.ButtonX();
             this.btnRutaBackup = new DevComponents.DotNetBar.ButtonX();
             this.tabItemBackup = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabEditar = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.lblClaveM = new DevComponents.DotNetBar.LabelX();
+            this.dateFecNacM = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
+            this.txtIdM = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.lblIdM = new DevComponents.DotNetBar.LabelX();
+            this.chkBoxEstadoM = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.lblEstadoM = new DevComponents.DotNetBar.LabelX();
+            this.txtFiltro = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.radioGroupBuscar = new System.Windows.Forms.GroupBox();
+            this.radioId = new System.Windows.Forms.RadioButton();
+            this.radioDni = new System.Windows.Forms.RadioButton();
+            this.comboBoxRolM = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.lblRolM = new DevComponents.DotNetBar.LabelX();
+            this.txtEmailM = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtTelefonoM = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtCiudadM = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtDireccionM = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtDniM = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtApellidoM = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtNombreM = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.lblEmailM = new DevComponents.DotNetBar.LabelX();
+            this.lblTelefonoM = new DevComponents.DotNetBar.LabelX();
+            this.lblCiudadM = new DevComponents.DotNetBar.LabelX();
+            this.lblDireccionM = new DevComponents.DotNetBar.LabelX();
+            this.lblFecNacM = new DevComponents.DotNetBar.LabelX();
+            this.lblDniM = new DevComponents.DotNetBar.LabelX();
+            this.lblApellidoM = new DevComponents.DotNetBar.LabelX();
+            this.lblNombreM = new DevComponents.DotNetBar.LabelX();
+            this.btnBuscarM = new DevComponents.DotNetBar.ButtonX();
+            this.btnGuardarM = new DevComponents.DotNetBar.ButtonX();
+            this.tabItemEditar = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabDVV = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.radioGroupDVV = new System.Windows.Forms.GroupBox();
             this.btnVerificarDVV = new DevComponents.DotNetBar.ButtonX();
             this.tabItemDVV = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabDVH = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.btnVerificarDVH = new DevComponents.DotNetBar.ButtonX();
-            this.txtUsuarioDVH = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.lblUsuarioDVH = new DevComponents.DotNetBar.LabelX();
-            this.radioGroupDVH = new System.Windows.Forms.GroupBox();
-            this.radioTodosDVH = new System.Windows.Forms.RadioButton();
-            this.radioUsuarioDVH = new System.Windows.Forms.RadioButton();
-            this.tabItemDVH = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabRestore = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.lblValorRutaRestore = new DevComponents.DotNetBar.LabelX();
+            this.lblRutaRestore = new DevComponents.DotNetBar.LabelX();
+            this.btnRestore = new DevComponents.DotNetBar.ButtonX();
+            this.btnRutaRestore = new DevComponents.DotNetBar.ButtonX();
+            this.tabItemRestore = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabFunc = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.lblFuncGestion = new DevComponents.DotNetBar.LabelX();
             this.lblFuncTodos = new DevComponents.DotNetBar.LabelX();
@@ -162,20 +202,6 @@ namespace OEVApp
             this.radioOp1Usuario = new System.Windows.Forms.RadioButton();
             this.btnAsignarGuardar = new DevComponents.DotNetBar.ButtonX();
             this.tabItemAsignar = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabPermConsultar = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.gridPermConsultar = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.gridPermConsultarHeaderUsuario = new DevComponents.DotNetBar.Controls.DataGridViewLabelXColumn();
-            this.gridPermConsultarHeaderRol = new DevComponents.DotNetBar.Controls.DataGridViewLabelXColumn();
-            this.gridPermConsultarHeaderPatente = new DevComponents.DotNetBar.Controls.DataGridViewLabelXColumn();
-            this.gridPermConsultarHeaderFamilia = new DevComponents.DotNetBar.Controls.DataGridViewLabelXColumn();
-            this.comboPermC = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.radioGroupAsignar = new System.Windows.Forms.GroupBox();
-            this.radioPermCFamilia = new System.Windows.Forms.RadioButton();
-            this.radioPermCPatente = new System.Windows.Forms.RadioButton();
-            this.radioPermCRol = new System.Windows.Forms.RadioButton();
-            this.radioPermCUsuario = new System.Windows.Forms.RadioButton();
-            this.btnPermCBuscar = new DevComponents.DotNetBar.ButtonX();
-            this.tabItemPermConsultar = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabConsultarB = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.cmbEventoConsultarB = new DevComponents.DotNetBar.Controls.ComboBoxEx();
             this.lblHastaConsultarB = new DevComponents.DotNetBar.LabelX();
@@ -216,78 +242,54 @@ namespace OEVApp
             this.radioDniC = new System.Windows.Forms.RadioButton();
             this.btnBuscarC = new DevComponents.DotNetBar.ButtonX();
             this.tabItemConsultar = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabEditar = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.lblClaveM = new DevComponents.DotNetBar.LabelX();
-            this.dateFecNacM = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
-            this.txtIdM = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.lblIdM = new DevComponents.DotNetBar.LabelX();
-            this.chkBoxEstadoM = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.lblEstadoM = new DevComponents.DotNetBar.LabelX();
-            this.txtFiltro = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.radioGroupBuscar = new System.Windows.Forms.GroupBox();
-            this.radioId = new System.Windows.Forms.RadioButton();
-            this.radioDni = new System.Windows.Forms.RadioButton();
-            this.comboBoxRolM = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.lblRolM = new DevComponents.DotNetBar.LabelX();
-            this.txtEmailM = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtTelefonoM = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtCiudadM = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtDireccionM = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtDniM = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtApellidoM = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtNombreM = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.lblEmailM = new DevComponents.DotNetBar.LabelX();
-            this.lblTelefonoM = new DevComponents.DotNetBar.LabelX();
-            this.lblCiudadM = new DevComponents.DotNetBar.LabelX();
-            this.lblDireccionM = new DevComponents.DotNetBar.LabelX();
-            this.lblFecNacM = new DevComponents.DotNetBar.LabelX();
-            this.lblDniM = new DevComponents.DotNetBar.LabelX();
-            this.lblApellidoM = new DevComponents.DotNetBar.LabelX();
-            this.lblNombreM = new DevComponents.DotNetBar.LabelX();
-            this.btnBuscarM = new DevComponents.DotNetBar.ButtonX();
-            this.btnGuardarM = new DevComponents.DotNetBar.ButtonX();
-            this.tabItemEditar = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabAgregar = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.comboBoxRol = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.lblRol = new DevComponents.DotNetBar.LabelX();
-            this.dateFecNac = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
-            this.txtEmail = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtTelefono = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtCiudad = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtDireccion = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtDni = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtApellido = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtNombre = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.lblEmail = new DevComponents.DotNetBar.LabelX();
-            this.lblTelefono = new DevComponents.DotNetBar.LabelX();
-            this.lblCiudad = new DevComponents.DotNetBar.LabelX();
-            this.lblDireccion = new DevComponents.DotNetBar.LabelX();
-            this.lblFecNac = new DevComponents.DotNetBar.LabelX();
-            this.lblDni = new DevComponents.DotNetBar.LabelX();
-            this.lblApellido = new DevComponents.DotNetBar.LabelX();
-            this.lblNombre = new DevComponents.DotNetBar.LabelX();
-            this.btnGuardar = new DevComponents.DotNetBar.ButtonX();
-            this.tabItemAgregar = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabRestore = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.lblValorRutaRestore = new DevComponents.DotNetBar.LabelX();
-            this.lblRutaRestore = new DevComponents.DotNetBar.LabelX();
-            this.btnRestore = new DevComponents.DotNetBar.ButtonX();
-            this.btnRutaRestore = new DevComponents.DotNetBar.ButtonX();
-            this.tabItemRestore = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabCripto = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.btnCripto = new DevComponents.DotNetBar.ButtonX();
+            this.lblResCripto = new DevComponents.DotNetBar.LabelX();
+            this.txtResCripto = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtTextoCripto = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.lblTextoCripto = new DevComponents.DotNetBar.LabelX();
+            this.radioGroupOpcion = new System.Windows.Forms.GroupBox();
+            this.radioDesencriptar = new System.Windows.Forms.RadioButton();
+            this.radioEncriptar = new System.Windows.Forms.RadioButton();
+            this.tabItemCripto = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabDVH = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.btnVerificarDVH = new DevComponents.DotNetBar.ButtonX();
+            this.txtUsuarioDVH = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.lblUsuarioDVH = new DevComponents.DotNetBar.LabelX();
+            this.radioGroupDVH = new System.Windows.Forms.GroupBox();
+            this.radioTodosDVH = new System.Windows.Forms.RadioButton();
+            this.radioUsuarioDVH = new System.Windows.Forms.RadioButton();
+            this.tabItemDVH = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabPermConsultar = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.gridPermConsultar = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.gridPermConsultarHeaderUsuario = new DevComponents.DotNetBar.Controls.DataGridViewLabelXColumn();
+            this.gridPermConsultarHeaderRol = new DevComponents.DotNetBar.Controls.DataGridViewLabelXColumn();
+            this.gridPermConsultarHeaderPatente = new DevComponents.DotNetBar.Controls.DataGridViewLabelXColumn();
+            this.gridPermConsultarHeaderFamilia = new DevComponents.DotNetBar.Controls.DataGridViewLabelXColumn();
+            this.comboPermC = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.radioGroupAsignar = new System.Windows.Forms.GroupBox();
+            this.radioPermCFamilia = new System.Windows.Forms.RadioButton();
+            this.radioPermCPatente = new System.Windows.Forms.RadioButton();
+            this.radioPermCRol = new System.Windows.Forms.RadioButton();
+            this.radioPermCUsuario = new System.Windows.Forms.RadioButton();
+            this.btnPermCBuscar = new DevComponents.DotNetBar.ButtonX();
+            this.tabItemPermConsultar = new DevComponents.DotNetBar.SuperTabItem();
             this.folderBrowseRutaBackup = new System.Windows.Forms.FolderBrowserDialog();
             this.openFileRutaRestore = new System.Windows.Forms.OpenFileDialog();
             this.lblUsuario = new DevComponents.DotNetBar.LabelX();
             this.lblUsuarioLogueado = new DevComponents.DotNetBar.LabelX();
             this.btnLogout = new DevComponents.DotNetBar.ButtonX();
-            ((System.ComponentModel.ISupportInitialize)(this.superTabCtrol)).BeginInit();
-            this.superTabCtrol.SuspendLayout();
-            this.superTabCripto.SuspendLayout();
-            this.radioGroupOpcion.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.superTabCtrolAdmin)).BeginInit();
+            this.superTabCtrolAdmin.SuspendLayout();
+            this.superTabAgregar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dateFecNac)).BeginInit();
             this.superTabBackup.SuspendLayout();
+            this.superTabEditar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dateFecNacM)).BeginInit();
+            this.radioGroupBuscar.SuspendLayout();
             this.superTabDVV.SuspendLayout();
             this.radioGroupDVV.SuspendLayout();
-            this.superTabDVH.SuspendLayout();
-            this.radioGroupDVH.SuspendLayout();
+            this.superTabRestore.SuspendLayout();
             this.superTabFunc.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridFunciones)).BeginInit();
             this.radioGroupABM.SuspendLayout();
@@ -295,9 +297,6 @@ namespace OEVApp
             this.superTabAsignar.SuspendLayout();
             this.radioGroupOp2.SuspendLayout();
             this.radioGroupOp1.SuspendLayout();
-            this.superTabPermConsultar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridPermConsultar)).BeginInit();
-            this.radioGroupAsignar.SuspendLayout();
             this.superTabConsultarB.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dateHastaConsultaB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateDesdeConsultaB)).BeginInit();
@@ -306,12 +305,13 @@ namespace OEVApp
             this.superTabConsultar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridConsultaUsuario)).BeginInit();
             this.groupBuscarC.SuspendLayout();
-            this.superTabEditar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dateFecNacM)).BeginInit();
-            this.radioGroupBuscar.SuspendLayout();
-            this.superTabAgregar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dateFecNac)).BeginInit();
-            this.superTabRestore.SuspendLayout();
+            this.superTabCripto.SuspendLayout();
+            this.radioGroupOpcion.SuspendLayout();
+            this.superTabDVH.SuspendLayout();
+            this.radioGroupDVH.SuspendLayout();
+            this.superTabPermConsultar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridPermConsultar)).BeginInit();
+            this.radioGroupAsignar.SuspendLayout();
             this.SuspendLayout();
             // 
             // sideBar1
@@ -321,7 +321,7 @@ namespace OEVApp
             | System.Windows.Forms.AnchorStyles.Left)));
             this.sideBar1.Appearance = DevComponents.DotNetBar.eSideBarAppearance.Flat;
             this.sideBar1.BackColor = System.Drawing.Color.White;
-            this.sideBar1.ExpandedPanel = this.sideBarPanelPermisos;
+            this.sideBar1.ExpandedPanel = this.sideBarPanelBD;
             this.sideBar1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sideBar1.ForeColor = System.Drawing.Color.Black;
             this.sideBar1.Location = new System.Drawing.Point(12, 36);
@@ -337,66 +337,6 @@ namespace OEVApp
             this.sideBar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2003;
             this.sideBar1.TabIndex = 0;
             this.sideBar1.UsingSystemColors = true;
-            // 
-            // sideBarPanelPermisos
-            // 
-            this.sideBarPanelPermisos.BackgroundStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-            this.sideBarPanelPermisos.BackgroundStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
-            this.sideBarPanelPermisos.BackgroundStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.sideBarPanelPermisos.BackgroundStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(150)))));
-            this.sideBarPanelPermisos.BackgroundStyle.ForeColor.Color = System.Drawing.SystemColors.ControlText;
-            this.sideBarPanelPermisos.HeaderHotStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(173)))), ((int)(((byte)(228)))));
-            this.sideBarPanelPermisos.HeaderHotStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(239)))), ((int)(((byte)(255)))));
-            this.sideBarPanelPermisos.HeaderHotStyle.ForeColor.Color = System.Drawing.SystemColors.ControlText;
-            this.sideBarPanelPermisos.HeaderHotStyle.GradientAngle = 90;
-            this.sideBarPanelPermisos.HeaderSideHotStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(173)))), ((int)(((byte)(228)))));
-            this.sideBarPanelPermisos.HeaderSideHotStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(239)))), ((int)(((byte)(255)))));
-            this.sideBarPanelPermisos.HeaderSideHotStyle.GradientAngle = 90;
-            this.sideBarPanelPermisos.HeaderSideStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(237)))), ((int)(((byte)(254)))));
-            this.sideBarPanelPermisos.HeaderSideStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(179)))), ((int)(((byte)(231)))));
-            this.sideBarPanelPermisos.HeaderSideStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.sideBarPanelPermisos.HeaderSideStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(150)))));
-            this.sideBarPanelPermisos.HeaderSideStyle.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Top) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.sideBarPanelPermisos.HeaderSideStyle.GradientAngle = 90;
-            this.sideBarPanelPermisos.HeaderStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(239)))), ((int)(((byte)(255)))));
-            this.sideBarPanelPermisos.HeaderStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(173)))), ((int)(((byte)(228)))));
-            this.sideBarPanelPermisos.HeaderStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.sideBarPanelPermisos.HeaderStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(150)))));
-            this.sideBarPanelPermisos.HeaderStyle.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Right | DevComponents.DotNetBar.eBorderSide.Top) 
-            | DevComponents.DotNetBar.eBorderSide.Bottom)));
-            this.sideBarPanelPermisos.HeaderStyle.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
-            this.sideBarPanelPermisos.HeaderStyle.ForeColor.Color = System.Drawing.SystemColors.ControlText;
-            this.sideBarPanelPermisos.HeaderStyle.GradientAngle = 90;
-            this.sideBarPanelPermisos.Image = global::OEVApp.Properties.Resources.icon_accesscontrol;
-            this.sideBarPanelPermisos.Name = "sideBarPanelPermisos";
-            this.sideBarPanelPermisos.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.btnItemFunc,
-            this.btnItemAsignar,
-            this.btnItemPermConsultar});
-            this.sideBarPanelPermisos.Text = "Permisos";
-            this.sideBarPanelPermisos.Click += new System.EventHandler(this.sideBarPanelPermisos_Click);
-            // 
-            // btnItemFunc
-            // 
-            this.btnItemFunc.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.btnItemFunc.Name = "btnItemFunc";
-            this.btnItemFunc.Text = "Funciones";
-            this.btnItemFunc.Click += new System.EventHandler(this.btnItemFunc_Click);
-            // 
-            // btnItemAsignar
-            // 
-            this.btnItemAsignar.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.btnItemAsignar.Name = "btnItemAsignar";
-            this.btnItemAsignar.Text = "Asignar";
-            this.btnItemAsignar.Click += new System.EventHandler(this.btnItemAsignar_Click);
-            // 
-            // btnItemPermConsultar
-            // 
-            this.btnItemPermConsultar.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.btnItemPermConsultar.Name = "btnItemPermConsultar";
-            this.btnItemPermConsultar.Text = "Consultar";
-            this.btnItemPermConsultar.Click += new System.EventHandler(this.btnItemPermCons_Click);
             // 
             // sideBarPanelBD
             // 
@@ -642,49 +582,109 @@ namespace OEVApp
             this.btnItemConsultarB.Text = "Consultar";
             this.btnItemConsultarB.Click += new System.EventHandler(this.btnItemConsultarB_Click);
             // 
-            // superTabCtrol
+            // sideBarPanelPermisos
             // 
-            this.superTabCtrol.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.sideBarPanelPermisos.BackgroundStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
+            this.sideBarPanelPermisos.BackgroundStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+            this.sideBarPanelPermisos.BackgroundStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.sideBarPanelPermisos.BackgroundStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(150)))));
+            this.sideBarPanelPermisos.BackgroundStyle.ForeColor.Color = System.Drawing.SystemColors.ControlText;
+            this.sideBarPanelPermisos.HeaderHotStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(173)))), ((int)(((byte)(228)))));
+            this.sideBarPanelPermisos.HeaderHotStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(239)))), ((int)(((byte)(255)))));
+            this.sideBarPanelPermisos.HeaderHotStyle.ForeColor.Color = System.Drawing.SystemColors.ControlText;
+            this.sideBarPanelPermisos.HeaderHotStyle.GradientAngle = 90;
+            this.sideBarPanelPermisos.HeaderSideHotStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(173)))), ((int)(((byte)(228)))));
+            this.sideBarPanelPermisos.HeaderSideHotStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(239)))), ((int)(((byte)(255)))));
+            this.sideBarPanelPermisos.HeaderSideHotStyle.GradientAngle = 90;
+            this.sideBarPanelPermisos.HeaderSideStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(237)))), ((int)(((byte)(254)))));
+            this.sideBarPanelPermisos.HeaderSideStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(179)))), ((int)(((byte)(231)))));
+            this.sideBarPanelPermisos.HeaderSideStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.sideBarPanelPermisos.HeaderSideStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(150)))));
+            this.sideBarPanelPermisos.HeaderSideStyle.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Left | DevComponents.DotNetBar.eBorderSide.Top) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.sideBarPanelPermisos.HeaderSideStyle.GradientAngle = 90;
+            this.sideBarPanelPermisos.HeaderStyle.BackColor1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(239)))), ((int)(((byte)(255)))));
+            this.sideBarPanelPermisos.HeaderStyle.BackColor2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(173)))), ((int)(((byte)(228)))));
+            this.sideBarPanelPermisos.HeaderStyle.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
+            this.sideBarPanelPermisos.HeaderStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(150)))));
+            this.sideBarPanelPermisos.HeaderStyle.BorderSide = ((DevComponents.DotNetBar.eBorderSide)(((DevComponents.DotNetBar.eBorderSide.Right | DevComponents.DotNetBar.eBorderSide.Top) 
+            | DevComponents.DotNetBar.eBorderSide.Bottom)));
+            this.sideBarPanelPermisos.HeaderStyle.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold);
+            this.sideBarPanelPermisos.HeaderStyle.ForeColor.Color = System.Drawing.SystemColors.ControlText;
+            this.sideBarPanelPermisos.HeaderStyle.GradientAngle = 90;
+            this.sideBarPanelPermisos.Image = global::OEVApp.Properties.Resources.icon_accesscontrol;
+            this.sideBarPanelPermisos.Name = "sideBarPanelPermisos";
+            this.sideBarPanelPermisos.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnItemFunc,
+            this.btnItemAsignar,
+            this.btnItemPermConsultar});
+            this.sideBarPanelPermisos.Text = "Permisos";
+            this.sideBarPanelPermisos.Click += new System.EventHandler(this.sideBarPanelPermisos_Click);
+            // 
+            // btnItemFunc
+            // 
+            this.btnItemFunc.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.btnItemFunc.Name = "btnItemFunc";
+            this.btnItemFunc.Text = "Funciones";
+            this.btnItemFunc.Click += new System.EventHandler(this.btnItemFunc_Click);
+            // 
+            // btnItemAsignar
+            // 
+            this.btnItemAsignar.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.btnItemAsignar.Name = "btnItemAsignar";
+            this.btnItemAsignar.Text = "Asignar";
+            this.btnItemAsignar.Click += new System.EventHandler(this.btnItemAsignar_Click);
+            // 
+            // btnItemPermConsultar
+            // 
+            this.btnItemPermConsultar.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.btnItemPermConsultar.Name = "btnItemPermConsultar";
+            this.btnItemPermConsultar.Text = "Consultar";
+            this.btnItemPermConsultar.Click += new System.EventHandler(this.btnItemPermCons_Click);
+            // 
+            // superTabCtrolAdmin
+            // 
+            this.superTabCtrolAdmin.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.superTabCtrol.BackColor = System.Drawing.Color.White;
+            this.superTabCtrolAdmin.BackColor = System.Drawing.Color.White;
             // 
             // 
             // 
             // 
             // 
             // 
-            this.superTabCtrol.ControlBox.CloseBox.Name = "";
+            this.superTabCtrolAdmin.ControlBox.CloseBox.Name = "";
             // 
             // 
             // 
-            this.superTabCtrol.ControlBox.MenuBox.Name = "";
-            this.superTabCtrol.ControlBox.Name = "";
-            this.superTabCtrol.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.superTabCtrol.ControlBox.MenuBox,
-            this.superTabCtrol.ControlBox.CloseBox});
-            this.superTabCtrol.Controls.Add(this.superTabRestore);
-            this.superTabCtrol.Controls.Add(this.superTabBackup);
-            this.superTabCtrol.Controls.Add(this.superTabFunc);
-            this.superTabCtrol.Controls.Add(this.superTabAsignar);
-            this.superTabCtrol.Controls.Add(this.superTabConsultarB);
-            this.superTabCtrol.Controls.Add(this.superTabConsultar);
-            this.superTabCtrol.Controls.Add(this.superTabEditar);
-            this.superTabCtrol.Controls.Add(this.superTabAgregar);
-            this.superTabCtrol.Controls.Add(this.superTabCripto);
-            this.superTabCtrol.Controls.Add(this.superTabDVV);
-            this.superTabCtrol.Controls.Add(this.superTabDVH);
-            this.superTabCtrol.Controls.Add(this.superTabPermConsultar);
-            this.superTabCtrol.ForeColor = System.Drawing.Color.Black;
-            this.superTabCtrol.Location = new System.Drawing.Point(181, 36);
-            this.superTabCtrol.Name = "superTabCtrol";
-            this.superTabCtrol.ReorderTabsEnabled = true;
-            this.superTabCtrol.SelectedTabFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.superTabCtrol.SelectedTabIndex = 0;
-            this.superTabCtrol.Size = new System.Drawing.Size(772, 396);
-            this.superTabCtrol.TabFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.superTabCtrol.TabIndex = 1;
-            this.superTabCtrol.Tabs.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.superTabCtrolAdmin.ControlBox.MenuBox.Name = "";
+            this.superTabCtrolAdmin.ControlBox.Name = "";
+            this.superTabCtrolAdmin.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.superTabCtrolAdmin.ControlBox.MenuBox,
+            this.superTabCtrolAdmin.ControlBox.CloseBox});
+            this.superTabCtrolAdmin.Controls.Add(this.superTabEditar);
+            this.superTabCtrolAdmin.Controls.Add(this.superTabBackup);
+            this.superTabCtrolAdmin.Controls.Add(this.superTabAgregar);
+            this.superTabCtrolAdmin.Controls.Add(this.superTabDVV);
+            this.superTabCtrolAdmin.Controls.Add(this.superTabRestore);
+            this.superTabCtrolAdmin.Controls.Add(this.superTabFunc);
+            this.superTabCtrolAdmin.Controls.Add(this.superTabAsignar);
+            this.superTabCtrolAdmin.Controls.Add(this.superTabConsultarB);
+            this.superTabCtrolAdmin.Controls.Add(this.superTabConsultar);
+            this.superTabCtrolAdmin.Controls.Add(this.superTabCripto);
+            this.superTabCtrolAdmin.Controls.Add(this.superTabDVH);
+            this.superTabCtrolAdmin.Controls.Add(this.superTabPermConsultar);
+            this.superTabCtrolAdmin.ForeColor = System.Drawing.Color.Black;
+            this.superTabCtrolAdmin.Location = new System.Drawing.Point(181, 36);
+            this.superTabCtrolAdmin.Name = "superTabCtrolAdmin";
+            this.superTabCtrolAdmin.ReorderTabsEnabled = true;
+            this.superTabCtrolAdmin.SelectedTabFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.superTabCtrolAdmin.SelectedTabIndex = 0;
+            this.superTabCtrolAdmin.Size = new System.Drawing.Size(791, 396);
+            this.superTabCtrolAdmin.TabFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.superTabCtrolAdmin.TabIndex = 1;
+            this.superTabCtrolAdmin.Tabs.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.tabItemBackup,
             this.tabItemRestore,
             this.tabItemDVH,
@@ -697,141 +697,351 @@ namespace OEVApp
             this.tabItemFunc,
             this.tabItemAsignar,
             this.tabItemPermConsultar});
-            this.superTabCtrol.Text = "superTabControl1";
-            this.superTabCtrol.Visible = false;
+            this.superTabCtrolAdmin.Text = "superTabControl1";
+            this.superTabCtrolAdmin.Visible = false;
             // 
-            // superTabCripto
+            // superTabAgregar
             // 
-            this.superTabCripto.Controls.Add(this.btnCripto);
-            this.superTabCripto.Controls.Add(this.lblResCripto);
-            this.superTabCripto.Controls.Add(this.txtResCripto);
-            this.superTabCripto.Controls.Add(this.txtTextoCripto);
-            this.superTabCripto.Controls.Add(this.lblTextoCripto);
-            this.superTabCripto.Controls.Add(this.radioGroupOpcion);
-            this.superTabCripto.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabCripto.Location = new System.Drawing.Point(0, 38);
-            this.superTabCripto.Name = "superTabCripto";
-            this.superTabCripto.Size = new System.Drawing.Size(772, 358);
-            this.superTabCripto.TabIndex = 0;
-            this.superTabCripto.TabItem = this.tabItemCripto;
+            this.superTabAgregar.Controls.Add(this.comboBoxRol);
+            this.superTabAgregar.Controls.Add(this.lblRol);
+            this.superTabAgregar.Controls.Add(this.dateFecNac);
+            this.superTabAgregar.Controls.Add(this.txtEmail);
+            this.superTabAgregar.Controls.Add(this.txtTelefono);
+            this.superTabAgregar.Controls.Add(this.txtCiudad);
+            this.superTabAgregar.Controls.Add(this.txtDireccion);
+            this.superTabAgregar.Controls.Add(this.txtDni);
+            this.superTabAgregar.Controls.Add(this.txtApellido);
+            this.superTabAgregar.Controls.Add(this.txtNombre);
+            this.superTabAgregar.Controls.Add(this.lblEmail);
+            this.superTabAgregar.Controls.Add(this.lblTelefono);
+            this.superTabAgregar.Controls.Add(this.lblCiudad);
+            this.superTabAgregar.Controls.Add(this.lblDireccion);
+            this.superTabAgregar.Controls.Add(this.lblFecNac);
+            this.superTabAgregar.Controls.Add(this.lblDni);
+            this.superTabAgregar.Controls.Add(this.lblApellido);
+            this.superTabAgregar.Controls.Add(this.lblNombre);
+            this.superTabAgregar.Controls.Add(this.btnGuardar);
+            this.superTabAgregar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabAgregar.Location = new System.Drawing.Point(0, 0);
+            this.superTabAgregar.Name = "superTabAgregar";
+            this.superTabAgregar.Size = new System.Drawing.Size(791, 396);
+            this.superTabAgregar.TabIndex = 0;
+            this.superTabAgregar.TabItem = this.tabItemAgregar;
             // 
-            // btnCripto
+            // comboBoxRol
             // 
-            this.btnCripto.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnCripto.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnCripto.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCripto.Image = global::OEVApp.Properties.Resources.Encriptar11;
-            this.btnCripto.Location = new System.Drawing.Point(400, 90);
-            this.btnCripto.Name = "btnCripto";
-            this.btnCripto.Size = new System.Drawing.Size(72, 86);
-            this.btnCripto.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnCripto.TabIndex = 5;
-            this.btnCripto.Click += new System.EventHandler(this.btnCripto_Click);
+            this.comboBoxRol.DisplayMember = "Text";
+            this.comboBoxRol.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.comboBoxRol.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxRol.EnablePopupResize = false;
+            this.comboBoxRol.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxRol.ItemHeight = 19;
+            this.comboBoxRol.Location = new System.Drawing.Point(138, 212);
+            this.comboBoxRol.Name = "comboBoxRol";
+            this.comboBoxRol.Size = new System.Drawing.Size(245, 25);
+            this.comboBoxRol.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboBoxRol.TabIndex = 18;
+            this.comboBoxRol.SelectionChangeCommitted += new System.EventHandler(this.comboRol_SelectionChangeCommited);
             // 
-            // lblResCripto
-            // 
-            // 
-            // 
-            // 
-            this.lblResCripto.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblResCripto.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResCripto.Location = new System.Drawing.Point(20, 202);
-            this.lblResCripto.Name = "lblResCripto";
-            this.lblResCripto.Size = new System.Drawing.Size(105, 25);
-            this.lblResCripto.TabIndex = 4;
-            this.lblResCripto.Text = "Resultado:";
-            this.lblResCripto.Visible = false;
-            // 
-            // txtResCripto
-            // 
-            this.txtResCripto.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtResCripto.Border.Class = "TextBoxBorder";
-            this.txtResCripto.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtResCripto.ForeColor = System.Drawing.Color.Black;
-            this.txtResCripto.Location = new System.Drawing.Point(144, 205);
-            this.txtResCripto.Name = "txtResCripto";
-            this.txtResCripto.ReadOnly = true;
-            this.txtResCripto.Size = new System.Drawing.Size(145, 22);
-            this.txtResCripto.TabIndex = 3;
-            this.txtResCripto.Visible = false;
-            // 
-            // txtTextoCripto
-            // 
-            this.txtTextoCripto.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtTextoCripto.Border.Class = "TextBoxBorder";
-            this.txtTextoCripto.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtTextoCripto.ForeColor = System.Drawing.Color.Black;
-            this.txtTextoCripto.Location = new System.Drawing.Point(144, 154);
-            this.txtTextoCripto.Name = "txtTextoCripto";
-            this.txtTextoCripto.Size = new System.Drawing.Size(145, 22);
-            this.txtTextoCripto.TabIndex = 2;
-            // 
-            // lblTextoCripto
+            // lblRol
             // 
             // 
             // 
             // 
-            this.lblTextoCripto.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblTextoCripto.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTextoCripto.Location = new System.Drawing.Point(20, 153);
-            this.lblTextoCripto.Name = "lblTextoCripto";
-            this.lblTextoCripto.Size = new System.Drawing.Size(105, 25);
-            this.lblTextoCripto.TabIndex = 1;
-            this.lblTextoCripto.Text = "Texto:";
+            this.lblRol.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblRol.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRol.Location = new System.Drawing.Point(17, 212);
+            this.lblRol.Name = "lblRol";
+            this.lblRol.Size = new System.Drawing.Size(110, 25);
+            this.lblRol.TabIndex = 17;
+            this.lblRol.Text = "Rol:";
             // 
-            // radioGroupOpcion
+            // dateFecNac
             // 
-            this.radioGroupOpcion.Controls.Add(this.radioDesencriptar);
-            this.radioGroupOpcion.Controls.Add(this.radioEncriptar);
-            this.radioGroupOpcion.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.radioGroupOpcion.Location = new System.Drawing.Point(20, 30);
-            this.radioGroupOpcion.Name = "radioGroupOpcion";
-            this.radioGroupOpcion.Size = new System.Drawing.Size(269, 100);
-            this.radioGroupOpcion.TabIndex = 0;
-            this.radioGroupOpcion.TabStop = false;
-            this.radioGroupOpcion.Text = "Seleccionar Opción";
             // 
-            // radioDesencriptar
             // 
-            this.radioDesencriptar.AutoSize = true;
-            this.radioDesencriptar.Location = new System.Drawing.Point(77, 63);
-            this.radioDesencriptar.Name = "radioDesencriptar";
-            this.radioDesencriptar.Size = new System.Drawing.Size(111, 24);
-            this.radioDesencriptar.TabIndex = 1;
-            this.radioDesencriptar.Text = "Desencriptar";
-            this.radioDesencriptar.UseVisualStyleBackColor = true;
-            this.radioDesencriptar.CheckedChanged += new System.EventHandler(this.radioDesencriptar_CheckedChanged);
             // 
-            // radioEncriptar
+            this.dateFecNac.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.dateFecNac.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateFecNac.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
+            this.dateFecNac.ButtonDropDown.Visible = true;
+            this.dateFecNac.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateFecNac.IsPopupCalendarOpen = false;
+            this.dateFecNac.Location = new System.Drawing.Point(138, 166);
+            this.dateFecNac.MaxDate = new System.DateTime(1999, 12, 31, 0, 0, 0, 0);
+            this.dateFecNac.MinDate = new System.DateTime(1930, 1, 1, 0, 0, 0, 0);
             // 
-            this.radioEncriptar.AutoSize = true;
-            this.radioEncriptar.Checked = true;
-            this.radioEncriptar.Location = new System.Drawing.Point(77, 27);
-            this.radioEncriptar.Name = "radioEncriptar";
-            this.radioEncriptar.Size = new System.Drawing.Size(86, 24);
-            this.radioEncriptar.TabIndex = 0;
-            this.radioEncriptar.TabStop = true;
-            this.radioEncriptar.Text = "Encriptar";
-            this.radioEncriptar.UseVisualStyleBackColor = true;
-            this.radioEncriptar.CheckedChanged += new System.EventHandler(this.radioEncriptar_CheckedChanged);
             // 
-            // tabItemCripto
             // 
-            this.tabItemCripto.AttachedControl = this.superTabCripto;
-            this.tabItemCripto.GlobalItem = false;
-            this.tabItemCripto.Image = global::OEVApp.Properties.Resources.Crypto24x24;
-            this.tabItemCripto.Name = "tabItemCripto";
-            superTabItemStateColorTable6.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates6.Selected = superTabItemStateColorTable6;
-            superTabItemColorTable6.Default = superTabColorStates6;
-            this.tabItemCripto.TabColor = superTabItemColorTable6;
-            this.tabItemCripto.Text = "<b>Criptografía</b>";
+            this.dateFecNac.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dateFecNac.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateFecNac.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            this.dateFecNac.MonthCalendar.ClearButtonVisible = true;
+            // 
+            // 
+            // 
+            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
+            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
+            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
+            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
+            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateFecNac.MonthCalendar.DisplayMonth = new System.DateTime(2017, 8, 1, 0, 0, 0, 0);
+            this.dateFecNac.MonthCalendar.MarkedDates = new System.DateTime[0];
+            this.dateFecNac.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dateFecNac.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.dateFecNac.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
+            this.dateFecNac.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.dateFecNac.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateFecNac.MonthCalendar.TodayButtonVisible = true;
+            this.dateFecNac.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
+            this.dateFecNac.Name = "dateFecNac";
+            this.dateFecNac.Size = new System.Drawing.Size(245, 25);
+            this.dateFecNac.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.dateFecNac.TabIndex = 15;
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtEmail.Border.Class = "TextBoxBorder";
+            this.txtEmail.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.ForeColor = System.Drawing.Color.Black;
+            this.txtEmail.Location = new System.Drawing.Point(536, 166);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(245, 25);
+            this.txtEmail.TabIndex = 14;
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtTelefono.Border.Class = "TextBoxBorder";
+            this.txtTelefono.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtTelefono.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefono.ForeColor = System.Drawing.Color.Black;
+            this.txtTelefono.Location = new System.Drawing.Point(536, 124);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(245, 25);
+            this.txtTelefono.TabIndex = 13;
+            // 
+            // txtCiudad
+            // 
+            this.txtCiudad.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtCiudad.Border.Class = "TextBoxBorder";
+            this.txtCiudad.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtCiudad.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCiudad.ForeColor = System.Drawing.Color.Black;
+            this.txtCiudad.Location = new System.Drawing.Point(536, 84);
+            this.txtCiudad.Name = "txtCiudad";
+            this.txtCiudad.Size = new System.Drawing.Size(245, 25);
+            this.txtCiudad.TabIndex = 12;
+            // 
+            // txtDireccion
+            // 
+            this.txtDireccion.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtDireccion.Border.Class = "TextBoxBorder";
+            this.txtDireccion.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtDireccion.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDireccion.ForeColor = System.Drawing.Color.Black;
+            this.txtDireccion.Location = new System.Drawing.Point(536, 44);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(245, 25);
+            this.txtDireccion.TabIndex = 11;
+            // 
+            // txtDni
+            // 
+            this.txtDni.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtDni.Border.Class = "TextBoxBorder";
+            this.txtDni.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtDni.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDni.ForeColor = System.Drawing.Color.Black;
+            this.txtDni.Location = new System.Drawing.Point(138, 124);
+            this.txtDni.Name = "txtDni";
+            this.txtDni.Size = new System.Drawing.Size(245, 25);
+            this.txtDni.TabIndex = 10;
+            // 
+            // txtApellido
+            // 
+            this.txtApellido.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtApellido.Border.Class = "TextBoxBorder";
+            this.txtApellido.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtApellido.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApellido.ForeColor = System.Drawing.Color.Black;
+            this.txtApellido.Location = new System.Drawing.Point(138, 84);
+            this.txtApellido.Name = "txtApellido";
+            this.txtApellido.Size = new System.Drawing.Size(245, 25);
+            this.txtApellido.TabIndex = 9;
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtNombre.Border.Class = "TextBoxBorder";
+            this.txtNombre.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtNombre.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.ForeColor = System.Drawing.Color.Black;
+            this.txtNombre.Location = new System.Drawing.Point(138, 44);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(245, 25);
+            this.txtNombre.TabIndex = 8;
+            // 
+            // lblEmail
+            // 
+            // 
+            // 
+            // 
+            this.lblEmail.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblEmail.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail.Location = new System.Drawing.Point(411, 166);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(110, 25);
+            this.lblEmail.TabIndex = 7;
+            this.lblEmail.Text = "(*) Email:";
+            // 
+            // lblTelefono
+            // 
+            // 
+            // 
+            // 
+            this.lblTelefono.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblTelefono.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefono.Location = new System.Drawing.Point(411, 124);
+            this.lblTelefono.Name = "lblTelefono";
+            this.lblTelefono.Size = new System.Drawing.Size(110, 25);
+            this.lblTelefono.TabIndex = 6;
+            this.lblTelefono.Text = "Teléfono:";
+            // 
+            // lblCiudad
+            // 
+            // 
+            // 
+            // 
+            this.lblCiudad.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblCiudad.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCiudad.Location = new System.Drawing.Point(411, 84);
+            this.lblCiudad.Name = "lblCiudad";
+            this.lblCiudad.Size = new System.Drawing.Size(110, 25);
+            this.lblCiudad.TabIndex = 5;
+            this.lblCiudad.Text = "Ciudad:";
+            // 
+            // lblDireccion
+            // 
+            // 
+            // 
+            // 
+            this.lblDireccion.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblDireccion.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDireccion.Location = new System.Drawing.Point(411, 44);
+            this.lblDireccion.Name = "lblDireccion";
+            this.lblDireccion.Size = new System.Drawing.Size(110, 25);
+            this.lblDireccion.TabIndex = 4;
+            this.lblDireccion.Text = "Dirección:";
+            // 
+            // lblFecNac
+            // 
+            // 
+            // 
+            // 
+            this.lblFecNac.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblFecNac.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFecNac.Location = new System.Drawing.Point(17, 166);
+            this.lblFecNac.Name = "lblFecNac";
+            this.lblFecNac.Size = new System.Drawing.Size(110, 25);
+            this.lblFecNac.TabIndex = 3;
+            this.lblFecNac.Text = "Fecha Nac:";
+            // 
+            // lblDni
+            // 
+            // 
+            // 
+            // 
+            this.lblDni.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblDni.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDni.Location = new System.Drawing.Point(18, 124);
+            this.lblDni.Name = "lblDni";
+            this.lblDni.Size = new System.Drawing.Size(110, 25);
+            this.lblDni.TabIndex = 2;
+            this.lblDni.Text = "(*) DNI:";
+            // 
+            // lblApellido
+            // 
+            // 
+            // 
+            // 
+            this.lblApellido.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblApellido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblApellido.Location = new System.Drawing.Point(17, 84);
+            this.lblApellido.Name = "lblApellido";
+            this.lblApellido.Size = new System.Drawing.Size(110, 25);
+            this.lblApellido.TabIndex = 1;
+            this.lblApellido.Text = "(*) Apellido:";
+            // 
+            // lblNombre
+            // 
+            // 
+            // 
+            // 
+            this.lblNombre.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Location = new System.Drawing.Point(17, 44);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(110, 25);
+            this.lblNombre.TabIndex = 0;
+            this.lblNombre.Text = "(*) Nombre:";
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnGuardar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnGuardar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.Image = global::OEVApp.Properties.Resources.Save32x32;
+            this.btnGuardar.Location = new System.Drawing.Point(564, 267);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(140, 75);
+            this.btnGuardar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnGuardar.TabIndex = 16;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_click);
+            // 
+            // tabItemAgregar
+            // 
+            this.tabItemAgregar.AttachedControl = this.superTabAgregar;
+            this.tabItemAgregar.GlobalItem = false;
+            this.tabItemAgregar.Image = global::OEVApp.Properties.Resources.upload_ok1;
+            this.tabItemAgregar.Name = "tabItemAgregar";
+            superTabItemStateColorTable3.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates3.Selected = superTabItemStateColorTable3;
+            superTabItemColorTable3.Default = superTabColorStates3;
+            this.tabItemAgregar.TabColor = superTabItemColorTable3;
+            this.tabItemAgregar.Text = "<b>Agregar</b>";
+            this.tabItemAgregar.Click += new System.EventHandler(this.tabItemAgregar_Click);
             // 
             // superTabBackup
             // 
@@ -842,7 +1052,7 @@ namespace OEVApp
             this.superTabBackup.Dock = System.Windows.Forms.DockStyle.Fill;
             this.superTabBackup.Location = new System.Drawing.Point(0, 38);
             this.superTabBackup.Name = "superTabBackup";
-            this.superTabBackup.Size = new System.Drawing.Size(772, 358);
+            this.superTabBackup.Size = new System.Drawing.Size(791, 358);
             this.superTabBackup.TabIndex = 1;
             this.superTabBackup.TabItem = this.tabItemBackup;
             // 
@@ -904,1548 +1114,11 @@ namespace OEVApp
             this.tabItemBackup.GlobalItem = false;
             this.tabItemBackup.Image = global::OEVApp.Properties.Resources.DatabaseRestore24x24;
             this.tabItemBackup.Name = "tabItemBackup";
-            superTabItemStateColorTable10.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates10.Selected = superTabItemStateColorTable10;
-            superTabItemColorTable10.Default = superTabColorStates10;
-            this.tabItemBackup.TabColor = superTabItemColorTable10;
-            this.tabItemBackup.Text = "<b>Copia BD</b>";
-            // 
-            // superTabDVV
-            // 
-            this.superTabDVV.Controls.Add(this.radioGroupDVV);
-            this.superTabDVV.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabDVV.Location = new System.Drawing.Point(0, 38);
-            this.superTabDVV.Name = "superTabDVV";
-            this.superTabDVV.Size = new System.Drawing.Size(772, 358);
-            this.superTabDVV.TabIndex = 0;
-            this.superTabDVV.TabItem = this.tabItemDVV;
-            // 
-            // radioGroupDVV
-            // 
-            this.radioGroupDVV.Controls.Add(this.btnVerificarDVV);
-            this.radioGroupDVV.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.radioGroupDVV.Location = new System.Drawing.Point(20, 24);
-            this.radioGroupDVV.Name = "radioGroupDVV";
-            this.radioGroupDVV.Size = new System.Drawing.Size(307, 130);
-            this.radioGroupDVV.TabIndex = 0;
-            this.radioGroupDVV.TabStop = false;
-            this.radioGroupDVV.Text = "Dígito Verificador Vertical para Usuarios";
-            // 
-            // btnVerificarDVV
-            // 
-            this.btnVerificarDVV.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnVerificarDVV.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnVerificarDVV.Image = global::OEVApp.Properties.Resources.VerificadorManoArriba3232;
-            this.btnVerificarDVV.Location = new System.Drawing.Point(90, 40);
-            this.btnVerificarDVV.Name = "btnVerificarDVV";
-            this.btnVerificarDVV.Size = new System.Drawing.Size(108, 55);
-            this.btnVerificarDVV.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnVerificarDVV.TabIndex = 0;
-            this.btnVerificarDVV.Text = "Verificar";
-            this.btnVerificarDVV.Click += new System.EventHandler(this.btnVerificarDVV_Click);
-            // 
-            // tabItemDVV
-            // 
-            this.tabItemDVV.AttachedControl = this.superTabDVV;
-            this.tabItemDVV.GlobalItem = false;
-            this.tabItemDVV.Image = global::OEVApp.Properties.Resources.DVVArrows;
-            this.tabItemDVV.Name = "tabItemDVV";
-            superTabItemStateColorTable7.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates7.Selected = superTabItemStateColorTable7;
-            superTabItemColorTable7.Default = superTabColorStates7;
-            this.tabItemDVV.TabColor = superTabItemColorTable7;
-            this.tabItemDVV.Text = "<b>Vertical</b>";
-            // 
-            // superTabDVH
-            // 
-            this.superTabDVH.Controls.Add(this.btnVerificarDVH);
-            this.superTabDVH.Controls.Add(this.txtUsuarioDVH);
-            this.superTabDVH.Controls.Add(this.lblUsuarioDVH);
-            this.superTabDVH.Controls.Add(this.radioGroupDVH);
-            this.superTabDVH.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabDVH.Location = new System.Drawing.Point(0, 38);
-            this.superTabDVH.Name = "superTabDVH";
-            this.superTabDVH.Size = new System.Drawing.Size(772, 358);
-            this.superTabDVH.TabIndex = 0;
-            this.superTabDVH.TabItem = this.tabItemDVH;
-            this.superTabDVH.Visible = false;
-            // 
-            // btnVerificarDVH
-            // 
-            this.btnVerificarDVH.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnVerificarDVH.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnVerificarDVH.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerificarDVH.Image = global::OEVApp.Properties.Resources.VerificadorManoOk;
-            this.btnVerificarDVH.Location = new System.Drawing.Point(118, 199);
-            this.btnVerificarDVH.Name = "btnVerificarDVH";
-            this.btnVerificarDVH.Size = new System.Drawing.Size(117, 55);
-            this.btnVerificarDVH.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnVerificarDVH.TabIndex = 3;
-            this.btnVerificarDVH.Text = "Verificar";
-            this.btnVerificarDVH.Click += new System.EventHandler(this.btnVerificarDVH_Click);
-            // 
-            // txtUsuarioDVH
-            // 
-            this.txtUsuarioDVH.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtUsuarioDVH.Border.Class = "TextBoxBorder";
-            this.txtUsuarioDVH.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtUsuarioDVH.ForeColor = System.Drawing.Color.Black;
-            this.txtUsuarioDVH.Location = new System.Drawing.Point(118, 146);
-            this.txtUsuarioDVH.Name = "txtUsuarioDVH";
-            this.txtUsuarioDVH.Size = new System.Drawing.Size(212, 22);
-            this.txtUsuarioDVH.TabIndex = 2;
-            // 
-            // lblUsuarioDVH
-            // 
-            // 
-            // 
-            // 
-            this.lblUsuarioDVH.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblUsuarioDVH.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuarioDVH.Location = new System.Drawing.Point(20, 141);
-            this.lblUsuarioDVH.Name = "lblUsuarioDVH";
-            this.lblUsuarioDVH.Size = new System.Drawing.Size(83, 23);
-            this.lblUsuarioDVH.TabIndex = 1;
-            this.lblUsuarioDVH.Text = "Usuario:";
-            // 
-            // radioGroupDVH
-            // 
-            this.radioGroupDVH.Controls.Add(this.radioTodosDVH);
-            this.radioGroupDVH.Controls.Add(this.radioUsuarioDVH);
-            this.radioGroupDVH.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioGroupDVH.Location = new System.Drawing.Point(20, 16);
-            this.radioGroupDVH.Name = "radioGroupDVH";
-            this.radioGroupDVH.Size = new System.Drawing.Size(310, 100);
-            this.radioGroupDVH.TabIndex = 0;
-            this.radioGroupDVH.TabStop = false;
-            this.radioGroupDVH.Text = "Dígito Verificador Horizontal";
-            // 
-            // radioTodosDVH
-            // 
-            this.radioTodosDVH.AutoSize = true;
-            this.radioTodosDVH.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.radioTodosDVH.Location = new System.Drawing.Point(18, 67);
-            this.radioTodosDVH.Name = "radioTodosDVH";
-            this.radioTodosDVH.Size = new System.Drawing.Size(149, 24);
-            this.radioTodosDVH.TabIndex = 1;
-            this.radioTodosDVH.Text = "Todos los usuarios";
-            this.radioTodosDVH.UseVisualStyleBackColor = true;
-            this.radioTodosDVH.Click += new System.EventHandler(this.radioTodosDVH_CheckedChanged);
-            // 
-            // radioUsuarioDVH
-            // 
-            this.radioUsuarioDVH.AutoSize = true;
-            this.radioUsuarioDVH.Checked = true;
-            this.radioUsuarioDVH.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.radioUsuarioDVH.Location = new System.Drawing.Point(18, 33);
-            this.radioUsuarioDVH.Name = "radioUsuarioDVH";
-            this.radioUsuarioDVH.Size = new System.Drawing.Size(77, 24);
-            this.radioUsuarioDVH.TabIndex = 0;
-            this.radioUsuarioDVH.TabStop = true;
-            this.radioUsuarioDVH.Text = "Usuario";
-            this.radioUsuarioDVH.UseVisualStyleBackColor = true;
-            this.radioUsuarioDVH.Click += new System.EventHandler(this.radioUsuarioDVH_CheckedChanged);
-            // 
-            // tabItemDVH
-            // 
-            this.tabItemDVH.AttachedControl = this.superTabDVH;
-            this.tabItemDVH.GlobalItem = false;
-            this.tabItemDVH.Image = global::OEVApp.Properties.Resources.DVHArrows;
-            this.tabItemDVH.Name = "tabItemDVH";
-            superTabItemStateColorTable8.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates8.Selected = superTabItemStateColorTable8;
-            superTabItemColorTable8.Default = superTabColorStates8;
-            this.tabItemDVH.TabColor = superTabItemColorTable8;
-            this.tabItemDVH.Text = "<b>Horizontal</b>";
-            // 
-            // superTabFunc
-            // 
-            this.superTabFunc.Controls.Add(this.lblFuncGestion);
-            this.superTabFunc.Controls.Add(this.lblFuncTodos);
-            this.superTabFunc.Controls.Add(this.lblFuncInfo);
-            this.superTabFunc.Controls.Add(this.gridFunciones);
-            this.superTabFunc.Controls.Add(this.txtFuncNombre);
-            this.superTabFunc.Controls.Add(this.lblFuncNombre);
-            this.superTabFunc.Controls.Add(this.radioGroupABM);
-            this.superTabFunc.Controls.Add(this.radioGroupPatFam);
-            this.superTabFunc.Controls.Add(this.btnFuncBuscar);
-            this.superTabFunc.Controls.Add(this.btnFuncGuardar);
-            this.superTabFunc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabFunc.Location = new System.Drawing.Point(0, 38);
-            this.superTabFunc.Name = "superTabFunc";
-            this.superTabFunc.Size = new System.Drawing.Size(772, 358);
-            this.superTabFunc.TabIndex = 0;
-            this.superTabFunc.TabItem = this.tabItemFunc;
-            // 
-            // lblFuncGestion
-            // 
-            // 
-            // 
-            // 
-            this.lblFuncGestion.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblFuncGestion.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFuncGestion.ForeColor = System.Drawing.Color.Navy;
-            this.lblFuncGestion.Location = new System.Drawing.Point(17, 15);
-            this.lblFuncGestion.Name = "lblFuncGestion";
-            this.lblFuncGestion.Size = new System.Drawing.Size(265, 35);
-            this.lblFuncGestion.TabIndex = 45;
-            this.lblFuncGestion.Text = "Gestión de Funciones:";
-            // 
-            // lblFuncTodos
-            // 
-            // 
-            // 
-            // 
-            this.lblFuncTodos.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblFuncTodos.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFuncTodos.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.lblFuncTodos.Location = new System.Drawing.Point(17, 230);
-            this.lblFuncTodos.Name = "lblFuncTodos";
-            this.lblFuncTodos.Size = new System.Drawing.Size(319, 23);
-            this.lblFuncTodos.TabIndex = 44;
-            this.lblFuncTodos.Tag = "";
-            this.lblFuncTodos.Text = "Vacío para obtener todos.";
-            this.lblFuncTodos.Visible = false;
-            // 
-            // lblFuncInfo
-            // 
-            // 
-            // 
-            // 
-            this.lblFuncInfo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblFuncInfo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFuncInfo.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.lblFuncInfo.Location = new System.Drawing.Point(17, 208);
-            this.lblFuncInfo.Name = "lblFuncInfo";
-            this.lblFuncInfo.Size = new System.Drawing.Size(319, 23);
-            this.lblFuncInfo.TabIndex = 43;
-            this.lblFuncInfo.Tag = "";
-            this.lblFuncInfo.Text = "Escriba el nombre de patente para agregar.";
-            // 
-            // gridFunciones
-            // 
-            this.gridFunciones.AllowUserToAddRows = false;
-            this.gridFunciones.AllowUserToDeleteRows = false;
-            this.gridFunciones.AllowUserToOrderColumns = true;
-            this.gridFunciones.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridFunciones.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            this.gridFunciones.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridFunciones.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
-            this.gridFunciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridFunciones.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.gridFuncionesHeaderPatente,
-            this.gridFuncionesHeaderEstadoPatente,
-            this.gridFuncionesHeaderFamilia,
-            this.gridFuncionesHeaderEstadoFamilia,
-            this.gridFuncionesHeaderRol,
-            this.gridFuncionesHeaderEstadoRol});
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridFunciones.DefaultCellStyle = dataGridViewCellStyle12;
-            this.gridFunciones.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
-            this.gridFunciones.Location = new System.Drawing.Point(415, 130);
-            this.gridFunciones.Name = "gridFunciones";
-            this.gridFunciones.Size = new System.Drawing.Size(226, 196);
-            this.gridFunciones.TabIndex = 7;
-            this.gridFunciones.Visible = false;
-            // 
-            // gridFuncionesHeaderPatente
-            // 
-            this.gridFuncionesHeaderPatente.HeaderText = "Patente";
-            this.gridFuncionesHeaderPatente.Name = "gridFuncionesHeaderPatente";
-            this.gridFuncionesHeaderPatente.ReadOnly = true;
-            this.gridFuncionesHeaderPatente.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridFuncionesHeaderPatente.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.gridFuncionesHeaderPatente.Width = 52;
-            // 
-            // gridFuncionesHeaderEstadoPatente
-            // 
-            this.gridFuncionesHeaderEstadoPatente.Checked = true;
-            this.gridFuncionesHeaderEstadoPatente.CheckState = System.Windows.Forms.CheckState.Indeterminate;
-            this.gridFuncionesHeaderEstadoPatente.CheckValue = null;
-            this.gridFuncionesHeaderEstadoPatente.HeaderText = "Estado Patente";
-            this.gridFuncionesHeaderEstadoPatente.Name = "gridFuncionesHeaderEstadoPatente";
-            this.gridFuncionesHeaderEstadoPatente.ReadOnly = true;
-            this.gridFuncionesHeaderEstadoPatente.TextVisible = false;
-            this.gridFuncionesHeaderEstadoPatente.Width = 81;
-            // 
-            // gridFuncionesHeaderFamilia
-            // 
-            this.gridFuncionesHeaderFamilia.HeaderText = "Familia";
-            this.gridFuncionesHeaderFamilia.Name = "gridFuncionesHeaderFamilia";
-            this.gridFuncionesHeaderFamilia.ReadOnly = true;
-            this.gridFuncionesHeaderFamilia.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridFuncionesHeaderFamilia.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.gridFuncionesHeaderFamilia.Width = 49;
-            // 
-            // gridFuncionesHeaderEstadoFamilia
-            // 
-            this.gridFuncionesHeaderEstadoFamilia.Checked = true;
-            this.gridFuncionesHeaderEstadoFamilia.CheckState = System.Windows.Forms.CheckState.Indeterminate;
-            this.gridFuncionesHeaderEstadoFamilia.CheckValue = "N";
-            this.gridFuncionesHeaderEstadoFamilia.HeaderText = "Estado Familia";
-            this.gridFuncionesHeaderEstadoFamilia.Name = "gridFuncionesHeaderEstadoFamilia";
-            this.gridFuncionesHeaderEstadoFamilia.ReadOnly = true;
-            this.gridFuncionesHeaderEstadoFamilia.TextVisible = false;
-            this.gridFuncionesHeaderEstadoFamilia.Width = 78;
-            // 
-            // gridFuncionesHeaderRol
-            // 
-            this.gridFuncionesHeaderRol.HeaderText = "Rol";
-            this.gridFuncionesHeaderRol.Name = "gridFuncionesHeaderRol";
-            this.gridFuncionesHeaderRol.ReadOnly = true;
-            this.gridFuncionesHeaderRol.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridFuncionesHeaderRol.Width = 49;
-            // 
-            // gridFuncionesHeaderEstadoRol
-            // 
-            this.gridFuncionesHeaderEstadoRol.Checked = true;
-            this.gridFuncionesHeaderEstadoRol.CheckState = System.Windows.Forms.CheckState.Indeterminate;
-            this.gridFuncionesHeaderEstadoRol.CheckValue = "N";
-            this.gridFuncionesHeaderEstadoRol.HeaderText = "EstadoRol";
-            this.gridFuncionesHeaderEstadoRol.Name = "gridFuncionesHeaderEstadoRol";
-            this.gridFuncionesHeaderEstadoRol.ReadOnly = true;
-            this.gridFuncionesHeaderEstadoRol.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridFuncionesHeaderEstadoRol.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.gridFuncionesHeaderEstadoRol.TextVisible = false;
-            this.gridFuncionesHeaderEstadoRol.Width = 84;
-            // 
-            // txtFuncNombre
-            // 
-            this.txtFuncNombre.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtFuncNombre.Border.Class = "TextBoxBorder";
-            this.txtFuncNombre.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtFuncNombre.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFuncNombre.ForeColor = System.Drawing.Color.Black;
-            this.txtFuncNombre.Location = new System.Drawing.Point(125, 281);
-            this.txtFuncNombre.Name = "txtFuncNombre";
-            this.txtFuncNombre.Size = new System.Drawing.Size(211, 25);
-            this.txtFuncNombre.TabIndex = 4;
-            // 
-            // lblFuncNombre
-            // 
-            // 
-            // 
-            // 
-            this.lblFuncNombre.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblFuncNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFuncNombre.Location = new System.Drawing.Point(17, 281);
-            this.lblFuncNombre.Name = "lblFuncNombre";
-            this.lblFuncNombre.Size = new System.Drawing.Size(102, 23);
-            this.lblFuncNombre.TabIndex = 3;
-            this.lblFuncNombre.Text = "Nombre:";
-            // 
-            // radioGroupABM
-            // 
-            this.radioGroupABM.Controls.Add(this.radioConsultar);
-            this.radioGroupABM.Controls.Add(this.radioEditar);
-            this.radioGroupABM.Controls.Add(this.radioAgregar);
-            this.radioGroupABM.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioGroupABM.Location = new System.Drawing.Point(17, 70);
-            this.radioGroupABM.Name = "radioGroupABM";
-            this.radioGroupABM.Size = new System.Drawing.Size(122, 116);
-            this.radioGroupABM.TabIndex = 1;
-            this.radioGroupABM.TabStop = false;
-            this.radioGroupABM.Text = "Opciones:";
-            // 
-            // radioConsultar
-            // 
-            this.radioConsultar.AutoSize = true;
-            this.radioConsultar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioConsultar.Location = new System.Drawing.Point(17, 79);
-            this.radioConsultar.Name = "radioConsultar";
-            this.radioConsultar.Size = new System.Drawing.Size(89, 24);
-            this.radioConsultar.TabIndex = 2;
-            this.radioConsultar.Text = "Consultar";
-            this.radioConsultar.UseVisualStyleBackColor = true;
-            this.radioConsultar.Click += new System.EventHandler(this.radioFuncConsultar_Click);
-            // 
-            // radioEditar
-            // 
-            this.radioEditar.AutoSize = true;
-            this.radioEditar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioEditar.Location = new System.Drawing.Point(17, 52);
-            this.radioEditar.Name = "radioEditar";
-            this.radioEditar.Size = new System.Drawing.Size(91, 24);
-            this.radioEditar.TabIndex = 1;
-            this.radioEditar.Text = "Modificar";
-            this.radioEditar.UseVisualStyleBackColor = true;
-            this.radioEditar.Click += new System.EventHandler(this.radioFuncEditar_Click);
-            // 
-            // radioAgregar
-            // 
-            this.radioAgregar.AutoSize = true;
-            this.radioAgregar.Checked = true;
-            this.radioAgregar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioAgregar.Location = new System.Drawing.Point(17, 26);
-            this.radioAgregar.Name = "radioAgregar";
-            this.radioAgregar.Size = new System.Drawing.Size(81, 24);
-            this.radioAgregar.TabIndex = 0;
-            this.radioAgregar.TabStop = true;
-            this.radioAgregar.Text = "Agregar";
-            this.radioAgregar.UseVisualStyleBackColor = true;
-            this.radioAgregar.Click += new System.EventHandler(this.radioFuncAgregar_Click);
-            // 
-            // radioGroupPatFam
-            // 
-            this.radioGroupPatFam.Controls.Add(this.radioRol);
-            this.radioGroupPatFam.Controls.Add(this.radioFamilia);
-            this.radioGroupPatFam.Controls.Add(this.radioPatente);
-            this.radioGroupPatFam.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioGroupPatFam.Location = new System.Drawing.Point(203, 70);
-            this.radioGroupPatFam.Name = "radioGroupPatFam";
-            this.radioGroupPatFam.Size = new System.Drawing.Size(133, 116);
-            this.radioGroupPatFam.TabIndex = 0;
-            this.radioGroupPatFam.TabStop = false;
-            this.radioGroupPatFam.Text = "Seleccionar:";
-            // 
-            // radioRol
-            // 
-            this.radioRol.AutoSize = true;
-            this.radioRol.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioRol.Location = new System.Drawing.Point(27, 79);
-            this.radioRol.Name = "radioRol";
-            this.radioRol.Size = new System.Drawing.Size(49, 24);
-            this.radioRol.TabIndex = 2;
-            this.radioRol.Text = "Rol";
-            this.radioRol.UseVisualStyleBackColor = true;
-            this.radioRol.Click += new System.EventHandler(this.radioFuncRol_Click);
-            // 
-            // radioFamilia
-            // 
-            this.radioFamilia.AutoSize = true;
-            this.radioFamilia.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioFamilia.Location = new System.Drawing.Point(27, 52);
-            this.radioFamilia.Name = "radioFamilia";
-            this.radioFamilia.Size = new System.Drawing.Size(75, 24);
-            this.radioFamilia.TabIndex = 1;
-            this.radioFamilia.Text = "Familia";
-            this.radioFamilia.UseVisualStyleBackColor = true;
-            this.radioFamilia.Click += new System.EventHandler(this.radioFuncFamilia_Click);
-            // 
-            // radioPatente
-            // 
-            this.radioPatente.AutoSize = true;
-            this.radioPatente.Checked = true;
-            this.radioPatente.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioPatente.Location = new System.Drawing.Point(27, 26);
-            this.radioPatente.Name = "radioPatente";
-            this.radioPatente.Size = new System.Drawing.Size(77, 24);
-            this.radioPatente.TabIndex = 0;
-            this.radioPatente.TabStop = true;
-            this.radioPatente.Text = "Patente";
-            this.radioPatente.UseVisualStyleBackColor = true;
-            this.radioPatente.Click += new System.EventHandler(this.radioFuncPatente_Click);
-            // 
-            // btnFuncBuscar
-            // 
-            this.btnFuncBuscar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnFuncBuscar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnFuncBuscar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFuncBuscar.Image = global::OEVApp.Properties.Resources.search;
-            this.btnFuncBuscar.Location = new System.Drawing.Point(587, 25);
-            this.btnFuncBuscar.Name = "btnFuncBuscar";
-            this.btnFuncBuscar.Size = new System.Drawing.Size(95, 55);
-            this.btnFuncBuscar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnFuncBuscar.TabIndex = 42;
-            this.btnFuncBuscar.Text = "Buscar";
-            this.btnFuncBuscar.Visible = false;
-            this.btnFuncBuscar.Click += new System.EventHandler(this.btnFuncBuscar_Click);
-            // 
-            // btnFuncGuardar
-            // 
-            this.btnFuncGuardar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnFuncGuardar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnFuncGuardar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFuncGuardar.Image = global::OEVApp.Properties.Resources.Save32x32;
-            this.btnFuncGuardar.Location = new System.Drawing.Point(460, 25);
-            this.btnFuncGuardar.Name = "btnFuncGuardar";
-            this.btnFuncGuardar.Size = new System.Drawing.Size(100, 55);
-            this.btnFuncGuardar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnFuncGuardar.TabIndex = 2;
-            this.btnFuncGuardar.Text = "Guardar";
-            this.btnFuncGuardar.Click += new System.EventHandler(this.btnFuncGuardar_Click);
-            // 
-            // tabItemFunc
-            // 
-            this.tabItemFunc.AttachedControl = this.superTabFunc;
-            this.tabItemFunc.GlobalItem = false;
-            this.tabItemFunc.Image = global::OEVApp.Properties.Resources.ConfigCool24x24;
-            this.tabItemFunc.Name = "tabItemFunc";
-            superTabItemStateColorTable11.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates11.Selected = superTabItemStateColorTable11;
-            superTabItemColorTable11.Default = superTabColorStates11;
-            this.tabItemFunc.TabColor = superTabItemColorTable11;
-            this.tabItemFunc.Text = "<b>Funciones</b>";
-            // 
-            // superTabAsignar
-            // 
-            this.superTabAsignar.Controls.Add(this.switchBtn);
-            this.superTabAsignar.Controls.Add(this.lblAcceder);
-            this.superTabAsignar.Controls.Add(this.lblPermitir);
-            this.superTabAsignar.Controls.Add(this.comboOp2);
-            this.superTabAsignar.Controls.Add(this.comboOp1);
-            this.superTabAsignar.Controls.Add(this.lblDescripcion);
-            this.superTabAsignar.Controls.Add(this.radioGroupOp2);
-            this.superTabAsignar.Controls.Add(this.radioGroupOp1);
-            this.superTabAsignar.Controls.Add(this.btnAsignarGuardar);
-            this.superTabAsignar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabAsignar.Location = new System.Drawing.Point(0, 38);
-            this.superTabAsignar.Name = "superTabAsignar";
-            this.superTabAsignar.Size = new System.Drawing.Size(772, 358);
-            this.superTabAsignar.TabIndex = 0;
-            this.superTabAsignar.TabItem = this.tabItemAsignar;
-            // 
-            // switchBtn
-            // 
-            // 
-            // 
-            // 
-            this.switchBtn.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.switchBtn.BackgroundStyle.CornerTypeBottomLeft = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.switchBtn.BackgroundStyle.CornerTypeBottomRight = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.switchBtn.BackgroundStyle.CornerTypeTopLeft = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.switchBtn.BackgroundStyle.CornerTypeTopRight = DevComponents.DotNetBar.eCornerType.Rounded;
-            this.switchBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.switchBtn.Location = new System.Drawing.Point(324, 118);
-            this.switchBtn.Name = "switchBtn";
-            this.switchBtn.OffBackColor = System.Drawing.Color.White;
-            this.switchBtn.OffText = "DENEGAR";
-            this.switchBtn.OffTextColor = System.Drawing.Color.Red;
-            this.switchBtn.OnBackColor = System.Drawing.Color.White;
-            this.switchBtn.OnText = "PERMITIR";
-            this.switchBtn.OnTextColor = System.Drawing.Color.Green;
-            this.switchBtn.Size = new System.Drawing.Size(107, 60);
-            this.switchBtn.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.switchBtn.TabIndex = 45;
-            this.switchBtn.Value = true;
-            this.switchBtn.ValueObject = "Y";
-            // 
-            // lblAcceder
-            // 
-            // 
-            // 
-            // 
-            this.lblAcceder.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAcceder.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAcceder.Location = new System.Drawing.Point(467, 219);
-            this.lblAcceder.Name = "lblAcceder";
-            this.lblAcceder.Size = new System.Drawing.Size(250, 23);
-            this.lblAcceder.TabIndex = 41;
-            this.lblAcceder.Text = "Familia:";
-            // 
-            // lblPermitir
-            // 
-            // 
-            // 
-            // 
-            this.lblPermitir.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblPermitir.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPermitir.Location = new System.Drawing.Point(34, 219);
-            this.lblPermitir.Name = "lblPermitir";
-            this.lblPermitir.Size = new System.Drawing.Size(250, 23);
-            this.lblPermitir.TabIndex = 40;
-            this.lblPermitir.Text = "Usuario:";
-            // 
-            // comboOp2
-            // 
-            this.comboOp2.DisplayMember = "Text";
-            this.comboOp2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboOp2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboOp2.EnablePopupResize = false;
-            this.comboOp2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboOp2.ItemHeight = 19;
-            this.comboOp2.Location = new System.Drawing.Point(469, 258);
-            this.comboOp2.Name = "comboOp2";
-            this.comboOp2.Size = new System.Drawing.Size(250, 25);
-            this.comboOp2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboOp2.TabIndex = 39;
-            // 
-            // comboOp1
-            // 
-            this.comboOp1.DisplayMember = "Text";
-            this.comboOp1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboOp1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboOp1.EnablePopupResize = false;
-            this.comboOp1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboOp1.ItemHeight = 19;
-            this.comboOp1.Location = new System.Drawing.Point(34, 258);
-            this.comboOp1.Name = "comboOp1";
-            this.comboOp1.Size = new System.Drawing.Size(250, 25);
-            this.comboOp1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboOp1.TabIndex = 38;
-            // 
-            // lblDescripcion
-            // 
-            // 
-            // 
-            // 
-            this.lblDescripcion.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblDescripcion.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescripcion.ForeColor = System.Drawing.Color.Navy;
-            this.lblDescripcion.Location = new System.Drawing.Point(21, 20);
-            this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Size = new System.Drawing.Size(408, 35);
-            this.lblDescripcion.TabIndex = 4;
-            this.lblDescripcion.Text = "Descripcion";
-            // 
-            // radioGroupOp2
-            // 
-            this.radioGroupOp2.Controls.Add(this.radioOp2Familia);
-            this.radioGroupOp2.Controls.Add(this.radioOp2Patente);
-            this.radioGroupOp2.Controls.Add(this.radioOp2Rol);
-            this.radioGroupOp2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioGroupOp2.Location = new System.Drawing.Point(467, 101);
-            this.radioGroupOp2.Name = "radioGroupOp2";
-            this.radioGroupOp2.Size = new System.Drawing.Size(250, 100);
-            this.radioGroupOp2.TabIndex = 2;
-            this.radioGroupOp2.TabStop = false;
-            this.radioGroupOp2.Text = "Acceder a:";
-            // 
-            // radioOp2Familia
-            // 
-            this.radioOp2Familia.AutoSize = true;
-            this.radioOp2Familia.Checked = true;
-            this.radioOp2Familia.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioOp2Familia.Location = new System.Drawing.Point(80, 23);
-            this.radioOp2Familia.Name = "radioOp2Familia";
-            this.radioOp2Familia.Size = new System.Drawing.Size(75, 24);
-            this.radioOp2Familia.TabIndex = 2;
-            this.radioOp2Familia.TabStop = true;
-            this.radioOp2Familia.Text = "Familia";
-            this.radioOp2Familia.UseVisualStyleBackColor = true;
-            this.radioOp2Familia.Click += new System.EventHandler(this.radioAFamilia_Click);
-            // 
-            // radioOp2Patente
-            // 
-            this.radioOp2Patente.AutoSize = true;
-            this.radioOp2Patente.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioOp2Patente.Location = new System.Drawing.Point(80, 44);
-            this.radioOp2Patente.Name = "radioOp2Patente";
-            this.radioOp2Patente.Size = new System.Drawing.Size(77, 24);
-            this.radioOp2Patente.TabIndex = 1;
-            this.radioOp2Patente.Text = "Patente";
-            this.radioOp2Patente.UseVisualStyleBackColor = true;
-            this.radioOp2Patente.Click += new System.EventHandler(this.radioAPatente_Click);
-            // 
-            // radioOp2Rol
-            // 
-            this.radioOp2Rol.AutoSize = true;
-            this.radioOp2Rol.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioOp2Rol.Location = new System.Drawing.Point(80, 65);
-            this.radioOp2Rol.Name = "radioOp2Rol";
-            this.radioOp2Rol.Size = new System.Drawing.Size(49, 24);
-            this.radioOp2Rol.TabIndex = 0;
-            this.radioOp2Rol.Text = "Rol";
-            this.radioOp2Rol.UseVisualStyleBackColor = true;
-            this.radioOp2Rol.Visible = false;
-            this.radioOp2Rol.Click += new System.EventHandler(this.radioARol_Click);
-            // 
-            // radioGroupOp1
-            // 
-            this.radioGroupOp1.Controls.Add(this.radioOp1Patente);
-            this.radioGroupOp1.Controls.Add(this.radioOp1Rol);
-            this.radioGroupOp1.Controls.Add(this.radioOp1Usuario);
-            this.radioGroupOp1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioGroupOp1.Location = new System.Drawing.Point(34, 101);
-            this.radioGroupOp1.Name = "radioGroupOp1";
-            this.radioGroupOp1.Size = new System.Drawing.Size(250, 100);
-            this.radioGroupOp1.TabIndex = 2;
-            this.radioGroupOp1.TabStop = false;
-            this.radioGroupOp1.Text = "A:";
-            // 
-            // radioOp1Patente
-            // 
-            this.radioOp1Patente.AutoSize = true;
-            this.radioOp1Patente.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioOp1Patente.Location = new System.Drawing.Point(76, 63);
-            this.radioOp1Patente.Name = "radioOp1Patente";
-            this.radioOp1Patente.Size = new System.Drawing.Size(77, 24);
-            this.radioOp1Patente.TabIndex = 2;
-            this.radioOp1Patente.Text = "Patente";
-            this.radioOp1Patente.UseVisualStyleBackColor = true;
-            this.radioOp1Patente.Click += new System.EventHandler(this.radioAsigPatente_Click);
-            // 
-            // radioOp1Rol
-            // 
-            this.radioOp1Rol.AutoSize = true;
-            this.radioOp1Rol.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioOp1Rol.Location = new System.Drawing.Point(76, 40);
-            this.radioOp1Rol.Name = "radioOp1Rol";
-            this.radioOp1Rol.Size = new System.Drawing.Size(49, 24);
-            this.radioOp1Rol.TabIndex = 1;
-            this.radioOp1Rol.Text = "Rol";
-            this.radioOp1Rol.UseVisualStyleBackColor = true;
-            this.radioOp1Rol.Click += new System.EventHandler(this.radioAsigRol_Click);
-            // 
-            // radioOp1Usuario
-            // 
-            this.radioOp1Usuario.AutoSize = true;
-            this.radioOp1Usuario.Checked = true;
-            this.radioOp1Usuario.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioOp1Usuario.Location = new System.Drawing.Point(76, 17);
-            this.radioOp1Usuario.Name = "radioOp1Usuario";
-            this.radioOp1Usuario.Size = new System.Drawing.Size(77, 24);
-            this.radioOp1Usuario.TabIndex = 0;
-            this.radioOp1Usuario.TabStop = true;
-            this.radioOp1Usuario.Text = "Usuario";
-            this.radioOp1Usuario.UseVisualStyleBackColor = true;
-            this.radioOp1Usuario.Click += new System.EventHandler(this.radioAsigUsuario_Click);
-            // 
-            // btnAsignarGuardar
-            // 
-            this.btnAsignarGuardar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnAsignarGuardar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnAsignarGuardar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAsignarGuardar.Image = global::OEVApp.Properties.Resources.Save32x32;
-            this.btnAsignarGuardar.Location = new System.Drawing.Point(613, 20);
-            this.btnAsignarGuardar.Name = "btnAsignarGuardar";
-            this.btnAsignarGuardar.Size = new System.Drawing.Size(104, 55);
-            this.btnAsignarGuardar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnAsignarGuardar.TabIndex = 42;
-            this.btnAsignarGuardar.Text = "Guardar";
-            this.btnAsignarGuardar.Click += new System.EventHandler(this.btnAsigGuardar_click);
-            // 
-            // tabItemAsignar
-            // 
-            this.tabItemAsignar.AttachedControl = this.superTabAsignar;
-            this.tabItemAsignar.GlobalItem = false;
-            this.tabItemAsignar.Image = global::OEVApp.Properties.Resources.AuthorisedHot;
-            this.tabItemAsignar.Name = "tabItemAsignar";
             superTabItemStateColorTable2.InnerBorder = System.Drawing.Color.Navy;
             superTabColorStates2.Selected = superTabItemStateColorTable2;
             superTabItemColorTable2.Default = superTabColorStates2;
-            this.tabItemAsignar.TabColor = superTabItemColorTable2;
-            this.tabItemAsignar.Text = "<b>Asignar</b>";
-            // 
-            // superTabPermConsultar
-            // 
-            this.superTabPermConsultar.Controls.Add(this.gridPermConsultar);
-            this.superTabPermConsultar.Controls.Add(this.comboPermC);
-            this.superTabPermConsultar.Controls.Add(this.radioGroupAsignar);
-            this.superTabPermConsultar.Controls.Add(this.btnPermCBuscar);
-            this.superTabPermConsultar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabPermConsultar.Location = new System.Drawing.Point(0, 0);
-            this.superTabPermConsultar.Name = "superTabPermConsultar";
-            this.superTabPermConsultar.Size = new System.Drawing.Size(772, 396);
-            this.superTabPermConsultar.TabIndex = 0;
-            this.superTabPermConsultar.TabItem = this.tabItemPermConsultar;
-            // 
-            // gridPermConsultar
-            // 
-            this.gridPermConsultar.AllowUserToAddRows = false;
-            this.gridPermConsultar.AllowUserToDeleteRows = false;
-            this.gridPermConsultar.AllowUserToOrderColumns = true;
-            this.gridPermConsultar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle19.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridPermConsultar.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle19;
-            this.gridPermConsultar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridPermConsultar.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.gridPermConsultarHeaderUsuario,
-            this.gridPermConsultarHeaderRol,
-            this.gridPermConsultarHeaderPatente,
-            this.gridPermConsultarHeaderFamilia});
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle20.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridPermConsultar.DefaultCellStyle = dataGridViewCellStyle20;
-            this.gridPermConsultar.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
-            this.gridPermConsultar.Location = new System.Drawing.Point(25, 153);
-            this.gridPermConsultar.Name = "gridPermConsultar";
-            this.gridPermConsultar.ReadOnly = true;
-            this.gridPermConsultar.Size = new System.Drawing.Size(646, 176);
-            this.gridPermConsultar.TabIndex = 42;
-            this.gridPermConsultar.Visible = false;
-            // 
-            // gridPermConsultarHeaderUsuario
-            // 
-            this.gridPermConsultarHeaderUsuario.HeaderText = "Usuario";
-            this.gridPermConsultarHeaderUsuario.Name = "gridPermConsultarHeaderUsuario";
-            this.gridPermConsultarHeaderUsuario.ReadOnly = true;
-            this.gridPermConsultarHeaderUsuario.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridPermConsultarHeaderUsuario.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.gridPermConsultarHeaderUsuario.Width = 200;
-            // 
-            // gridPermConsultarHeaderRol
-            // 
-            this.gridPermConsultarHeaderRol.HeaderText = "Rol";
-            this.gridPermConsultarHeaderRol.Name = "gridPermConsultarHeaderRol";
-            this.gridPermConsultarHeaderRol.ReadOnly = true;
-            this.gridPermConsultarHeaderRol.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridPermConsultarHeaderRol.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.gridPermConsultarHeaderRol.Width = 150;
-            // 
-            // gridPermConsultarHeaderPatente
-            // 
-            this.gridPermConsultarHeaderPatente.HeaderText = "Patente";
-            this.gridPermConsultarHeaderPatente.Name = "gridPermConsultarHeaderPatente";
-            this.gridPermConsultarHeaderPatente.ReadOnly = true;
-            this.gridPermConsultarHeaderPatente.Width = 200;
-            // 
-            // gridPermConsultarHeaderFamilia
-            // 
-            this.gridPermConsultarHeaderFamilia.HeaderText = "Familia";
-            this.gridPermConsultarHeaderFamilia.Name = "gridPermConsultarHeaderFamilia";
-            this.gridPermConsultarHeaderFamilia.ReadOnly = true;
-            this.gridPermConsultarHeaderFamilia.Width = 200;
-            // 
-            // comboPermC
-            // 
-            this.comboPermC.DisplayMember = "Text";
-            this.comboPermC.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboPermC.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboPermC.EnablePopupResize = false;
-            this.comboPermC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboPermC.ItemHeight = 19;
-            this.comboPermC.Location = new System.Drawing.Point(25, 92);
-            this.comboPermC.Name = "comboPermC";
-            this.comboPermC.Size = new System.Drawing.Size(335, 25);
-            this.comboPermC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboPermC.TabIndex = 40;
-            // 
-            // radioGroupAsignar
-            // 
-            this.radioGroupAsignar.Controls.Add(this.radioPermCFamilia);
-            this.radioGroupAsignar.Controls.Add(this.radioPermCPatente);
-            this.radioGroupAsignar.Controls.Add(this.radioPermCRol);
-            this.radioGroupAsignar.Controls.Add(this.radioPermCUsuario);
-            this.radioGroupAsignar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioGroupAsignar.Location = new System.Drawing.Point(25, 17);
-            this.radioGroupAsignar.Name = "radioGroupAsignar";
-            this.radioGroupAsignar.Size = new System.Drawing.Size(335, 57);
-            this.radioGroupAsignar.TabIndex = 39;
-            this.radioGroupAsignar.TabStop = false;
-            this.radioGroupAsignar.Text = "Asignar:";
-            // 
-            // radioPermCFamilia
-            // 
-            this.radioPermCFamilia.AutoSize = true;
-            this.radioPermCFamilia.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioPermCFamilia.Location = new System.Drawing.Point(239, 21);
-            this.radioPermCFamilia.Name = "radioPermCFamilia";
-            this.radioPermCFamilia.Size = new System.Drawing.Size(75, 24);
-            this.radioPermCFamilia.TabIndex = 3;
-            this.radioPermCFamilia.Text = "Familia";
-            this.radioPermCFamilia.UseVisualStyleBackColor = true;
-            this.radioPermCFamilia.Click += new System.EventHandler(this.radioPermCFamilia_Click);
-            // 
-            // radioPermCPatente
-            // 
-            this.radioPermCPatente.AutoSize = true;
-            this.radioPermCPatente.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioPermCPatente.Location = new System.Drawing.Point(158, 21);
-            this.radioPermCPatente.Name = "radioPermCPatente";
-            this.radioPermCPatente.Size = new System.Drawing.Size(77, 24);
-            this.radioPermCPatente.TabIndex = 2;
-            this.radioPermCPatente.Text = "Patente";
-            this.radioPermCPatente.UseVisualStyleBackColor = true;
-            this.radioPermCPatente.Click += new System.EventHandler(this.radioPermCPatente_Click);
-            // 
-            // radioPermCRol
-            // 
-            this.radioPermCRol.AutoSize = true;
-            this.radioPermCRol.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioPermCRol.Location = new System.Drawing.Point(97, 22);
-            this.radioPermCRol.Name = "radioPermCRol";
-            this.radioPermCRol.Size = new System.Drawing.Size(49, 24);
-            this.radioPermCRol.TabIndex = 1;
-            this.radioPermCRol.Text = "Rol";
-            this.radioPermCRol.UseVisualStyleBackColor = true;
-            this.radioPermCRol.Click += new System.EventHandler(this.radioPermCRol_Click);
-            // 
-            // radioPermCUsuario
-            // 
-            this.radioPermCUsuario.AutoSize = true;
-            this.radioPermCUsuario.Checked = true;
-            this.radioPermCUsuario.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioPermCUsuario.Location = new System.Drawing.Point(17, 22);
-            this.radioPermCUsuario.Name = "radioPermCUsuario";
-            this.radioPermCUsuario.Size = new System.Drawing.Size(77, 24);
-            this.radioPermCUsuario.TabIndex = 0;
-            this.radioPermCUsuario.TabStop = true;
-            this.radioPermCUsuario.Text = "Usuario";
-            this.radioPermCUsuario.UseVisualStyleBackColor = true;
-            this.radioPermCUsuario.Click += new System.EventHandler(this.radioPermCUsuario_Click);
-            // 
-            // btnPermCBuscar
-            // 
-            this.btnPermCBuscar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnPermCBuscar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnPermCBuscar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPermCBuscar.Image = global::OEVApp.Properties.Resources.search;
-            this.btnPermCBuscar.Location = new System.Drawing.Point(489, 19);
-            this.btnPermCBuscar.Name = "btnPermCBuscar";
-            this.btnPermCBuscar.Size = new System.Drawing.Size(95, 55);
-            this.btnPermCBuscar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnPermCBuscar.TabIndex = 41;
-            this.btnPermCBuscar.Text = "Buscar";
-            this.btnPermCBuscar.Click += new System.EventHandler(this.btnPermCBuscar_Click);
-            // 
-            // tabItemPermConsultar
-            // 
-            this.tabItemPermConsultar.AttachedControl = this.superTabPermConsultar;
-            this.tabItemPermConsultar.GlobalItem = false;
-            this.tabItemPermConsultar.Image = global::OEVApp.Properties.Resources.lupa;
-            this.tabItemPermConsultar.Name = "tabItemPermConsultar";
-            superTabItemStateColorTable9.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates9.Selected = superTabItemStateColorTable9;
-            superTabItemColorTable9.Default = superTabColorStates9;
-            this.tabItemPermConsultar.TabColor = superTabItemColorTable9;
-            this.tabItemPermConsultar.Text = "<b>Consultar</b>";
-            // 
-            // superTabConsultarB
-            // 
-            this.superTabConsultarB.Controls.Add(this.cmbEventoConsultarB);
-            this.superTabConsultarB.Controls.Add(this.lblHastaConsultarB);
-            this.superTabConsultarB.Controls.Add(this.lblDesdeConsultarB);
-            this.superTabConsultarB.Controls.Add(this.dateHastaConsultaB);
-            this.superTabConsultarB.Controls.Add(this.dateDesdeConsultaB);
-            this.superTabConsultarB.Controls.Add(this.dataConsultarB);
-            this.superTabConsultarB.Controls.Add(this.cmbRolConsultarB);
-            this.superTabConsultarB.Controls.Add(this.groupBoxConsultarB);
-            this.superTabConsultarB.Controls.Add(this.btnBuscarB);
-            this.superTabConsultarB.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabConsultarB.Location = new System.Drawing.Point(0, 38);
-            this.superTabConsultarB.Name = "superTabConsultarB";
-            this.superTabConsultarB.Size = new System.Drawing.Size(772, 358);
-            this.superTabConsultarB.TabIndex = 0;
-            this.superTabConsultarB.TabItem = this.tabItemConsultarB;
-            // 
-            // cmbEventoConsultarB
-            // 
-            this.cmbEventoConsultarB.DisplayMember = "Text";
-            this.cmbEventoConsultarB.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmbEventoConsultarB.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbEventoConsultarB.FormattingEnabled = true;
-            this.cmbEventoConsultarB.ItemHeight = 19;
-            this.cmbEventoConsultarB.Location = new System.Drawing.Point(25, 111);
-            this.cmbEventoConsultarB.Name = "cmbEventoConsultarB";
-            this.cmbEventoConsultarB.Size = new System.Drawing.Size(146, 25);
-            this.cmbEventoConsultarB.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.cmbEventoConsultarB.TabIndex = 53;
-            // 
-            // lblHastaConsultarB
-            // 
-            // 
-            // 
-            // 
-            this.lblHastaConsultarB.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblHastaConsultarB.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHastaConsultarB.Location = new System.Drawing.Point(547, 111);
-            this.lblHastaConsultarB.Name = "lblHastaConsultarB";
-            this.lblHastaConsultarB.Size = new System.Drawing.Size(94, 23);
-            this.lblHastaConsultarB.TabIndex = 51;
-            this.lblHastaConsultarB.Text = "Hasta:";
-            // 
-            // lblDesdeConsultarB
-            // 
-            // 
-            // 
-            // 
-            this.lblDesdeConsultarB.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblDesdeConsultarB.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDesdeConsultarB.Location = new System.Drawing.Point(343, 111);
-            this.lblDesdeConsultarB.Name = "lblDesdeConsultarB";
-            this.lblDesdeConsultarB.Size = new System.Drawing.Size(76, 23);
-            this.lblDesdeConsultarB.TabIndex = 50;
-            this.lblDesdeConsultarB.Text = "Desde:";
-            // 
-            // dateHastaConsultaB
-            // 
-            // 
-            // 
-            // 
-            this.dateHastaConsultaB.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.dateHastaConsultaB.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateHastaConsultaB.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
-            this.dateHastaConsultaB.ButtonDropDown.Visible = true;
-            this.dateHastaConsultaB.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateHastaConsultaB.IsPopupCalendarOpen = false;
-            this.dateHastaConsultaB.Location = new System.Drawing.Point(644, 111);
-            this.dateHastaConsultaB.MaxDate = new System.DateTime(2099, 12, 31, 0, 0, 0, 0);
-            this.dateHastaConsultaB.MinDate = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
-            // 
-            // 
-            // 
-            this.dateHastaConsultaB.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dateHastaConsultaB.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateHastaConsultaB.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            this.dateHastaConsultaB.MonthCalendar.ClearButtonVisible = true;
-            // 
-            // 
-            // 
-            this.dateHastaConsultaB.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
-            this.dateHastaConsultaB.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateHastaConsultaB.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
-            this.dateHastaConsultaB.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.dateHastaConsultaB.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
-            this.dateHastaConsultaB.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
-            this.dateHastaConsultaB.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateHastaConsultaB.MonthCalendar.DisplayMonth = new System.DateTime(2017, 8, 1, 0, 0, 0, 0);
-            this.dateHastaConsultaB.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.dateHastaConsultaB.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dateHastaConsultaB.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.dateHastaConsultaB.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateHastaConsultaB.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.dateHastaConsultaB.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateHastaConsultaB.MonthCalendar.TodayButtonVisible = true;
-            this.dateHastaConsultaB.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.dateHastaConsultaB.Name = "dateHastaConsultaB";
-            this.dateHastaConsultaB.Size = new System.Drawing.Size(100, 25);
-            this.dateHastaConsultaB.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.dateHastaConsultaB.TabIndex = 49;
-            this.dateHastaConsultaB.Value = new System.DateTime(2017, 11, 22, 23, 31, 27, 0);
-            // 
-            // dateDesdeConsultaB
-            // 
-            // 
-            // 
-            // 
-            this.dateDesdeConsultaB.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.dateDesdeConsultaB.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateDesdeConsultaB.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
-            this.dateDesdeConsultaB.ButtonDropDown.Visible = true;
-            this.dateDesdeConsultaB.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateDesdeConsultaB.IsPopupCalendarOpen = false;
-            this.dateDesdeConsultaB.Location = new System.Drawing.Point(425, 111);
-            this.dateDesdeConsultaB.MaxDate = new System.DateTime(2099, 12, 31, 0, 0, 0, 0);
-            this.dateDesdeConsultaB.MinDate = new System.DateTime(1970, 12, 31, 0, 0, 0, 0);
-            // 
-            // 
-            // 
-            this.dateDesdeConsultaB.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dateDesdeConsultaB.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateDesdeConsultaB.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            this.dateDesdeConsultaB.MonthCalendar.ClearButtonVisible = true;
-            // 
-            // 
-            // 
-            this.dateDesdeConsultaB.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
-            this.dateDesdeConsultaB.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateDesdeConsultaB.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
-            this.dateDesdeConsultaB.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.dateDesdeConsultaB.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
-            this.dateDesdeConsultaB.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
-            this.dateDesdeConsultaB.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateDesdeConsultaB.MonthCalendar.DisplayMonth = new System.DateTime(2017, 8, 1, 0, 0, 0, 0);
-            this.dateDesdeConsultaB.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.dateDesdeConsultaB.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dateDesdeConsultaB.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.dateDesdeConsultaB.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateDesdeConsultaB.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.dateDesdeConsultaB.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateDesdeConsultaB.MonthCalendar.TodayButtonVisible = true;
-            this.dateDesdeConsultaB.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.dateDesdeConsultaB.Name = "dateDesdeConsultaB";
-            this.dateDesdeConsultaB.Size = new System.Drawing.Size(100, 25);
-            this.dateDesdeConsultaB.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.dateDesdeConsultaB.TabIndex = 48;
-            this.dateDesdeConsultaB.Value = new System.DateTime(2017, 11, 22, 23, 31, 15, 0);
-            // 
-            // dataConsultarB
-            // 
-            this.dataConsultarB.AllowUserToAddRows = false;
-            this.dataConsultarB.AllowUserToDeleteRows = false;
-            this.dataConsultarB.AllowUserToOrderColumns = true;
-            this.dataConsultarB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataConsultarB.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
-            this.dataConsultarB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataConsultarB.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumnFechaConsultarB,
-            this.dataGridViewTextBoxColumnRoleConsultarB,
-            this.dataGridViewTextBoxColumnEventoConsultarB,
-            this.dataGridViewTextBoxColumnDetalleConsultarB});
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataConsultarB.DefaultCellStyle = dataGridViewCellStyle14;
-            this.dataConsultarB.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
-            this.dataConsultarB.Location = new System.Drawing.Point(25, 162);
-            this.dataConsultarB.Name = "dataConsultarB";
-            this.dataConsultarB.ReadOnly = true;
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataConsultarB.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
-            this.dataConsultarB.Size = new System.Drawing.Size(691, 173);
-            this.dataConsultarB.TabIndex = 46;
-            // 
-            // dataGridViewTextBoxColumnFechaConsultarB
-            // 
-            // 
-            // 
-            // 
-            this.dataGridViewTextBoxColumnFechaConsultarB.BackgroundStyle.Class = "DataGridViewDateTimeBorder";
-            this.dataGridViewTextBoxColumnFechaConsultarB.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dataGridViewTextBoxColumnFechaConsultarB.HeaderText = "Fecha";
-            this.dataGridViewTextBoxColumnFechaConsultarB.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
-            // 
-            // 
-            // 
-            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            // 
-            // 
-            // 
-            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.DisplayMonth = new System.DateTime(2017, 11, 1, 0, 0, 0, 0);
-            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.dataGridViewTextBoxColumnFechaConsultarB.Name = "dataGridViewTextBoxColumnFechaConsultarB";
-            this.dataGridViewTextBoxColumnFechaConsultarB.ReadOnly = true;
-            this.dataGridViewTextBoxColumnFechaConsultarB.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // dataGridViewTextBoxColumnRoleConsultarB
-            // 
-            this.dataGridViewTextBoxColumnRoleConsultarB.HeaderText = "Rol";
-            this.dataGridViewTextBoxColumnRoleConsultarB.MaxInputLength = 30;
-            this.dataGridViewTextBoxColumnRoleConsultarB.Name = "dataGridViewTextBoxColumnRoleConsultarB";
-            this.dataGridViewTextBoxColumnRoleConsultarB.ReadOnly = true;
-            this.dataGridViewTextBoxColumnRoleConsultarB.Width = 150;
-            // 
-            // dataGridViewTextBoxColumnEventoConsultarB
-            // 
-            this.dataGridViewTextBoxColumnEventoConsultarB.HeaderText = "Evento";
-            this.dataGridViewTextBoxColumnEventoConsultarB.MaxInputLength = 10;
-            this.dataGridViewTextBoxColumnEventoConsultarB.Name = "dataGridViewTextBoxColumnEventoConsultarB";
-            this.dataGridViewTextBoxColumnEventoConsultarB.ReadOnly = true;
-            this.dataGridViewTextBoxColumnEventoConsultarB.Width = 150;
-            // 
-            // dataGridViewTextBoxColumnDetalleConsultarB
-            // 
-            this.dataGridViewTextBoxColumnDetalleConsultarB.HeaderText = "Detalle";
-            this.dataGridViewTextBoxColumnDetalleConsultarB.Name = "dataGridViewTextBoxColumnDetalleConsultarB";
-            this.dataGridViewTextBoxColumnDetalleConsultarB.ReadOnly = true;
-            this.dataGridViewTextBoxColumnDetalleConsultarB.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumnDetalleConsultarB.Width = 300;
-            // 
-            // cmbRolConsultarB
-            // 
-            this.cmbRolConsultarB.DisplayMember = "Text";
-            this.cmbRolConsultarB.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmbRolConsultarB.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbRolConsultarB.FormattingEnabled = true;
-            this.cmbRolConsultarB.ItemHeight = 19;
-            this.cmbRolConsultarB.Location = new System.Drawing.Point(182, 111);
-            this.cmbRolConsultarB.Name = "cmbRolConsultarB";
-            this.cmbRolConsultarB.Size = new System.Drawing.Size(154, 25);
-            this.cmbRolConsultarB.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.cmbRolConsultarB.TabIndex = 45;
-            // 
-            // groupBoxConsultarB
-            // 
-            this.groupBoxConsultarB.Controls.Add(this.radioButtonEventoConsultarB);
-            this.groupBoxConsultarB.Controls.Add(this.radioButtonFechaConsultarB);
-            this.groupBoxConsultarB.Controls.Add(this.radioButtonRolConsularB);
-            this.groupBoxConsultarB.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBoxConsultarB.Location = new System.Drawing.Point(25, 30);
-            this.groupBoxConsultarB.Name = "groupBoxConsultarB";
-            this.groupBoxConsultarB.Size = new System.Drawing.Size(342, 53);
-            this.groupBoxConsultarB.TabIndex = 42;
-            this.groupBoxConsultarB.TabStop = false;
-            this.groupBoxConsultarB.Text = "Buscar";
-            // 
-            // radioButtonEventoConsultarB
-            // 
-            this.radioButtonEventoConsultarB.AutoSize = true;
-            this.radioButtonEventoConsultarB.Checked = true;
-            this.radioButtonEventoConsultarB.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonEventoConsultarB.Location = new System.Drawing.Point(64, 20);
-            this.radioButtonEventoConsultarB.Name = "radioButtonEventoConsultarB";
-            this.radioButtonEventoConsultarB.Size = new System.Drawing.Size(75, 25);
-            this.radioButtonEventoConsultarB.TabIndex = 2;
-            this.radioButtonEventoConsultarB.TabStop = true;
-            this.radioButtonEventoConsultarB.Text = "Evento";
-            this.radioButtonEventoConsultarB.UseVisualStyleBackColor = true;
-            this.radioButtonEventoConsultarB.Click += new System.EventHandler(this.radioEventoConsultarB_Click);
-            // 
-            // radioButtonFechaConsultarB
-            // 
-            this.radioButtonFechaConsultarB.AutoSize = true;
-            this.radioButtonFechaConsultarB.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonFechaConsultarB.Location = new System.Drawing.Point(243, 20);
-            this.radioButtonFechaConsultarB.Name = "radioButtonFechaConsultarB";
-            this.radioButtonFechaConsultarB.Size = new System.Drawing.Size(68, 25);
-            this.radioButtonFechaConsultarB.TabIndex = 1;
-            this.radioButtonFechaConsultarB.Text = "Fecha";
-            this.radioButtonFechaConsultarB.UseVisualStyleBackColor = true;
-            this.radioButtonFechaConsultarB.Click += new System.EventHandler(this.radioFechaConsultarB_Click);
-            // 
-            // radioButtonRolConsularB
-            // 
-            this.radioButtonRolConsularB.AutoSize = true;
-            this.radioButtonRolConsularB.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonRolConsularB.Location = new System.Drawing.Point(157, 20);
-            this.radioButtonRolConsularB.Name = "radioButtonRolConsularB";
-            this.radioButtonRolConsularB.Size = new System.Drawing.Size(51, 25);
-            this.radioButtonRolConsularB.TabIndex = 0;
-            this.radioButtonRolConsularB.Text = "Rol";
-            this.radioButtonRolConsularB.UseVisualStyleBackColor = true;
-            this.radioButtonRolConsularB.Click += new System.EventHandler(this.radioRolConsultarB_Click);
-            // 
-            // btnBuscarB
-            // 
-            this.btnBuscarB.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnBuscarB.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnBuscarB.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscarB.Image = global::OEVApp.Properties.Resources.search;
-            this.btnBuscarB.Location = new System.Drawing.Point(649, 30);
-            this.btnBuscarB.Name = "btnBuscarB";
-            this.btnBuscarB.Size = new System.Drawing.Size(95, 55);
-            this.btnBuscarB.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnBuscarB.TabIndex = 52;
-            this.btnBuscarB.Text = "Buscar";
-            this.btnBuscarB.Click += new System.EventHandler(this.btnBuscarB_Click);
-            // 
-            // tabItemConsultarB
-            // 
-            this.tabItemConsultarB.AttachedControl = this.superTabConsultarB;
-            this.tabItemConsultarB.GlobalItem = false;
-            this.tabItemConsultarB.Image = global::OEVApp.Properties.Resources.lupa;
-            this.tabItemConsultarB.Name = "tabItemConsultarB";
-            superTabItemStateColorTable1.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates1.Selected = superTabItemStateColorTable1;
-            superTabItemColorTable1.Default = superTabColorStates1;
-            this.tabItemConsultarB.TabColor = superTabItemColorTable1;
-            this.tabItemConsultarB.Text = "<b>Consultar</b>";
-            // 
-            // superTabConsultar
-            // 
-            this.superTabConsultar.Controls.Add(this.gridConsultaUsuario);
-            this.superTabConsultar.Controls.Add(this.cmbRolC);
-            this.superTabConsultar.Controls.Add(this.txtFiltroC);
-            this.superTabConsultar.Controls.Add(this.groupBuscarC);
-            this.superTabConsultar.Controls.Add(this.btnBuscarC);
-            this.superTabConsultar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabConsultar.Location = new System.Drawing.Point(0, 38);
-            this.superTabConsultar.Name = "superTabConsultar";
-            this.superTabConsultar.Size = new System.Drawing.Size(772, 358);
-            this.superTabConsultar.TabIndex = 0;
-            this.superTabConsultar.TabItem = this.tabItemConsultar;
-            // 
-            // gridConsultaUsuario
-            // 
-            this.gridConsultaUsuario.AllowUserToAddRows = false;
-            this.gridConsultaUsuario.AllowUserToDeleteRows = false;
-            this.gridConsultaUsuario.AllowUserToOrderColumns = true;
-            this.gridConsultaUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridConsultaUsuario.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle16.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridConsultaUsuario.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
-            this.gridConsultaUsuario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridConsultaUsuario.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.HId,
-            this.HApellido,
-            this.HNombre,
-            this.HDNI,
-            this.HFecNac,
-            this.HDireccion,
-            this.HCiudad,
-            this.HTelefono,
-            this.HEmail,
-            this.HRol,
-            this.HEstado});
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridConsultaUsuario.DefaultCellStyle = dataGridViewCellStyle17;
-            this.gridConsultaUsuario.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
-            this.gridConsultaUsuario.Location = new System.Drawing.Point(19, 147);
-            this.gridConsultaUsuario.Name = "gridConsultaUsuario";
-            this.gridConsultaUsuario.ReadOnly = true;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.Navy;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridConsultaUsuario.RowHeadersDefaultCellStyle = dataGridViewCellStyle18;
-            this.gridConsultaUsuario.Size = new System.Drawing.Size(709, 173);
-            this.gridConsultaUsuario.TabIndex = 45;
-            // 
-            // HId
-            // 
-            this.HId.HeaderText = "Id";
-            this.HId.MaxInputLength = 3;
-            this.HId.Name = "HId";
-            this.HId.ReadOnly = true;
-            // 
-            // HApellido
-            // 
-            this.HApellido.HeaderText = "Apellido";
-            this.HApellido.MaxInputLength = 30;
-            this.HApellido.Name = "HApellido";
-            this.HApellido.ReadOnly = true;
-            // 
-            // HNombre
-            // 
-            this.HNombre.HeaderText = "Nombre";
-            this.HNombre.MaxInputLength = 30;
-            this.HNombre.Name = "HNombre";
-            this.HNombre.ReadOnly = true;
-            // 
-            // HDNI
-            // 
-            this.HDNI.HeaderText = "DNI";
-            this.HDNI.MaxInputLength = 10;
-            this.HDNI.Name = "HDNI";
-            this.HDNI.ReadOnly = true;
-            // 
-            // HFecNac
-            // 
-            this.HFecNac.HeaderText = "Fecha Nac";
-            this.HFecNac.Name = "HFecNac";
-            this.HFecNac.ReadOnly = true;
-            this.HFecNac.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HDireccion
-            // 
-            this.HDireccion.HeaderText = "Dirección";
-            this.HDireccion.MaxInputLength = 100;
-            this.HDireccion.Name = "HDireccion";
-            this.HDireccion.ReadOnly = true;
-            // 
-            // HCiudad
-            // 
-            this.HCiudad.HeaderText = "Ciudad";
-            this.HCiudad.MaxInputLength = 50;
-            this.HCiudad.Name = "HCiudad";
-            this.HCiudad.ReadOnly = true;
-            // 
-            // HTelefono
-            // 
-            this.HTelefono.HeaderText = "Teléfono";
-            this.HTelefono.MaxInputLength = 20;
-            this.HTelefono.Name = "HTelefono";
-            this.HTelefono.ReadOnly = true;
-            // 
-            // HEmail
-            // 
-            this.HEmail.HeaderText = "Email";
-            this.HEmail.MaxInputLength = 30;
-            this.HEmail.Name = "HEmail";
-            this.HEmail.ReadOnly = true;
-            // 
-            // HRol
-            // 
-            this.HRol.HeaderText = "Rol";
-            this.HRol.MaxInputLength = 15;
-            this.HRol.Name = "HRol";
-            this.HRol.ReadOnly = true;
-            // 
-            // HEstado
-            // 
-            this.HEstado.HeaderText = "Estado";
-            this.HEstado.Name = "HEstado";
-            this.HEstado.ReadOnly = true;
-            this.HEstado.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HEstado.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // cmbRolC
-            // 
-            this.cmbRolC.DisplayMember = "Text";
-            this.cmbRolC.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmbRolC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbRolC.FormattingEnabled = true;
-            this.cmbRolC.ItemHeight = 19;
-            this.cmbRolC.Location = new System.Drawing.Point(179, 99);
-            this.cmbRolC.Name = "cmbRolC";
-            this.cmbRolC.Size = new System.Drawing.Size(181, 25);
-            this.cmbRolC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.cmbRolC.TabIndex = 44;
-            this.cmbRolC.Visible = false;
-            // 
-            // txtFiltroC
-            // 
-            this.txtFiltroC.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtFiltroC.Border.Class = "TextBoxBorder";
-            this.txtFiltroC.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtFiltroC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFiltroC.ForeColor = System.Drawing.Color.Black;
-            this.txtFiltroC.Location = new System.Drawing.Point(19, 99);
-            this.txtFiltroC.Name = "txtFiltroC";
-            this.txtFiltroC.Size = new System.Drawing.Size(154, 25);
-            this.txtFiltroC.TabIndex = 43;
-            // 
-            // groupBuscarC
-            // 
-            this.groupBuscarC.Controls.Add(this.radioTodosC);
-            this.groupBuscarC.Controls.Add(this.radioRolC);
-            this.groupBuscarC.Controls.Add(this.radioIdC);
-            this.groupBuscarC.Controls.Add(this.radioDniC);
-            this.groupBuscarC.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBuscarC.Location = new System.Drawing.Point(19, 31);
-            this.groupBuscarC.Name = "groupBuscarC";
-            this.groupBuscarC.Size = new System.Drawing.Size(343, 52);
-            this.groupBuscarC.TabIndex = 41;
-            this.groupBuscarC.TabStop = false;
-            this.groupBuscarC.Text = "Buscar";
-            // 
-            // radioTodosC
-            // 
-            this.radioTodosC.AutoSize = true;
-            this.radioTodosC.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioTodosC.Location = new System.Drawing.Point(248, 21);
-            this.radioTodosC.Name = "radioTodosC";
-            this.radioTodosC.Size = new System.Drawing.Size(68, 24);
-            this.radioTodosC.TabIndex = 3;
-            this.radioTodosC.TabStop = true;
-            this.radioTodosC.Text = "Todos";
-            this.radioTodosC.UseVisualStyleBackColor = true;
-            this.radioTodosC.Click += new System.EventHandler(this.radioTodosC_Click);
-            // 
-            // radioRolC
-            // 
-            this.radioRolC.AutoSize = true;
-            this.radioRolC.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioRolC.Location = new System.Drawing.Point(167, 21);
-            this.radioRolC.Name = "radioRolC";
-            this.radioRolC.Size = new System.Drawing.Size(49, 24);
-            this.radioRolC.TabIndex = 2;
-            this.radioRolC.TabStop = true;
-            this.radioRolC.Text = "Rol";
-            this.radioRolC.UseVisualStyleBackColor = true;
-            this.radioRolC.Click += new System.EventHandler(this.radioRolC_Click);
-            // 
-            // radioIdC
-            // 
-            this.radioIdC.AutoSize = true;
-            this.radioIdC.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioIdC.Location = new System.Drawing.Point(93, 21);
-            this.radioIdC.Name = "radioIdC";
-            this.radioIdC.Size = new System.Drawing.Size(40, 24);
-            this.radioIdC.TabIndex = 1;
-            this.radioIdC.TabStop = true;
-            this.radioIdC.Text = "Id";
-            this.radioIdC.UseVisualStyleBackColor = true;
-            this.radioIdC.Click += new System.EventHandler(this.radioIdC_Click);
-            // 
-            // radioDniC
-            // 
-            this.radioDniC.AutoSize = true;
-            this.radioDniC.Checked = true;
-            this.radioDniC.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioDniC.Location = new System.Drawing.Point(14, 21);
-            this.radioDniC.Name = "radioDniC";
-            this.radioDniC.Size = new System.Drawing.Size(53, 24);
-            this.radioDniC.TabIndex = 0;
-            this.radioDniC.TabStop = true;
-            this.radioDniC.Text = "DNI";
-            this.radioDniC.UseVisualStyleBackColor = true;
-            this.radioDniC.Click += new System.EventHandler(this.radioDniC_Click);
-            // 
-            // btnBuscarC
-            // 
-            this.btnBuscarC.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnBuscarC.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnBuscarC.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscarC.Image = global::OEVApp.Properties.Resources.search;
-            this.btnBuscarC.Location = new System.Drawing.Point(565, 31);
-            this.btnBuscarC.Name = "btnBuscarC";
-            this.btnBuscarC.Size = new System.Drawing.Size(95, 55);
-            this.btnBuscarC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnBuscarC.TabIndex = 42;
-            this.btnBuscarC.Text = "Buscar";
-            this.btnBuscarC.Click += new System.EventHandler(this.btnBuscarC_Click);
-            // 
-            // tabItemConsultar
-            // 
-            this.tabItemConsultar.AttachedControl = this.superTabConsultar;
-            this.tabItemConsultar.GlobalItem = false;
-            this.tabItemConsultar.Image = global::OEVApp.Properties.Resources.lupa;
-            this.tabItemConsultar.Name = "tabItemConsultar";
-            superTabItemStateColorTable3.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates3.Selected = superTabItemStateColorTable3;
-            superTabItemColorTable3.Default = superTabColorStates3;
-            this.tabItemConsultar.TabColor = superTabItemColorTable3;
-            this.tabItemConsultar.Text = "<b>Consultar</b>";
-            this.tabItemConsultar.Click += new System.EventHandler(this.tabItemConsultar_Click);
+            this.tabItemBackup.TabColor = superTabItemColorTable2;
+            this.tabItemBackup.Text = "<b>Copia BD</b>";
             // 
             // superTabEditar
             // 
@@ -2479,7 +1152,7 @@ namespace OEVApp
             this.superTabEditar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.superTabEditar.Location = new System.Drawing.Point(0, 38);
             this.superTabEditar.Name = "superTabEditar";
-            this.superTabEditar.Size = new System.Drawing.Size(772, 358);
+            this.superTabEditar.Size = new System.Drawing.Size(791, 358);
             this.superTabEditar.TabIndex = 0;
             this.superTabEditar.TabItem = this.tabItemEditar;
             // 
@@ -2925,355 +1598,58 @@ namespace OEVApp
             this.tabItemEditar.GlobalItem = false;
             this.tabItemEditar.Image = global::OEVApp.Properties.Resources.addedit24x241;
             this.tabItemEditar.Name = "tabItemEditar";
-            superTabItemStateColorTable4.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates4.Selected = superTabItemStateColorTable4;
-            superTabItemColorTable4.Default = superTabColorStates4;
-            this.tabItemEditar.TabColor = superTabItemColorTable4;
+            superTabItemStateColorTable1.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates1.Selected = superTabItemStateColorTable1;
+            superTabItemColorTable1.Default = superTabColorStates1;
+            this.tabItemEditar.TabColor = superTabItemColorTable1;
             this.tabItemEditar.Text = "<b>Editar</b>";
             this.tabItemEditar.Click += new System.EventHandler(this.tabItemModificar_Click);
             // 
-            // superTabAgregar
-            // 
-            this.superTabAgregar.Controls.Add(this.comboBoxRol);
-            this.superTabAgregar.Controls.Add(this.lblRol);
-            this.superTabAgregar.Controls.Add(this.dateFecNac);
-            this.superTabAgregar.Controls.Add(this.txtEmail);
-            this.superTabAgregar.Controls.Add(this.txtTelefono);
-            this.superTabAgregar.Controls.Add(this.txtCiudad);
-            this.superTabAgregar.Controls.Add(this.txtDireccion);
-            this.superTabAgregar.Controls.Add(this.txtDni);
-            this.superTabAgregar.Controls.Add(this.txtApellido);
-            this.superTabAgregar.Controls.Add(this.txtNombre);
-            this.superTabAgregar.Controls.Add(this.lblEmail);
-            this.superTabAgregar.Controls.Add(this.lblTelefono);
-            this.superTabAgregar.Controls.Add(this.lblCiudad);
-            this.superTabAgregar.Controls.Add(this.lblDireccion);
-            this.superTabAgregar.Controls.Add(this.lblFecNac);
-            this.superTabAgregar.Controls.Add(this.lblDni);
-            this.superTabAgregar.Controls.Add(this.lblApellido);
-            this.superTabAgregar.Controls.Add(this.lblNombre);
-            this.superTabAgregar.Controls.Add(this.btnGuardar);
-            this.superTabAgregar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabAgregar.Location = new System.Drawing.Point(0, 38);
-            this.superTabAgregar.Name = "superTabAgregar";
-            this.superTabAgregar.Size = new System.Drawing.Size(772, 358);
-            this.superTabAgregar.TabIndex = 0;
-            this.superTabAgregar.TabItem = this.tabItemAgregar;
-            // 
-            // comboBoxRol
-            // 
-            this.comboBoxRol.DisplayMember = "Text";
-            this.comboBoxRol.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboBoxRol.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxRol.EnablePopupResize = false;
-            this.comboBoxRol.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxRol.ItemHeight = 19;
-            this.comboBoxRol.Location = new System.Drawing.Point(138, 212);
-            this.comboBoxRol.Name = "comboBoxRol";
-            this.comboBoxRol.Size = new System.Drawing.Size(245, 25);
-            this.comboBoxRol.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboBoxRol.TabIndex = 18;
-            this.comboBoxRol.SelectionChangeCommitted += new System.EventHandler(this.comboRol_SelectionChangeCommited);
-            // 
-            // lblRol
-            // 
-            // 
-            // 
-            // 
-            this.lblRol.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblRol.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRol.Location = new System.Drawing.Point(17, 212);
-            this.lblRol.Name = "lblRol";
-            this.lblRol.Size = new System.Drawing.Size(110, 25);
-            this.lblRol.TabIndex = 17;
-            this.lblRol.Text = "Rol:";
-            // 
-            // dateFecNac
-            // 
-            // 
-            // 
-            // 
-            this.dateFecNac.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.dateFecNac.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateFecNac.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
-            this.dateFecNac.ButtonDropDown.Visible = true;
-            this.dateFecNac.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateFecNac.IsPopupCalendarOpen = false;
-            this.dateFecNac.Location = new System.Drawing.Point(138, 166);
-            this.dateFecNac.MaxDate = new System.DateTime(1999, 12, 31, 0, 0, 0, 0);
-            this.dateFecNac.MinDate = new System.DateTime(1930, 1, 1, 0, 0, 0, 0);
-            // 
-            // 
-            // 
-            this.dateFecNac.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dateFecNac.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateFecNac.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            this.dateFecNac.MonthCalendar.ClearButtonVisible = true;
-            // 
-            // 
-            // 
-            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
-            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
-            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
-            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
-            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateFecNac.MonthCalendar.DisplayMonth = new System.DateTime(2017, 8, 1, 0, 0, 0, 0);
-            this.dateFecNac.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.dateFecNac.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dateFecNac.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.dateFecNac.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateFecNac.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.dateFecNac.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateFecNac.MonthCalendar.TodayButtonVisible = true;
-            this.dateFecNac.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.dateFecNac.Name = "dateFecNac";
-            this.dateFecNac.Size = new System.Drawing.Size(245, 25);
-            this.dateFecNac.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.dateFecNac.TabIndex = 15;
-            // 
-            // txtEmail
-            // 
-            this.txtEmail.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtEmail.Border.Class = "TextBoxBorder";
-            this.txtEmail.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.ForeColor = System.Drawing.Color.Black;
-            this.txtEmail.Location = new System.Drawing.Point(536, 166);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(245, 25);
-            this.txtEmail.TabIndex = 14;
-            // 
-            // txtTelefono
-            // 
-            this.txtTelefono.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtTelefono.Border.Class = "TextBoxBorder";
-            this.txtTelefono.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtTelefono.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefono.ForeColor = System.Drawing.Color.Black;
-            this.txtTelefono.Location = new System.Drawing.Point(536, 124);
-            this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(245, 25);
-            this.txtTelefono.TabIndex = 13;
-            // 
-            // txtCiudad
-            // 
-            this.txtCiudad.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtCiudad.Border.Class = "TextBoxBorder";
-            this.txtCiudad.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtCiudad.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCiudad.ForeColor = System.Drawing.Color.Black;
-            this.txtCiudad.Location = new System.Drawing.Point(536, 84);
-            this.txtCiudad.Name = "txtCiudad";
-            this.txtCiudad.Size = new System.Drawing.Size(245, 25);
-            this.txtCiudad.TabIndex = 12;
-            // 
-            // txtDireccion
-            // 
-            this.txtDireccion.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtDireccion.Border.Class = "TextBoxBorder";
-            this.txtDireccion.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtDireccion.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDireccion.ForeColor = System.Drawing.Color.Black;
-            this.txtDireccion.Location = new System.Drawing.Point(536, 44);
-            this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(245, 25);
-            this.txtDireccion.TabIndex = 11;
-            // 
-            // txtDni
-            // 
-            this.txtDni.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtDni.Border.Class = "TextBoxBorder";
-            this.txtDni.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtDni.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDni.ForeColor = System.Drawing.Color.Black;
-            this.txtDni.Location = new System.Drawing.Point(138, 124);
-            this.txtDni.Name = "txtDni";
-            this.txtDni.Size = new System.Drawing.Size(245, 25);
-            this.txtDni.TabIndex = 10;
-            // 
-            // txtApellido
-            // 
-            this.txtApellido.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtApellido.Border.Class = "TextBoxBorder";
-            this.txtApellido.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtApellido.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellido.ForeColor = System.Drawing.Color.Black;
-            this.txtApellido.Location = new System.Drawing.Point(138, 84);
-            this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(245, 25);
-            this.txtApellido.TabIndex = 9;
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtNombre.Border.Class = "TextBoxBorder";
-            this.txtNombre.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtNombre.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.ForeColor = System.Drawing.Color.Black;
-            this.txtNombre.Location = new System.Drawing.Point(138, 44);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(245, 25);
-            this.txtNombre.TabIndex = 8;
-            // 
-            // lblEmail
-            // 
-            // 
-            // 
-            // 
-            this.lblEmail.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblEmail.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmail.Location = new System.Drawing.Point(411, 166);
-            this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(110, 25);
-            this.lblEmail.TabIndex = 7;
-            this.lblEmail.Text = "(*) Email:";
-            // 
-            // lblTelefono
-            // 
-            // 
-            // 
-            // 
-            this.lblTelefono.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblTelefono.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTelefono.Location = new System.Drawing.Point(411, 124);
-            this.lblTelefono.Name = "lblTelefono";
-            this.lblTelefono.Size = new System.Drawing.Size(110, 25);
-            this.lblTelefono.TabIndex = 6;
-            this.lblTelefono.Text = "Teléfono:";
-            // 
-            // lblCiudad
-            // 
-            // 
-            // 
-            // 
-            this.lblCiudad.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblCiudad.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCiudad.Location = new System.Drawing.Point(411, 84);
-            this.lblCiudad.Name = "lblCiudad";
-            this.lblCiudad.Size = new System.Drawing.Size(110, 25);
-            this.lblCiudad.TabIndex = 5;
-            this.lblCiudad.Text = "Ciudad:";
-            // 
-            // lblDireccion
-            // 
-            // 
-            // 
-            // 
-            this.lblDireccion.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblDireccion.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDireccion.Location = new System.Drawing.Point(411, 44);
-            this.lblDireccion.Name = "lblDireccion";
-            this.lblDireccion.Size = new System.Drawing.Size(110, 25);
-            this.lblDireccion.TabIndex = 4;
-            this.lblDireccion.Text = "Dirección:";
-            // 
-            // lblFecNac
-            // 
-            // 
-            // 
-            // 
-            this.lblFecNac.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblFecNac.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFecNac.Location = new System.Drawing.Point(17, 166);
-            this.lblFecNac.Name = "lblFecNac";
-            this.lblFecNac.Size = new System.Drawing.Size(110, 25);
-            this.lblFecNac.TabIndex = 3;
-            this.lblFecNac.Text = "Fecha Nac:";
-            // 
-            // lblDni
-            // 
-            // 
-            // 
-            // 
-            this.lblDni.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblDni.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDni.Location = new System.Drawing.Point(18, 124);
-            this.lblDni.Name = "lblDni";
-            this.lblDni.Size = new System.Drawing.Size(110, 25);
-            this.lblDni.TabIndex = 2;
-            this.lblDni.Text = "(*) DNI:";
-            // 
-            // lblApellido
-            // 
-            // 
-            // 
-            // 
-            this.lblApellido.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblApellido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblApellido.Location = new System.Drawing.Point(17, 84);
-            this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(110, 25);
-            this.lblApellido.TabIndex = 1;
-            this.lblApellido.Text = "(*) Apellido:";
-            // 
-            // lblNombre
-            // 
-            // 
-            // 
-            // 
-            this.lblNombre.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.Location = new System.Drawing.Point(17, 44);
-            this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(110, 25);
-            this.lblNombre.TabIndex = 0;
-            this.lblNombre.Text = "(*) Nombre:";
-            // 
-            // btnGuardar
-            // 
-            this.btnGuardar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnGuardar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnGuardar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.Image = global::OEVApp.Properties.Resources.Save32x32;
-            this.btnGuardar.Location = new System.Drawing.Point(564, 267);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(140, 75);
-            this.btnGuardar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnGuardar.TabIndex = 16;
-            this.btnGuardar.Text = "Guardar";
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_click);
-            // 
-            // tabItemAgregar
-            // 
-            this.tabItemAgregar.AttachedControl = this.superTabAgregar;
-            this.tabItemAgregar.GlobalItem = false;
-            this.tabItemAgregar.Image = global::OEVApp.Properties.Resources.upload_ok1;
-            this.tabItemAgregar.Name = "tabItemAgregar";
-            superTabItemStateColorTable5.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates5.Selected = superTabItemStateColorTable5;
-            superTabItemColorTable5.Default = superTabColorStates5;
-            this.tabItemAgregar.TabColor = superTabItemColorTable5;
-            this.tabItemAgregar.Text = "<b>Agregar</b>";
-            this.tabItemAgregar.Click += new System.EventHandler(this.tabItemAgregar_Click);
+            // superTabDVV
+            // 
+            this.superTabDVV.Controls.Add(this.radioGroupDVV);
+            this.superTabDVV.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabDVV.Location = new System.Drawing.Point(0, 0);
+            this.superTabDVV.Name = "superTabDVV";
+            this.superTabDVV.Size = new System.Drawing.Size(791, 396);
+            this.superTabDVV.TabIndex = 0;
+            this.superTabDVV.TabItem = this.tabItemDVV;
+            // 
+            // radioGroupDVV
+            // 
+            this.radioGroupDVV.Controls.Add(this.btnVerificarDVV);
+            this.radioGroupDVV.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.radioGroupDVV.Location = new System.Drawing.Point(20, 24);
+            this.radioGroupDVV.Name = "radioGroupDVV";
+            this.radioGroupDVV.Size = new System.Drawing.Size(307, 130);
+            this.radioGroupDVV.TabIndex = 0;
+            this.radioGroupDVV.TabStop = false;
+            this.radioGroupDVV.Text = "Dígito Verificador Vertical para Usuarios";
+            // 
+            // btnVerificarDVV
+            // 
+            this.btnVerificarDVV.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnVerificarDVV.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnVerificarDVV.Image = global::OEVApp.Properties.Resources.VerificadorManoArriba3232;
+            this.btnVerificarDVV.Location = new System.Drawing.Point(90, 40);
+            this.btnVerificarDVV.Name = "btnVerificarDVV";
+            this.btnVerificarDVV.Size = new System.Drawing.Size(108, 55);
+            this.btnVerificarDVV.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnVerificarDVV.TabIndex = 0;
+            this.btnVerificarDVV.Text = "Verificar";
+            this.btnVerificarDVV.Click += new System.EventHandler(this.btnVerificarDVV_Click);
+            // 
+            // tabItemDVV
+            // 
+            this.tabItemDVV.AttachedControl = this.superTabDVV;
+            this.tabItemDVV.GlobalItem = false;
+            this.tabItemDVV.Image = global::OEVApp.Properties.Resources.DVVArrows;
+            this.tabItemDVV.Name = "tabItemDVV";
+            superTabItemStateColorTable4.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates4.Selected = superTabItemStateColorTable4;
+            superTabItemColorTable4.Default = superTabColorStates4;
+            this.tabItemDVV.TabColor = superTabItemColorTable4;
+            this.tabItemDVV.Text = "<b>Vertical</b>";
             // 
             // superTabRestore
             // 
@@ -3282,9 +1658,9 @@ namespace OEVApp
             this.superTabRestore.Controls.Add(this.btnRestore);
             this.superTabRestore.Controls.Add(this.btnRutaRestore);
             this.superTabRestore.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabRestore.Location = new System.Drawing.Point(0, 38);
+            this.superTabRestore.Location = new System.Drawing.Point(0, 0);
             this.superTabRestore.Name = "superTabRestore";
-            this.superTabRestore.Size = new System.Drawing.Size(772, 358);
+            this.superTabRestore.Size = new System.Drawing.Size(791, 396);
             this.superTabRestore.TabIndex = 0;
             this.superTabRestore.TabItem = this.tabItemRestore;
             // 
@@ -3346,11 +1722,1635 @@ namespace OEVApp
             this.tabItemRestore.GlobalItem = false;
             this.tabItemRestore.Image = global::OEVApp.Properties.Resources.databaseBackup24x24;
             this.tabItemRestore.Name = "tabItemRestore";
-            superTabItemStateColorTable13.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates13.Selected = superTabItemStateColorTable13;
-            superTabItemColorTable13.Default = superTabColorStates13;
-            this.tabItemRestore.TabColor = superTabItemColorTable13;
+            superTabItemStateColorTable5.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates5.Selected = superTabItemStateColorTable5;
+            superTabItemColorTable5.Default = superTabColorStates5;
+            this.tabItemRestore.TabColor = superTabItemColorTable5;
             this.tabItemRestore.Text = "<b>Restaurar BD</b>";
+            // 
+            // superTabFunc
+            // 
+            this.superTabFunc.Controls.Add(this.lblFuncGestion);
+            this.superTabFunc.Controls.Add(this.lblFuncTodos);
+            this.superTabFunc.Controls.Add(this.lblFuncInfo);
+            this.superTabFunc.Controls.Add(this.gridFunciones);
+            this.superTabFunc.Controls.Add(this.txtFuncNombre);
+            this.superTabFunc.Controls.Add(this.lblFuncNombre);
+            this.superTabFunc.Controls.Add(this.radioGroupABM);
+            this.superTabFunc.Controls.Add(this.radioGroupPatFam);
+            this.superTabFunc.Controls.Add(this.btnFuncBuscar);
+            this.superTabFunc.Controls.Add(this.btnFuncGuardar);
+            this.superTabFunc.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabFunc.Location = new System.Drawing.Point(0, 0);
+            this.superTabFunc.Name = "superTabFunc";
+            this.superTabFunc.Size = new System.Drawing.Size(791, 396);
+            this.superTabFunc.TabIndex = 0;
+            this.superTabFunc.TabItem = this.tabItemFunc;
+            // 
+            // lblFuncGestion
+            // 
+            // 
+            // 
+            // 
+            this.lblFuncGestion.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblFuncGestion.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFuncGestion.ForeColor = System.Drawing.Color.Navy;
+            this.lblFuncGestion.Location = new System.Drawing.Point(17, 15);
+            this.lblFuncGestion.Name = "lblFuncGestion";
+            this.lblFuncGestion.Size = new System.Drawing.Size(265, 35);
+            this.lblFuncGestion.TabIndex = 45;
+            this.lblFuncGestion.Text = "Gestión de Funciones:";
+            // 
+            // lblFuncTodos
+            // 
+            // 
+            // 
+            // 
+            this.lblFuncTodos.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblFuncTodos.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFuncTodos.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.lblFuncTodos.Location = new System.Drawing.Point(17, 230);
+            this.lblFuncTodos.Name = "lblFuncTodos";
+            this.lblFuncTodos.Size = new System.Drawing.Size(319, 23);
+            this.lblFuncTodos.TabIndex = 44;
+            this.lblFuncTodos.Tag = "";
+            this.lblFuncTodos.Text = "Vacío para obtener todos.";
+            this.lblFuncTodos.Visible = false;
+            // 
+            // lblFuncInfo
+            // 
+            // 
+            // 
+            // 
+            this.lblFuncInfo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblFuncInfo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFuncInfo.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.lblFuncInfo.Location = new System.Drawing.Point(17, 208);
+            this.lblFuncInfo.Name = "lblFuncInfo";
+            this.lblFuncInfo.Size = new System.Drawing.Size(319, 23);
+            this.lblFuncInfo.TabIndex = 43;
+            this.lblFuncInfo.Tag = "";
+            this.lblFuncInfo.Text = "Escriba el nombre de patente para agregar.";
+            // 
+            // gridFunciones
+            // 
+            this.gridFunciones.AllowUserToAddRows = false;
+            this.gridFunciones.AllowUserToDeleteRows = false;
+            this.gridFunciones.AllowUserToOrderColumns = true;
+            this.gridFunciones.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridFunciones.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.gridFunciones.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridFunciones.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.gridFunciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridFunciones.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.gridFuncionesHeaderPatente,
+            this.gridFuncionesHeaderEstadoPatente,
+            this.gridFuncionesHeaderFamilia,
+            this.gridFuncionesHeaderEstadoFamilia,
+            this.gridFuncionesHeaderRol,
+            this.gridFuncionesHeaderEstadoRol});
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridFunciones.DefaultCellStyle = dataGridViewCellStyle2;
+            this.gridFunciones.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.gridFunciones.Location = new System.Drawing.Point(415, 130);
+            this.gridFunciones.Name = "gridFunciones";
+            this.gridFunciones.Size = new System.Drawing.Size(245, 234);
+            this.gridFunciones.TabIndex = 7;
+            this.gridFunciones.Visible = false;
+            // 
+            // gridFuncionesHeaderPatente
+            // 
+            this.gridFuncionesHeaderPatente.HeaderText = "Patente";
+            this.gridFuncionesHeaderPatente.Name = "gridFuncionesHeaderPatente";
+            this.gridFuncionesHeaderPatente.ReadOnly = true;
+            this.gridFuncionesHeaderPatente.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridFuncionesHeaderPatente.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.gridFuncionesHeaderPatente.Width = 52;
+            // 
+            // gridFuncionesHeaderEstadoPatente
+            // 
+            this.gridFuncionesHeaderEstadoPatente.Checked = true;
+            this.gridFuncionesHeaderEstadoPatente.CheckState = System.Windows.Forms.CheckState.Indeterminate;
+            this.gridFuncionesHeaderEstadoPatente.CheckValue = null;
+            this.gridFuncionesHeaderEstadoPatente.HeaderText = "Estado Patente";
+            this.gridFuncionesHeaderEstadoPatente.Name = "gridFuncionesHeaderEstadoPatente";
+            this.gridFuncionesHeaderEstadoPatente.ReadOnly = true;
+            this.gridFuncionesHeaderEstadoPatente.TextVisible = false;
+            this.gridFuncionesHeaderEstadoPatente.Width = 81;
+            // 
+            // gridFuncionesHeaderFamilia
+            // 
+            this.gridFuncionesHeaderFamilia.HeaderText = "Familia";
+            this.gridFuncionesHeaderFamilia.Name = "gridFuncionesHeaderFamilia";
+            this.gridFuncionesHeaderFamilia.ReadOnly = true;
+            this.gridFuncionesHeaderFamilia.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridFuncionesHeaderFamilia.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.gridFuncionesHeaderFamilia.Width = 49;
+            // 
+            // gridFuncionesHeaderEstadoFamilia
+            // 
+            this.gridFuncionesHeaderEstadoFamilia.Checked = true;
+            this.gridFuncionesHeaderEstadoFamilia.CheckState = System.Windows.Forms.CheckState.Indeterminate;
+            this.gridFuncionesHeaderEstadoFamilia.CheckValue = "N";
+            this.gridFuncionesHeaderEstadoFamilia.HeaderText = "Estado Familia";
+            this.gridFuncionesHeaderEstadoFamilia.Name = "gridFuncionesHeaderEstadoFamilia";
+            this.gridFuncionesHeaderEstadoFamilia.ReadOnly = true;
+            this.gridFuncionesHeaderEstadoFamilia.TextVisible = false;
+            this.gridFuncionesHeaderEstadoFamilia.Width = 78;
+            // 
+            // gridFuncionesHeaderRol
+            // 
+            this.gridFuncionesHeaderRol.HeaderText = "Rol";
+            this.gridFuncionesHeaderRol.Name = "gridFuncionesHeaderRol";
+            this.gridFuncionesHeaderRol.ReadOnly = true;
+            this.gridFuncionesHeaderRol.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridFuncionesHeaderRol.Width = 49;
+            // 
+            // gridFuncionesHeaderEstadoRol
+            // 
+            this.gridFuncionesHeaderEstadoRol.Checked = true;
+            this.gridFuncionesHeaderEstadoRol.CheckState = System.Windows.Forms.CheckState.Indeterminate;
+            this.gridFuncionesHeaderEstadoRol.CheckValue = "N";
+            this.gridFuncionesHeaderEstadoRol.HeaderText = "EstadoRol";
+            this.gridFuncionesHeaderEstadoRol.Name = "gridFuncionesHeaderEstadoRol";
+            this.gridFuncionesHeaderEstadoRol.ReadOnly = true;
+            this.gridFuncionesHeaderEstadoRol.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridFuncionesHeaderEstadoRol.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.gridFuncionesHeaderEstadoRol.TextVisible = false;
+            this.gridFuncionesHeaderEstadoRol.Width = 84;
+            // 
+            // txtFuncNombre
+            // 
+            this.txtFuncNombre.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtFuncNombre.Border.Class = "TextBoxBorder";
+            this.txtFuncNombre.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtFuncNombre.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFuncNombre.ForeColor = System.Drawing.Color.Black;
+            this.txtFuncNombre.Location = new System.Drawing.Point(125, 281);
+            this.txtFuncNombre.Name = "txtFuncNombre";
+            this.txtFuncNombre.Size = new System.Drawing.Size(211, 25);
+            this.txtFuncNombre.TabIndex = 4;
+            // 
+            // lblFuncNombre
+            // 
+            // 
+            // 
+            // 
+            this.lblFuncNombre.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblFuncNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFuncNombre.Location = new System.Drawing.Point(17, 281);
+            this.lblFuncNombre.Name = "lblFuncNombre";
+            this.lblFuncNombre.Size = new System.Drawing.Size(102, 23);
+            this.lblFuncNombre.TabIndex = 3;
+            this.lblFuncNombre.Text = "Nombre:";
+            // 
+            // radioGroupABM
+            // 
+            this.radioGroupABM.Controls.Add(this.radioConsultar);
+            this.radioGroupABM.Controls.Add(this.radioEditar);
+            this.radioGroupABM.Controls.Add(this.radioAgregar);
+            this.radioGroupABM.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioGroupABM.Location = new System.Drawing.Point(17, 70);
+            this.radioGroupABM.Name = "radioGroupABM";
+            this.radioGroupABM.Size = new System.Drawing.Size(122, 116);
+            this.radioGroupABM.TabIndex = 1;
+            this.radioGroupABM.TabStop = false;
+            this.radioGroupABM.Text = "Opciones:";
+            // 
+            // radioConsultar
+            // 
+            this.radioConsultar.AutoSize = true;
+            this.radioConsultar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioConsultar.Location = new System.Drawing.Point(17, 79);
+            this.radioConsultar.Name = "radioConsultar";
+            this.radioConsultar.Size = new System.Drawing.Size(89, 24);
+            this.radioConsultar.TabIndex = 2;
+            this.radioConsultar.Text = "Consultar";
+            this.radioConsultar.UseVisualStyleBackColor = true;
+            this.radioConsultar.Click += new System.EventHandler(this.radioFuncConsultar_Click);
+            // 
+            // radioEditar
+            // 
+            this.radioEditar.AutoSize = true;
+            this.radioEditar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioEditar.Location = new System.Drawing.Point(17, 52);
+            this.radioEditar.Name = "radioEditar";
+            this.radioEditar.Size = new System.Drawing.Size(91, 24);
+            this.radioEditar.TabIndex = 1;
+            this.radioEditar.Text = "Modificar";
+            this.radioEditar.UseVisualStyleBackColor = true;
+            this.radioEditar.Click += new System.EventHandler(this.radioFuncEditar_Click);
+            // 
+            // radioAgregar
+            // 
+            this.radioAgregar.AutoSize = true;
+            this.radioAgregar.Checked = true;
+            this.radioAgregar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioAgregar.Location = new System.Drawing.Point(17, 26);
+            this.radioAgregar.Name = "radioAgregar";
+            this.radioAgregar.Size = new System.Drawing.Size(81, 24);
+            this.radioAgregar.TabIndex = 0;
+            this.radioAgregar.TabStop = true;
+            this.radioAgregar.Text = "Agregar";
+            this.radioAgregar.UseVisualStyleBackColor = true;
+            this.radioAgregar.Click += new System.EventHandler(this.radioFuncAgregar_Click);
+            // 
+            // radioGroupPatFam
+            // 
+            this.radioGroupPatFam.Controls.Add(this.radioRol);
+            this.radioGroupPatFam.Controls.Add(this.radioFamilia);
+            this.radioGroupPatFam.Controls.Add(this.radioPatente);
+            this.radioGroupPatFam.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioGroupPatFam.Location = new System.Drawing.Point(203, 70);
+            this.radioGroupPatFam.Name = "radioGroupPatFam";
+            this.radioGroupPatFam.Size = new System.Drawing.Size(133, 116);
+            this.radioGroupPatFam.TabIndex = 0;
+            this.radioGroupPatFam.TabStop = false;
+            this.radioGroupPatFam.Text = "Seleccionar:";
+            // 
+            // radioRol
+            // 
+            this.radioRol.AutoSize = true;
+            this.radioRol.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioRol.Location = new System.Drawing.Point(27, 79);
+            this.radioRol.Name = "radioRol";
+            this.radioRol.Size = new System.Drawing.Size(49, 24);
+            this.radioRol.TabIndex = 2;
+            this.radioRol.Text = "Rol";
+            this.radioRol.UseVisualStyleBackColor = true;
+            this.radioRol.Click += new System.EventHandler(this.radioFuncRol_Click);
+            // 
+            // radioFamilia
+            // 
+            this.radioFamilia.AutoSize = true;
+            this.radioFamilia.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioFamilia.Location = new System.Drawing.Point(27, 52);
+            this.radioFamilia.Name = "radioFamilia";
+            this.radioFamilia.Size = new System.Drawing.Size(75, 24);
+            this.radioFamilia.TabIndex = 1;
+            this.radioFamilia.Text = "Familia";
+            this.radioFamilia.UseVisualStyleBackColor = true;
+            this.radioFamilia.Click += new System.EventHandler(this.radioFuncFamilia_Click);
+            // 
+            // radioPatente
+            // 
+            this.radioPatente.AutoSize = true;
+            this.radioPatente.Checked = true;
+            this.radioPatente.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioPatente.Location = new System.Drawing.Point(27, 26);
+            this.radioPatente.Name = "radioPatente";
+            this.radioPatente.Size = new System.Drawing.Size(77, 24);
+            this.radioPatente.TabIndex = 0;
+            this.radioPatente.TabStop = true;
+            this.radioPatente.Text = "Patente";
+            this.radioPatente.UseVisualStyleBackColor = true;
+            this.radioPatente.Click += new System.EventHandler(this.radioFuncPatente_Click);
+            // 
+            // btnFuncBuscar
+            // 
+            this.btnFuncBuscar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnFuncBuscar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnFuncBuscar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFuncBuscar.Image = global::OEVApp.Properties.Resources.search;
+            this.btnFuncBuscar.Location = new System.Drawing.Point(587, 25);
+            this.btnFuncBuscar.Name = "btnFuncBuscar";
+            this.btnFuncBuscar.Size = new System.Drawing.Size(95, 55);
+            this.btnFuncBuscar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnFuncBuscar.TabIndex = 42;
+            this.btnFuncBuscar.Text = "Buscar";
+            this.btnFuncBuscar.Visible = false;
+            this.btnFuncBuscar.Click += new System.EventHandler(this.btnFuncBuscar_Click);
+            // 
+            // btnFuncGuardar
+            // 
+            this.btnFuncGuardar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnFuncGuardar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnFuncGuardar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFuncGuardar.Image = global::OEVApp.Properties.Resources.Save32x32;
+            this.btnFuncGuardar.Location = new System.Drawing.Point(460, 25);
+            this.btnFuncGuardar.Name = "btnFuncGuardar";
+            this.btnFuncGuardar.Size = new System.Drawing.Size(100, 55);
+            this.btnFuncGuardar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnFuncGuardar.TabIndex = 2;
+            this.btnFuncGuardar.Text = "Guardar";
+            this.btnFuncGuardar.Click += new System.EventHandler(this.btnFuncGuardar_Click);
+            // 
+            // tabItemFunc
+            // 
+            this.tabItemFunc.AttachedControl = this.superTabFunc;
+            this.tabItemFunc.GlobalItem = false;
+            this.tabItemFunc.Image = global::OEVApp.Properties.Resources.ConfigCool24x24;
+            this.tabItemFunc.Name = "tabItemFunc";
+            superTabItemStateColorTable6.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates6.Selected = superTabItemStateColorTable6;
+            superTabItemColorTable6.Default = superTabColorStates6;
+            this.tabItemFunc.TabColor = superTabItemColorTable6;
+            this.tabItemFunc.Text = "<b>Funciones</b>";
+            // 
+            // superTabAsignar
+            // 
+            this.superTabAsignar.Controls.Add(this.switchBtn);
+            this.superTabAsignar.Controls.Add(this.lblAcceder);
+            this.superTabAsignar.Controls.Add(this.lblPermitir);
+            this.superTabAsignar.Controls.Add(this.comboOp2);
+            this.superTabAsignar.Controls.Add(this.comboOp1);
+            this.superTabAsignar.Controls.Add(this.lblDescripcion);
+            this.superTabAsignar.Controls.Add(this.radioGroupOp2);
+            this.superTabAsignar.Controls.Add(this.radioGroupOp1);
+            this.superTabAsignar.Controls.Add(this.btnAsignarGuardar);
+            this.superTabAsignar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabAsignar.Location = new System.Drawing.Point(0, 0);
+            this.superTabAsignar.Name = "superTabAsignar";
+            this.superTabAsignar.Size = new System.Drawing.Size(791, 396);
+            this.superTabAsignar.TabIndex = 0;
+            this.superTabAsignar.TabItem = this.tabItemAsignar;
+            // 
+            // switchBtn
+            // 
+            // 
+            // 
+            // 
+            this.switchBtn.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.switchBtn.BackgroundStyle.CornerTypeBottomLeft = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.switchBtn.BackgroundStyle.CornerTypeBottomRight = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.switchBtn.BackgroundStyle.CornerTypeTopLeft = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.switchBtn.BackgroundStyle.CornerTypeTopRight = DevComponents.DotNetBar.eCornerType.Rounded;
+            this.switchBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.switchBtn.Location = new System.Drawing.Point(324, 118);
+            this.switchBtn.Name = "switchBtn";
+            this.switchBtn.OffBackColor = System.Drawing.Color.White;
+            this.switchBtn.OffText = "DENEGAR";
+            this.switchBtn.OffTextColor = System.Drawing.Color.Red;
+            this.switchBtn.OnBackColor = System.Drawing.Color.White;
+            this.switchBtn.OnText = "PERMITIR";
+            this.switchBtn.OnTextColor = System.Drawing.Color.Green;
+            this.switchBtn.Size = new System.Drawing.Size(107, 60);
+            this.switchBtn.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.switchBtn.TabIndex = 45;
+            this.switchBtn.Value = true;
+            this.switchBtn.ValueObject = "Y";
+            // 
+            // lblAcceder
+            // 
+            // 
+            // 
+            // 
+            this.lblAcceder.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAcceder.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAcceder.Location = new System.Drawing.Point(467, 219);
+            this.lblAcceder.Name = "lblAcceder";
+            this.lblAcceder.Size = new System.Drawing.Size(250, 23);
+            this.lblAcceder.TabIndex = 41;
+            this.lblAcceder.Text = "Familia:";
+            // 
+            // lblPermitir
+            // 
+            // 
+            // 
+            // 
+            this.lblPermitir.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblPermitir.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPermitir.Location = new System.Drawing.Point(34, 219);
+            this.lblPermitir.Name = "lblPermitir";
+            this.lblPermitir.Size = new System.Drawing.Size(250, 23);
+            this.lblPermitir.TabIndex = 40;
+            this.lblPermitir.Text = "Usuario:";
+            // 
+            // comboOp2
+            // 
+            this.comboOp2.DisplayMember = "Text";
+            this.comboOp2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.comboOp2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboOp2.EnablePopupResize = false;
+            this.comboOp2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboOp2.ItemHeight = 19;
+            this.comboOp2.Location = new System.Drawing.Point(469, 258);
+            this.comboOp2.Name = "comboOp2";
+            this.comboOp2.Size = new System.Drawing.Size(250, 25);
+            this.comboOp2.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboOp2.TabIndex = 39;
+            // 
+            // comboOp1
+            // 
+            this.comboOp1.DisplayMember = "Text";
+            this.comboOp1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.comboOp1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboOp1.EnablePopupResize = false;
+            this.comboOp1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboOp1.ItemHeight = 19;
+            this.comboOp1.Location = new System.Drawing.Point(34, 258);
+            this.comboOp1.Name = "comboOp1";
+            this.comboOp1.Size = new System.Drawing.Size(250, 25);
+            this.comboOp1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboOp1.TabIndex = 38;
+            // 
+            // lblDescripcion
+            // 
+            // 
+            // 
+            // 
+            this.lblDescripcion.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblDescripcion.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescripcion.ForeColor = System.Drawing.Color.Navy;
+            this.lblDescripcion.Location = new System.Drawing.Point(21, 20);
+            this.lblDescripcion.Name = "lblDescripcion";
+            this.lblDescripcion.Size = new System.Drawing.Size(408, 35);
+            this.lblDescripcion.TabIndex = 4;
+            this.lblDescripcion.Text = "Descripcion";
+            // 
+            // radioGroupOp2
+            // 
+            this.radioGroupOp2.Controls.Add(this.radioOp2Familia);
+            this.radioGroupOp2.Controls.Add(this.radioOp2Patente);
+            this.radioGroupOp2.Controls.Add(this.radioOp2Rol);
+            this.radioGroupOp2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioGroupOp2.Location = new System.Drawing.Point(467, 101);
+            this.radioGroupOp2.Name = "radioGroupOp2";
+            this.radioGroupOp2.Size = new System.Drawing.Size(250, 100);
+            this.radioGroupOp2.TabIndex = 2;
+            this.radioGroupOp2.TabStop = false;
+            this.radioGroupOp2.Text = "Acceder a:";
+            // 
+            // radioOp2Familia
+            // 
+            this.radioOp2Familia.AutoSize = true;
+            this.radioOp2Familia.Checked = true;
+            this.radioOp2Familia.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioOp2Familia.Location = new System.Drawing.Point(80, 23);
+            this.radioOp2Familia.Name = "radioOp2Familia";
+            this.radioOp2Familia.Size = new System.Drawing.Size(75, 24);
+            this.radioOp2Familia.TabIndex = 2;
+            this.radioOp2Familia.TabStop = true;
+            this.radioOp2Familia.Text = "Familia";
+            this.radioOp2Familia.UseVisualStyleBackColor = true;
+            this.radioOp2Familia.Click += new System.EventHandler(this.radioAFamilia_Click);
+            // 
+            // radioOp2Patente
+            // 
+            this.radioOp2Patente.AutoSize = true;
+            this.radioOp2Patente.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioOp2Patente.Location = new System.Drawing.Point(80, 44);
+            this.radioOp2Patente.Name = "radioOp2Patente";
+            this.radioOp2Patente.Size = new System.Drawing.Size(77, 24);
+            this.radioOp2Patente.TabIndex = 1;
+            this.radioOp2Patente.Text = "Patente";
+            this.radioOp2Patente.UseVisualStyleBackColor = true;
+            this.radioOp2Patente.Click += new System.EventHandler(this.radioAPatente_Click);
+            // 
+            // radioOp2Rol
+            // 
+            this.radioOp2Rol.AutoSize = true;
+            this.radioOp2Rol.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioOp2Rol.Location = new System.Drawing.Point(80, 65);
+            this.radioOp2Rol.Name = "radioOp2Rol";
+            this.radioOp2Rol.Size = new System.Drawing.Size(49, 24);
+            this.radioOp2Rol.TabIndex = 0;
+            this.radioOp2Rol.Text = "Rol";
+            this.radioOp2Rol.UseVisualStyleBackColor = true;
+            this.radioOp2Rol.Visible = false;
+            this.radioOp2Rol.Click += new System.EventHandler(this.radioARol_Click);
+            // 
+            // radioGroupOp1
+            // 
+            this.radioGroupOp1.Controls.Add(this.radioOp1Patente);
+            this.radioGroupOp1.Controls.Add(this.radioOp1Rol);
+            this.radioGroupOp1.Controls.Add(this.radioOp1Usuario);
+            this.radioGroupOp1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioGroupOp1.Location = new System.Drawing.Point(34, 101);
+            this.radioGroupOp1.Name = "radioGroupOp1";
+            this.radioGroupOp1.Size = new System.Drawing.Size(250, 100);
+            this.radioGroupOp1.TabIndex = 2;
+            this.radioGroupOp1.TabStop = false;
+            this.radioGroupOp1.Text = "A:";
+            // 
+            // radioOp1Patente
+            // 
+            this.radioOp1Patente.AutoSize = true;
+            this.radioOp1Patente.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioOp1Patente.Location = new System.Drawing.Point(76, 63);
+            this.radioOp1Patente.Name = "radioOp1Patente";
+            this.radioOp1Patente.Size = new System.Drawing.Size(77, 24);
+            this.radioOp1Patente.TabIndex = 2;
+            this.radioOp1Patente.Text = "Patente";
+            this.radioOp1Patente.UseVisualStyleBackColor = true;
+            this.radioOp1Patente.Click += new System.EventHandler(this.radioAsigPatente_Click);
+            // 
+            // radioOp1Rol
+            // 
+            this.radioOp1Rol.AutoSize = true;
+            this.radioOp1Rol.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioOp1Rol.Location = new System.Drawing.Point(76, 40);
+            this.radioOp1Rol.Name = "radioOp1Rol";
+            this.radioOp1Rol.Size = new System.Drawing.Size(49, 24);
+            this.radioOp1Rol.TabIndex = 1;
+            this.radioOp1Rol.Text = "Rol";
+            this.radioOp1Rol.UseVisualStyleBackColor = true;
+            this.radioOp1Rol.Click += new System.EventHandler(this.radioAsigRol_Click);
+            // 
+            // radioOp1Usuario
+            // 
+            this.radioOp1Usuario.AutoSize = true;
+            this.radioOp1Usuario.Checked = true;
+            this.radioOp1Usuario.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioOp1Usuario.Location = new System.Drawing.Point(76, 17);
+            this.radioOp1Usuario.Name = "radioOp1Usuario";
+            this.radioOp1Usuario.Size = new System.Drawing.Size(77, 24);
+            this.radioOp1Usuario.TabIndex = 0;
+            this.radioOp1Usuario.TabStop = true;
+            this.radioOp1Usuario.Text = "Usuario";
+            this.radioOp1Usuario.UseVisualStyleBackColor = true;
+            this.radioOp1Usuario.Click += new System.EventHandler(this.radioAsigUsuario_Click);
+            // 
+            // btnAsignarGuardar
+            // 
+            this.btnAsignarGuardar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAsignarGuardar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnAsignarGuardar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAsignarGuardar.Image = global::OEVApp.Properties.Resources.Save32x32;
+            this.btnAsignarGuardar.Location = new System.Drawing.Point(613, 20);
+            this.btnAsignarGuardar.Name = "btnAsignarGuardar";
+            this.btnAsignarGuardar.Size = new System.Drawing.Size(104, 55);
+            this.btnAsignarGuardar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnAsignarGuardar.TabIndex = 42;
+            this.btnAsignarGuardar.Text = "Guardar";
+            this.btnAsignarGuardar.Click += new System.EventHandler(this.btnAsigGuardar_click);
+            // 
+            // tabItemAsignar
+            // 
+            this.tabItemAsignar.AttachedControl = this.superTabAsignar;
+            this.tabItemAsignar.GlobalItem = false;
+            this.tabItemAsignar.Image = global::OEVApp.Properties.Resources.AuthorisedHot;
+            this.tabItemAsignar.Name = "tabItemAsignar";
+            superTabItemStateColorTable7.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates7.Selected = superTabItemStateColorTable7;
+            superTabItemColorTable7.Default = superTabColorStates7;
+            this.tabItemAsignar.TabColor = superTabItemColorTable7;
+            this.tabItemAsignar.Text = "<b>Asignar</b>";
+            // 
+            // superTabConsultarB
+            // 
+            this.superTabConsultarB.Controls.Add(this.cmbEventoConsultarB);
+            this.superTabConsultarB.Controls.Add(this.lblHastaConsultarB);
+            this.superTabConsultarB.Controls.Add(this.lblDesdeConsultarB);
+            this.superTabConsultarB.Controls.Add(this.dateHastaConsultaB);
+            this.superTabConsultarB.Controls.Add(this.dateDesdeConsultaB);
+            this.superTabConsultarB.Controls.Add(this.dataConsultarB);
+            this.superTabConsultarB.Controls.Add(this.cmbRolConsultarB);
+            this.superTabConsultarB.Controls.Add(this.groupBoxConsultarB);
+            this.superTabConsultarB.Controls.Add(this.btnBuscarB);
+            this.superTabConsultarB.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabConsultarB.Location = new System.Drawing.Point(0, 0);
+            this.superTabConsultarB.Name = "superTabConsultarB";
+            this.superTabConsultarB.Size = new System.Drawing.Size(791, 396);
+            this.superTabConsultarB.TabIndex = 0;
+            this.superTabConsultarB.TabItem = this.tabItemConsultarB;
+            // 
+            // cmbEventoConsultarB
+            // 
+            this.cmbEventoConsultarB.DisplayMember = "Text";
+            this.cmbEventoConsultarB.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbEventoConsultarB.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbEventoConsultarB.FormattingEnabled = true;
+            this.cmbEventoConsultarB.ItemHeight = 19;
+            this.cmbEventoConsultarB.Location = new System.Drawing.Point(25, 111);
+            this.cmbEventoConsultarB.Name = "cmbEventoConsultarB";
+            this.cmbEventoConsultarB.Size = new System.Drawing.Size(146, 25);
+            this.cmbEventoConsultarB.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.cmbEventoConsultarB.TabIndex = 53;
+            // 
+            // lblHastaConsultarB
+            // 
+            // 
+            // 
+            // 
+            this.lblHastaConsultarB.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblHastaConsultarB.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHastaConsultarB.Location = new System.Drawing.Point(547, 111);
+            this.lblHastaConsultarB.Name = "lblHastaConsultarB";
+            this.lblHastaConsultarB.Size = new System.Drawing.Size(94, 23);
+            this.lblHastaConsultarB.TabIndex = 51;
+            this.lblHastaConsultarB.Text = "Hasta:";
+            // 
+            // lblDesdeConsultarB
+            // 
+            // 
+            // 
+            // 
+            this.lblDesdeConsultarB.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblDesdeConsultarB.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDesdeConsultarB.Location = new System.Drawing.Point(343, 111);
+            this.lblDesdeConsultarB.Name = "lblDesdeConsultarB";
+            this.lblDesdeConsultarB.Size = new System.Drawing.Size(76, 23);
+            this.lblDesdeConsultarB.TabIndex = 50;
+            this.lblDesdeConsultarB.Text = "Desde:";
+            // 
+            // dateHastaConsultaB
+            // 
+            // 
+            // 
+            // 
+            this.dateHastaConsultaB.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.dateHastaConsultaB.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateHastaConsultaB.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
+            this.dateHastaConsultaB.ButtonDropDown.Visible = true;
+            this.dateHastaConsultaB.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateHastaConsultaB.IsPopupCalendarOpen = false;
+            this.dateHastaConsultaB.Location = new System.Drawing.Point(644, 111);
+            this.dateHastaConsultaB.MaxDate = new System.DateTime(2099, 12, 31, 0, 0, 0, 0);
+            this.dateHastaConsultaB.MinDate = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
+            // 
+            // 
+            // 
+            this.dateHastaConsultaB.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dateHastaConsultaB.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateHastaConsultaB.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            this.dateHastaConsultaB.MonthCalendar.ClearButtonVisible = true;
+            // 
+            // 
+            // 
+            this.dateHastaConsultaB.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
+            this.dateHastaConsultaB.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
+            this.dateHastaConsultaB.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.dateHastaConsultaB.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.dateHastaConsultaB.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
+            this.dateHastaConsultaB.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
+            this.dateHastaConsultaB.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateHastaConsultaB.MonthCalendar.DisplayMonth = new System.DateTime(2017, 8, 1, 0, 0, 0, 0);
+            this.dateHastaConsultaB.MonthCalendar.MarkedDates = new System.DateTime[0];
+            this.dateHastaConsultaB.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dateHastaConsultaB.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.dateHastaConsultaB.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
+            this.dateHastaConsultaB.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.dateHastaConsultaB.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateHastaConsultaB.MonthCalendar.TodayButtonVisible = true;
+            this.dateHastaConsultaB.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
+            this.dateHastaConsultaB.Name = "dateHastaConsultaB";
+            this.dateHastaConsultaB.Size = new System.Drawing.Size(100, 25);
+            this.dateHastaConsultaB.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.dateHastaConsultaB.TabIndex = 49;
+            this.dateHastaConsultaB.Value = new System.DateTime(2017, 11, 22, 23, 31, 27, 0);
+            // 
+            // dateDesdeConsultaB
+            // 
+            // 
+            // 
+            // 
+            this.dateDesdeConsultaB.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.dateDesdeConsultaB.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateDesdeConsultaB.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
+            this.dateDesdeConsultaB.ButtonDropDown.Visible = true;
+            this.dateDesdeConsultaB.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateDesdeConsultaB.IsPopupCalendarOpen = false;
+            this.dateDesdeConsultaB.Location = new System.Drawing.Point(425, 111);
+            this.dateDesdeConsultaB.MaxDate = new System.DateTime(2099, 12, 31, 0, 0, 0, 0);
+            this.dateDesdeConsultaB.MinDate = new System.DateTime(1970, 12, 31, 0, 0, 0, 0);
+            // 
+            // 
+            // 
+            this.dateDesdeConsultaB.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dateDesdeConsultaB.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateDesdeConsultaB.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            this.dateDesdeConsultaB.MonthCalendar.ClearButtonVisible = true;
+            // 
+            // 
+            // 
+            this.dateDesdeConsultaB.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
+            this.dateDesdeConsultaB.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
+            this.dateDesdeConsultaB.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.dateDesdeConsultaB.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.dateDesdeConsultaB.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
+            this.dateDesdeConsultaB.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
+            this.dateDesdeConsultaB.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateDesdeConsultaB.MonthCalendar.DisplayMonth = new System.DateTime(2017, 8, 1, 0, 0, 0, 0);
+            this.dateDesdeConsultaB.MonthCalendar.MarkedDates = new System.DateTime[0];
+            this.dateDesdeConsultaB.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dateDesdeConsultaB.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.dateDesdeConsultaB.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
+            this.dateDesdeConsultaB.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.dateDesdeConsultaB.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateDesdeConsultaB.MonthCalendar.TodayButtonVisible = true;
+            this.dateDesdeConsultaB.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
+            this.dateDesdeConsultaB.Name = "dateDesdeConsultaB";
+            this.dateDesdeConsultaB.Size = new System.Drawing.Size(100, 25);
+            this.dateDesdeConsultaB.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.dateDesdeConsultaB.TabIndex = 48;
+            this.dateDesdeConsultaB.Value = new System.DateTime(2017, 11, 22, 23, 31, 15, 0);
+            // 
+            // dataConsultarB
+            // 
+            this.dataConsultarB.AllowUserToAddRows = false;
+            this.dataConsultarB.AllowUserToDeleteRows = false;
+            this.dataConsultarB.AllowUserToOrderColumns = true;
+            this.dataConsultarB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataConsultarB.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dataConsultarB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataConsultarB.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumnFechaConsultarB,
+            this.dataGridViewTextBoxColumnRoleConsultarB,
+            this.dataGridViewTextBoxColumnEventoConsultarB,
+            this.dataGridViewTextBoxColumnDetalleConsultarB});
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataConsultarB.DefaultCellStyle = dataGridViewCellStyle4;
+            this.dataConsultarB.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.dataConsultarB.Location = new System.Drawing.Point(25, 162);
+            this.dataConsultarB.Name = "dataConsultarB";
+            this.dataConsultarB.ReadOnly = true;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataConsultarB.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.dataConsultarB.Size = new System.Drawing.Size(710, 211);
+            this.dataConsultarB.TabIndex = 46;
+            // 
+            // dataGridViewTextBoxColumnFechaConsultarB
+            // 
+            // 
+            // 
+            // 
+            this.dataGridViewTextBoxColumnFechaConsultarB.BackgroundStyle.Class = "DataGridViewDateTimeBorder";
+            this.dataGridViewTextBoxColumnFechaConsultarB.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dataGridViewTextBoxColumnFechaConsultarB.HeaderText = "Fecha";
+            this.dataGridViewTextBoxColumnFechaConsultarB.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
+            // 
+            // 
+            // 
+            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            // 
+            // 
+            // 
+            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.DisplayMonth = new System.DateTime(2017, 11, 1, 0, 0, 0, 0);
+            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.MarkedDates = new System.DateTime[0];
+            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dataGridViewTextBoxColumnFechaConsultarB.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
+            this.dataGridViewTextBoxColumnFechaConsultarB.Name = "dataGridViewTextBoxColumnFechaConsultarB";
+            this.dataGridViewTextBoxColumnFechaConsultarB.ReadOnly = true;
+            this.dataGridViewTextBoxColumnFechaConsultarB.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // dataGridViewTextBoxColumnRoleConsultarB
+            // 
+            this.dataGridViewTextBoxColumnRoleConsultarB.HeaderText = "Rol";
+            this.dataGridViewTextBoxColumnRoleConsultarB.MaxInputLength = 30;
+            this.dataGridViewTextBoxColumnRoleConsultarB.Name = "dataGridViewTextBoxColumnRoleConsultarB";
+            this.dataGridViewTextBoxColumnRoleConsultarB.ReadOnly = true;
+            this.dataGridViewTextBoxColumnRoleConsultarB.Width = 150;
+            // 
+            // dataGridViewTextBoxColumnEventoConsultarB
+            // 
+            this.dataGridViewTextBoxColumnEventoConsultarB.HeaderText = "Evento";
+            this.dataGridViewTextBoxColumnEventoConsultarB.MaxInputLength = 10;
+            this.dataGridViewTextBoxColumnEventoConsultarB.Name = "dataGridViewTextBoxColumnEventoConsultarB";
+            this.dataGridViewTextBoxColumnEventoConsultarB.ReadOnly = true;
+            this.dataGridViewTextBoxColumnEventoConsultarB.Width = 150;
+            // 
+            // dataGridViewTextBoxColumnDetalleConsultarB
+            // 
+            this.dataGridViewTextBoxColumnDetalleConsultarB.HeaderText = "Detalle";
+            this.dataGridViewTextBoxColumnDetalleConsultarB.Name = "dataGridViewTextBoxColumnDetalleConsultarB";
+            this.dataGridViewTextBoxColumnDetalleConsultarB.ReadOnly = true;
+            this.dataGridViewTextBoxColumnDetalleConsultarB.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumnDetalleConsultarB.Width = 300;
+            // 
+            // cmbRolConsultarB
+            // 
+            this.cmbRolConsultarB.DisplayMember = "Text";
+            this.cmbRolConsultarB.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbRolConsultarB.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbRolConsultarB.FormattingEnabled = true;
+            this.cmbRolConsultarB.ItemHeight = 19;
+            this.cmbRolConsultarB.Location = new System.Drawing.Point(182, 111);
+            this.cmbRolConsultarB.Name = "cmbRolConsultarB";
+            this.cmbRolConsultarB.Size = new System.Drawing.Size(154, 25);
+            this.cmbRolConsultarB.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.cmbRolConsultarB.TabIndex = 45;
+            // 
+            // groupBoxConsultarB
+            // 
+            this.groupBoxConsultarB.Controls.Add(this.radioButtonEventoConsultarB);
+            this.groupBoxConsultarB.Controls.Add(this.radioButtonFechaConsultarB);
+            this.groupBoxConsultarB.Controls.Add(this.radioButtonRolConsularB);
+            this.groupBoxConsultarB.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBoxConsultarB.Location = new System.Drawing.Point(25, 30);
+            this.groupBoxConsultarB.Name = "groupBoxConsultarB";
+            this.groupBoxConsultarB.Size = new System.Drawing.Size(342, 53);
+            this.groupBoxConsultarB.TabIndex = 42;
+            this.groupBoxConsultarB.TabStop = false;
+            this.groupBoxConsultarB.Text = "Buscar";
+            // 
+            // radioButtonEventoConsultarB
+            // 
+            this.radioButtonEventoConsultarB.AutoSize = true;
+            this.radioButtonEventoConsultarB.Checked = true;
+            this.radioButtonEventoConsultarB.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonEventoConsultarB.Location = new System.Drawing.Point(64, 20);
+            this.radioButtonEventoConsultarB.Name = "radioButtonEventoConsultarB";
+            this.radioButtonEventoConsultarB.Size = new System.Drawing.Size(75, 25);
+            this.radioButtonEventoConsultarB.TabIndex = 2;
+            this.radioButtonEventoConsultarB.TabStop = true;
+            this.radioButtonEventoConsultarB.Text = "Evento";
+            this.radioButtonEventoConsultarB.UseVisualStyleBackColor = true;
+            this.radioButtonEventoConsultarB.Click += new System.EventHandler(this.radioEventoConsultarB_Click);
+            // 
+            // radioButtonFechaConsultarB
+            // 
+            this.radioButtonFechaConsultarB.AutoSize = true;
+            this.radioButtonFechaConsultarB.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonFechaConsultarB.Location = new System.Drawing.Point(243, 20);
+            this.radioButtonFechaConsultarB.Name = "radioButtonFechaConsultarB";
+            this.radioButtonFechaConsultarB.Size = new System.Drawing.Size(68, 25);
+            this.radioButtonFechaConsultarB.TabIndex = 1;
+            this.radioButtonFechaConsultarB.Text = "Fecha";
+            this.radioButtonFechaConsultarB.UseVisualStyleBackColor = true;
+            this.radioButtonFechaConsultarB.Click += new System.EventHandler(this.radioFechaConsultarB_Click);
+            // 
+            // radioButtonRolConsularB
+            // 
+            this.radioButtonRolConsularB.AutoSize = true;
+            this.radioButtonRolConsularB.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButtonRolConsularB.Location = new System.Drawing.Point(157, 20);
+            this.radioButtonRolConsularB.Name = "radioButtonRolConsularB";
+            this.radioButtonRolConsularB.Size = new System.Drawing.Size(51, 25);
+            this.radioButtonRolConsularB.TabIndex = 0;
+            this.radioButtonRolConsularB.Text = "Rol";
+            this.radioButtonRolConsularB.UseVisualStyleBackColor = true;
+            this.radioButtonRolConsularB.Click += new System.EventHandler(this.radioRolConsultarB_Click);
+            // 
+            // btnBuscarB
+            // 
+            this.btnBuscarB.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnBuscarB.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnBuscarB.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscarB.Image = global::OEVApp.Properties.Resources.search;
+            this.btnBuscarB.Location = new System.Drawing.Point(649, 30);
+            this.btnBuscarB.Name = "btnBuscarB";
+            this.btnBuscarB.Size = new System.Drawing.Size(95, 55);
+            this.btnBuscarB.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnBuscarB.TabIndex = 52;
+            this.btnBuscarB.Text = "Buscar";
+            this.btnBuscarB.Click += new System.EventHandler(this.btnBuscarB_Click);
+            // 
+            // tabItemConsultarB
+            // 
+            this.tabItemConsultarB.AttachedControl = this.superTabConsultarB;
+            this.tabItemConsultarB.GlobalItem = false;
+            this.tabItemConsultarB.Image = global::OEVApp.Properties.Resources.lupa;
+            this.tabItemConsultarB.Name = "tabItemConsultarB";
+            superTabItemStateColorTable8.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates8.Selected = superTabItemStateColorTable8;
+            superTabItemColorTable8.Default = superTabColorStates8;
+            this.tabItemConsultarB.TabColor = superTabItemColorTable8;
+            this.tabItemConsultarB.Text = "<b>Consultar</b>";
+            // 
+            // superTabConsultar
+            // 
+            this.superTabConsultar.Controls.Add(this.gridConsultaUsuario);
+            this.superTabConsultar.Controls.Add(this.cmbRolC);
+            this.superTabConsultar.Controls.Add(this.txtFiltroC);
+            this.superTabConsultar.Controls.Add(this.groupBuscarC);
+            this.superTabConsultar.Controls.Add(this.btnBuscarC);
+            this.superTabConsultar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabConsultar.Location = new System.Drawing.Point(0, 0);
+            this.superTabConsultar.Name = "superTabConsultar";
+            this.superTabConsultar.Size = new System.Drawing.Size(791, 396);
+            this.superTabConsultar.TabIndex = 0;
+            this.superTabConsultar.TabItem = this.tabItemConsultar;
+            // 
+            // gridConsultaUsuario
+            // 
+            this.gridConsultaUsuario.AllowUserToAddRows = false;
+            this.gridConsultaUsuario.AllowUserToDeleteRows = false;
+            this.gridConsultaUsuario.AllowUserToOrderColumns = true;
+            this.gridConsultaUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridConsultaUsuario.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridConsultaUsuario.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.gridConsultaUsuario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridConsultaUsuario.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.HId,
+            this.HApellido,
+            this.HNombre,
+            this.HDNI,
+            this.HFecNac,
+            this.HDireccion,
+            this.HCiudad,
+            this.HTelefono,
+            this.HEmail,
+            this.HRol,
+            this.HEstado});
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridConsultaUsuario.DefaultCellStyle = dataGridViewCellStyle7;
+            this.gridConsultaUsuario.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.gridConsultaUsuario.Location = new System.Drawing.Point(19, 147);
+            this.gridConsultaUsuario.Name = "gridConsultaUsuario";
+            this.gridConsultaUsuario.ReadOnly = true;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridConsultaUsuario.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            this.gridConsultaUsuario.Size = new System.Drawing.Size(728, 211);
+            this.gridConsultaUsuario.TabIndex = 45;
+            // 
+            // HId
+            // 
+            this.HId.HeaderText = "Id";
+            this.HId.MaxInputLength = 3;
+            this.HId.Name = "HId";
+            this.HId.ReadOnly = true;
+            // 
+            // HApellido
+            // 
+            this.HApellido.HeaderText = "Apellido";
+            this.HApellido.MaxInputLength = 30;
+            this.HApellido.Name = "HApellido";
+            this.HApellido.ReadOnly = true;
+            // 
+            // HNombre
+            // 
+            this.HNombre.HeaderText = "Nombre";
+            this.HNombre.MaxInputLength = 30;
+            this.HNombre.Name = "HNombre";
+            this.HNombre.ReadOnly = true;
+            // 
+            // HDNI
+            // 
+            this.HDNI.HeaderText = "DNI";
+            this.HDNI.MaxInputLength = 10;
+            this.HDNI.Name = "HDNI";
+            this.HDNI.ReadOnly = true;
+            // 
+            // HFecNac
+            // 
+            this.HFecNac.HeaderText = "Fecha Nac";
+            this.HFecNac.Name = "HFecNac";
+            this.HFecNac.ReadOnly = true;
+            this.HFecNac.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HDireccion
+            // 
+            this.HDireccion.HeaderText = "Dirección";
+            this.HDireccion.MaxInputLength = 100;
+            this.HDireccion.Name = "HDireccion";
+            this.HDireccion.ReadOnly = true;
+            // 
+            // HCiudad
+            // 
+            this.HCiudad.HeaderText = "Ciudad";
+            this.HCiudad.MaxInputLength = 50;
+            this.HCiudad.Name = "HCiudad";
+            this.HCiudad.ReadOnly = true;
+            // 
+            // HTelefono
+            // 
+            this.HTelefono.HeaderText = "Teléfono";
+            this.HTelefono.MaxInputLength = 20;
+            this.HTelefono.Name = "HTelefono";
+            this.HTelefono.ReadOnly = true;
+            // 
+            // HEmail
+            // 
+            this.HEmail.HeaderText = "Email";
+            this.HEmail.MaxInputLength = 30;
+            this.HEmail.Name = "HEmail";
+            this.HEmail.ReadOnly = true;
+            // 
+            // HRol
+            // 
+            this.HRol.HeaderText = "Rol";
+            this.HRol.MaxInputLength = 15;
+            this.HRol.Name = "HRol";
+            this.HRol.ReadOnly = true;
+            // 
+            // HEstado
+            // 
+            this.HEstado.HeaderText = "Estado";
+            this.HEstado.Name = "HEstado";
+            this.HEstado.ReadOnly = true;
+            this.HEstado.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HEstado.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // cmbRolC
+            // 
+            this.cmbRolC.DisplayMember = "Text";
+            this.cmbRolC.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbRolC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbRolC.FormattingEnabled = true;
+            this.cmbRolC.ItemHeight = 19;
+            this.cmbRolC.Location = new System.Drawing.Point(179, 99);
+            this.cmbRolC.Name = "cmbRolC";
+            this.cmbRolC.Size = new System.Drawing.Size(181, 25);
+            this.cmbRolC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.cmbRolC.TabIndex = 44;
+            this.cmbRolC.Visible = false;
+            // 
+            // txtFiltroC
+            // 
+            this.txtFiltroC.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtFiltroC.Border.Class = "TextBoxBorder";
+            this.txtFiltroC.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtFiltroC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFiltroC.ForeColor = System.Drawing.Color.Black;
+            this.txtFiltroC.Location = new System.Drawing.Point(19, 99);
+            this.txtFiltroC.Name = "txtFiltroC";
+            this.txtFiltroC.Size = new System.Drawing.Size(154, 25);
+            this.txtFiltroC.TabIndex = 43;
+            // 
+            // groupBuscarC
+            // 
+            this.groupBuscarC.Controls.Add(this.radioTodosC);
+            this.groupBuscarC.Controls.Add(this.radioRolC);
+            this.groupBuscarC.Controls.Add(this.radioIdC);
+            this.groupBuscarC.Controls.Add(this.radioDniC);
+            this.groupBuscarC.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBuscarC.Location = new System.Drawing.Point(19, 31);
+            this.groupBuscarC.Name = "groupBuscarC";
+            this.groupBuscarC.Size = new System.Drawing.Size(343, 52);
+            this.groupBuscarC.TabIndex = 41;
+            this.groupBuscarC.TabStop = false;
+            this.groupBuscarC.Text = "Buscar";
+            // 
+            // radioTodosC
+            // 
+            this.radioTodosC.AutoSize = true;
+            this.radioTodosC.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioTodosC.Location = new System.Drawing.Point(248, 21);
+            this.radioTodosC.Name = "radioTodosC";
+            this.radioTodosC.Size = new System.Drawing.Size(68, 24);
+            this.radioTodosC.TabIndex = 3;
+            this.radioTodosC.TabStop = true;
+            this.radioTodosC.Text = "Todos";
+            this.radioTodosC.UseVisualStyleBackColor = true;
+            this.radioTodosC.Click += new System.EventHandler(this.radioTodosC_Click);
+            // 
+            // radioRolC
+            // 
+            this.radioRolC.AutoSize = true;
+            this.radioRolC.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioRolC.Location = new System.Drawing.Point(167, 21);
+            this.radioRolC.Name = "radioRolC";
+            this.radioRolC.Size = new System.Drawing.Size(49, 24);
+            this.radioRolC.TabIndex = 2;
+            this.radioRolC.TabStop = true;
+            this.radioRolC.Text = "Rol";
+            this.radioRolC.UseVisualStyleBackColor = true;
+            this.radioRolC.Click += new System.EventHandler(this.radioRolC_Click);
+            // 
+            // radioIdC
+            // 
+            this.radioIdC.AutoSize = true;
+            this.radioIdC.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioIdC.Location = new System.Drawing.Point(93, 21);
+            this.radioIdC.Name = "radioIdC";
+            this.radioIdC.Size = new System.Drawing.Size(40, 24);
+            this.radioIdC.TabIndex = 1;
+            this.radioIdC.TabStop = true;
+            this.radioIdC.Text = "Id";
+            this.radioIdC.UseVisualStyleBackColor = true;
+            this.radioIdC.Click += new System.EventHandler(this.radioIdC_Click);
+            // 
+            // radioDniC
+            // 
+            this.radioDniC.AutoSize = true;
+            this.radioDniC.Checked = true;
+            this.radioDniC.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioDniC.Location = new System.Drawing.Point(14, 21);
+            this.radioDniC.Name = "radioDniC";
+            this.radioDniC.Size = new System.Drawing.Size(53, 24);
+            this.radioDniC.TabIndex = 0;
+            this.radioDniC.TabStop = true;
+            this.radioDniC.Text = "DNI";
+            this.radioDniC.UseVisualStyleBackColor = true;
+            this.radioDniC.Click += new System.EventHandler(this.radioDniC_Click);
+            // 
+            // btnBuscarC
+            // 
+            this.btnBuscarC.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnBuscarC.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnBuscarC.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscarC.Image = global::OEVApp.Properties.Resources.search;
+            this.btnBuscarC.Location = new System.Drawing.Point(565, 31);
+            this.btnBuscarC.Name = "btnBuscarC";
+            this.btnBuscarC.Size = new System.Drawing.Size(95, 55);
+            this.btnBuscarC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnBuscarC.TabIndex = 42;
+            this.btnBuscarC.Text = "Buscar";
+            this.btnBuscarC.Click += new System.EventHandler(this.btnBuscarC_Click);
+            // 
+            // tabItemConsultar
+            // 
+            this.tabItemConsultar.AttachedControl = this.superTabConsultar;
+            this.tabItemConsultar.GlobalItem = false;
+            this.tabItemConsultar.Image = global::OEVApp.Properties.Resources.lupa;
+            this.tabItemConsultar.Name = "tabItemConsultar";
+            superTabItemStateColorTable9.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates9.Selected = superTabItemStateColorTable9;
+            superTabItemColorTable9.Default = superTabColorStates9;
+            this.tabItemConsultar.TabColor = superTabItemColorTable9;
+            this.tabItemConsultar.Text = "<b>Consultar</b>";
+            this.tabItemConsultar.Click += new System.EventHandler(this.tabItemConsultar_Click);
+            // 
+            // superTabCripto
+            // 
+            this.superTabCripto.Controls.Add(this.btnCripto);
+            this.superTabCripto.Controls.Add(this.lblResCripto);
+            this.superTabCripto.Controls.Add(this.txtResCripto);
+            this.superTabCripto.Controls.Add(this.txtTextoCripto);
+            this.superTabCripto.Controls.Add(this.lblTextoCripto);
+            this.superTabCripto.Controls.Add(this.radioGroupOpcion);
+            this.superTabCripto.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabCripto.Location = new System.Drawing.Point(0, 0);
+            this.superTabCripto.Name = "superTabCripto";
+            this.superTabCripto.Size = new System.Drawing.Size(791, 396);
+            this.superTabCripto.TabIndex = 0;
+            this.superTabCripto.TabItem = this.tabItemCripto;
+            // 
+            // btnCripto
+            // 
+            this.btnCripto.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnCripto.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnCripto.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCripto.Image = global::OEVApp.Properties.Resources.Encriptar11;
+            this.btnCripto.Location = new System.Drawing.Point(400, 90);
+            this.btnCripto.Name = "btnCripto";
+            this.btnCripto.Size = new System.Drawing.Size(72, 86);
+            this.btnCripto.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnCripto.TabIndex = 5;
+            this.btnCripto.Click += new System.EventHandler(this.btnCripto_Click);
+            // 
+            // lblResCripto
+            // 
+            // 
+            // 
+            // 
+            this.lblResCripto.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblResCripto.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResCripto.Location = new System.Drawing.Point(20, 202);
+            this.lblResCripto.Name = "lblResCripto";
+            this.lblResCripto.Size = new System.Drawing.Size(105, 25);
+            this.lblResCripto.TabIndex = 4;
+            this.lblResCripto.Text = "Resultado:";
+            this.lblResCripto.Visible = false;
+            // 
+            // txtResCripto
+            // 
+            this.txtResCripto.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtResCripto.Border.Class = "TextBoxBorder";
+            this.txtResCripto.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtResCripto.ForeColor = System.Drawing.Color.Black;
+            this.txtResCripto.Location = new System.Drawing.Point(144, 205);
+            this.txtResCripto.Name = "txtResCripto";
+            this.txtResCripto.ReadOnly = true;
+            this.txtResCripto.Size = new System.Drawing.Size(145, 22);
+            this.txtResCripto.TabIndex = 3;
+            this.txtResCripto.Visible = false;
+            // 
+            // txtTextoCripto
+            // 
+            this.txtTextoCripto.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtTextoCripto.Border.Class = "TextBoxBorder";
+            this.txtTextoCripto.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtTextoCripto.ForeColor = System.Drawing.Color.Black;
+            this.txtTextoCripto.Location = new System.Drawing.Point(144, 154);
+            this.txtTextoCripto.Name = "txtTextoCripto";
+            this.txtTextoCripto.Size = new System.Drawing.Size(145, 22);
+            this.txtTextoCripto.TabIndex = 2;
+            // 
+            // lblTextoCripto
+            // 
+            // 
+            // 
+            // 
+            this.lblTextoCripto.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblTextoCripto.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTextoCripto.Location = new System.Drawing.Point(20, 153);
+            this.lblTextoCripto.Name = "lblTextoCripto";
+            this.lblTextoCripto.Size = new System.Drawing.Size(105, 25);
+            this.lblTextoCripto.TabIndex = 1;
+            this.lblTextoCripto.Text = "Texto:";
+            // 
+            // radioGroupOpcion
+            // 
+            this.radioGroupOpcion.Controls.Add(this.radioDesencriptar);
+            this.radioGroupOpcion.Controls.Add(this.radioEncriptar);
+            this.radioGroupOpcion.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.radioGroupOpcion.Location = new System.Drawing.Point(20, 30);
+            this.radioGroupOpcion.Name = "radioGroupOpcion";
+            this.radioGroupOpcion.Size = new System.Drawing.Size(269, 100);
+            this.radioGroupOpcion.TabIndex = 0;
+            this.radioGroupOpcion.TabStop = false;
+            this.radioGroupOpcion.Text = "Seleccionar Opción";
+            // 
+            // radioDesencriptar
+            // 
+            this.radioDesencriptar.AutoSize = true;
+            this.radioDesencriptar.Location = new System.Drawing.Point(77, 63);
+            this.radioDesencriptar.Name = "radioDesencriptar";
+            this.radioDesencriptar.Size = new System.Drawing.Size(111, 24);
+            this.radioDesencriptar.TabIndex = 1;
+            this.radioDesencriptar.Text = "Desencriptar";
+            this.radioDesencriptar.UseVisualStyleBackColor = true;
+            this.radioDesencriptar.CheckedChanged += new System.EventHandler(this.radioDesencriptar_CheckedChanged);
+            // 
+            // radioEncriptar
+            // 
+            this.radioEncriptar.AutoSize = true;
+            this.radioEncriptar.Checked = true;
+            this.radioEncriptar.Location = new System.Drawing.Point(77, 27);
+            this.radioEncriptar.Name = "radioEncriptar";
+            this.radioEncriptar.Size = new System.Drawing.Size(86, 24);
+            this.radioEncriptar.TabIndex = 0;
+            this.radioEncriptar.TabStop = true;
+            this.radioEncriptar.Text = "Encriptar";
+            this.radioEncriptar.UseVisualStyleBackColor = true;
+            this.radioEncriptar.CheckedChanged += new System.EventHandler(this.radioEncriptar_CheckedChanged);
+            // 
+            // tabItemCripto
+            // 
+            this.tabItemCripto.AttachedControl = this.superTabCripto;
+            this.tabItemCripto.GlobalItem = false;
+            this.tabItemCripto.Image = global::OEVApp.Properties.Resources.Crypto24x24;
+            this.tabItemCripto.Name = "tabItemCripto";
+            superTabItemStateColorTable10.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates10.Selected = superTabItemStateColorTable10;
+            superTabItemColorTable10.Default = superTabColorStates10;
+            this.tabItemCripto.TabColor = superTabItemColorTable10;
+            this.tabItemCripto.Text = "<b>Criptografía</b>";
+            // 
+            // superTabDVH
+            // 
+            this.superTabDVH.Controls.Add(this.btnVerificarDVH);
+            this.superTabDVH.Controls.Add(this.txtUsuarioDVH);
+            this.superTabDVH.Controls.Add(this.lblUsuarioDVH);
+            this.superTabDVH.Controls.Add(this.radioGroupDVH);
+            this.superTabDVH.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabDVH.Location = new System.Drawing.Point(0, 0);
+            this.superTabDVH.Name = "superTabDVH";
+            this.superTabDVH.Size = new System.Drawing.Size(791, 396);
+            this.superTabDVH.TabIndex = 0;
+            this.superTabDVH.TabItem = this.tabItemDVH;
+            this.superTabDVH.Visible = false;
+            // 
+            // btnVerificarDVH
+            // 
+            this.btnVerificarDVH.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnVerificarDVH.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnVerificarDVH.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerificarDVH.Image = global::OEVApp.Properties.Resources.VerificadorManoOk;
+            this.btnVerificarDVH.Location = new System.Drawing.Point(118, 199);
+            this.btnVerificarDVH.Name = "btnVerificarDVH";
+            this.btnVerificarDVH.Size = new System.Drawing.Size(117, 55);
+            this.btnVerificarDVH.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnVerificarDVH.TabIndex = 3;
+            this.btnVerificarDVH.Text = "Verificar";
+            this.btnVerificarDVH.Click += new System.EventHandler(this.btnVerificarDVH_Click);
+            // 
+            // txtUsuarioDVH
+            // 
+            this.txtUsuarioDVH.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtUsuarioDVH.Border.Class = "TextBoxBorder";
+            this.txtUsuarioDVH.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtUsuarioDVH.ForeColor = System.Drawing.Color.Black;
+            this.txtUsuarioDVH.Location = new System.Drawing.Point(118, 146);
+            this.txtUsuarioDVH.Name = "txtUsuarioDVH";
+            this.txtUsuarioDVH.Size = new System.Drawing.Size(212, 22);
+            this.txtUsuarioDVH.TabIndex = 2;
+            // 
+            // lblUsuarioDVH
+            // 
+            // 
+            // 
+            // 
+            this.lblUsuarioDVH.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblUsuarioDVH.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuarioDVH.Location = new System.Drawing.Point(20, 141);
+            this.lblUsuarioDVH.Name = "lblUsuarioDVH";
+            this.lblUsuarioDVH.Size = new System.Drawing.Size(83, 23);
+            this.lblUsuarioDVH.TabIndex = 1;
+            this.lblUsuarioDVH.Text = "Usuario:";
+            // 
+            // radioGroupDVH
+            // 
+            this.radioGroupDVH.Controls.Add(this.radioTodosDVH);
+            this.radioGroupDVH.Controls.Add(this.radioUsuarioDVH);
+            this.radioGroupDVH.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioGroupDVH.Location = new System.Drawing.Point(20, 16);
+            this.radioGroupDVH.Name = "radioGroupDVH";
+            this.radioGroupDVH.Size = new System.Drawing.Size(310, 100);
+            this.radioGroupDVH.TabIndex = 0;
+            this.radioGroupDVH.TabStop = false;
+            this.radioGroupDVH.Text = "Dígito Verificador Horizontal";
+            // 
+            // radioTodosDVH
+            // 
+            this.radioTodosDVH.AutoSize = true;
+            this.radioTodosDVH.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.radioTodosDVH.Location = new System.Drawing.Point(18, 67);
+            this.radioTodosDVH.Name = "radioTodosDVH";
+            this.radioTodosDVH.Size = new System.Drawing.Size(149, 24);
+            this.radioTodosDVH.TabIndex = 1;
+            this.radioTodosDVH.Text = "Todos los usuarios";
+            this.radioTodosDVH.UseVisualStyleBackColor = true;
+            this.radioTodosDVH.Click += new System.EventHandler(this.radioTodosDVH_CheckedChanged);
+            // 
+            // radioUsuarioDVH
+            // 
+            this.radioUsuarioDVH.AutoSize = true;
+            this.radioUsuarioDVH.Checked = true;
+            this.radioUsuarioDVH.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.radioUsuarioDVH.Location = new System.Drawing.Point(18, 33);
+            this.radioUsuarioDVH.Name = "radioUsuarioDVH";
+            this.radioUsuarioDVH.Size = new System.Drawing.Size(77, 24);
+            this.radioUsuarioDVH.TabIndex = 0;
+            this.radioUsuarioDVH.TabStop = true;
+            this.radioUsuarioDVH.Text = "Usuario";
+            this.radioUsuarioDVH.UseVisualStyleBackColor = true;
+            this.radioUsuarioDVH.Click += new System.EventHandler(this.radioUsuarioDVH_CheckedChanged);
+            // 
+            // tabItemDVH
+            // 
+            this.tabItemDVH.AttachedControl = this.superTabDVH;
+            this.tabItemDVH.GlobalItem = false;
+            this.tabItemDVH.Image = global::OEVApp.Properties.Resources.DVHArrows;
+            this.tabItemDVH.Name = "tabItemDVH";
+            superTabItemStateColorTable11.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates11.Selected = superTabItemStateColorTable11;
+            superTabItemColorTable11.Default = superTabColorStates11;
+            this.tabItemDVH.TabColor = superTabItemColorTable11;
+            this.tabItemDVH.Text = "<b>Horizontal</b>";
+            // 
+            // superTabPermConsultar
+            // 
+            this.superTabPermConsultar.Controls.Add(this.gridPermConsultar);
+            this.superTabPermConsultar.Controls.Add(this.comboPermC);
+            this.superTabPermConsultar.Controls.Add(this.radioGroupAsignar);
+            this.superTabPermConsultar.Controls.Add(this.btnPermCBuscar);
+            this.superTabPermConsultar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabPermConsultar.Location = new System.Drawing.Point(0, 0);
+            this.superTabPermConsultar.Name = "superTabPermConsultar";
+            this.superTabPermConsultar.Size = new System.Drawing.Size(791, 396);
+            this.superTabPermConsultar.TabIndex = 0;
+            this.superTabPermConsultar.TabItem = this.tabItemPermConsultar;
+            // 
+            // gridPermConsultar
+            // 
+            this.gridPermConsultar.AllowUserToAddRows = false;
+            this.gridPermConsultar.AllowUserToDeleteRows = false;
+            this.gridPermConsultar.AllowUserToOrderColumns = true;
+            this.gridPermConsultar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Navy;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridPermConsultar.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            this.gridPermConsultar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridPermConsultar.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.gridPermConsultarHeaderUsuario,
+            this.gridPermConsultarHeaderRol,
+            this.gridPermConsultarHeaderPatente,
+            this.gridPermConsultarHeaderFamilia});
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridPermConsultar.DefaultCellStyle = dataGridViewCellStyle10;
+            this.gridPermConsultar.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.gridPermConsultar.Location = new System.Drawing.Point(25, 153);
+            this.gridPermConsultar.Name = "gridPermConsultar";
+            this.gridPermConsultar.ReadOnly = true;
+            this.gridPermConsultar.Size = new System.Drawing.Size(665, 176);
+            this.gridPermConsultar.TabIndex = 42;
+            this.gridPermConsultar.Visible = false;
+            // 
+            // gridPermConsultarHeaderUsuario
+            // 
+            this.gridPermConsultarHeaderUsuario.HeaderText = "Usuario";
+            this.gridPermConsultarHeaderUsuario.Name = "gridPermConsultarHeaderUsuario";
+            this.gridPermConsultarHeaderUsuario.ReadOnly = true;
+            this.gridPermConsultarHeaderUsuario.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridPermConsultarHeaderUsuario.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.gridPermConsultarHeaderUsuario.Width = 200;
+            // 
+            // gridPermConsultarHeaderRol
+            // 
+            this.gridPermConsultarHeaderRol.HeaderText = "Rol";
+            this.gridPermConsultarHeaderRol.Name = "gridPermConsultarHeaderRol";
+            this.gridPermConsultarHeaderRol.ReadOnly = true;
+            this.gridPermConsultarHeaderRol.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridPermConsultarHeaderRol.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.gridPermConsultarHeaderRol.Width = 150;
+            // 
+            // gridPermConsultarHeaderPatente
+            // 
+            this.gridPermConsultarHeaderPatente.HeaderText = "Patente";
+            this.gridPermConsultarHeaderPatente.Name = "gridPermConsultarHeaderPatente";
+            this.gridPermConsultarHeaderPatente.ReadOnly = true;
+            this.gridPermConsultarHeaderPatente.Width = 200;
+            // 
+            // gridPermConsultarHeaderFamilia
+            // 
+            this.gridPermConsultarHeaderFamilia.HeaderText = "Familia";
+            this.gridPermConsultarHeaderFamilia.Name = "gridPermConsultarHeaderFamilia";
+            this.gridPermConsultarHeaderFamilia.ReadOnly = true;
+            this.gridPermConsultarHeaderFamilia.Width = 200;
+            // 
+            // comboPermC
+            // 
+            this.comboPermC.DisplayMember = "Text";
+            this.comboPermC.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.comboPermC.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboPermC.EnablePopupResize = false;
+            this.comboPermC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboPermC.ItemHeight = 19;
+            this.comboPermC.Location = new System.Drawing.Point(25, 92);
+            this.comboPermC.Name = "comboPermC";
+            this.comboPermC.Size = new System.Drawing.Size(335, 25);
+            this.comboPermC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboPermC.TabIndex = 40;
+            // 
+            // radioGroupAsignar
+            // 
+            this.radioGroupAsignar.Controls.Add(this.radioPermCFamilia);
+            this.radioGroupAsignar.Controls.Add(this.radioPermCPatente);
+            this.radioGroupAsignar.Controls.Add(this.radioPermCRol);
+            this.radioGroupAsignar.Controls.Add(this.radioPermCUsuario);
+            this.radioGroupAsignar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioGroupAsignar.Location = new System.Drawing.Point(25, 17);
+            this.radioGroupAsignar.Name = "radioGroupAsignar";
+            this.radioGroupAsignar.Size = new System.Drawing.Size(335, 57);
+            this.radioGroupAsignar.TabIndex = 39;
+            this.radioGroupAsignar.TabStop = false;
+            this.radioGroupAsignar.Text = "Asignar:";
+            // 
+            // radioPermCFamilia
+            // 
+            this.radioPermCFamilia.AutoSize = true;
+            this.radioPermCFamilia.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioPermCFamilia.Location = new System.Drawing.Point(239, 21);
+            this.radioPermCFamilia.Name = "radioPermCFamilia";
+            this.radioPermCFamilia.Size = new System.Drawing.Size(75, 24);
+            this.radioPermCFamilia.TabIndex = 3;
+            this.radioPermCFamilia.Text = "Familia";
+            this.radioPermCFamilia.UseVisualStyleBackColor = true;
+            this.radioPermCFamilia.Click += new System.EventHandler(this.radioPermCFamilia_Click);
+            // 
+            // radioPermCPatente
+            // 
+            this.radioPermCPatente.AutoSize = true;
+            this.radioPermCPatente.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioPermCPatente.Location = new System.Drawing.Point(158, 21);
+            this.radioPermCPatente.Name = "radioPermCPatente";
+            this.radioPermCPatente.Size = new System.Drawing.Size(77, 24);
+            this.radioPermCPatente.TabIndex = 2;
+            this.radioPermCPatente.Text = "Patente";
+            this.radioPermCPatente.UseVisualStyleBackColor = true;
+            this.radioPermCPatente.Click += new System.EventHandler(this.radioPermCPatente_Click);
+            // 
+            // radioPermCRol
+            // 
+            this.radioPermCRol.AutoSize = true;
+            this.radioPermCRol.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioPermCRol.Location = new System.Drawing.Point(97, 22);
+            this.radioPermCRol.Name = "radioPermCRol";
+            this.radioPermCRol.Size = new System.Drawing.Size(49, 24);
+            this.radioPermCRol.TabIndex = 1;
+            this.radioPermCRol.Text = "Rol";
+            this.radioPermCRol.UseVisualStyleBackColor = true;
+            this.radioPermCRol.Click += new System.EventHandler(this.radioPermCRol_Click);
+            // 
+            // radioPermCUsuario
+            // 
+            this.radioPermCUsuario.AutoSize = true;
+            this.radioPermCUsuario.Checked = true;
+            this.radioPermCUsuario.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioPermCUsuario.Location = new System.Drawing.Point(17, 22);
+            this.radioPermCUsuario.Name = "radioPermCUsuario";
+            this.radioPermCUsuario.Size = new System.Drawing.Size(77, 24);
+            this.radioPermCUsuario.TabIndex = 0;
+            this.radioPermCUsuario.TabStop = true;
+            this.radioPermCUsuario.Text = "Usuario";
+            this.radioPermCUsuario.UseVisualStyleBackColor = true;
+            this.radioPermCUsuario.Click += new System.EventHandler(this.radioPermCUsuario_Click);
+            // 
+            // btnPermCBuscar
+            // 
+            this.btnPermCBuscar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnPermCBuscar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnPermCBuscar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPermCBuscar.Image = global::OEVApp.Properties.Resources.search;
+            this.btnPermCBuscar.Location = new System.Drawing.Point(489, 19);
+            this.btnPermCBuscar.Name = "btnPermCBuscar";
+            this.btnPermCBuscar.Size = new System.Drawing.Size(95, 55);
+            this.btnPermCBuscar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnPermCBuscar.TabIndex = 41;
+            this.btnPermCBuscar.Text = "Buscar";
+            this.btnPermCBuscar.Click += new System.EventHandler(this.btnPermCBuscar_Click);
+            // 
+            // tabItemPermConsultar
+            // 
+            this.tabItemPermConsultar.AttachedControl = this.superTabPermConsultar;
+            this.tabItemPermConsultar.GlobalItem = false;
+            this.tabItemPermConsultar.Image = global::OEVApp.Properties.Resources.lupa;
+            this.tabItemPermConsultar.Name = "tabItemPermConsultar";
+            superTabItemStateColorTable12.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates12.Selected = superTabItemStateColorTable12;
+            superTabItemColorTable12.Default = superTabColorStates12;
+            this.tabItemPermConsultar.TabColor = superTabItemColorTable12;
+            this.tabItemPermConsultar.Text = "<b>Consultar</b>";
             // 
             // folderBrowseRutaBackup
             // 
@@ -3410,23 +3410,24 @@ namespace OEVApp
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.lblUsuarioLogueado);
             this.Controls.Add(this.lblUsuario);
-            this.Controls.Add(this.superTabCtrol);
+            this.Controls.Add(this.superTabCtrolAdmin);
             this.Controls.Add(this.sideBar1);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Administrador";
             this.Text = "OEV - Administrador";
-            ((System.ComponentModel.ISupportInitialize)(this.superTabCtrol)).EndInit();
-            this.superTabCtrol.ResumeLayout(false);
-            this.superTabCripto.ResumeLayout(false);
-            this.radioGroupOpcion.ResumeLayout(false);
-            this.radioGroupOpcion.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.superTabCtrolAdmin)).EndInit();
+            this.superTabCtrolAdmin.ResumeLayout(false);
+            this.superTabAgregar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dateFecNac)).EndInit();
             this.superTabBackup.ResumeLayout(false);
+            this.superTabEditar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dateFecNacM)).EndInit();
+            this.radioGroupBuscar.ResumeLayout(false);
+            this.radioGroupBuscar.PerformLayout();
             this.superTabDVV.ResumeLayout(false);
             this.radioGroupDVV.ResumeLayout(false);
-            this.superTabDVH.ResumeLayout(false);
-            this.radioGroupDVH.ResumeLayout(false);
-            this.radioGroupDVH.PerformLayout();
+            this.superTabRestore.ResumeLayout(false);
             this.superTabFunc.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridFunciones)).EndInit();
             this.radioGroupABM.ResumeLayout(false);
@@ -3438,10 +3439,6 @@ namespace OEVApp
             this.radioGroupOp2.PerformLayout();
             this.radioGroupOp1.ResumeLayout(false);
             this.radioGroupOp1.PerformLayout();
-            this.superTabPermConsultar.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridPermConsultar)).EndInit();
-            this.radioGroupAsignar.ResumeLayout(false);
-            this.radioGroupAsignar.PerformLayout();
             this.superTabConsultarB.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dateHastaConsultaB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateDesdeConsultaB)).EndInit();
@@ -3452,13 +3449,16 @@ namespace OEVApp
             ((System.ComponentModel.ISupportInitialize)(this.gridConsultaUsuario)).EndInit();
             this.groupBuscarC.ResumeLayout(false);
             this.groupBuscarC.PerformLayout();
-            this.superTabEditar.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dateFecNacM)).EndInit();
-            this.radioGroupBuscar.ResumeLayout(false);
-            this.radioGroupBuscar.PerformLayout();
-            this.superTabAgregar.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dateFecNac)).EndInit();
-            this.superTabRestore.ResumeLayout(false);
+            this.superTabCripto.ResumeLayout(false);
+            this.radioGroupOpcion.ResumeLayout(false);
+            this.radioGroupOpcion.PerformLayout();
+            this.superTabDVH.ResumeLayout(false);
+            this.radioGroupDVH.ResumeLayout(false);
+            this.radioGroupDVH.PerformLayout();
+            this.superTabPermConsultar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridPermConsultar)).EndInit();
+            this.radioGroupAsignar.ResumeLayout(false);
+            this.radioGroupAsignar.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -3473,7 +3473,7 @@ namespace OEVApp
         private DevComponents.DotNetBar.SideBarPanelItem sideBarPanelDV;
         private DevComponents.DotNetBar.ButtonItem btnItemDVH;
         private DevComponents.DotNetBar.ButtonItem btnItemDVV;
-        private DevComponents.DotNetBar.SuperTabControl superTabCtrol;
+        private DevComponents.DotNetBar.SuperTabControl superTabCtrolAdmin;
         private DevComponents.DotNetBar.SuperTabControlPanel superTabBackup;
         private DevComponents.DotNetBar.ButtonX btnRutaBackup;
         private DevComponents.DotNetBar.LabelX lblRutaBackup;

@@ -19,7 +19,6 @@ namespace Base
         public String telefono { set; get; }
         public String ciudad { set; get; }
         public String clave { set; get; }
-        public Int32 idRol { set; get; }
         public String digitoVerificador { set; get; }
         public Boolean estado { set; get; }
 

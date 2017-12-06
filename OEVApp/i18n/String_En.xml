@@ -5,6 +5,7 @@
     <guardar>Save</guardar>
     <buscar>Search</buscar>
     <usuario>User</usuario>
+    <legajo>Id</legajo>
 
     <agregar>Add</agregar>
     <editar>Edit</editar>
@@ -23,8 +24,13 @@
     <direccion>Address</direccion>
     <ciudad>City</ciudad>
 
+    <razonSocial>Company</razonSocial>
+    <cuit>CUIT</cuit>
+    
     <rol>Role</rol>
     <todos>All</todos>
+
+    <descripcion>Description</descripcion>
   </EtiquetasComunes>
   
   <LoginForm>
@@ -50,7 +56,8 @@
 
     <fecNacInvalida>Should be at least 18 years</fecNacInvalida>
     <formatoEmail>Invalid email format</formatoEmail>
-    <formatoDni>Invalid dni format</formatoDni>
+    <formatoDni>Invalid DNI format</formatoDni>
+    <formatoCuit>Invalid CUIT format</formatoCuit>
 
     <nombreApellidoDniEmailRequeridos>Name, lastname, DNI and email are mandatory fields</nombreApellidoDniEmailRequeridos>
     <usuarioYaExiste>User {0} {1} with DNI {2} already exists</usuarioYaExiste>
@@ -72,7 +79,15 @@
     <permitirMsjPlus>{0} {1} access permissions to {2} {3} granted.</permitirMsjPlus>
     <denegarMsj>Deny {0} access to {1}</denegarMsj>
     <denegarMsjPlus>{0} {1} access permissions to {2} {3} denied.</denegarMsjPlus>
-  
+
+    <razonCuitEmailRequeridos>Company and CUIT are mandatory fields</razonCuitEmailRequeridos>
+    <proveedorNuevo>{0} {1} with CUIT {2} successfully registered</proveedorNuevo>
+    <proveedorYaExiste>{0} {1} with CUIT {2} already exists</proveedorYaExiste>
+    <proveedorActualizado>{0} {1} with CUIT {2} successfully updated</proveedorActualizado>
+
+    <instructorNuevo>Instructor {0} {1} with id {2} successfully registered</instructorNuevo>
+    <instructorYaExiste>Instructor {0} {1} with DNI {2} already exists</instructorYaExiste>
+    <especialidadesRequeridas>Skills are mandatory fields</especialidadesRequeridas>
 </Mensaje>
   
   <InicioAdministrador>
@@ -128,9 +143,41 @@
     <estadoFamilia>Family Status</estadoFamilia>
     <estadoRol>Role Status</estadoRol>
     <a>To</a>
-    <permitirA>Allow to</permitirA>
     <accederA>Access to</accederA>
-    <descripcion>Description</descripcion>
+    
 </InicioAdministrador>
 
+  <InicioDirector>
+    <inicioDirectorForm>OEV - Director</inicioDirectorForm>
+    <calendario>Calendar</calendario>
+    <actividad>Activity</actividad>
+    <cursoEntrenamiento>Training course</cursoEntrenamiento>
+    <precio>Price</precio>
+    <dias>Days</dias>
+    <lunes>Monday</lunes>
+    <martes>Tuesday</martes>
+    <miercoles>Wednesday</miercoles>
+    <jueves>Thursday</jueves>
+    <viernes>Friday</viernes>
+    <horaInicio>Start time</horaInicio>
+    <horaFin>End time</horaFin>
+    <dificultad>Dificulty</dificultad>
+    <entrenamientoDe>Training of</entrenamientoDe>
+    <montania>Mountain</montania>
+    <running>Running</running>
+    <trekking>Trekking</trekking>
+    <bike>Mountain bike</bike>
+    <auxilios>First aid and CPR</auxilios>
+    <orientacion>Orientation and GPS</orientacion>
+    <capacidad>Capacity</capacidad>
+    <tarifa>Rate</tarifa>
+    <alojamiento>Accomodation</alojamiento>
+    <traslado>Transfer</traslado>
+    <servicios>Services</servicios>
+    <tipoAlojamiento>Category</tipoAlojamiento>
+    <tipoTraslado>Vehicle</tipoTraslado>
+    <instructor>Trainer</instructor>
+    <especialidad>Skill</especialidad>
+    <experiencia>Experience</experiencia>
+  </InicioDirector>
 </Multiidioma>

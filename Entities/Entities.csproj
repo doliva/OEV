@@ -42,13 +42,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alojamiento.cs" />
     <Compile Include="Cliente.cs" />
+    <Compile Include="Especialidad.cs" />
+    <Compile Include="Instructor.cs" />
     <Compile Include="Producto.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Proveedor.cs" />
+    <Compile Include="Traslado.cs" />
     <Compile Include="Voucher.cs" />
   </ItemGroup>
   <ItemGroup>

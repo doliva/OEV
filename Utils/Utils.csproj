@@ -60,8 +60,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BD_OEVDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="EnumCategoria.cs" />
+    <Compile Include="EnumDificultad.cs" />
     <Compile Include="EnumEvento.cs" />
     <Compile Include="Constantes.cs" />
+    <Compile Include="EnumVehiculo.cs" />
     <Compile Include="PDFUtil.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -71,6 +74,7 @@
     <Compile Include="Validacion.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.2.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
     <Reference Include="itextsharp">
       <HintPath>..\..\PDFCreation\PDFCreation\PDFCreation\itextsharp.dll</HintPath>
     </Reference>
@@ -84,6 +88,8 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.XML" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml.Serialization" />

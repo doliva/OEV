@@ -130,6 +130,7 @@
     <Content Include="i18n\String_Es.xml">
       <SubType>Designer</SubType>
     </Content>
+    <None Include="Resources\GreenBackstage.png" />
     <None Include="Resources\Crypto24x24.jpg" />
     <None Include="Resources\DVVArrows.png" />
     <None Include="Resources\DVHArrows.png" />

@@ -53,5 +53,7 @@ namespace Utils
         public static String ADMINISTRADOR = "ADMINISTRADOR";
         public static String USUARIO = "USUARIO";
         public static String INTERROGATION = "?";
+
+        public static string MONEDA = "$ ";
     }
 }

@@ -19,8 +19,8 @@ namespace Base.DAL
             
             SqlConnection conn = new SqlConnection(connectionString);
             StringBuilder queryBuilder = new StringBuilder();
-            queryBuilder.Append("INSERT INTO USUARIO (NOMBRE, APELLIDO, DNI, FECHA_NACIMIENTO, DIRECCION, CIUDAD, TELEFONO, EMAIL, ESTADO, ROL, CLAVE, DVH) ");
-            queryBuilder.Append("VALUES (@nombre, @apellido, @dni, @fecNac, @direccion, @ciudad, @telefono, @email, @estado, @codRol, @clave, @dvh)");
+            queryBuilder.Append("INSERT INTO USUARIO (NOMBRE, APELLIDO, DNI, FECHA_NACIMIENTO, DIRECCION, CIUDAD, TELEFONO, EMAIL, ESTADO, CLAVE, DVH) ");
+            queryBuilder.Append("VALUES (@nombre, @apellido, @dni, @fecNac, @direccion, @ciudad, @telefono, @email, @estado, @clave, @dvh)");
             queryBuilder.Append("; SELECT SCOPE_IDENTITY()");
             SqlCommand cmd = new SqlCommand(queryBuilder.ToString(), conn);
             cmd.Parameters.Add("@nombre", SqlDbType.VarChar, 50).Value = usuario.nombre;
@@ -56,7 +56,7 @@ namespace Base.DAL
         {
             SqlConnection conn = new SqlConnection(connectionString);
             StringBuilder queryBuilder = new StringBuilder();
-            queryBuilder.Append("UPDATE USUARIO SET NOMBRE=@nombre, APELLIDO=@apellido, DNI=@dni, FECHA_NACIMIENTO=@fecha_nacimiento, DIRECCION=@direccion, TELEFONO=@telefono, EMAIL=@email, ESTADO=@estado, ROL=@rol, CIUDAD=@ciudad, CLAVE=@clave, DVH=@dvh ");
+            queryBuilder.Append("UPDATE USUARIO SET NOMBRE=@nombre, APELLIDO=@apellido, DNI=@dni, FECHA_NACIMIENTO=@fecha_nacimiento, DIRECCION=@direccion, TELEFONO=@telefono, EMAIL=@email, ESTADO=@estado, CIUDAD=@ciudad, CLAVE=@clave, DVH=@dvh ");
             queryBuilder.Append("WHERE ID_USUARIO = @id_usuario");
             SqlCommand cmd = new SqlCommand(queryBuilder.ToString(), conn);
             cmd.Parameters.Add("@nombre", SqlDbType.VarChar, 30).Value = usuario.nombre;

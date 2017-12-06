@@ -38,7 +38,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLLAlojamiento.cs" />
+    <Compile Include="BLLInstructor.cs" />
+    <Compile Include="BLLTraslado.cs" />
     <Compile Include="FamiliaPatenteBLL.cs" />
+    <Compile Include="IBLL\IBLLAlojamiento.cs" />
+    <Compile Include="IBLL\IBLLInstructor.cs" />
+    <Compile Include="IBLL\IBLLTraslado.cs" />
     <Compile Include="IBLL\IFamiliaPatenteBLL.cs" />
   </ItemGroup>
   <ItemGroup>
