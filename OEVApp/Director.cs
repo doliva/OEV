@@ -28,6 +28,7 @@ namespace OEVApp
         IBLLTraslado trasladoBLL = new BLLTraslado();
         IBLLAlojamiento alojamientoBLL = new BLLAlojamiento();
         IBLLInstructor instructorBLL = new BLLInstructor();
+        IBLLProducto productoBLL = new BLLProducto();
         String msjInfo = null;
         String msjConfirmar = null;
         String msjError = null;
@@ -40,6 +41,7 @@ namespace OEVApp
             rolUsrLogueado = rolBLL.obtenerRolPorId(Convert.ToInt32(usuarioBLL.obtnerRolPorIdUsuario(usuario.id)));
             cargarFuncionalidades(familiasPermitidas, patentesPermitidas);
             cargarCombos();
+            formatTimeInputs();
             I18n.cargarIdioma((EnumIdioma)Enum.Parse(typeof(EnumIdioma), idioma));
             generarDirectorStrings();
             generarCalendarioStrings();
@@ -107,14 +109,21 @@ namespace OEVApp
         {
             comboACDificultadA.DataSource = Enum.GetValues(typeof(EnumDificultad)).Cast<EnumDificultad>().ToList();
             comboAPDificultadA.DataSource = Enum.GetValues(typeof(EnumDificultad)).Cast<EnumDificultad>().ToList();
-            comboACNombreE.DataSource = new List<Producto>();//rolBLL.obtenerRoles().Where(r => r.estado == true).Select(r => r.descripcion).ToList();
-            comboACDificultadE.DataSource = Enum.GetValues(typeof(EnumDificultad)).Cast<EnumDificultad>().ToList();
+            comboACNombreE.DataSource = productoBLL.obtenerCursos().Select(r => r.nombre).ToList();
             comboAPNombreE.DataSource = new List<Producto>();//rolBLL.obtenerRoles().Where(r => r.estado == true).Select(r => r.descripcion).ToList();
             comboAPDificultadE.DataSource = Enum.GetValues(typeof(EnumDificultad)).Cast<EnumDificultad>().ToList();
-            comboACDificultad.DataSource = Enum.GetValues(typeof(EnumDificultad)).Cast<EnumDificultad>().ToList();
+            comboACDificultadC.DataSource = Enum.GetValues(typeof(EnumDificultad)).Cast<EnumDificultad>().ToList();
             comboAPDestinoC.DataSource = new List<Producto>();//rolBLL.obtenerRoles().Where(r => r.estado == true).Select(r => r.descripcion).ToList();
             comboAPDificultadC.DataSource = Enum.GetValues(typeof(EnumDificultad)).Cast<EnumDificultad>().ToList();
             comboBoxProvAgrTipo.DataSource = Enum.GetValues(typeof(EnumCategoria)).Cast<EnumCategoria>().ToList();
+        }
+
+        private void formatTimeInputs()
+        {
+            dTInputACHoraInicioA.CustomFormat = "HH:mm";
+            dTInputACHoraFinA.CustomFormat = "HH:mm";
+            dTInputACHoraInicioE.CustomFormat = "HH:mm";
+            dTInputACHoraFinE.CustomFormat = "HH:mm"; 
         }
 
         private void generarDirectorStrings()
@@ -145,7 +154,9 @@ namespace OEVApp
         {
             sideBarPanelActividad.Text = I18n.obtenerString("InicioDirector", "actividad");
             btnItemActCursoEnt.Text = I18n.obtenerString("InicioDirector", "cursoEntrenamiento");
+            btnItemActPaquete.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "paquete")).Append(" - ").Append(I18n.obtenerString("InicioDirector", "evento")).ToString();
             generarCursoEntrenamientoStrings();
+            generarPaqueteEventoStrings();
         }
 
         private void generarCursoEntrenamientoStrings()
@@ -154,22 +165,25 @@ namespace OEVApp
             tabItemACAgregar.Text = I18n.obtenerString("InicioDirector", "agregar");
             //Editar
             tabItemACEditar.Text = I18n.obtenerString("InicioDirector", "editar");
-            btnACBuscarE.Text = btnACBuscarC.Text = I18n.obtenerString("InicioDirector", "buscar");
+            btnACBuscarC.Text = I18n.obtenerString("InicioDirector", "buscar");
             //Consultar
             tabItemACConsultar.Text = I18n.obtenerString("InicioDirector", "consultar");
             gridViewACC.Columns["HNombre"].HeaderText = I18n.obtenerString("InicioDirector", "nombre");
-            gridViewACC.Columns["HDescripcion"].HeaderText = I18n.obtenerString("InicioDirector", "descripcion");
+            gridViewACC.Columns["HActividad"].HeaderText = I18n.obtenerString("InicioDirector", "actividad");
             gridViewACC.Columns["HPrecio"].HeaderText = I18n.obtenerString("InicioDirector", "precio");
             gridViewACC.Columns["HDias"].HeaderText = I18n.obtenerString("InicioDirector", "dias");
             gridViewACC.Columns["HHoraInicio"].HeaderText = I18n.obtenerString("InicioDirector", "horaInicio");
             gridViewACC.Columns["HHoraFin"].HeaderText = I18n.obtenerString("InicioDirector", "horaFin");
+            gridViewACC.Columns["HEstado"].HeaderText = I18n.obtenerString("InicioDirector", "estado");
             //Agregar + Editar + Consultar
-            lblACCursoA.Text = lblACCursoE.Text = lblACCursoC.Text = I18n.obtenerString("InicioDirector", "cursoEntrenamiento");
-            lblACNombreA.Text = lblACNombreE.Text = new StringBuilder(Constantes.MANDATORY).Append(I18n.obtenerString("InicioDirector", "nombre")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblACCursoA.Text = lblACCursoE.Text = lblACCursoC.Text = groupACEntrenC.Text = I18n.obtenerString("InicioDirector", "cursoEntrenamiento");
+            btnACNombreA.Text = I18n.obtenerString("InicioDirector", "nombre");
+            lblACNombreE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "nombre")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblACActvidadE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "actividad")).Append(Constantes.DOS_PUNTOS).ToString();
             lblACDescA.Text = lblACDescE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "descripcion")).Append(Constantes.DOS_PUNTOS).ToString();
             lblACDificultadA.Text = lblACDificultadE.Text = lblACDificultadC.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "dificultad")).Append(Constantes.DOS_PUNTOS).ToString();
-            lblACPrecioA.Text = lblACPrecioE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "precio")).Append(Constantes.DOS_PUNTOS).ToString();
-            groupBoxACDiasA.Text = groupBoxACDiasE.Text = groupACEntrenC.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "dias")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblACPrecioA.Text = lblACPrecioE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "precio")).Append(" " + Constantes.MONEDA).Append(Constantes.DOS_PUNTOS).ToString();
+            groupBoxACDiasA.Text = groupBoxACDiasE.Text =  new StringBuilder(I18n.obtenerString("InicioDirector", "dias")).Append(Constantes.DOS_PUNTOS).ToString();
             checkACLunA.Text = checkACLunE.Text = I18n.obtenerString("InicioDirector", "lunes");
             checkACMarA.Text = checkACMarE.Text = I18n.obtenerString("InicioDirector", "martes");
             checkACMieA.Text = checkACMieE.Text = I18n.obtenerString("InicioDirector", "miercoles");
@@ -177,15 +191,43 @@ namespace OEVApp
             checkACVieA.Text = checkACVieE.Text = I18n.obtenerString("InicioDirector", "viernes");
             lblACHoraIniA.Text = lblACHoraIniE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "horaInicio")).Append(Constantes.DOS_PUNTOS).ToString();
             lblACHoraFinA.Text = lblACHoraFinE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "horaFin")).Append(Constantes.DOS_PUNTOS).ToString();
-            groupACEntrenA.Text = groupACEntrenE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "entrenamientoDe")).Append(Constantes.DOS_PUNTOS).ToString();
-            radioACMontA.Text = radioACMontE.Text = radioACMontC.Text = I18n.obtenerString("InicioDirector", "montania");
-            radioACRunA.Text = radioACRunE.Text = radioACRunC.Text = I18n.obtenerString("InicioDirector", "running");
-            radioACTrekA.Text = radioACTrekE.Text = radioACTrekC.Text = I18n.obtenerString("InicioDirector", "trekking");
-            radioACBikeA.Text = radioACBikeE.Text = radioACBikeC.Text = I18n.obtenerString("InicioDirector", "bike");
-            radioACAuxA.Text = radioACAuxE.Text = radioACAuxC.Text = I18n.obtenerString("InicioDirector", "auxilios");
-            radioACGpsA.Text = radioACGpsE.Text = radioACGpsC.Text = I18n.obtenerString("InicioDirector", "orientacion");
+            groupACEntrenA.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "entrenamientoDe")).Append(Constantes.DOS_PUNTOS).ToString();
+            radioACMontA.Text = chkACMontC.Text = I18n.obtenerString("InicioDirector", "montania");
+            radioACRunA.Text = chkACRunC.Text = I18n.obtenerString("InicioDirector", "running");
+            radioACTrekA.Text = chkACTrekC.Text = I18n.obtenerString("InicioDirector", "trekking");
+            radioACBikeA.Text = chkACBikeC.Text = I18n.obtenerString("InicioDirector", "bike");
+            radioACAuxA.Text = chkACAuxC.Text = I18n.obtenerString("InicioDirector", "auxilios");
+            radioACGpsA.Text = chkACGpsC.Text = I18n.obtenerString("InicioDirector", "orientacion");
             btnACGuardarA.Text = btnACGuardarE.Text = I18n.obtenerString("InicioDirector", "guardar");
 
+        }
+
+        private void generarPaqueteEventoStrings()
+        {
+            //Agregar - editar - consultar
+            groupAPModalidadA.Text = groupAPModalidadE.Text = groupAPModalidadC .Text = I18n.obtenerString("InicioDirector", "modalidad");
+            lblAPNombreA.Text = lblAPNombreE.Text = new StringBuilder(Constantes.MANDATORY).Append(I18n.obtenerString("InicioDirector", "nombre")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblAPDestinoA.Text = lblAPDestinoE.Text = lblAPDestinoC.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "destino")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblAPPrecioA.Text = lblAPPrecioE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "precio")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblAPItinerarioA.Text = lblAPItinerarioE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "itinerario")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblAPDificultadA.Text = lblAPDificultadE.Text = lblAPDificultadC.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "dificultad")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblAPFechaInicioA.Text = lblAPFechaInicioE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "fechaInicio")).Append(Constantes.DOS_PUNTOS).ToString();
+            lblAPFechaFinA.Text = lblAPFechaFinE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "fechaFin")).Append(Constantes.DOS_PUNTOS).ToString();
+            groupAPEventoA.Text = groupAPEventoE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "evento")).Append(Constantes.DOS_PUNTOS).ToString();
+            radioAPCiclismoA.Text = radioAPCiclismoE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "ciclismo")).Append(Constantes.DOS_PUNTOS).ToString();
+            btnAPGuardarA.Text = btnACGuardarE.Text = I18n.obtenerString("InicioDirector", "guardar");
+            //Editar
+            btnAPBuscarE.Text = I18n.obtenerString("InicioDirector", "buscar");
+            //consultar
+            radioAPEventoC.Text = I18n.obtenerString("InicioDirector", "evento");
+            radioAPPaqueteC.Text = I18n.obtenerString("InicioDirector", "paquete");
+            gridViewAPC.Columns["APHNombre"].HeaderText = I18n.obtenerString("InicioDirector", "nombre");
+            gridViewAPC.Columns["APHItinerario"].HeaderText = I18n.obtenerString("InicioDirector", "itinerario");
+            gridViewAPC.Columns["APHPrecio"].HeaderText = I18n.obtenerString("InicioDirector", "precio");
+            gridViewAPC.Columns["APHActividades"].HeaderText = I18n.obtenerString("InicioDirector", "actividades");
+            gridViewAPC.Columns["APHFechaInicio"].HeaderText = I18n.obtenerString("InicioDirector", "fechaInicio");
+            gridViewAPC.Columns["APHFechaFin"].HeaderText = I18n.obtenerString("InicioDirector", "fechaFin");
+            btnAPBuscarC.Text = I18n.obtenerString("InicioDirector", "buscar");
         }
 
         private void generarProveedoresStrings()
@@ -271,87 +313,98 @@ namespace OEVApp
 
         private void limpiarCampos()
         {
-            txtACNombreA.Text = "";
-            richTxtACDescA.Text = "";
-            doubleInACPrecioA.Text = "";
+            //agregar curso
+            txtACNombreA.ResetText();
+            comboACDificultadA.DataSource = Enum.GetValues(typeof(EnumDificultad)).Cast<EnumDificultad>().ToList();
+            radioACMontA.Checked = true;
+            richTxtACDescA.ResetText();
+            doubleInACPrecioA.ResetText();
             checkACLunA.Checked = false;
             checkACMarA.Checked = false;
             checkACMieA.Checked = false;
             checkACJueA.Checked = false;
             checkACVieA.Checked = false;
             radioACMontA.Checked = true;
-
+            txtACNombreA.ResetText();
+            //agregar paquete/evento
             radioAPEventoA.Checked = true;
-            txtAPNombreA.Text = "";
-            txtAPDestinoA.Text = "";
-            doubleInAPPrecioA.Text = "";
-            richTxtAPItinerarioA.Text = "";
-            //ckdListBoxAPA
+            txtAPNombreA.ResetText();
+            txtAPDestinoA.ResetText();
+            doubleInAPPrecioA.ResetText();
+            richTxtAPItinerarioA.ResetText();
+            ckdListBoxAPA.ClearSelected();
             radioAPCiclismoA.Checked = true;
             radioAPRunA.Checked = false;
             radioAPBikeA.Checked = false;
-
-            richTxtACDescE.Text = "";
+            //editar curso
+            richTxtACDescE.ResetText();
+            doubleInACPrecioE.ResetText();
             checkACLunE.Checked = false;
             checkACMarE.Checked = false;
             checkACMieE.Checked = false;
             checkACJueE.Checked = false;
             checkACVieE.Checked = false;
-            radioACMontE.Checked = true;
-
+            //editar paquete/evento
             radioAPEventoE.Checked = true;
-            txtAPDestinoE.Text = "";
-            richTxtAPItinerarioE.Text = "";
-            //ckdListBoxAPE
+            txtAPDestinoE.ResetText();
+            richTxtAPItinerarioE.ResetText();
+            ckdListBoxAPE.ClearSelected();
             radioAPCiclismoE.Checked = true;
-
-            radioACMontC.Checked = true;
+            //consultar curso
+            gridViewACC.Rows.Clear();
+            //consultar paquete/evento
             radioAPEventoC.Checked = true;
-
-            txtProvAgrRazon.Text = "";
-            txtProvAgrCuit.Text = "";
-            txtProvAgrDireccion.Text = "";
-            txtProvAgrCiudad.Text = "";
-            txtProvAgrEmail.Text = "";
-            txtProvAgrTelefono.Text = "";
-            doubleInProvAgrTarifa.Text = "";
-            integerInProvAgrCap.Text = "";
-            richTxtProvAgrServicios.Text = "";
-
-            txtProvEdiFiltro.Text = "";
-            txtProvEdiRazon.Text = "";
-            txtProvEdiCuit.Text = "";
-            txtProvEdiDireccion.Text = "";
-            txtProvEdiCiudad.Text = "";
-            txtProvEdiEmail.Text = "";
-            txtProvEdiTelefono.Text = "";
-            doubleInProvEdiTarifa.Text = "";
-            integerInProvEdiCap.Text = "";
-            richTxtProvEdiServicios.Text = "";
-            lblEdiId.Text = "";
-
-            txtInstAgrApellido.Text = "";
-            txtInstAgrNombre.Text = "";
-            txtInstAgrDni.Text = "";
-            txtInstAgrDireccion.Text = "";
-            txtInstAgrCiudad.Text = "";
-            txtInstAgrEmail.Text = "";
-            txtInstAgrTelefono.Text = "";
+            gridViewAPC.Rows.Clear();
+            //agregar proveedor
+            txtProvAgrRazon.ResetText();
+            txtProvAgrCuit.ResetText();
+            txtProvAgrDireccion.ResetText();
+            txtProvAgrCiudad.ResetText();
+            txtProvAgrEmail.ResetText();
+            txtProvAgrTelefono.ResetText();
+            doubleInProvAgrTarifa.ResetText();
+            integerInProvAgrCap.ResetText();
+            richTxtProvAgrServicios.ResetText();
+            //editar proveedor
+            txtProvEdiFiltro.ResetText();
+            txtProvEdiRazon.ResetText();
+            txtProvEdiCuit.ResetText();
+            txtProvEdiDireccion.ResetText();
+            txtProvEdiCiudad.ResetText();
+            txtProvEdiEmail.ResetText();
+            txtProvEdiTelefono.ResetText();
+            doubleInProvEdiTarifa.ResetText();
+            integerInProvEdiCap.ResetText();
+            richTxtProvEdiServicios.ResetText();
+            lblEdiId.ResetText();
+            //consultar proveedor
+            radioProvConsCuit.Checked = true;
+            txtProvConsFiltro.ResetText();
+            dataGridProvCons.Rows.Clear();
+            //agregar instructor
+            txtInstAgrApellido.ResetText();
+            txtInstAgrNombre.ResetText();
+            txtInstAgrDni.ResetText();
+            txtInstAgrDireccion.ResetText();
+            txtInstAgrCiudad.ResetText();
+            txtInstAgrEmail.ResetText();
+            txtInstAgrTelefono.ResetText();
             dataGridInstAgr.Rows.Clear();
-
-            txtInstEditFiltro.Text = "";
-            txtInstEditLegajo.Text = "";
-            txtInstEditNombre.Text = "";
-            txtInstEditApellido.Text = "";
-            txtInstEditDni.Text = "";
-            txtInstEditEmail.Text = "";
-            txtInstEditTelefono.Text = "";
-            txtInstEditDireccion.Text = "";
-            txtInstEditCiudad.Text = "";
+            //editar instructor
+            txtInstEditFiltro.ResetText();
+            radioInstEditDni.Checked = true;
+            txtInstEditLegajo.ResetText();
+            txtInstEditNombre.ResetText();
+            txtInstEditApellido.ResetText();
+            txtInstEditDni.ResetText();
+            txtInstEditEmail.ResetText();
+            txtInstEditTelefono.ResetText();
+            txtInstEditDireccion.ResetText();
+            txtInstEditCiudad.ResetText();
             checkInstEditEstado.Checked = false;
             dataGridInstEdit.Rows.Clear();
-
-            txtInstConsFiltro.Text = "";
+            //consultar instructor
+            txtInstConsFiltro.ResetText();
             radioInstConsDni.Checked = true;
             dataGridInstCons.Rows.Clear();
         }
@@ -373,16 +426,28 @@ namespace OEVApp
 
         private void btnItemActCursoEnt_Click(object sender, EventArgs e)
         {
-
-            tabItemACAgregar.Visible = true;
-            tabItemACEditar.Visible = true;
-            tabItemACConsultar.Visible = true;   
+            if (btnItemActCursoEnt.Visible == false)
+            {
+                tabItemACAgregar.Visible = false;
+                tabItemACEditar.Visible = false;
+                tabItemACConsultar.Visible = false;
+            }
+            else if (btnItemActCursoEnt.Visible == true)
+            {
+                tabItemACAgregar.Visible = true;
+                tabItemACEditar.Visible = true;
+                tabItemACConsultar.Visible = true;
+            }
             tabItemAPAgregar.Visible = false;
             tabItemAPEditar.Visible = false;
             tabItemAPConsultar.Visible = false;
             tabItemProvAgregar.Visible = false;
             tabItemProvEditar.Visible = false;
             tabItemProvConsultar.Visible = false;
+            tabItemInstAgregar.Visible = false;
+            tabItemInstEditar.Visible = false;
+            tabItemInstConsultar.Visible = false;
+            gridViewACC.Visible = false;
             superTabControlDir.Visible = true;
             superTabControlDir.SelectedTab = tabItemACAgregar;
             limpiarCampos();
@@ -390,15 +455,28 @@ namespace OEVApp
 
         private void btnItemActPaquete_Click(object sender, EventArgs e)
         {
-            tabItemAPAgregar.Visible = true;
-            tabItemAPEditar.Visible = true;
-            tabItemAPConsultar.Visible = true; 
+            if (btnItemActPaquete.Visible == false)
+            {
+                tabItemAPAgregar.Visible = false;
+                tabItemAPEditar.Visible = false;
+                tabItemAPConsultar.Visible = false;
+            }
+            else if (btnItemActPaquete.Visible == true)
+            {
+                tabItemAPAgregar.Visible = true;
+                tabItemAPEditar.Visible = true;
+                tabItemAPConsultar.Visible = true;
+            }
             tabItemACAgregar.Visible = false;
             tabItemACEditar.Visible = false;
             tabItemACConsultar.Visible = false;
             tabItemProvAgregar.Visible = false;
             tabItemProvEditar.Visible = false;
             tabItemProvConsultar.Visible = false;
+            tabItemInstAgregar.Visible = false;
+            tabItemInstEditar.Visible = false;
+            tabItemInstConsultar.Visible = false;
+            gridViewAPC.Visible = false;
             superTabControlDir.Visible = true;
             superTabControlDir.SelectedTab = tabItemAPAgregar;
             limpiarCampos();
@@ -466,7 +544,7 @@ namespace OEVApp
             comboProvConsFiltro.Visible = false;
             dataGridProvCons.Visible = false;
             radioProvConsCuit.Checked = true;
-            txtProvConsFiltro.Text = "";
+            txtProvConsFiltro.ResetText();
             radioProvConsTipo.Text = I18n.obtenerString("InicioDirector", "tipoAlojamiento");
             tabItemProvConsultar.Visible = true;
             superTabControlDir.SelectedTab = tabItemProvConsultar;
@@ -564,7 +642,7 @@ namespace OEVApp
             tabItemInstConsultar.Visible = false;
             comboProvConsFiltro.Visible = false;
             dataGridProvCons.Visible = false;
-            txtProvConsFiltro.Text = "";
+            txtProvConsFiltro.ResetText();
             radioProvConsCuit.Checked = true;
             radioProvConsTipo.Text = I18n.obtenerString("InicioDirector", "tipoTraslado");
             tabItemProvConsultar.Visible = true;
@@ -886,14 +964,14 @@ namespace OEVApp
 
         private void radioProvConsCuit_Click(object sender, EventArgs e)
         {
-            txtProvConsFiltro.Text = "";
+            txtProvConsFiltro.ResetText();
             txtProvConsFiltro.Visible = true;
             comboProvConsFiltro.Visible = false;
         }
 
         private void radioProvConsRazon_Click(object sender, EventArgs e)
         {
-            txtProvConsFiltro.Text = "";
+            txtProvConsFiltro.ResetText();
             txtProvConsFiltro.Visible = true;
             comboProvConsFiltro.Visible = false;
         }
@@ -1024,14 +1102,14 @@ namespace OEVApp
 
         private void radioInstConsDni_Click(object sender, EventArgs e)
         {
-            txtInstConsFiltro.Text = "";
+            txtInstConsFiltro.ResetText();
             txtInstConsFiltro.Visible = true;
             comboInstConsFiltro.Visible = false;
         }
 
         private void radioInstConsApellido_Click(object sender, EventArgs e)
         {
-            txtInstConsFiltro.Text = "";
+            txtInstConsFiltro.ResetText();
             txtInstConsFiltro.Visible = true;
             comboInstConsFiltro.Visible = false;
         }
@@ -1474,8 +1552,308 @@ namespace OEVApp
             ocultarCampos();
         }
 
+        private void btnACGuardarA_Click(object sender, EventArgs e)
+        {
+            DateTime horaInicio = dTInputACHoraInicioA.Value;
+            DateTime horaFin = dTInputACHoraFinA.Value;
+            if (!checkACLunA.Checked && !checkACMarA.Checked && !checkACMieA.Checked && !checkACJueA.Checked && !checkACVieA.Checked)
+            {
+                MessageBox.Show(I18n.obtenerString("Mensaje", "diasRequeridos"), msjError, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else if (!Validacion.esHorarioValido(horaInicio, horaFin))      
+                MessageBox.Show(I18n.obtenerString("Mensaje", "horarioInvalido"), msjError, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            else
+            {
+                Producto curso = new Producto();
+                curso.estado = true;
+                curso.destino = "";
+                btnACNombreA_Click(sender, e);
+                curso.nombre = txtACNombreA.Text;
+                curso.precio = doubleInACPrecioA.Value;
+                curso.descripcion = richTxtACDescA.Text.Trim();
+                curso.itinerario = "";
+                curso.tipoProducto = EnumProducto.CURSO.ToString();
+                curso.dificultad = comboACDificultadA.SelectedItem.ToString();
+                curso.horario = getHorarios(Constantes.AGREGAR);
+                curso.actividades = getActividadesRadio(Constantes.AGREGAR);
 
+                String mensaje = null;
+                try
+                {
+                    Producto prodRes = productoBLL.obtenerProductoPorNombre(curso.nombre);
+                    if (prodRes == null)
+                    {
+                        DialogResult siNoRes = MessageBox.Show(I18n.obtenerString("Mensaje", "confirmar"), msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                        if (siNoRes.Equals(DialogResult.Yes))
+                        {
+                            curso.idProducto = productoBLL.agregarProducto(curso);
+                            mensaje = String.Format(I18n.obtenerString("Mensaje", "productoNuevo"), I18n.obtenerString("InicioDirector","cursoEntrenamiento"), curso.actividades[0], curso.nombre);
+                            MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            limpiarCampos();
+                        }
+                    }
+                    else
+                    {
+                        mensaje = String.Format(I18n.obtenerString("Mensaje", "productoYaExiste"), I18n.obtenerString("InicioDirector", "cursoEntrenamiento"), curso.nombre);
+                        MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Bitacora bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.EXCEPCION_BLL_INS + " Producto " + curso.tipoProducto, ex.ToString());
+                    BitacoraBLL.registrarBitacora(bitacora);
+                }
+            }
+        }
 
+        private List<String> getActividadesRadio(String accion)
+        {
+            List<String> actividades = new List<String>();
+            if (accion == Constantes.AGREGAR)
+            {
+                if (radioACMontA.Checked)
+                    actividades.Add(Constantes.MONT);
+                else if (radioACRunA.Checked)
+                    actividades.Add(Constantes.RUN);
+                else if (radioACTrekA.Checked)
+                    actividades.Add(Constantes.TREK);
+                else if (radioACBikeA.Checked)
+                    actividades.Add(Constantes.BIKE);
+                else if (radioACAuxA.Checked)
+                    actividades.Add(Constantes.AUX);
+                else if (radioACGpsA.Checked)
+                    actividades.Add(Constantes.GPS);
+            }
+            if (accion == Constantes.CONSULTAR)
+            {
+                if (chkACMontC.Checked)
+                    actividades.Add(Constantes.MONT);
+                if (chkACRunC.Checked)
+                    actividades.Add(Constantes.RUN);
+                if (chkACTrekC.Checked)
+                    actividades.Add(Constantes.TREK);
+                if (chkACBikeC.Checked)
+                    actividades.Add(Constantes.BIKE);
+                if (chkACAuxC.Checked)
+                    actividades.Add(Constantes.AUX);
+                if (chkACGpsC.Checked)
+                    actividades.Add(Constantes.GPS);
+            }
+            return actividades;
+        }
 
+        private Horario getHorarios(String accion)
+        {
+            Horario horario = new Horario();
+            StringBuilder dias = new StringBuilder();
+            if (accion == Constantes.AGREGAR)
+            {
+                horario.horaInicio = dTInputACHoraInicioA.Value;
+                horario.horaFin = dTInputACHoraFinA.Value;
+                if (checkACLunA.Checked)
+                    dias.Append("L");
+                if (checkACMarA.Checked)
+                    dias.Append("M");
+                if (checkACMieA.Checked)
+                    dias.Append("X");
+                if (checkACJueA.Checked)
+                    dias.Append("J");
+                if (checkACVieA.Checked)
+                    dias.Append("V");
+            }
+            if (accion == Constantes.EDITAR)
+            {
+                horario.horaInicio = dTInputACHoraInicioE.Value;
+                horario.horaFin = dTInputACHoraFinE.Value;
+                if (checkACLunE.Checked)
+                    dias.Append("L");
+                if (checkACMarE.Checked)
+                    dias.Append("M");
+                if (checkACMieE.Checked)
+                    dias.Append("X");
+                if (checkACJueE.Checked)
+                    dias.Append("J");
+                if (checkACVieE.Checked)
+                    dias.Append("V");
+            }
+            
+            horario.dia = dias.ToString();
+            return horario;
+        }
+
+        private void btnACNombreA_Click(object sender, EventArgs e)
+        {
+            String dificultad = comboACDificultadA.SelectedItem.ToString().Substring(0, 3);
+            String actividad = null;
+            StringBuilder dias = new StringBuilder();
+            String horario = dTInputACHoraInicioA.Value.ToString("HHmm") + ":" + dTInputACHoraFinA.Value.ToString("HHmm");
+            
+            if (radioACMontA.Checked)
+                actividad = "MONT";
+            else if (radioACRunA.Checked)
+                actividad = "RUNN";
+            else if (radioACTrekA.Checked)
+                actividad = "TREK";
+            else if (radioACBikeA.Checked)
+                actividad = "BIKE";
+            else if (radioACAuxA.Checked)
+                actividad = "RCP";
+            else if (radioACGpsA.Checked)
+                actividad = "GPS";
+
+            if (checkACLunA.Checked)
+                dias.Append("L");
+            if (checkACMarA.Checked)
+                dias.Append("M");
+            if (checkACMieA.Checked)
+                dias.Append("X");
+            if (checkACJueA.Checked)
+                dias.Append("J");
+            if (checkACVieA.Checked)
+                dias.Append("V");
+            //TREK_MED_LXV_0800:1030
+            txtACNombreA.Text = new StringBuilder(actividad)
+                                .Append(Constantes.SEPARADOR)
+                                .Append(dificultad)
+                                .Append(Constantes.SEPARADOR)
+                                .Append((!String.IsNullOrEmpty(dias.ToString()) ? dias.ToString() : " "))
+                                .Append(Constantes.SEPARADOR)
+                                .Append(horario).ToString();
+            
+        }
+
+        private void comboACNombreE_SelectedChange(object sender, EventArgs e)
+        {
+            if (comboACNombreE.SelectedItem != null)
+            {
+                Producto curso = productoBLL.obtenerCursos().Where(r => r.nombre == comboACNombreE.SelectedItem.ToString()).Single();
+                lblACIdE.Text = curso.idProducto.ToString();
+                txtACActividadE.Text = curso.actividades.Aggregate((a, b) => a + ',' + b);
+                txtACDificultadE.Text = curso.dificultad;
+                if (curso.horario.dia.Contains("L"))
+                    checkACLunE.Checked = true;
+                if (curso.horario.dia.Contains("M"))
+                    checkACMarE.Checked = true;
+                if (curso.horario.dia.Contains("X"))
+                    checkACMieE.Checked = true;
+                if (curso.horario.dia.Contains("J"))
+                    checkACJueE.Checked = true;
+                if (curso.horario.dia.Contains("V"))
+                    checkACVieE.Checked = true;
+
+                dTInputACHoraInicioE.Value = curso.horario.horaInicio;
+                dTInputACHoraFinE.Value = curso.horario.horaFin;
+                doubleInACPrecioE.Text = curso.precio.ToString();
+                chkACEstadoE.Checked = curso.estado;
+                richTxtACDescE.Text = curso.descripcion;
+            }
+            else
+            {
+                comboACNombreE.Text = "No hay cursos registrados";
+            }
+        }
+
+        private void tabItemACEditar_Click(object sender, EventArgs e)
+        {
+            comboACNombreE_SelectedChange(sender, e);
+        }
+
+        private void btnACGuardarE_Click(object sender, EventArgs e)
+        {
+            Producto curso = new Producto();
+            curso.idProducto = Int32.Parse(lblACIdE.Text);
+            curso.nombre = comboACNombreE.SelectedItem.ToString();
+            curso.actividades = txtACActividadE.Text.Split(',').ToList();
+            curso.dificultad = txtACDificultadE.Text.Trim();
+            curso.tipoProducto = EnumProducto.CURSO.ToString();
+            curso.horario = getHorarios(Constantes.EDITAR);
+            curso.precio = doubleInACPrecioE.Value;
+            curso.estado = chkACEstadoE.Checked;
+            curso.descripcion = (!String.IsNullOrEmpty(richTxtACDescE.Text.Trim())) ? richTxtACDescE.Text.Trim() : "";
+            curso.destino = "";
+            curso.itinerario = "";
+
+            String mensaje = null;
+            try
+            {
+                if (!curso.estado)
+                {
+                    mensaje = String.Format(I18n.obtenerString("Mensaje", "confirmarBaja"), I18n.obtenerString("Mensaje", "cursoEntrenamiento"));
+                    DialogResult siNoBaja = MessageBox.Show(mensaje, msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    if (siNoBaja.Equals(DialogResult.Yes))
+                    {
+                        productoBLL.actualizarProducto(curso);
+                    }
+                }
+                else
+                {
+                    DialogResult siNoRes = MessageBox.Show(I18n.obtenerString("Mensaje", "confirmar"), msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    if (siNoRes.Equals(DialogResult.Yes))
+                    {
+                        productoBLL.actualizarProducto(curso);
+                    }
+                    mensaje = String.Format(I18n.obtenerString("Mensaje", "elementoActualizado"), I18n.obtenerString("InicioDirector", "cursoEntrenamiento"));
+                    MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                Bitacora bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.EXCEPCION_BLL_UPD + " Producto " + curso.tipoProducto, ex.ToString());
+                BitacoraBLL.registrarBitacora(bitacora);
+            }
+        }
+
+        private void btnACBuscarC_Click(object sender, EventArgs e)
+        {
+            String filtroDificultad = comboACDificultadC.SelectedItem.ToString();
+            Double filtroPrecioDesde = doubleACPrecioDesdeC.Value;
+            Double filtroPrecioHasta = doubleACPrecioHastaC.Value;
+            List<String> filtroActividades = getActividadesRadio(Constantes.CONSULTAR);
+
+            List<Producto> listaProductos = productoBLL.obtenerCursos();
+            List<Producto> cursosFiltrados = new List<Producto>();
+
+            foreach (Producto item in listaProductos)
+            {
+                if (item.dificultad == filtroDificultad)
+                {
+                    if ((filtroPrecioDesde <= item.precio) && (item.precio <= filtroPrecioHasta))
+                    {
+                        foreach (String act in filtroActividades)
+                        {
+                            if (item.actividades[0] == act)
+                            {
+                                    cursosFiltrados.Add(item);
+                            }
+                        }
+                    }
+                }
+            }
+
+            gridViewACC.Rows.Clear();
+            if (cursosFiltrados != null && cursosFiltrados.Count > 0)
+            {
+                gridViewACC.Visible = true;
+                for (int i = 0; i < cursosFiltrados.Count; i++)
+                {
+                    gridViewACC.Rows.Add(1);
+                    gridViewACC.Rows[i].Cells["HNombre"].Value = cursosFiltrados[i].nombre;
+                    gridViewACC.Rows[i].Cells["HActividad"].Value = cursosFiltrados[i].actividades[0];
+                    gridViewACC.Rows[i].Cells["HPrecio"].Value = Constantes.MONEDA + cursosFiltrados[i].precio.ToString();
+                    gridViewACC.Rows[i].Cells["HDias"].Value = cursosFiltrados[i].horario.dia;
+                    gridViewACC.Rows[i].Cells["HHoraInicio"].Value = cursosFiltrados[i].horario.horaInicio.ToString("HH:mm");
+                    gridViewACC.Rows[i].Cells["HHoraFin"].Value = cursosFiltrados[i].horario.horaFin.ToString("HH:mm");
+                    gridViewACC.Rows[i].Cells["HEstado"].Value = cursosFiltrados[i].estado;
+                    gridViewACC.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
+                }
+            }
+            else
+            {
+                gridViewACC.Visible = false;
+                MessageBox.Show(I18n.obtenerString("Mensaje", "ningunRegistro"), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+
+        }
     }
+
 }

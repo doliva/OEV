@@ -38,6 +38,7 @@ namespace Utils
 
         public static String MANDATORY = "(*) ";
         public static String DOS_PUNTOS = ":";
+        public static String SEPARADOR = "_";
 
         public static String DVH = "Digito Verificador Horizontal";
         public static String DVV = "Digito Verificador Vertical";
@@ -54,6 +55,13 @@ namespace Utils
         public static String USUARIO = "USUARIO";
         public static String INTERROGATION = "?";
 
-        public static string MONEDA = "$ ";
+        public static String MONEDA = "$ ";
+
+        public static String MONT = "MONTAÑA";
+        public static String BIKE = "MOUNTAIN BIKE";
+        public static String RUN = "RUNNING";
+        public static String TREK = "TREKKING";
+        public static String AUX = "PRIMEROS AUXILIOS Y RCP";
+        public static String GPS = "ORIENTACION Y GPS";
     }
 }

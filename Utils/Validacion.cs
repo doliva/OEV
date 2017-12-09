@@ -126,5 +126,19 @@ namespace Utils
             return false;
         }
 
+        /// <summary>
+        /// Verifica que la hora de inicio y la hora de fin sean válidas
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <returns>Boolean</returns>
+        public static Boolean esHorarioValido(DateTime horaInicio, DateTime horaFin){
+        if(DateTime.Compare(horaInicio,horaFin) > 0)
+            return false;
+        if (TimeSpan.Compare(Convert.ToDateTime("08:00").TimeOfDay, horaInicio.TimeOfDay) > 0)
+            return false;
+        if (TimeSpan.Compare(horaFin.TimeOfDay, Convert.ToDateTime("21:00").TimeOfDay) > 0)
+            return false;
+        return true;
+        }
     }
 }

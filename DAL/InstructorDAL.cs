@@ -475,7 +475,6 @@ namespace DAL
             SqlConnection conn = new SqlConnection(connectionString);
             StringBuilder queryBuilder = new StringBuilder();
             queryBuilder.Append(" select * from Instructor ");
-            //queryBuilder.Append(" where inst.legajo=iesp.legajo and iesp.codigo=esp.codigo ");
             SqlCommand cmd = new SqlCommand(queryBuilder.ToString(), conn);
             cmd.CommandType = CommandType.Text;
             SqlDataReader reader;

@@ -31,6 +31,7 @@
     <todos>Todos</todos>
   
   <descripcion>Descripción</descripcion>
+    <evento>Evento</evento>
   </EtiquetasComunes>
   
   <LoginForm>
@@ -84,10 +85,15 @@
     <proveedorNuevo>{0} {1} con CUIT {2} registrado exitosamente</proveedorNuevo>
     <proveedorYaExiste>{0} {1} con CUIT {2} ya existe</proveedorYaExiste>
     <proveedorActualizado>{0} {1} con CUIT {2} actualizado exitosamente</proveedorActualizado>
-  
+
+    <productoNuevo>{0} de {1} registrado exitosamente con el nombre {2}</productoNuevo>
+    <productoYaExiste>El {0} con nombre {1} ya existe</productoYaExiste>
     <instructorNuevo>Instructor {0} {1} con legajo {2} registrado exitosamente</instructorNuevo>
     <instructorYaExiste>Instructor {0} {1} con DNI {2} ya existe</instructorYaExiste>
     <especialidadesRequeridas>Debe ingresar especialidades para el instructor</especialidadesRequeridas>
+
+    <diasRequeridos>Debe seleccionar los días del curso</diasRequeridos>
+    <horarioInvalido>El horario debe ser entre las 08:00 y las 21:00 hs</horarioInvalido>
   </Mensaje>
 
   <InicioAdministrador>
@@ -127,7 +133,7 @@
     <bitacora>Bitácora</bitacora>
     
     <fecha>Fecha</fecha>
-    <evento>Evento</evento>
+    
     <detalle>Detalle</detalle>
     <fechaHasta>Hasta</fechaHasta>
     <fechaDesde>Desde</fechaDesde>
@@ -153,6 +159,12 @@
     <calendario>Calendario</calendario>
     <actividad>Actividad</actividad>
     <cursoEntrenamiento>Curso de entrenamiento</cursoEntrenamiento>
+    <paquete>Paquete</paquete>
+    <modalidad>Modalidad</modalidad>
+    <destino>Destino</destino>
+    <itinerario>Itinerario</itinerario>
+    <fechaInicio>Fecha inicio</fechaInicio>
+    <fechaFin>Fecha fin</fechaFin>
     <precio>Precio</precio>
     <dias>Días</dias>
     <lunes>Lunes</lunes>
@@ -180,5 +192,7 @@
     <instructor>Instructor</instructor>
     <especialidad>Especialidad</especialidad>
     <experiencia>Experiencia</experiencia>
+    <ciclismo>Ciclismo</ciclismo>
+    <actividades>Actividades</actividades>
   </InicioDirector>
 </Multiidioma>

@@ -62,6 +62,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>OEVbdDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="ProductoDAL.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>

@@ -85,9 +85,15 @@
     <proveedorYaExiste>{0} {1} with CUIT {2} already exists</proveedorYaExiste>
     <proveedorActualizado>{0} {1} with CUIT {2} successfully updated</proveedorActualizado>
 
+    <productoNuevo>{0} {1} successfully registered with name {2}</productoNuevo>
+    <productoYaExiste>{0} with name {1} already exists</productoYaExiste>
+
     <instructorNuevo>Instructor {0} {1} with id {2} successfully registered</instructorNuevo>
     <instructorYaExiste>Instructor {0} {1} with DNI {2} already exists</instructorYaExiste>
     <especialidadesRequeridas>Skills are mandatory fields</especialidadesRequeridas>
+
+    <diasRequeridos>Days are mandatory fields</diasRequeridos>
+    <horarioInvalido>The schedule must be between 08:00 and 21:00 hs</horarioInvalido>
 </Mensaje>
   
   <InicioAdministrador>
@@ -152,6 +158,12 @@
     <calendario>Calendar</calendario>
     <actividad>Activity</actividad>
     <cursoEntrenamiento>Training course</cursoEntrenamiento>
+    <paqueteEvento>Package - Event</paqueteEvento>
+    <modalidad>Type</modalidad>
+    <destino>Destination</destino>
+    <itinerario>Itinerary</itinerario>
+    <fechaInicio>Start date</fechaInicio>
+    <fechaFin>End date</fechaFin>
     <precio>Price</precio>
     <dias>Days</dias>
     <lunes>Monday</lunes>
@@ -179,5 +191,7 @@
     <instructor>Trainer</instructor>
     <especialidad>Skill</especialidad>
     <experiencia>Experience</experiencia>
+    <ciclismo>Cycling</ciclismo>
+    <actividades>Activities</actividades>
   </InicioDirector>
 </Multiidioma>
