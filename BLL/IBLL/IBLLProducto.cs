@@ -13,5 +13,6 @@ namespace BLL.IBLL
         Int32 agregarProducto(Producto producto);
         void actualizarProducto(Producto producto);
         List<Producto> obtenerCursos();
+        List<Producto> obtenerProductos();
     }
 }

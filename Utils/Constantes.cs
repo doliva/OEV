@@ -63,5 +63,12 @@ namespace Utils
         public static String TREK = "TREKKING";
         public static String AUX = "PRIMEROS AUXILIOS Y RCP";
         public static String GPS = "ORIENTACION Y GPS";
+        public static string CAB = "CABALGATA";
+        public static string CAN = "CANOTAJE";
+        public static string CIC = "CICLISMO";
+        public static string HIELO = "ESCALADA EN HIELO";
+        public static string ROCA = "ESCALADA EN ROCA";
+        public static string KAY = "KAYAK";
+
     }
 }

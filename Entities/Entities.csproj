@@ -45,7 +45,6 @@
     <Compile Include="Alojamiento.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="Especialidad.cs" />
-    <Compile Include="Fecha.cs" />
     <Compile Include="Horario.cs" />
     <Compile Include="Instructor.cs" />
     <Compile Include="Producto.cs" />

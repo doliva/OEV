@@ -28,18 +28,19 @@ namespace OEVApp
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Director));
             this.sideBarPanelDirector = new DevComponents.DotNetBar.SideBar();
             this.sideBarPanelActividad = new DevComponents.DotNetBar.SideBarPanelItem();
             this.btnItemActCursoEnt = new DevComponents.DotNetBar.ButtonItem();
@@ -68,64 +69,22 @@ namespace OEVApp
             this.lblUsuarioLogueado = new DevComponents.DotNetBar.LabelX();
             this.btnLogout = new DevComponents.DotNetBar.ButtonX();
             this.superTabControlDir = new DevComponents.DotNetBar.SuperTabControl();
-            this.superTabControlPanel5 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.gridViewACC = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.groupACEntrenC = new System.Windows.Forms.GroupBox();
-            this.comboACDificultadC = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.lblACDificultadC = new DevComponents.DotNetBar.LabelX();
-            this.btnACBuscarC = new DevComponents.DotNetBar.ButtonX();
-            this.lblACCursoC = new DevComponents.DotNetBar.LabelX();
-            this.tabItemACConsultar = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel3 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.lblACIdE = new DevComponents.DotNetBar.LabelX();
-            this.txtACDificultadE = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.chkACEstadoE = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.lblACEstadoE = new DevComponents.DotNetBar.LabelX();
-            this.txtACActividadE = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.lblACActvidadE = new DevComponents.DotNetBar.LabelX();
-            this.doubleInACPrecioE = new DevComponents.Editors.DoubleInput();
-            this.comboACNombreE = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.btnACGuardarE = new DevComponents.DotNetBar.ButtonX();
-            this.lblACCursoE = new DevComponents.DotNetBar.LabelX();
-            this.lblACNombreE = new DevComponents.DotNetBar.LabelX();
-            this.lblACDescE = new DevComponents.DotNetBar.LabelX();
-            this.richTxtACDescE = new DevComponents.DotNetBar.Controls.RichTextBoxEx();
-            this.groupBoxACDiasE = new System.Windows.Forms.GroupBox();
-            this.checkACVieE = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.checkACJueE = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.checkACMieE = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.checkACMarE = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.checkACLunE = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.dTInputACHoraInicioE = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
-            this.dTInputACHoraFinE = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
-            this.lblACHoraIniE = new DevComponents.DotNetBar.LabelX();
-            this.lblACHoraFinE = new DevComponents.DotNetBar.LabelX();
-            this.lblACDificultadE = new DevComponents.DotNetBar.LabelX();
-            this.lblACPrecioE = new DevComponents.DotNetBar.LabelX();
-            this.tabItemACEditar = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel10 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.radioGroupInstCons = new System.Windows.Forms.GroupBox();
-            this.radioInstConsEspecialidad = new System.Windows.Forms.RadioButton();
-            this.radioInstConsApellido = new System.Windows.Forms.RadioButton();
-            this.radioInstConsDni = new System.Windows.Forms.RadioButton();
-            this.lblInstCons = new DevComponents.DotNetBar.LabelX();
-            this.dataGridInstCons = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.HInstConsLegajo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HInstConsEspecialidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HInstConsDni = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HInstConsApellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HInstConsNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HInstConsExperiencia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HInstConsTarifa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HInstConsDireccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HInstConsCiudad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HInstConsEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HInstConsTelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HInstConsEstado = new DevComponents.DotNetBar.Controls.DataGridViewCheckBoxXColumn();
-            this.comboInstConsFiltro = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.txtInstConsFiltro = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.btnInstConsBuscar = new DevComponents.DotNetBar.ButtonX();
-            this.tabItemInstConsultar = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel2 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.checkedListAPDestinoA = new System.Windows.Forms.CheckedListBox();
+            this.btnAPNombreA = new DevComponents.DotNetBar.ButtonX();
+            this.doubleInAPPrecioA = new DevComponents.Editors.DoubleInput();
+            this.groupAPActividadA = new System.Windows.Forms.GroupBox();
+            this.groupAPModalidadA = new System.Windows.Forms.GroupBox();
+            this.radioAPPaqueteA = new System.Windows.Forms.RadioButton();
+            this.radioAPEventoA = new System.Windows.Forms.RadioButton();
+            this.lblAPPrecioA = new DevComponents.DotNetBar.LabelX();
+            this.btnAPGuardarA = new DevComponents.DotNetBar.ButtonX();
+            this.comboAPDificultadA = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.lblAPDificultadA = new DevComponents.DotNetBar.LabelX();
+            this.richTxtAPItinerarioA = new DevComponents.DotNetBar.Controls.RichTextBoxEx();
+            this.lblAPItinerarioA = new DevComponents.DotNetBar.LabelX();
+            this.txtAPNombreA = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.tabItemAPAgregar = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel1 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.btnACNombreA = new DevComponents.DotNetBar.ButtonX();
             this.doubleInACPrecioA = new DevComponents.Editors.DoubleInput();
@@ -155,6 +114,102 @@ namespace OEVApp
             this.lblACDescA = new DevComponents.DotNetBar.LabelX();
             this.txtACNombreA = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.tabItemACAgregar = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel5 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.doubleACPrecioHastaC = new DevComponents.Editors.DoubleInput();
+            this.lblACPrecioHastaC = new DevComponents.DotNetBar.LabelX();
+            this.doubleACPrecioDesdeC = new DevComponents.Editors.DoubleInput();
+            this.lblACPrecioDesdeC = new DevComponents.DotNetBar.LabelX();
+            this.gridViewACC = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.HNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HActividad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HDias = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HHoraInicio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HHoraFin = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HEstado = new DevComponents.DotNetBar.Controls.DataGridViewCheckBoxXColumn();
+            this.groupACEntrenC = new System.Windows.Forms.GroupBox();
+            this.comboACDificultadC = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.lblACDificultadC = new DevComponents.DotNetBar.LabelX();
+            this.btnACBuscarC = new DevComponents.DotNetBar.ButtonX();
+            this.lblACCursoC = new DevComponents.DotNetBar.LabelX();
+            this.tabItemACConsultar = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel9 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.dataGridProvCons = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.HProvConsCuit = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HProvConsRazon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HProvConsDireccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HProvConsCategoria = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HProvConsTarifa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HProvConsCapacidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HProvConsCiudad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HProvConsEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HProvConsTelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.comboProvConsFiltro = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.radioGroupProvConsBuscar = new System.Windows.Forms.GroupBox();
+            this.radioProvConsTipo = new System.Windows.Forms.RadioButton();
+            this.radioProvConsCiudad = new System.Windows.Forms.RadioButton();
+            this.radioProvConsRazon = new System.Windows.Forms.RadioButton();
+            this.radioProvConsCuit = new System.Windows.Forms.RadioButton();
+            this.lblProvCons = new DevComponents.DotNetBar.LabelX();
+            this.txtProvConsFiltro = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.btnProvConsBuscar = new DevComponents.DotNetBar.ButtonX();
+            this.tabItemProvConsultar = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel3 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.lblACIdE = new DevComponents.DotNetBar.LabelX();
+            this.txtACDificultadE = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.chkACEstadoE = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.lblACEstadoE = new DevComponents.DotNetBar.LabelX();
+            this.txtACActividadE = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.lblACActvidadE = new DevComponents.DotNetBar.LabelX();
+            this.doubleInACPrecioE = new DevComponents.Editors.DoubleInput();
+            this.comboACNombreE = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.btnACGuardarE = new DevComponents.DotNetBar.ButtonX();
+            this.lblACCursoE = new DevComponents.DotNetBar.LabelX();
+            this.lblACNombreE = new DevComponents.DotNetBar.LabelX();
+            this.lblACDescE = new DevComponents.DotNetBar.LabelX();
+            this.richTxtACDescE = new DevComponents.DotNetBar.Controls.RichTextBoxEx();
+            this.groupBoxACDiasE = new System.Windows.Forms.GroupBox();
+            this.checkACVieE = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.checkACJueE = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.checkACMieE = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.checkACMarE = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.checkACLunE = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.dTInputACHoraInicioE = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
+            this.dTInputACHoraFinE = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
+            this.lblACHoraIniE = new DevComponents.DotNetBar.LabelX();
+            this.lblACHoraFinE = new DevComponents.DotNetBar.LabelX();
+            this.lblACDificultadE = new DevComponents.DotNetBar.LabelX();
+            this.lblACPrecioE = new DevComponents.DotNetBar.LabelX();
+            this.tabItemACEditar = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel6 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.gridViewAPC = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.btnAPBuscarC = new DevComponents.DotNetBar.ButtonX();
+            this.comboAPDificultadC = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.lblAPDificultadC = new DevComponents.DotNetBar.LabelX();
+            this.tabItemAPConsultar = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel10 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.radioGroupInstCons = new System.Windows.Forms.GroupBox();
+            this.radioInstConsEspecialidad = new System.Windows.Forms.RadioButton();
+            this.radioInstConsApellido = new System.Windows.Forms.RadioButton();
+            this.radioInstConsDni = new System.Windows.Forms.RadioButton();
+            this.lblInstCons = new DevComponents.DotNetBar.LabelX();
+            this.dataGridInstCons = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.HInstConsLegajo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HInstConsEspecialidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HInstConsDni = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HInstConsApellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HInstConsNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HInstConsExperiencia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HInstConsTarifa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HInstConsDireccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HInstConsCiudad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HInstConsEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HInstConsTelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HInstConsEstado = new DevComponents.DotNetBar.Controls.DataGridViewCheckBoxXColumn();
+            this.comboInstConsFiltro = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.txtInstConsFiltro = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.btnInstConsBuscar = new DevComponents.DotNetBar.ButtonX();
+            this.tabItemInstConsultar = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel8 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.lblEdiId = new DevComponents.DotNetBar.LabelX();
             this.radioGroupProvEdiBuscar = new System.Windows.Forms.GroupBox();
@@ -188,71 +243,16 @@ namespace OEVApp
             this.superTabControlPanel4 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.doubleInAPPrecioE = new DevComponents.Editors.DoubleInput();
             this.comboAPNombreE = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.groupAPEventoE = new System.Windows.Forms.GroupBox();
-            this.radioAPBikeE = new System.Windows.Forms.RadioButton();
-            this.radioAPRunE = new System.Windows.Forms.RadioButton();
-            this.radioAPCiclismoE = new System.Windows.Forms.RadioButton();
-            this.btnAPBuscarE = new DevComponents.DotNetBar.ButtonX();
             this.lblAPNombreE = new DevComponents.DotNetBar.LabelX();
-            this.ckdListBoxAPE = new System.Windows.Forms.CheckedListBox();
-            this.dateAPInicioE = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
             this.groupAPModalidadE = new System.Windows.Forms.GroupBox();
             this.radioAPPaqueteE = new System.Windows.Forms.RadioButton();
             this.radioAPEventoE = new System.Windows.Forms.RadioButton();
-            this.lblAPFechaInicioE = new DevComponents.DotNetBar.LabelX();
-            this.lblAPFechaFinE = new DevComponents.DotNetBar.LabelX();
             this.lblAPPrecioE = new DevComponents.DotNetBar.LabelX();
-            this.dateAPFinE = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
-            this.txtAPDestinoE = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.btnAPGuardarE = new DevComponents.DotNetBar.ButtonX();
             this.lblAPItinerarioE = new DevComponents.DotNetBar.LabelX();
-            this.lblAPDestinoE = new DevComponents.DotNetBar.LabelX();
             this.richTxtAPItinerarioE = new DevComponents.DotNetBar.Controls.RichTextBoxEx();
-            this.comboAPDificultadE = new DevComponents.DotNetBar.Controls.ComboBoxEx();
             this.lblAPDificultadE = new DevComponents.DotNetBar.LabelX();
             this.tabItemAPEditar = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel2 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.doubleInAPPrecioA = new DevComponents.Editors.DoubleInput();
-            this.groupAPEventoA = new System.Windows.Forms.GroupBox();
-            this.radioAPBikeA = new System.Windows.Forms.RadioButton();
-            this.radioAPRunA = new System.Windows.Forms.RadioButton();
-            this.radioAPCiclismoA = new System.Windows.Forms.RadioButton();
-            this.ckdListBoxAPA = new System.Windows.Forms.CheckedListBox();
-            this.groupAPModalidadA = new System.Windows.Forms.GroupBox();
-            this.radioAPPaqueteA = new System.Windows.Forms.RadioButton();
-            this.radioAPEventoA = new System.Windows.Forms.RadioButton();
-            this.lblAPPrecioA = new DevComponents.DotNetBar.LabelX();
-            this.btnAPGuardarA = new DevComponents.DotNetBar.ButtonX();
-            this.txtAPDestinoA = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.lblAPDestinoA = new DevComponents.DotNetBar.LabelX();
-            this.comboAPDificultadA = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.lblAPDificultadA = new DevComponents.DotNetBar.LabelX();
-            this.richTxtAPItinerarioA = new DevComponents.DotNetBar.Controls.RichTextBoxEx();
-            this.lblAPItinerarioA = new DevComponents.DotNetBar.LabelX();
-            this.txtAPNombreA = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.lblAPNombreA = new DevComponents.DotNetBar.LabelX();
-            this.dateAPFinA = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
-            this.lblAPFechaFinA = new DevComponents.DotNetBar.LabelX();
-            this.lblAPFechaInicioA = new DevComponents.DotNetBar.LabelX();
-            this.dateAPInicioA = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
-            this.tabItemAPAgregar = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel6 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.gridViewAPC = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.APHNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.APHItinerario = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.APHPrecio = new DevComponents.DotNetBar.Controls.DataGridViewDoubleInputColumn();
-            this.APHActividades = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.APHFechaInicio = new DevComponents.DotNetBar.Controls.DataGridViewDateTimeInputColumn();
-            this.APHFechaFin = new DevComponents.DotNetBar.Controls.DataGridViewDateTimeInputColumn();
-            this.groupAPModalidadC = new System.Windows.Forms.GroupBox();
-            this.radioAPPaqueteC = new System.Windows.Forms.RadioButton();
-            this.radioAPEventoC = new System.Windows.Forms.RadioButton();
-            this.comboAPDestinoC = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.btnAPBuscarC = new DevComponents.DotNetBar.ButtonX();
-            this.lblAPDestinoC = new DevComponents.DotNetBar.LabelX();
-            this.comboAPDificultadC = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.lblAPDificultadC = new DevComponents.DotNetBar.LabelX();
-            this.tabItemAPConsultar = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel12 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.txtInstEditLegajo = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.lblInstEditLegajo = new DevComponents.DotNetBar.LabelX();
@@ -303,27 +303,6 @@ namespace OEVApp
             this.lblInstAgrNombre = new DevComponents.DotNetBar.LabelX();
             this.btnInstAgrGuardar = new DevComponents.DotNetBar.ButtonX();
             this.tabItemInstAgregar = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel9 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.dataGridProvCons = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.HProvConsCuit = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HProvConsRazon = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HProvConsDireccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HProvConsCategoria = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HProvConsTarifa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HProvConsCapacidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HProvConsCiudad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HProvConsEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HProvConsTelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.comboProvConsFiltro = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.radioGroupProvConsBuscar = new System.Windows.Forms.GroupBox();
-            this.radioProvConsTipo = new System.Windows.Forms.RadioButton();
-            this.radioProvConsCiudad = new System.Windows.Forms.RadioButton();
-            this.radioProvConsRazon = new System.Windows.Forms.RadioButton();
-            this.radioProvConsCuit = new System.Windows.Forms.RadioButton();
-            this.lblProvCons = new DevComponents.DotNetBar.LabelX();
-            this.txtProvConsFiltro = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.btnProvConsBuscar = new DevComponents.DotNetBar.ButtonX();
-            this.tabItemProvConsultar = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel7 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.integerInProvAgrCap = new DevComponents.Editors.IntegerInput();
             this.lblProvAgrCapacidad = new DevComponents.DotNetBar.LabelX();
@@ -349,82 +328,118 @@ namespace OEVApp
             this.lblProvAgr = new DevComponents.DotNetBar.LabelX();
             this.tabItemProvAgregar = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabItem1 = new DevComponents.DotNetBar.SuperTabItem();
-            this.doubleACPrecioDesdeC = new DevComponents.Editors.DoubleInput();
-            this.lblACPrecioDesdeC = new DevComponents.DotNetBar.LabelX();
-            this.doubleACPrecioHastaC = new DevComponents.Editors.DoubleInput();
-            this.lblACPrecioHastaC = new DevComponents.DotNetBar.LabelX();
-            this.chkACMontC = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.chkACRunC = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.chkACTrekC = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.chkACBikeC = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.chkACAuxC = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.checkedListAPActividadA = new System.Windows.Forms.CheckedListBox();
+            this.groupAPDestinoA = new System.Windows.Forms.GroupBox();
+            this.lblAPIdE = new DevComponents.DotNetBar.LabelX();
+            this.txtAPDificultadE = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.chkAPEstadoE = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.labelX1 = new DevComponents.DotNetBar.LabelX();
+            this.txtAPActividadE = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.lblAPActividadE = new DevComponents.DotNetBar.LabelX();
+            this.lblAPDestinoE = new DevComponents.DotNetBar.LabelX();
+            this.txtAPDestinoE = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.chkACGpsC = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.HNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HActividad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HDias = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HHoraInicio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HHoraFin = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HEstado = new DevComponents.DotNetBar.Controls.DataGridViewCheckBoxXColumn();
+            this.chkACAuxC = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.chkACBikeC = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.chkACTrekC = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.chkACRunC = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.chkACMontC = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.doubleAPPrecioHastaC = new DevComponents.Editors.DoubleInput();
+            this.labelX2 = new DevComponents.DotNetBar.LabelX();
+            this.doubleAPPrecioDesdeC = new DevComponents.Editors.DoubleInput();
+            this.labelX3 = new DevComponents.DotNetBar.LabelX();
+            this.groupAPActividadC = new System.Windows.Forms.GroupBox();
+            this.checkedListAPActividadE = new System.Windows.Forms.CheckedListBox();
+            this.groupAPDestinoC = new System.Windows.Forms.GroupBox();
+            this.checkedListAPDestinoC = new System.Windows.Forms.CheckedListBox();
+            this.tabItemACalAgregar = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel13 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.wizard1 = new DevComponents.DotNetBar.Wizard();
+            this.wizardPage1 = new DevComponents.DotNetBar.WizardPage();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.wizardPage2 = new DevComponents.DotNetBar.WizardPage();
+            this.dateAPInicioE = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
+            this.lblAPFechaInicioE = new DevComponents.DotNetBar.LabelX();
+            this.lblAPFechaFinE = new DevComponents.DotNetBar.LabelX();
+            this.dateAPFinE = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
+            this.lblAPDuracionA = new DevComponents.DotNetBar.LabelX();
+            this.intInputAPDuracionA = new DevComponents.Editors.IntegerInput();
+            this.lblAPDuracionE = new DevComponents.DotNetBar.LabelX();
+            this.txtAPDuracionE = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.APHTipoProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.APHNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.APHDestino = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.APHPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.APHDuracion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.APHActividades = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.APHEstado = new DevComponents.DotNetBar.Controls.DataGridViewCheckBoxXColumn();
+            this.lblAPEventoPaqueteC = new DevComponents.DotNetBar.LabelX();
             ((System.ComponentModel.ISupportInitialize)(this.superTabControlDir)).BeginInit();
             this.superTabControlDir.SuspendLayout();
-            this.superTabControlPanel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridViewACC)).BeginInit();
-            this.groupACEntrenC.SuspendLayout();
-            this.superTabControlPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.doubleInACPrecioE)).BeginInit();
-            this.groupBoxACDiasE.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraInicioE)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraFinE)).BeginInit();
-            this.superTabControlPanel10.SuspendLayout();
-            this.radioGroupInstCons.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridInstCons)).BeginInit();
+            this.superTabControlPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.doubleInAPPrecioA)).BeginInit();
+            this.groupAPActividadA.SuspendLayout();
+            this.groupAPModalidadA.SuspendLayout();
             this.superTabControlPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.doubleInACPrecioA)).BeginInit();
             this.groupACEntrenA.SuspendLayout();
             this.groupBoxACDiasA.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraFinA)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraInicioA)).BeginInit();
+            this.superTabControlPanel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.doubleACPrecioHastaC)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.doubleACPrecioDesdeC)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridViewACC)).BeginInit();
+            this.groupACEntrenC.SuspendLayout();
+            this.superTabControlPanel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridProvCons)).BeginInit();
+            this.radioGroupProvConsBuscar.SuspendLayout();
+            this.superTabControlPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.doubleInACPrecioE)).BeginInit();
+            this.groupBoxACDiasE.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraInicioE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraFinE)).BeginInit();
+            this.superTabControlPanel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridViewAPC)).BeginInit();
+            this.superTabControlPanel10.SuspendLayout();
+            this.radioGroupInstCons.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridInstCons)).BeginInit();
             this.superTabControlPanel8.SuspendLayout();
             this.radioGroupProvEdiBuscar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.integerInProvEdiCap)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.doubleInProvEdiTarifa)).BeginInit();
             this.superTabControlPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.doubleInAPPrecioE)).BeginInit();
-            this.groupAPEventoE.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dateAPInicioE)).BeginInit();
             this.groupAPModalidadE.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dateAPFinE)).BeginInit();
-            this.superTabControlPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.doubleInAPPrecioA)).BeginInit();
-            this.groupAPEventoA.SuspendLayout();
-            this.groupAPModalidadA.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dateAPFinA)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateAPInicioA)).BeginInit();
-            this.superTabControlPanel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridViewAPC)).BeginInit();
-            this.groupAPModalidadC.SuspendLayout();
             this.superTabControlPanel12.SuspendLayout();
             this.radioGroupInstEditBuscar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridInstEdit)).BeginInit();
             this.superTabControlPanel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridInstAgr)).BeginInit();
-            this.superTabControlPanel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridProvCons)).BeginInit();
-            this.radioGroupProvConsBuscar.SuspendLayout();
             this.superTabControlPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.integerInProvAgrCap)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.doubleInProvAgrTarifa)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.doubleACPrecioDesdeC)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.doubleACPrecioHastaC)).BeginInit();
+            this.groupAPDestinoA.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.doubleAPPrecioHastaC)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.doubleAPPrecioDesdeC)).BeginInit();
+            this.groupAPActividadC.SuspendLayout();
+            this.groupAPDestinoC.SuspendLayout();
+            this.superTabControlPanel13.SuspendLayout();
+            this.wizard1.SuspendLayout();
+            this.wizardPage1.SuspendLayout();
+            this.wizardPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dateAPInicioE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateAPFinE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.intInputAPDuracionA)).BeginInit();
             this.SuspendLayout();
             // 
             // sideBarPanelDirector
             // 
             this.sideBarPanelDirector.AccessibleRole = System.Windows.Forms.AccessibleRole.ToolBar;
-            this.sideBarPanelDirector.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.sideBarPanelDirector.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.sideBarPanelDirector.Appearance = DevComponents.DotNetBar.eSideBarAppearance.Flat;
             this.sideBarPanelDirector.BackColor = System.Drawing.Color.White;
             this.sideBarPanelDirector.ExpandedPanel = this.sideBarPanelActividad;
@@ -863,28 +878,30 @@ namespace OEVApp
             this.superTabControlDir.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.superTabControlDir.ControlBox.MenuBox,
             this.superTabControlDir.ControlBox.CloseBox});
-            this.superTabControlDir.Controls.Add(this.superTabControlPanel5);
-            this.superTabControlDir.Controls.Add(this.superTabControlPanel9);
-            this.superTabControlDir.Controls.Add(this.superTabControlPanel3);
-            this.superTabControlDir.Controls.Add(this.superTabControlPanel6);
-            this.superTabControlDir.Controls.Add(this.superTabControlPanel1);
             this.superTabControlDir.Controls.Add(this.superTabControlPanel10);
-            this.superTabControlDir.Controls.Add(this.superTabControlPanel8);
-            this.superTabControlDir.Controls.Add(this.superTabControlPanel4);
-            this.superTabControlDir.Controls.Add(this.superTabControlPanel2);
             this.superTabControlDir.Controls.Add(this.superTabControlPanel12);
             this.superTabControlDir.Controls.Add(this.superTabControlPanel11);
+            this.superTabControlDir.Controls.Add(this.superTabControlPanel9);
+            this.superTabControlDir.Controls.Add(this.superTabControlPanel8);
             this.superTabControlDir.Controls.Add(this.superTabControlPanel7);
+            this.superTabControlDir.Controls.Add(this.superTabControlPanel6);
+            this.superTabControlDir.Controls.Add(this.superTabControlPanel3);
+            this.superTabControlDir.Controls.Add(this.superTabControlPanel4);
+            this.superTabControlDir.Controls.Add(this.superTabControlPanel5);
+            this.superTabControlDir.Controls.Add(this.superTabControlPanel2);
+            this.superTabControlDir.Controls.Add(this.superTabControlPanel1);
+            this.superTabControlDir.Controls.Add(this.superTabControlPanel13);
             this.superTabControlDir.ForeColor = System.Drawing.Color.Black;
             this.superTabControlDir.Location = new System.Drawing.Point(181, 35);
             this.superTabControlDir.Name = "superTabControlDir";
             this.superTabControlDir.ReorderTabsEnabled = true;
             this.superTabControlDir.SelectedTabFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
             this.superTabControlDir.SelectedTabIndex = 0;
-            this.superTabControlDir.Size = new System.Drawing.Size(1091, 468);
+            this.superTabControlDir.Size = new System.Drawing.Size(787, 468);
             this.superTabControlDir.TabFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.superTabControlDir.TabIndex = 6;
             this.superTabControlDir.Tabs.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.tabItemACalAgregar,
             this.tabItemACAgregar,
             this.tabItemAPAgregar,
             this.tabItemACEditar,
@@ -899,6 +916,689 @@ namespace OEVApp
             this.tabItemInstConsultar});
             this.superTabControlDir.Text = "superTabControl1";
             this.superTabControlDir.Visible = false;
+            // 
+            // superTabControlPanel2
+            // 
+            this.superTabControlPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.superTabControlPanel2.Controls.Add(this.intInputAPDuracionA);
+            this.superTabControlPanel2.Controls.Add(this.lblAPDuracionA);
+            this.superTabControlPanel2.Controls.Add(this.groupAPDestinoA);
+            this.superTabControlPanel2.Controls.Add(this.btnAPNombreA);
+            this.superTabControlPanel2.Controls.Add(this.doubleInAPPrecioA);
+            this.superTabControlPanel2.Controls.Add(this.groupAPActividadA);
+            this.superTabControlPanel2.Controls.Add(this.groupAPModalidadA);
+            this.superTabControlPanel2.Controls.Add(this.lblAPPrecioA);
+            this.superTabControlPanel2.Controls.Add(this.btnAPGuardarA);
+            this.superTabControlPanel2.Controls.Add(this.comboAPDificultadA);
+            this.superTabControlPanel2.Controls.Add(this.lblAPDificultadA);
+            this.superTabControlPanel2.Controls.Add(this.richTxtAPItinerarioA);
+            this.superTabControlPanel2.Controls.Add(this.lblAPItinerarioA);
+            this.superTabControlPanel2.Controls.Add(this.txtAPNombreA);
+            this.superTabControlPanel2.Location = new System.Drawing.Point(0, 38);
+            this.superTabControlPanel2.Name = "superTabControlPanel2";
+            this.superTabControlPanel2.Size = new System.Drawing.Size(787, 430);
+            this.superTabControlPanel2.TabIndex = 0;
+            this.superTabControlPanel2.TabItem = this.tabItemAPAgregar;
+            // 
+            // checkedListAPDestinoA
+            // 
+            this.checkedListAPDestinoA.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkedListAPDestinoA.FormattingEnabled = true;
+            this.checkedListAPDestinoA.Location = new System.Drawing.Point(11, 21);
+            this.checkedListAPDestinoA.Name = "checkedListAPDestinoA";
+            this.checkedListAPDestinoA.Size = new System.Drawing.Size(248, 123);
+            this.checkedListAPDestinoA.TabIndex = 72;
+            // 
+            // btnAPNombreA
+            // 
+            this.btnAPNombreA.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAPNombreA.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnAPNombreA.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAPNombreA.Location = new System.Drawing.Point(38, 334);
+            this.btnAPNombreA.Name = "btnAPNombreA";
+            this.btnAPNombreA.Size = new System.Drawing.Size(249, 36);
+            this.btnAPNombreA.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.btnAPNombreA.TabIndex = 71;
+            this.btnAPNombreA.Text = "Generar Nombre";
+            this.btnAPNombreA.Click += new System.EventHandler(this.btnAPNombreA_Click);
+            // 
+            // doubleInAPPrecioA
+            // 
+            // 
+            // 
+            // 
+            this.doubleInAPPrecioA.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.doubleInAPPrecioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.doubleInAPPrecioA.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.doubleInAPPrecioA.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.doubleInAPPrecioA.Increment = 100D;
+            this.doubleInAPPrecioA.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
+            this.doubleInAPPrecioA.Location = new System.Drawing.Point(121, 118);
+            this.doubleInAPPrecioA.MaxValue = 1000000D;
+            this.doubleInAPPrecioA.MinValue = 0D;
+            this.doubleInAPPrecioA.Name = "doubleInAPPrecioA";
+            this.doubleInAPPrecioA.ShowUpDown = true;
+            this.doubleInAPPrecioA.Size = new System.Drawing.Size(185, 22);
+            this.doubleInAPPrecioA.TabIndex = 70;
+            this.doubleInAPPrecioA.WatermarkText = "2.500";
+            // 
+            // groupAPActividadA
+            // 
+            this.groupAPActividadA.Controls.Add(this.checkedListAPActividadA);
+            this.groupAPActividadA.Location = new System.Drawing.Point(321, 157);
+            this.groupAPActividadA.Name = "groupAPActividadA";
+            this.groupAPActividadA.Size = new System.Drawing.Size(228, 165);
+            this.groupAPActividadA.TabIndex = 69;
+            this.groupAPActividadA.TabStop = false;
+            this.groupAPActividadA.Text = "(*) Actividad:";
+            // 
+            // groupAPModalidadA
+            // 
+            this.groupAPModalidadA.Controls.Add(this.radioAPPaqueteA);
+            this.groupAPModalidadA.Controls.Add(this.radioAPEventoA);
+            this.groupAPModalidadA.Location = new System.Drawing.Point(28, 15);
+            this.groupAPModalidadA.Name = "groupAPModalidadA";
+            this.groupAPModalidadA.Size = new System.Drawing.Size(278, 48);
+            this.groupAPModalidadA.TabIndex = 67;
+            this.groupAPModalidadA.TabStop = false;
+            this.groupAPModalidadA.Text = "Modalidad:";
+            // 
+            // radioAPPaqueteA
+            // 
+            this.radioAPPaqueteA.AutoSize = true;
+            this.radioAPPaqueteA.Location = new System.Drawing.Point(192, 17);
+            this.radioAPPaqueteA.Name = "radioAPPaqueteA";
+            this.radioAPPaqueteA.Size = new System.Drawing.Size(67, 17);
+            this.radioAPPaqueteA.TabIndex = 1;
+            this.radioAPPaqueteA.TabStop = true;
+            this.radioAPPaqueteA.Text = "Paquete";
+            this.radioAPPaqueteA.UseVisualStyleBackColor = true;
+            // 
+            // radioAPEventoA
+            // 
+            this.radioAPEventoA.AutoSize = true;
+            this.radioAPEventoA.Checked = true;
+            this.radioAPEventoA.Location = new System.Drawing.Point(93, 17);
+            this.radioAPEventoA.Name = "radioAPEventoA";
+            this.radioAPEventoA.Size = new System.Drawing.Size(60, 17);
+            this.radioAPEventoA.TabIndex = 0;
+            this.radioAPEventoA.TabStop = true;
+            this.radioAPEventoA.Text = "Evento";
+            this.radioAPEventoA.UseVisualStyleBackColor = true;
+            // 
+            // lblAPPrecioA
+            // 
+            // 
+            // 
+            // 
+            this.lblAPPrecioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPPrecioA.Location = new System.Drawing.Point(27, 118);
+            this.lblAPPrecioA.Name = "lblAPPrecioA";
+            this.lblAPPrecioA.Size = new System.Drawing.Size(87, 23);
+            this.lblAPPrecioA.TabIndex = 65;
+            this.lblAPPrecioA.Text = "Precio $:";
+            // 
+            // btnAPGuardarA
+            // 
+            this.btnAPGuardarA.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAPGuardarA.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnAPGuardarA.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAPGuardarA.Image = global::OEVApp.Properties.Resources.Save32x32;
+            this.btnAPGuardarA.Location = new System.Drawing.Point(657, 21);
+            this.btnAPGuardarA.Name = "btnAPGuardarA";
+            this.btnAPGuardarA.Size = new System.Drawing.Size(110, 45);
+            this.btnAPGuardarA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnAPGuardarA.TabIndex = 58;
+            this.btnAPGuardarA.Text = "Guardar";
+            this.btnAPGuardarA.Click += new System.EventHandler(this.btnAPGuardarA_Click);
+            // 
+            // comboAPDificultadA
+            // 
+            this.comboAPDificultadA.DisplayMember = "Text";
+            this.comboAPDificultadA.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.comboAPDificultadA.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboAPDificultadA.EnablePopupResize = false;
+            this.comboAPDificultadA.ItemHeight = 16;
+            this.comboAPDificultadA.Location = new System.Drawing.Point(121, 80);
+            this.comboAPDificultadA.Name = "comboAPDificultadA";
+            this.comboAPDificultadA.Size = new System.Drawing.Size(185, 22);
+            this.comboAPDificultadA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboAPDificultadA.TabIndex = 61;
+            // 
+            // lblAPDificultadA
+            // 
+            // 
+            // 
+            // 
+            this.lblAPDificultadA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPDificultadA.Location = new System.Drawing.Point(28, 79);
+            this.lblAPDificultadA.Name = "lblAPDificultadA";
+            this.lblAPDificultadA.Size = new System.Drawing.Size(87, 23);
+            this.lblAPDificultadA.TabIndex = 60;
+            this.lblAPDificultadA.Text = "Dificultad:";
+            // 
+            // richTxtAPItinerarioA
+            // 
+            // 
+            // 
+            // 
+            this.richTxtAPItinerarioA.BackgroundStyle.Class = "RichTextBoxBorder";
+            this.richTxtAPItinerarioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.richTxtAPItinerarioA.Location = new System.Drawing.Point(564, 109);
+            this.richTxtAPItinerarioA.MaxLength = 2000;
+            this.richTxtAPItinerarioA.Name = "richTxtAPItinerarioA";
+            this.richTxtAPItinerarioA.Size = new System.Drawing.Size(200, 309);
+            this.richTxtAPItinerarioA.TabIndex = 59;
+            // 
+            // lblAPItinerarioA
+            // 
+            // 
+            // 
+            // 
+            this.lblAPItinerarioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPItinerarioA.Location = new System.Drawing.Point(564, 80);
+            this.lblAPItinerarioA.Name = "lblAPItinerarioA";
+            this.lblAPItinerarioA.Size = new System.Drawing.Size(87, 23);
+            this.lblAPItinerarioA.TabIndex = 58;
+            this.lblAPItinerarioA.Text = "Itinerario:";
+            // 
+            // txtAPNombreA
+            // 
+            this.txtAPNombreA.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtAPNombreA.Border.Class = "TextBoxBorder";
+            this.txtAPNombreA.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtAPNombreA.Enabled = false;
+            this.txtAPNombreA.ForeColor = System.Drawing.Color.Black;
+            this.txtAPNombreA.Location = new System.Drawing.Point(38, 382);
+            this.txtAPNombreA.Name = "txtAPNombreA";
+            this.txtAPNombreA.Size = new System.Drawing.Size(249, 22);
+            this.txtAPNombreA.TabIndex = 57;
+            this.txtAPNombreA.WatermarkText = "TREK_MED_MDZ_02022017:15022017";
+            // 
+            // tabItemAPAgregar
+            // 
+            this.tabItemAPAgregar.AttachedControl = this.superTabControlPanel2;
+            this.tabItemAPAgregar.GlobalItem = false;
+            this.tabItemAPAgregar.Image = global::OEVApp.Properties.Resources.upload_ok;
+            this.tabItemAPAgregar.Name = "tabItemAPAgregar";
+            this.tabItemAPAgregar.Text = "<b>Agregar</b>";
+            // 
+            // superTabControlPanel1
+            // 
+            this.superTabControlPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.superTabControlPanel1.AutoSize = true;
+            this.superTabControlPanel1.Controls.Add(this.btnACNombreA);
+            this.superTabControlPanel1.Controls.Add(this.doubleInACPrecioA);
+            this.superTabControlPanel1.Controls.Add(this.groupACEntrenA);
+            this.superTabControlPanel1.Controls.Add(this.btnACGuardarA);
+            this.superTabControlPanel1.Controls.Add(this.lblACPrecioA);
+            this.superTabControlPanel1.Controls.Add(this.lblACCursoA);
+            this.superTabControlPanel1.Controls.Add(this.comboACDificultadA);
+            this.superTabControlPanel1.Controls.Add(this.lblACDificultadA);
+            this.superTabControlPanel1.Controls.Add(this.groupBoxACDiasA);
+            this.superTabControlPanel1.Controls.Add(this.richTxtACDescA);
+            this.superTabControlPanel1.Controls.Add(this.lblACDescA);
+            this.superTabControlPanel1.Controls.Add(this.txtACNombreA);
+            this.superTabControlPanel1.Location = new System.Drawing.Point(0, 38);
+            this.superTabControlPanel1.Margin = new System.Windows.Forms.Padding(1);
+            this.superTabControlPanel1.Name = "superTabControlPanel1";
+            this.superTabControlPanel1.Size = new System.Drawing.Size(1172, 430);
+            this.superTabControlPanel1.TabIndex = 1;
+            this.superTabControlPanel1.TabItem = this.tabItemACAgregar;
+            // 
+            // btnACNombreA
+            // 
+            this.btnACNombreA.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnACNombreA.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnACNombreA.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnACNombreA.Location = new System.Drawing.Point(346, 312);
+            this.btnACNombreA.Name = "btnACNombreA";
+            this.btnACNombreA.Size = new System.Drawing.Size(87, 65);
+            this.btnACNombreA.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.btnACNombreA.TabIndex = 69;
+            this.btnACNombreA.Text = "Nombre";
+            this.btnACNombreA.Click += new System.EventHandler(this.btnACNombreA_Click);
+            // 
+            // doubleInACPrecioA
+            // 
+            // 
+            // 
+            // 
+            this.doubleInACPrecioA.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.doubleInACPrecioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.doubleInACPrecioA.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.doubleInACPrecioA.DisplayFormat = "000";
+            this.doubleInACPrecioA.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.doubleInACPrecioA.Increment = 100D;
+            this.doubleInACPrecioA.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
+            this.doubleInACPrecioA.Location = new System.Drawing.Point(121, 101);
+            this.doubleInACPrecioA.MaxValue = 100000D;
+            this.doubleInACPrecioA.MinValue = 0D;
+            this.doubleInACPrecioA.Name = "doubleInACPrecioA";
+            this.doubleInACPrecioA.ShowUpDown = true;
+            this.doubleInACPrecioA.Size = new System.Drawing.Size(214, 22);
+            this.doubleInACPrecioA.TabIndex = 68;
+            this.doubleInACPrecioA.WatermarkText = "$ 2.500";
+            // 
+            // groupACEntrenA
+            // 
+            this.groupACEntrenA.Controls.Add(this.radioACGpsA);
+            this.groupACEntrenA.Controls.Add(this.radioACAuxA);
+            this.groupACEntrenA.Controls.Add(this.radioACBikeA);
+            this.groupACEntrenA.Controls.Add(this.radioACTrekA);
+            this.groupACEntrenA.Controls.Add(this.radioACRunA);
+            this.groupACEntrenA.Controls.Add(this.radioACMontA);
+            this.groupACEntrenA.Location = new System.Drawing.Point(20, 133);
+            this.groupACEntrenA.Name = "groupACEntrenA";
+            this.groupACEntrenA.Size = new System.Drawing.Size(320, 116);
+            this.groupACEntrenA.TabIndex = 62;
+            this.groupACEntrenA.TabStop = false;
+            this.groupACEntrenA.Text = "Entrenamiento de:";
+            // 
+            // radioACGpsA
+            // 
+            this.radioACGpsA.AutoSize = true;
+            this.radioACGpsA.Location = new System.Drawing.Point(140, 81);
+            this.radioACGpsA.Name = "radioACGpsA";
+            this.radioACGpsA.Size = new System.Drawing.Size(117, 17);
+            this.radioACGpsA.TabIndex = 5;
+            this.radioACGpsA.TabStop = true;
+            this.radioACGpsA.Text = "Orientación y GPS";
+            this.radioACGpsA.UseVisualStyleBackColor = true;
+            // 
+            // radioACAuxA
+            // 
+            this.radioACAuxA.AutoSize = true;
+            this.radioACAuxA.Location = new System.Drawing.Point(140, 55);
+            this.radioACAuxA.Name = "radioACAuxA";
+            this.radioACAuxA.Size = new System.Drawing.Size(143, 17);
+            this.radioACAuxA.TabIndex = 4;
+            this.radioACAuxA.TabStop = true;
+            this.radioACAuxA.Text = "Primeros Auxilios y RCP";
+            this.radioACAuxA.UseVisualStyleBackColor = true;
+            // 
+            // radioACBikeA
+            // 
+            this.radioACBikeA.AutoSize = true;
+            this.radioACBikeA.Location = new System.Drawing.Point(140, 27);
+            this.radioACBikeA.Name = "radioACBikeA";
+            this.radioACBikeA.Size = new System.Drawing.Size(101, 17);
+            this.radioACBikeA.TabIndex = 3;
+            this.radioACBikeA.TabStop = true;
+            this.radioACBikeA.Text = "Mountain Bike";
+            this.radioACBikeA.UseVisualStyleBackColor = true;
+            // 
+            // radioACTrekA
+            // 
+            this.radioACTrekA.AutoSize = true;
+            this.radioACTrekA.Location = new System.Drawing.Point(22, 81);
+            this.radioACTrekA.Name = "radioACTrekA";
+            this.radioACTrekA.Size = new System.Drawing.Size(69, 17);
+            this.radioACTrekA.TabIndex = 2;
+            this.radioACTrekA.TabStop = true;
+            this.radioACTrekA.Text = "Trekking";
+            this.radioACTrekA.UseVisualStyleBackColor = true;
+            // 
+            // radioACRunA
+            // 
+            this.radioACRunA.AutoSize = true;
+            this.radioACRunA.Location = new System.Drawing.Point(22, 55);
+            this.radioACRunA.Name = "radioACRunA";
+            this.radioACRunA.Size = new System.Drawing.Size(70, 17);
+            this.radioACRunA.TabIndex = 1;
+            this.radioACRunA.TabStop = true;
+            this.radioACRunA.Text = "Running";
+            this.radioACRunA.UseVisualStyleBackColor = true;
+            // 
+            // radioACMontA
+            // 
+            this.radioACMontA.AutoSize = true;
+            this.radioACMontA.Checked = true;
+            this.radioACMontA.Location = new System.Drawing.Point(22, 27);
+            this.radioACMontA.Name = "radioACMontA";
+            this.radioACMontA.Size = new System.Drawing.Size(72, 17);
+            this.radioACMontA.TabIndex = 0;
+            this.radioACMontA.TabStop = true;
+            this.radioACMontA.Text = "Montaña";
+            this.radioACMontA.UseVisualStyleBackColor = true;
+            // 
+            // btnACGuardarA
+            // 
+            this.btnACGuardarA.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnACGuardarA.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnACGuardarA.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnACGuardarA.Image = global::OEVApp.Properties.Resources.Save32x32;
+            this.btnACGuardarA.Location = new System.Drawing.Point(546, 16);
+            this.btnACGuardarA.Name = "btnACGuardarA";
+            this.btnACGuardarA.Size = new System.Drawing.Size(110, 45);
+            this.btnACGuardarA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnACGuardarA.TabIndex = 57;
+            this.btnACGuardarA.Text = "Guardar";
+            this.btnACGuardarA.Click += new System.EventHandler(this.btnACGuardarA_Click);
+            // 
+            // lblACPrecioA
+            // 
+            // 
+            // 
+            // 
+            this.lblACPrecioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACPrecioA.Location = new System.Drawing.Point(25, 100);
+            this.lblACPrecioA.Name = "lblACPrecioA";
+            this.lblACPrecioA.Size = new System.Drawing.Size(87, 23);
+            this.lblACPrecioA.TabIndex = 55;
+            this.lblACPrecioA.Text = "Precio:";
+            // 
+            // lblACCursoA
+            // 
+            // 
+            // 
+            // 
+            this.lblACCursoA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACCursoA.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblACCursoA.ForeColor = System.Drawing.Color.Green;
+            this.lblACCursoA.Location = new System.Drawing.Point(25, 16);
+            this.lblACCursoA.Name = "lblACCursoA";
+            this.lblACCursoA.Size = new System.Drawing.Size(225, 23);
+            this.lblACCursoA.TabIndex = 54;
+            this.lblACCursoA.Text = "Curso de Entrenamiento";
+            // 
+            // comboACDificultadA
+            // 
+            this.comboACDificultadA.DisplayMember = "Text";
+            this.comboACDificultadA.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.comboACDificultadA.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboACDificultadA.EnablePopupResize = false;
+            this.comboACDificultadA.ItemHeight = 16;
+            this.comboACDificultadA.Location = new System.Drawing.Point(121, 72);
+            this.comboACDificultadA.Name = "comboACDificultadA";
+            this.comboACDificultadA.Size = new System.Drawing.Size(214, 22);
+            this.comboACDificultadA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboACDificultadA.TabIndex = 53;
+            // 
+            // lblACDificultadA
+            // 
+            // 
+            // 
+            // 
+            this.lblACDificultadA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACDificultadA.Location = new System.Drawing.Point(25, 71);
+            this.lblACDificultadA.Name = "lblACDificultadA";
+            this.lblACDificultadA.Size = new System.Drawing.Size(87, 23);
+            this.lblACDificultadA.TabIndex = 52;
+            this.lblACDificultadA.Text = "Dificultad:";
+            // 
+            // groupBoxACDiasA
+            // 
+            this.groupBoxACDiasA.Controls.Add(this.checkACVieA);
+            this.groupBoxACDiasA.Controls.Add(this.checkACJueA);
+            this.groupBoxACDiasA.Controls.Add(this.dTInputACHoraFinA);
+            this.groupBoxACDiasA.Controls.Add(this.checkACMieA);
+            this.groupBoxACDiasA.Controls.Add(this.lblACHoraFinA);
+            this.groupBoxACDiasA.Controls.Add(this.checkACMarA);
+            this.groupBoxACDiasA.Controls.Add(this.lblACHoraIniA);
+            this.groupBoxACDiasA.Controls.Add(this.checkACLunA);
+            this.groupBoxACDiasA.Controls.Add(this.dTInputACHoraInicioA);
+            this.groupBoxACDiasA.Location = new System.Drawing.Point(20, 267);
+            this.groupBoxACDiasA.Name = "groupBoxACDiasA";
+            this.groupBoxACDiasA.Size = new System.Drawing.Size(320, 111);
+            this.groupBoxACDiasA.TabIndex = 47;
+            this.groupBoxACDiasA.TabStop = false;
+            this.groupBoxACDiasA.Text = "Días";
+            // 
+            // checkACVieA
+            // 
+            // 
+            // 
+            // 
+            this.checkACVieA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.checkACVieA.Location = new System.Drawing.Point(252, 15);
+            this.checkACVieA.Name = "checkACVieA";
+            this.checkACVieA.Size = new System.Drawing.Size(61, 23);
+            this.checkACVieA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.checkACVieA.TabIndex = 4;
+            this.checkACVieA.Text = "Viernes";
+            // 
+            // checkACJueA
+            // 
+            // 
+            // 
+            // 
+            this.checkACJueA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.checkACJueA.Location = new System.Drawing.Point(191, 15);
+            this.checkACJueA.Name = "checkACJueA";
+            this.checkACJueA.Size = new System.Drawing.Size(61, 23);
+            this.checkACJueA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.checkACJueA.TabIndex = 3;
+            this.checkACJueA.Text = "Jueves";
+            // 
+            // dTInputACHoraFinA
+            // 
+            // 
+            // 
+            // 
+            this.dTInputACHoraFinA.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.dTInputACHoraFinA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dTInputACHoraFinA.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
+            this.dTInputACHoraFinA.ButtonDropDown.Visible = true;
+            this.dTInputACHoraFinA.DateTimeSelectorVisibility = DevComponents.Editors.DateTimeAdv.eDateTimeSelectorVisibility.TimeSelector;
+            this.dTInputACHoraFinA.Format = DevComponents.Editors.eDateTimePickerFormat.Custom;
+            this.dTInputACHoraFinA.IsInputReadOnly = true;
+            this.dTInputACHoraFinA.IsPopupCalendarOpen = false;
+            this.dTInputACHoraFinA.Location = new System.Drawing.Point(100, 80);
+            // 
+            // 
+            // 
+            this.dTInputACHoraFinA.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dTInputACHoraFinA.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dTInputACHoraFinA.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            this.dTInputACHoraFinA.MonthCalendar.ClearButtonVisible = true;
+            // 
+            // 
+            // 
+            this.dTInputACHoraFinA.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
+            this.dTInputACHoraFinA.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
+            this.dTInputACHoraFinA.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.dTInputACHoraFinA.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.dTInputACHoraFinA.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
+            this.dTInputACHoraFinA.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
+            this.dTInputACHoraFinA.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dTInputACHoraFinA.MonthCalendar.DisplayMonth = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
+            this.dTInputACHoraFinA.MonthCalendar.MarkedDates = new System.DateTime[0];
+            this.dTInputACHoraFinA.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dTInputACHoraFinA.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.dTInputACHoraFinA.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
+            this.dTInputACHoraFinA.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.dTInputACHoraFinA.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dTInputACHoraFinA.MonthCalendar.TodayButtonVisible = true;
+            this.dTInputACHoraFinA.MonthCalendar.Visible = false;
+            this.dTInputACHoraFinA.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
+            this.dTInputACHoraFinA.Name = "dTInputACHoraFinA";
+            this.dTInputACHoraFinA.Size = new System.Drawing.Size(199, 22);
+            this.dTInputACHoraFinA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.dTInputACHoraFinA.TabIndex = 61;
+            this.dTInputACHoraFinA.TimeSelectorTimeFormat = DevComponents.Editors.DateTimeAdv.eTimeSelectorFormat.Time24H;
+            this.dTInputACHoraFinA.Value = new System.DateTime(2017, 12, 8, 21, 0, 0, 0);
+            // 
+            // checkACMieA
+            // 
+            // 
+            // 
+            // 
+            this.checkACMieA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.checkACMieA.Location = new System.Drawing.Point(120, 16);
+            this.checkACMieA.Name = "checkACMieA";
+            this.checkACMieA.Size = new System.Drawing.Size(68, 23);
+            this.checkACMieA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.checkACMieA.TabIndex = 2;
+            this.checkACMieA.Text = "Miércoles";
+            // 
+            // lblACHoraFinA
+            // 
+            // 
+            // 
+            // 
+            this.lblACHoraFinA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACHoraFinA.Location = new System.Drawing.Point(7, 79);
+            this.lblACHoraFinA.Name = "lblACHoraFinA";
+            this.lblACHoraFinA.Size = new System.Drawing.Size(87, 23);
+            this.lblACHoraFinA.TabIndex = 60;
+            this.lblACHoraFinA.Text = "Hora de Fin:";
+            // 
+            // checkACMarA
+            // 
+            // 
+            // 
+            // 
+            this.checkACMarA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.checkACMarA.Location = new System.Drawing.Point(60, 17);
+            this.checkACMarA.Name = "checkACMarA";
+            this.checkACMarA.Size = new System.Drawing.Size(54, 23);
+            this.checkACMarA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.checkACMarA.TabIndex = 1;
+            this.checkACMarA.Text = "Martes";
+            // 
+            // lblACHoraIniA
+            // 
+            // 
+            // 
+            // 
+            this.lblACHoraIniA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACHoraIniA.Location = new System.Drawing.Point(7, 45);
+            this.lblACHoraIniA.Name = "lblACHoraIniA";
+            this.lblACHoraIniA.Size = new System.Drawing.Size(87, 23);
+            this.lblACHoraIniA.TabIndex = 59;
+            this.lblACHoraIniA.Text = "Hora de Inicio:";
+            // 
+            // checkACLunA
+            // 
+            // 
+            // 
+            // 
+            this.checkACLunA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.checkACLunA.Location = new System.Drawing.Point(7, 16);
+            this.checkACLunA.Name = "checkACLunA";
+            this.checkACLunA.Size = new System.Drawing.Size(54, 23);
+            this.checkACLunA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.checkACLunA.TabIndex = 0;
+            this.checkACLunA.Text = "Lunes";
+            // 
+            // dTInputACHoraInicioA
+            // 
+            // 
+            // 
+            // 
+            this.dTInputACHoraInicioA.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.dTInputACHoraInicioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dTInputACHoraInicioA.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
+            this.dTInputACHoraInicioA.ButtonDropDown.Visible = true;
+            this.dTInputACHoraInicioA.DateTimeSelectorVisibility = DevComponents.Editors.DateTimeAdv.eDateTimeSelectorVisibility.TimeSelector;
+            this.dTInputACHoraInicioA.Format = DevComponents.Editors.eDateTimePickerFormat.Custom;
+            this.dTInputACHoraInicioA.IsInputReadOnly = true;
+            this.dTInputACHoraInicioA.IsPopupCalendarOpen = false;
+            this.dTInputACHoraInicioA.Location = new System.Drawing.Point(100, 46);
+            // 
+            // 
+            // 
+            this.dTInputACHoraInicioA.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dTInputACHoraInicioA.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dTInputACHoraInicioA.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            this.dTInputACHoraInicioA.MonthCalendar.ClearButtonVisible = true;
+            // 
+            // 
+            // 
+            this.dTInputACHoraInicioA.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
+            this.dTInputACHoraInicioA.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
+            this.dTInputACHoraInicioA.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.dTInputACHoraInicioA.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.dTInputACHoraInicioA.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
+            this.dTInputACHoraInicioA.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
+            this.dTInputACHoraInicioA.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dTInputACHoraInicioA.MonthCalendar.DisplayMonth = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
+            this.dTInputACHoraInicioA.MonthCalendar.MarkedDates = new System.DateTime[0];
+            this.dTInputACHoraInicioA.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dTInputACHoraInicioA.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.dTInputACHoraInicioA.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
+            this.dTInputACHoraInicioA.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.dTInputACHoraInicioA.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dTInputACHoraInicioA.MonthCalendar.TodayButtonVisible = true;
+            this.dTInputACHoraInicioA.MonthCalendar.Visible = false;
+            this.dTInputACHoraInicioA.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
+            this.dTInputACHoraInicioA.Name = "dTInputACHoraInicioA";
+            this.dTInputACHoraInicioA.Size = new System.Drawing.Size(199, 22);
+            this.dTInputACHoraInicioA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.dTInputACHoraInicioA.TabIndex = 58;
+            this.dTInputACHoraInicioA.TimeSelectorTimeFormat = DevComponents.Editors.DateTimeAdv.eTimeSelectorFormat.Time24H;
+            this.dTInputACHoraInicioA.Value = new System.DateTime(2017, 12, 8, 8, 0, 0, 0);
+            // 
+            // richTxtACDescA
+            // 
+            // 
+            // 
+            // 
+            this.richTxtACDescA.BackgroundStyle.Class = "RichTextBoxBorder";
+            this.richTxtACDescA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.richTxtACDescA.Location = new System.Drawing.Point(442, 72);
+            this.richTxtACDescA.MaxLength = 2000;
+            this.richTxtACDescA.Name = "richTxtACDescA";
+            this.richTxtACDescA.Size = new System.Drawing.Size(295, 235);
+            this.richTxtACDescA.TabIndex = 46;
+            // 
+            // lblACDescA
+            // 
+            // 
+            // 
+            // 
+            this.lblACDescA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACDescA.Location = new System.Drawing.Point(346, 72);
+            this.lblACDescA.Name = "lblACDescA";
+            this.lblACDescA.Size = new System.Drawing.Size(87, 23);
+            this.lblACDescA.TabIndex = 45;
+            this.lblACDescA.Text = "Descripción:";
+            // 
+            // txtACNombreA
+            // 
+            this.txtACNombreA.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtACNombreA.Border.Class = "TextBoxBorder";
+            this.txtACNombreA.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtACNombreA.Enabled = false;
+            this.txtACNombreA.ForeColor = System.Drawing.Color.Black;
+            this.txtACNombreA.Location = new System.Drawing.Point(442, 337);
+            this.txtACNombreA.Name = "txtACNombreA";
+            this.txtACNombreA.Size = new System.Drawing.Size(295, 22);
+            this.txtACNombreA.TabIndex = 44;
+            this.txtACNombreA.WatermarkText = "TREK_MED_LXV_0800:1030";
+            // 
+            // tabItemACAgregar
+            // 
+            this.tabItemACAgregar.AttachedControl = this.superTabControlPanel1;
+            this.tabItemACAgregar.GlobalItem = false;
+            this.tabItemACAgregar.Image = global::OEVApp.Properties.Resources.upload_ok;
+            this.tabItemACAgregar.Name = "tabItemACAgregar";
+            this.tabItemACAgregar.Text = "<b>Agregar</b>";
             // 
             // superTabControlPanel5
             // 
@@ -915,15 +1615,88 @@ namespace OEVApp
             this.superTabControlPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.superTabControlPanel5.Location = new System.Drawing.Point(0, 38);
             this.superTabControlPanel5.Name = "superTabControlPanel5";
-            this.superTabControlPanel5.Size = new System.Drawing.Size(1091, 430);
+            this.superTabControlPanel5.Size = new System.Drawing.Size(787, 430);
             this.superTabControlPanel5.TabIndex = 0;
             this.superTabControlPanel5.TabItem = this.tabItemACConsultar;
+            // 
+            // doubleACPrecioHastaC
+            // 
+            // 
+            // 
+            // 
+            this.doubleACPrecioHastaC.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.doubleACPrecioHastaC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.doubleACPrecioHastaC.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.doubleACPrecioHastaC.DisplayFormat = "000";
+            this.doubleACPrecioHastaC.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.doubleACPrecioHastaC.Increment = 100D;
+            this.doubleACPrecioHastaC.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
+            this.doubleACPrecioHastaC.Location = new System.Drawing.Point(129, 146);
+            this.doubleACPrecioHastaC.MaxValue = 1000000D;
+            this.doubleACPrecioHastaC.MinValue = 100D;
+            this.doubleACPrecioHastaC.Name = "doubleACPrecioHastaC";
+            this.doubleACPrecioHastaC.ShowUpDown = true;
+            this.doubleACPrecioHastaC.Size = new System.Drawing.Size(198, 22);
+            this.doubleACPrecioHastaC.TabIndex = 93;
+            this.doubleACPrecioHastaC.Value = 100D;
+            this.doubleACPrecioHastaC.WatermarkText = "2.500";
+            // 
+            // lblACPrecioHastaC
+            // 
+            // 
+            // 
+            // 
+            this.lblACPrecioHastaC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACPrecioHastaC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblACPrecioHastaC.Location = new System.Drawing.Point(21, 146);
+            this.lblACPrecioHastaC.Name = "lblACPrecioHastaC";
+            this.lblACPrecioHastaC.Size = new System.Drawing.Size(102, 23);
+            this.lblACPrecioHastaC.TabIndex = 92;
+            this.lblACPrecioHastaC.Text = "Precio hasta $:";
+            // 
+            // doubleACPrecioDesdeC
+            // 
+            // 
+            // 
+            // 
+            this.doubleACPrecioDesdeC.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.doubleACPrecioDesdeC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.doubleACPrecioDesdeC.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.doubleACPrecioDesdeC.DisplayFormat = "000";
+            this.doubleACPrecioDesdeC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doubleACPrecioDesdeC.Increment = 100D;
+            this.doubleACPrecioDesdeC.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
+            this.doubleACPrecioDesdeC.Location = new System.Drawing.Point(129, 110);
+            this.doubleACPrecioDesdeC.MaxValue = 1000000D;
+            this.doubleACPrecioDesdeC.MinValue = 100D;
+            this.doubleACPrecioDesdeC.Name = "doubleACPrecioDesdeC";
+            this.doubleACPrecioDesdeC.ShowUpDown = true;
+            this.doubleACPrecioDesdeC.Size = new System.Drawing.Size(198, 25);
+            this.doubleACPrecioDesdeC.TabIndex = 87;
+            this.doubleACPrecioDesdeC.Value = 100D;
+            this.doubleACPrecioDesdeC.WatermarkText = "1.000";
+            // 
+            // lblACPrecioDesdeC
+            // 
+            // 
+            // 
+            // 
+            this.lblACPrecioDesdeC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACPrecioDesdeC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblACPrecioDesdeC.Location = new System.Drawing.Point(21, 109);
+            this.lblACPrecioDesdeC.Name = "lblACPrecioDesdeC";
+            this.lblACPrecioDesdeC.Size = new System.Drawing.Size(102, 23);
+            this.lblACPrecioDesdeC.TabIndex = 86;
+            this.lblACPrecioDesdeC.Text = "Precio desde $:";
             // 
             // gridViewACC
             // 
             this.gridViewACC.AllowUserToAddRows = false;
             this.gridViewACC.AllowUserToDeleteRows = false;
             this.gridViewACC.AllowUserToOrderColumns = true;
+            this.gridViewACC.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.gridViewACC.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridViewACC.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.HNombre,
@@ -933,20 +1706,87 @@ namespace OEVApp
             this.HHoraInicio,
             this.HHoraFin,
             this.HEstado});
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle19.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridViewACC.DefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridViewACC.DefaultCellStyle = dataGridViewCellStyle12;
             this.gridViewACC.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
             this.gridViewACC.Location = new System.Drawing.Point(22, 183);
             this.gridViewACC.Name = "gridViewACC";
             this.gridViewACC.ReadOnly = true;
             this.gridViewACC.Size = new System.Drawing.Size(684, 224);
             this.gridViewACC.TabIndex = 90;
+            // 
+            // HNombre
+            // 
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HNombre.DefaultCellStyle = dataGridViewCellStyle6;
+            this.HNombre.HeaderText = "Nombre";
+            this.HNombre.MaxInputLength = 50;
+            this.HNombre.Name = "HNombre";
+            this.HNombre.ReadOnly = true;
+            // 
+            // HActividad
+            // 
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HActividad.DefaultCellStyle = dataGridViewCellStyle7;
+            this.HActividad.HeaderText = "Actividad";
+            this.HActividad.MaxInputLength = 200;
+            this.HActividad.Name = "HActividad";
+            this.HActividad.ReadOnly = true;
+            // 
+            // HPrecio
+            // 
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HPrecio.DefaultCellStyle = dataGridViewCellStyle8;
+            this.HPrecio.HeaderText = "Precio";
+            this.HPrecio.Name = "HPrecio";
+            this.HPrecio.ReadOnly = true;
+            this.HPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HDias
+            // 
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.HDias.DefaultCellStyle = dataGridViewCellStyle9;
+            this.HDias.HeaderText = "Días";
+            this.HDias.MaxInputLength = 100;
+            this.HDias.Name = "HDias";
+            this.HDias.ReadOnly = true;
+            this.HDias.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HHoraInicio
+            // 
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.HHoraInicio.DefaultCellStyle = dataGridViewCellStyle10;
+            this.HHoraInicio.HeaderText = "Hora Inicio";
+            this.HHoraInicio.Name = "HHoraInicio";
+            this.HHoraInicio.ReadOnly = true;
+            this.HHoraInicio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HHoraFin
+            // 
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.HHoraFin.DefaultCellStyle = dataGridViewCellStyle11;
+            this.HHoraFin.HeaderText = "Hora Fin";
+            this.HHoraFin.Name = "HHoraFin";
+            this.HHoraFin.ReadOnly = true;
+            this.HHoraFin.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HEstado
+            // 
+            this.HEstado.Checked = true;
+            this.HEstado.CheckState = System.Windows.Forms.CheckState.Indeterminate;
+            this.HEstado.CheckValue = "N";
+            this.HEstado.Enabled = false;
+            this.HEstado.HeaderText = "Estado";
+            this.HEstado.Name = "HEstado";
+            this.HEstado.ReadOnly = true;
+            this.HEstado.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HEstado.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
             // groupACEntrenC
             // 
@@ -1027,8 +1867,249 @@ namespace OEVApp
             this.tabItemACConsultar.Name = "tabItemACConsultar";
             this.tabItemACConsultar.Text = "<b>Consultar</b>";
             // 
+            // superTabControlPanel9
+            // 
+            this.superTabControlPanel9.Controls.Add(this.dataGridProvCons);
+            this.superTabControlPanel9.Controls.Add(this.comboProvConsFiltro);
+            this.superTabControlPanel9.Controls.Add(this.radioGroupProvConsBuscar);
+            this.superTabControlPanel9.Controls.Add(this.lblProvCons);
+            this.superTabControlPanel9.Controls.Add(this.txtProvConsFiltro);
+            this.superTabControlPanel9.Controls.Add(this.btnProvConsBuscar);
+            this.superTabControlPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel9.Location = new System.Drawing.Point(0, 38);
+            this.superTabControlPanel9.Name = "superTabControlPanel9";
+            this.superTabControlPanel9.Size = new System.Drawing.Size(787, 430);
+            this.superTabControlPanel9.TabIndex = 0;
+            this.superTabControlPanel9.TabItem = this.tabItemProvConsultar;
+            // 
+            // dataGridProvCons
+            // 
+            this.dataGridProvCons.AllowUserToAddRows = false;
+            this.dataGridProvCons.AllowUserToDeleteRows = false;
+            this.dataGridProvCons.AllowUserToOrderColumns = true;
+            this.dataGridProvCons.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridProvCons.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.HProvConsCuit,
+            this.HProvConsRazon,
+            this.HProvConsDireccion,
+            this.HProvConsCategoria,
+            this.HProvConsTarifa,
+            this.HProvConsCapacidad,
+            this.HProvConsCiudad,
+            this.HProvConsEmail,
+            this.HProvConsTelefono});
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridProvCons.DefaultCellStyle = dataGridViewCellStyle4;
+            this.dataGridProvCons.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.dataGridProvCons.Location = new System.Drawing.Point(22, 193);
+            this.dataGridProvCons.Name = "dataGridProvCons";
+            this.dataGridProvCons.ReadOnly = true;
+            this.dataGridProvCons.Size = new System.Drawing.Size(718, 197);
+            this.dataGridProvCons.TabIndex = 101;
+            // 
+            // HProvConsCuit
+            // 
+            this.HProvConsCuit.HeaderText = "CUIT";
+            this.HProvConsCuit.MaxInputLength = 50;
+            this.HProvConsCuit.Name = "HProvConsCuit";
+            this.HProvConsCuit.ReadOnly = true;
+            // 
+            // HProvConsRazon
+            // 
+            this.HProvConsRazon.HeaderText = "Razón Social";
+            this.HProvConsRazon.MaxInputLength = 200;
+            this.HProvConsRazon.Name = "HProvConsRazon";
+            this.HProvConsRazon.ReadOnly = true;
+            // 
+            // HProvConsDireccion
+            // 
+            this.HProvConsDireccion.HeaderText = "Dirección";
+            this.HProvConsDireccion.MaxInputLength = 100;
+            this.HProvConsDireccion.Name = "HProvConsDireccion";
+            this.HProvConsDireccion.ReadOnly = true;
+            this.HProvConsDireccion.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HProvConsCategoria
+            // 
+            this.HProvConsCategoria.HeaderText = "Categoría";
+            this.HProvConsCategoria.Name = "HProvConsCategoria";
+            this.HProvConsCategoria.ReadOnly = true;
+            this.HProvConsCategoria.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HProvConsTarifa
+            // 
+            this.HProvConsTarifa.HeaderText = "Tarifa";
+            this.HProvConsTarifa.Name = "HProvConsTarifa";
+            this.HProvConsTarifa.ReadOnly = true;
+            this.HProvConsTarifa.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HProvConsCapacidad
+            // 
+            this.HProvConsCapacidad.HeaderText = "Capacidad";
+            this.HProvConsCapacidad.Name = "HProvConsCapacidad";
+            this.HProvConsCapacidad.ReadOnly = true;
+            this.HProvConsCapacidad.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HProvConsCiudad
+            // 
+            this.HProvConsCiudad.HeaderText = "Ciudad";
+            this.HProvConsCiudad.Name = "HProvConsCiudad";
+            this.HProvConsCiudad.ReadOnly = true;
+            // 
+            // HProvConsEmail
+            // 
+            this.HProvConsEmail.HeaderText = "Email";
+            this.HProvConsEmail.Name = "HProvConsEmail";
+            this.HProvConsEmail.ReadOnly = true;
+            // 
+            // HProvConsTelefono
+            // 
+            this.HProvConsTelefono.HeaderText = "Teléfono";
+            this.HProvConsTelefono.Name = "HProvConsTelefono";
+            this.HProvConsTelefono.ReadOnly = true;
+            // 
+            // comboProvConsFiltro
+            // 
+            this.comboProvConsFiltro.DisplayMember = "Text";
+            this.comboProvConsFiltro.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.comboProvConsFiltro.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboProvConsFiltro.EnablePopupResize = false;
+            this.comboProvConsFiltro.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboProvConsFiltro.ItemHeight = 19;
+            this.comboProvConsFiltro.Location = new System.Drawing.Point(194, 138);
+            this.comboProvConsFiltro.Name = "comboProvConsFiltro";
+            this.comboProvConsFiltro.Size = new System.Drawing.Size(245, 25);
+            this.comboProvConsFiltro.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboProvConsFiltro.TabIndex = 100;
+            // 
+            // radioGroupProvConsBuscar
+            // 
+            this.radioGroupProvConsBuscar.Controls.Add(this.radioProvConsTipo);
+            this.radioGroupProvConsBuscar.Controls.Add(this.radioProvConsCiudad);
+            this.radioGroupProvConsBuscar.Controls.Add(this.radioProvConsRazon);
+            this.radioGroupProvConsBuscar.Controls.Add(this.radioProvConsCuit);
+            this.radioGroupProvConsBuscar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioGroupProvConsBuscar.Location = new System.Drawing.Point(22, 59);
+            this.radioGroupProvConsBuscar.Name = "radioGroupProvConsBuscar";
+            this.radioGroupProvConsBuscar.Size = new System.Drawing.Size(417, 58);
+            this.radioGroupProvConsBuscar.TabIndex = 98;
+            this.radioGroupProvConsBuscar.TabStop = false;
+            this.radioGroupProvConsBuscar.Text = "Buscar";
+            // 
+            // radioProvConsTipo
+            // 
+            this.radioProvConsTipo.AutoSize = true;
+            this.radioProvConsTipo.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioProvConsTipo.Location = new System.Drawing.Point(312, 23);
+            this.radioProvConsTipo.Name = "radioProvConsTipo";
+            this.radioProvConsTipo.Size = new System.Drawing.Size(57, 24);
+            this.radioProvConsTipo.TabIndex = 3;
+            this.radioProvConsTipo.TabStop = true;
+            this.radioProvConsTipo.Text = "Tipo";
+            this.radioProvConsTipo.UseVisualStyleBackColor = true;
+            this.radioProvConsTipo.Click += new System.EventHandler(this.radioProvConsTipo_Click);
+            // 
+            // radioProvConsCiudad
+            // 
+            this.radioProvConsCiudad.AutoSize = true;
+            this.radioProvConsCiudad.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioProvConsCiudad.Location = new System.Drawing.Point(220, 23);
+            this.radioProvConsCiudad.Name = "radioProvConsCiudad";
+            this.radioProvConsCiudad.Size = new System.Drawing.Size(74, 24);
+            this.radioProvConsCiudad.TabIndex = 2;
+            this.radioProvConsCiudad.TabStop = true;
+            this.radioProvConsCiudad.Text = "Ciudad";
+            this.radioProvConsCiudad.UseVisualStyleBackColor = true;
+            this.radioProvConsCiudad.Click += new System.EventHandler(this.radioProvConsCiudad_Click);
+            // 
+            // radioProvConsRazon
+            // 
+            this.radioProvConsRazon.AutoSize = true;
+            this.radioProvConsRazon.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioProvConsRazon.Location = new System.Drawing.Point(85, 23);
+            this.radioProvConsRazon.Name = "radioProvConsRazon";
+            this.radioProvConsRazon.Size = new System.Drawing.Size(112, 24);
+            this.radioProvConsRazon.TabIndex = 1;
+            this.radioProvConsRazon.TabStop = true;
+            this.radioProvConsRazon.Text = "Razón Social";
+            this.radioProvConsRazon.UseVisualStyleBackColor = true;
+            this.radioProvConsRazon.CheckedChanged += new System.EventHandler(this.radioProvConsRazon_Click);
+            // 
+            // radioProvConsCuit
+            // 
+            this.radioProvConsCuit.AutoSize = true;
+            this.radioProvConsCuit.Checked = true;
+            this.radioProvConsCuit.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioProvConsCuit.Location = new System.Drawing.Point(20, 23);
+            this.radioProvConsCuit.Name = "radioProvConsCuit";
+            this.radioProvConsCuit.Size = new System.Drawing.Size(58, 24);
+            this.radioProvConsCuit.TabIndex = 0;
+            this.radioProvConsCuit.TabStop = true;
+            this.radioProvConsCuit.Text = "CUIT";
+            this.radioProvConsCuit.UseVisualStyleBackColor = true;
+            this.radioProvConsCuit.CheckedChanged += new System.EventHandler(this.radioProvConsCuit_Click);
+            // 
+            // lblProvCons
+            // 
+            // 
+            // 
+            // 
+            this.lblProvCons.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblProvCons.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProvCons.Location = new System.Drawing.Point(22, 19);
+            this.lblProvCons.Name = "lblProvCons";
+            this.lblProvCons.Size = new System.Drawing.Size(191, 23);
+            this.lblProvCons.TabIndex = 96;
+            this.lblProvCons.Text = "Alojamiento";
+            // 
+            // txtProvConsFiltro
+            // 
+            this.txtProvConsFiltro.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtProvConsFiltro.Border.Class = "TextBoxBorder";
+            this.txtProvConsFiltro.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtProvConsFiltro.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtProvConsFiltro.ForeColor = System.Drawing.Color.Black;
+            this.txtProvConsFiltro.Location = new System.Drawing.Point(22, 138);
+            this.txtProvConsFiltro.Name = "txtProvConsFiltro";
+            this.txtProvConsFiltro.Size = new System.Drawing.Size(149, 25);
+            this.txtProvConsFiltro.TabIndex = 99;
+            // 
+            // btnProvConsBuscar
+            // 
+            this.btnProvConsBuscar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnProvConsBuscar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnProvConsBuscar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProvConsBuscar.Image = global::OEVApp.Properties.Resources.search;
+            this.btnProvConsBuscar.Location = new System.Drawing.Point(631, 19);
+            this.btnProvConsBuscar.Name = "btnProvConsBuscar";
+            this.btnProvConsBuscar.Size = new System.Drawing.Size(110, 45);
+            this.btnProvConsBuscar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnProvConsBuscar.TabIndex = 97;
+            this.btnProvConsBuscar.Text = "Buscar";
+            this.btnProvConsBuscar.Click += new System.EventHandler(this.btnProvConsBuscar_Click);
+            // 
+            // tabItemProvConsultar
+            // 
+            this.tabItemProvConsultar.AttachedControl = this.superTabControlPanel9;
+            this.tabItemProvConsultar.GlobalItem = false;
+            this.tabItemProvConsultar.Image = global::OEVApp.Properties.Resources.lupa;
+            this.tabItemProvConsultar.Name = "tabItemProvConsultar";
+            this.tabItemProvConsultar.Text = "<b>Consultar</b>";
+            // 
             // superTabControlPanel3
             // 
+            this.superTabControlPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.superTabControlPanel3.Controls.Add(this.lblACIdE);
             this.superTabControlPanel3.Controls.Add(this.txtACDificultadE);
             this.superTabControlPanel3.Controls.Add(this.chkACEstadoE);
@@ -1045,10 +2126,9 @@ namespace OEVApp
             this.superTabControlPanel3.Controls.Add(this.groupBoxACDiasE);
             this.superTabControlPanel3.Controls.Add(this.lblACDificultadE);
             this.superTabControlPanel3.Controls.Add(this.lblACPrecioE);
-            this.superTabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.superTabControlPanel3.Location = new System.Drawing.Point(0, 38);
             this.superTabControlPanel3.Name = "superTabControlPanel3";
-            this.superTabControlPanel3.Size = new System.Drawing.Size(1091, 430);
+            this.superTabControlPanel3.Size = new System.Drawing.Size(787, 430);
             this.superTabControlPanel3.TabIndex = 0;
             this.superTabControlPanel3.TabItem = this.tabItemACEditar;
             // 
@@ -1076,7 +2156,7 @@ namespace OEVApp
             this.txtACDificultadE.ForeColor = System.Drawing.Color.Black;
             this.txtACDificultadE.Location = new System.Drawing.Point(118, 141);
             this.txtACDificultadE.Name = "txtACDificultadE";
-            this.txtACDificultadE.Size = new System.Drawing.Size(214, 22);
+            this.txtACDificultadE.Size = new System.Drawing.Size(222, 22);
             this.txtACDificultadE.TabIndex = 90;
             // 
             // chkACEstadoE
@@ -1115,7 +2195,7 @@ namespace OEVApp
             this.txtACActividadE.ForeColor = System.Drawing.Color.Black;
             this.txtACActividadE.Location = new System.Drawing.Point(118, 112);
             this.txtACActividadE.Name = "txtACActividadE";
-            this.txtACActividadE.Size = new System.Drawing.Size(214, 22);
+            this.txtACActividadE.Size = new System.Drawing.Size(222, 22);
             this.txtACActividadE.TabIndex = 87;
             // 
             // lblACActvidadE
@@ -1147,7 +2227,7 @@ namespace OEVApp
             this.doubleInACPrecioE.MinValue = 0D;
             this.doubleInACPrecioE.Name = "doubleInACPrecioE";
             this.doubleInACPrecioE.ShowUpDown = true;
-            this.doubleInACPrecioE.Size = new System.Drawing.Size(214, 22);
+            this.doubleInACPrecioE.Size = new System.Drawing.Size(220, 22);
             this.doubleInACPrecioE.TabIndex = 85;
             this.doubleInACPrecioE.WatermarkText = "$ 2.500";
             // 
@@ -1160,7 +2240,7 @@ namespace OEVApp
             this.comboACNombreE.ItemHeight = 16;
             this.comboACNombreE.Location = new System.Drawing.Point(118, 83);
             this.comboACNombreE.Name = "comboACNombreE";
-            this.comboACNombreE.Size = new System.Drawing.Size(214, 22);
+            this.comboACNombreE.Size = new System.Drawing.Size(222, 22);
             this.comboACNombreE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.comboACNombreE.TabIndex = 62;
             this.comboACNombreE.SelectedValueChanged += new System.EventHandler(this.comboACNombreE_SelectedChange);
@@ -1211,7 +2291,7 @@ namespace OEVApp
             // 
             // 
             this.lblACDescE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACDescE.Location = new System.Drawing.Point(362, 85);
+            this.lblACDescE.Location = new System.Drawing.Point(380, 82);
             this.lblACDescE.Name = "lblACDescE";
             this.lblACDescE.Size = new System.Drawing.Size(87, 23);
             this.lblACDescE.TabIndex = 70;
@@ -1224,10 +2304,10 @@ namespace OEVApp
             // 
             this.richTxtACDescE.BackgroundStyle.Class = "RichTextBoxBorder";
             this.richTxtACDescE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.richTxtACDescE.Location = new System.Drawing.Point(458, 85);
+            this.richTxtACDescE.Location = new System.Drawing.Point(380, 114);
             this.richTxtACDescE.MaxLength = 2000;
             this.richTxtACDescE.Name = "richTxtACDescE";
-            this.richTxtACDescE.Size = new System.Drawing.Size(228, 283);
+            this.richTxtACDescE.Size = new System.Drawing.Size(306, 283);
             this.richTxtACDescE.TabIndex = 71;
             // 
             // groupBoxACDiasE
@@ -1243,7 +2323,7 @@ namespace OEVApp
             this.groupBoxACDiasE.Controls.Add(this.lblACHoraFinE);
             this.groupBoxACDiasE.Location = new System.Drawing.Point(22, 175);
             this.groupBoxACDiasE.Name = "groupBoxACDiasE";
-            this.groupBoxACDiasE.Size = new System.Drawing.Size(310, 125);
+            this.groupBoxACDiasE.Size = new System.Drawing.Size(318, 125);
             this.groupBoxACDiasE.TabIndex = 72;
             this.groupBoxACDiasE.TabStop = false;
             this.groupBoxACDiasE.Text = "Días";
@@ -1485,6 +2565,105 @@ namespace OEVApp
             this.tabItemACEditar.Text = "<b>Editar</b>";
             this.tabItemACEditar.Click += new System.EventHandler(this.tabItemACEditar_Click);
             // 
+            // superTabControlPanel6
+            // 
+            this.superTabControlPanel6.Controls.Add(this.lblAPEventoPaqueteC);
+            this.superTabControlPanel6.Controls.Add(this.groupAPActividadC);
+            this.superTabControlPanel6.Controls.Add(this.groupAPDestinoC);
+            this.superTabControlPanel6.Controls.Add(this.doubleAPPrecioHastaC);
+            this.superTabControlPanel6.Controls.Add(this.labelX2);
+            this.superTabControlPanel6.Controls.Add(this.doubleAPPrecioDesdeC);
+            this.superTabControlPanel6.Controls.Add(this.labelX3);
+            this.superTabControlPanel6.Controls.Add(this.gridViewAPC);
+            this.superTabControlPanel6.Controls.Add(this.btnAPBuscarC);
+            this.superTabControlPanel6.Controls.Add(this.comboAPDificultadC);
+            this.superTabControlPanel6.Controls.Add(this.lblAPDificultadC);
+            this.superTabControlPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel6.Location = new System.Drawing.Point(0, 38);
+            this.superTabControlPanel6.Name = "superTabControlPanel6";
+            this.superTabControlPanel6.Size = new System.Drawing.Size(787, 430);
+            this.superTabControlPanel6.TabIndex = 0;
+            this.superTabControlPanel6.TabItem = this.tabItemAPConsultar;
+            // 
+            // gridViewAPC
+            // 
+            this.gridViewAPC.AllowUserToAddRows = false;
+            this.gridViewAPC.AllowUserToDeleteRows = false;
+            this.gridViewAPC.AllowUserToOrderColumns = true;
+            this.gridViewAPC.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridViewAPC.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridViewAPC.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.APHTipoProducto,
+            this.APHNombre,
+            this.APHDestino,
+            this.APHPrecio,
+            this.APHDuracion,
+            this.APHActividades,
+            this.APHEstado});
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridViewAPC.DefaultCellStyle = dataGridViewCellStyle5;
+            this.gridViewAPC.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.gridViewAPC.Location = new System.Drawing.Point(17, 206);
+            this.gridViewAPC.Name = "gridViewAPC";
+            this.gridViewAPC.ReadOnly = true;
+            this.gridViewAPC.Size = new System.Drawing.Size(689, 197);
+            this.gridViewAPC.TabIndex = 93;
+            // 
+            // btnAPBuscarC
+            // 
+            this.btnAPBuscarC.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAPBuscarC.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnAPBuscarC.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAPBuscarC.Image = global::OEVApp.Properties.Resources.search;
+            this.btnAPBuscarC.Location = new System.Drawing.Point(578, 15);
+            this.btnAPBuscarC.Name = "btnAPBuscarC";
+            this.btnAPBuscarC.Size = new System.Drawing.Size(110, 45);
+            this.btnAPBuscarC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnAPBuscarC.TabIndex = 92;
+            this.btnAPBuscarC.Text = "Buscar";
+            this.btnAPBuscarC.Click += new System.EventHandler(this.btnAPBuscarC_Click);
+            // 
+            // comboAPDificultadC
+            // 
+            this.comboAPDificultadC.DisplayMember = "Text";
+            this.comboAPDificultadC.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.comboAPDificultadC.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboAPDificultadC.EnablePopupResize = false;
+            this.comboAPDificultadC.ItemHeight = 16;
+            this.comboAPDificultadC.Location = new System.Drawing.Point(122, 77);
+            this.comboAPDificultadC.Name = "comboAPDificultadC";
+            this.comboAPDificultadC.Size = new System.Drawing.Size(130, 22);
+            this.comboAPDificultadC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboAPDificultadC.TabIndex = 88;
+            // 
+            // lblAPDificultadC
+            // 
+            // 
+            // 
+            // 
+            this.lblAPDificultadC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPDificultadC.Location = new System.Drawing.Point(17, 77);
+            this.lblAPDificultadC.Name = "lblAPDificultadC";
+            this.lblAPDificultadC.Size = new System.Drawing.Size(99, 23);
+            this.lblAPDificultadC.TabIndex = 87;
+            this.lblAPDificultadC.Text = "Dificultad:";
+            // 
+            // tabItemAPConsultar
+            // 
+            this.tabItemAPConsultar.AttachedControl = this.superTabControlPanel6;
+            this.tabItemAPConsultar.GlobalItem = false;
+            this.tabItemAPConsultar.Image = global::OEVApp.Properties.Resources.lupa;
+            this.tabItemAPConsultar.Name = "tabItemAPConsultar";
+            this.tabItemAPConsultar.Text = "<b>Consultar</b>";
+            // 
             // superTabControlPanel10
             // 
             this.superTabControlPanel10.Controls.Add(this.radioGroupInstCons);
@@ -1494,9 +2673,9 @@ namespace OEVApp
             this.superTabControlPanel10.Controls.Add(this.txtInstConsFiltro);
             this.superTabControlPanel10.Controls.Add(this.btnInstConsBuscar);
             this.superTabControlPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel10.Location = new System.Drawing.Point(0, 0);
+            this.superTabControlPanel10.Location = new System.Drawing.Point(0, 38);
             this.superTabControlPanel10.Name = "superTabControlPanel10";
-            this.superTabControlPanel10.Size = new System.Drawing.Size(1091, 468);
+            this.superTabControlPanel10.Size = new System.Drawing.Size(787, 430);
             this.superTabControlPanel10.TabIndex = 0;
             this.superTabControlPanel10.TabItem = this.tabItemInstConsultar;
             // 
@@ -1585,14 +2764,14 @@ namespace OEVApp
             this.HInstConsEmail,
             this.HInstConsTelefono,
             this.HInstConsEstado});
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle22.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridInstCons.DefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridInstCons.DefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridInstCons.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
             this.dataGridInstCons.Location = new System.Drawing.Point(23, 196);
             this.dataGridInstCons.Name = "dataGridInstCons";
@@ -1735,474 +2914,6 @@ namespace OEVApp
             this.tabItemInstConsultar.Name = "tabItemInstConsultar";
             this.tabItemInstConsultar.Text = "<b>Consultar</b>";
             // 
-            // superTabControlPanel1
-            // 
-            this.superTabControlPanel1.AutoSize = true;
-            this.superTabControlPanel1.Controls.Add(this.btnACNombreA);
-            this.superTabControlPanel1.Controls.Add(this.doubleInACPrecioA);
-            this.superTabControlPanel1.Controls.Add(this.groupACEntrenA);
-            this.superTabControlPanel1.Controls.Add(this.btnACGuardarA);
-            this.superTabControlPanel1.Controls.Add(this.lblACPrecioA);
-            this.superTabControlPanel1.Controls.Add(this.lblACCursoA);
-            this.superTabControlPanel1.Controls.Add(this.comboACDificultadA);
-            this.superTabControlPanel1.Controls.Add(this.lblACDificultadA);
-            this.superTabControlPanel1.Controls.Add(this.groupBoxACDiasA);
-            this.superTabControlPanel1.Controls.Add(this.richTxtACDescA);
-            this.superTabControlPanel1.Controls.Add(this.lblACDescA);
-            this.superTabControlPanel1.Controls.Add(this.txtACNombreA);
-            this.superTabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel1.Location = new System.Drawing.Point(0, 38);
-            this.superTabControlPanel1.Margin = new System.Windows.Forms.Padding(1);
-            this.superTabControlPanel1.Name = "superTabControlPanel1";
-            this.superTabControlPanel1.Size = new System.Drawing.Size(1091, 430);
-            this.superTabControlPanel1.TabIndex = 1;
-            this.superTabControlPanel1.TabItem = this.tabItemACAgregar;
-            // 
-            // btnACNombreA
-            // 
-            this.btnACNombreA.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnACNombreA.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnACNombreA.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnACNombreA.Location = new System.Drawing.Point(346, 313);
-            this.btnACNombreA.Name = "btnACNombreA";
-            this.btnACNombreA.Size = new System.Drawing.Size(87, 65);
-            this.btnACNombreA.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
-            this.btnACNombreA.TabIndex = 69;
-            this.btnACNombreA.Text = "Nombre";
-            this.btnACNombreA.Click += new System.EventHandler(this.btnACNombreA_Click);
-            // 
-            // doubleInACPrecioA
-            // 
-            // 
-            // 
-            // 
-            this.doubleInACPrecioA.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.doubleInACPrecioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.doubleInACPrecioA.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
-            this.doubleInACPrecioA.DisplayFormat = "000";
-            this.doubleInACPrecioA.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.doubleInACPrecioA.Increment = 100D;
-            this.doubleInACPrecioA.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
-            this.doubleInACPrecioA.Location = new System.Drawing.Point(121, 101);
-            this.doubleInACPrecioA.MaxValue = 100000D;
-            this.doubleInACPrecioA.MinValue = 0D;
-            this.doubleInACPrecioA.Name = "doubleInACPrecioA";
-            this.doubleInACPrecioA.ShowUpDown = true;
-            this.doubleInACPrecioA.Size = new System.Drawing.Size(214, 22);
-            this.doubleInACPrecioA.TabIndex = 68;
-            this.doubleInACPrecioA.WatermarkText = "$ 2.500";
-            // 
-            // groupACEntrenA
-            // 
-            this.groupACEntrenA.Controls.Add(this.radioACGpsA);
-            this.groupACEntrenA.Controls.Add(this.radioACAuxA);
-            this.groupACEntrenA.Controls.Add(this.radioACBikeA);
-            this.groupACEntrenA.Controls.Add(this.radioACTrekA);
-            this.groupACEntrenA.Controls.Add(this.radioACRunA);
-            this.groupACEntrenA.Controls.Add(this.radioACMontA);
-            this.groupACEntrenA.Location = new System.Drawing.Point(20, 133);
-            this.groupACEntrenA.Name = "groupACEntrenA";
-            this.groupACEntrenA.Size = new System.Drawing.Size(315, 116);
-            this.groupACEntrenA.TabIndex = 62;
-            this.groupACEntrenA.TabStop = false;
-            this.groupACEntrenA.Text = "Entrenamiento de:";
-            // 
-            // radioACGpsA
-            // 
-            this.radioACGpsA.AutoSize = true;
-            this.radioACGpsA.Location = new System.Drawing.Point(140, 81);
-            this.radioACGpsA.Name = "radioACGpsA";
-            this.radioACGpsA.Size = new System.Drawing.Size(117, 17);
-            this.radioACGpsA.TabIndex = 5;
-            this.radioACGpsA.TabStop = true;
-            this.radioACGpsA.Text = "Orientación y GPS";
-            this.radioACGpsA.UseVisualStyleBackColor = true;
-            // 
-            // radioACAuxA
-            // 
-            this.radioACAuxA.AutoSize = true;
-            this.radioACAuxA.Location = new System.Drawing.Point(140, 55);
-            this.radioACAuxA.Name = "radioACAuxA";
-            this.radioACAuxA.Size = new System.Drawing.Size(143, 17);
-            this.radioACAuxA.TabIndex = 4;
-            this.radioACAuxA.TabStop = true;
-            this.radioACAuxA.Text = "Primeros Auxilios y RCP";
-            this.radioACAuxA.UseVisualStyleBackColor = true;
-            // 
-            // radioACBikeA
-            // 
-            this.radioACBikeA.AutoSize = true;
-            this.radioACBikeA.Location = new System.Drawing.Point(140, 27);
-            this.radioACBikeA.Name = "radioACBikeA";
-            this.radioACBikeA.Size = new System.Drawing.Size(101, 17);
-            this.radioACBikeA.TabIndex = 3;
-            this.radioACBikeA.TabStop = true;
-            this.radioACBikeA.Text = "Mountain Bike";
-            this.radioACBikeA.UseVisualStyleBackColor = true;
-            // 
-            // radioACTrekA
-            // 
-            this.radioACTrekA.AutoSize = true;
-            this.radioACTrekA.Location = new System.Drawing.Point(22, 81);
-            this.radioACTrekA.Name = "radioACTrekA";
-            this.radioACTrekA.Size = new System.Drawing.Size(69, 17);
-            this.radioACTrekA.TabIndex = 2;
-            this.radioACTrekA.TabStop = true;
-            this.radioACTrekA.Text = "Trekking";
-            this.radioACTrekA.UseVisualStyleBackColor = true;
-            // 
-            // radioACRunA
-            // 
-            this.radioACRunA.AutoSize = true;
-            this.radioACRunA.Location = new System.Drawing.Point(22, 55);
-            this.radioACRunA.Name = "radioACRunA";
-            this.radioACRunA.Size = new System.Drawing.Size(70, 17);
-            this.radioACRunA.TabIndex = 1;
-            this.radioACRunA.TabStop = true;
-            this.radioACRunA.Text = "Running";
-            this.radioACRunA.UseVisualStyleBackColor = true;
-            // 
-            // radioACMontA
-            // 
-            this.radioACMontA.AutoSize = true;
-            this.radioACMontA.Checked = true;
-            this.radioACMontA.Location = new System.Drawing.Point(22, 27);
-            this.radioACMontA.Name = "radioACMontA";
-            this.radioACMontA.Size = new System.Drawing.Size(72, 17);
-            this.radioACMontA.TabIndex = 0;
-            this.radioACMontA.TabStop = true;
-            this.radioACMontA.Text = "Montaña";
-            this.radioACMontA.UseVisualStyleBackColor = true;
-            // 
-            // btnACGuardarA
-            // 
-            this.btnACGuardarA.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnACGuardarA.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnACGuardarA.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnACGuardarA.Image = global::OEVApp.Properties.Resources.Save32x32;
-            this.btnACGuardarA.Location = new System.Drawing.Point(546, 16);
-            this.btnACGuardarA.Name = "btnACGuardarA";
-            this.btnACGuardarA.Size = new System.Drawing.Size(110, 45);
-            this.btnACGuardarA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnACGuardarA.TabIndex = 57;
-            this.btnACGuardarA.Text = "Guardar";
-            this.btnACGuardarA.Click += new System.EventHandler(this.btnACGuardarA_Click);
-            // 
-            // lblACPrecioA
-            // 
-            // 
-            // 
-            // 
-            this.lblACPrecioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACPrecioA.Location = new System.Drawing.Point(25, 100);
-            this.lblACPrecioA.Name = "lblACPrecioA";
-            this.lblACPrecioA.Size = new System.Drawing.Size(87, 23);
-            this.lblACPrecioA.TabIndex = 55;
-            this.lblACPrecioA.Text = "Precio:";
-            // 
-            // lblACCursoA
-            // 
-            // 
-            // 
-            // 
-            this.lblACCursoA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACCursoA.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblACCursoA.ForeColor = System.Drawing.Color.Green;
-            this.lblACCursoA.Location = new System.Drawing.Point(25, 16);
-            this.lblACCursoA.Name = "lblACCursoA";
-            this.lblACCursoA.Size = new System.Drawing.Size(225, 23);
-            this.lblACCursoA.TabIndex = 54;
-            this.lblACCursoA.Text = "Curso de Entrenamiento";
-            // 
-            // comboACDificultadA
-            // 
-            this.comboACDificultadA.DisplayMember = "Text";
-            this.comboACDificultadA.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboACDificultadA.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboACDificultadA.EnablePopupResize = false;
-            this.comboACDificultadA.ItemHeight = 16;
-            this.comboACDificultadA.Location = new System.Drawing.Point(121, 72);
-            this.comboACDificultadA.Name = "comboACDificultadA";
-            this.comboACDificultadA.Size = new System.Drawing.Size(214, 22);
-            this.comboACDificultadA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboACDificultadA.TabIndex = 53;
-            // 
-            // lblACDificultadA
-            // 
-            // 
-            // 
-            // 
-            this.lblACDificultadA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACDificultadA.Location = new System.Drawing.Point(25, 71);
-            this.lblACDificultadA.Name = "lblACDificultadA";
-            this.lblACDificultadA.Size = new System.Drawing.Size(87, 23);
-            this.lblACDificultadA.TabIndex = 52;
-            this.lblACDificultadA.Text = "Dificultad:";
-            // 
-            // groupBoxACDiasA
-            // 
-            this.groupBoxACDiasA.Controls.Add(this.checkACVieA);
-            this.groupBoxACDiasA.Controls.Add(this.checkACJueA);
-            this.groupBoxACDiasA.Controls.Add(this.dTInputACHoraFinA);
-            this.groupBoxACDiasA.Controls.Add(this.checkACMieA);
-            this.groupBoxACDiasA.Controls.Add(this.lblACHoraFinA);
-            this.groupBoxACDiasA.Controls.Add(this.checkACMarA);
-            this.groupBoxACDiasA.Controls.Add(this.lblACHoraIniA);
-            this.groupBoxACDiasA.Controls.Add(this.checkACLunA);
-            this.groupBoxACDiasA.Controls.Add(this.dTInputACHoraInicioA);
-            this.groupBoxACDiasA.Location = new System.Drawing.Point(20, 267);
-            this.groupBoxACDiasA.Name = "groupBoxACDiasA";
-            this.groupBoxACDiasA.Size = new System.Drawing.Size(315, 111);
-            this.groupBoxACDiasA.TabIndex = 47;
-            this.groupBoxACDiasA.TabStop = false;
-            this.groupBoxACDiasA.Text = "Días";
-            // 
-            // checkACVieA
-            // 
-            // 
-            // 
-            // 
-            this.checkACVieA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.checkACVieA.Location = new System.Drawing.Point(252, 15);
-            this.checkACVieA.Name = "checkACVieA";
-            this.checkACVieA.Size = new System.Drawing.Size(61, 23);
-            this.checkACVieA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.checkACVieA.TabIndex = 4;
-            this.checkACVieA.Text = "Viernes";
-            // 
-            // checkACJueA
-            // 
-            // 
-            // 
-            // 
-            this.checkACJueA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.checkACJueA.Location = new System.Drawing.Point(191, 15);
-            this.checkACJueA.Name = "checkACJueA";
-            this.checkACJueA.Size = new System.Drawing.Size(61, 23);
-            this.checkACJueA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.checkACJueA.TabIndex = 3;
-            this.checkACJueA.Text = "Jueves";
-            // 
-            // dTInputACHoraFinA
-            // 
-            // 
-            // 
-            // 
-            this.dTInputACHoraFinA.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.dTInputACHoraFinA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dTInputACHoraFinA.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
-            this.dTInputACHoraFinA.ButtonDropDown.Visible = true;
-            this.dTInputACHoraFinA.DateTimeSelectorVisibility = DevComponents.Editors.DateTimeAdv.eDateTimeSelectorVisibility.TimeSelector;
-            this.dTInputACHoraFinA.Format = DevComponents.Editors.eDateTimePickerFormat.Custom;
-            this.dTInputACHoraFinA.IsInputReadOnly = true;
-            this.dTInputACHoraFinA.IsPopupCalendarOpen = false;
-            this.dTInputACHoraFinA.Location = new System.Drawing.Point(100, 80);
-            // 
-            // 
-            // 
-            this.dTInputACHoraFinA.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dTInputACHoraFinA.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dTInputACHoraFinA.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            this.dTInputACHoraFinA.MonthCalendar.ClearButtonVisible = true;
-            // 
-            // 
-            // 
-            this.dTInputACHoraFinA.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
-            this.dTInputACHoraFinA.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
-            this.dTInputACHoraFinA.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
-            this.dTInputACHoraFinA.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.dTInputACHoraFinA.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
-            this.dTInputACHoraFinA.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
-            this.dTInputACHoraFinA.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dTInputACHoraFinA.MonthCalendar.DisplayMonth = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
-            this.dTInputACHoraFinA.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.dTInputACHoraFinA.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dTInputACHoraFinA.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.dTInputACHoraFinA.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
-            this.dTInputACHoraFinA.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.dTInputACHoraFinA.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dTInputACHoraFinA.MonthCalendar.TodayButtonVisible = true;
-            this.dTInputACHoraFinA.MonthCalendar.Visible = false;
-            this.dTInputACHoraFinA.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.dTInputACHoraFinA.Name = "dTInputACHoraFinA";
-            this.dTInputACHoraFinA.Size = new System.Drawing.Size(199, 22);
-            this.dTInputACHoraFinA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.dTInputACHoraFinA.TabIndex = 61;
-            this.dTInputACHoraFinA.TimeSelectorTimeFormat = DevComponents.Editors.DateTimeAdv.eTimeSelectorFormat.Time24H;
-            this.dTInputACHoraFinA.Value = new System.DateTime(2017, 12, 8, 21, 0, 0, 0);
-            // 
-            // checkACMieA
-            // 
-            // 
-            // 
-            // 
-            this.checkACMieA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.checkACMieA.Location = new System.Drawing.Point(120, 16);
-            this.checkACMieA.Name = "checkACMieA";
-            this.checkACMieA.Size = new System.Drawing.Size(68, 23);
-            this.checkACMieA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.checkACMieA.TabIndex = 2;
-            this.checkACMieA.Text = "Miércoles";
-            // 
-            // lblACHoraFinA
-            // 
-            // 
-            // 
-            // 
-            this.lblACHoraFinA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACHoraFinA.Location = new System.Drawing.Point(7, 79);
-            this.lblACHoraFinA.Name = "lblACHoraFinA";
-            this.lblACHoraFinA.Size = new System.Drawing.Size(87, 23);
-            this.lblACHoraFinA.TabIndex = 60;
-            this.lblACHoraFinA.Text = "Hora de Fin:";
-            // 
-            // checkACMarA
-            // 
-            // 
-            // 
-            // 
-            this.checkACMarA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.checkACMarA.Location = new System.Drawing.Point(60, 17);
-            this.checkACMarA.Name = "checkACMarA";
-            this.checkACMarA.Size = new System.Drawing.Size(54, 23);
-            this.checkACMarA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.checkACMarA.TabIndex = 1;
-            this.checkACMarA.Text = "Martes";
-            // 
-            // lblACHoraIniA
-            // 
-            // 
-            // 
-            // 
-            this.lblACHoraIniA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACHoraIniA.Location = new System.Drawing.Point(7, 45);
-            this.lblACHoraIniA.Name = "lblACHoraIniA";
-            this.lblACHoraIniA.Size = new System.Drawing.Size(87, 23);
-            this.lblACHoraIniA.TabIndex = 59;
-            this.lblACHoraIniA.Text = "Hora de Inicio:";
-            // 
-            // checkACLunA
-            // 
-            // 
-            // 
-            // 
-            this.checkACLunA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.checkACLunA.Location = new System.Drawing.Point(7, 16);
-            this.checkACLunA.Name = "checkACLunA";
-            this.checkACLunA.Size = new System.Drawing.Size(54, 23);
-            this.checkACLunA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.checkACLunA.TabIndex = 0;
-            this.checkACLunA.Text = "Lunes";
-            // 
-            // dTInputACHoraInicioA
-            // 
-            // 
-            // 
-            // 
-            this.dTInputACHoraInicioA.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.dTInputACHoraInicioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dTInputACHoraInicioA.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
-            this.dTInputACHoraInicioA.ButtonDropDown.Visible = true;
-            this.dTInputACHoraInicioA.DateTimeSelectorVisibility = DevComponents.Editors.DateTimeAdv.eDateTimeSelectorVisibility.TimeSelector;
-            this.dTInputACHoraInicioA.Format = DevComponents.Editors.eDateTimePickerFormat.Custom;
-            this.dTInputACHoraInicioA.IsInputReadOnly = true;
-            this.dTInputACHoraInicioA.IsPopupCalendarOpen = false;
-            this.dTInputACHoraInicioA.Location = new System.Drawing.Point(100, 46);
-            // 
-            // 
-            // 
-            this.dTInputACHoraInicioA.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dTInputACHoraInicioA.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dTInputACHoraInicioA.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            this.dTInputACHoraInicioA.MonthCalendar.ClearButtonVisible = true;
-            // 
-            // 
-            // 
-            this.dTInputACHoraInicioA.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
-            this.dTInputACHoraInicioA.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
-            this.dTInputACHoraInicioA.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
-            this.dTInputACHoraInicioA.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.dTInputACHoraInicioA.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
-            this.dTInputACHoraInicioA.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
-            this.dTInputACHoraInicioA.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dTInputACHoraInicioA.MonthCalendar.DisplayMonth = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
-            this.dTInputACHoraInicioA.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.dTInputACHoraInicioA.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dTInputACHoraInicioA.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.dTInputACHoraInicioA.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
-            this.dTInputACHoraInicioA.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.dTInputACHoraInicioA.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dTInputACHoraInicioA.MonthCalendar.TodayButtonVisible = true;
-            this.dTInputACHoraInicioA.MonthCalendar.Visible = false;
-            this.dTInputACHoraInicioA.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.dTInputACHoraInicioA.Name = "dTInputACHoraInicioA";
-            this.dTInputACHoraInicioA.Size = new System.Drawing.Size(199, 22);
-            this.dTInputACHoraInicioA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.dTInputACHoraInicioA.TabIndex = 58;
-            this.dTInputACHoraInicioA.TimeSelectorTimeFormat = DevComponents.Editors.DateTimeAdv.eTimeSelectorFormat.Time24H;
-            this.dTInputACHoraInicioA.Value = new System.DateTime(2017, 12, 8, 8, 0, 0, 0);
-            // 
-            // richTxtACDescA
-            // 
-            // 
-            // 
-            // 
-            this.richTxtACDescA.BackgroundStyle.Class = "RichTextBoxBorder";
-            this.richTxtACDescA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.richTxtACDescA.Location = new System.Drawing.Point(442, 72);
-            this.richTxtACDescA.MaxLength = 2000;
-            this.richTxtACDescA.Name = "richTxtACDescA";
-            this.richTxtACDescA.Size = new System.Drawing.Size(214, 235);
-            this.richTxtACDescA.TabIndex = 46;
-            // 
-            // lblACDescA
-            // 
-            // 
-            // 
-            // 
-            this.lblACDescA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACDescA.Location = new System.Drawing.Point(346, 72);
-            this.lblACDescA.Name = "lblACDescA";
-            this.lblACDescA.Size = new System.Drawing.Size(87, 23);
-            this.lblACDescA.TabIndex = 45;
-            this.lblACDescA.Text = "Descripción:";
-            // 
-            // txtACNombreA
-            // 
-            this.txtACNombreA.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtACNombreA.Border.Class = "TextBoxBorder";
-            this.txtACNombreA.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtACNombreA.Enabled = false;
-            this.txtACNombreA.ForeColor = System.Drawing.Color.Black;
-            this.txtACNombreA.Location = new System.Drawing.Point(442, 333);
-            this.txtACNombreA.Name = "txtACNombreA";
-            this.txtACNombreA.Size = new System.Drawing.Size(214, 22);
-            this.txtACNombreA.TabIndex = 44;
-            this.txtACNombreA.WatermarkText = "TREK_MED_LXV_0800:1030";
-            // 
-            // tabItemACAgregar
-            // 
-            this.tabItemACAgregar.AttachedControl = this.superTabControlPanel1;
-            this.tabItemACAgregar.GlobalItem = false;
-            this.tabItemACAgregar.Image = global::OEVApp.Properties.Resources.upload_ok;
-            this.tabItemACAgregar.Name = "tabItemACAgregar";
-            this.tabItemACAgregar.Text = "<b>Agregar</b>";
-            // 
             // superTabControlPanel8
             // 
             this.superTabControlPanel8.Controls.Add(this.lblEdiId);
@@ -2232,9 +2943,9 @@ namespace OEVApp
             this.superTabControlPanel8.Controls.Add(this.lblProvEdiRazon);
             this.superTabControlPanel8.Controls.Add(this.lblProvEdi);
             this.superTabControlPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel8.Location = new System.Drawing.Point(0, 0);
+            this.superTabControlPanel8.Location = new System.Drawing.Point(0, 38);
             this.superTabControlPanel8.Name = "superTabControlPanel8";
-            this.superTabControlPanel8.Size = new System.Drawing.Size(1091, 468);
+            this.superTabControlPanel8.Size = new System.Drawing.Size(787, 430);
             this.superTabControlPanel8.TabIndex = 0;
             this.superTabControlPanel8.TabItem = this.tabItemProvEditar;
             // 
@@ -2647,29 +3358,28 @@ namespace OEVApp
             // 
             // superTabControlPanel4
             // 
+            this.superTabControlPanel4.Controls.Add(this.txtAPDuracionE);
+            this.superTabControlPanel4.Controls.Add(this.lblAPDuracionE);
+            this.superTabControlPanel4.Controls.Add(this.txtAPDestinoE);
+            this.superTabControlPanel4.Controls.Add(this.lblAPDestinoE);
+            this.superTabControlPanel4.Controls.Add(this.txtAPActividadE);
+            this.superTabControlPanel4.Controls.Add(this.lblAPActividadE);
+            this.superTabControlPanel4.Controls.Add(this.chkAPEstadoE);
+            this.superTabControlPanel4.Controls.Add(this.labelX1);
+            this.superTabControlPanel4.Controls.Add(this.txtAPDificultadE);
+            this.superTabControlPanel4.Controls.Add(this.lblAPIdE);
             this.superTabControlPanel4.Controls.Add(this.doubleInAPPrecioE);
             this.superTabControlPanel4.Controls.Add(this.comboAPNombreE);
-            this.superTabControlPanel4.Controls.Add(this.groupAPEventoE);
-            this.superTabControlPanel4.Controls.Add(this.btnAPBuscarE);
             this.superTabControlPanel4.Controls.Add(this.lblAPNombreE);
-            this.superTabControlPanel4.Controls.Add(this.ckdListBoxAPE);
-            this.superTabControlPanel4.Controls.Add(this.dateAPInicioE);
             this.superTabControlPanel4.Controls.Add(this.groupAPModalidadE);
-            this.superTabControlPanel4.Controls.Add(this.lblAPFechaInicioE);
-            this.superTabControlPanel4.Controls.Add(this.lblAPFechaFinE);
             this.superTabControlPanel4.Controls.Add(this.lblAPPrecioE);
-            this.superTabControlPanel4.Controls.Add(this.dateAPFinE);
-            this.superTabControlPanel4.Controls.Add(this.txtAPDestinoE);
             this.superTabControlPanel4.Controls.Add(this.btnAPGuardarE);
             this.superTabControlPanel4.Controls.Add(this.lblAPItinerarioE);
-            this.superTabControlPanel4.Controls.Add(this.lblAPDestinoE);
             this.superTabControlPanel4.Controls.Add(this.richTxtAPItinerarioE);
-            this.superTabControlPanel4.Controls.Add(this.comboAPDificultadE);
             this.superTabControlPanel4.Controls.Add(this.lblAPDificultadE);
-            this.superTabControlPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel4.Location = new System.Drawing.Point(0, 0);
+            this.superTabControlPanel4.Location = new System.Drawing.Point(0, 38);
             this.superTabControlPanel4.Name = "superTabControlPanel4";
-            this.superTabControlPanel4.Size = new System.Drawing.Size(1091, 468);
+            this.superTabControlPanel4.Size = new System.Drawing.Size(787, 430);
             this.superTabControlPanel4.TabIndex = 0;
             this.superTabControlPanel4.TabItem = this.tabItemAPEditar;
             // 
@@ -2682,16 +3392,16 @@ namespace OEVApp
             this.doubleInAPPrecioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.doubleInAPPrecioE.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
             this.doubleInAPPrecioE.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.doubleInAPPrecioE.Increment = 1D;
+            this.doubleInAPPrecioE.Increment = 100D;
             this.doubleInAPPrecioE.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
-            this.doubleInAPPrecioE.Location = new System.Drawing.Point(120, 143);
+            this.doubleInAPPrecioE.Location = new System.Drawing.Point(115, 290);
             this.doubleInAPPrecioE.MaxValue = 1000000D;
             this.doubleInAPPrecioE.MinValue = 0D;
             this.doubleInAPPrecioE.Name = "doubleInAPPrecioE";
             this.doubleInAPPrecioE.ShowUpDown = true;
-            this.doubleInAPPrecioE.Size = new System.Drawing.Size(185, 22);
+            this.doubleInAPPrecioE.Size = new System.Drawing.Size(228, 22);
             this.doubleInAPPrecioE.TabIndex = 88;
-            this.doubleInAPPrecioE.WatermarkText = "$ 2.500";
+            this.doubleInAPPrecioE.WatermarkText = "2.500";
             // 
             // comboAPNombreE
             // 
@@ -2700,70 +3410,12 @@ namespace OEVApp
             this.comboAPNombreE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboAPNombreE.EnablePopupResize = false;
             this.comboAPNombreE.ItemHeight = 16;
-            this.comboAPNombreE.Location = new System.Drawing.Point(120, 72);
+            this.comboAPNombreE.Location = new System.Drawing.Point(115, 92);
             this.comboAPNombreE.Name = "comboAPNombreE";
-            this.comboAPNombreE.Size = new System.Drawing.Size(185, 22);
+            this.comboAPNombreE.Size = new System.Drawing.Size(228, 22);
             this.comboAPNombreE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.comboAPNombreE.TabIndex = 85;
-            // 
-            // groupAPEventoE
-            // 
-            this.groupAPEventoE.Controls.Add(this.radioAPBikeE);
-            this.groupAPEventoE.Controls.Add(this.radioAPRunE);
-            this.groupAPEventoE.Controls.Add(this.radioAPCiclismoE);
-            this.groupAPEventoE.Location = new System.Drawing.Point(505, 188);
-            this.groupAPEventoE.Name = "groupAPEventoE";
-            this.groupAPEventoE.Size = new System.Drawing.Size(141, 123);
-            this.groupAPEventoE.TabIndex = 87;
-            this.groupAPEventoE.TabStop = false;
-            this.groupAPEventoE.Text = "Evento de:";
-            // 
-            // radioAPBikeE
-            // 
-            this.radioAPBikeE.AutoSize = true;
-            this.radioAPBikeE.Location = new System.Drawing.Point(22, 87);
-            this.radioAPBikeE.Name = "radioAPBikeE";
-            this.radioAPBikeE.Size = new System.Drawing.Size(101, 17);
-            this.radioAPBikeE.TabIndex = 3;
-            this.radioAPBikeE.TabStop = true;
-            this.radioAPBikeE.Text = "Mountain Bike";
-            this.radioAPBikeE.UseVisualStyleBackColor = true;
-            // 
-            // radioAPRunE
-            // 
-            this.radioAPRunE.AutoSize = true;
-            this.radioAPRunE.Location = new System.Drawing.Point(22, 55);
-            this.radioAPRunE.Name = "radioAPRunE";
-            this.radioAPRunE.Size = new System.Drawing.Size(70, 17);
-            this.radioAPRunE.TabIndex = 1;
-            this.radioAPRunE.TabStop = true;
-            this.radioAPRunE.Text = "Running";
-            this.radioAPRunE.UseVisualStyleBackColor = true;
-            // 
-            // radioAPCiclismoE
-            // 
-            this.radioAPCiclismoE.AutoSize = true;
-            this.radioAPCiclismoE.Checked = true;
-            this.radioAPCiclismoE.Location = new System.Drawing.Point(22, 27);
-            this.radioAPCiclismoE.Name = "radioAPCiclismoE";
-            this.radioAPCiclismoE.Size = new System.Drawing.Size(67, 17);
-            this.radioAPCiclismoE.TabIndex = 0;
-            this.radioAPCiclismoE.TabStop = true;
-            this.radioAPCiclismoE.Text = "Ciclismo";
-            this.radioAPCiclismoE.UseVisualStyleBackColor = true;
-            // 
-            // btnAPBuscarE
-            // 
-            this.btnAPBuscarE.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnAPBuscarE.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnAPBuscarE.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAPBuscarE.Image = global::OEVApp.Properties.Resources.search;
-            this.btnAPBuscarE.Location = new System.Drawing.Point(490, 21);
-            this.btnAPBuscarE.Name = "btnAPBuscarE";
-            this.btnAPBuscarE.Size = new System.Drawing.Size(110, 45);
-            this.btnAPBuscarE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnAPBuscarE.TabIndex = 86;
-            this.btnAPBuscarE.Text = "Buscar";
+            this.comboAPNombreE.SelectedValueChanged += new System.EventHandler(this.comboAPNombreE_SelectedChange);
             // 
             // lblAPNombreE
             // 
@@ -2771,80 +3423,11 @@ namespace OEVApp
             // 
             // 
             this.lblAPNombreE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPNombreE.Location = new System.Drawing.Point(27, 71);
+            this.lblAPNombreE.Location = new System.Drawing.Point(22, 92);
             this.lblAPNombreE.Name = "lblAPNombreE";
             this.lblAPNombreE.Size = new System.Drawing.Size(87, 23);
             this.lblAPNombreE.TabIndex = 74;
-            this.lblAPNombreE.Text = "(*) Nombre:";
-            // 
-            // ckdListBoxAPE
-            // 
-            this.ckdListBoxAPE.FormattingEnabled = true;
-            this.ckdListBoxAPE.Items.AddRange(new object[] {
-            "Cabalgata",
-            "Canotaje",
-            "Escalada en roca",
-            "Escalada en hielo",
-            "Kayak",
-            "Mountain bike",
-            "Trekking"});
-            this.ckdListBoxAPE.Location = new System.Drawing.Point(371, 188);
-            this.ckdListBoxAPE.Name = "ckdListBoxAPE";
-            this.ckdListBoxAPE.Size = new System.Drawing.Size(120, 123);
-            this.ckdListBoxAPE.TabIndex = 86;
-            // 
-            // dateAPInicioE
-            // 
-            // 
-            // 
-            // 
-            this.dateAPInicioE.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.dateAPInicioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateAPInicioE.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
-            this.dateAPInicioE.ButtonDropDown.Visible = true;
-            this.dateAPInicioE.DateTimeSelectorVisibility = DevComponents.Editors.DateTimeAdv.eDateTimeSelectorVisibility.Both;
-            this.dateAPInicioE.IsInputReadOnly = true;
-            this.dateAPInicioE.IsPopupCalendarOpen = false;
-            this.dateAPInicioE.Location = new System.Drawing.Point(464, 108);
-            // 
-            // 
-            // 
-            this.dateAPInicioE.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dateAPInicioE.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateAPInicioE.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            this.dateAPInicioE.MonthCalendar.ClearButtonVisible = true;
-            // 
-            // 
-            // 
-            this.dateAPInicioE.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
-            this.dateAPInicioE.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateAPInicioE.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
-            this.dateAPInicioE.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.dateAPInicioE.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
-            this.dateAPInicioE.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
-            this.dateAPInicioE.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateAPInicioE.MonthCalendar.DayClickAutoClosePopup = false;
-            this.dateAPInicioE.MonthCalendar.DisplayMonth = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
-            this.dateAPInicioE.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.dateAPInicioE.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dateAPInicioE.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.dateAPInicioE.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateAPInicioE.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.dateAPInicioE.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateAPInicioE.MonthCalendar.TodayButtonVisible = true;
-            this.dateAPInicioE.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.dateAPInicioE.Name = "dateAPInicioE";
-            this.dateAPInicioE.Size = new System.Drawing.Size(182, 22);
-            this.dateAPInicioE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.dateAPInicioE.TabIndex = 70;
-            this.dateAPInicioE.TimeSelectorTimeFormat = DevComponents.Editors.DateTimeAdv.eTimeSelectorFormat.Time12H;
-            this.dateAPInicioE.Value = new System.DateTime(2017, 11, 26, 17, 52, 51, 0);
+            this.lblAPNombreE.Text = "Nombre:";
             // 
             // groupAPModalidadE
             // 
@@ -2852,7 +3435,7 @@ namespace OEVApp
             this.groupAPModalidadE.Controls.Add(this.radioAPEventoE);
             this.groupAPModalidadE.Location = new System.Drawing.Point(27, 19);
             this.groupAPModalidadE.Name = "groupAPModalidadE";
-            this.groupAPModalidadE.Size = new System.Drawing.Size(278, 40);
+            this.groupAPModalidadE.Size = new System.Drawing.Size(316, 52);
             this.groupAPModalidadE.TabIndex = 85;
             this.groupAPModalidadE.TabStop = false;
             this.groupAPModalidadE.Text = "Modalidad:";
@@ -2867,6 +3450,7 @@ namespace OEVApp
             this.radioAPPaqueteE.TabStop = true;
             this.radioAPPaqueteE.Text = "Paquete";
             this.radioAPPaqueteE.UseVisualStyleBackColor = true;
+            this.radioAPPaqueteE.Click += new System.EventHandler(this.radioAPPaqueteE_Click);
             // 
             // radioAPEventoE
             // 
@@ -2879,30 +3463,7 @@ namespace OEVApp
             this.radioAPEventoE.TabStop = true;
             this.radioAPEventoE.Text = "Evento";
             this.radioAPEventoE.UseVisualStyleBackColor = true;
-            // 
-            // lblAPFechaInicioE
-            // 
-            // 
-            // 
-            // 
-            this.lblAPFechaInicioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPFechaInicioE.Location = new System.Drawing.Point(371, 107);
-            this.lblAPFechaInicioE.Name = "lblAPFechaInicioE";
-            this.lblAPFechaInicioE.Size = new System.Drawing.Size(87, 23);
-            this.lblAPFechaInicioE.TabIndex = 71;
-            this.lblAPFechaInicioE.Text = "Fecha de Inicio:";
-            // 
-            // lblAPFechaFinE
-            // 
-            // 
-            // 
-            // 
-            this.lblAPFechaFinE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPFechaFinE.Location = new System.Drawing.Point(371, 141);
-            this.lblAPFechaFinE.Name = "lblAPFechaFinE";
-            this.lblAPFechaFinE.Size = new System.Drawing.Size(87, 23);
-            this.lblAPFechaFinE.TabIndex = 72;
-            this.lblAPFechaFinE.Text = "Fecha de Fin:";
+            this.radioAPEventoE.Click += new System.EventHandler(this.radioAPEventoE_Click);
             // 
             // lblAPPrecioE
             // 
@@ -2910,78 +3471,11 @@ namespace OEVApp
             // 
             // 
             this.lblAPPrecioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPPrecioE.Location = new System.Drawing.Point(26, 142);
+            this.lblAPPrecioE.Location = new System.Drawing.Point(22, 289);
             this.lblAPPrecioE.Name = "lblAPPrecioE";
             this.lblAPPrecioE.Size = new System.Drawing.Size(87, 23);
             this.lblAPPrecioE.TabIndex = 83;
-            this.lblAPPrecioE.Text = "Precio:";
-            // 
-            // dateAPFinE
-            // 
-            // 
-            // 
-            // 
-            this.dateAPFinE.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.dateAPFinE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateAPFinE.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
-            this.dateAPFinE.ButtonDropDown.Visible = true;
-            this.dateAPFinE.DateTimeSelectorVisibility = DevComponents.Editors.DateTimeAdv.eDateTimeSelectorVisibility.Both;
-            this.dateAPFinE.IsInputReadOnly = true;
-            this.dateAPFinE.IsPopupCalendarOpen = false;
-            this.dateAPFinE.Location = new System.Drawing.Point(464, 142);
-            // 
-            // 
-            // 
-            this.dateAPFinE.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dateAPFinE.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateAPFinE.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            this.dateAPFinE.MonthCalendar.ClearButtonVisible = true;
-            // 
-            // 
-            // 
-            this.dateAPFinE.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
-            this.dateAPFinE.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateAPFinE.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
-            this.dateAPFinE.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.dateAPFinE.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
-            this.dateAPFinE.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
-            this.dateAPFinE.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateAPFinE.MonthCalendar.DayClickAutoClosePopup = false;
-            this.dateAPFinE.MonthCalendar.DisplayMonth = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
-            this.dateAPFinE.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.dateAPFinE.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dateAPFinE.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.dateAPFinE.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateAPFinE.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.dateAPFinE.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateAPFinE.MonthCalendar.TodayButtonVisible = true;
-            this.dateAPFinE.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.dateAPFinE.Name = "dateAPFinE";
-            this.dateAPFinE.Size = new System.Drawing.Size(182, 22);
-            this.dateAPFinE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.dateAPFinE.TabIndex = 73;
-            this.dateAPFinE.TimeSelectorTimeFormat = DevComponents.Editors.DateTimeAdv.eTimeSelectorFormat.Time12H;
-            this.dateAPFinE.Value = new System.DateTime(2017, 11, 26, 17, 52, 55, 0);
-            // 
-            // txtAPDestinoE
-            // 
-            this.txtAPDestinoE.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtAPDestinoE.Border.Class = "TextBoxBorder";
-            this.txtAPDestinoE.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtAPDestinoE.ForeColor = System.Drawing.Color.Black;
-            this.txtAPDestinoE.Location = new System.Drawing.Point(120, 108);
-            this.txtAPDestinoE.Name = "txtAPDestinoE";
-            this.txtAPDestinoE.Size = new System.Drawing.Size(185, 22);
-            this.txtAPDestinoE.TabIndex = 82;
+            this.lblAPPrecioE.Text = "Precio $:";
             // 
             // btnAPGuardarE
             // 
@@ -2989,12 +3483,13 @@ namespace OEVApp
             this.btnAPGuardarE.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
             this.btnAPGuardarE.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAPGuardarE.Image = global::OEVApp.Properties.Resources.Save32x32;
-            this.btnAPGuardarE.Location = new System.Drawing.Point(612, 21);
+            this.btnAPGuardarE.Location = new System.Drawing.Point(645, 21);
             this.btnAPGuardarE.Name = "btnAPGuardarE";
             this.btnAPGuardarE.Size = new System.Drawing.Size(110, 45);
             this.btnAPGuardarE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnAPGuardarE.TabIndex = 77;
             this.btnAPGuardarE.Text = "Guardar";
+            this.btnAPGuardarE.Click += new System.EventHandler(this.btnAPGuardarE_Click);
             // 
             // lblAPItinerarioE
             // 
@@ -3002,23 +3497,11 @@ namespace OEVApp
             // 
             // 
             this.lblAPItinerarioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPItinerarioE.Location = new System.Drawing.Point(27, 179);
+            this.lblAPItinerarioE.Location = new System.Drawing.Point(368, 85);
             this.lblAPItinerarioE.Name = "lblAPItinerarioE";
             this.lblAPItinerarioE.Size = new System.Drawing.Size(87, 23);
             this.lblAPItinerarioE.TabIndex = 76;
             this.lblAPItinerarioE.Text = "Itinerario:";
-            // 
-            // lblAPDestinoE
-            // 
-            // 
-            // 
-            // 
-            this.lblAPDestinoE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPDestinoE.Location = new System.Drawing.Point(27, 108);
-            this.lblAPDestinoE.Name = "lblAPDestinoE";
-            this.lblAPDestinoE.Size = new System.Drawing.Size(87, 23);
-            this.lblAPDestinoE.TabIndex = 81;
-            this.lblAPDestinoE.Text = "Destino:";
             // 
             // richTxtAPItinerarioE
             // 
@@ -3027,24 +3510,11 @@ namespace OEVApp
             // 
             this.richTxtAPItinerarioE.BackgroundStyle.Class = "RichTextBoxBorder";
             this.richTxtAPItinerarioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.richTxtAPItinerarioE.Location = new System.Drawing.Point(120, 179);
+            this.richTxtAPItinerarioE.Location = new System.Drawing.Point(461, 85);
             this.richTxtAPItinerarioE.MaxLength = 2000;
             this.richTxtAPItinerarioE.Name = "richTxtAPItinerarioE";
-            this.richTxtAPItinerarioE.Size = new System.Drawing.Size(185, 134);
+            this.richTxtAPItinerarioE.Size = new System.Drawing.Size(294, 324);
             this.richTxtAPItinerarioE.TabIndex = 78;
-            // 
-            // comboAPDificultadE
-            // 
-            this.comboAPDificultadE.DisplayMember = "Text";
-            this.comboAPDificultadE.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboAPDificultadE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboAPDificultadE.EnablePopupResize = false;
-            this.comboAPDificultadE.ItemHeight = 16;
-            this.comboAPDificultadE.Location = new System.Drawing.Point(464, 71);
-            this.comboAPDificultadE.Name = "comboAPDificultadE";
-            this.comboAPDificultadE.Size = new System.Drawing.Size(182, 22);
-            this.comboAPDificultadE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboAPDificultadE.TabIndex = 80;
             // 
             // lblAPDificultadE
             // 
@@ -3052,7 +3522,7 @@ namespace OEVApp
             // 
             // 
             this.lblAPDificultadE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPDificultadE.Location = new System.Drawing.Point(371, 71);
+            this.lblAPDificultadE.Location = new System.Drawing.Point(22, 217);
             this.lblAPDificultadE.Name = "lblAPDificultadE";
             this.lblAPDificultadE.Size = new System.Drawing.Size(87, 23);
             this.lblAPDificultadE.TabIndex = 79;
@@ -3065,666 +3535,7 @@ namespace OEVApp
             this.tabItemAPEditar.Image = global::OEVApp.Properties.Resources.addedit24x24;
             this.tabItemAPEditar.Name = "tabItemAPEditar";
             this.tabItemAPEditar.Text = "<b>Editar</b>";
-            // 
-            // superTabControlPanel2
-            // 
-            this.superTabControlPanel2.Controls.Add(this.doubleInAPPrecioA);
-            this.superTabControlPanel2.Controls.Add(this.groupAPEventoA);
-            this.superTabControlPanel2.Controls.Add(this.ckdListBoxAPA);
-            this.superTabControlPanel2.Controls.Add(this.groupAPModalidadA);
-            this.superTabControlPanel2.Controls.Add(this.lblAPPrecioA);
-            this.superTabControlPanel2.Controls.Add(this.btnAPGuardarA);
-            this.superTabControlPanel2.Controls.Add(this.txtAPDestinoA);
-            this.superTabControlPanel2.Controls.Add(this.lblAPDestinoA);
-            this.superTabControlPanel2.Controls.Add(this.comboAPDificultadA);
-            this.superTabControlPanel2.Controls.Add(this.lblAPDificultadA);
-            this.superTabControlPanel2.Controls.Add(this.richTxtAPItinerarioA);
-            this.superTabControlPanel2.Controls.Add(this.lblAPItinerarioA);
-            this.superTabControlPanel2.Controls.Add(this.txtAPNombreA);
-            this.superTabControlPanel2.Controls.Add(this.lblAPNombreA);
-            this.superTabControlPanel2.Controls.Add(this.dateAPFinA);
-            this.superTabControlPanel2.Controls.Add(this.lblAPFechaFinA);
-            this.superTabControlPanel2.Controls.Add(this.lblAPFechaInicioA);
-            this.superTabControlPanel2.Controls.Add(this.dateAPInicioA);
-            this.superTabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel2.Location = new System.Drawing.Point(0, 0);
-            this.superTabControlPanel2.Name = "superTabControlPanel2";
-            this.superTabControlPanel2.Size = new System.Drawing.Size(1091, 468);
-            this.superTabControlPanel2.TabIndex = 0;
-            this.superTabControlPanel2.TabItem = this.tabItemAPAgregar;
-            // 
-            // doubleInAPPrecioA
-            // 
-            // 
-            // 
-            // 
-            this.doubleInAPPrecioA.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.doubleInAPPrecioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.doubleInAPPrecioA.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
-            this.doubleInAPPrecioA.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.doubleInAPPrecioA.Increment = 1D;
-            this.doubleInAPPrecioA.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
-            this.doubleInAPPrecioA.Location = new System.Drawing.Point(121, 138);
-            this.doubleInAPPrecioA.MaxValue = 1000000D;
-            this.doubleInAPPrecioA.MinValue = 0D;
-            this.doubleInAPPrecioA.Name = "doubleInAPPrecioA";
-            this.doubleInAPPrecioA.ShowUpDown = true;
-            this.doubleInAPPrecioA.Size = new System.Drawing.Size(185, 22);
-            this.doubleInAPPrecioA.TabIndex = 70;
-            this.doubleInAPPrecioA.WatermarkText = "$ 2.500";
-            // 
-            // groupAPEventoA
-            // 
-            this.groupAPEventoA.Controls.Add(this.radioAPBikeA);
-            this.groupAPEventoA.Controls.Add(this.radioAPRunA);
-            this.groupAPEventoA.Controls.Add(this.radioAPCiclismoA);
-            this.groupAPEventoA.Location = new System.Drawing.Point(506, 184);
-            this.groupAPEventoA.Name = "groupAPEventoA";
-            this.groupAPEventoA.Size = new System.Drawing.Size(141, 123);
-            this.groupAPEventoA.TabIndex = 69;
-            this.groupAPEventoA.TabStop = false;
-            this.groupAPEventoA.Text = "Evento de:";
-            // 
-            // radioAPBikeA
-            // 
-            this.radioAPBikeA.AutoSize = true;
-            this.radioAPBikeA.Location = new System.Drawing.Point(22, 87);
-            this.radioAPBikeA.Name = "radioAPBikeA";
-            this.radioAPBikeA.Size = new System.Drawing.Size(101, 17);
-            this.radioAPBikeA.TabIndex = 3;
-            this.radioAPBikeA.TabStop = true;
-            this.radioAPBikeA.Text = "Mountain Bike";
-            this.radioAPBikeA.UseVisualStyleBackColor = true;
-            // 
-            // radioAPRunA
-            // 
-            this.radioAPRunA.AutoSize = true;
-            this.radioAPRunA.Location = new System.Drawing.Point(22, 55);
-            this.radioAPRunA.Name = "radioAPRunA";
-            this.radioAPRunA.Size = new System.Drawing.Size(70, 17);
-            this.radioAPRunA.TabIndex = 1;
-            this.radioAPRunA.TabStop = true;
-            this.radioAPRunA.Text = "Running";
-            this.radioAPRunA.UseVisualStyleBackColor = true;
-            // 
-            // radioAPCiclismoA
-            // 
-            this.radioAPCiclismoA.AutoSize = true;
-            this.radioAPCiclismoA.Checked = true;
-            this.radioAPCiclismoA.Location = new System.Drawing.Point(22, 27);
-            this.radioAPCiclismoA.Name = "radioAPCiclismoA";
-            this.radioAPCiclismoA.Size = new System.Drawing.Size(67, 17);
-            this.radioAPCiclismoA.TabIndex = 0;
-            this.radioAPCiclismoA.TabStop = true;
-            this.radioAPCiclismoA.Text = "Ciclismo";
-            this.radioAPCiclismoA.UseVisualStyleBackColor = true;
-            // 
-            // ckdListBoxAPA
-            // 
-            this.ckdListBoxAPA.FormattingEnabled = true;
-            this.ckdListBoxAPA.Items.AddRange(new object[] {
-            "Cabalgata",
-            "Canotaje",
-            "Escalada en roca",
-            "Escalada en hielo",
-            "Kayak",
-            "Mountain bike",
-            "Trekking"});
-            this.ckdListBoxAPA.Location = new System.Drawing.Point(372, 184);
-            this.ckdListBoxAPA.Name = "ckdListBoxAPA";
-            this.ckdListBoxAPA.Size = new System.Drawing.Size(120, 123);
-            this.ckdListBoxAPA.TabIndex = 68;
-            // 
-            // groupAPModalidadA
-            // 
-            this.groupAPModalidadA.Controls.Add(this.radioAPPaqueteA);
-            this.groupAPModalidadA.Controls.Add(this.radioAPEventoA);
-            this.groupAPModalidadA.Location = new System.Drawing.Point(28, 15);
-            this.groupAPModalidadA.Name = "groupAPModalidadA";
-            this.groupAPModalidadA.Size = new System.Drawing.Size(278, 40);
-            this.groupAPModalidadA.TabIndex = 67;
-            this.groupAPModalidadA.TabStop = false;
-            this.groupAPModalidadA.Text = "Modalidad:";
-            // 
-            // radioAPPaqueteA
-            // 
-            this.radioAPPaqueteA.AutoSize = true;
-            this.radioAPPaqueteA.Location = new System.Drawing.Point(192, 17);
-            this.radioAPPaqueteA.Name = "radioAPPaqueteA";
-            this.radioAPPaqueteA.Size = new System.Drawing.Size(67, 17);
-            this.radioAPPaqueteA.TabIndex = 1;
-            this.radioAPPaqueteA.TabStop = true;
-            this.radioAPPaqueteA.Text = "Paquete";
-            this.radioAPPaqueteA.UseVisualStyleBackColor = true;
-            // 
-            // radioAPEventoA
-            // 
-            this.radioAPEventoA.AutoSize = true;
-            this.radioAPEventoA.Checked = true;
-            this.radioAPEventoA.Location = new System.Drawing.Point(93, 17);
-            this.radioAPEventoA.Name = "radioAPEventoA";
-            this.radioAPEventoA.Size = new System.Drawing.Size(60, 17);
-            this.radioAPEventoA.TabIndex = 0;
-            this.radioAPEventoA.TabStop = true;
-            this.radioAPEventoA.Text = "Evento";
-            this.radioAPEventoA.UseVisualStyleBackColor = true;
-            // 
-            // lblAPPrecioA
-            // 
-            // 
-            // 
-            // 
-            this.lblAPPrecioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPPrecioA.Location = new System.Drawing.Point(27, 138);
-            this.lblAPPrecioA.Name = "lblAPPrecioA";
-            this.lblAPPrecioA.Size = new System.Drawing.Size(87, 23);
-            this.lblAPPrecioA.TabIndex = 65;
-            this.lblAPPrecioA.Text = "Precio:";
-            // 
-            // btnAPGuardarA
-            // 
-            this.btnAPGuardarA.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnAPGuardarA.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnAPGuardarA.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAPGuardarA.Image = global::OEVApp.Properties.Resources.Save32x32;
-            this.btnAPGuardarA.Location = new System.Drawing.Point(550, 18);
-            this.btnAPGuardarA.Name = "btnAPGuardarA";
-            this.btnAPGuardarA.Size = new System.Drawing.Size(110, 45);
-            this.btnAPGuardarA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnAPGuardarA.TabIndex = 58;
-            this.btnAPGuardarA.Text = "Guardar";
-            // 
-            // txtAPDestinoA
-            // 
-            this.txtAPDestinoA.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtAPDestinoA.Border.Class = "TextBoxBorder";
-            this.txtAPDestinoA.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtAPDestinoA.ForeColor = System.Drawing.Color.Black;
-            this.txtAPDestinoA.Location = new System.Drawing.Point(121, 104);
-            this.txtAPDestinoA.Name = "txtAPDestinoA";
-            this.txtAPDestinoA.Size = new System.Drawing.Size(185, 22);
-            this.txtAPDestinoA.TabIndex = 64;
-            // 
-            // lblAPDestinoA
-            // 
-            // 
-            // 
-            // 
-            this.lblAPDestinoA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPDestinoA.Location = new System.Drawing.Point(28, 104);
-            this.lblAPDestinoA.Name = "lblAPDestinoA";
-            this.lblAPDestinoA.Size = new System.Drawing.Size(87, 23);
-            this.lblAPDestinoA.TabIndex = 63;
-            this.lblAPDestinoA.Text = "Destino:";
-            // 
-            // comboAPDificultadA
-            // 
-            this.comboAPDificultadA.DisplayMember = "Text";
-            this.comboAPDificultadA.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboAPDificultadA.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboAPDificultadA.EnablePopupResize = false;
-            this.comboAPDificultadA.ItemHeight = 16;
-            this.comboAPDificultadA.Location = new System.Drawing.Point(465, 67);
-            this.comboAPDificultadA.Name = "comboAPDificultadA";
-            this.comboAPDificultadA.Size = new System.Drawing.Size(182, 22);
-            this.comboAPDificultadA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboAPDificultadA.TabIndex = 61;
-            // 
-            // lblAPDificultadA
-            // 
-            // 
-            // 
-            // 
-            this.lblAPDificultadA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPDificultadA.Location = new System.Drawing.Point(372, 67);
-            this.lblAPDificultadA.Name = "lblAPDificultadA";
-            this.lblAPDificultadA.Size = new System.Drawing.Size(87, 23);
-            this.lblAPDificultadA.TabIndex = 60;
-            this.lblAPDificultadA.Text = "Dificultad:";
-            // 
-            // richTxtAPItinerarioA
-            // 
-            // 
-            // 
-            // 
-            this.richTxtAPItinerarioA.BackgroundStyle.Class = "RichTextBoxBorder";
-            this.richTxtAPItinerarioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.richTxtAPItinerarioA.Location = new System.Drawing.Point(121, 175);
-            this.richTxtAPItinerarioA.MaxLength = 2000;
-            this.richTxtAPItinerarioA.Name = "richTxtAPItinerarioA";
-            this.richTxtAPItinerarioA.Size = new System.Drawing.Size(185, 134);
-            this.richTxtAPItinerarioA.TabIndex = 59;
-            // 
-            // lblAPItinerarioA
-            // 
-            // 
-            // 
-            // 
-            this.lblAPItinerarioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPItinerarioA.Location = new System.Drawing.Point(28, 175);
-            this.lblAPItinerarioA.Name = "lblAPItinerarioA";
-            this.lblAPItinerarioA.Size = new System.Drawing.Size(87, 23);
-            this.lblAPItinerarioA.TabIndex = 58;
-            this.lblAPItinerarioA.Text = "Itinerario:";
-            // 
-            // txtAPNombreA
-            // 
-            this.txtAPNombreA.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtAPNombreA.Border.Class = "TextBoxBorder";
-            this.txtAPNombreA.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtAPNombreA.ForeColor = System.Drawing.Color.Black;
-            this.txtAPNombreA.Location = new System.Drawing.Point(121, 67);
-            this.txtAPNombreA.Name = "txtAPNombreA";
-            this.txtAPNombreA.Size = new System.Drawing.Size(185, 22);
-            this.txtAPNombreA.TabIndex = 57;
-            // 
-            // lblAPNombreA
-            // 
-            // 
-            // 
-            // 
-            this.lblAPNombreA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPNombreA.Location = new System.Drawing.Point(28, 67);
-            this.lblAPNombreA.Name = "lblAPNombreA";
-            this.lblAPNombreA.Size = new System.Drawing.Size(87, 23);
-            this.lblAPNombreA.TabIndex = 56;
-            this.lblAPNombreA.Text = "(*) Nombre:";
-            // 
-            // dateAPFinA
-            // 
-            // 
-            // 
-            // 
-            this.dateAPFinA.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.dateAPFinA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateAPFinA.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
-            this.dateAPFinA.ButtonDropDown.Visible = true;
-            this.dateAPFinA.DateTimeSelectorVisibility = DevComponents.Editors.DateTimeAdv.eDateTimeSelectorVisibility.Both;
-            this.dateAPFinA.IsInputReadOnly = true;
-            this.dateAPFinA.IsPopupCalendarOpen = false;
-            this.dateAPFinA.Location = new System.Drawing.Point(465, 138);
-            // 
-            // 
-            // 
-            this.dateAPFinA.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dateAPFinA.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateAPFinA.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            this.dateAPFinA.MonthCalendar.ClearButtonVisible = true;
-            // 
-            // 
-            // 
-            this.dateAPFinA.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
-            this.dateAPFinA.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateAPFinA.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
-            this.dateAPFinA.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.dateAPFinA.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
-            this.dateAPFinA.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
-            this.dateAPFinA.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateAPFinA.MonthCalendar.DayClickAutoClosePopup = false;
-            this.dateAPFinA.MonthCalendar.DisplayMonth = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
-            this.dateAPFinA.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.dateAPFinA.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dateAPFinA.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.dateAPFinA.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateAPFinA.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.dateAPFinA.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateAPFinA.MonthCalendar.TodayButtonVisible = true;
-            this.dateAPFinA.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.dateAPFinA.Name = "dateAPFinA";
-            this.dateAPFinA.Size = new System.Drawing.Size(182, 22);
-            this.dateAPFinA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.dateAPFinA.TabIndex = 55;
-            this.dateAPFinA.TimeSelectorTimeFormat = DevComponents.Editors.DateTimeAdv.eTimeSelectorFormat.Time12H;
-            this.dateAPFinA.Value = new System.DateTime(2017, 11, 26, 17, 45, 47, 0);
-            // 
-            // lblAPFechaFinA
-            // 
-            // 
-            // 
-            // 
-            this.lblAPFechaFinA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPFechaFinA.Location = new System.Drawing.Point(372, 137);
-            this.lblAPFechaFinA.Name = "lblAPFechaFinA";
-            this.lblAPFechaFinA.Size = new System.Drawing.Size(87, 23);
-            this.lblAPFechaFinA.TabIndex = 54;
-            this.lblAPFechaFinA.Text = "Fecha de Fin:";
-            // 
-            // lblAPFechaInicioA
-            // 
-            // 
-            // 
-            // 
-            this.lblAPFechaInicioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPFechaInicioA.Location = new System.Drawing.Point(372, 103);
-            this.lblAPFechaInicioA.Name = "lblAPFechaInicioA";
-            this.lblAPFechaInicioA.Size = new System.Drawing.Size(87, 23);
-            this.lblAPFechaInicioA.TabIndex = 53;
-            this.lblAPFechaInicioA.Text = "Fecha de Inicio:";
-            // 
-            // dateAPInicioA
-            // 
-            // 
-            // 
-            // 
-            this.dateAPInicioA.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.dateAPInicioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateAPInicioA.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
-            this.dateAPInicioA.ButtonDropDown.Visible = true;
-            this.dateAPInicioA.DateTimeSelectorVisibility = DevComponents.Editors.DateTimeAdv.eDateTimeSelectorVisibility.Both;
-            this.dateAPInicioA.IsInputReadOnly = true;
-            this.dateAPInicioA.IsPopupCalendarOpen = false;
-            this.dateAPInicioA.Location = new System.Drawing.Point(465, 104);
-            // 
-            // 
-            // 
-            this.dateAPInicioA.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dateAPInicioA.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateAPInicioA.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            this.dateAPInicioA.MonthCalendar.ClearButtonVisible = true;
-            // 
-            // 
-            // 
-            this.dateAPInicioA.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
-            this.dateAPInicioA.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateAPInicioA.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
-            this.dateAPInicioA.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.dateAPInicioA.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
-            this.dateAPInicioA.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
-            this.dateAPInicioA.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateAPInicioA.MonthCalendar.DayClickAutoClosePopup = false;
-            this.dateAPInicioA.MonthCalendar.DisplayMonth = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
-            this.dateAPInicioA.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.dateAPInicioA.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dateAPInicioA.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.dateAPInicioA.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateAPInicioA.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.dateAPInicioA.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateAPInicioA.MonthCalendar.TodayButtonVisible = true;
-            this.dateAPInicioA.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.dateAPInicioA.Name = "dateAPInicioA";
-            this.dateAPInicioA.Size = new System.Drawing.Size(182, 22);
-            this.dateAPInicioA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.dateAPInicioA.TabIndex = 52;
-            this.dateAPInicioA.TimeSelectorTimeFormat = DevComponents.Editors.DateTimeAdv.eTimeSelectorFormat.Time12H;
-            this.dateAPInicioA.Value = new System.DateTime(2017, 11, 26, 17, 45, 43, 0);
-            // 
-            // tabItemAPAgregar
-            // 
-            this.tabItemAPAgregar.AttachedControl = this.superTabControlPanel2;
-            this.tabItemAPAgregar.GlobalItem = false;
-            this.tabItemAPAgregar.Image = global::OEVApp.Properties.Resources.upload_ok;
-            this.tabItemAPAgregar.Name = "tabItemAPAgregar";
-            this.tabItemAPAgregar.Text = "<b>Agregar</b>";
-            // 
-            // superTabControlPanel6
-            // 
-            this.superTabControlPanel6.Controls.Add(this.gridViewAPC);
-            this.superTabControlPanel6.Controls.Add(this.groupAPModalidadC);
-            this.superTabControlPanel6.Controls.Add(this.comboAPDestinoC);
-            this.superTabControlPanel6.Controls.Add(this.btnAPBuscarC);
-            this.superTabControlPanel6.Controls.Add(this.lblAPDestinoC);
-            this.superTabControlPanel6.Controls.Add(this.comboAPDificultadC);
-            this.superTabControlPanel6.Controls.Add(this.lblAPDificultadC);
-            this.superTabControlPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel6.Location = new System.Drawing.Point(0, 38);
-            this.superTabControlPanel6.Name = "superTabControlPanel6";
-            this.superTabControlPanel6.Size = new System.Drawing.Size(1091, 430);
-            this.superTabControlPanel6.TabIndex = 0;
-            this.superTabControlPanel6.TabItem = this.tabItemAPConsultar;
-            // 
-            // gridViewAPC
-            // 
-            this.gridViewAPC.AllowUserToAddRows = false;
-            this.gridViewAPC.AllowUserToDeleteRows = false;
-            this.gridViewAPC.AllowUserToOrderColumns = true;
-            this.gridViewAPC.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridViewAPC.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.APHNombre,
-            this.APHItinerario,
-            this.APHPrecio,
-            this.APHActividades,
-            this.APHFechaInicio,
-            this.APHFechaFin});
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle21.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridViewAPC.DefaultCellStyle = dataGridViewCellStyle21;
-            this.gridViewAPC.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
-            this.gridViewAPC.Location = new System.Drawing.Point(17, 114);
-            this.gridViewAPC.Name = "gridViewAPC";
-            this.gridViewAPC.ReadOnly = true;
-            this.gridViewAPC.Size = new System.Drawing.Size(657, 197);
-            this.gridViewAPC.TabIndex = 93;
-            // 
-            // APHNombre
-            // 
-            this.APHNombre.HeaderText = "Nombre";
-            this.APHNombre.MaxInputLength = 50;
-            this.APHNombre.Name = "APHNombre";
-            this.APHNombre.ReadOnly = true;
-            // 
-            // APHItinerario
-            // 
-            this.APHItinerario.HeaderText = "Itinerario";
-            this.APHItinerario.MaxInputLength = 200;
-            this.APHItinerario.Name = "APHItinerario";
-            this.APHItinerario.ReadOnly = true;
-            // 
-            // APHPrecio
-            // 
-            // 
-            // 
-            // 
-            this.APHPrecio.BackgroundStyle.Class = "DataGridViewNumericBorder";
-            this.APHPrecio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.APHPrecio.HeaderText = "Precio";
-            this.APHPrecio.Increment = 1D;
-            this.APHPrecio.Name = "APHPrecio";
-            this.APHPrecio.ReadOnly = true;
-            this.APHPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // APHActividades
-            // 
-            this.APHActividades.HeaderText = "Actividades";
-            this.APHActividades.MaxInputLength = 100;
-            this.APHActividades.Name = "APHActividades";
-            this.APHActividades.ReadOnly = true;
-            this.APHActividades.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // APHFechaInicio
-            // 
-            // 
-            // 
-            // 
-            this.APHFechaInicio.BackgroundStyle.Class = "DataGridViewDateTimeBorder";
-            this.APHFechaInicio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.APHFechaInicio.HeaderText = "Fecha Inicio";
-            this.APHFechaInicio.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
-            // 
-            // 
-            // 
-            this.APHFechaInicio.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.APHFechaInicio.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.APHFechaInicio.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            // 
-            // 
-            // 
-            this.APHFechaInicio.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.APHFechaInicio.MonthCalendar.DisplayMonth = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
-            this.APHFechaInicio.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.APHFechaInicio.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.APHFechaInicio.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.APHFechaInicio.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.APHFechaInicio.Name = "APHFechaInicio";
-            this.APHFechaInicio.ReadOnly = true;
-            this.APHFechaInicio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // APHFechaFin
-            // 
-            // 
-            // 
-            // 
-            this.APHFechaFin.BackgroundStyle.Class = "DataGridViewDateTimeBorder";
-            this.APHFechaFin.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.APHFechaFin.HeaderText = "Fecha Fin";
-            this.APHFechaFin.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
-            // 
-            // 
-            // 
-            this.APHFechaFin.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.APHFechaFin.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.APHFechaFin.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            // 
-            // 
-            // 
-            this.APHFechaFin.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.APHFechaFin.MonthCalendar.DisplayMonth = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
-            this.APHFechaFin.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.APHFechaFin.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.APHFechaFin.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.APHFechaFin.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.APHFechaFin.Name = "APHFechaFin";
-            this.APHFechaFin.ReadOnly = true;
-            this.APHFechaFin.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // groupAPModalidadC
-            // 
-            this.groupAPModalidadC.Controls.Add(this.radioAPPaqueteC);
-            this.groupAPModalidadC.Controls.Add(this.radioAPEventoC);
-            this.groupAPModalidadC.Location = new System.Drawing.Point(17, 20);
-            this.groupAPModalidadC.Name = "groupAPModalidadC";
-            this.groupAPModalidadC.Size = new System.Drawing.Size(278, 40);
-            this.groupAPModalidadC.TabIndex = 90;
-            this.groupAPModalidadC.TabStop = false;
-            this.groupAPModalidadC.Text = "Modalidad:";
-            // 
-            // radioAPPaqueteC
-            // 
-            this.radioAPPaqueteC.AutoSize = true;
-            this.radioAPPaqueteC.Location = new System.Drawing.Point(192, 17);
-            this.radioAPPaqueteC.Name = "radioAPPaqueteC";
-            this.radioAPPaqueteC.Size = new System.Drawing.Size(67, 17);
-            this.radioAPPaqueteC.TabIndex = 1;
-            this.radioAPPaqueteC.TabStop = true;
-            this.radioAPPaqueteC.Text = "Paquete";
-            this.radioAPPaqueteC.UseVisualStyleBackColor = true;
-            // 
-            // radioAPEventoC
-            // 
-            this.radioAPEventoC.AutoSize = true;
-            this.radioAPEventoC.Checked = true;
-            this.radioAPEventoC.Location = new System.Drawing.Point(93, 17);
-            this.radioAPEventoC.Name = "radioAPEventoC";
-            this.radioAPEventoC.Size = new System.Drawing.Size(60, 17);
-            this.radioAPEventoC.TabIndex = 0;
-            this.radioAPEventoC.TabStop = true;
-            this.radioAPEventoC.Text = "Evento";
-            this.radioAPEventoC.UseVisualStyleBackColor = true;
-            // 
-            // comboAPDestinoC
-            // 
-            this.comboAPDestinoC.DisplayMember = "Text";
-            this.comboAPDestinoC.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboAPDestinoC.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboAPDestinoC.EnablePopupResize = false;
-            this.comboAPDestinoC.ItemHeight = 16;
-            this.comboAPDestinoC.Location = new System.Drawing.Point(110, 73);
-            this.comboAPDestinoC.Name = "comboAPDestinoC";
-            this.comboAPDestinoC.Size = new System.Drawing.Size(185, 22);
-            this.comboAPDestinoC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboAPDestinoC.TabIndex = 91;
-            // 
-            // btnAPBuscarC
-            // 
-            this.btnAPBuscarC.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnAPBuscarC.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnAPBuscarC.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAPBuscarC.Image = global::OEVApp.Properties.Resources.search;
-            this.btnAPBuscarC.Location = new System.Drawing.Point(564, 20);
-            this.btnAPBuscarC.Name = "btnAPBuscarC";
-            this.btnAPBuscarC.Size = new System.Drawing.Size(110, 45);
-            this.btnAPBuscarC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnAPBuscarC.TabIndex = 92;
-            this.btnAPBuscarC.Text = "Buscar";
-            // 
-            // lblAPDestinoC
-            // 
-            // 
-            // 
-            // 
-            this.lblAPDestinoC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPDestinoC.Location = new System.Drawing.Point(17, 73);
-            this.lblAPDestinoC.Name = "lblAPDestinoC";
-            this.lblAPDestinoC.Size = new System.Drawing.Size(87, 23);
-            this.lblAPDestinoC.TabIndex = 89;
-            this.lblAPDestinoC.Text = "Destino:";
-            // 
-            // comboAPDificultadC
-            // 
-            this.comboAPDificultadC.DisplayMember = "Text";
-            this.comboAPDificultadC.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboAPDificultadC.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboAPDificultadC.EnablePopupResize = false;
-            this.comboAPDificultadC.ItemHeight = 16;
-            this.comboAPDificultadC.Location = new System.Drawing.Point(490, 73);
-            this.comboAPDificultadC.Name = "comboAPDificultadC";
-            this.comboAPDificultadC.Size = new System.Drawing.Size(182, 22);
-            this.comboAPDificultadC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboAPDificultadC.TabIndex = 88;
-            // 
-            // lblAPDificultadC
-            // 
-            // 
-            // 
-            // 
-            this.lblAPDificultadC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPDificultadC.Location = new System.Drawing.Point(397, 73);
-            this.lblAPDificultadC.Name = "lblAPDificultadC";
-            this.lblAPDificultadC.Size = new System.Drawing.Size(87, 23);
-            this.lblAPDificultadC.TabIndex = 87;
-            this.lblAPDificultadC.Text = "Dificultad:";
-            // 
-            // tabItemAPConsultar
-            // 
-            this.tabItemAPConsultar.AttachedControl = this.superTabControlPanel6;
-            this.tabItemAPConsultar.GlobalItem = false;
-            this.tabItemAPConsultar.Image = global::OEVApp.Properties.Resources.lupa;
-            this.tabItemAPConsultar.Name = "tabItemAPConsultar";
-            this.tabItemAPConsultar.Text = "<b>Consultar</b>";
+            this.tabItemAPEditar.Click += new System.EventHandler(this.tabItemAPEditar_Click);
             // 
             // superTabControlPanel12
             // 
@@ -3751,9 +3562,9 @@ namespace OEVApp
             this.superTabControlPanel12.Controls.Add(this.lblInstEditNombre);
             this.superTabControlPanel12.Controls.Add(this.btnInstEditGuardar);
             this.superTabControlPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel12.Location = new System.Drawing.Point(0, 0);
+            this.superTabControlPanel12.Location = new System.Drawing.Point(0, 38);
             this.superTabControlPanel12.Name = "superTabControlPanel12";
-            this.superTabControlPanel12.Size = new System.Drawing.Size(1091, 468);
+            this.superTabControlPanel12.Size = new System.Drawing.Size(787, 430);
             this.superTabControlPanel12.TabIndex = 0;
             this.superTabControlPanel12.TabItem = this.tabItemInstEditar;
             // 
@@ -3876,18 +3687,18 @@ namespace OEVApp
             this.HInstEditEspecialidad,
             this.HInstEditExperiencia,
             this.HInstEditTarifa});
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle23.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridInstEdit.DefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridInstEdit.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridInstEdit.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
             this.dataGridInstEdit.Location = new System.Drawing.Point(424, 94);
             this.dataGridInstEdit.Name = "dataGridInstEdit";
-            this.dataGridInstEdit.Size = new System.Drawing.Size(371, 226);
+            this.dataGridInstEdit.Size = new System.Drawing.Size(328, 226);
             this.dataGridInstEdit.TabIndex = 110;
             // 
             // HInstEditEspecialidad
@@ -4156,9 +3967,9 @@ namespace OEVApp
             this.superTabControlPanel11.Controls.Add(this.lblInstAgrNombre);
             this.superTabControlPanel11.Controls.Add(this.btnInstAgrGuardar);
             this.superTabControlPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel11.Location = new System.Drawing.Point(0, 0);
+            this.superTabControlPanel11.Location = new System.Drawing.Point(0, 38);
             this.superTabControlPanel11.Name = "superTabControlPanel11";
-            this.superTabControlPanel11.Size = new System.Drawing.Size(1091, 468);
+            this.superTabControlPanel11.Size = new System.Drawing.Size(787, 430);
             this.superTabControlPanel11.TabIndex = 0;
             this.superTabControlPanel11.TabItem = this.tabItemInstAgregar;
             // 
@@ -4170,18 +3981,18 @@ namespace OEVApp
             this.HInstAgreEspecialidad,
             this.HInstAgreExperiencia,
             this.HInstAgreTarifa});
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle24.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridInstAgr.DefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridInstAgr.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridInstAgr.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
             this.dataGridInstAgr.Location = new System.Drawing.Point(417, 126);
             this.dataGridInstAgr.Name = "dataGridInstAgr";
-            this.dataGridInstAgr.Size = new System.Drawing.Size(371, 197);
+            this.dataGridInstAgr.Size = new System.Drawing.Size(347, 197);
             this.dataGridInstAgr.TabIndex = 94;
             // 
             // HInstAgreEspecialidad
@@ -4429,244 +4240,6 @@ namespace OEVApp
             this.tabItemInstAgregar.Name = "tabItemInstAgregar";
             this.tabItemInstAgregar.Text = "<b>Agregar</b>";
             // 
-            // superTabControlPanel9
-            // 
-            this.superTabControlPanel9.Controls.Add(this.dataGridProvCons);
-            this.superTabControlPanel9.Controls.Add(this.comboProvConsFiltro);
-            this.superTabControlPanel9.Controls.Add(this.radioGroupProvConsBuscar);
-            this.superTabControlPanel9.Controls.Add(this.lblProvCons);
-            this.superTabControlPanel9.Controls.Add(this.txtProvConsFiltro);
-            this.superTabControlPanel9.Controls.Add(this.btnProvConsBuscar);
-            this.superTabControlPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel9.Location = new System.Drawing.Point(0, 38);
-            this.superTabControlPanel9.Name = "superTabControlPanel9";
-            this.superTabControlPanel9.Size = new System.Drawing.Size(1091, 430);
-            this.superTabControlPanel9.TabIndex = 0;
-            this.superTabControlPanel9.TabItem = this.tabItemProvConsultar;
-            // 
-            // dataGridProvCons
-            // 
-            this.dataGridProvCons.AllowUserToAddRows = false;
-            this.dataGridProvCons.AllowUserToDeleteRows = false;
-            this.dataGridProvCons.AllowUserToOrderColumns = true;
-            this.dataGridProvCons.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridProvCons.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.HProvConsCuit,
-            this.HProvConsRazon,
-            this.HProvConsDireccion,
-            this.HProvConsCategoria,
-            this.HProvConsTarifa,
-            this.HProvConsCapacidad,
-            this.HProvConsCiudad,
-            this.HProvConsEmail,
-            this.HProvConsTelefono});
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle20.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridProvCons.DefaultCellStyle = dataGridViewCellStyle20;
-            this.dataGridProvCons.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
-            this.dataGridProvCons.Location = new System.Drawing.Point(22, 193);
-            this.dataGridProvCons.Name = "dataGridProvCons";
-            this.dataGridProvCons.ReadOnly = true;
-            this.dataGridProvCons.Size = new System.Drawing.Size(718, 197);
-            this.dataGridProvCons.TabIndex = 101;
-            // 
-            // HProvConsCuit
-            // 
-            this.HProvConsCuit.HeaderText = "CUIT";
-            this.HProvConsCuit.MaxInputLength = 50;
-            this.HProvConsCuit.Name = "HProvConsCuit";
-            this.HProvConsCuit.ReadOnly = true;
-            // 
-            // HProvConsRazon
-            // 
-            this.HProvConsRazon.HeaderText = "Razón Social";
-            this.HProvConsRazon.MaxInputLength = 200;
-            this.HProvConsRazon.Name = "HProvConsRazon";
-            this.HProvConsRazon.ReadOnly = true;
-            // 
-            // HProvConsDireccion
-            // 
-            this.HProvConsDireccion.HeaderText = "Dirección";
-            this.HProvConsDireccion.MaxInputLength = 100;
-            this.HProvConsDireccion.Name = "HProvConsDireccion";
-            this.HProvConsDireccion.ReadOnly = true;
-            this.HProvConsDireccion.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HProvConsCategoria
-            // 
-            this.HProvConsCategoria.HeaderText = "Categoría";
-            this.HProvConsCategoria.Name = "HProvConsCategoria";
-            this.HProvConsCategoria.ReadOnly = true;
-            this.HProvConsCategoria.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HProvConsTarifa
-            // 
-            this.HProvConsTarifa.HeaderText = "Tarifa";
-            this.HProvConsTarifa.Name = "HProvConsTarifa";
-            this.HProvConsTarifa.ReadOnly = true;
-            this.HProvConsTarifa.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HProvConsCapacidad
-            // 
-            this.HProvConsCapacidad.HeaderText = "Capacidad";
-            this.HProvConsCapacidad.Name = "HProvConsCapacidad";
-            this.HProvConsCapacidad.ReadOnly = true;
-            this.HProvConsCapacidad.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HProvConsCiudad
-            // 
-            this.HProvConsCiudad.HeaderText = "Ciudad";
-            this.HProvConsCiudad.Name = "HProvConsCiudad";
-            this.HProvConsCiudad.ReadOnly = true;
-            // 
-            // HProvConsEmail
-            // 
-            this.HProvConsEmail.HeaderText = "Email";
-            this.HProvConsEmail.Name = "HProvConsEmail";
-            this.HProvConsEmail.ReadOnly = true;
-            // 
-            // HProvConsTelefono
-            // 
-            this.HProvConsTelefono.HeaderText = "Teléfono";
-            this.HProvConsTelefono.Name = "HProvConsTelefono";
-            this.HProvConsTelefono.ReadOnly = true;
-            // 
-            // comboProvConsFiltro
-            // 
-            this.comboProvConsFiltro.DisplayMember = "Text";
-            this.comboProvConsFiltro.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboProvConsFiltro.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboProvConsFiltro.EnablePopupResize = false;
-            this.comboProvConsFiltro.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboProvConsFiltro.ItemHeight = 19;
-            this.comboProvConsFiltro.Location = new System.Drawing.Point(194, 138);
-            this.comboProvConsFiltro.Name = "comboProvConsFiltro";
-            this.comboProvConsFiltro.Size = new System.Drawing.Size(245, 25);
-            this.comboProvConsFiltro.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboProvConsFiltro.TabIndex = 100;
-            // 
-            // radioGroupProvConsBuscar
-            // 
-            this.radioGroupProvConsBuscar.Controls.Add(this.radioProvConsTipo);
-            this.radioGroupProvConsBuscar.Controls.Add(this.radioProvConsCiudad);
-            this.radioGroupProvConsBuscar.Controls.Add(this.radioProvConsRazon);
-            this.radioGroupProvConsBuscar.Controls.Add(this.radioProvConsCuit);
-            this.radioGroupProvConsBuscar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioGroupProvConsBuscar.Location = new System.Drawing.Point(22, 59);
-            this.radioGroupProvConsBuscar.Name = "radioGroupProvConsBuscar";
-            this.radioGroupProvConsBuscar.Size = new System.Drawing.Size(417, 58);
-            this.radioGroupProvConsBuscar.TabIndex = 98;
-            this.radioGroupProvConsBuscar.TabStop = false;
-            this.radioGroupProvConsBuscar.Text = "Buscar";
-            // 
-            // radioProvConsTipo
-            // 
-            this.radioProvConsTipo.AutoSize = true;
-            this.radioProvConsTipo.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioProvConsTipo.Location = new System.Drawing.Point(312, 23);
-            this.radioProvConsTipo.Name = "radioProvConsTipo";
-            this.radioProvConsTipo.Size = new System.Drawing.Size(57, 24);
-            this.radioProvConsTipo.TabIndex = 3;
-            this.radioProvConsTipo.TabStop = true;
-            this.radioProvConsTipo.Text = "Tipo";
-            this.radioProvConsTipo.UseVisualStyleBackColor = true;
-            this.radioProvConsTipo.Click += new System.EventHandler(this.radioProvConsTipo_Click);
-            // 
-            // radioProvConsCiudad
-            // 
-            this.radioProvConsCiudad.AutoSize = true;
-            this.radioProvConsCiudad.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioProvConsCiudad.Location = new System.Drawing.Point(220, 23);
-            this.radioProvConsCiudad.Name = "radioProvConsCiudad";
-            this.radioProvConsCiudad.Size = new System.Drawing.Size(74, 24);
-            this.radioProvConsCiudad.TabIndex = 2;
-            this.radioProvConsCiudad.TabStop = true;
-            this.radioProvConsCiudad.Text = "Ciudad";
-            this.radioProvConsCiudad.UseVisualStyleBackColor = true;
-            this.radioProvConsCiudad.Click += new System.EventHandler(this.radioProvConsCiudad_Click);
-            // 
-            // radioProvConsRazon
-            // 
-            this.radioProvConsRazon.AutoSize = true;
-            this.radioProvConsRazon.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioProvConsRazon.Location = new System.Drawing.Point(85, 23);
-            this.radioProvConsRazon.Name = "radioProvConsRazon";
-            this.radioProvConsRazon.Size = new System.Drawing.Size(112, 24);
-            this.radioProvConsRazon.TabIndex = 1;
-            this.radioProvConsRazon.TabStop = true;
-            this.radioProvConsRazon.Text = "Razón Social";
-            this.radioProvConsRazon.UseVisualStyleBackColor = true;
-            this.radioProvConsRazon.CheckedChanged += new System.EventHandler(this.radioProvConsRazon_Click);
-            // 
-            // radioProvConsCuit
-            // 
-            this.radioProvConsCuit.AutoSize = true;
-            this.radioProvConsCuit.Checked = true;
-            this.radioProvConsCuit.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioProvConsCuit.Location = new System.Drawing.Point(20, 23);
-            this.radioProvConsCuit.Name = "radioProvConsCuit";
-            this.radioProvConsCuit.Size = new System.Drawing.Size(58, 24);
-            this.radioProvConsCuit.TabIndex = 0;
-            this.radioProvConsCuit.TabStop = true;
-            this.radioProvConsCuit.Text = "CUIT";
-            this.radioProvConsCuit.UseVisualStyleBackColor = true;
-            this.radioProvConsCuit.CheckedChanged += new System.EventHandler(this.radioProvConsCuit_Click);
-            // 
-            // lblProvCons
-            // 
-            // 
-            // 
-            // 
-            this.lblProvCons.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblProvCons.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProvCons.Location = new System.Drawing.Point(22, 19);
-            this.lblProvCons.Name = "lblProvCons";
-            this.lblProvCons.Size = new System.Drawing.Size(191, 23);
-            this.lblProvCons.TabIndex = 96;
-            this.lblProvCons.Text = "Alojamiento";
-            // 
-            // txtProvConsFiltro
-            // 
-            this.txtProvConsFiltro.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtProvConsFiltro.Border.Class = "TextBoxBorder";
-            this.txtProvConsFiltro.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtProvConsFiltro.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtProvConsFiltro.ForeColor = System.Drawing.Color.Black;
-            this.txtProvConsFiltro.Location = new System.Drawing.Point(22, 138);
-            this.txtProvConsFiltro.Name = "txtProvConsFiltro";
-            this.txtProvConsFiltro.Size = new System.Drawing.Size(149, 25);
-            this.txtProvConsFiltro.TabIndex = 99;
-            // 
-            // btnProvConsBuscar
-            // 
-            this.btnProvConsBuscar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnProvConsBuscar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnProvConsBuscar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProvConsBuscar.Image = global::OEVApp.Properties.Resources.search;
-            this.btnProvConsBuscar.Location = new System.Drawing.Point(631, 19);
-            this.btnProvConsBuscar.Name = "btnProvConsBuscar";
-            this.btnProvConsBuscar.Size = new System.Drawing.Size(110, 45);
-            this.btnProvConsBuscar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnProvConsBuscar.TabIndex = 97;
-            this.btnProvConsBuscar.Text = "Buscar";
-            this.btnProvConsBuscar.Click += new System.EventHandler(this.btnProvConsBuscar_Click);
-            // 
-            // tabItemProvConsultar
-            // 
-            this.tabItemProvConsultar.AttachedControl = this.superTabControlPanel9;
-            this.tabItemProvConsultar.GlobalItem = false;
-            this.tabItemProvConsultar.Image = global::OEVApp.Properties.Resources.lupa;
-            this.tabItemProvConsultar.Name = "tabItemProvConsultar";
-            this.tabItemProvConsultar.Text = "<b>Consultar</b>";
-            // 
             // superTabControlPanel7
             // 
             this.superTabControlPanel7.Controls.Add(this.integerInProvAgrCap);
@@ -4692,9 +4265,9 @@ namespace OEVApp
             this.superTabControlPanel7.Controls.Add(this.lblProvAgrRazon);
             this.superTabControlPanel7.Controls.Add(this.lblProvAgr);
             this.superTabControlPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel7.Location = new System.Drawing.Point(0, 0);
+            this.superTabControlPanel7.Location = new System.Drawing.Point(0, 38);
             this.superTabControlPanel7.Name = "superTabControlPanel7";
-            this.superTabControlPanel7.Size = new System.Drawing.Size(1091, 468);
+            this.superTabControlPanel7.Size = new System.Drawing.Size(787, 430);
             this.superTabControlPanel7.TabIndex = 0;
             this.superTabControlPanel7.TabItem = this.tabItemProvAgregar;
             // 
@@ -5032,145 +4605,142 @@ namespace OEVApp
             this.superTabItem1.Name = "superTabItem1";
             this.superTabItem1.Text = "Consultar";
             // 
-            // doubleACPrecioDesdeC
+            // checkedListAPActividadA
+            // 
+            this.checkedListAPActividadA.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkedListAPActividadA.FormattingEnabled = true;
+            this.checkedListAPActividadA.Items.AddRange(new object[] {
+            "Cabalgata",
+            "Canotaje",
+            "Ciclismo",
+            "Escalada en Hielo",
+            "Escalada en Roca",
+            "Kayak",
+            "Mountain Bike",
+            "Running",
+            "Trekking"});
+            this.checkedListAPActividadA.Location = new System.Drawing.Point(15, 23);
+            this.checkedListAPActividadA.Name = "checkedListAPActividadA";
+            this.checkedListAPActividadA.Size = new System.Drawing.Size(195, 123);
+            this.checkedListAPActividadA.TabIndex = 73;
+            // 
+            // groupAPDestinoA
+            // 
+            this.groupAPDestinoA.Controls.Add(this.checkedListAPDestinoA);
+            this.groupAPDestinoA.Location = new System.Drawing.Point(28, 157);
+            this.groupAPDestinoA.Name = "groupAPDestinoA";
+            this.groupAPDestinoA.Size = new System.Drawing.Size(278, 165);
+            this.groupAPDestinoA.TabIndex = 73;
+            this.groupAPDestinoA.TabStop = false;
+            this.groupAPDestinoA.Text = "(*) Destino:";
+            // 
+            // lblAPIdE
             // 
             // 
             // 
             // 
-            this.doubleACPrecioDesdeC.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.doubleACPrecioDesdeC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.doubleACPrecioDesdeC.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
-            this.doubleACPrecioDesdeC.DisplayFormat = "000";
-            this.doubleACPrecioDesdeC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.doubleACPrecioDesdeC.Increment = 100D;
-            this.doubleACPrecioDesdeC.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
-            this.doubleACPrecioDesdeC.Location = new System.Drawing.Point(129, 110);
-            this.doubleACPrecioDesdeC.MaxValue = 1000000D;
-            this.doubleACPrecioDesdeC.MinValue = 100D;
-            this.doubleACPrecioDesdeC.Name = "doubleACPrecioDesdeC";
-            this.doubleACPrecioDesdeC.ShowUpDown = true;
-            this.doubleACPrecioDesdeC.Size = new System.Drawing.Size(198, 25);
-            this.doubleACPrecioDesdeC.TabIndex = 87;
-            this.doubleACPrecioDesdeC.Value = 100D;
-            this.doubleACPrecioDesdeC.WatermarkText = "1.000";
+            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPIdE.Location = new System.Drawing.Point(380, 25);
+            this.lblAPIdE.Name = "lblAPIdE";
+            this.lblAPIdE.Size = new System.Drawing.Size(87, 23);
+            this.lblAPIdE.TabIndex = 92;
+            this.lblAPIdE.Visible = false;
             // 
-            // lblACPrecioDesdeC
+            // txtAPDificultadE
+            // 
+            this.txtAPDificultadE.BackColor = System.Drawing.Color.White;
             // 
             // 
             // 
+            this.txtAPDificultadE.Border.Class = "TextBoxBorder";
+            this.txtAPDificultadE.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtAPDificultadE.Enabled = false;
+            this.txtAPDificultadE.ForeColor = System.Drawing.Color.Black;
+            this.txtAPDificultadE.Location = new System.Drawing.Point(115, 218);
+            this.txtAPDificultadE.Name = "txtAPDificultadE";
+            this.txtAPDificultadE.Size = new System.Drawing.Size(228, 22);
+            this.txtAPDificultadE.TabIndex = 91;
             // 
-            this.lblACPrecioDesdeC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACPrecioDesdeC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblACPrecioDesdeC.Location = new System.Drawing.Point(21, 109);
-            this.lblACPrecioDesdeC.Name = "lblACPrecioDesdeC";
-            this.lblACPrecioDesdeC.Size = new System.Drawing.Size(102, 23);
-            this.lblACPrecioDesdeC.TabIndex = 86;
-            this.lblACPrecioDesdeC.Text = "Precio desde $:";
-            // 
-            // doubleACPrecioHastaC
+            // chkAPEstadoE
             // 
             // 
             // 
             // 
-            this.doubleACPrecioHastaC.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.doubleACPrecioHastaC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.doubleACPrecioHastaC.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
-            this.doubleACPrecioHastaC.DisplayFormat = "000";
-            this.doubleACPrecioHastaC.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.doubleACPrecioHastaC.Increment = 100D;
-            this.doubleACPrecioHastaC.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
-            this.doubleACPrecioHastaC.Location = new System.Drawing.Point(129, 146);
-            this.doubleACPrecioHastaC.MaxValue = 1000000D;
-            this.doubleACPrecioHastaC.MinValue = 100D;
-            this.doubleACPrecioHastaC.Name = "doubleACPrecioHastaC";
-            this.doubleACPrecioHastaC.ShowUpDown = true;
-            this.doubleACPrecioHastaC.Size = new System.Drawing.Size(198, 22);
-            this.doubleACPrecioHastaC.TabIndex = 93;
-            this.doubleACPrecioHastaC.Value = 100D;
-            this.doubleACPrecioHastaC.WatermarkText = "2.500";
+            this.chkAPEstadoE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.chkAPEstadoE.Location = new System.Drawing.Point(120, 328);
+            this.chkAPEstadoE.Name = "chkAPEstadoE";
+            this.chkAPEstadoE.Size = new System.Drawing.Size(38, 23);
+            this.chkAPEstadoE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.chkAPEstadoE.TabIndex = 94;
             // 
-            // lblACPrecioHastaC
+            // labelX1
             // 
             // 
             // 
             // 
-            this.lblACPrecioHastaC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACPrecioHastaC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblACPrecioHastaC.Location = new System.Drawing.Point(21, 146);
-            this.lblACPrecioHastaC.Name = "lblACPrecioHastaC";
-            this.lblACPrecioHastaC.Size = new System.Drawing.Size(102, 23);
-            this.lblACPrecioHastaC.TabIndex = 92;
-            this.lblACPrecioHastaC.Text = "Precio hasta $:";
+            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX1.Location = new System.Drawing.Point(22, 328);
+            this.labelX1.Name = "labelX1";
+            this.labelX1.Size = new System.Drawing.Size(87, 23);
+            this.labelX1.TabIndex = 93;
+            this.labelX1.Text = "Estado:";
             // 
-            // chkACMontC
+            // txtAPActividadE
             // 
-            // 
-            // 
-            // 
-            this.chkACMontC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.chkACMontC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkACMontC.Location = new System.Drawing.Point(31, 21);
-            this.chkACMontC.Name = "chkACMontC";
-            this.chkACMontC.Size = new System.Drawing.Size(87, 23);
-            this.chkACMontC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.chkACMontC.TabIndex = 94;
-            this.chkACMontC.Text = "Montaña";
-            // 
-            // chkACRunC
+            this.txtAPActividadE.BackColor = System.Drawing.Color.White;
             // 
             // 
             // 
+            this.txtAPActividadE.Border.Class = "TextBoxBorder";
+            this.txtAPActividadE.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtAPActividadE.Enabled = false;
+            this.txtAPActividadE.ForeColor = System.Drawing.Color.Black;
+            this.txtAPActividadE.Location = new System.Drawing.Point(116, 138);
+            this.txtAPActividadE.Name = "txtAPActividadE";
+            this.txtAPActividadE.Size = new System.Drawing.Size(227, 22);
+            this.txtAPActividadE.TabIndex = 89;
             // 
-            this.chkACRunC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.chkACRunC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkACRunC.Location = new System.Drawing.Point(31, 44);
-            this.chkACRunC.Name = "chkACRunC";
-            this.chkACRunC.Size = new System.Drawing.Size(87, 23);
-            this.chkACRunC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.chkACRunC.TabIndex = 95;
-            this.chkACRunC.Text = "Running";
-            // 
-            // chkACTrekC
+            // lblAPActividadE
             // 
             // 
             // 
             // 
-            this.chkACTrekC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.chkACTrekC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkACTrekC.Location = new System.Drawing.Point(31, 65);
-            this.chkACTrekC.Name = "chkACTrekC";
-            this.chkACTrekC.Size = new System.Drawing.Size(87, 23);
-            this.chkACTrekC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.chkACTrekC.TabIndex = 96;
-            this.chkACTrekC.Text = "Trekking";
+            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPActividadE.Location = new System.Drawing.Point(23, 137);
+            this.lblAPActividadE.Name = "lblAPActividadE";
+            this.lblAPActividadE.Size = new System.Drawing.Size(87, 23);
+            this.lblAPActividadE.TabIndex = 88;
+            this.lblAPActividadE.Text = "Actividad:";
             // 
-            // chkACBikeC
+            // lblAPDestinoE
             // 
             // 
             // 
             // 
-            this.chkACBikeC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.chkACBikeC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkACBikeC.Location = new System.Drawing.Point(149, 21);
-            this.chkACBikeC.Name = "chkACBikeC";
-            this.chkACBikeC.Size = new System.Drawing.Size(121, 23);
-            this.chkACBikeC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.chkACBikeC.TabIndex = 97;
-            this.chkACBikeC.Text = "Mountain Bike";
+            this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPDestinoE.Location = new System.Drawing.Point(22, 177);
+            this.lblAPDestinoE.Name = "lblAPDestinoE";
+            this.lblAPDestinoE.Size = new System.Drawing.Size(87, 23);
+            this.lblAPDestinoE.TabIndex = 95;
+            this.lblAPDestinoE.Text = "Destino:";
             // 
-            // chkACAuxC
+            // txtAPDestinoE
             // 
-            // 
+            this.txtAPDestinoE.BackColor = System.Drawing.Color.White;
             // 
             // 
-            this.chkACAuxC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.chkACAuxC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkACAuxC.Location = new System.Drawing.Point(149, 44);
-            this.chkACAuxC.Name = "chkACAuxC";
-            this.chkACAuxC.Size = new System.Drawing.Size(156, 23);
-            this.chkACAuxC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.chkACAuxC.TabIndex = 98;
-            this.chkACAuxC.Text = "Primeros Auxilios y RCP";
+            // 
+            this.txtAPDestinoE.Border.Class = "TextBoxBorder";
+            this.txtAPDestinoE.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtAPDestinoE.Enabled = false;
+            this.txtAPDestinoE.ForeColor = System.Drawing.Color.Black;
+            this.txtAPDestinoE.Location = new System.Drawing.Point(115, 171);
+            this.txtAPDestinoE.Multiline = true;
+            this.txtAPDestinoE.Name = "txtAPDestinoE";
+            this.txtAPDestinoE.Size = new System.Drawing.Size(228, 35);
+            this.txtAPDestinoE.TabIndex = 97;
             // 
             // chkACGpsC
             // 
@@ -5186,72 +4756,614 @@ namespace OEVApp
             this.chkACGpsC.TabIndex = 99;
             this.chkACGpsC.Text = "Orientacion y GPS";
             // 
-            // HNombre
+            // chkACAuxC
             // 
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HNombre.DefaultCellStyle = dataGridViewCellStyle13;
-            this.HNombre.HeaderText = "Nombre";
-            this.HNombre.MaxInputLength = 50;
-            this.HNombre.Name = "HNombre";
-            this.HNombre.ReadOnly = true;
             // 
-            // HActividad
             // 
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HActividad.DefaultCellStyle = dataGridViewCellStyle14;
-            this.HActividad.HeaderText = "Actividad";
-            this.HActividad.MaxInputLength = 200;
-            this.HActividad.Name = "HActividad";
-            this.HActividad.ReadOnly = true;
             // 
-            // HPrecio
+            this.chkACAuxC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.chkACAuxC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkACAuxC.Location = new System.Drawing.Point(149, 44);
+            this.chkACAuxC.Name = "chkACAuxC";
+            this.chkACAuxC.Size = new System.Drawing.Size(156, 23);
+            this.chkACAuxC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.chkACAuxC.TabIndex = 98;
+            this.chkACAuxC.Text = "Primeros Auxilios y RCP";
             // 
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HPrecio.DefaultCellStyle = dataGridViewCellStyle15;
-            this.HPrecio.HeaderText = "Precio";
-            this.HPrecio.Name = "HPrecio";
-            this.HPrecio.ReadOnly = true;
-            this.HPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // chkACBikeC
             // 
-            // HDias
             // 
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.HDias.DefaultCellStyle = dataGridViewCellStyle16;
-            this.HDias.HeaderText = "Días";
-            this.HDias.MaxInputLength = 100;
-            this.HDias.Name = "HDias";
-            this.HDias.ReadOnly = true;
-            this.HDias.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
-            // HHoraInicio
             // 
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.HHoraInicio.DefaultCellStyle = dataGridViewCellStyle17;
-            this.HHoraInicio.HeaderText = "Hora Inicio";
-            this.HHoraInicio.Name = "HHoraInicio";
-            this.HHoraInicio.ReadOnly = true;
-            this.HHoraInicio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.chkACBikeC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.chkACBikeC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkACBikeC.Location = new System.Drawing.Point(149, 21);
+            this.chkACBikeC.Name = "chkACBikeC";
+            this.chkACBikeC.Size = new System.Drawing.Size(121, 23);
+            this.chkACBikeC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.chkACBikeC.TabIndex = 97;
+            this.chkACBikeC.Text = "Mountain Bike";
             // 
-            // HHoraFin
+            // chkACTrekC
             // 
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.HHoraFin.DefaultCellStyle = dataGridViewCellStyle18;
-            this.HHoraFin.HeaderText = "Hora Fin";
-            this.HHoraFin.Name = "HHoraFin";
-            this.HHoraFin.ReadOnly = true;
-            this.HHoraFin.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
-            // HEstado
             // 
-            this.HEstado.Checked = true;
-            this.HEstado.CheckState = System.Windows.Forms.CheckState.Indeterminate;
-            this.HEstado.CheckValue = "N";
-            this.HEstado.Enabled = false;
-            this.HEstado.HeaderText = "Estado";
-            this.HEstado.Name = "HEstado";
-            this.HEstado.ReadOnly = true;
-            this.HEstado.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HEstado.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            this.chkACTrekC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.chkACTrekC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkACTrekC.Location = new System.Drawing.Point(31, 65);
+            this.chkACTrekC.Name = "chkACTrekC";
+            this.chkACTrekC.Size = new System.Drawing.Size(87, 23);
+            this.chkACTrekC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.chkACTrekC.TabIndex = 96;
+            this.chkACTrekC.Text = "Trekking";
+            // 
+            // chkACRunC
+            // 
+            // 
+            // 
+            // 
+            this.chkACRunC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.chkACRunC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkACRunC.Location = new System.Drawing.Point(31, 44);
+            this.chkACRunC.Name = "chkACRunC";
+            this.chkACRunC.Size = new System.Drawing.Size(87, 23);
+            this.chkACRunC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.chkACRunC.TabIndex = 95;
+            this.chkACRunC.Text = "Running";
+            // 
+            // chkACMontC
+            // 
+            // 
+            // 
+            // 
+            this.chkACMontC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.chkACMontC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkACMontC.Location = new System.Drawing.Point(31, 21);
+            this.chkACMontC.Name = "chkACMontC";
+            this.chkACMontC.Size = new System.Drawing.Size(87, 23);
+            this.chkACMontC.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.chkACMontC.TabIndex = 94;
+            this.chkACMontC.Text = "Montaña";
+            // 
+            // doubleAPPrecioHastaC
+            // 
+            // 
+            // 
+            // 
+            this.doubleAPPrecioHastaC.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.doubleAPPrecioHastaC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.doubleAPPrecioHastaC.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.doubleAPPrecioHastaC.DisplayFormat = "000";
+            this.doubleAPPrecioHastaC.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.doubleAPPrecioHastaC.Increment = 100D;
+            this.doubleAPPrecioHastaC.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
+            this.doubleAPPrecioHastaC.Location = new System.Drawing.Point(122, 159);
+            this.doubleAPPrecioHastaC.MaxValue = 1000000D;
+            this.doubleAPPrecioHastaC.MinValue = 100D;
+            this.doubleAPPrecioHastaC.Name = "doubleAPPrecioHastaC";
+            this.doubleAPPrecioHastaC.ShowUpDown = true;
+            this.doubleAPPrecioHastaC.Size = new System.Drawing.Size(130, 22);
+            this.doubleAPPrecioHastaC.TabIndex = 97;
+            this.doubleAPPrecioHastaC.Value = 100D;
+            this.doubleAPPrecioHastaC.WatermarkText = "2.500";
+            // 
+            // labelX2
+            // 
+            // 
+            // 
+            // 
+            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX2.Location = new System.Drawing.Point(17, 159);
+            this.labelX2.Name = "labelX2";
+            this.labelX2.Size = new System.Drawing.Size(99, 23);
+            this.labelX2.TabIndex = 96;
+            this.labelX2.Text = "Precio hasta $:";
+            // 
+            // doubleAPPrecioDesdeC
+            // 
+            // 
+            // 
+            // 
+            this.doubleAPPrecioDesdeC.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.doubleAPPrecioDesdeC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.doubleAPPrecioDesdeC.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.doubleAPPrecioDesdeC.DisplayFormat = "000";
+            this.doubleAPPrecioDesdeC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doubleAPPrecioDesdeC.Increment = 100D;
+            this.doubleAPPrecioDesdeC.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
+            this.doubleAPPrecioDesdeC.Location = new System.Drawing.Point(122, 119);
+            this.doubleAPPrecioDesdeC.MaxValue = 1000000D;
+            this.doubleAPPrecioDesdeC.MinValue = 100D;
+            this.doubleAPPrecioDesdeC.Name = "doubleAPPrecioDesdeC";
+            this.doubleAPPrecioDesdeC.ShowUpDown = true;
+            this.doubleAPPrecioDesdeC.Size = new System.Drawing.Size(130, 25);
+            this.doubleAPPrecioDesdeC.TabIndex = 95;
+            this.doubleAPPrecioDesdeC.Value = 100D;
+            this.doubleAPPrecioDesdeC.WatermarkText = "1.000";
+            // 
+            // labelX3
+            // 
+            // 
+            // 
+            // 
+            this.labelX3.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX3.Location = new System.Drawing.Point(17, 118);
+            this.labelX3.Name = "labelX3";
+            this.labelX3.Size = new System.Drawing.Size(99, 23);
+            this.labelX3.TabIndex = 94;
+            this.labelX3.Text = "Precio desde $:";
+            // 
+            // groupAPActividadC
+            // 
+            this.groupAPActividadC.Controls.Add(this.checkedListAPActividadE);
+            this.groupAPActividadC.Location = new System.Drawing.Point(265, 69);
+            this.groupAPActividadC.Name = "groupAPActividadC";
+            this.groupAPActividadC.Size = new System.Drawing.Size(191, 128);
+            this.groupAPActividadC.TabIndex = 98;
+            this.groupAPActividadC.TabStop = false;
+            this.groupAPActividadC.Text = "Actividad:";
+            // 
+            // checkedListAPActividadE
+            // 
+            this.checkedListAPActividadE.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkedListAPActividadE.FormattingEnabled = true;
+            this.checkedListAPActividadE.Items.AddRange(new object[] {
+            "Cabalgata",
+            "Canotaje",
+            "Ciclismo",
+            "Escalada en Hielo",
+            "Escalada en Roca",
+            "Kayak",
+            "Mountain Bike",
+            "Running",
+            "Trekking"});
+            this.checkedListAPActividadE.Location = new System.Drawing.Point(11, 23);
+            this.checkedListAPActividadE.Name = "checkedListAPActividadE";
+            this.checkedListAPActividadE.Size = new System.Drawing.Size(163, 89);
+            this.checkedListAPActividadE.TabIndex = 73;
+            // 
+            // groupAPDestinoC
+            // 
+            this.groupAPDestinoC.Controls.Add(this.checkedListAPDestinoC);
+            this.groupAPDestinoC.Location = new System.Drawing.Point(463, 68);
+            this.groupAPDestinoC.Name = "groupAPDestinoC";
+            this.groupAPDestinoC.Size = new System.Drawing.Size(243, 129);
+            this.groupAPDestinoC.TabIndex = 99;
+            this.groupAPDestinoC.TabStop = false;
+            this.groupAPDestinoC.Text = "Destino:";
+            // 
+            // checkedListAPDestinoC
+            // 
+            this.checkedListAPDestinoC.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkedListAPDestinoC.FormattingEnabled = true;
+            this.checkedListAPDestinoC.Location = new System.Drawing.Point(11, 23);
+            this.checkedListAPDestinoC.Name = "checkedListAPDestinoC";
+            this.checkedListAPDestinoC.Size = new System.Drawing.Size(216, 89);
+            this.checkedListAPDestinoC.TabIndex = 72;
+            // 
+            // tabItemACalAgregar
+            // 
+            this.tabItemACalAgregar.AttachedControl = this.superTabControlPanel13;
+            this.tabItemACalAgregar.GlobalItem = false;
+            this.tabItemACalAgregar.Name = "tabItemACalAgregar";
+            this.tabItemACalAgregar.Text = "Agregar";
+            // 
+            // superTabControlPanel13
+            // 
+            this.superTabControlPanel13.Controls.Add(this.wizard1);
+            this.superTabControlPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel13.Location = new System.Drawing.Point(0, 38);
+            this.superTabControlPanel13.Name = "superTabControlPanel13";
+            this.superTabControlPanel13.Size = new System.Drawing.Size(787, 430);
+            this.superTabControlPanel13.TabIndex = 0;
+            this.superTabControlPanel13.TabItem = this.tabItemACalAgregar;
+            // 
+            // wizard1
+            // 
+            this.wizard1.CancelButtonText = "Cancel";
+            this.wizard1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.wizard1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.wizard1.FinishButtonTabIndex = 3;
+            // 
+            // 
+            // 
+            this.wizard1.FooterStyle.BackColor = System.Drawing.SystemColors.Control;
+            this.wizard1.FooterStyle.BackColorGradientAngle = 90;
+            this.wizard1.FooterStyle.BorderBottomWidth = 1;
+            this.wizard1.FooterStyle.BorderColor = System.Drawing.SystemColors.Control;
+            this.wizard1.FooterStyle.BorderLeftWidth = 1;
+            this.wizard1.FooterStyle.BorderRightWidth = 1;
+            this.wizard1.FooterStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Etched;
+            this.wizard1.FooterStyle.BorderTopColor = System.Drawing.SystemColors.Control;
+            this.wizard1.FooterStyle.BorderTopWidth = 1;
+            this.wizard1.FooterStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.wizard1.FooterStyle.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.wizard1.FooterStyle.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.wizard1.HeaderCaptionFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wizard1.HeaderDescriptionFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wizard1.HeaderDescriptionIndent = 16;
+            // 
+            // 
+            // 
+            this.wizard1.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.wizard1.HeaderStyle.BackColorGradientAngle = 90;
+            this.wizard1.HeaderStyle.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Etched;
+            this.wizard1.HeaderStyle.BorderBottomWidth = 1;
+            this.wizard1.HeaderStyle.BorderColor = System.Drawing.SystemColors.Control;
+            this.wizard1.HeaderStyle.BorderLeftWidth = 1;
+            this.wizard1.HeaderStyle.BorderRightWidth = 1;
+            this.wizard1.HeaderStyle.BorderTopWidth = 1;
+            this.wizard1.HeaderStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.wizard1.HeaderStyle.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.wizard1.HeaderStyle.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.wizard1.Location = new System.Drawing.Point(0, 0);
+            this.wizard1.Name = "wizard1";
+            this.wizard1.Size = new System.Drawing.Size(787, 430);
+            this.wizard1.TabIndex = 0;
+            this.wizard1.WizardPages.AddRange(new DevComponents.DotNetBar.WizardPage[] {
+            this.wizardPage1,
+            this.wizardPage2});
+            // 
+            // wizardPage1
+            // 
+            this.wizardPage1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.wizardPage1.BackColor = System.Drawing.Color.White;
+            this.wizardPage1.Controls.Add(this.label1);
+            this.wizardPage1.Controls.Add(this.label2);
+            this.wizardPage1.Controls.Add(this.label3);
+            this.wizardPage1.InteriorPage = false;
+            this.wizardPage1.Location = new System.Drawing.Point(0, 0);
+            this.wizardPage1.Name = "wizardPage1";
+            this.wizardPage1.Size = new System.Drawing.Size(787, 384);
+            // 
+            // 
+            // 
+            this.wizardPage1.Style.BackColor = System.Drawing.Color.White;
+            this.wizardPage1.Style.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("wizardPage1.Style.BackgroundImage")));
+            this.wizardPage1.Style.BackgroundImagePosition = DevComponents.DotNetBar.eStyleBackgroundImage.TopLeft;
+            this.wizardPage1.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.wizardPage1.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.wizardPage1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.wizardPage1.TabIndex = 7;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 16F);
+            this.label1.Location = new System.Drawing.Point(210, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(434, 42);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Wizard para crear un calendario";
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(225, 84);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(522, 252);
+            this.label2.TabIndex = 1;
+            this.label2.Text = resources.GetString("label2.Text");
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Location = new System.Drawing.Point(210, 361);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(120, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "To continue, click Next.";
+            // 
+            // wizardPage2
+            // 
+            this.wizardPage2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.wizardPage2.AntiAlias = false;
+            this.wizardPage2.Controls.Add(this.dateAPInicioE);
+            this.wizardPage2.Controls.Add(this.lblAPFechaInicioE);
+            this.wizardPage2.Controls.Add(this.lblAPFechaFinE);
+            this.wizardPage2.Controls.Add(this.dateAPFinE);
+            this.wizardPage2.Location = new System.Drawing.Point(7, 72);
+            this.wizardPage2.Name = "wizardPage2";
+            this.wizardPage2.PageDescription = "< Wizard step description >";
+            this.wizardPage2.PageTitle = "< Wizard step title >";
+            this.wizardPage2.Size = new System.Drawing.Size(773, 300);
+            // 
+            // 
+            // 
+            this.wizardPage2.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.wizardPage2.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.wizardPage2.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.wizardPage2.TabIndex = 8;
+            // 
+            // dateAPInicioE
+            // 
+            // 
+            // 
+            // 
+            this.dateAPInicioE.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.dateAPInicioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateAPInicioE.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
+            this.dateAPInicioE.ButtonDropDown.Visible = true;
+            this.dateAPInicioE.DateTimeSelectorVisibility = DevComponents.Editors.DateTimeAdv.eDateTimeSelectorVisibility.Both;
+            this.dateAPInicioE.Enabled = false;
+            this.dateAPInicioE.Format = DevComponents.Editors.eDateTimePickerFormat.Custom;
+            this.dateAPInicioE.IsInputReadOnly = true;
+            this.dateAPInicioE.IsPopupCalendarOpen = false;
+            this.dateAPInicioE.Location = new System.Drawing.Point(319, 120);
+            // 
+            // 
+            // 
+            this.dateAPInicioE.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dateAPInicioE.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateAPInicioE.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            this.dateAPInicioE.MonthCalendar.ClearButtonVisible = true;
+            // 
+            // 
+            // 
+            this.dateAPInicioE.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
+            this.dateAPInicioE.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
+            this.dateAPInicioE.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.dateAPInicioE.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.dateAPInicioE.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
+            this.dateAPInicioE.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
+            this.dateAPInicioE.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateAPInicioE.MonthCalendar.DayClickAutoClosePopup = false;
+            this.dateAPInicioE.MonthCalendar.DisplayMonth = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
+            this.dateAPInicioE.MonthCalendar.MarkedDates = new System.DateTime[0];
+            this.dateAPInicioE.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dateAPInicioE.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.dateAPInicioE.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
+            this.dateAPInicioE.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.dateAPInicioE.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateAPInicioE.MonthCalendar.TodayButtonVisible = true;
+            this.dateAPInicioE.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
+            this.dateAPInicioE.Name = "dateAPInicioE";
+            this.dateAPInicioE.Size = new System.Drawing.Size(228, 22);
+            this.dateAPInicioE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.dateAPInicioE.TabIndex = 74;
+            this.dateAPInicioE.TimeSelectorTimeFormat = DevComponents.Editors.DateTimeAdv.eTimeSelectorFormat.Time24H;
+            this.dateAPInicioE.Value = new System.DateTime(2017, 12, 9, 8, 0, 0, 0);
+            this.dateAPInicioE.WatermarkText = "09/12/2017 08:00 a.m.";
+            // 
+            // lblAPFechaInicioE
+            // 
+            // 
+            // 
+            // 
+            this.lblAPFechaInicioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPFechaInicioE.Location = new System.Drawing.Point(226, 119);
+            this.lblAPFechaInicioE.Name = "lblAPFechaInicioE";
+            this.lblAPFechaInicioE.Size = new System.Drawing.Size(87, 23);
+            this.lblAPFechaInicioE.TabIndex = 75;
+            this.lblAPFechaInicioE.Text = "Fecha de Inicio:";
+            // 
+            // lblAPFechaFinE
+            // 
+            // 
+            // 
+            // 
+            this.lblAPFechaFinE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPFechaFinE.Location = new System.Drawing.Point(226, 158);
+            this.lblAPFechaFinE.Name = "lblAPFechaFinE";
+            this.lblAPFechaFinE.Size = new System.Drawing.Size(87, 23);
+            this.lblAPFechaFinE.TabIndex = 76;
+            this.lblAPFechaFinE.Text = "Fecha de Fin:";
+            // 
+            // dateAPFinE
+            // 
+            // 
+            // 
+            // 
+            this.dateAPFinE.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.dateAPFinE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateAPFinE.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
+            this.dateAPFinE.ButtonDropDown.Visible = true;
+            this.dateAPFinE.DateTimeSelectorVisibility = DevComponents.Editors.DateTimeAdv.eDateTimeSelectorVisibility.Both;
+            this.dateAPFinE.Enabled = false;
+            this.dateAPFinE.Format = DevComponents.Editors.eDateTimePickerFormat.Custom;
+            this.dateAPFinE.IsInputReadOnly = true;
+            this.dateAPFinE.IsPopupCalendarOpen = false;
+            this.dateAPFinE.Location = new System.Drawing.Point(319, 159);
+            // 
+            // 
+            // 
+            this.dateAPFinE.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dateAPFinE.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateAPFinE.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            this.dateAPFinE.MonthCalendar.ClearButtonVisible = true;
+            // 
+            // 
+            // 
+            this.dateAPFinE.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
+            this.dateAPFinE.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
+            this.dateAPFinE.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.dateAPFinE.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.dateAPFinE.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
+            this.dateAPFinE.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
+            this.dateAPFinE.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateAPFinE.MonthCalendar.DayClickAutoClosePopup = false;
+            this.dateAPFinE.MonthCalendar.DisplayMonth = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
+            this.dateAPFinE.MonthCalendar.MarkedDates = new System.DateTime[0];
+            this.dateAPFinE.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dateAPFinE.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.dateAPFinE.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
+            this.dateAPFinE.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.dateAPFinE.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateAPFinE.MonthCalendar.TodayButtonVisible = true;
+            this.dateAPFinE.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
+            this.dateAPFinE.Name = "dateAPFinE";
+            this.dateAPFinE.Size = new System.Drawing.Size(228, 22);
+            this.dateAPFinE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.dateAPFinE.TabIndex = 77;
+            this.dateAPFinE.TimeSelectorTimeFormat = DevComponents.Editors.DateTimeAdv.eTimeSelectorFormat.Time24H;
+            this.dateAPFinE.Value = new System.DateTime(2017, 12, 9, 8, 0, 0, 0);
+            this.dateAPFinE.WatermarkText = "09/12/2017 08:00 a.m.";
+            // 
+            // lblAPDuracionA
+            // 
+            // 
+            // 
+            // 
+            this.lblAPDuracionA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPDuracionA.Location = new System.Drawing.Point(321, 118);
+            this.lblAPDuracionA.Name = "lblAPDuracionA";
+            this.lblAPDuracionA.Size = new System.Drawing.Size(102, 23);
+            this.lblAPDuracionA.TabIndex = 74;
+            this.lblAPDuracionA.Text = "Duración (días):";
+            // 
+            // intInputAPDuracionA
+            // 
+            // 
+            // 
+            // 
+            this.intInputAPDuracionA.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.intInputAPDuracionA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.intInputAPDuracionA.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.intInputAPDuracionA.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
+            this.intInputAPDuracionA.Location = new System.Drawing.Point(429, 118);
+            this.intInputAPDuracionA.MaxValue = 30;
+            this.intInputAPDuracionA.MinValue = 1;
+            this.intInputAPDuracionA.Name = "intInputAPDuracionA";
+            this.intInputAPDuracionA.ShowUpDown = true;
+            this.intInputAPDuracionA.Size = new System.Drawing.Size(120, 22);
+            this.intInputAPDuracionA.TabIndex = 76;
+            this.intInputAPDuracionA.Value = 1;
+            this.intInputAPDuracionA.WatermarkText = "2";
+            // 
+            // lblAPDuracionE
+            // 
+            // 
+            // 
+            // 
+            this.lblAPDuracionE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPDuracionE.Location = new System.Drawing.Point(22, 252);
+            this.lblAPDuracionE.Name = "lblAPDuracionE";
+            this.lblAPDuracionE.Size = new System.Drawing.Size(88, 23);
+            this.lblAPDuracionE.TabIndex = 98;
+            this.lblAPDuracionE.Text = "Duración (días):";
+            // 
+            // txtAPDuracionE
+            // 
+            this.txtAPDuracionE.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtAPDuracionE.Border.Class = "TextBoxBorder";
+            this.txtAPDuracionE.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtAPDuracionE.Enabled = false;
+            this.txtAPDuracionE.ForeColor = System.Drawing.Color.Black;
+            this.txtAPDuracionE.Location = new System.Drawing.Point(115, 253);
+            this.txtAPDuracionE.Name = "txtAPDuracionE";
+            this.txtAPDuracionE.Size = new System.Drawing.Size(228, 22);
+            this.txtAPDuracionE.TabIndex = 99;
+            // 
+            // APHTipoProducto
+            // 
+            this.APHTipoProducto.HeaderText = "Tipo de Producto";
+            this.APHTipoProducto.Name = "APHTipoProducto";
+            this.APHTipoProducto.ReadOnly = true;
+            // 
+            // APHNombre
+            // 
+            this.APHNombre.HeaderText = "Nombre";
+            this.APHNombre.MaxInputLength = 50;
+            this.APHNombre.Name = "APHNombre";
+            this.APHNombre.ReadOnly = true;
+            // 
+            // APHDestino
+            // 
+            this.APHDestino.HeaderText = "Destino";
+            this.APHDestino.MaxInputLength = 200;
+            this.APHDestino.Name = "APHDestino";
+            this.APHDestino.ReadOnly = true;
+            // 
+            // APHPrecio
+            // 
+            this.APHPrecio.HeaderText = "Precio";
+            this.APHPrecio.Name = "APHPrecio";
+            this.APHPrecio.ReadOnly = true;
+            this.APHPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // APHDuracion
+            // 
+            this.APHDuracion.HeaderText = "Duracion";
+            this.APHDuracion.Name = "APHDuracion";
+            this.APHDuracion.ReadOnly = true;
+            // 
+            // APHActividades
+            // 
+            this.APHActividades.HeaderText = "Actividades";
+            this.APHActividades.MaxInputLength = 100;
+            this.APHActividades.Name = "APHActividades";
+            this.APHActividades.ReadOnly = true;
+            this.APHActividades.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // APHEstado
+            // 
+            this.APHEstado.Checked = true;
+            this.APHEstado.CheckState = System.Windows.Forms.CheckState.Indeterminate;
+            this.APHEstado.CheckValue = "N";
+            this.APHEstado.HeaderText = "Estado";
+            this.APHEstado.Name = "APHEstado";
+            this.APHEstado.ReadOnly = true;
+            this.APHEstado.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.APHEstado.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // lblAPEventoPaqueteC
+            // 
+            // 
+            // 
+            // 
+            this.lblAPEventoPaqueteC.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPEventoPaqueteC.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAPEventoPaqueteC.ForeColor = System.Drawing.Color.Green;
+            this.lblAPEventoPaqueteC.Location = new System.Drawing.Point(17, 15);
+            this.lblAPEventoPaqueteC.Name = "lblAPEventoPaqueteC";
+            this.lblAPEventoPaqueteC.Size = new System.Drawing.Size(225, 23);
+            this.lblAPEventoPaqueteC.TabIndex = 100;
+            this.lblAPEventoPaqueteC.Text = "Paquete - Evento";
             // 
             // Director
             // 
@@ -5260,7 +5372,7 @@ namespace OEVApp
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::OEVApp.Properties.Resources.GreenBackstage;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1284, 535);
+            this.ClientSize = new System.Drawing.Size(997, 535);
             this.Controls.Add(this.superTabControlDir);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.lblUsuarioLogueado);
@@ -5273,18 +5385,11 @@ namespace OEVApp
             ((System.ComponentModel.ISupportInitialize)(this.superTabControlDir)).EndInit();
             this.superTabControlDir.ResumeLayout(false);
             this.superTabControlDir.PerformLayout();
-            this.superTabControlPanel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridViewACC)).EndInit();
-            this.groupACEntrenC.ResumeLayout(false);
-            this.superTabControlPanel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.doubleInACPrecioE)).EndInit();
-            this.groupBoxACDiasE.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraInicioE)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraFinE)).EndInit();
-            this.superTabControlPanel10.ResumeLayout(false);
-            this.radioGroupInstCons.ResumeLayout(false);
-            this.radioGroupInstCons.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridInstCons)).EndInit();
+            this.superTabControlPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.doubleInAPPrecioA)).EndInit();
+            this.groupAPActividadA.ResumeLayout(false);
+            this.groupAPModalidadA.ResumeLayout(false);
+            this.groupAPModalidadA.PerformLayout();
             this.superTabControlPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.doubleInACPrecioA)).EndInit();
             this.groupACEntrenA.ResumeLayout(false);
@@ -5292,6 +5397,26 @@ namespace OEVApp
             this.groupBoxACDiasA.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraFinA)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraInicioA)).EndInit();
+            this.superTabControlPanel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.doubleACPrecioHastaC)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.doubleACPrecioDesdeC)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridViewACC)).EndInit();
+            this.groupACEntrenC.ResumeLayout(false);
+            this.superTabControlPanel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridProvCons)).EndInit();
+            this.radioGroupProvConsBuscar.ResumeLayout(false);
+            this.radioGroupProvConsBuscar.PerformLayout();
+            this.superTabControlPanel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.doubleInACPrecioE)).EndInit();
+            this.groupBoxACDiasE.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraInicioE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraFinE)).EndInit();
+            this.superTabControlPanel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridViewAPC)).EndInit();
+            this.superTabControlPanel10.ResumeLayout(false);
+            this.radioGroupInstCons.ResumeLayout(false);
+            this.radioGroupInstCons.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridInstCons)).EndInit();
             this.superTabControlPanel8.ResumeLayout(false);
             this.radioGroupProvEdiBuscar.ResumeLayout(false);
             this.radioGroupProvEdiBuscar.PerformLayout();
@@ -5299,39 +5424,29 @@ namespace OEVApp
             ((System.ComponentModel.ISupportInitialize)(this.doubleInProvEdiTarifa)).EndInit();
             this.superTabControlPanel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.doubleInAPPrecioE)).EndInit();
-            this.groupAPEventoE.ResumeLayout(false);
-            this.groupAPEventoE.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dateAPInicioE)).EndInit();
             this.groupAPModalidadE.ResumeLayout(false);
             this.groupAPModalidadE.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dateAPFinE)).EndInit();
-            this.superTabControlPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.doubleInAPPrecioA)).EndInit();
-            this.groupAPEventoA.ResumeLayout(false);
-            this.groupAPEventoA.PerformLayout();
-            this.groupAPModalidadA.ResumeLayout(false);
-            this.groupAPModalidadA.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dateAPFinA)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateAPInicioA)).EndInit();
-            this.superTabControlPanel6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridViewAPC)).EndInit();
-            this.groupAPModalidadC.ResumeLayout(false);
-            this.groupAPModalidadC.PerformLayout();
             this.superTabControlPanel12.ResumeLayout(false);
             this.radioGroupInstEditBuscar.ResumeLayout(false);
             this.radioGroupInstEditBuscar.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridInstEdit)).EndInit();
             this.superTabControlPanel11.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridInstAgr)).EndInit();
-            this.superTabControlPanel9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridProvCons)).EndInit();
-            this.radioGroupProvConsBuscar.ResumeLayout(false);
-            this.radioGroupProvConsBuscar.PerformLayout();
             this.superTabControlPanel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.integerInProvAgrCap)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.doubleInProvAgrTarifa)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.doubleACPrecioDesdeC)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.doubleACPrecioHastaC)).EndInit();
+            this.groupAPDestinoA.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.doubleAPPrecioHastaC)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.doubleAPPrecioDesdeC)).EndInit();
+            this.groupAPActividadC.ResumeLayout(false);
+            this.groupAPDestinoC.ResumeLayout(false);
+            this.superTabControlPanel13.ResumeLayout(false);
+            this.wizard1.ResumeLayout(false);
+            this.wizardPage1.ResumeLayout(false);
+            this.wizardPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dateAPInicioE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateAPFinE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.intInputAPDuracionA)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -5381,20 +5496,13 @@ namespace OEVApp
         private DevComponents.DotNetBar.Controls.ComboBoxEx comboACDificultadA;
         private DevComponents.DotNetBar.LabelX lblACCursoA;
         private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel2;
-        private DevComponents.Editors.DateTimeAdv.DateTimeInput dateAPFinA;
-        private DevComponents.DotNetBar.LabelX lblAPFechaFinA;
-        private DevComponents.DotNetBar.LabelX lblAPFechaInicioA;
-        private DevComponents.Editors.DateTimeAdv.DateTimeInput dateAPInicioA;
         private DevComponents.DotNetBar.SuperTabItem tabItemAPAgregar;
         private DevComponents.DotNetBar.LabelX lblACPrecioA;
-        private DevComponents.DotNetBar.Controls.TextBoxX txtAPDestinoA;
-        private DevComponents.DotNetBar.LabelX lblAPDestinoA;
         private DevComponents.DotNetBar.Controls.ComboBoxEx comboAPDificultadA;
         private DevComponents.DotNetBar.LabelX lblAPDificultadA;
         private DevComponents.DotNetBar.Controls.RichTextBoxEx richTxtAPItinerarioA;
         private DevComponents.DotNetBar.LabelX lblAPItinerarioA;
         private DevComponents.DotNetBar.Controls.TextBoxX txtAPNombreA;
-        private DevComponents.DotNetBar.LabelX lblAPNombreA;
         private DevComponents.DotNetBar.ButtonX btnACGuardarA;
         private DevComponents.DotNetBar.ButtonX btnAPGuardarA;
         private DevComponents.DotNetBar.LabelX lblAPPrecioA;
@@ -5409,16 +5517,12 @@ namespace OEVApp
         private System.Windows.Forms.RadioButton radioACTrekA;
         private System.Windows.Forms.RadioButton radioACRunA;
         private System.Windows.Forms.RadioButton radioACMontA;
-        private System.Windows.Forms.CheckedListBox ckdListBoxAPA;
         private System.Windows.Forms.GroupBox groupAPModalidadA;
         private System.Windows.Forms.RadioButton radioAPPaqueteA;
         private System.Windows.Forms.RadioButton radioAPEventoA;
         private System.Windows.Forms.RadioButton radioACGpsA;
         private System.Windows.Forms.RadioButton radioACAuxA;
-        private System.Windows.Forms.GroupBox groupAPEventoA;
-        private System.Windows.Forms.RadioButton radioAPBikeA;
-        private System.Windows.Forms.RadioButton radioAPRunA;
-        private System.Windows.Forms.RadioButton radioAPCiclismoA;
+        private System.Windows.Forms.GroupBox groupAPActividadA;
         private DevComponents.DotNetBar.ButtonX btnACGuardarE;
         private DevComponents.DotNetBar.LabelX lblACCursoE;
         private DevComponents.DotNetBar.LabelX lblACNombreE;
@@ -5439,27 +5543,14 @@ namespace OEVApp
         private DevComponents.DotNetBar.Controls.ComboBoxEx comboACNombreE;
         private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel4;
         private DevComponents.DotNetBar.Controls.ComboBoxEx comboAPNombreE;
-        private System.Windows.Forms.GroupBox groupAPEventoE;
-        private System.Windows.Forms.RadioButton radioAPBikeE;
-        private System.Windows.Forms.RadioButton radioAPRunE;
-        private System.Windows.Forms.RadioButton radioAPCiclismoE;
-        private DevComponents.DotNetBar.ButtonX btnAPBuscarE;
         private DevComponents.DotNetBar.LabelX lblAPNombreE;
-        private System.Windows.Forms.CheckedListBox ckdListBoxAPE;
-        private DevComponents.Editors.DateTimeAdv.DateTimeInput dateAPInicioE;
         private System.Windows.Forms.GroupBox groupAPModalidadE;
         private System.Windows.Forms.RadioButton radioAPPaqueteE;
         private System.Windows.Forms.RadioButton radioAPEventoE;
-        private DevComponents.DotNetBar.LabelX lblAPFechaInicioE;
-        private DevComponents.DotNetBar.LabelX lblAPFechaFinE;
         private DevComponents.DotNetBar.LabelX lblAPPrecioE;
-        private DevComponents.Editors.DateTimeAdv.DateTimeInput dateAPFinE;
-        private DevComponents.DotNetBar.Controls.TextBoxX txtAPDestinoE;
         private DevComponents.DotNetBar.ButtonX btnAPGuardarE;
         private DevComponents.DotNetBar.LabelX lblAPItinerarioE;
-        private DevComponents.DotNetBar.LabelX lblAPDestinoE;
         private DevComponents.DotNetBar.Controls.RichTextBoxEx richTxtAPItinerarioE;
-        private DevComponents.DotNetBar.Controls.ComboBoxEx comboAPDificultadE;
         private DevComponents.DotNetBar.LabelX lblAPDificultadE;
         private DevComponents.DotNetBar.SuperTabItem tabItemAPEditar;
         private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel5;
@@ -5471,22 +5562,11 @@ namespace OEVApp
         private DevComponents.DotNetBar.LabelX lblACDificultadC;
         private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel6;
         private DevComponents.DotNetBar.Controls.DataGridViewX gridViewAPC;
-        private System.Windows.Forms.GroupBox groupAPModalidadC;
-        private System.Windows.Forms.RadioButton radioAPPaqueteC;
-        private System.Windows.Forms.RadioButton radioAPEventoC;
-        private DevComponents.DotNetBar.Controls.ComboBoxEx comboAPDestinoC;
         private DevComponents.DotNetBar.ButtonX btnAPBuscarC;
-        private DevComponents.DotNetBar.LabelX lblAPDestinoC;
         private DevComponents.DotNetBar.Controls.ComboBoxEx comboAPDificultadC;
         private DevComponents.DotNetBar.LabelX lblAPDificultadC;
         private DevComponents.DotNetBar.SuperTabItem tabItemAPConsultar;
         private DevComponents.DotNetBar.Controls.DataGridViewX gridViewACC;
-        private System.Windows.Forms.DataGridViewTextBoxColumn APHNombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn APHItinerario;
-        private DevComponents.DotNetBar.Controls.DataGridViewDoubleInputColumn APHPrecio;
-        private System.Windows.Forms.DataGridViewTextBoxColumn APHActividades;
-        private DevComponents.DotNetBar.Controls.DataGridViewDateTimeInputColumn APHFechaInicio;
-        private DevComponents.DotNetBar.Controls.DataGridViewDateTimeInputColumn APHFechaFin;
         private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel7;
         private DevComponents.DotNetBar.LabelX lblProvAgrServicios;
         private DevComponents.DotNetBar.LabelX lblProvAgrTipo;
@@ -5651,12 +5731,6 @@ namespace OEVApp
         private DevComponents.DotNetBar.LabelX lblACPrecioHastaC;
         private DevComponents.Editors.DoubleInput doubleACPrecioDesdeC;
         private DevComponents.DotNetBar.LabelX lblACPrecioDesdeC;
-        private DevComponents.DotNetBar.Controls.CheckBoxX chkACGpsC;
-        private DevComponents.DotNetBar.Controls.CheckBoxX chkACAuxC;
-        private DevComponents.DotNetBar.Controls.CheckBoxX chkACTrekC;
-        private DevComponents.DotNetBar.Controls.CheckBoxX chkACBikeC;
-        private DevComponents.DotNetBar.Controls.CheckBoxX chkACRunC;
-        private DevComponents.DotNetBar.Controls.CheckBoxX chkACMontC;
         private System.Windows.Forms.DataGridViewTextBoxColumn HNombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn HActividad;
         private System.Windows.Forms.DataGridViewTextBoxColumn HPrecio;
@@ -5664,6 +5738,56 @@ namespace OEVApp
         private System.Windows.Forms.DataGridViewTextBoxColumn HHoraInicio;
         private System.Windows.Forms.DataGridViewTextBoxColumn HHoraFin;
         private DevComponents.DotNetBar.Controls.DataGridViewCheckBoxXColumn HEstado;
+        private DevComponents.DotNetBar.ButtonX btnAPNombreA;
+        private System.Windows.Forms.CheckedListBox checkedListAPDestinoA;
+        private System.Windows.Forms.GroupBox groupAPDestinoA;
+        private System.Windows.Forms.CheckedListBox checkedListAPActividadA;
+        private DevComponents.DotNetBar.LabelX lblAPIdE;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtAPDificultadE;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtAPDestinoE;
+        private DevComponents.DotNetBar.LabelX lblAPDestinoE;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtAPActividadE;
+        private DevComponents.DotNetBar.LabelX lblAPActividadE;
+        private DevComponents.DotNetBar.Controls.CheckBoxX chkAPEstadoE;
+        private DevComponents.DotNetBar.LabelX labelX1;
+        private System.Windows.Forms.GroupBox groupAPActividadC;
+        private System.Windows.Forms.CheckedListBox checkedListAPActividadE;
+        private System.Windows.Forms.GroupBox groupAPDestinoC;
+        private System.Windows.Forms.CheckedListBox checkedListAPDestinoC;
+        private DevComponents.Editors.DoubleInput doubleAPPrecioHastaC;
+        private DevComponents.DotNetBar.LabelX labelX2;
+        private DevComponents.Editors.DoubleInput doubleAPPrecioDesdeC;
+        private DevComponents.DotNetBar.LabelX labelX3;
+        private DevComponents.DotNetBar.Controls.CheckBoxX chkACGpsC;
+        private DevComponents.DotNetBar.Controls.CheckBoxX chkACAuxC;
+        private DevComponents.DotNetBar.Controls.CheckBoxX chkACTrekC;
+        private DevComponents.DotNetBar.Controls.CheckBoxX chkACBikeC;
+        private DevComponents.DotNetBar.Controls.CheckBoxX chkACRunC;
+        private DevComponents.DotNetBar.Controls.CheckBoxX chkACMontC;
+        private DevComponents.DotNetBar.SuperTabControlPanel superTabControlPanel13;
+        private DevComponents.DotNetBar.Wizard wizard1;
+        private DevComponents.DotNetBar.SuperTabItem tabItemACalAgregar;
+        private DevComponents.DotNetBar.WizardPage wizardPage1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private DevComponents.DotNetBar.WizardPage wizardPage2;
+        private DevComponents.Editors.DateTimeAdv.DateTimeInput dateAPInicioE;
+        private DevComponents.DotNetBar.LabelX lblAPFechaInicioE;
+        private DevComponents.DotNetBar.LabelX lblAPFechaFinE;
+        private DevComponents.Editors.DateTimeAdv.DateTimeInput dateAPFinE;
+        private DevComponents.Editors.IntegerInput intInputAPDuracionA;
+        private DevComponents.DotNetBar.LabelX lblAPDuracionA;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtAPDuracionE;
+        private DevComponents.DotNetBar.LabelX lblAPDuracionE;
+        private System.Windows.Forms.DataGridViewTextBoxColumn APHTipoProducto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn APHNombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn APHDestino;
+        private System.Windows.Forms.DataGridViewTextBoxColumn APHPrecio;
+        private System.Windows.Forms.DataGridViewTextBoxColumn APHDuracion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn APHActividades;
+        private DevComponents.DotNetBar.Controls.DataGridViewCheckBoxXColumn APHEstado;
+        private DevComponents.DotNetBar.LabelX lblAPEventoPaqueteC;
 
 
     }

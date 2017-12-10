@@ -94,6 +94,10 @@
 
     <diasRequeridos>Debe seleccionar los días del curso</diasRequeridos>
     <horarioInvalido>El horario debe ser entre las 08:00 y las 21:00 hs</horarioInvalido>
+    
+    <actividadRequerida>Debe seleccionar al menos una actividad</actividadRequerida>
+    <fechaInvalida>Las fechas no son válidas. La fecha de inicio debe ser superior a 10 días a la fecha actual. </fechaInvalida>
+    <destinoRequerido>Debe seleccionar al menos un destino</destinoRequerido>
   </Mensaje>
 
   <InicioAdministrador>

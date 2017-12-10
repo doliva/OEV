@@ -20,18 +20,18 @@ namespace DAL
         {
             SqlConnection conn = new SqlConnection(connectionString);
             StringBuilder queryBuilder = new StringBuilder();
-            queryBuilder.Append("INSERT INTO PRODUCTO (DESTINO, ACTIVIDAD, ESTADO, ITINERARIO, NOMBRE, PRECIO, TIPO_PRODUCTO, DESCRIPCION, DIFICULTAD) ");
-            queryBuilder.Append("VALUES (@destino, @actividad, @estado, @itinerario, @nombre, @precio, @tipoProducto, @descripcion, @dificultad )");
+            queryBuilder.Append("INSERT INTO PRODUCTO (DESTINO, ACTIVIDAD, ESTADO, NOMBRE, PRECIO, DURACION, TIPO_PRODUCTO, DESCRIPCION, DIFICULTAD) ");
+            queryBuilder.Append("VALUES (@destino, @actividad, @estado, @nombre, @precio, @duracion, @tipoProducto, @descripcion, @dificultad )");
             queryBuilder.Append("; SELECT SCOPE_IDENTITY()");
             SqlCommand cmd = new SqlCommand(queryBuilder.ToString(), conn);
             cmd.Parameters.Add("@destino", SqlDbType.VarChar, 100).Value = producto.destino;
             cmd.Parameters.Add("@actividad", SqlDbType.VarChar, 100).Value = String.Join(",", producto.actividades);
             cmd.Parameters.Add("@estado", SqlDbType.Bit).Value = producto.estado;
-            cmd.Parameters.Add("@itinerario", SqlDbType.VarChar, 1000).Value = producto.itinerario;
-            cmd.Parameters.Add("@nombre", SqlDbType.VarChar, 35).Value = producto.nombre;
+            cmd.Parameters.Add("@nombre", SqlDbType.VarChar, 50).Value = producto.nombre;
             cmd.Parameters.Add("@precio", SqlDbType.Money).Value = producto.precio;
+            cmd.Parameters.Add("@duracion", SqlDbType.Int).Value = producto.duracion;
             cmd.Parameters.Add("@tipoProducto", SqlDbType.VarChar, 20).Value = producto.tipoProducto;
-            cmd.Parameters.Add("@descripcion", SqlDbType.VarChar, 1000).Value = producto.descripcion;
+            cmd.Parameters.Add("@descripcion", SqlDbType.VarChar, 10000).Value = producto.descripcion;
             cmd.Parameters.Add("@dificultad", SqlDbType.VarChar, 20).Value = producto.dificultad;
             cmd.CommandType = CommandType.Text;
             conn.Open();
@@ -42,10 +42,7 @@ namespace DAL
                 {
                     InsertHorario(producto);
                 }
-                else if (producto.tipoProducto == EnumProducto.EVENTO.ToString() || producto.tipoProducto == EnumProducto.PAQUETE.ToString())
-                {
-                    InsertFecha(producto);
-                }
+                
                 return idProducto;
             }
             catch (Exception ex)
@@ -87,49 +84,22 @@ namespace DAL
             }
         }
 
-        public static void InsertFecha(Producto producto)
-        {
-            SqlConnection conn = new SqlConnection(connectionString);
-            StringBuilder queryBuilder = new StringBuilder();
-            queryBuilder.Append("INSERT INTO FECHA (NOMBRE,FECHA_INICIO, FECHA_FIN) ");
-            queryBuilder.Append("VALUES (@nombre, @fechaInicio, @fechaFin )");
-           // queryBuilder.Append("; SELECT SCOPE_IDENTITY()");
-            SqlCommand cmd = new SqlCommand(queryBuilder.ToString(), conn);
-            cmd.Parameters.Add("@nombre", SqlDbType.VarChar, 35).Value = producto.nombre;
-            cmd.Parameters.Add("@fechaInicio", SqlDbType.DateTime).Value = producto.fecha.fechaInicio;
-            cmd.Parameters.Add("@fechaFin", SqlDbType.DateTime).Value = producto.fecha.fechaFin;
-            cmd.CommandType = CommandType.Text;
-            conn.Open();
-            try
-            {
-                cmd.ExecuteNonQuery();
-            }
-            catch (Exception ex)
-            {
-                throw new Excepcion(Constantes.EXCEPCION_DAL_INS + " Fecha ", ex);
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-
         public static void Update(Producto producto)
         {
             SqlConnection conn = new SqlConnection(connectionString);
             StringBuilder queryBuilder = new StringBuilder();
-            queryBuilder.Append("UPDATE PRODUCTO SET NOMBRE=@nombre, DESTINO=@destino, ACTIVIDAD=@actividad, ESTADO=@estado, ITINERARIO=@itinerario, PRECIO=@precio, TIPO_PRODUCTO=@tipoProducto, DESCRIPCION=@descripcion, DIFICULTAD=@dificultad ");
+            queryBuilder.Append("UPDATE PRODUCTO SET NOMBRE=@nombre, DESTINO=@destino, ACTIVIDAD=@actividad, ESTADO=@estado, PRECIO=@precio, DURACION=@duracion, TIPO_PRODUCTO=@tipoProducto, DESCRIPCION=@descripcion, DIFICULTAD=@dificultad ");
             queryBuilder.Append("WHERE ID_PRODUCTO = @idProducto");
             SqlCommand cmd = new SqlCommand(queryBuilder.ToString(), conn);
             cmd.Parameters.Add("@idProducto", SqlDbType.Int).Value = producto.idProducto;
             cmd.Parameters.Add("@destino", SqlDbType.VarChar, 100).Value = producto.destino;
             cmd.Parameters.Add("@actividad", SqlDbType.VarChar, 100).Value = String.Join(",", producto.actividades);
             cmd.Parameters.Add("@estado", SqlDbType.Bit).Value = producto.estado;
-            cmd.Parameters.Add("@itinerario", SqlDbType.VarChar, 1000).Value = producto.itinerario;
-            cmd.Parameters.Add("@nombre", SqlDbType.VarChar, 35).Value = producto.nombre;
+            cmd.Parameters.Add("@nombre", SqlDbType.VarChar, 50).Value = producto.nombre;
             cmd.Parameters.Add("@precio", SqlDbType.Money).Value = producto.precio;
+            cmd.Parameters.Add("@duracion", SqlDbType.Int).Value = producto.duracion;
             cmd.Parameters.Add("@tipoProducto", SqlDbType.VarChar, 20).Value = producto.tipoProducto;
-            cmd.Parameters.Add("@descripcion", SqlDbType.VarChar, 1000).Value = producto.descripcion;
+            cmd.Parameters.Add("@descripcion", SqlDbType.VarChar, 10000).Value = producto.descripcion;
             cmd.Parameters.Add("@dificultad", SqlDbType.VarChar, 20).Value = producto.dificultad;
 
             cmd.CommandType = CommandType.Text;
@@ -154,7 +124,7 @@ namespace DAL
             StringBuilder queryBuilder = new StringBuilder();
             queryBuilder.Append("select * from PRODUCTO where NOMBRE=@nombre ");
             SqlCommand cmd = new SqlCommand(queryBuilder.ToString(), conn);
-            cmd.Parameters.Add("@nombre", SqlDbType.VarChar, 35).Value = nombre;
+            cmd.Parameters.Add("@nombre", SqlDbType.VarChar, 50).Value = nombre;
             cmd.CommandType = CommandType.Text;
             SqlDataReader reader;
             conn.Open();
@@ -168,21 +138,20 @@ namespace DAL
                     prod.idProducto = Int32.Parse(reader["id_producto"].ToString());
                     prod.nombre = reader["nombre"].ToString(); 
                     prod.estado = Boolean.Parse(reader["estado"].ToString());
-                    prod.actividades = reader["actividad"].ToString().Split(' ').ToList();
+                    prod.actividades = reader["actividad"].ToString().Split(',').ToList();
                     prod.precio = Double.Parse(reader["precio"].ToString());
                     prod.tipoProducto = reader["tipo_producto"].ToString(); 
                     prod.dificultad = reader["dificultad"].ToString();
+                    prod.descripcion = reader["descripcion"].ToString();
 
                     if (prod.tipoProducto == EnumProducto.CURSO.ToString())
                     {
-                        prod.descripcion = reader["descripcion"].ToString();
                         prod.horario = GetHorario(prod.nombre);
                     }
                     else if (prod.tipoProducto == EnumProducto.EVENTO.ToString() || prod.tipoProducto == EnumProducto.PAQUETE.ToString())
                     {
                         prod.destino = reader["destino"].ToString();
-                        prod.itinerario = reader["itinerario"].ToString();
-                        prod.fecha = GetFecha(prod.nombre);
+                        prod.duracion = Int32.Parse(reader["duracion"].ToString());
                     }
                 }
                 return prod;
@@ -203,11 +172,11 @@ namespace DAL
             StringBuilder queryBuilder = new StringBuilder();
             queryBuilder.Append("select * from HORARIO where NOMBRE=@nombre ");
             SqlCommand cmd = new SqlCommand(queryBuilder.ToString(), conn);
-            cmd.Parameters.Add("@nombre", SqlDbType.VarChar, 35).Value = nombre;
+            cmd.Parameters.Add("@nombre", SqlDbType.VarChar, 50).Value = nombre;
             cmd.CommandType = CommandType.Text;
             SqlDataReader reader;
             conn.Open();
-            Horario hr = null;
+            Horario hr = new Horario();
             try
             {
                 reader = cmd.ExecuteReader();
@@ -222,37 +191,6 @@ namespace DAL
             catch (Exception ex)
             {
                 throw new Excepcion(Constantes.EXCEPCION_DAL_SEL + " horario por nombre ", ex);
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-
-        public static Fecha GetFecha(String nombre)
-        {
-            SqlConnection conn = new SqlConnection(connectionString);
-            StringBuilder queryBuilder = new StringBuilder();
-            queryBuilder.Append("select * from FECHA where NOMBRE=@nombre ");
-            SqlCommand cmd = new SqlCommand(queryBuilder.ToString(), conn);
-            cmd.Parameters.Add("@nombre", SqlDbType.VarChar, 35).Value = nombre;
-            cmd.CommandType = CommandType.Text;
-            SqlDataReader reader;
-            conn.Open();
-            Fecha fecha = null;
-            try
-            {
-                reader = cmd.ExecuteReader();
-                if (reader.Read())
-                {
-                    fecha.fechaInicio = DateTime.Parse(reader["fecha_inicio"].ToString());
-                    fecha.fechaFin = DateTime.Parse(reader["fecha_fin"].ToString());
-                }
-                return fecha;
-            }
-            catch (Exception ex)
-            {
-                throw new Excepcion(Constantes.EXCEPCION_DAL_SEL + " fecha por nombre ", ex);
             }
             finally
             {
@@ -301,6 +239,51 @@ namespace DAL
             catch (Exception ex)
             {
                 throw new Excepcion(Constantes.EXCEPCION_DAL_SEL + " cursos ", ex);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        public static List<Producto> GetProductos()
+        {
+            SqlConnection conn = new SqlConnection(connectionString);
+            StringBuilder queryBuilder = new StringBuilder();
+            queryBuilder.Append(" select * ");
+            queryBuilder.Append(" from PRODUCTO ");
+            queryBuilder.Append(" where (TIPO_PRODUCTO='PAQUETE' or tipo_producto='EVENTO')  ");
+            SqlCommand cmd = new SqlCommand(queryBuilder.ToString(), conn);
+            cmd.CommandType = CommandType.Text;
+            SqlDataReader reader;
+            conn.Open();
+            List<Producto> listaProductos = new List<Producto>();
+
+            try
+            {
+                reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    Producto prod = new Producto();
+                    prod.idProducto = Int32.Parse(reader["id_producto"].ToString());
+                    prod.nombre = reader["nombre"].ToString();
+                    prod.actividades = reader["actividad"].ToString().Split(',').ToList();
+                    prod.destino = reader["destino"].ToString();
+                    prod.estado = Boolean.Parse(reader["estado"].ToString());
+                    prod.precio = Double.Parse(reader["precio"].ToString());
+                    prod.duracion = Int32.Parse(reader["duracion"].ToString());
+                    prod.tipoProducto = reader["tipo_producto"].ToString();
+                    prod.descripcion = reader["descripcion"].ToString();
+                    prod.dificultad = reader["dificultad"].ToString();
+
+                    listaProductos.Add(prod);
+                }
+
+                return listaProductos;
+            }
+            catch (Exception ex)
+            {
+                throw new Excepcion(Constantes.EXCEPCION_DAL_SEL + " productos ", ex);
             }
             finally
             {

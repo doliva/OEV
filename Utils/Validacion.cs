@@ -140,5 +140,20 @@ namespace Utils
             return false;
         return true;
         }
+
+        /// <summary>
+        /// Verifica que la fecha de inicio y la fecha de fin sean válidas
+        /// Fecha de inicio menor Fecha de fin
+        /// Fecha de inicio mayor a 10 días al día de la fecha
+        /// </summary>
+        /// <param name="nombre"></param>
+        /// <returns>Boolean</returns>
+        public static Boolean esFechaValida(DateTime fechaInicio, DateTime fechaFin){
+            if (DateTime.Compare(fechaInicio, fechaFin) > 0)
+                return false;
+            if (DateTime.Compare(DateTime.Now.AddDays(10),fechaInicio) > 0)
+                return false;
+            return true;
+        }
     }
 }

@@ -94,6 +94,10 @@
 
     <diasRequeridos>Days are mandatory fields</diasRequeridos>
     <horarioInvalido>The schedule must be between 08:00 and 21:00 hs</horarioInvalido>
+
+    <actividadRequerida>At least one activity is mandatory</actividadRequerida>
+    <fechaInvalida>Dates are not valid. Start date must be later than 10 days from the current date.</fechaInvalida>
+  <destinoRequerido>At least one destination is mandatory</destinoRequerido>
 </Mensaje>
   
   <InicioAdministrador>

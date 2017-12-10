@@ -28,47 +28,47 @@ namespace OEVApp
         /// </summary>
         private void InitializeComponent()
         {
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates3 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates2 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates1 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
             DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable1 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable4 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates4 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable4 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable5 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates5 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable5 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable6 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
-            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates6 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
-            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable6 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable7 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates7 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
             DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable7 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates2 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable2 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable4 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates4 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable4 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable6 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates6 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable6 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable8 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates8 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
             DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable8 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable9 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates9 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
             DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable9 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable10 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates10 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
             DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable10 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable11 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
             DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates11 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
             DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable11 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates3 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable3 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable5 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
+            DevComponents.DotNetBar.Rendering.SuperTabColorStates superTabColorStates5 = new DevComponents.DotNetBar.Rendering.SuperTabColorStates();
+            DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable superTabItemStateColorTable5 = new DevComponents.DotNetBar.Rendering.SuperTabItemStateColorTable();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             DevComponents.DotNetBar.Rendering.SuperTabItemColorTable superTabItemColorTable12 = new DevComponents.DotNetBar.Rendering.SuperTabItemColorTable();
@@ -93,33 +93,6 @@ namespace OEVApp
             this.btnItemAsignar = new DevComponents.DotNetBar.ButtonItem();
             this.btnItemPermConsultar = new DevComponents.DotNetBar.ButtonItem();
             this.superTabCtrolAdmin = new DevComponents.DotNetBar.SuperTabControl();
-            this.superTabAgregar = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.comboBoxRol = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.lblRol = new DevComponents.DotNetBar.LabelX();
-            this.dateFecNac = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
-            this.txtEmail = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtTelefono = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtCiudad = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtDireccion = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtDni = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtApellido = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.txtNombre = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.lblEmail = new DevComponents.DotNetBar.LabelX();
-            this.lblTelefono = new DevComponents.DotNetBar.LabelX();
-            this.lblCiudad = new DevComponents.DotNetBar.LabelX();
-            this.lblDireccion = new DevComponents.DotNetBar.LabelX();
-            this.lblFecNac = new DevComponents.DotNetBar.LabelX();
-            this.lblDni = new DevComponents.DotNetBar.LabelX();
-            this.lblApellido = new DevComponents.DotNetBar.LabelX();
-            this.lblNombre = new DevComponents.DotNetBar.LabelX();
-            this.btnGuardar = new DevComponents.DotNetBar.ButtonX();
-            this.tabItemAgregar = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabBackup = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.lblValorRutaBackup = new DevComponents.DotNetBar.LabelX();
-            this.lblRutaBackup = new DevComponents.DotNetBar.LabelX();
-            this.btnBackup = new DevComponents.DotNetBar.ButtonX();
-            this.btnRutaBackup = new DevComponents.DotNetBar.ButtonX();
-            this.tabItemBackup = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabEditar = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.lblClaveM = new DevComponents.DotNetBar.LabelX();
             this.dateFecNacM = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
@@ -151,6 +124,33 @@ namespace OEVApp
             this.btnBuscarM = new DevComponents.DotNetBar.ButtonX();
             this.btnGuardarM = new DevComponents.DotNetBar.ButtonX();
             this.tabItemEditar = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabBackup = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.lblValorRutaBackup = new DevComponents.DotNetBar.LabelX();
+            this.lblRutaBackup = new DevComponents.DotNetBar.LabelX();
+            this.btnBackup = new DevComponents.DotNetBar.ButtonX();
+            this.btnRutaBackup = new DevComponents.DotNetBar.ButtonX();
+            this.tabItemBackup = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabAgregar = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.comboBoxRol = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.lblRol = new DevComponents.DotNetBar.LabelX();
+            this.dateFecNac = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
+            this.txtEmail = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtTelefono = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtCiudad = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtDireccion = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtDni = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtApellido = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.txtNombre = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.lblEmail = new DevComponents.DotNetBar.LabelX();
+            this.lblTelefono = new DevComponents.DotNetBar.LabelX();
+            this.lblCiudad = new DevComponents.DotNetBar.LabelX();
+            this.lblDireccion = new DevComponents.DotNetBar.LabelX();
+            this.lblFecNac = new DevComponents.DotNetBar.LabelX();
+            this.lblDni = new DevComponents.DotNetBar.LabelX();
+            this.lblApellido = new DevComponents.DotNetBar.LabelX();
+            this.lblNombre = new DevComponents.DotNetBar.LabelX();
+            this.btnGuardar = new DevComponents.DotNetBar.ButtonX();
+            this.tabItemAgregar = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabDVV = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.radioGroupDVV = new System.Windows.Forms.GroupBox();
             this.btnVerificarDVV = new DevComponents.DotNetBar.ButtonX();
@@ -281,12 +281,12 @@ namespace OEVApp
             this.btnLogout = new DevComponents.DotNetBar.ButtonX();
             ((System.ComponentModel.ISupportInitialize)(this.superTabCtrolAdmin)).BeginInit();
             this.superTabCtrolAdmin.SuspendLayout();
-            this.superTabAgregar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dateFecNac)).BeginInit();
-            this.superTabBackup.SuspendLayout();
             this.superTabEditar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dateFecNacM)).BeginInit();
             this.radioGroupBuscar.SuspendLayout();
+            this.superTabBackup.SuspendLayout();
+            this.superTabAgregar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dateFecNac)).BeginInit();
             this.superTabDVV.SuspendLayout();
             this.radioGroupDVV.SuspendLayout();
             this.superTabRestore.SuspendLayout();
@@ -664,16 +664,16 @@ namespace OEVApp
             this.superTabCtrolAdmin.ControlBox.MenuBox,
             this.superTabCtrolAdmin.ControlBox.CloseBox});
             this.superTabCtrolAdmin.Controls.Add(this.superTabEditar);
-            this.superTabCtrolAdmin.Controls.Add(this.superTabBackup);
             this.superTabCtrolAdmin.Controls.Add(this.superTabAgregar);
+            this.superTabCtrolAdmin.Controls.Add(this.superTabCripto);
             this.superTabCtrolAdmin.Controls.Add(this.superTabDVV);
+            this.superTabCtrolAdmin.Controls.Add(this.superTabDVH);
             this.superTabCtrolAdmin.Controls.Add(this.superTabRestore);
+            this.superTabCtrolAdmin.Controls.Add(this.superTabBackup);
             this.superTabCtrolAdmin.Controls.Add(this.superTabFunc);
             this.superTabCtrolAdmin.Controls.Add(this.superTabAsignar);
             this.superTabCtrolAdmin.Controls.Add(this.superTabConsultarB);
             this.superTabCtrolAdmin.Controls.Add(this.superTabConsultar);
-            this.superTabCtrolAdmin.Controls.Add(this.superTabCripto);
-            this.superTabCtrolAdmin.Controls.Add(this.superTabDVH);
             this.superTabCtrolAdmin.Controls.Add(this.superTabPermConsultar);
             this.superTabCtrolAdmin.ForeColor = System.Drawing.Color.Black;
             this.superTabCtrolAdmin.Location = new System.Drawing.Point(181, 36);
@@ -699,426 +699,6 @@ namespace OEVApp
             this.tabItemPermConsultar});
             this.superTabCtrolAdmin.Text = "superTabControl1";
             this.superTabCtrolAdmin.Visible = false;
-            // 
-            // superTabAgregar
-            // 
-            this.superTabAgregar.Controls.Add(this.comboBoxRol);
-            this.superTabAgregar.Controls.Add(this.lblRol);
-            this.superTabAgregar.Controls.Add(this.dateFecNac);
-            this.superTabAgregar.Controls.Add(this.txtEmail);
-            this.superTabAgregar.Controls.Add(this.txtTelefono);
-            this.superTabAgregar.Controls.Add(this.txtCiudad);
-            this.superTabAgregar.Controls.Add(this.txtDireccion);
-            this.superTabAgregar.Controls.Add(this.txtDni);
-            this.superTabAgregar.Controls.Add(this.txtApellido);
-            this.superTabAgregar.Controls.Add(this.txtNombre);
-            this.superTabAgregar.Controls.Add(this.lblEmail);
-            this.superTabAgregar.Controls.Add(this.lblTelefono);
-            this.superTabAgregar.Controls.Add(this.lblCiudad);
-            this.superTabAgregar.Controls.Add(this.lblDireccion);
-            this.superTabAgregar.Controls.Add(this.lblFecNac);
-            this.superTabAgregar.Controls.Add(this.lblDni);
-            this.superTabAgregar.Controls.Add(this.lblApellido);
-            this.superTabAgregar.Controls.Add(this.lblNombre);
-            this.superTabAgregar.Controls.Add(this.btnGuardar);
-            this.superTabAgregar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabAgregar.Location = new System.Drawing.Point(0, 0);
-            this.superTabAgregar.Name = "superTabAgregar";
-            this.superTabAgregar.Size = new System.Drawing.Size(791, 396);
-            this.superTabAgregar.TabIndex = 0;
-            this.superTabAgregar.TabItem = this.tabItemAgregar;
-            // 
-            // comboBoxRol
-            // 
-            this.comboBoxRol.DisplayMember = "Text";
-            this.comboBoxRol.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboBoxRol.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxRol.EnablePopupResize = false;
-            this.comboBoxRol.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxRol.ItemHeight = 19;
-            this.comboBoxRol.Location = new System.Drawing.Point(138, 212);
-            this.comboBoxRol.Name = "comboBoxRol";
-            this.comboBoxRol.Size = new System.Drawing.Size(245, 25);
-            this.comboBoxRol.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboBoxRol.TabIndex = 18;
-            this.comboBoxRol.SelectionChangeCommitted += new System.EventHandler(this.comboRol_SelectionChangeCommited);
-            // 
-            // lblRol
-            // 
-            // 
-            // 
-            // 
-            this.lblRol.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblRol.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRol.Location = new System.Drawing.Point(17, 212);
-            this.lblRol.Name = "lblRol";
-            this.lblRol.Size = new System.Drawing.Size(110, 25);
-            this.lblRol.TabIndex = 17;
-            this.lblRol.Text = "Rol:";
-            // 
-            // dateFecNac
-            // 
-            // 
-            // 
-            // 
-            this.dateFecNac.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.dateFecNac.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateFecNac.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
-            this.dateFecNac.ButtonDropDown.Visible = true;
-            this.dateFecNac.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateFecNac.IsPopupCalendarOpen = false;
-            this.dateFecNac.Location = new System.Drawing.Point(138, 166);
-            this.dateFecNac.MaxDate = new System.DateTime(1999, 12, 31, 0, 0, 0, 0);
-            this.dateFecNac.MinDate = new System.DateTime(1930, 1, 1, 0, 0, 0, 0);
-            // 
-            // 
-            // 
-            this.dateFecNac.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dateFecNac.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateFecNac.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            this.dateFecNac.MonthCalendar.ClearButtonVisible = true;
-            // 
-            // 
-            // 
-            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
-            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
-            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
-            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
-            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateFecNac.MonthCalendar.DisplayMonth = new System.DateTime(2017, 8, 1, 0, 0, 0, 0);
-            this.dateFecNac.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.dateFecNac.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dateFecNac.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.dateFecNac.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
-            this.dateFecNac.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.dateFecNac.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dateFecNac.MonthCalendar.TodayButtonVisible = true;
-            this.dateFecNac.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.dateFecNac.Name = "dateFecNac";
-            this.dateFecNac.Size = new System.Drawing.Size(245, 25);
-            this.dateFecNac.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.dateFecNac.TabIndex = 15;
-            // 
-            // txtEmail
-            // 
-            this.txtEmail.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtEmail.Border.Class = "TextBoxBorder";
-            this.txtEmail.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.ForeColor = System.Drawing.Color.Black;
-            this.txtEmail.Location = new System.Drawing.Point(536, 166);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(245, 25);
-            this.txtEmail.TabIndex = 14;
-            // 
-            // txtTelefono
-            // 
-            this.txtTelefono.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtTelefono.Border.Class = "TextBoxBorder";
-            this.txtTelefono.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtTelefono.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTelefono.ForeColor = System.Drawing.Color.Black;
-            this.txtTelefono.Location = new System.Drawing.Point(536, 124);
-            this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(245, 25);
-            this.txtTelefono.TabIndex = 13;
-            // 
-            // txtCiudad
-            // 
-            this.txtCiudad.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtCiudad.Border.Class = "TextBoxBorder";
-            this.txtCiudad.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtCiudad.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCiudad.ForeColor = System.Drawing.Color.Black;
-            this.txtCiudad.Location = new System.Drawing.Point(536, 84);
-            this.txtCiudad.Name = "txtCiudad";
-            this.txtCiudad.Size = new System.Drawing.Size(245, 25);
-            this.txtCiudad.TabIndex = 12;
-            // 
-            // txtDireccion
-            // 
-            this.txtDireccion.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtDireccion.Border.Class = "TextBoxBorder";
-            this.txtDireccion.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtDireccion.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDireccion.ForeColor = System.Drawing.Color.Black;
-            this.txtDireccion.Location = new System.Drawing.Point(536, 44);
-            this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(245, 25);
-            this.txtDireccion.TabIndex = 11;
-            // 
-            // txtDni
-            // 
-            this.txtDni.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtDni.Border.Class = "TextBoxBorder";
-            this.txtDni.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtDni.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDni.ForeColor = System.Drawing.Color.Black;
-            this.txtDni.Location = new System.Drawing.Point(138, 124);
-            this.txtDni.Name = "txtDni";
-            this.txtDni.Size = new System.Drawing.Size(245, 25);
-            this.txtDni.TabIndex = 10;
-            // 
-            // txtApellido
-            // 
-            this.txtApellido.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtApellido.Border.Class = "TextBoxBorder";
-            this.txtApellido.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtApellido.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellido.ForeColor = System.Drawing.Color.Black;
-            this.txtApellido.Location = new System.Drawing.Point(138, 84);
-            this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(245, 25);
-            this.txtApellido.TabIndex = 9;
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtNombre.Border.Class = "TextBoxBorder";
-            this.txtNombre.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtNombre.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.ForeColor = System.Drawing.Color.Black;
-            this.txtNombre.Location = new System.Drawing.Point(138, 44);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(245, 25);
-            this.txtNombre.TabIndex = 8;
-            // 
-            // lblEmail
-            // 
-            // 
-            // 
-            // 
-            this.lblEmail.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblEmail.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmail.Location = new System.Drawing.Point(411, 166);
-            this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(110, 25);
-            this.lblEmail.TabIndex = 7;
-            this.lblEmail.Text = "(*) Email:";
-            // 
-            // lblTelefono
-            // 
-            // 
-            // 
-            // 
-            this.lblTelefono.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblTelefono.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTelefono.Location = new System.Drawing.Point(411, 124);
-            this.lblTelefono.Name = "lblTelefono";
-            this.lblTelefono.Size = new System.Drawing.Size(110, 25);
-            this.lblTelefono.TabIndex = 6;
-            this.lblTelefono.Text = "Teléfono:";
-            // 
-            // lblCiudad
-            // 
-            // 
-            // 
-            // 
-            this.lblCiudad.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblCiudad.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCiudad.Location = new System.Drawing.Point(411, 84);
-            this.lblCiudad.Name = "lblCiudad";
-            this.lblCiudad.Size = new System.Drawing.Size(110, 25);
-            this.lblCiudad.TabIndex = 5;
-            this.lblCiudad.Text = "Ciudad:";
-            // 
-            // lblDireccion
-            // 
-            // 
-            // 
-            // 
-            this.lblDireccion.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblDireccion.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDireccion.Location = new System.Drawing.Point(411, 44);
-            this.lblDireccion.Name = "lblDireccion";
-            this.lblDireccion.Size = new System.Drawing.Size(110, 25);
-            this.lblDireccion.TabIndex = 4;
-            this.lblDireccion.Text = "Dirección:";
-            // 
-            // lblFecNac
-            // 
-            // 
-            // 
-            // 
-            this.lblFecNac.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblFecNac.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFecNac.Location = new System.Drawing.Point(17, 166);
-            this.lblFecNac.Name = "lblFecNac";
-            this.lblFecNac.Size = new System.Drawing.Size(110, 25);
-            this.lblFecNac.TabIndex = 3;
-            this.lblFecNac.Text = "Fecha Nac:";
-            // 
-            // lblDni
-            // 
-            // 
-            // 
-            // 
-            this.lblDni.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblDni.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDni.Location = new System.Drawing.Point(18, 124);
-            this.lblDni.Name = "lblDni";
-            this.lblDni.Size = new System.Drawing.Size(110, 25);
-            this.lblDni.TabIndex = 2;
-            this.lblDni.Text = "(*) DNI:";
-            // 
-            // lblApellido
-            // 
-            // 
-            // 
-            // 
-            this.lblApellido.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblApellido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblApellido.Location = new System.Drawing.Point(17, 84);
-            this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(110, 25);
-            this.lblApellido.TabIndex = 1;
-            this.lblApellido.Text = "(*) Apellido:";
-            // 
-            // lblNombre
-            // 
-            // 
-            // 
-            // 
-            this.lblNombre.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.Location = new System.Drawing.Point(17, 44);
-            this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(110, 25);
-            this.lblNombre.TabIndex = 0;
-            this.lblNombre.Text = "(*) Nombre:";
-            // 
-            // btnGuardar
-            // 
-            this.btnGuardar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnGuardar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnGuardar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.Image = global::OEVApp.Properties.Resources.Save32x32;
-            this.btnGuardar.Location = new System.Drawing.Point(564, 267);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(140, 75);
-            this.btnGuardar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnGuardar.TabIndex = 16;
-            this.btnGuardar.Text = "Guardar";
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_click);
-            // 
-            // tabItemAgregar
-            // 
-            this.tabItemAgregar.AttachedControl = this.superTabAgregar;
-            this.tabItemAgregar.GlobalItem = false;
-            this.tabItemAgregar.Image = global::OEVApp.Properties.Resources.upload_ok1;
-            this.tabItemAgregar.Name = "tabItemAgregar";
-            superTabItemStateColorTable3.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates3.Selected = superTabItemStateColorTable3;
-            superTabItemColorTable3.Default = superTabColorStates3;
-            this.tabItemAgregar.TabColor = superTabItemColorTable3;
-            this.tabItemAgregar.Text = "<b>Agregar</b>";
-            this.tabItemAgregar.Click += new System.EventHandler(this.tabItemAgregar_Click);
-            // 
-            // superTabBackup
-            // 
-            this.superTabBackup.Controls.Add(this.lblValorRutaBackup);
-            this.superTabBackup.Controls.Add(this.lblRutaBackup);
-            this.superTabBackup.Controls.Add(this.btnBackup);
-            this.superTabBackup.Controls.Add(this.btnRutaBackup);
-            this.superTabBackup.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabBackup.Location = new System.Drawing.Point(0, 38);
-            this.superTabBackup.Name = "superTabBackup";
-            this.superTabBackup.Size = new System.Drawing.Size(791, 358);
-            this.superTabBackup.TabIndex = 1;
-            this.superTabBackup.TabItem = this.tabItemBackup;
-            // 
-            // lblValorRutaBackup
-            // 
-            // 
-            // 
-            // 
-            this.lblValorRutaBackup.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblValorRutaBackup.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblValorRutaBackup.Location = new System.Drawing.Point(15, 75);
-            this.lblValorRutaBackup.Name = "lblValorRutaBackup";
-            this.lblValorRutaBackup.Size = new System.Drawing.Size(452, 23);
-            this.lblValorRutaBackup.TabIndex = 3;
-            // 
-            // lblRutaBackup
-            // 
-            // 
-            // 
-            // 
-            this.lblRutaBackup.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblRutaBackup.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRutaBackup.Location = new System.Drawing.Point(15, 45);
-            this.lblRutaBackup.Name = "lblRutaBackup";
-            this.lblRutaBackup.Size = new System.Drawing.Size(159, 23);
-            this.lblRutaBackup.TabIndex = 0;
-            this.lblRutaBackup.Text = "Ruta destino:";
-            // 
-            // btnBackup
-            // 
-            this.btnBackup.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnBackup.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnBackup.Enabled = false;
-            this.btnBackup.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBackup.Image = global::OEVApp.Properties.Resources.Backup1;
-            this.btnBackup.Location = new System.Drawing.Point(157, 136);
-            this.btnBackup.Name = "btnBackup";
-            this.btnBackup.Size = new System.Drawing.Size(182, 42);
-            this.btnBackup.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnBackup.TabIndex = 2;
-            this.btnBackup.Text = "Crear copia";
-            this.btnBackup.Click += new System.EventHandler(this.btnBackup_Click);
-            // 
-            // btnRutaBackup
-            // 
-            this.btnRutaBackup.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnRutaBackup.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnRutaBackup.Image = global::OEVApp.Properties.Resources.Open;
-            this.btnRutaBackup.Location = new System.Drawing.Point(286, 29);
-            this.btnRutaBackup.Name = "btnRutaBackup";
-            this.btnRutaBackup.Size = new System.Drawing.Size(40, 40);
-            this.btnRutaBackup.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnRutaBackup.TabIndex = 1;
-            this.btnRutaBackup.Click += new System.EventHandler(this.btnRutaBackup_Click);
-            // 
-            // tabItemBackup
-            // 
-            this.tabItemBackup.AttachedControl = this.superTabBackup;
-            this.tabItemBackup.GlobalItem = false;
-            this.tabItemBackup.Image = global::OEVApp.Properties.Resources.DatabaseRestore24x24;
-            this.tabItemBackup.Name = "tabItemBackup";
-            superTabItemStateColorTable2.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates2.Selected = superTabItemStateColorTable2;
-            superTabItemColorTable2.Default = superTabColorStates2;
-            this.tabItemBackup.TabColor = superTabItemColorTable2;
-            this.tabItemBackup.Text = "<b>Copia BD</b>";
             // 
             // superTabEditar
             // 
@@ -1605,13 +1185,433 @@ namespace OEVApp
             this.tabItemEditar.Text = "<b>Editar</b>";
             this.tabItemEditar.Click += new System.EventHandler(this.tabItemModificar_Click);
             // 
+            // superTabBackup
+            // 
+            this.superTabBackup.Controls.Add(this.lblValorRutaBackup);
+            this.superTabBackup.Controls.Add(this.lblRutaBackup);
+            this.superTabBackup.Controls.Add(this.btnBackup);
+            this.superTabBackup.Controls.Add(this.btnRutaBackup);
+            this.superTabBackup.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabBackup.Location = new System.Drawing.Point(0, 38);
+            this.superTabBackup.Name = "superTabBackup";
+            this.superTabBackup.Size = new System.Drawing.Size(791, 358);
+            this.superTabBackup.TabIndex = 1;
+            this.superTabBackup.TabItem = this.tabItemBackup;
+            // 
+            // lblValorRutaBackup
+            // 
+            // 
+            // 
+            // 
+            this.lblValorRutaBackup.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblValorRutaBackup.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValorRutaBackup.Location = new System.Drawing.Point(15, 75);
+            this.lblValorRutaBackup.Name = "lblValorRutaBackup";
+            this.lblValorRutaBackup.Size = new System.Drawing.Size(452, 23);
+            this.lblValorRutaBackup.TabIndex = 3;
+            // 
+            // lblRutaBackup
+            // 
+            // 
+            // 
+            // 
+            this.lblRutaBackup.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblRutaBackup.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRutaBackup.Location = new System.Drawing.Point(15, 45);
+            this.lblRutaBackup.Name = "lblRutaBackup";
+            this.lblRutaBackup.Size = new System.Drawing.Size(159, 23);
+            this.lblRutaBackup.TabIndex = 0;
+            this.lblRutaBackup.Text = "Ruta destino:";
+            // 
+            // btnBackup
+            // 
+            this.btnBackup.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnBackup.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnBackup.Enabled = false;
+            this.btnBackup.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBackup.Image = global::OEVApp.Properties.Resources.Backup1;
+            this.btnBackup.Location = new System.Drawing.Point(157, 136);
+            this.btnBackup.Name = "btnBackup";
+            this.btnBackup.Size = new System.Drawing.Size(182, 42);
+            this.btnBackup.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnBackup.TabIndex = 2;
+            this.btnBackup.Text = "Crear copia";
+            this.btnBackup.Click += new System.EventHandler(this.btnBackup_Click);
+            // 
+            // btnRutaBackup
+            // 
+            this.btnRutaBackup.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnRutaBackup.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnRutaBackup.Image = global::OEVApp.Properties.Resources.Open;
+            this.btnRutaBackup.Location = new System.Drawing.Point(286, 29);
+            this.btnRutaBackup.Name = "btnRutaBackup";
+            this.btnRutaBackup.Size = new System.Drawing.Size(40, 40);
+            this.btnRutaBackup.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnRutaBackup.TabIndex = 1;
+            this.btnRutaBackup.Click += new System.EventHandler(this.btnRutaBackup_Click);
+            // 
+            // tabItemBackup
+            // 
+            this.tabItemBackup.AttachedControl = this.superTabBackup;
+            this.tabItemBackup.GlobalItem = false;
+            this.tabItemBackup.Image = global::OEVApp.Properties.Resources.DatabaseRestore24x24;
+            this.tabItemBackup.Name = "tabItemBackup";
+            superTabItemStateColorTable7.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates7.Selected = superTabItemStateColorTable7;
+            superTabItemColorTable7.Default = superTabColorStates7;
+            this.tabItemBackup.TabColor = superTabItemColorTable7;
+            this.tabItemBackup.Text = "<b>Copia BD</b>";
+            // 
+            // superTabAgregar
+            // 
+            this.superTabAgregar.Controls.Add(this.comboBoxRol);
+            this.superTabAgregar.Controls.Add(this.lblRol);
+            this.superTabAgregar.Controls.Add(this.dateFecNac);
+            this.superTabAgregar.Controls.Add(this.txtEmail);
+            this.superTabAgregar.Controls.Add(this.txtTelefono);
+            this.superTabAgregar.Controls.Add(this.txtCiudad);
+            this.superTabAgregar.Controls.Add(this.txtDireccion);
+            this.superTabAgregar.Controls.Add(this.txtDni);
+            this.superTabAgregar.Controls.Add(this.txtApellido);
+            this.superTabAgregar.Controls.Add(this.txtNombre);
+            this.superTabAgregar.Controls.Add(this.lblEmail);
+            this.superTabAgregar.Controls.Add(this.lblTelefono);
+            this.superTabAgregar.Controls.Add(this.lblCiudad);
+            this.superTabAgregar.Controls.Add(this.lblDireccion);
+            this.superTabAgregar.Controls.Add(this.lblFecNac);
+            this.superTabAgregar.Controls.Add(this.lblDni);
+            this.superTabAgregar.Controls.Add(this.lblApellido);
+            this.superTabAgregar.Controls.Add(this.lblNombre);
+            this.superTabAgregar.Controls.Add(this.btnGuardar);
+            this.superTabAgregar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabAgregar.Location = new System.Drawing.Point(0, 38);
+            this.superTabAgregar.Name = "superTabAgregar";
+            this.superTabAgregar.Size = new System.Drawing.Size(791, 358);
+            this.superTabAgregar.TabIndex = 0;
+            this.superTabAgregar.TabItem = this.tabItemAgregar;
+            // 
+            // comboBoxRol
+            // 
+            this.comboBoxRol.DisplayMember = "Text";
+            this.comboBoxRol.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.comboBoxRol.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxRol.EnablePopupResize = false;
+            this.comboBoxRol.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxRol.ItemHeight = 19;
+            this.comboBoxRol.Location = new System.Drawing.Point(138, 212);
+            this.comboBoxRol.Name = "comboBoxRol";
+            this.comboBoxRol.Size = new System.Drawing.Size(245, 25);
+            this.comboBoxRol.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboBoxRol.TabIndex = 18;
+            this.comboBoxRol.SelectionChangeCommitted += new System.EventHandler(this.comboRol_SelectionChangeCommited);
+            // 
+            // lblRol
+            // 
+            // 
+            // 
+            // 
+            this.lblRol.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblRol.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRol.Location = new System.Drawing.Point(17, 212);
+            this.lblRol.Name = "lblRol";
+            this.lblRol.Size = new System.Drawing.Size(110, 25);
+            this.lblRol.TabIndex = 17;
+            this.lblRol.Text = "Rol:";
+            // 
+            // dateFecNac
+            // 
+            // 
+            // 
+            // 
+            this.dateFecNac.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.dateFecNac.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateFecNac.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
+            this.dateFecNac.ButtonDropDown.Visible = true;
+            this.dateFecNac.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateFecNac.IsPopupCalendarOpen = false;
+            this.dateFecNac.Location = new System.Drawing.Point(138, 166);
+            this.dateFecNac.MaxDate = new System.DateTime(1999, 12, 31, 0, 0, 0, 0);
+            this.dateFecNac.MinDate = new System.DateTime(1930, 1, 1, 0, 0, 0, 0);
+            // 
+            // 
+            // 
+            this.dateFecNac.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dateFecNac.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateFecNac.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            this.dateFecNac.MonthCalendar.ClearButtonVisible = true;
+            // 
+            // 
+            // 
+            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
+            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
+            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
+            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
+            this.dateFecNac.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateFecNac.MonthCalendar.DisplayMonth = new System.DateTime(2017, 8, 1, 0, 0, 0, 0);
+            this.dateFecNac.MonthCalendar.MarkedDates = new System.DateTime[0];
+            this.dateFecNac.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dateFecNac.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.dateFecNac.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
+            this.dateFecNac.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.dateFecNac.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dateFecNac.MonthCalendar.TodayButtonVisible = true;
+            this.dateFecNac.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
+            this.dateFecNac.Name = "dateFecNac";
+            this.dateFecNac.Size = new System.Drawing.Size(245, 25);
+            this.dateFecNac.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.dateFecNac.TabIndex = 15;
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtEmail.Border.Class = "TextBoxBorder";
+            this.txtEmail.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.ForeColor = System.Drawing.Color.Black;
+            this.txtEmail.Location = new System.Drawing.Point(536, 166);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(245, 25);
+            this.txtEmail.TabIndex = 14;
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtTelefono.Border.Class = "TextBoxBorder";
+            this.txtTelefono.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtTelefono.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefono.ForeColor = System.Drawing.Color.Black;
+            this.txtTelefono.Location = new System.Drawing.Point(536, 124);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(245, 25);
+            this.txtTelefono.TabIndex = 13;
+            // 
+            // txtCiudad
+            // 
+            this.txtCiudad.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtCiudad.Border.Class = "TextBoxBorder";
+            this.txtCiudad.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtCiudad.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCiudad.ForeColor = System.Drawing.Color.Black;
+            this.txtCiudad.Location = new System.Drawing.Point(536, 84);
+            this.txtCiudad.Name = "txtCiudad";
+            this.txtCiudad.Size = new System.Drawing.Size(245, 25);
+            this.txtCiudad.TabIndex = 12;
+            // 
+            // txtDireccion
+            // 
+            this.txtDireccion.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtDireccion.Border.Class = "TextBoxBorder";
+            this.txtDireccion.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtDireccion.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDireccion.ForeColor = System.Drawing.Color.Black;
+            this.txtDireccion.Location = new System.Drawing.Point(536, 44);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(245, 25);
+            this.txtDireccion.TabIndex = 11;
+            // 
+            // txtDni
+            // 
+            this.txtDni.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtDni.Border.Class = "TextBoxBorder";
+            this.txtDni.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtDni.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDni.ForeColor = System.Drawing.Color.Black;
+            this.txtDni.Location = new System.Drawing.Point(138, 124);
+            this.txtDni.Name = "txtDni";
+            this.txtDni.Size = new System.Drawing.Size(245, 25);
+            this.txtDni.TabIndex = 10;
+            // 
+            // txtApellido
+            // 
+            this.txtApellido.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtApellido.Border.Class = "TextBoxBorder";
+            this.txtApellido.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtApellido.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApellido.ForeColor = System.Drawing.Color.Black;
+            this.txtApellido.Location = new System.Drawing.Point(138, 84);
+            this.txtApellido.Name = "txtApellido";
+            this.txtApellido.Size = new System.Drawing.Size(245, 25);
+            this.txtApellido.TabIndex = 9;
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtNombre.Border.Class = "TextBoxBorder";
+            this.txtNombre.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtNombre.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.ForeColor = System.Drawing.Color.Black;
+            this.txtNombre.Location = new System.Drawing.Point(138, 44);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(245, 25);
+            this.txtNombre.TabIndex = 8;
+            // 
+            // lblEmail
+            // 
+            // 
+            // 
+            // 
+            this.lblEmail.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblEmail.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail.Location = new System.Drawing.Point(411, 166);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(110, 25);
+            this.lblEmail.TabIndex = 7;
+            this.lblEmail.Text = "(*) Email:";
+            // 
+            // lblTelefono
+            // 
+            // 
+            // 
+            // 
+            this.lblTelefono.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblTelefono.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefono.Location = new System.Drawing.Point(411, 124);
+            this.lblTelefono.Name = "lblTelefono";
+            this.lblTelefono.Size = new System.Drawing.Size(110, 25);
+            this.lblTelefono.TabIndex = 6;
+            this.lblTelefono.Text = "Teléfono:";
+            // 
+            // lblCiudad
+            // 
+            // 
+            // 
+            // 
+            this.lblCiudad.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblCiudad.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCiudad.Location = new System.Drawing.Point(411, 84);
+            this.lblCiudad.Name = "lblCiudad";
+            this.lblCiudad.Size = new System.Drawing.Size(110, 25);
+            this.lblCiudad.TabIndex = 5;
+            this.lblCiudad.Text = "Ciudad:";
+            // 
+            // lblDireccion
+            // 
+            // 
+            // 
+            // 
+            this.lblDireccion.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblDireccion.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDireccion.Location = new System.Drawing.Point(411, 44);
+            this.lblDireccion.Name = "lblDireccion";
+            this.lblDireccion.Size = new System.Drawing.Size(110, 25);
+            this.lblDireccion.TabIndex = 4;
+            this.lblDireccion.Text = "Dirección:";
+            // 
+            // lblFecNac
+            // 
+            // 
+            // 
+            // 
+            this.lblFecNac.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblFecNac.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFecNac.Location = new System.Drawing.Point(17, 166);
+            this.lblFecNac.Name = "lblFecNac";
+            this.lblFecNac.Size = new System.Drawing.Size(110, 25);
+            this.lblFecNac.TabIndex = 3;
+            this.lblFecNac.Text = "Fecha Nac:";
+            // 
+            // lblDni
+            // 
+            // 
+            // 
+            // 
+            this.lblDni.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblDni.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDni.Location = new System.Drawing.Point(18, 124);
+            this.lblDni.Name = "lblDni";
+            this.lblDni.Size = new System.Drawing.Size(110, 25);
+            this.lblDni.TabIndex = 2;
+            this.lblDni.Text = "(*) DNI:";
+            // 
+            // lblApellido
+            // 
+            // 
+            // 
+            // 
+            this.lblApellido.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblApellido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblApellido.Location = new System.Drawing.Point(17, 84);
+            this.lblApellido.Name = "lblApellido";
+            this.lblApellido.Size = new System.Drawing.Size(110, 25);
+            this.lblApellido.TabIndex = 1;
+            this.lblApellido.Text = "(*) Apellido:";
+            // 
+            // lblNombre
+            // 
+            // 
+            // 
+            // 
+            this.lblNombre.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Location = new System.Drawing.Point(17, 44);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(110, 25);
+            this.lblNombre.TabIndex = 0;
+            this.lblNombre.Text = "(*) Nombre:";
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnGuardar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnGuardar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.Image = global::OEVApp.Properties.Resources.Save32x32;
+            this.btnGuardar.Location = new System.Drawing.Point(564, 267);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(140, 75);
+            this.btnGuardar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnGuardar.TabIndex = 16;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_click);
+            // 
+            // tabItemAgregar
+            // 
+            this.tabItemAgregar.AttachedControl = this.superTabAgregar;
+            this.tabItemAgregar.GlobalItem = false;
+            this.tabItemAgregar.Image = global::OEVApp.Properties.Resources.upload_ok1;
+            this.tabItemAgregar.Name = "tabItemAgregar";
+            superTabItemStateColorTable2.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates2.Selected = superTabItemStateColorTable2;
+            superTabItemColorTable2.Default = superTabColorStates2;
+            this.tabItemAgregar.TabColor = superTabItemColorTable2;
+            this.tabItemAgregar.Text = "<b>Agregar</b>";
+            this.tabItemAgregar.Click += new System.EventHandler(this.tabItemAgregar_Click);
+            // 
             // superTabDVV
             // 
             this.superTabDVV.Controls.Add(this.radioGroupDVV);
             this.superTabDVV.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabDVV.Location = new System.Drawing.Point(0, 0);
+            this.superTabDVV.Location = new System.Drawing.Point(0, 38);
             this.superTabDVV.Name = "superTabDVV";
-            this.superTabDVV.Size = new System.Drawing.Size(791, 396);
+            this.superTabDVV.Size = new System.Drawing.Size(791, 358);
             this.superTabDVV.TabIndex = 0;
             this.superTabDVV.TabItem = this.tabItemDVV;
             // 
@@ -1658,9 +1658,9 @@ namespace OEVApp
             this.superTabRestore.Controls.Add(this.btnRestore);
             this.superTabRestore.Controls.Add(this.btnRutaRestore);
             this.superTabRestore.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabRestore.Location = new System.Drawing.Point(0, 0);
+            this.superTabRestore.Location = new System.Drawing.Point(0, 38);
             this.superTabRestore.Name = "superTabRestore";
-            this.superTabRestore.Size = new System.Drawing.Size(791, 396);
+            this.superTabRestore.Size = new System.Drawing.Size(791, 358);
             this.superTabRestore.TabIndex = 0;
             this.superTabRestore.TabItem = this.tabItemRestore;
             // 
@@ -1722,10 +1722,10 @@ namespace OEVApp
             this.tabItemRestore.GlobalItem = false;
             this.tabItemRestore.Image = global::OEVApp.Properties.Resources.databaseBackup24x24;
             this.tabItemRestore.Name = "tabItemRestore";
-            superTabItemStateColorTable5.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates5.Selected = superTabItemStateColorTable5;
-            superTabItemColorTable5.Default = superTabColorStates5;
-            this.tabItemRestore.TabColor = superTabItemColorTable5;
+            superTabItemStateColorTable6.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates6.Selected = superTabItemStateColorTable6;
+            superTabItemColorTable6.Default = superTabColorStates6;
+            this.tabItemRestore.TabColor = superTabItemColorTable6;
             this.tabItemRestore.Text = "<b>Restaurar BD</b>";
             // 
             // superTabFunc
@@ -2059,10 +2059,10 @@ namespace OEVApp
             this.tabItemFunc.GlobalItem = false;
             this.tabItemFunc.Image = global::OEVApp.Properties.Resources.ConfigCool24x24;
             this.tabItemFunc.Name = "tabItemFunc";
-            superTabItemStateColorTable6.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates6.Selected = superTabItemStateColorTable6;
-            superTabItemColorTable6.Default = superTabColorStates6;
-            this.tabItemFunc.TabColor = superTabItemColorTable6;
+            superTabItemStateColorTable8.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates8.Selected = superTabItemStateColorTable8;
+            superTabItemColorTable8.Default = superTabColorStates8;
+            this.tabItemFunc.TabColor = superTabItemColorTable8;
             this.tabItemFunc.Text = "<b>Funciones</b>";
             // 
             // superTabAsignar
@@ -2299,10 +2299,10 @@ namespace OEVApp
             this.tabItemAsignar.GlobalItem = false;
             this.tabItemAsignar.Image = global::OEVApp.Properties.Resources.AuthorisedHot;
             this.tabItemAsignar.Name = "tabItemAsignar";
-            superTabItemStateColorTable7.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates7.Selected = superTabItemStateColorTable7;
-            superTabItemColorTable7.Default = superTabColorStates7;
-            this.tabItemAsignar.TabColor = superTabItemColorTable7;
+            superTabItemStateColorTable9.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates9.Selected = superTabItemStateColorTable9;
+            superTabItemColorTable9.Default = superTabColorStates9;
+            this.tabItemAsignar.TabColor = superTabItemColorTable9;
             this.tabItemAsignar.Text = "<b>Asignar</b>";
             // 
             // superTabConsultarB
@@ -2653,10 +2653,10 @@ namespace OEVApp
             this.tabItemConsultarB.GlobalItem = false;
             this.tabItemConsultarB.Image = global::OEVApp.Properties.Resources.lupa;
             this.tabItemConsultarB.Name = "tabItemConsultarB";
-            superTabItemStateColorTable8.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates8.Selected = superTabItemStateColorTable8;
-            superTabItemColorTable8.Default = superTabColorStates8;
-            this.tabItemConsultarB.TabColor = superTabItemColorTable8;
+            superTabItemStateColorTable10.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates10.Selected = superTabItemStateColorTable10;
+            superTabItemColorTable10.Default = superTabColorStates10;
+            this.tabItemConsultarB.TabColor = superTabItemColorTable10;
             this.tabItemConsultarB.Text = "<b>Consultar</b>";
             // 
             // superTabConsultar
@@ -2920,10 +2920,10 @@ namespace OEVApp
             this.tabItemConsultar.GlobalItem = false;
             this.tabItemConsultar.Image = global::OEVApp.Properties.Resources.lupa;
             this.tabItemConsultar.Name = "tabItemConsultar";
-            superTabItemStateColorTable9.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates9.Selected = superTabItemStateColorTable9;
-            superTabItemColorTable9.Default = superTabColorStates9;
-            this.tabItemConsultar.TabColor = superTabItemColorTable9;
+            superTabItemStateColorTable11.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates11.Selected = superTabItemStateColorTable11;
+            superTabItemColorTable11.Default = superTabColorStates11;
+            this.tabItemConsultar.TabColor = superTabItemColorTable11;
             this.tabItemConsultar.Text = "<b>Consultar</b>";
             this.tabItemConsultar.Click += new System.EventHandler(this.tabItemConsultar_Click);
             // 
@@ -2936,9 +2936,9 @@ namespace OEVApp
             this.superTabCripto.Controls.Add(this.lblTextoCripto);
             this.superTabCripto.Controls.Add(this.radioGroupOpcion);
             this.superTabCripto.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabCripto.Location = new System.Drawing.Point(0, 0);
+            this.superTabCripto.Location = new System.Drawing.Point(0, 38);
             this.superTabCripto.Name = "superTabCripto";
-            this.superTabCripto.Size = new System.Drawing.Size(791, 396);
+            this.superTabCripto.Size = new System.Drawing.Size(791, 358);
             this.superTabCripto.TabIndex = 0;
             this.superTabCripto.TabItem = this.tabItemCripto;
             // 
@@ -3054,10 +3054,10 @@ namespace OEVApp
             this.tabItemCripto.GlobalItem = false;
             this.tabItemCripto.Image = global::OEVApp.Properties.Resources.Crypto24x24;
             this.tabItemCripto.Name = "tabItemCripto";
-            superTabItemStateColorTable10.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates10.Selected = superTabItemStateColorTable10;
-            superTabItemColorTable10.Default = superTabColorStates10;
-            this.tabItemCripto.TabColor = superTabItemColorTable10;
+            superTabItemStateColorTable3.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates3.Selected = superTabItemStateColorTable3;
+            superTabItemColorTable3.Default = superTabColorStates3;
+            this.tabItemCripto.TabColor = superTabItemColorTable3;
             this.tabItemCripto.Text = "<b>Criptografía</b>";
             // 
             // superTabDVH
@@ -3067,9 +3067,9 @@ namespace OEVApp
             this.superTabDVH.Controls.Add(this.lblUsuarioDVH);
             this.superTabDVH.Controls.Add(this.radioGroupDVH);
             this.superTabDVH.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabDVH.Location = new System.Drawing.Point(0, 0);
+            this.superTabDVH.Location = new System.Drawing.Point(0, 38);
             this.superTabDVH.Name = "superTabDVH";
-            this.superTabDVH.Size = new System.Drawing.Size(791, 396);
+            this.superTabDVH.Size = new System.Drawing.Size(791, 358);
             this.superTabDVH.TabIndex = 0;
             this.superTabDVH.TabItem = this.tabItemDVH;
             this.superTabDVH.Visible = false;
@@ -3159,10 +3159,10 @@ namespace OEVApp
             this.tabItemDVH.GlobalItem = false;
             this.tabItemDVH.Image = global::OEVApp.Properties.Resources.DVHArrows;
             this.tabItemDVH.Name = "tabItemDVH";
-            superTabItemStateColorTable11.InnerBorder = System.Drawing.Color.Navy;
-            superTabColorStates11.Selected = superTabItemStateColorTable11;
-            superTabItemColorTable11.Default = superTabColorStates11;
-            this.tabItemDVH.TabColor = superTabItemColorTable11;
+            superTabItemStateColorTable5.InnerBorder = System.Drawing.Color.Navy;
+            superTabColorStates5.Selected = superTabItemStateColorTable5;
+            superTabItemColorTable5.Default = superTabColorStates5;
+            this.tabItemDVH.TabColor = superTabItemColorTable5;
             this.tabItemDVH.Text = "<b>Horizontal</b>";
             // 
             // superTabPermConsultar
@@ -3418,13 +3418,13 @@ namespace OEVApp
             this.Text = "OEV - Administrador";
             ((System.ComponentModel.ISupportInitialize)(this.superTabCtrolAdmin)).EndInit();
             this.superTabCtrolAdmin.ResumeLayout(false);
-            this.superTabAgregar.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dateFecNac)).EndInit();
-            this.superTabBackup.ResumeLayout(false);
             this.superTabEditar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dateFecNacM)).EndInit();
             this.radioGroupBuscar.ResumeLayout(false);
             this.radioGroupBuscar.PerformLayout();
+            this.superTabBackup.ResumeLayout(false);
+            this.superTabAgregar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dateFecNac)).EndInit();
             this.superTabDVV.ResumeLayout(false);
             this.radioGroupDVV.ResumeLayout(false);
             this.superTabRestore.ResumeLayout(false);

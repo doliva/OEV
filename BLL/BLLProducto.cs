@@ -62,5 +62,17 @@ namespace BLL
                 throw new Excepcion(Constantes.EXCEPCION_BLL_SEL + " Cursos ", dalE);
             }  
         }
+
+        public List<Producto> obtenerProductos()
+        {
+            try
+            {
+                return ProductoDAL.GetProductos();
+            }
+            catch (Excepcion dalE)
+            {
+                throw new Excepcion(Constantes.EXCEPCION_BLL_SEL + " Productos ", dalE);
+            } 
+        }
     }
 }

@@ -110,12 +110,13 @@ namespace OEVApp
             comboACDificultadA.DataSource = Enum.GetValues(typeof(EnumDificultad)).Cast<EnumDificultad>().ToList();
             comboAPDificultadA.DataSource = Enum.GetValues(typeof(EnumDificultad)).Cast<EnumDificultad>().ToList();
             comboACNombreE.DataSource = productoBLL.obtenerCursos().Select(r => r.nombre).ToList();
-            comboAPNombreE.DataSource = new List<Producto>();//rolBLL.obtenerRoles().Where(r => r.estado == true).Select(r => r.descripcion).ToList();
-            comboAPDificultadE.DataSource = Enum.GetValues(typeof(EnumDificultad)).Cast<EnumDificultad>().ToList();
+            comboAPNombreE.DataSource = productoBLL.obtenerProductos().Where(t => t.tipoProducto== EnumProducto.EVENTO.ToString()).Select(r => r.nombre).ToList();
             comboACDificultadC.DataSource = Enum.GetValues(typeof(EnumDificultad)).Cast<EnumDificultad>().ToList();
-            comboAPDestinoC.DataSource = new List<Producto>();//rolBLL.obtenerRoles().Where(r => r.estado == true).Select(r => r.descripcion).ToList();
             comboAPDificultadC.DataSource = Enum.GetValues(typeof(EnumDificultad)).Cast<EnumDificultad>().ToList();
             comboBoxProvAgrTipo.DataSource = Enum.GetValues(typeof(EnumCategoria)).Cast<EnumCategoria>().ToList();
+
+            checkedListAPDestinoA.Items.AddRange(obtenerDestinoDic().Values.ToArray());
+            checkedListAPDestinoC.Items.AddRange(obtenerDestinoDic().Values.ToArray());
         }
 
         private void formatTimeInputs()
@@ -123,7 +124,9 @@ namespace OEVApp
             dTInputACHoraInicioA.CustomFormat = "HH:mm";
             dTInputACHoraFinA.CustomFormat = "HH:mm";
             dTInputACHoraInicioE.CustomFormat = "HH:mm";
-            dTInputACHoraFinE.CustomFormat = "HH:mm"; 
+            dTInputACHoraFinE.CustomFormat = "HH:mm";
+            //dateAPInicioA.CustomFormat = "dd'/'MM'/'yyyy HH:mm";
+            //dateAPFinA.CustomFormat = "dd'/'MM'/'yyyy HH:mm";
         }
 
         private void generarDirectorStrings()
@@ -205,28 +208,22 @@ namespace OEVApp
         private void generarPaqueteEventoStrings()
         {
             //Agregar - editar - consultar
-            groupAPModalidadA.Text = groupAPModalidadE.Text = groupAPModalidadC .Text = I18n.obtenerString("InicioDirector", "modalidad");
-            lblAPNombreA.Text = lblAPNombreE.Text = new StringBuilder(Constantes.MANDATORY).Append(I18n.obtenerString("InicioDirector", "nombre")).Append(Constantes.DOS_PUNTOS).ToString();
-            lblAPDestinoA.Text = lblAPDestinoE.Text = lblAPDestinoC.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "destino")).Append(Constantes.DOS_PUNTOS).ToString();
+            groupAPModalidadA.Text = groupAPModalidadE.Text = I18n.obtenerString("InicioDirector", "modalidad");
+            //lblAPNombreE.Text = new StringBuilder(Constantes.MANDATORY).Append(I18n.obtenerString("InicioDirector", "nombre")).Append(Constantes.DOS_PUNTOS).ToString();
+            groupAPDestinoA.Text = lblAPDestinoE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "destino")).Append(Constantes.DOS_PUNTOS).ToString();
             lblAPPrecioA.Text = lblAPPrecioE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "precio")).Append(Constantes.DOS_PUNTOS).ToString();
             lblAPItinerarioA.Text = lblAPItinerarioE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "itinerario")).Append(Constantes.DOS_PUNTOS).ToString();
             lblAPDificultadA.Text = lblAPDificultadE.Text = lblAPDificultadC.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "dificultad")).Append(Constantes.DOS_PUNTOS).ToString();
-            lblAPFechaInicioA.Text = lblAPFechaInicioE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "fechaInicio")).Append(Constantes.DOS_PUNTOS).ToString();
-            lblAPFechaFinA.Text = lblAPFechaFinE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "fechaFin")).Append(Constantes.DOS_PUNTOS).ToString();
-            groupAPEventoA.Text = groupAPEventoE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "evento")).Append(Constantes.DOS_PUNTOS).ToString();
-            radioAPCiclismoA.Text = radioAPCiclismoE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "ciclismo")).Append(Constantes.DOS_PUNTOS).ToString();
+            //lblAPFechaInicioA.Text = lblAPFechaInicioE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "fechaInicio")).Append(Constantes.DOS_PUNTOS).ToString();
+            //lblAPFechaFinA.Text = lblAPFechaFinE.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "fechaFin")).Append(Constantes.DOS_PUNTOS).ToString();
+            groupAPActividadA.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "evento")).Append(Constantes.DOS_PUNTOS).ToString();
             btnAPGuardarA.Text = btnACGuardarE.Text = I18n.obtenerString("InicioDirector", "guardar");
-            //Editar
-            btnAPBuscarE.Text = I18n.obtenerString("InicioDirector", "buscar");
             //consultar
-            radioAPEventoC.Text = I18n.obtenerString("InicioDirector", "evento");
-            radioAPPaqueteC.Text = I18n.obtenerString("InicioDirector", "paquete");
             gridViewAPC.Columns["APHNombre"].HeaderText = I18n.obtenerString("InicioDirector", "nombre");
-            gridViewAPC.Columns["APHItinerario"].HeaderText = I18n.obtenerString("InicioDirector", "itinerario");
             gridViewAPC.Columns["APHPrecio"].HeaderText = I18n.obtenerString("InicioDirector", "precio");
             gridViewAPC.Columns["APHActividades"].HeaderText = I18n.obtenerString("InicioDirector", "actividades");
-            gridViewAPC.Columns["APHFechaInicio"].HeaderText = I18n.obtenerString("InicioDirector", "fechaInicio");
-            gridViewAPC.Columns["APHFechaFin"].HeaderText = I18n.obtenerString("InicioDirector", "fechaFin");
+            //gridViewAPC.Columns["APHFechaInicio"].HeaderText = I18n.obtenerString("InicioDirector", "fechaInicio");
+            //gridViewAPC.Columns["APHFechaFin"].HeaderText = I18n.obtenerString("InicioDirector", "fechaFin");
             btnAPBuscarC.Text = I18n.obtenerString("InicioDirector", "buscar");
         }
 
@@ -328,14 +325,17 @@ namespace OEVApp
             txtACNombreA.ResetText();
             //agregar paquete/evento
             radioAPEventoA.Checked = true;
+            comboAPDificultadA.DataSource = Enum.GetValues(typeof(EnumDificultad)).Cast<EnumDificultad>().ToList();
             txtAPNombreA.ResetText();
-            txtAPDestinoA.ResetText();
             doubleInAPPrecioA.ResetText();
+            intInputAPDuracionA.ResetText();
+            while (checkedListAPActividadA.CheckedIndices.Count > 0)
+                checkedListAPActividadA.SetItemChecked(checkedListAPActividadA.CheckedIndices[0], false);
+            //checkedListAPActividadA.ClearSelected();
+            while (checkedListAPDestinoA.CheckedIndices.Count > 0)
+                checkedListAPDestinoA.SetItemChecked(checkedListAPDestinoA.CheckedIndices[0], false);
+            //checkedListAPDestinoA.ClearSelected();
             richTxtAPItinerarioA.ResetText();
-            ckdListBoxAPA.ClearSelected();
-            radioAPCiclismoA.Checked = true;
-            radioAPRunA.Checked = false;
-            radioAPBikeA.Checked = false;
             //editar curso
             richTxtACDescE.ResetText();
             doubleInACPrecioE.ResetText();
@@ -344,16 +344,26 @@ namespace OEVApp
             checkACMieE.Checked = false;
             checkACJueE.Checked = false;
             checkACVieE.Checked = false;
+            chkACEstadoE.Checked = false;
             //editar paquete/evento
             radioAPEventoE.Checked = true;
+            txtAPActividadE.ResetText();
             txtAPDestinoE.ResetText();
+            txtAPDificultadE.ResetText();
+            doubleInAPPrecioE.ResetText();
+            txtAPDuracionE.ResetText();
+            chkAPEstadoE.Checked = false;
             richTxtAPItinerarioE.ResetText();
-            ckdListBoxAPE.ClearSelected();
-            radioAPCiclismoE.Checked = true;
+
             //consultar curso
             gridViewACC.Rows.Clear();
             //consultar paquete/evento
-            radioAPEventoC.Checked = true;
+            doubleAPPrecioDesdeC.ResetText();
+            doubleAPPrecioHastaC.ResetText();
+            while (checkedListAPActividadE.CheckedIndices.Count > 0)
+                checkedListAPActividadE.SetItemChecked(checkedListAPActividadE.CheckedIndices[0], false);
+            while (checkedListAPDestinoC.CheckedIndices.Count > 0)
+                checkedListAPDestinoC.SetItemChecked(checkedListAPDestinoC.CheckedIndices[0], false);
             gridViewAPC.Rows.Clear();
             //agregar proveedor
             txtProvAgrRazon.ResetText();
@@ -411,7 +421,34 @@ namespace OEVApp
 
         private void btnItemCalA_Click(object sender, EventArgs e)
         {
-            
+            if (btnItemEditarC.Visible == false)
+            {
+                tabItemACalAgregar.Visible = false;
+                //tabItemACEditar.Visible = false;
+                //tabItemACConsultar.Visible = false;
+            }
+            else if (btnItemConsultarC.Visible == true)
+            {
+                tabItemACalAgregar.Visible = true;
+                //tabItemACEditar.Visible = true;
+                //tabItemACConsultar.Visible = true;
+            }
+            tabItemACAgregar.Visible = false;
+            tabItemACEditar.Visible = false;
+            tabItemACConsultar.Visible = false;
+            tabItemAPAgregar.Visible = false;
+            tabItemAPEditar.Visible = false;
+            tabItemAPConsultar.Visible = false;
+            tabItemProvAgregar.Visible = false;
+            tabItemProvEditar.Visible = false;
+            tabItemProvConsultar.Visible = false;
+            tabItemInstAgregar.Visible = false;
+            tabItemInstEditar.Visible = false;
+            tabItemInstConsultar.Visible = false;
+            gridViewACC.Visible = false;
+            superTabControlDir.Visible = true;
+            superTabControlDir.SelectedTab = tabItemACalAgregar;
+            limpiarCampos();
         }
 
         private void btnItemCalC_Click(object sender, EventArgs e)
@@ -599,6 +636,8 @@ namespace OEVApp
             tabItemAPAgregar.Visible = false;
             tabItemAPEditar.Visible = false;
             tabItemAPConsultar.Visible = false;
+            tabItemInstAgregar.Visible = false;
+            tabItemInstEditar.Visible = false;
             tabItemInstConsultar.Visible = false;
             comboBoxProvAgrTipo.DataSource = Enum.GetValues(typeof(EnumVehiculo)).Cast<EnumVehiculo>().ToList();
             lblProvAgrTipo.Text = new StringBuilder(I18n.obtenerString("InicioDirector", "tipoTraslado")).Append(Constantes.DOS_PUNTOS).ToString();
@@ -674,6 +713,8 @@ namespace OEVApp
             tabItemAPAgregar.Visible = false;
             tabItemAPEditar.Visible = false;
             tabItemAPConsultar.Visible = false;
+            tabItemInstAgregar.Visible = false;
+            tabItemInstEditar.Visible = false;
             tabItemInstConsultar.Visible = false;
             tabItemProvEditar.Visible = true;
             superTabControlDir.SelectedTab = tabItemProvEditar;
@@ -1543,6 +1584,7 @@ namespace OEVApp
         private void radioInstEditLegajo_Click(object sender, EventArgs e)
         {
             limpiarCampos();
+            radioInstEditLegajo.Checked = true;
             ocultarCampos();
         }
 
@@ -1570,8 +1612,8 @@ namespace OEVApp
                 btnACNombreA_Click(sender, e);
                 curso.nombre = txtACNombreA.Text;
                 curso.precio = doubleInACPrecioA.Value;
+                curso.duracion = 0;
                 curso.descripcion = richTxtACDescA.Text.Trim();
-                curso.itinerario = "";
                 curso.tipoProducto = EnumProducto.CURSO.ToString();
                 curso.dificultad = comboACDificultadA.SelectedItem.ToString();
                 curso.horario = getHorarios(Constantes.AGREGAR);
@@ -1642,6 +1684,33 @@ namespace OEVApp
             return actividades;
         }
 
+        private static Dictionary<String, String> obtenerActividadesDic()
+        {
+            Dictionary<String, String> actividadesDic = new Dictionary<string, string>();
+            actividadesDic.Add("MONT", Constantes.MONT);
+            actividadesDic.Add("RUN", Constantes.RUN);
+            actividadesDic.Add("TREK", Constantes.TREK);
+            actividadesDic.Add("BIKE", Constantes.BIKE);
+            actividadesDic.Add("AUX", Constantes.AUX);
+            actividadesDic.Add("GPS", Constantes.GPS);
+            actividadesDic.Add("CAB", Constantes.CAB);
+            actividadesDic.Add("CAN", Constantes.CAN);
+            actividadesDic.Add("CIC", Constantes.CIC);
+            actividadesDic.Add("HIELO", Constantes.HIELO);
+            actividadesDic.Add("ROCA", Constantes.ROCA);
+            actividadesDic.Add("KAY", Constantes.KAY);
+            return actividadesDic;
+        }
+
+        private String obtenerActividadesString()
+        {
+            StringBuilder actividad = new StringBuilder();
+            for (int i = 0; i < checkedListAPActividadA.CheckedItems.Count; i++)
+            {
+                actividad.Append(obtenerActividadesDic().FirstOrDefault(x => x.Value == checkedListAPActividadA.CheckedItems[i].ToString().ToUpper()).Key.ToString() + "_");
+            }
+            return actividad.ToString();
+        }
         private Horario getHorarios(String accion)
         {
             Horario horario = new Horario();
@@ -1771,7 +1840,7 @@ namespace OEVApp
             curso.estado = chkACEstadoE.Checked;
             curso.descripcion = (!String.IsNullOrEmpty(richTxtACDescE.Text.Trim())) ? richTxtACDescE.Text.Trim() : "";
             curso.destino = "";
-            curso.itinerario = "";
+            curso.duracion = 0;
 
             String mensaje = null;
             try
@@ -1852,7 +1921,279 @@ namespace OEVApp
                 gridViewACC.Visible = false;
                 MessageBox.Show(I18n.obtenerString("Mensaje", "ningunRegistro"), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
+        }
 
+        private void btnAPGuardarA_Click(object sender, EventArgs e)
+        {
+            //DateTime fechaInicio = dateAPInicioA.Value;
+            //DateTime fechaFin = dateAPFinA.Value;
+            if (checkedListAPActividadA.CheckedItems.Count == 0)
+                MessageBox.Show(I18n.obtenerString("Mensaje", "actividadRequerida"), msjError, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            //else if (!Validacion.esFechaValida(fechaInicio, fechaFin))
+            //    MessageBox.Show(I18n.obtenerString("Mensaje", "fechaInvalida"), msjError, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            else if (checkedListAPDestinoA.CheckedItems.Count == 0)
+                MessageBox.Show(I18n.obtenerString("Mensaje", "destinoRequerido"), msjError, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            else
+            {
+                Producto prod = new Producto();
+
+                prod.estado = true;
+                prod.destino = obtenerDestinosString(checkedListAPDestinoA).Remove(obtenerDestinosString(checkedListAPDestinoA).Length - 1, 1);
+                btnAPNombreA_Click(sender, e);
+                prod.nombre = txtAPNombreA.Text;
+                prod.duracion = intInputAPDuracionA.Value;
+                prod.precio = doubleInAPPrecioA.Value;
+                prod.descripcion = richTxtAPItinerarioA.Text;
+                prod.tipoProducto = (radioAPEventoA.Checked ? EnumProducto.EVENTO.ToString() : EnumProducto.PAQUETE.ToString());
+                prod.dificultad = comboAPDificultadA.SelectedItem.ToString();
+                prod.actividades = checkedListAPActividadA.CheckedItems.Cast<String>().ToList();
+
+                String mensaje = null;
+                try
+                {
+                    Producto prodRes = productoBLL.obtenerProductoPorNombre(prod.nombre);
+                    if (prodRes == null)
+                    {
+                        DialogResult siNoRes = MessageBox.Show(I18n.obtenerString("Mensaje", "confirmar"), msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                        if (siNoRes.Equals(DialogResult.Yes))
+                        {
+                            prod.idProducto = productoBLL.agregarProducto(prod);
+                            mensaje = String.Format(I18n.obtenerString("Mensaje", "productoNuevo"), I18n.obtenerString("InicioDirector", prod.tipoProducto.ToLower()), String.Join(",",prod.actividades), prod.nombre);
+                            MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            limpiarCampos();
+                        }
+                    }
+                    else
+                    {
+                        mensaje = String.Format(I18n.obtenerString("Mensaje", "productoYaExiste"), I18n.obtenerString("InicioDirector", prod.tipoProducto.ToLower()), prod.nombre);
+                        MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Bitacora bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.EXCEPCION_BLL_INS + " Producto " + prod.tipoProducto, ex.ToString());
+                    BitacoraBLL.registrarBitacora(bitacora);
+                }
+            }
+        }
+
+        private String obtenerDestinosString(CheckedListBox checkedList)
+        {
+            StringBuilder destinos = new StringBuilder();
+            for (int i = 0; i < checkedList.CheckedItems.Count; i++)
+            {
+                destinos.Append(obtenerDestinoDic().FirstOrDefault(x => x.Value == checkedList.CheckedItems[i].ToString()).Key.ToString() + ",");
+            }
+            return destinos.ToString();
+        }
+
+        private Dictionary<String, String> obtenerDestinoDic()
+        {
+            Dictionary<String, String> destino = new Dictionary<String, String>();
+            destino.Add("BA_BAL", "Balcarce, Buenos Aires");
+            destino.Add("BA_CAÑ", "Cañuelas, Buenos Aires");
+            destino.Add("BA_OTA", "Otamendi, Buenos Aires");
+            destino.Add("BA_VEN", "Sierra de la Ventana, Buenos Aires");
+            destino.Add("BA_TIG", "Tigre, Buenos Aires");
+
+            destino.Add("CTC_AMB", "Ambato, Catamarca");
+            destino.Add("CTC_BEL", "Belén, Catamarca");
+            destino.Add("CTC_FIA", "Fiambalá, Catamarca");
+
+            destino.Add("COR_CAP", "Capilla del Monte, Córdoba");
+            destino.Add("COR_GIG", "Los Gigantes, Córdoba");
+            destino.Add("COR_COC", "Los Cocos, Córdoba");
+            destino.Add("COR_BEL", "Villa General Belgrano, Córdoba");
+
+            destino.Add("FMA_MON", "Monte Lindo, Formosa");
+
+            destino.Add("JUJ_HUM", "Humahuaca, Jujuy");
+            destino.Add("JUJ_TIL", "Tilcara, Jujuy");
+
+            destino.Add("LRJ_TAL", "Talampaya, La Rioja");
+
+            destino.Add("MDZ_ACO", "Aconcagua, Mendoza");
+            destino.Add("MDZ_PEN", "Cerro Penitentes, Mendoza");
+            destino.Add("MDZ_PER", "Ciudad Perdida, Mendoza");
+            destino.Add("MDZ_SOS", "El Sosneado, Mendoza");
+            destino.Add("MDZ_INC", "Puente del Inca, Mendoza");
+            destino.Add("MDZ_MAL", "Malargüe, Mendoza");
+            destino.Add("MDZ_RAF", "San Rafael, Mendoza");
+            destino.Add("MDZ_TUN", "Tunuyán, Mendoza");
+
+            destino.Add("NQN_SMA", "San Martín de los Andes, Neuquén");
+
+            destino.Add("RNG_BAR", "Bariloche, Río Negro");
+            destino.Add("RNG_BOL", "El Bolsón, Río Negro");
+
+            destino.Add("SLA_COB", "San Antonio de los Cobres, Salta");
+            destino.Add("SLA_CAL", "Valles Calchaquíes, Salta");
+
+            destino.Add("SNJ_CAL", "Calingasta, San Juan");
+
+            destino.Add("STC_CHA", "El Chaltén, Santa Cruz");
+
+            return destino;
+        }
+
+        private void btnAPNombreA_Click(object sender, EventArgs e)
+        {
+            String dificultad = comboAPDificultadA.SelectedItem.ToString().Substring(0, 3);
+            String actividad = String.IsNullOrEmpty(obtenerActividadesString()) ? "" : obtenerActividadesString().Remove(obtenerActividadesString().Length - 1, 1);
+            String destinos = String.IsNullOrEmpty(obtenerDestinosString(checkedListAPDestinoA)) ? "" : obtenerDestinosString(checkedListAPDestinoA).Remove(obtenerDestinosString(checkedListAPDestinoA).Length - 1, 1);
+            //String fechas = dateAPInicioA.Value.ToString("ddMMyyyy") + ":" + dateAPFinA.Value.ToString("ddMMyyyy");
+
+            //CAB_CIC#FAC#BA_TIG#2
+            txtAPNombreA.Text = new StringBuilder(actividad.ToString()).Append("#")
+                                .Append(dificultad).Append("#")
+                                .Append(destinos.ToString())
+                                .Append("#").Append(intInputAPDuracionA.Value).ToString();
+            
+        }
+
+        private void comboAPNombreE_SelectedChange(object sender, EventArgs e)
+        {
+            if (comboAPNombreE.SelectedItem != null)
+            {
+                Producto prod = productoBLL.obtenerProductos().Where(r => r.nombre == comboAPNombreE.SelectedItem.ToString()).Single();
+                lblAPIdE.Text = prod.idProducto.ToString();
+                txtAPActividadE.Text = prod.actividades.Aggregate((a, b) => a + ',' + b);
+                String[] splitDestino = prod.destino.Split(',');
+                String destinoStr = null;
+                for (int i = 0; i < splitDestino.Length; i++)
+                {
+                    destinoStr += obtenerDestinoDic()[splitDestino[i]] + "\r\n";
+                }
+                txtAPDestinoE.Text = destinoStr.Remove(destinoStr.Length - 2, 2);
+                txtAPDificultadE.Text = prod.dificultad;
+                //dateAPInicioE.CustomFormat =  "dd/MM/yyyy HH:mm";
+                //dateAPInicioE.Value = prod.fecha.fechaInicio;
+                //dateAPFinE.CustomFormat = "dd/MM/yyyy HH:mm";
+                //dateAPFinE.Value = prod.fecha.fechaFin;
+                doubleInAPPrecioE.Text = prod.precio.ToString();
+                txtAPDuracionE.Text = prod.duracion.ToString();
+                chkAPEstadoE.Checked = prod.estado;
+                richTxtAPItinerarioE.Text = prod.descripcion;
+            }
+            else
+            {
+                comboAPNombreE.Text = "No hay cursos registrados";
+            }
+        }
+
+        private void btnAPGuardarE_Click(object sender, EventArgs e)
+        {
+            Producto prod = productoBLL.obtenerProductoPorNombre(comboAPNombreE.SelectedItem.ToString());
+            if (prod.idProducto == Int32.Parse(lblAPIdE.Text))
+            {
+                prod.precio = doubleInAPPrecioE.Value;
+                prod.estado = chkAPEstadoE.Checked;
+                prod.descripcion = (!String.IsNullOrEmpty(richTxtAPItinerarioE.Text.Trim())) ? richTxtAPItinerarioE.Text.Trim() : "";
+
+                String mensaje = null;
+                try
+                {
+                    if (!prod.estado)
+                    {
+                        mensaje = String.Format(I18n.obtenerString("Mensaje", "confirmarBaja"), I18n.obtenerString("InicioDirector", prod.tipoProducto.ToLower()));
+                        DialogResult siNoBaja = MessageBox.Show(mensaje, msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                        if (siNoBaja.Equals(DialogResult.Yes))
+                        {
+                            productoBLL.actualizarProducto(prod);
+                        }
+                    }
+                    else
+                    {
+                        DialogResult siNoRes = MessageBox.Show(I18n.obtenerString("Mensaje", "confirmar"), msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                        if (siNoRes.Equals(DialogResult.Yes))
+                        {
+                            productoBLL.actualizarProducto(prod);
+                        }
+                        mensaje = String.Format(I18n.obtenerString("Mensaje", "elementoActualizado"), I18n.obtenerString("InicioDirector", prod.tipoProducto.ToLower()));
+                        MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Bitacora bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.EXCEPCION_BLL_UPD + " Producto " + prod.tipoProducto, ex.ToString());
+                    BitacoraBLL.registrarBitacora(bitacora);
+                }
+            }
+        }
+
+        private void radioAPEventoE_Click(object sender, EventArgs e)
+        {
+            comboAPNombreE.DataSource = productoBLL.obtenerProductos().Where(t => t.tipoProducto == EnumProducto.EVENTO.ToString()).Select(r => r.nombre).ToList();
+        }
+
+        private void radioAPPaqueteE_Click(object sender, EventArgs e)
+        {
+            comboAPNombreE.DataSource = productoBLL.obtenerProductos().Where(t => t.tipoProducto == EnumProducto.PAQUETE.ToString()).Select(r => r.nombre).ToList();
+        }
+
+        private void tabItemAPEditar_Click(object sender, EventArgs e)
+        {
+            comboAPNombreE_SelectedChange(sender, e);
+        }
+
+        private void btnAPBuscarC_Click(object sender, EventArgs e)
+        {
+            
+            String filtroDificultad = comboAPDificultadC.SelectedItem.ToString();
+            Double filtroPrecioDesde = doubleAPPrecioDesdeC.Value;
+            Double filtroPrecioHasta = doubleAPPrecioHastaC.Value;
+            List<String> filtroActividades = checkedListAPActividadE.CheckedItems.Cast<String>().ToList();
+            String destino = obtenerDestinosString(checkedListAPDestinoC).Remove(obtenerDestinosString(checkedListAPDestinoC).Length - 1, 1);
+
+            List<Producto> listaProductos = productoBLL.obtenerProductos();
+            List<Producto> prodsFiltrados = new List<Producto>();
+
+            foreach (Producto item in listaProductos)
+            {
+                if (item.dificultad == filtroDificultad && destino.Contains(item.destino))
+                {
+                    if ((filtroPrecioDesde <= item.precio) && (item.precio <= filtroPrecioHasta))
+                    {
+                        foreach (String act in filtroActividades)
+                        {
+                            if (item.actividades.Contains(act))
+                            {
+                                prodsFiltrados.Add(item);
+                            }
+                        }
+                    }
+                }
+            }
+
+            gridViewAPC.Rows.Clear();
+            prodsFiltrados = prodsFiltrados.GroupBy(x => x.nombre).Select(y => y.First()).ToList();
+            if (prodsFiltrados != null && prodsFiltrados.Count > 0)
+            {
+                gridViewAPC.Visible = true;
+                for (int i = 0; i < prodsFiltrados.Count; i++)
+                {
+                    gridViewAPC.Rows.Add(1);
+                    gridViewAPC.Rows[i].Cells["APHTipoProducto"].Value = prodsFiltrados[i].tipoProducto;
+                    gridViewAPC.Rows[i].Cells["APHNombre"].Value = prodsFiltrados[i].nombre;
+                    String[] splitDestino = prodsFiltrados[i].destino.Split(',');
+                    String destinoStr = null;
+                    for (int j = 0; j < splitDestino.Length; j++)
+                    {
+                        destinoStr += obtenerDestinoDic()[splitDestino[j]] + "\r\n";
+                    }
+                    gridViewAPC.Rows[i].Cells["APHDestino"].Value = destinoStr;
+                    gridViewAPC.Rows[i].Cells["APHPrecio"].Value = Constantes.MONEDA + prodsFiltrados[i].precio.ToString();
+                    gridViewAPC.Rows[i].Cells["APHDuracion"].Value = prodsFiltrados[i].duracion;
+                    gridViewAPC.Rows[i].Cells["APHActividades"].Value = prodsFiltrados[i].actividades.Aggregate((a, b) => a + ',' + b);
+                    gridViewAPC.Rows[i].Cells["APHEstado"].Value = prodsFiltrados[i].estado;
+                    gridViewAPC.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
+                }
+            }
+            else
+            {
+                gridViewAPC.Visible = false;
+                MessageBox.Show(I18n.obtenerString("Mensaje", "ningunRegistro"), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
         }
     }
 
