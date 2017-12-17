@@ -63,6 +63,16 @@ namespace OEVApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap actividad36x36 {
+            get {
+                object obj = ResourceManager.GetObject("actividad36x36", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap addedit {
             get {
                 object obj = ResourceManager.GetObject("addedit", resourceCulture);
@@ -126,6 +136,16 @@ namespace OEVApp.Properties {
         internal static System.Drawing.Bitmap BlueBackstageBgImage {
             get {
                 object obj = ResourceManager.GetObject("BlueBackstageBgImage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap calendar36x36 {
+            get {
+                object obj = ResourceManager.GetObject("calendar36x36", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,6 +333,16 @@ namespace OEVApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hotel36x36 {
+            get {
+                object obj = ResourceManager.GetObject("hotel36x36", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_16_logout {
             get {
                 object obj = ResourceManager.GetObject("icon-16-logout", resourceCulture);
@@ -326,6 +356,16 @@ namespace OEVApp.Properties {
         internal static System.Drawing.Bitmap icon_accesscontrol {
             get {
                 object obj = ResourceManager.GetObject("icon_accesscontrol", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap instructor36x36 {
+            get {
+                object obj = ResourceManager.GetObject("instructor36x36", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -406,6 +446,16 @@ namespace OEVApp.Properties {
         internal static System.Drawing.Bitmap plus {
             get {
                 object obj = ResourceManager.GetObject("plus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap reporte36x36 {
+            get {
+                object obj = ResourceManager.GetObject("reporte36x36", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -516,6 +566,16 @@ namespace OEVApp.Properties {
         internal static System.Drawing.Bitmap tools48 {
             get {
                 object obj = ResourceManager.GetObject("tools48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap traslado36x36 {
+            get {
+                object obj = ResourceManager.GetObject("traslado36x36", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

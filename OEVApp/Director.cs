@@ -540,6 +540,9 @@ namespace OEVApp
                 tabItemACEditar.Visible = true;
                 tabItemACConsultar.Visible = true;
             }
+            tabItemACalAgregar.Visible = false;
+            tabItemACalEditar.Visible = false;
+            tabItemACalConsultar.Visible = false;
             tabItemAPAgregar.Visible = false;
             tabItemAPEditar.Visible = false;
             tabItemAPConsultar.Visible = false;
@@ -569,6 +572,9 @@ namespace OEVApp
                 tabItemAPEditar.Visible = true;
                 tabItemAPConsultar.Visible = true;
             }
+            tabItemACalAgregar.Visible = false;
+            tabItemACalEditar.Visible = false;
+            tabItemACalConsultar.Visible = false;
             tabItemACAgregar.Visible = false;
             tabItemACEditar.Visible = false;
             tabItemACConsultar.Visible = false;
@@ -596,6 +602,9 @@ namespace OEVApp
              else if (btnItemConsultarA.Visible == true)
                  tabItemProvConsultar.Visible = true;
             superTabControlDir.Visible = true;
+            tabItemACalAgregar.Visible = false;
+            tabItemACalEditar.Visible = false;
+            tabItemACalConsultar.Visible = false;
             tabItemACAgregar.Visible = false;
             tabItemACEditar.Visible = false;
             tabItemACConsultar.Visible = false;
@@ -636,6 +645,9 @@ namespace OEVApp
                 tabItemProvEditar.Visible = true;
             }
             superTabControlDir.Visible = true;
+            tabItemACalAgregar.Visible = false;
+            tabItemACalEditar.Visible = false;
+            tabItemACalConsultar.Visible = false;
             tabItemACAgregar.Visible = false;
             tabItemACEditar.Visible = false;
             tabItemACConsultar.Visible = false;
@@ -671,6 +683,9 @@ namespace OEVApp
             else if (btnItemConsultarA.Visible == true)
                 tabItemProvConsultar.Visible = true;
             superTabControlDir.Visible = true;
+            tabItemACalAgregar.Visible = false;
+            tabItemACalEditar.Visible = false;
+            tabItemACalConsultar.Visible = false;
             tabItemACAgregar.Visible = false;
             tabItemACEditar.Visible = false;
             tabItemACConsultar.Visible = false;
@@ -695,6 +710,9 @@ namespace OEVApp
             else if (btnItemConsultarT.Visible == true)
                 tabItemProvConsultar.Visible = true;
             superTabControlDir.Visible = true;
+            tabItemACalAgregar.Visible = false;
+            tabItemACalEditar.Visible = false;
+            tabItemACalConsultar.Visible = false;
             tabItemACAgregar.Visible = false;
             tabItemACEditar.Visible = false;
             tabItemACConsultar.Visible = false;
@@ -737,12 +755,17 @@ namespace OEVApp
                 tabItemProvEditar.Visible = true;
             }
             superTabControlDir.Visible = true;
+            tabItemACalAgregar.Visible = false;
+            tabItemACalEditar.Visible = false;
+            tabItemACalConsultar.Visible = false;
             tabItemACAgregar.Visible = false;
             tabItemACEditar.Visible = false;
             tabItemACConsultar.Visible = false;
             tabItemAPAgregar.Visible = false;
             tabItemAPEditar.Visible = false;
             tabItemAPConsultar.Visible = false;
+            tabItemInstAgregar.Visible = false;
+            tabItemInstEditar.Visible = false;
             tabItemInstConsultar.Visible = false;
             comboProvConsFiltro.Visible = false;
             dataGridProvCons.Visible = false;
@@ -772,6 +795,9 @@ namespace OEVApp
             else if (btnItemConsultarT.Visible == true)
                 tabItemProvConsultar.Visible = true;
             superTabControlDir.Visible = true;
+            tabItemACalAgregar.Visible = false;
+            tabItemACalEditar.Visible = false;
+            tabItemACalConsultar.Visible = false;
             tabItemACAgregar.Visible = false;
             tabItemACEditar.Visible = false;
             tabItemACConsultar.Visible = false;
@@ -1290,6 +1316,9 @@ namespace OEVApp
             else if (btnItemEditarI.Visible == true)
                 tabItemInstEditar.Visible = true;
             superTabControlDir.Visible = true;
+            tabItemACalAgregar.Visible = false;
+            tabItemACalEditar.Visible = false;
+            tabItemACalConsultar.Visible = false;
             tabItemACAgregar.Visible = false;
             tabItemACEditar.Visible = false;
             tabItemACConsultar.Visible = false;
@@ -1322,6 +1351,9 @@ namespace OEVApp
             else if (btnItemConsultarI.Visible == true)
                 tabItemInstConsultar.Visible = true;
             superTabControlDir.Visible = true;
+            tabItemACalAgregar.Visible = false;
+            tabItemACalEditar.Visible = false;
+            tabItemACalConsultar.Visible = false;
             tabItemACAgregar.Visible = false;
             tabItemACEditar.Visible = false;
             tabItemACConsultar.Visible = false;
@@ -1428,6 +1460,9 @@ namespace OEVApp
             else if (btnItemConsultarI.Visible == true)
                 tabItemInstConsultar.Visible = true;
             superTabControlDir.Visible = true;
+            tabItemACalAgregar.Visible = false;
+            tabItemACalEditar.Visible = false;
+            tabItemACalConsultar.Visible = false;
             tabItemACAgregar.Visible = false;
             tabItemACEditar.Visible = false;
             tabItemACConsultar.Visible = false;
@@ -1633,9 +1668,9 @@ namespace OEVApp
                         if (siNoRes.Equals(DialogResult.Yes))
                         {
                             instructorBLL.actualizarInstructor(inst);
-                        }
-                        mensaje = String.Format(I18n.obtenerString("Mensaje", "elementoActualizado"), I18n.obtenerString("InicioDirector", "instructor"));
-                        MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            mensaje = String.Format(I18n.obtenerString("Mensaje", "elementoActualizado"), I18n.obtenerString("InicioDirector", "instructor"));
+                            MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }   
                     }
                 }
                 catch (Exception ex)
@@ -1918,6 +1953,8 @@ namespace OEVApp
                     if (siNoBaja.Equals(DialogResult.Yes))
                     {
                         productoBLL.actualizarProducto(curso);
+                        mensaje = String.Format(I18n.obtenerString("Mensaje", "elementoActualizado"), I18n.obtenerString("InicioDirector", "cursoEntrenamiento"));
+                        MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
                 else
@@ -1926,9 +1963,9 @@ namespace OEVApp
                     if (siNoRes.Equals(DialogResult.Yes))
                     {
                         productoBLL.actualizarProducto(curso);
+                        mensaje = String.Format(I18n.obtenerString("Mensaje", "elementoActualizado"), I18n.obtenerString("InicioDirector", "cursoEntrenamiento"));
+                        MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
-                    mensaje = String.Format(I18n.obtenerString("Mensaje", "elementoActualizado"), I18n.obtenerString("InicioDirector", "cursoEntrenamiento"));
-                    MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch (Exception ex)
@@ -2166,6 +2203,8 @@ namespace OEVApp
                         if (siNoBaja.Equals(DialogResult.Yes))
                         {
                             productoBLL.actualizarProducto(prod);
+                            mensaje = String.Format(I18n.obtenerString("Mensaje", "elementoActualizado"), I18n.obtenerString("InicioDirector", prod.tipoProducto.ToLower()));
+                            MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
                     }
                     else

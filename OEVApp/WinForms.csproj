@@ -130,6 +130,12 @@
     <Content Include="i18n\String_Es.xml">
       <SubType>Designer</SubType>
     </Content>
+    <None Include="Resources\reporte36x36.png" />
+    <None Include="Resources\traslado36x36.png" />
+    <None Include="Resources\instructor36x36.png" />
+    <None Include="Resources\hotel36x36.png" />
+    <None Include="Resources\actividad36x36.png" />
+    <None Include="Resources\calendar36x36.png" />
     <None Include="Resources\plus.png" />
     <None Include="Resources\GreenBackstage.png" />
     <None Include="Resources\Crypto24x24.jpg" />
