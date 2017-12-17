@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alojamiento.cs" />
+    <Compile Include="Calendario.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="Especialidad.cs" />
     <Compile Include="Horario.cs" />

@@ -12,5 +12,6 @@ namespace Entities
         public String dia { set; get; }
         public DateTime horaInicio { set; get; }
         public DateTime horaFin { set; get; }
+        public String mes { set; get; }
     }
 }

@@ -9,9 +9,10 @@ namespace Utils
     public enum EnumVehiculo
     {
         BICICLETA,
-        TRACCION,
         CABALLO,
         COMBI,
-        KAYAK
+        KAYAK,
+        NINGUNO,
+        TRACCION
     }
 }

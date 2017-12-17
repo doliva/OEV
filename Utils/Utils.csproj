@@ -64,6 +64,7 @@
     <Compile Include="EnumDificultad.cs" />
     <Compile Include="EnumEvento.cs" />
     <Compile Include="Constantes.cs" />
+    <Compile Include="EnumMeses.cs" />
     <Compile Include="EnumProducto.cs" />
     <Compile Include="EnumVehiculo.cs" />
     <Compile Include="PDFUtil.cs" />

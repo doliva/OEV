@@ -25,6 +25,18 @@ namespace BLL
             }  
         }
 
+        public Producto obtenerProductoPorId(Int32 idProducto)
+        {
+            try
+            {
+                return ProductoDAL.GetProductoById(idProducto);
+            }
+            catch (Excepcion dalE)
+            {
+                throw new Excepcion(Constantes.EXCEPCION_BLL_SEL + " Producto por id " + idProducto, dalE);
+            } 
+        }
+
         public int agregarProducto(Producto producto)
         {
             try
@@ -74,5 +86,6 @@ namespace BLL
                 throw new Excepcion(Constantes.EXCEPCION_BLL_SEL + " Productos ", dalE);
             } 
         }
+
     }
 }

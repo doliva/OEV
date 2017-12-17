@@ -98,6 +98,7 @@
     <actividadRequerida>Debe seleccionar al menos una actividad</actividadRequerida>
     <fechaInvalida>Las fechas no son válidas. La fecha de inicio debe ser superior a 10 días a la fecha actual. </fechaInvalida>
     <destinoRequerido>Debe seleccionar al menos un destino</destinoRequerido>
+
   </Mensaje>
 
   <InicioAdministrador>

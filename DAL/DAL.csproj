@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlojamientoDAL.cs" />
+    <Compile Include="CalendarioDAL.cs" />
     <Compile Include="FamiliaPatenteDAL.cs" />
     <Compile Include="InstructorDAL.cs" />
     <Compile Include="InstructorEspecialidadDAL.cs" />

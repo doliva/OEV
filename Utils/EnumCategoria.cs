@@ -11,6 +11,7 @@ namespace Utils
         CARPA,
         HOSTEL,
         HOSTERIA,
+        NINGUNO,
         REFUGIO
     }
 }

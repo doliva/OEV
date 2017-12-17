@@ -158,7 +158,7 @@ namespace DAL
             }
             catch (Exception ex)
             {
-                throw new Excepcion(Constantes.EXCEPCION_DAL_SEL + " instructor por dni ", ex);
+                throw new Excepcion(Constantes.EXCEPCION_DAL_SEL + " producto por nombre ", ex);
             }
             finally
             {
@@ -182,6 +182,7 @@ namespace DAL
                 reader = cmd.ExecuteReader();
                 if (reader.Read())
                 {
+                    hr.mes = reader["mes"].ToString();
                     hr.dia = reader["dias"].ToString(); 
                     hr.horaInicio = DateTime.Parse(reader["hora_inicio"].ToString());
                     hr.horaFin = DateTime.Parse(reader["hora_fin"].ToString());
@@ -191,6 +192,54 @@ namespace DAL
             catch (Exception ex)
             {
                 throw new Excepcion(Constantes.EXCEPCION_DAL_SEL + " horario por nombre ", ex);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        public static Producto GetProductoById(Int32 idProducto)
+        {
+            SqlConnection conn = new SqlConnection(connectionString);
+            StringBuilder queryBuilder = new StringBuilder();
+            queryBuilder.Append("select * from PRODUCTO where ID_PRODUCTO=@idProducto ");
+            SqlCommand cmd = new SqlCommand(queryBuilder.ToString(), conn);
+            cmd.Parameters.Add("@idProducto", SqlDbType.Int).Value = idProducto;
+            cmd.CommandType = CommandType.Text;
+            SqlDataReader reader;
+            conn.Open();
+            Producto prod = null;
+            try
+            {
+                reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    prod = new Producto();
+                    prod.idProducto = Int32.Parse(reader["id_producto"].ToString());
+                    prod.nombre = reader["nombre"].ToString();
+                    prod.estado = Boolean.Parse(reader["estado"].ToString());
+                    prod.actividades = reader["actividad"].ToString().Split(',').ToList();
+                    prod.precio = Double.Parse(reader["precio"].ToString());
+                    prod.tipoProducto = reader["tipo_producto"].ToString();
+                    prod.dificultad = reader["dificultad"].ToString();
+                    prod.descripcion = reader["descripcion"].ToString();
+
+                    if (prod.tipoProducto == EnumProducto.CURSO.ToString())
+                    {
+                        prod.horario = GetHorario(prod.nombre);
+                    }
+                    else if (prod.tipoProducto == EnumProducto.EVENTO.ToString() || prod.tipoProducto == EnumProducto.PAQUETE.ToString())
+                    {
+                        prod.destino = reader["destino"].ToString();
+                        prod.duracion = Int32.Parse(reader["duracion"].ToString());
+                    }
+                }
+                return prod;
+            }
+            catch (Exception ex)
+            {
+                throw new Excepcion(Constantes.EXCEPCION_DAL_SEL + " producto por id ", ex);
             }
             finally
             {
@@ -226,6 +275,7 @@ namespace DAL
                     curso.descripcion = reader["descripcion"].ToString();
                     curso.dificultad = reader["dificultad"].ToString();
                     Horario hr = new Horario();
+                    hr.mes = reader["mes"].ToString();
                     hr.dia = reader["dias"].ToString();
                     hr.horaInicio = DateTime.Parse(reader["hora_inicio"].ToString());
                     hr.horaFin = DateTime.Parse(reader["hora_fin"].ToString());
@@ -290,5 +340,7 @@ namespace DAL
                 conn.Close();
             }
         }
+
+  
     }
 }

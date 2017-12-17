@@ -14,6 +14,8 @@ using Entities;
 using OEVApp.i18n;
 using BLL;
 using BLL.IBLL;
+using DevComponents.DotNetBar.Controls;
+using System.Collections;
 
 namespace OEVApp
 {
@@ -29,6 +31,7 @@ namespace OEVApp
         IBLLAlojamiento alojamientoBLL = new BLLAlojamiento();
         IBLLInstructor instructorBLL = new BLLInstructor();
         IBLLProducto productoBLL = new BLLProducto();
+        IBLLCalendario calendarioBLL = new BLLCalendario();
         String msjInfo = null;
         String msjConfirmar = null;
         String msjError = null;
@@ -50,6 +53,7 @@ namespace OEVApp
             generarAlojamientoStrings();
             generarTrasladoStrings();
             generarInstructorStrings();
+
         }
 
         public Director()
@@ -310,6 +314,8 @@ namespace OEVApp
 
         private void limpiarCampos()
         {
+            //editar calendario
+            dataGridCalEProductos.Visible = false;
             //agregar curso
             txtACNombreA.ResetText();
             comboACDificultadA.DataSource = Enum.GetValues(typeof(EnumDificultad)).Cast<EnumDificultad>().ToList();
@@ -424,14 +430,14 @@ namespace OEVApp
             if (btnItemEditarC.Visible == false)
             {
                 tabItemACalAgregar.Visible = false;
-                //tabItemACEditar.Visible = false;
-                //tabItemACConsultar.Visible = false;
+                tabItemACalEditar.Visible = false;
+                tabItemACalConsultar.Visible = false;
             }
             else if (btnItemConsultarC.Visible == true)
             {
                 tabItemACalAgregar.Visible = true;
-                //tabItemACEditar.Visible = true;
-                //tabItemACConsultar.Visible = true;
+                tabItemACalEditar.Visible = true;
+                tabItemACalConsultar.Visible = true;
             }
             tabItemACAgregar.Visible = false;
             tabItemACEditar.Visible = false;
@@ -448,17 +454,76 @@ namespace OEVApp
             gridViewACC.Visible = false;
             superTabControlDir.Visible = true;
             superTabControlDir.SelectedTab = tabItemACalAgregar;
+            WizPage1CalA.SelectedPage = WizPage0CalA;
             limpiarCampos();
         }
 
         private void btnItemCalC_Click(object sender, EventArgs e)
         {
-
+            if (btnItemEditarC.Visible == false)
+            {
+                tabItemACalAgregar.Visible = false;
+                tabItemACalEditar.Visible = false;
+                tabItemACalConsultar.Visible = false;
+            }
+            else if (btnItemConsultarC.Visible == true)
+            {
+                tabItemACalAgregar.Visible = true;
+                tabItemACalEditar.Visible = true;
+                tabItemACalConsultar.Visible = true;
+            }
+            tabItemACAgregar.Visible = false;
+            tabItemACEditar.Visible = false;
+            tabItemACConsultar.Visible = false;
+            tabItemAPAgregar.Visible = false;
+            tabItemAPEditar.Visible = false;
+            tabItemAPConsultar.Visible = false;
+            tabItemProvAgregar.Visible = false;
+            tabItemProvEditar.Visible = false;
+            tabItemProvConsultar.Visible = false;
+            tabItemInstAgregar.Visible = false;
+            tabItemInstEditar.Visible = false;
+            tabItemInstConsultar.Visible = false;
+            gridViewACC.Visible = false;
+            superTabControlDir.Visible = true;
+            radioCalCCurso.Checked = true;
+            dataGridCalCProductos.Visible = false;
+            superTabControlDir.SelectedTab = tabItemACalConsultar;
+            limpiarCampos();
         }
 
         private void btnItemCalE_Click(object sender, EventArgs e)
         {
-
+            if (btnItemConsultarC.Visible == true)
+            {
+                tabItemACalAgregar.Visible = true;
+                tabItemACalEditar.Visible = true;
+                tabItemACalConsultar.Visible = true;
+            }
+            else if (btnItemConsultarC.Visible == true)
+            {
+                tabItemACalAgregar.Visible = true;
+                tabItemACalEditar.Visible = true;
+                tabItemACalConsultar.Visible = true;
+            }
+            tabItemACAgregar.Visible = false;
+            tabItemACEditar.Visible = false;
+            tabItemACConsultar.Visible = false;
+            tabItemAPAgregar.Visible = false;
+            tabItemAPEditar.Visible = false;
+            tabItemAPConsultar.Visible = false;
+            tabItemProvAgregar.Visible = false;
+            tabItemProvEditar.Visible = false;
+            tabItemProvConsultar.Visible = false;
+            tabItemInstAgregar.Visible = false;
+            tabItemInstEditar.Visible = false;
+            tabItemInstConsultar.Visible = false;
+            gridViewACC.Visible = false;
+            superTabControlDir.Visible = true;
+            radioCalCCurso.Checked = true;
+            dataGridCalCProductos.Visible = false;
+            superTabControlDir.SelectedTab = tabItemACalEditar;
+            limpiarCampos();
         }
 
         private void btnItemActCursoEnt_Click(object sender, EventArgs e)
@@ -1711,6 +1776,7 @@ namespace OEVApp
             }
             return actividad.ToString();
         }
+
         private Horario getHorarios(String accion)
         {
             Horario horario = new Horario();
@@ -2108,9 +2174,9 @@ namespace OEVApp
                         if (siNoRes.Equals(DialogResult.Yes))
                         {
                             productoBLL.actualizarProducto(prod);
+                            mensaje = String.Format(I18n.obtenerString("Mensaje", "elementoActualizado"), I18n.obtenerString("InicioDirector", prod.tipoProducto.ToLower()));
+                            MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
-                        mensaje = String.Format(I18n.obtenerString("Mensaje", "elementoActualizado"), I18n.obtenerString("InicioDirector", prod.tipoProducto.ToLower()));
-                        MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
                 catch (Exception ex)
@@ -2195,6 +2261,1010 @@ namespace OEVApp
                 MessageBox.Show(I18n.obtenerString("Mensaje", "ningunRegistro"), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
+
+        //Al hacer click "Next" desde la pagina de bienvenida, se carga la grilla de cursos
+        private void WizPage1CalA_NextClick(object sender, CancelEventArgs e)
+        {
+            if (String.IsNullOrEmpty(lblPage1CalACarga.Text))
+            {
+                lblPage1CalACarga.Text = "Cursos";
+                lblPage2CalAEvPaq.Text = "Calendario" + intInpPage1CalAAnio.Value.ToString() + ": Paquetes y Eventos";
+                List<Producto> cursos = productoBLL.obtenerCursos().Where(s => s.estado == true).ToList();
+                if (cursos != null && cursos.Count > 0)
+                {
+                    gridPage1CalACurso.Rows.Clear();
+                    DataGridViewComboBoxColumn meses = new DataGridViewComboBoxColumn();
+                    meses.HeaderText = "Meses";
+                    meses.Name = "HCursoPage1CalAMes";
+                    meses.MaxDropDownItems = 12;
+                    meses.DataSource = System.Globalization.DateTimeFormatInfo.InvariantInfo.MonthNames;
+                    //meses.DataSource = Enum.GetValues(typeof(EnumMeses)).Cast<EnumMeses>().ToList();
+                    gridPage1CalACurso.Columns.Add(meses);
+                    for (int i = 0; i < cursos.Count; i++)
+                    {
+                        gridPage1CalACurso.Rows.Add(1);
+                        gridPage1CalACurso.Rows[i].Cells["HCursoPage1CalANombre"].Value = cursos[i].nombre;
+                        gridPage1CalACurso.Rows[i].Cells["HCursoPage1CalAActividad"].Value = cursos[i].actividades.Aggregate((a, b) => a + ',' + b);
+                        gridPage1CalACurso.Rows[i].Cells["HCursoPage1CalAPrecio"].Value = cursos[i].precio;
+                        gridPage1CalACurso.Rows[i].Cells["HCursoPage1CalADias"].Value = cursos[i].horario.dia;
+                        gridPage1CalACurso.Rows[i].Cells["HCursoPage1CalAHoraInicio"].Value = cursos[i].horario.horaInicio.ToString("HH:mm");
+                        gridPage1CalACurso.Rows[i].Cells["HCursoPage1CalAHoraFin"].Value = cursos[i].horario.horaFin.ToString("HH:mm");
+                        gridPage1CalACurso.Rows[i].Cells["HCursoPage1CalACupo"].Value = 0;
+                        //gridPage1CalACurso.Rows[i].Cells["HCursoPage1CalAMes"].Value = Enum.GetValues(typeof(EnumMeses)).Cast<EnumMeses>().ToList().First();
+                        gridPage1CalACurso.Rows[i].Cells["HCursoPage1CalAMes"].Value = System.Globalization.DateTimeFormatInfo.InvariantInfo.MonthNames[0];
+                        gridPage1CalACurso.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
+                    }
+                }
+                else
+                {
+                    gridPage1CalACurso.Visible = false;
+                }
+            }
+        }
+
+        //Cancelar la creacion del calendario
+        private void WizPage1CalA_CancelClick(object sender, CancelEventArgs e)
+        {
+            WizPage1CalA.SelectedPage = WizPage0CalA;
+        }
+
+        //Agrega una nueva fila en la grilla de cursos para setear un mismo curso en distintos meses del año
+        private void gridPage1CalACurso_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // Ignora clicks de otas columnas
+            if (e.ColumnIndex == gridPage1CalACurso.Columns["HCursoPage1CalAAgregar"].Index && e.RowIndex >= 0)
+            {
+                String nombre = gridPage1CalACurso.Rows[e.RowIndex].Cells["HCursoPage1CalANombre"].Value.ToString();
+                String actividad = gridPage1CalACurso.Rows[e.RowIndex].Cells["HCursoPage1CalAActividad"].Value.ToString();
+                Double precio = (Double)gridPage1CalACurso.Rows[e.RowIndex].Cells["HCursoPage1CalAPrecio"].Value;
+                String dias = gridPage1CalACurso.Rows[e.RowIndex].Cells["HCursoPage1CalADias"].Value.ToString();
+                String horaInicio = gridPage1CalACurso.Rows[e.RowIndex].Cells["HCursoPage1CalAHoraInicio"].Value.ToString();
+                String horaFin = gridPage1CalACurso.Rows[e.RowIndex].Cells["HCursoPage1CalAHoraFin"].Value.ToString();
+                String mes = gridPage1CalACurso.Rows[e.RowIndex].Cells["HCursoPage1CalAMes"].Value.ToString();
+
+                gridPage1CalACurso.Rows.Add(1);
+                //DataGridViewRow row = gridPage1CalACurso.Rows[e.RowIndex];
+                //row.Cells["HCursoPage1CalAMes"].Value = System.Globalization.DateTimeFormatInfo.InvariantInfo.MonthNames.Where(m => m.ToString()!= mes).FirstOrDefault();
+                //gridPage1CalACurso.Rows.Add(row);
+                //DataGridViewComboBoxCell cell = new DataGridViewComboBoxCell();
+                
+                //DataGridViewRow row = gridPage1CalACurso.Rows[gridPage1CalACurso.Rows.Count - 1];
+                ////row.Cells["HCursoPage1CalAMes"] = null;
+                //((DataGridViewComboBoxCell)row.Cells["HCursoPage1CalAMes"]).Items.Clear();
+                //cell.DataSource = Enum.GetValues(typeof(EnumMeses)).Cast<EnumMeses>().Where(m => m.ToString() != mes).ToList();
+                //((DataGridViewComboBoxCell)row.Cells["HCursoPage1CalAMes"]).Items.Add(cell);
+
+                int index = gridPage1CalACurso.Rows.Count - 1;
+                gridPage1CalACurso.Rows[index].Cells["HCursoPage1CalANombre"].Value = nombre;
+                gridPage1CalACurso.Rows[index].Cells["HCursoPage1CalAActividad"].Value = actividad;
+                gridPage1CalACurso.Rows[index].Cells["HCursoPage1CalAPrecio"].Value = precio;
+                gridPage1CalACurso.Rows[index].Cells["HCursoPage1CalADias"].Value = dias;
+                gridPage1CalACurso.Rows[index].Cells["HCursoPage1CalAHoraInicio"].Value = horaInicio;
+                gridPage1CalACurso.Rows[index].Cells["HCursoPage1CalAHoraFin"].Value = horaFin;
+                gridPage1CalACurso.Rows[index].Cells["HCursoPage1CalACupo"].Value = 0;
+                //gridPage1CalACurso.Rows[index].Cells["HCursoPage1CalAMes"].Value = Enum.GetValues(typeof(EnumMeses)).Cast<EnumMeses>().Where(m => m.ToString() != mes).ToList().FirstOrDefault();
+                gridPage1CalACurso.Rows[index].Cells["HCursoPage1CalAMes"].Value = System.Globalization.DateTimeFormatInfo.InvariantInfo.MonthNames.Where(m => m.ToString() != mes).FirstOrDefault();
+                //DataGridViewComboBoxCell cell = new DataGridViewComboBoxCell();
+                //cell.DataSource = Enum.GetValues(typeof(EnumMeses)).Cast<EnumMeses>().Where(m => m.ToString() != mes).ToList();
+                ////int animalNumber = (int)Enum.Parse(typeof(Animals), "Dog");
+                ////cell.Items.RemoveAt((int)Enum.Parse(typeof(EnumMeses), mes));
+                ////gridPage1CalACurso[gridPage1CalACurso.Columns["HCursoPage1CalAMes"].Index, index] = cell;
+                //gridPage1CalACurso.Rows[index].Cells["HCursoPage1CalAMes"].Value = cell;
+                //gridPage1CalACurso.Rows[index].Cells["HCursoPage1CalAMes"].Value = Enum.GetValues(typeof(EnumMeses)).Cast<EnumMeses>().Where(m => m.ToString() != mes).ToList();
+            }
+        }
+
+        //validar si una grilla tiene filas repetidas, cupo=0, fechas de salida fuera de año o se superponen los horarios de los instructores
+        private Boolean grillaValida(DataTable dataTable)
+        {
+            Boolean esValido = false;
+            int cantidadInicial = dataTable.Rows.Count;
+            if (dataTable.TableName == "gridPage1CalACurso")
+            {
+                //valida si hay filas repetidas de cursos
+               var duplicados = dataTable.AsEnumerable()
+                        .Select(row => new { nombre = row[0], mes = row[8] })
+                        .Distinct();
+               esValido = (duplicados.ToList().Count == cantidadInicial);
+            }
+            else if (dataTable.TableName == "gridPage2CalAEvPaq")
+            {
+               //valida si hay filas repetidas de paquetes/eventos
+                var duplicados = dataTable.AsEnumerable()
+                        .Select(row => new { nombre = row[0], fechaSalida = row[7] })
+                        .Distinct();
+                esValido = (duplicados.ToList().Count == cantidadInicial);
+                //valida que la fecha de salida este dentro del año calendario
+                var fechaValida = dataTable.AsEnumerable()
+                        .Select(row => new { fechaSalida = row[7] }).ToList()
+                        .Select(f => DateTime.Parse(f.fechaSalida.ToString())).ToList()
+                        .Where(k => k.Year == intInpPage1CalAAnio.Value).ToList();
+                esValido = esValido && (fechaValida.ToList().Count == cantidadInicial);
+            }
+            else if (dataTable.TableName == "gridPage3CalAInstCurso")
+            {
+               //valida superposicion de horarios de instructores para dictar cursos
+                var superposicion = dataTable.AsEnumerable()
+                        .Select(row => new { dias = row[3], horaInicio = row[4], horaFin = row[5], mes = row[7], instructor = row[8]  })
+                        .Distinct();
+                esValido = (superposicion.ToList().Count == cantidadInicial);
+            }
+            else if (dataTable.TableName == "gridPage4CalAInstPaqEv")
+            {
+                //valida superposicion de fechas de instructores para coordinar paquetes/eventos
+                var superposicion = dataTable.AsEnumerable()
+                                    .Select(row => new { fechaSalida = row[7], fechaRegreso = row[8], instructor = row[9] }).ToList()
+                                    .OrderBy(o => o.fechaSalida);
+                //esValido = !superposicion.Any(a => superposicion
+                //                         .Any(b => b != a && (a.instructor.ToString() == b.instructor.ToString()) 
+                //                                          && !(DateTime.Parse(a.fechaSalida.ToString()) >= DateTime.Parse(b.fechaRegreso.ToString()) 
+                //                                          || DateTime.Parse(b.fechaSalida.ToString()) >= DateTime.Parse(a.fechaRegreso.ToString()))));
+                esValido = !superposicion.Any(a => superposicion
+                                         .Any(b => b != a && (a.instructor.ToString() == b.instructor.ToString())
+                                                          && !(DateTime.Parse(a.fechaSalida.ToString()) <= DateTime.Parse(b.fechaSalida.ToString()) && DateTime.Parse(a.fechaRegreso.ToString()) >= DateTime.Parse(b.fechaRegreso.ToString()))
+                                                          || (DateTime.Parse(a.fechaSalida.ToString()) >= DateTime.Parse(b.fechaSalida.ToString()) && DateTime.Parse(a.fechaSalida.ToString()) <= DateTime.Parse(b.fechaRegreso.ToString()) && DateTime.Parse(a.fechaRegreso.ToString()) >= DateTime.Parse(b.fechaRegreso.ToString()) )
+                                                          || (DateTime.Parse(a.fechaSalida.ToString()) <= DateTime.Parse(b.fechaSalida.ToString()) &&  DateTime.Parse(a.fechaRegreso.ToString()) >= DateTime.Parse(b.fechaSalida.ToString()) && DateTime.Parse(a.fechaRegreso.ToString()) <= DateTime.Parse(b.fechaRegreso.ToString()) )
+                                                          || (DateTime.Parse(a.fechaSalida.ToString()) == DateTime.Parse(b.fechaSalida.ToString()) && DateTime.Parse(a.fechaRegreso.ToString()) == DateTime.Parse(b.fechaSalida.ToString()) )
+                                                          || (DateTime.Parse(a.fechaSalida.ToString()) >= DateTime.Parse(b.fechaSalida.ToString()) && DateTime.Parse(a.fechaRegreso.ToString()) <= DateTime.Parse(b.fechaSalida.ToString()) )
+                                                          ));
+                esValido = true;
+         //1        (startDt <= e.StartDt & endDt >= e.EndDt) |
+         //2 (startDt >= e.StartDt & startDt <= e.EndDt & endDt >= e.EndDt) |
+         //3 (startDt <= e.StartDt & endDt >= e.StartDt & endDt <= e.EndDt) |
+         //4 (startDt == e.StartDt & endDt == e.EndDt) | 
+         //5 (startDt >= e.StartDt & endDt <= e.EndDt)
+            }
+            // valida que el cupo de los curos, paquetes y eventos sea mayor a 0
+            var ceroCupos = dataTable.AsEnumerable()
+                .Select(row => new { cupo = row[6] })
+                .Where(r => Int32.Parse(r.cupo.ToString()) == 0);
+            return (esValido && ceroCupos.ToList().Count==0) ? true : false;
+        }
+
+        private DataTable GetDataTableFromDGV(DataGridView dgv)
+        {
+            var dt = new DataTable();
+            dt.TableName = dgv.Name;
+            foreach (DataGridViewColumn column in dgv.Columns)
+            {
+                    dt.Columns.Add();
+            }
+
+            object[] cellValues = new object[dgv.Columns.Count];
+            foreach (DataGridViewRow row in dgv.Rows)
+            {
+                for (int i = 0; i < row.Cells.Count; i++)
+                {
+                    cellValues[i] = row.Cells[i].Value;
+                }
+                dt.Rows.Add(cellValues);
+            }
+            
+            return dt;
+        }
+
+        //Al hacer click "Next" desde la pagina de carga de cursos, se carga la grilla de paquetes y eventos
+        private void WizPage1CalACurso_NextClick(object sender, CancelEventArgs e)
+        {
+            String mensaje = null;
+            if (!calendarioBLL.existeCalendario(intInpPage1CalAAnio.Value) && (intInpPage1CalAAnio.Value >= DateTime.Today.Year))
+            {
+                if (grillaValida(GetDataTableFromDGV(gridPage1CalACurso)))
+                {
+                    if (String.IsNullOrEmpty(lblPage2CalACarga.Text))
+                    {
+                        lblPage2CalACarga.Text = "EvPaq";
+                        lblPage2CalAEvPaq.Text = "Calendario " + intInpPage1CalAAnio.Value.ToString() + ": Paquetes y Eventos";
+                        List<Producto> productos = productoBLL.obtenerProductos().Where(p => p.estado == true).ToList();
+                        if (productos != null && productos.Count > 0)
+                        {
+                            gridPage2CalAEvPaq.Rows.Clear();
+                            for (int i = 0; i < productos.Count; i++)
+                            {
+                                gridPage2CalAEvPaq.Rows.Add(1);
+                                gridPage2CalAEvPaq.Rows[i].Cells["HEvPaqPage2CalATipoProducto"].Value = productos[i].tipoProducto;
+                                gridPage2CalAEvPaq.Rows[i].Cells["HEvPaqPage2CalANombre"].Value = productos[i].nombre;
+                                String[] splitDestino = productos[i].destino.Split(',');
+                                String destinoStr = null;
+                                for (int j = 0; j < splitDestino.Length; j++)
+                                {
+                                    destinoStr += obtenerDestinoDic()[splitDestino[j]] + "\r\n";
+                                }
+                                gridPage2CalAEvPaq.Rows[i].Cells["HEvPaqPage2CalADestino"].Value = destinoStr;
+                                gridPage2CalAEvPaq.Rows[i].Cells["HEvPaqPage2CalAPrecio"].Value = productos[i].precio;
+                                gridPage2CalAEvPaq.Rows[i].Cells["HEvPaqPage2CalADuracion"].Value = productos[i].duracion;
+                                gridPage2CalAEvPaq.Rows[i].Cells["HEvPaqPage2CalAActividades"].Value = productos[i].actividades.Aggregate((a, b) => a + ',' + b);
+                                gridPage2CalAEvPaq.Rows[i].Cells["HEvPaqPage2CalACupo"].Value = 0;
+                                gridPage2CalAEvPaq.Rows[i].Cells["HEvPaqPage2CalAFSalida"].Value = DateTime.Today.AddDays(10);
+                                gridPage2CalAEvPaq.Rows[i].Cells["HEvPaqPage2CalAFRegreso"].Value = ((DateTime)gridPage2CalAEvPaq.Rows[i].Cells["HEvPaqPage2CalAFSalida"].Value).AddDays(productos[i].duracion - 1).ToShortDateString();
+                                gridPage2CalAEvPaq.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
+                            }
+                        }
+                        else
+                        {
+                            gridPage2CalAEvPaq.Visible = false;
+                            //MessageBox.Show(I18n.obtenerString("Mensaje", "ningunRegistro"), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        }
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Verifique si hay cursos duplicados o los cupos no fueron definidos", msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    WizPage1CalA.NavigateBack();
+                }
+            }
+            else
+            {
+                mensaje = String.Format(I18n.obtenerString("Mensaje", "elementoExistente"), I18n.obtenerString("InicioDirector", "calendario") + " " + intInpPage1CalAAnio.Value.ToString());
+                MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                WizPage1CalA.NavigateBack();
+            }
+        }
+
+        //Agrega una nueva fila en la grilla de paquetes/eventos para setear un mismo paquete/evento con diferentes fechas de salida
+        private void gridPage2CalAEvPaq_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // Ignora clicks de otas columnas
+            if (e.ColumnIndex == gridPage2CalAEvPaq.Columns["HEvPaqPage2CalAAgregar"].Index && e.RowIndex >= 0)
+            {
+                String nombre = gridPage2CalAEvPaq.Rows[e.RowIndex].Cells["HEvPaqPage2CalANombre"].Value.ToString();
+                String tipoProducto = gridPage2CalAEvPaq.Rows[e.RowIndex].Cells["HEvPaqPage2CalATipoProducto"].Value.ToString();
+                String destino = gridPage2CalAEvPaq.Rows[e.RowIndex].Cells["HEvPaqPage2CalADestino"].Value.ToString();
+                Double precio = (Double)gridPage2CalAEvPaq.Rows[e.RowIndex].Cells["HEvPaqPage2CalAPrecio"].Value;
+                Int32 duracion = (Int32)gridPage2CalAEvPaq.Rows[e.RowIndex].Cells["HEvPaqPage2CalADuracion"].Value;
+                String actividad = gridPage2CalAEvPaq.Rows[e.RowIndex].Cells["HEvPaqPage2CalAActividades"].Value.ToString();
+
+                gridPage2CalAEvPaq.Rows.Add(1);
+                int index = gridPage2CalAEvPaq.Rows.Count - 1;
+                gridPage2CalAEvPaq.Rows[index].Cells["HEvPaqPage2CalANombre"].Value = nombre;
+                gridPage2CalAEvPaq.Rows[index].Cells["HEvPaqPage2CalATipoProducto"].Value = tipoProducto;
+                gridPage2CalAEvPaq.Rows[index].Cells["HEvPaqPage2CalADestino"].Value = destino;
+                gridPage2CalAEvPaq.Rows[index].Cells["HEvPaqPage2CalAPrecio"].Value = precio;
+                gridPage2CalAEvPaq.Rows[index].Cells["HEvPaqPage2CalADuracion"].Value = duracion;
+                gridPage2CalAEvPaq.Rows[index].Cells["HEvPaqPage2CalAActividades"].Value = actividad;
+                gridPage2CalAEvPaq.Rows[index].Cells["HEvPaqPage2CalACupo"].Value = 0;
+                gridPage2CalAEvPaq.Rows[index].Cells["HEvPaqPage2CalAFSalida"].Value = DateTime.Today.AddDays(10);
+                gridPage2CalAEvPaq.Rows[index].Cells["HEvPaqPage2CalAFRegreso"].Value = ((DateTime)gridPage2CalAEvPaq.Rows[index].Cells["HEvPaqPage2CalAFSalida"].Value).AddDays(duracion - 1).ToShortDateString();
+            }
+        }
+
+        //En la grilla de paquetes/eventos se autocalcula la fecha de regreso una vez ingresada la fecha de salida
+        private void gridPage2CalAEvPaq_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == gridPage2CalAEvPaq.Columns["HEvPaqPage2CalAFSalida"].Index && e.RowIndex >= 0)
+            {
+                Int32 duracion = (Int32)gridPage2CalAEvPaq.Rows[e.RowIndex].Cells["HEvPaqPage2CalADuracion"].Value;
+                gridPage2CalAEvPaq.Rows[e.RowIndex].Cells["HEvPaqPage2CalAFRegreso"].Value = ((DateTime)gridPage2CalAEvPaq.Rows[e.RowIndex].Cells["HEvPaqPage2CalAFSalida"].Value).AddDays(duracion).ToShortDateString();
+            }
+        }
+
+        //Al hacer click "Next" desde la pagina de carga de paquetes/eventos, se carga la grilla cursos-instructores
+        private void WizPage2CalAEvPaq_NextClick(object sender, CancelEventArgs e)
+        {
+            if (grillaValida(GetDataTableFromDGV(gridPage2CalAEvPaq)))
+            {
+                if (String.IsNullOrEmpty(lblPage3CalACarga.Text))
+                {
+                    lblPage3CalACarga.Text = "InstCurso";
+                    lblPage3CalACursoInst.Text =  "Calendario " + intInpPage1CalAAnio.Value.ToString() + ": Cursos + Instructor";
+                    int countRow = 0;
+                    gridPage3CalAInstCurso.Rows.Clear();
+                    DataGridViewComboBoxColumn instructor = new DataGridViewComboBoxColumn();
+                    instructor.HeaderText = "Instructor";
+                    instructor.Name = "HInstCursoPage3CalAInstructor";
+                    instructor.Width = 140;
+                    List<String> instructores = instructorBLL.obtenerInstructores().Where(i => i.estado == true).Select(s => s.apellido + " " + s.nombre).ToList();
+                    instructor.DataSource = instructores;
+                    gridPage3CalAInstCurso.Columns.Add(instructor);
+                    foreach (DataGridViewRow Datarow in gridPage1CalACurso.Rows)
+                    {
+                        gridPage3CalAInstCurso.Rows.Add(1);
+                        gridPage3CalAInstCurso.Rows[countRow].Cells["HInstCursoPage3CalANombre"].Value = Datarow.Cells[0].Value;
+                        gridPage3CalAInstCurso.Rows[countRow].Cells["HInstCursoPage3CalAActividad"].Value = Datarow.Cells[1].Value;
+                        gridPage3CalAInstCurso.Rows[countRow].Cells["HInstCursoPage3CalAPrecio"].Value = Datarow.Cells[2].Value;
+                        gridPage3CalAInstCurso.Rows[countRow].Cells["HInstCursoPage3CalADias"].Value = Datarow.Cells[3].Value;
+                        gridPage3CalAInstCurso.Rows[countRow].Cells["HInstCursoPage3CalAHoraInicio"].Value = Datarow.Cells[4].Value;
+                        gridPage3CalAInstCurso.Rows[countRow].Cells["HInstCursoPage3CalAHoraFin"].Value = Datarow.Cells[5].Value;
+                        gridPage3CalAInstCurso.Rows[countRow].Cells["HInstCursoPage3CalACupo"].Value = Datarow.Cells[6].Value;
+                        gridPage3CalAInstCurso.Rows[countRow].Cells["HInstCursoPage3CalAMes"].Value = Datarow.Cells[8].Value;
+                        gridPage3CalAInstCurso.Rows[countRow].Cells["HInstCursoPage3CalAInstructor"].Value = instructores[0];
+                        gridPage3CalAInstCurso.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
+                        countRow++;
+                    }
+                } else
+                    {
+                        //MessageBox.Show(I18n.obtenerString("Mensaje", "ningunRegistro"), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    }
+                
+            } else{
+                MessageBox.Show("Verifique si hay paquetes/eventos duplicados o los cupos no fueron definidos", msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                WizPage1CalA.NavigateBack();
+            }
+            
+        }
+
+        //Al hacer click "Next" desde la pagina de asignacion de instructores a los cursos, se carga la grilla de paquetes/eventos - instructores
+        private void WizPage3CalACurInstructor_NextClick(object sender, CancelEventArgs e)
+        {
+            if (grillaValida(GetDataTableFromDGV(gridPage3CalAInstCurso)))
+            {
+                if (String.IsNullOrEmpty(lblPage4CalACarga.Text))
+                {
+                    lblPage4CalACarga.Text = "InstPaqEv";
+                    lblPage4CalAPaqEvInst.Text = "Calendario " + intInpPage1CalAAnio.Value.ToString() + ": Paquetes y Eventos + Instructor";
+                    int countRow = 0;
+                    gridPage4CalAInstPaqEv.Rows.Clear();
+                    DataGridViewComboBoxColumn instructor = new DataGridViewComboBoxColumn();
+                    instructor.HeaderText = "Instructor";
+                    instructor.Name = "HInstPaqEvPage4CalAInstructor";
+                    instructor.Width = 140;
+                    List<String> instructores = instructorBLL.obtenerInstructores().Where(i => i.estado == true).Select(s => s.apellido + " " + s.nombre).ToList();
+                    instructor.DataSource = instructores;
+                    gridPage4CalAInstPaqEv.Columns.Add(instructor);
+                    foreach (DataGridViewRow Datarow in gridPage2CalAEvPaq.Rows)
+                    {
+                        gridPage4CalAInstPaqEv.Rows.Add(1);
+                        gridPage4CalAInstPaqEv.Rows[countRow].Cells["HInstPaqEvPage4CalANombre"].Value = Datarow.Cells[0].Value;
+                        gridPage4CalAInstPaqEv.Rows[countRow].Cells["HInstPaqEvPage4CalATipoProducto"].Value = Datarow.Cells[1].Value;
+                        gridPage4CalAInstPaqEv.Rows[countRow].Cells["HInstPaqEvPage4CalADestino"].Value = Datarow.Cells[2].Value;
+                        gridPage4CalAInstPaqEv.Rows[countRow].Cells["HInstPaqEvPage4CalAPrecio"].Value = Datarow.Cells[3].Value;
+                        gridPage4CalAInstPaqEv.Rows[countRow].Cells["HInstPaqEvPage4CalADuracion"].Value = Datarow.Cells[4].Value;
+                        gridPage4CalAInstPaqEv.Rows[countRow].Cells["HInstPaqEvPage4CalAActividades"].Value = Datarow.Cells[5].Value;
+                        gridPage4CalAInstPaqEv.Rows[countRow].Cells["HInstPaqEvPage4CalACupo"].Value = Datarow.Cells[6].Value;
+                        gridPage4CalAInstPaqEv.Rows[countRow].Cells["HInstPaqEvPage4CalAFechaSalida"].Value = Datarow.Cells[7].Value;
+                        gridPage4CalAInstPaqEv.Rows[countRow].Cells["HInstPaqEvPage4CalAFechaRegreso"].Value = Datarow.Cells[8].Value;
+                        gridPage4CalAInstPaqEv.Rows[countRow].Cells["HInstPaqEvPage4CalAInstructor"].Value = instructores[0];
+                        gridPage4CalAInstPaqEv.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
+                        countRow++;
+                    }
+                }
+                else
+                {
+                    //MessageBox.Show(I18n.obtenerString("Mensaje", "ningunRegistro"), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Verifique superposición de horarios de instructores", msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                WizPage1CalA.NavigateBack();
+            }
+        }
+
+        //Al hacer click "Next" desde la pagina de asignacion de instructores a los paquetes/evento, 
+        //se carga la grilla de cursos + instructores - alojamiento
+        private void WizPage4CalAPaqEvInstructor_NextClick(object sender, CancelEventArgs e)
+        {
+            if (grillaValida(GetDataTableFromDGV(gridPage4CalAInstPaqEv)))
+            {
+                if (String.IsNullOrEmpty(lblPage5CalACarga.Text))
+                {
+                    lblPage5CalACarga.Text = "InstPaqEv";
+                    lblPage5CalAPaqEvInstAloj.Text = "Calendario " + intInpPage1CalAAnio.Value.ToString() + ": Paquetes y Eventos + Instructor + Alojamiento";
+                    int countRow = 0;
+                    gridPage5CalAInstPaqEvAloj.Rows.Clear();
+                    DataGridViewComboBoxColumn alojamiento = new DataGridViewComboBoxColumn();
+                    alojamiento.HeaderText = "Alojamiento";
+                    alojamiento.Name = "HAlojPaqEvPage5CalAAlojamiento";
+                    alojamiento.Width = 240;
+                    List<String> alojamientos = alojamientoBLL.obtenerAlojamientos().Select(f => f.categoria + ": " +f.razonSocial + ", " + f.ciudad).ToList();
+                    //alojamientos.Add("CARPA");
+                    //alojamientos.Add("NINGUNO");
+                    //alojamientos.Add("REFUGIO");
+                    alojamiento.DataSource = alojamientos;
+                    gridPage5CalAInstPaqEvAloj.Columns.Add(alojamiento);
+                    foreach (DataGridViewRow Datarow in gridPage4CalAInstPaqEv.Rows)
+                    {
+                        gridPage5CalAInstPaqEvAloj.Rows.Add(1);
+                        gridPage5CalAInstPaqEvAloj.Rows[countRow].Cells["HAlojPaqEvPage5CalANombre"].Value = Datarow.Cells[0].Value;
+                        gridPage5CalAInstPaqEvAloj.Rows[countRow].Cells["HAlojPaqEvPage5CalATipoProducto"].Value = Datarow.Cells[1].Value;
+                        gridPage5CalAInstPaqEvAloj.Rows[countRow].Cells["HAlojPaqEvPage5CalADestino"].Value = Datarow.Cells[2].Value;
+                        gridPage5CalAInstPaqEvAloj.Rows[countRow].Cells["HAlojPaqEvPage5CalAPrecio"].Value = Datarow.Cells[3].Value;
+                        gridPage5CalAInstPaqEvAloj.Rows[countRow].Cells["HAlojPaqEvPage5CalADuracion"].Value = Datarow.Cells[4].Value;
+                        gridPage5CalAInstPaqEvAloj.Rows[countRow].Cells["HAlojPaqEvPage5CalAActividades"].Value = Datarow.Cells[5].Value;
+                        gridPage5CalAInstPaqEvAloj.Rows[countRow].Cells["HAlojPaqEvPage5CalACupo"].Value = Datarow.Cells[6].Value;
+                        gridPage5CalAInstPaqEvAloj.Rows[countRow].Cells["HAlojPaqEvPage5CalAFechaSalida"].Value = Datarow.Cells[7].Value;
+                        gridPage5CalAInstPaqEvAloj.Rows[countRow].Cells["HAlojPaqEvPage5CalAFechaRegreso"].Value = Datarow.Cells[8].Value;
+                        gridPage5CalAInstPaqEvAloj.Rows[countRow].Cells["HAlojPaqEvPage5CalAInstructor"].Value = Datarow.Cells[9].Value;
+                        gridPage5CalAInstPaqEvAloj.Rows[countRow].Cells["HAlojPaqEvPage5CalAAlojamiento"].Value = alojamientos[0];
+                        gridPage5CalAInstPaqEvAloj.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
+                        countRow++;
+                    }
+                }
+                else
+                {
+                    //MessageBox.Show(I18n.obtenerString("Mensaje", "ningunRegistro"), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Verifique superposición de horarios de instructores", msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                WizPage1CalA.NavigateBack();
+            }
+        }
+
+        //Al hacer click "Next" desde la pagina de asignacion de alojamientos a los paquetes/evento, 
+        //se carga la grilla de cursos + instructores + alojamiento - traslado
+        private void WizPage5CalACurInstAloj_NextClick(object sender, CancelEventArgs e)
+        {
+            if (String.IsNullOrEmpty(lblPage6CalACarga.Text))
+            {
+                lblPage6CalACarga.Text = "AlojPaqEv";
+                lblPage6CalAPaqEvInstAlojTras.Text = "Calendario " + intInpPage1CalAAnio.Value.ToString() + ": Paquetes y Eventos + Instructor + Alojamiento + Traslado";
+                int countRow = 0;
+                gridPage6CalAInstPaqEvAlojTras.Rows.Clear();
+                DataGridViewComboBoxColumn traslado = new DataGridViewComboBoxColumn();
+                traslado.HeaderText = "Traslado";
+                traslado.Name = "HTrasPaqEvPage6CalATraslado";
+                traslado.Width = 300;
+                List<String> traslados = trasladoBLL.obtenerTraslados().Select(f => f.vehiculo + ": " + f.razonSocial + ", " + f.ciudad).ToList();
+                //traslados.Add("NINGUNO");
+                traslado.DataSource = traslados;
+                gridPage6CalAInstPaqEvAlojTras.Columns.Add(traslado);
+                foreach (DataGridViewRow Datarow in gridPage5CalAInstPaqEvAloj.Rows)
+                {
+                    gridPage6CalAInstPaqEvAlojTras.Rows.Add(1);
+                    gridPage6CalAInstPaqEvAlojTras.Rows[countRow].Cells["HTrasPaqEvPage6CalANombre"].Value = Datarow.Cells[0].Value;
+                    gridPage6CalAInstPaqEvAlojTras.Rows[countRow].Cells["HTrasPaqEvPage6CalATipoProducto"].Value = Datarow.Cells[1].Value;
+                    gridPage6CalAInstPaqEvAlojTras.Rows[countRow].Cells["HTrasPaqEvPage6CalADestino"].Value = Datarow.Cells[2].Value;
+                    gridPage6CalAInstPaqEvAlojTras.Rows[countRow].Cells["HTrasPaqEvPage6CalAPrecio"].Value = Datarow.Cells[3].Value;
+                    gridPage6CalAInstPaqEvAlojTras.Rows[countRow].Cells["HTrasPaqEvPage6CalADuracion"].Value = Datarow.Cells[4].Value;
+                    gridPage6CalAInstPaqEvAlojTras.Rows[countRow].Cells["HTrasPaqEvPage6CalAActividades"].Value = Datarow.Cells[5].Value;
+                    gridPage6CalAInstPaqEvAlojTras.Rows[countRow].Cells["HTrasPaqEvPage6CalACupo"].Value = Datarow.Cells[6].Value;
+                    gridPage6CalAInstPaqEvAlojTras.Rows[countRow].Cells["HTrasPaqEvPage6CalAFSalida"].Value = Datarow.Cells[7].Value;
+                    gridPage6CalAInstPaqEvAlojTras.Rows[countRow].Cells["HTrasPaqEvPage6CalAFRegreso"].Value = Datarow.Cells[8].Value;
+                    gridPage6CalAInstPaqEvAlojTras.Rows[countRow].Cells["HTrasPaqEvPage6CalAInstructor"].Value = Datarow.Cells[9].Value;
+                    gridPage6CalAInstPaqEvAlojTras.Rows[countRow].Cells["HTrasPaqEvPage6CalAAlojamiento"].Value = Datarow.Cells[10].Value;
+                    gridPage6CalAInstPaqEvAlojTras.Rows[countRow].Cells["HTrasPaqEvPage6CalATraslado"].Value = traslados[0];
+                    gridPage6CalAInstPaqEvAlojTras.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
+                    countRow++;
+                }
+            }
+            else
+            {
+                //MessageBox.Show(I18n.obtenerString("Mensaje", "ningunRegistro"), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                gridPage6CalAInstPaqEvAlojTras.Visible = false;
+            }
+        }
+
+        //Al hacer click "Finalizar" desde la pagina de asignacion de traslados a los paquetes/evento, 
+        //se registran en la bd los datos ingresados
+        private void WizPage6CalACurInstAlojTras_FinishClick(object sender, CancelEventArgs e)
+        {
+            List<Calendario> calendarios = new List<Calendario>();
+            List<Producto> productos = new List<Producto>();
+            String mensaje = null;
+            try
+            {
+                //Agregar cursos a la lista de productos
+                foreach (DataGridViewRow Datarow in gridPage3CalAInstCurso.Rows)
+                {
+                    Calendario calendario = new Calendario();
+                    calendario.anio = intInpPage1CalAAnio.Value;
+                    calendario.cupo = Int32.Parse(Datarow.Cells["HInstCursoPage3CalACupo"].Value.ToString()); //6
+                    Producto curso = productoBLL.obtenerProductoPorNombre(Datarow.Cells["HInstCursoPage3CalANombre"].Value.ToString()); //0
+                    curso.horario.mes = Datarow.Cells["HInstCursoPage3CalAMes"].Value.ToString(); //7
+                    calendario.producto = curso;
+                    calendario.instructor = instructorBLL.obtenerInstructorPorApellido(Datarow.Cells["HInstCursoPage3CalAInstructor"].Value.ToString().Split(' ')[0]); //9
+                    calendario.alojamiento = alojamientoBLL.obtenerAlojamientoPorRazon("NINGUNO");
+                    calendario.traslado = trasladoBLL.obtenerTrasladoPorRazon("NINGUNO");
+
+                    calendarios.Add(calendario);
+                }
+
+                //Agregar paquetes/eventos a la lista de productos
+                foreach (DataGridViewRow Datarow in gridPage6CalAInstPaqEvAlojTras.Rows)
+                {
+                    Calendario calendario = new Calendario();
+                    calendario.anio = intInpPage1CalAAnio.Value;
+                    calendario.cupo = Int32.Parse(Datarow.Cells["HTrasPaqEvPage6CalACupo"].Value.ToString()); //6
+                    Producto paqEv = productoBLL.obtenerProductoPorNombre(Datarow.Cells["HTrasPaqEvPage6CalANombre"].Value.ToString()); //0
+                    paqEv.fechaSalida = DateTime.Parse(Datarow.Cells["HTrasPaqEvPage6CalAFSalida"].Value.ToString()); // 7
+                    calendario.producto = paqEv;
+                    String[] nombreInst = Datarow.Cells["HTrasPaqEvPage6CalAInstructor"].Value.ToString().Split(' '); //9
+                    String apellidoInst = nombreInst[0];
+                    calendario.instructor = instructorBLL.obtenerInstructorPorApellido(apellidoInst);
+
+                    String[] nombreAloj = Datarow.Cells["HTrasPaqEvPage6CalAAlojamiento"].Value.ToString().Replace(':', ',').Split(','); //10
+                    String razonAloj = nombreAloj[1].Trim();
+                    calendario.alojamiento = alojamientoBLL.obtenerAlojamientoPorRazon(razonAloj);
+
+                    String[] nombreTras = Datarow.Cells["HTrasPaqEvPage6CalATraslado"].Value.ToString().Replace(':', ',').Split(','); //11
+                    String razonTras = nombreTras[1].Trim();
+                    calendario.traslado = trasladoBLL.obtenerTrasladoPorRazon(razonTras);
+
+                    calendarios.Add(calendario);
+                }
+
+                DialogResult siNoRes = MessageBox.Show(I18n.obtenerString("Mensaje", "confirmar"), msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (siNoRes.Equals(DialogResult.Yes))
+                {
+                    //Persistir
+                    calendarios.ForEach(c => calendarioBLL.agregarCalendario(c));
+                    //calendarioBLL.agregarCalendario(calendarios);
+                    mensaje = String.Format(I18n.obtenerString("Mensaje", "elementoNuevo"), I18n.obtenerString("InicioDirector", "calendario") + " " + intInpPage1CalAAnio.Value.ToString());
+                    MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    limpiarCampos();
+                    WizPage1CalA.SelectedPage = WizPage0CalA;
+                } 
+            }
+            catch (Exception ex)
+            {
+                Bitacora bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.EXCEPCION_BLL_INS + " Calendario " + intInpPage1CalAAnio.Value.ToString(), ex.ToString());
+                BitacoraBLL.registrarBitacora(bitacora);
+            }
+        }
+
+        //Tab Consultar de Calendario
+        private void btnCalCBuscar_Click(object sender, EventArgs e)
+        {
+            Int32 anio = intInpCalCAnio.Value;
+            String tipoProducto = null;
+            if (radioCalCCurso.Checked)
+                tipoProducto = EnumProducto.CURSO.ToString();
+            else if (radioCalCEvento.Checked)
+                tipoProducto = EnumProducto.EVENTO.ToString();
+            else if (radioCalCPaquete.Checked)
+                tipoProducto = EnumProducto.PAQUETE.ToString();
+
+            List<Calendario> calendarios = calendarioBLL.obtenerCalendarios(anio);
+            List<Calendario> calFiltrado = new List<Calendario>();
+
+            foreach (Calendario item in calendarios)
+            {
+                DateTime fechaSalida = item.producto.fechaSalida;
+                Calendario cal = item;
+                cal.producto = productoBLL.obtenerProductoPorId(item.producto.idProducto);
+                cal.producto.fechaSalida = fechaSalida;
+                cal.alojamiento = alojamientoBLL.obtenerAlojamientos().SingleOrDefault(a => a.id == item.alojamiento.id);
+                cal.instructor = instructorBLL.obtenerInstructorPorLegajo(item.instructor.legajo);
+                cal.traslado = trasladoBLL.obtenerTraslados().SingleOrDefault(t => t.id == item.traslado.id);
+                calFiltrado.Add(cal);
+            }
+
+            if (tipoProducto == EnumProducto.CURSO.ToString())
+            {
+                dataGridCalCProductos.Columns["HCalCDestino"].Visible = false;
+                dataGridCalCProductos.Columns["HCalCDuracion"].Visible = false;
+                dataGridCalCProductos.Columns["HCalCFechaSalida"].Visible = false;
+                dataGridCalCProductos.Columns["HCalCFechaRegreso"].Visible = false;
+                dataGridCalCProductos.Columns["HCalCAlojamiento"].Visible = false;
+                dataGridCalCProductos.Columns["HCalCTraslado"].Visible = false;
+                dataGridCalCProductos.Columns["HCalCMes"].Visible = true;
+                dataGridCalCProductos.Columns["HCalCDias"].Visible = true;
+                dataGridCalCProductos.Columns["HCalCHoraInicio"].Visible = true;
+                dataGridCalCProductos.Columns["HCalCHoraFin"].Visible = true;
+            }
+            else if (tipoProducto == EnumProducto.EVENTO.ToString() || tipoProducto == EnumProducto.PAQUETE.ToString())
+            {
+                dataGridCalCProductos.Columns["HCalCMes"].Visible = false;
+                dataGridCalCProductos.Columns["HCalCDias"].Visible = false;
+                dataGridCalCProductos.Columns["HCalCHoraInicio"].Visible = false;
+                dataGridCalCProductos.Columns["HCalCHoraFin"].Visible = false;
+                dataGridCalCProductos.Columns["HCalCDestino"].Visible = true;
+                dataGridCalCProductos.Columns["HCalCDuracion"].Visible = true;
+                dataGridCalCProductos.Columns["HCalCFechaSalida"].Visible = true;
+                dataGridCalCProductos.Columns["HCalCFechaRegreso"].Visible = true;
+                dataGridCalCProductos.Columns["HCalCAlojamiento"].Visible = true;
+                dataGridCalCProductos.Columns["HCalCTraslado"].Visible = true;
+            }
+            dataGridCalCProductos.Columns["HCalCTipoProducto"].Visible = false;
+            calFiltrado = calFiltrado.Where(s => s.producto.tipoProducto == tipoProducto).ToList();
+            dataGridCalCProductos.Rows.Clear();
+            if (calFiltrado != null && calFiltrado.Count > 0)
+            {
+                dataGridCalCProductos.Visible = true;
+                for (int i = 0; i < calFiltrado.Count; i++)
+                {
+                    dataGridCalCProductos.Rows.Add(1);
+                    dataGridCalCProductos.Rows[i].Cells["HCalCNombre"].Value = calFiltrado[i].producto.nombre;
+                    dataGridCalCProductos.Rows[i].Cells["HCalCTipoProducto"].Value = calFiltrado[i].producto.tipoProducto; 
+                    
+                    dataGridCalCProductos.Rows[i].Cells["HCalCPrecio"].Value = calFiltrado[i].producto.precio;
+                   
+                    dataGridCalCProductos.Rows[i].Cells["HCalCActividades"].Value = String.Join(",",calFiltrado[i].producto.actividades);
+                    dataGridCalCProductos.Rows[i].Cells["HCalCCupo"].Value = calFiltrado[i].cupo;
+                    if (calFiltrado[i].producto.tipoProducto == EnumProducto.CURSO.ToString())
+                    {
+                        dataGridCalCProductos.Rows[i].Cells["HCalCMes"].Value = calFiltrado[i].producto.horario.mes;
+                        dataGridCalCProductos.Rows[i].Cells["HCalCDias"].Value = calFiltrado[i].producto.horario.dia;
+                        dataGridCalCProductos.Rows[i].Cells["HCalCHoraInicio"].Value = calFiltrado[i].producto.horario.horaInicio.ToString("HH:mm");
+                        dataGridCalCProductos.Rows[i].Cells["HCalCHoraFin"].Value = calFiltrado[i].producto.horario.horaFin.ToString("HH:mm");
+                    }
+                    if (calFiltrado[i].producto.tipoProducto == EnumProducto.EVENTO.ToString() || calFiltrado[i].producto.tipoProducto == EnumProducto.PAQUETE.ToString())
+                    {
+                        String[] splitDestino = calFiltrado[i].producto.destino.Split(',');
+                        String destinoStr = null;
+                        for (int j = 0; j < splitDestino.Length; j++)
+                        {
+                            destinoStr += obtenerDestinoDic()[splitDestino[j]] + "\r\n";
+                        }
+                        dataGridCalCProductos.Rows[i].Cells["HCalCDestino"].Value = destinoStr;
+                        dataGridCalCProductos.Rows[i].Cells["HCalCDuracion"].Value = calFiltrado[i].producto.duracion;
+                        dataGridCalCProductos.Rows[i].Cells["HCalCFechaSalida"].Value = calFiltrado[i].producto.fechaSalida.ToShortDateString();
+                        dataGridCalCProductos.Rows[i].Cells["HCalCFechaRegreso"].Value = calFiltrado[i].producto.fechaSalida.AddDays(calFiltrado[i].producto.duracion - 1).ToShortDateString();
+                        dataGridCalCProductos.Rows[i].Cells["HCalCAlojamiento"].Value = calFiltrado[i].alojamiento.categoria + ", " + calFiltrado[i].alojamiento.razonSocial;
+                        dataGridCalCProductos.Rows[i].Cells["HCalCTraslado"].Value = calFiltrado[i].traslado.vehiculo + ", " + calFiltrado[i].traslado.razonSocial;
+                    }
+                    dataGridCalCProductos.Rows[i].Cells["HCalCInstructor"].Value = calFiltrado[i].instructor.apellido + " " + calFiltrado[i].instructor.nombre;
+                    
+                    dataGridCalCProductos.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
+                }
+            }
+            else
+            {
+                dataGridCalCProductos.Visible = false;
+                MessageBox.Show(I18n.obtenerString("Mensaje", "ningunRegistro"), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+
+        }
+
+        //Tab Editar de Calendario
+        private void btnCalEBuscar_Click(object sender, EventArgs e)
+        {
+            Int32 anio = intInpCalEAnio.Value;
+            String tipoProducto = null;
+            if (radioCalECurso.Checked)
+                tipoProducto = EnumProducto.CURSO.ToString();
+            else if (radioCalEEvento.Checked)
+                tipoProducto = EnumProducto.EVENTO.ToString();
+            else if (radioCalEPaquete.Checked)
+                tipoProducto = EnumProducto.PAQUETE.ToString();
+
+            List<Calendario> calendarios = calendarioBLL.obtenerCalendarios(anio);
+            List<Calendario> calFiltrado = new List<Calendario>();
+
+            foreach (Calendario item in calendarios)
+            {
+                DateTime fechaSalida = item.producto.fechaSalida;
+                Calendario cal = item;
+                cal.producto = productoBLL.obtenerProductoPorId(item.producto.idProducto);
+                cal.producto.fechaSalida = fechaSalida;
+                cal.alojamiento = alojamientoBLL.obtenerAlojamientos().SingleOrDefault(a => a.id == item.alojamiento.id);
+                cal.instructor = instructorBLL.obtenerInstructorPorLegajo(item.instructor.legajo);
+                cal.traslado = trasladoBLL.obtenerTraslados().SingleOrDefault(t => t.id == item.traslado.id);
+                calFiltrado.Add(cal);
+            }
+
+            //carga los datasources de los combos
+            DataGridViewComboBoxColumn meses = (DataGridViewComboBoxColumn)dataGridCalEProductos.Columns["HCalEMes"];
+            meses.MaxDropDownItems = 12;
+            meses.DataSource = System.Globalization.DateTimeFormatInfo.InvariantInfo.MonthNames;
+            DataGridViewComboBoxColumn instructor = new DataGridViewComboBoxColumn();
+            instructor = (DataGridViewComboBoxColumn)dataGridCalEProductos.Columns["HCalEInstructor"];
+            List<String> instructores = instructorBLL.obtenerInstructores().Where(i => i.estado == true).Select(s => s.apellido + " " + s.nombre).ToList();
+            instructor.DataSource = instructores;
+            DataGridViewComboBoxColumn alojamiento = (DataGridViewComboBoxColumn)dataGridCalEProductos.Columns["HCalEAlojamiento"];
+            List<String> alojamientos = alojamientoBLL.obtenerAlojamientos().Select(f => f.categoria + ": " + f.razonSocial + ", " + f.ciudad).ToList();
+            alojamiento.DataSource = alojamientos;
+            DataGridViewComboBoxColumn traslado = new DataGridViewComboBoxColumn();
+            traslado = (DataGridViewComboBoxColumn)dataGridCalEProductos.Columns["HCalETraslado"];
+            List<String> traslados = trasladoBLL.obtenerTraslados().Select(f => f.vehiculo + ": " + f.razonSocial + ", " + f.ciudad).ToList();
+            traslado.DataSource = traslados;
+
+            if (radioCalECurso.Checked)
+            {
+                dataGridCalEProductos.Columns["HCalEDestino"].Visible = false;
+                dataGridCalEProductos.Columns["HCalEDuracion"].Visible = false;
+                dataGridCalEProductos.Columns["HCalEFechaSalida"].Visible = false;
+                dataGridCalEProductos.Columns["HCalEFechaRegreso"].Visible = false;
+                dataGridCalEProductos.Columns["HCalEAlojamiento"].Visible = false;
+                dataGridCalEProductos.Columns["HCalETraslado"].Visible = false;
+                dataGridCalEProductos.Columns["HCalEMes"].Visible = true;
+                dataGridCalEProductos.Columns["HCalEDias"].Visible = true;
+                dataGridCalEProductos.Columns["HCalEHoraInicio"].Visible = true;
+                dataGridCalEProductos.Columns["HCalEHoraFin"].Visible = true;
+            }
+            else if (radioCalEEvento.Checked || radioCalEPaquete.Checked)
+            {
+                dataGridCalEProductos.Columns["HCalEMes"].Visible = false;
+                dataGridCalEProductos.Columns["HCalEDias"].Visible = false;
+                dataGridCalEProductos.Columns["HCalEHoraInicio"].Visible = false;
+                dataGridCalEProductos.Columns["HCalEHoraFin"].Visible = false;
+                dataGridCalEProductos.Columns["HCalEDestino"].Visible = true;
+                dataGridCalEProductos.Columns["HCalEDuracion"].Visible = true;
+                dataGridCalEProductos.Columns["HCalEFechaSalida"].Visible = true;
+                dataGridCalEProductos.Columns["HCalEFechaRegreso"].Visible = true;
+                dataGridCalEProductos.Columns["HCalEAlojamiento"].Visible = true;
+                dataGridCalEProductos.Columns["HCalETraslado"].Visible = true;
+            }
+            dataGridCalEProductos.Columns["HCalETipoProducto"].Visible = false;
+            dataGridCalEProductos.Columns["HCalEIdCalendario"].Visible = false;
+            calFiltrado = calFiltrado.Where(s => s.producto.tipoProducto == tipoProducto).ToList();
+            dataGridCalEProductos.Rows.Clear();
+            if (calFiltrado != null && calFiltrado.Count > 0)
+            {
+                dataGridCalEProductos.Visible = true;
+                for (int i = 0; i < calFiltrado.Count; i++)
+                {
+                    dataGridCalEProductos.Rows.Add(1);
+                    dataGridCalEProductos.Rows[i].Cells["HCalENombre"].Value = calFiltrado[i].producto.nombre;
+                    dataGridCalEProductos.Rows[i].Cells["HCalETipoProducto"].Value = calFiltrado[i].producto.tipoProducto;
+                    dataGridCalEProductos.Rows[i].Cells["HCalEIdCalendario"].Value = calFiltrado[i].idCalendario;
+                    dataGridCalEProductos.Rows[i].Cells["HCalEPrecio"].Value = calFiltrado[i].producto.precio;
+
+                    dataGridCalEProductos.Rows[i].Cells["HCalEActividades"].Value = String.Join(",", calFiltrado[i].producto.actividades);
+                    dataGridCalEProductos.Rows[i].Cells["HCalECupo"].Value = calFiltrado[i].cupo;
+                    if (radioCalECurso.Checked)
+                    {
+                        dataGridCalEProductos.Rows[i].Cells["HCalEMes"].Value = calFiltrado[i].producto.horario.mes;
+                        dataGridCalEProductos.Rows[i].Cells["HCalEDias"].Value = calFiltrado[i].producto.horario.dia;
+                        dataGridCalEProductos.Rows[i].Cells["HCalEHoraInicio"].Value = calFiltrado[i].producto.horario.horaInicio.ToString("HH:mm");
+                        dataGridCalEProductos.Rows[i].Cells["HCalEHoraFin"].Value = calFiltrado[i].producto.horario.horaFin.ToString("HH:mm");
+                    }
+                    if (radioCalEEvento.Checked || radioCalEPaquete.Checked)
+                    {
+                        String[] splitDestino = calFiltrado[i].producto.destino.Split(',');
+                        String destinoStr = null;
+                        for (int j = 0; j < splitDestino.Length; j++)
+                        {
+                            destinoStr += obtenerDestinoDic()[splitDestino[j]] + "\r\n";
+                        }
+                        dataGridCalEProductos.Rows[i].Cells["HCalEDestino"].Value = destinoStr;
+                        dataGridCalEProductos.Rows[i].Cells["HCalEDuracion"].Value = calFiltrado[i].producto.duracion;
+                        dataGridCalEProductos.Rows[i].Cells["HCalEFechaSalida"].Value = calFiltrado[i].producto.fechaSalida.ToShortDateString();
+                        dataGridCalEProductos.Rows[i].Cells["HCalEFechaRegreso"].Value = calFiltrado[i].producto.fechaSalida.AddDays(calFiltrado[i].producto.duracion - 1).ToShortDateString();
+                        dataGridCalEProductos.Rows[i].Cells["HCalEAlojamiento"].Value = calFiltrado[i].alojamiento.categoria + ": " + calFiltrado[i].alojamiento.razonSocial + ", " + calFiltrado[i].alojamiento.ciudad;
+                        dataGridCalEProductos.Rows[i].Cells["HCalETraslado"].Value = calFiltrado[i].traslado.vehiculo + ": " + calFiltrado[i].traslado.razonSocial + ", " + calFiltrado[i].traslado.ciudad;
+                    }
+                    dataGridCalEProductos.Rows[i].Cells["HCalEInstructor"].Value = calFiltrado[i].instructor.apellido + " " + calFiltrado[i].instructor.nombre;
+
+                    dataGridCalEProductos.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
+                }
+            }
+            else
+            {
+                dataGridCalEProductos.Visible = false;
+                MessageBox.Show(I18n.obtenerString("Mensaje", "ningunRegistro"), msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
+
+        //Al editar un calendario agrega una nueva fila en la grilla para setear un mismo producto con diferente mes, fechas de salida, instructor, etc
+        private void CalEAgregarProd_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // Ignora clicks de otas columnas
+            if (e.ColumnIndex == dataGridCalEProductos.Columns["HCalEAgregar"].Index && e.RowIndex >= 0)
+            {
+                
+                String nombre = dataGridCalEProductos.Rows[e.RowIndex].Cells["HCalENombre"].Value.ToString();
+                String tipoProducto = dataGridCalEProductos.Rows[e.RowIndex].Cells["HCalETipoProducto"].Value.ToString();
+                Double precio = (Double)dataGridCalEProductos.Rows[e.RowIndex].Cells["HCalEPrecio"].Value;
+                String actividad = dataGridCalEProductos.Rows[e.RowIndex].Cells["HCalEActividades"].Value.ToString();
+                String instructor = dataGridCalEProductos.Rows[e.RowIndex].Cells["HCalEInstructor"].Value.ToString();
+                String destino = null;
+                Int32 duracion = 0;
+                String alojamiento = null;
+                String traslado = null;
+                String dias = null;
+                String horaInicio = null;
+                String horaFin = null;
+                String mes = null;
+                if (radioCalEEvento.Checked || radioCalEPaquete.Checked)
+                {
+                    destino = dataGridCalEProductos.Rows[e.RowIndex].Cells["HCalEDestino"].Value.ToString();
+                    duracion = (Int32)dataGridCalEProductos.Rows[e.RowIndex].Cells["HCalEDuracion"].Value;
+                    alojamiento = dataGridCalEProductos.Rows[e.RowIndex].Cells["HCalEAlojamiento"].Value.ToString();
+                    traslado = dataGridCalEProductos.Rows[e.RowIndex].Cells["HCalETraslado"].Value.ToString();
+                }
+                if (radioCalECurso.Checked)
+                {
+                    dias = dataGridCalEProductos.Rows[e.RowIndex].Cells["HCalEDias"].Value.ToString();
+                    horaInicio = dataGridCalEProductos.Rows[e.RowIndex].Cells["HCalEHoraInicio"].Value.ToString();
+                    horaFin = dataGridCalEProductos.Rows[e.RowIndex].Cells["HCalEHoraFin"].Value.ToString();
+                    mes = dataGridCalEProductos.Rows[e.RowIndex].Cells["HCalEMes"].Value.ToString();
+                }
+
+                dataGridCalEProductos.Rows.Add(1);
+                int index = dataGridCalEProductos.Rows.Count - 1;
+                dataGridCalEProductos.Rows[index].Cells["HCalEIdCalendario"].Value = 0;
+                dataGridCalEProductos.Rows[index].Cells["HCalENombre"].Value = nombre;
+                dataGridCalEProductos.Rows[index].Cells["HCalETipoProducto"].Value = tipoProducto;
+                dataGridCalEProductos.Rows[index].Cells["HCalEPrecio"].Value = precio;
+                dataGridCalEProductos.Rows[index].Cells["HCalEActividades"].Value = actividad;
+                dataGridCalEProductos.Rows[index].Cells["HCalECupo"].Value = 0;
+                dataGridCalEProductos.Rows[index].Cells["HCalEInstructor"].Value = instructor;
+                if (radioCalEEvento.Checked || radioCalEPaquete.Checked)
+                {
+                    dataGridCalEProductos.Rows[index].Cells["HCalEDestino"].Value = destino;
+                    dataGridCalEProductos.Rows[index].Cells["HCalEDuracion"].Value = duracion;
+                    dataGridCalEProductos.Rows[index].Cells["HCalEFechaSalida"].Value = DateTime.Today.AddDays(10);
+                    dataGridCalEProductos.Rows[index].Cells["HCalEFechaRegreso"].Value = ((DateTime)dataGridCalEProductos.Rows[index].Cells["HCalEFechaSalida"].Value).AddDays(duracion - 1).ToShortDateString();
+                    dataGridCalEProductos.Rows[index].Cells["HCalEAlojamiento"].Value = alojamiento;
+                    dataGridCalEProductos.Rows[index].Cells["HCalETraslado"].Value = traslado;
+                }
+                if (radioCalECurso.Checked)
+                {
+                    dataGridCalEProductos.Rows[index].Cells["HCalEDias"].Value = dias;
+                    dataGridCalEProductos.Rows[index].Cells["HCalEHoraInicio"].Value = horaInicio;
+                    dataGridCalEProductos.Rows[index].Cells["HCalEHoraFin"].Value = horaFin;
+                    dataGridCalEProductos.Rows[index].Cells["HCalEMes"].Value = System.Globalization.DateTimeFormatInfo.InvariantInfo.MonthNames.Where(m => m.ToString() != mes).FirstOrDefault();
+                }
+            }
+
+        }
+
+        //Al editar un calendario se calcula la fecha de regreso una vez ingresada la fecha de salida
+        private void dataGridCalEProductos_EndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == dataGridCalEProductos.Columns["HCalEFechaSalida"].Index && e.RowIndex >= 0)
+            {
+                Int32 duracion = (Int32)dataGridCalEProductos.Rows[e.RowIndex].Cells["HCalEDuracion"].Value;
+                dataGridCalEProductos.Rows[e.RowIndex].Cells["HCalEFechaRegreso"].Value = ((DateTime)dataGridCalEProductos.Rows[e.RowIndex].Cells["HCalEFechaSalida"].Value).AddDays(duracion - 1).ToShortDateString();
+            }
+        }
+
+        //Al editar un calendario guarda las modificaciones realizas a un curso, evento o producto
+        private void btnCalEGuardar_Click(object sender, EventArgs e)
+        {
+            var checkedRadio = new []{groupCalETipoProducto}
+                                .SelectMany(g=>g.Controls.OfType<RadioButton>()
+                                .Where(r=>r.Checked));
+            String radioNombre = null;
+            foreach (var item in checkedRadio)
+            {
+                radioNombre = item.Text.ToUpper();
+            }
+            if (grillaValidaEditar(GetDataTableFromDGV(dataGridCalEProductos), radioNombre) && dataGridCalEProductos.Rows.Count > 0)
+            {
+                List<Calendario> calendarios = new List<Calendario>();
+                List<Producto> productos = new List<Producto>();
+                String mensaje = null;
+                try
+                {
+                    if (radioCalECurso.Checked)
+                    {
+                        //Agregar cursos a la lista de productos
+                        foreach (DataGridViewRow Datarow in dataGridCalEProductos.Rows)
+                        {
+                            Calendario calendario = new Calendario();
+                            calendario.anio = intInpCalEAnio.Value;
+                            calendario.idCalendario = Int32.Parse(Datarow.Cells["HCalEIdCalendario"].Value.ToString());
+                            calendario.cupo = Int32.Parse(Datarow.Cells["HCalECupo"].Value.ToString());
+                            Producto curso = productoBLL.obtenerProductoPorNombre(Datarow.Cells["HCalENombre"].Value.ToString());
+                            curso.horario.mes = Datarow.Cells["HCalEMes"].Value.ToString();
+                            calendario.producto = curso;
+                            calendario.instructor = instructorBLL.obtenerInstructorPorApellido(Datarow.Cells["HCalEInstructor"].Value.ToString().Split(' ')[0]);
+                            calendario.alojamiento = alojamientoBLL.obtenerAlojamientoPorRazon("NINGUNO");
+                            calendario.traslado = trasladoBLL.obtenerTrasladoPorRazon("NINGUNO");
+
+                            calendarios.Add(calendario);
+                        }
+                    }
+                    if (radioCalEEvento.Checked || radioCalEPaquete.Checked)
+                    {
+                        //Agregar paquetes/eventos a la lista de productos
+                        foreach (DataGridViewRow Datarow in dataGridCalEProductos.Rows)
+                        {
+                            Calendario calendario = new Calendario();
+                            calendario.anio = intInpCalEAnio.Value;
+                            calendario.cupo = Int32.Parse(Datarow.Cells["HCalECupo"].Value.ToString());
+                            calendario.idCalendario = Int32.Parse(Datarow.Cells["HCalEIdCalendario"].Value.ToString());
+                            Producto paqEv = productoBLL.obtenerProductoPorNombre(Datarow.Cells["HCalENombre"].Value.ToString());
+                            paqEv.fechaSalida = DateTime.Parse(Datarow.Cells["HCalEFechaSalida"].Value.ToString());
+                            calendario.producto = paqEv;
+                            String[] nombreInst = Datarow.Cells["HCalEInstructor"].Value.ToString().Split(' ');
+                            String apellidoInst = nombreInst[0];
+                            calendario.instructor = instructorBLL.obtenerInstructorPorApellido(apellidoInst);
+
+                            String[] nombreAloj = Datarow.Cells["HCalEAlojamiento"].Value.ToString().Replace(':', ',').Split(',');
+                            String razonAloj = nombreAloj[1].Trim();
+                            calendario.alojamiento = alojamientoBLL.obtenerAlojamientoPorRazon(razonAloj);
+
+                            String[] nombreTras = Datarow.Cells["HCalETraslado"].Value.ToString().Replace(':', ',').Split(',');
+                            String razonTras = nombreTras[1].Trim();
+                            calendario.traslado = trasladoBLL.obtenerTrasladoPorRazon(razonTras);
+
+                            calendarios.Add(calendario);
+                        }
+                    }
+
+                    DialogResult siNoRes = MessageBox.Show(I18n.obtenerString("Mensaje", "confirmar"), msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    if (siNoRes.Equals(DialogResult.Yes))
+                    {
+                        foreach (Calendario item in calendarios)
+                        {
+                            if (item.idCalendario != 0)
+                            {
+                                //Actualizar
+                                calendarioBLL.actualizarCalendario(item);
+                            }
+                            else
+                            {
+                                //Agregar
+                                calendarioBLL.agregarCalendario(item);
+                            }
+                        }
+                        mensaje = String.Format(I18n.obtenerString("Mensaje", "elementoActualizado"), I18n.obtenerString("InicioDirector", "calendario") + " " + intInpPage1CalAAnio.Value.ToString());
+                        MessageBox.Show(mensaje, msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    } 
+                }
+                catch (Exception ex)
+                {
+                    Bitacora bitacora = new Bitacora(usuarioLogueado.id, rolUsrLogueado.descripcion, DateTime.Now.Date, Constantes.EXCEPCION_BLL_UPD + " Calendario " + intInpCalEAnio.Value.ToString(), ex.ToString());
+                    BitacoraBLL.registrarBitacora(bitacora);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Verifique si hay superposición de horarios de instructores o los cupos no fueron definidos", msjInfo, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                
+            }
+        }
+
+        //Al editar un calendario e intentar guardar los cambios se validan los datos de la grilla
+        private Boolean grillaValidaEditar(DataTable dataTable, String radioNombre)
+        {
+            Boolean esValido = false;
+            int cantidadInicial = dataTable.Rows.Count;
+
+            //if (radioNombre == EnumProducto.CURSO.ToString())
+            //{
+            //    //valida si hay filas repetidas de cursos
+            //    var duplicados = dataTable.AsEnumerable()
+            //             .Select(row => new { nombre = row[0], mes = row[9] })
+            //             .Distinct();
+            //    esValido = (duplicados.ToList().Count == cantidadInicial);
+            //}
+            if (radioNombre == EnumProducto.CURSO.ToString())
+            {
+                //valida superposicion de horarios de instructores para dictar cursos
+                var superposicion = dataTable.AsEnumerable()
+                        .Select(row => new { dias = row[6], horaInicio = row[7], horaFin = row[8], mes = row[9], instructor = row[13] })
+                        .Distinct();
+                esValido = (superposicion.ToList().Count == cantidadInicial);
+            }
+            if (radioNombre == EnumProducto.EVENTO.ToString() || radioNombre == EnumProducto.PAQUETE.ToString())
+            {
+                //valida si hay filas repetidas de paquetes/eventos
+                //var duplicados = dataTable.AsEnumerable()
+                //        .Select(row => new { nombre = row[0], fechaSalida = row[11] })
+                //        .Distinct();
+                //esValido = (duplicados.ToList().Count == cantidadInicial);
+                //valida que la fecha de salida este dentro del año calendario
+                var fechaValida = dataTable.AsEnumerable()
+                        .Select(row => new { fechaSalida = row[11] }).ToList()
+                        .Select(f => DateTime.Parse(f.fechaSalida.ToString())).ToList()
+                        .Where(k => k.Year == intInpPage1CalAAnio.Value).ToList();
+                esValido = (fechaValida.ToList().Count == cantidadInicial);
+            }
+
+            if (radioNombre == EnumProducto.EVENTO.ToString() || radioNombre == EnumProducto.PAQUETE.ToString())
+            {
+                //valida superposicion de fechas de instructores para coordinar paquetes/eventos
+                var superposicion = dataTable.AsEnumerable()
+                                    .Select(row => new { fechaSalida = row[11], fechaRegreso = row[12], instructor = row[13] }).ToList()
+                                    .OrderBy(o => o.fechaSalida);
+                //esValido = !superposicion.Any(a => superposicion
+                //                         .Any(b => b != a && (a.instructor.ToString() == b.instructor.ToString()) 
+                //                                          && !(DateTime.Parse(a.fechaSalida.ToString()) >= DateTime.Parse(b.fechaRegreso.ToString()) 
+                //                                          || DateTime.Parse(b.fechaSalida.ToString()) >= DateTime.Parse(a.fechaRegreso.ToString()))));
+                Boolean aValidar = !superposicion.Any(a => superposicion
+                                         .Any(b => b != a && (a.instructor.ToString() == b.instructor.ToString())
+                                                          && !(DateTime.Parse(a.fechaSalida.ToString()) <= DateTime.Parse(b.fechaSalida.ToString()) && DateTime.Parse(a.fechaRegreso.ToString()) >= DateTime.Parse(b.fechaRegreso.ToString()))
+                                                          || (DateTime.Parse(a.fechaSalida.ToString()) >= DateTime.Parse(b.fechaSalida.ToString()) && DateTime.Parse(a.fechaSalida.ToString()) <= DateTime.Parse(b.fechaRegreso.ToString()) && DateTime.Parse(a.fechaRegreso.ToString()) >= DateTime.Parse(b.fechaRegreso.ToString()))
+                                                          || (DateTime.Parse(a.fechaSalida.ToString()) <= DateTime.Parse(b.fechaSalida.ToString()) && DateTime.Parse(a.fechaRegreso.ToString()) >= DateTime.Parse(b.fechaSalida.ToString()) && DateTime.Parse(a.fechaRegreso.ToString()) <= DateTime.Parse(b.fechaRegreso.ToString()))
+                                                          || (DateTime.Parse(a.fechaSalida.ToString()) == DateTime.Parse(b.fechaSalida.ToString()) && DateTime.Parse(a.fechaRegreso.ToString()) == DateTime.Parse(b.fechaSalida.ToString()))
+                                                          || (DateTime.Parse(a.fechaSalida.ToString()) >= DateTime.Parse(b.fechaSalida.ToString()) && DateTime.Parse(a.fechaRegreso.ToString()) <= DateTime.Parse(b.fechaSalida.ToString()))
+                                                          ));
+                //1        (startDt <= e.StartDt & endDt >= e.EndDt) |
+                //2 (startDt >= e.StartDt & startDt <= e.EndDt & endDt >= e.EndDt) |
+                //3 (startDt <= e.StartDt & endDt >= e.StartDt & endDt <= e.EndDt) |
+                //4 (startDt == e.StartDt & endDt == e.EndDt) | 
+                //5 (startDt >= e.StartDt & endDt <= e.EndDt)
+            }
+            // valida que el cupo de los curos, paquetes y eventos sea mayor a 0
+            var ceroCupos = dataTable.AsEnumerable()
+                .Select(row => new { cupo = row[10] })
+                .Where(r => Int32.Parse(r.cupo.ToString()) == 0);
+            return (esValido && ceroCupos.ToList().Count == 0);
+        }
+
+        
+
+
+
+
+
+
     }
 
 }

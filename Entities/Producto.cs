@@ -19,6 +19,7 @@ namespace Entities
         public String dificultad { set; get; }
         public Int32 duracion { set; get; }
         public Horario horario { set; get; }
+        public DateTime fechaSalida { set; get; }
         public List<String> actividades { set; get; }
     }
 }
