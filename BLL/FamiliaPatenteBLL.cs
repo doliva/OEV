@@ -12,6 +12,11 @@ namespace BLL
 {
     public class FamiliaPatenteBLL : IFamiliaPatenteBLL
     {
+        /// <summary>
+        /// Obtiene una patente a partir de la familia
+        /// </summary>
+        /// <param name="familia">string</param>
+        /// <returns>Patente</returns>
         public Patente obtenerPatente(string familia)
         {
             try
@@ -24,6 +29,11 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene las patentes asociadas a una familia
+        /// </summary>
+        /// <param name="familia">string</param>
+        /// <returns>Lista</returns>
         public List<Patente> obtenerPatentes(string familia)
         {
             try
@@ -36,6 +46,11 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene una familia asociada a una patente
+        /// </summary>
+        /// <param name="patente">string</param>
+        /// <returns>Familia</returns>
         public Familia obtenerFamilia(string patente)
         {
             try

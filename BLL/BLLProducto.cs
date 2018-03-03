@@ -13,6 +13,11 @@ namespace BLL
 {
     public class BLLProducto : IBLLProducto
     {
+        /// <summary>
+        /// Obtiene un producto a partir de su nombre
+        /// </summary>
+        /// <param name="nombre">String</param>
+        /// <returns>Producto</returns>
         public Producto obtenerProductoPorNombre(String nombre)
         {
             try
@@ -25,6 +30,11 @@ namespace BLL
             }  
         }
 
+        /// <summary>
+        /// Obtiene un producto a partir de us identificador
+        /// </summary>
+        /// <param name="idProducto">Int32</param>
+        /// <returns>Producto</returns>
         public Producto obtenerProductoPorId(Int32 idProducto)
         {
             try
@@ -37,6 +47,11 @@ namespace BLL
             } 
         }
 
+        /// <summary>
+        /// Registra un producto en la base de datos
+        /// </summary>
+        /// <param name="producto">Producto</param>
+        /// <returns>Identificador</returns>
         public int agregarProducto(Producto producto)
         {
             try
@@ -51,6 +66,10 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Actualiza un producto
+        /// </summary>
+        /// <param name="producto">Producto</param>
         public void actualizarProducto(Producto producto)
         {
             try
@@ -63,6 +82,10 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene todos los productos de tipo curso
+        /// </summary>
+        /// <returns>Lista</returns>
         public List<Producto> obtenerCursos()
         {
             try
@@ -75,6 +98,10 @@ namespace BLL
             }  
         }
 
+        /// <summary>
+        /// Obtiene todos los productos de tipo evento y paquete
+        /// </summary>
+        /// <returns>Lista</returns>
         public List<Producto> obtenerProductos()
         {
             try

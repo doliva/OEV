@@ -13,6 +13,11 @@ namespace BLL
 {
     public class BLLInstructor : IBLLInstructor
     {
+        /// <summary>
+        /// Registra un instructor en la base de datos
+        /// </summary>
+        /// <param name="inst">Instructor</param>
+        /// <returns>Identificador</returns>
         public Int32 agregarInstructor(Instructor inst)
         {
             try
@@ -28,6 +33,10 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Actualiza un instructor
+        /// </summary>
+        /// <param name="inst">Instructor</param>
         public void actualizarInstructor(Instructor inst)
         {
             try
@@ -41,6 +50,11 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene las especialidades de un instructor a partir de su legajo
+        /// </summary>
+        /// <param name="legajo">Int32</param>
+        /// <returns>Lista</returns>
         public List<Especialidad> obtenerEspecialidadesPorLegajo(Int32 legajo)
         {
             try
@@ -53,6 +67,11 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene un instructor a partir de su DNI
+        /// </summary>
+        /// <param name="dni">String</param>
+        /// <returns>Instructor</returns>
         public Instructor obtenerInstructorPorDni(String dni)
         {
             try
@@ -65,6 +84,11 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene un instructor a partir de su apellido
+        /// </summary>
+        /// <param name="apellido">String</param>
+        /// <returns>Instructor</returns>
         public Instructor obtenerInstructorPorApellido(String apellido)
         {
             try{
@@ -76,6 +100,11 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene los instructores a partir de una especialidad
+        /// </summary>
+        /// <param name="especialidad">String</param>
+        /// <returns>Lista</returns>
         public List<Instructor> obtenerInstructoresPorEspecialidad(String especialidad)
         {
             try
@@ -88,6 +117,11 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene un instructor a partir de su legajo
+        /// </summary>
+        /// <param name="legajo">Int32</param>
+        /// <returns>Instructor</returns>
         public Instructor obtenerInstructorPorLegajo(Int32 legajo)
         {
             try
@@ -100,6 +134,10 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene todos los instructores
+        /// </summary>
+        /// <returns>Lista</returns>
         public List<Instructor> obtenerInstructores()
         {
             try
@@ -112,6 +150,10 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene todas las especialidades
+        /// </summary>
+        /// <returns>Lista</returns>
         public List<Especialidad> obtenerEspecialidades()
         {
             try

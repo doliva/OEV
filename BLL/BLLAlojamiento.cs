@@ -13,6 +13,11 @@ namespace BLL
 {
     public class BLLAlojamiento : IBLLAlojamiento
     {
+        /// <summary>
+        /// Registra un alojamiento en la base de datos
+        /// </summary>
+        /// <param name="alojamiento">Alojamiento</param>
+        /// <returns>Identificador</returns>
         public int agregarAlojamiento(Alojamiento alojamiento)
         {
             try
@@ -25,6 +30,10 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Actualiza un alojamiento
+        /// </summary>
+        /// <param name="alojamiento">Alojamiento</param>
         public void actualizarAlojamiento(Alojamiento alojamiento)
         {
             try
@@ -37,6 +46,11 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene un alojamiento a partir del CUIT
+        /// </summary>
+        /// <param name="cuit">string</param>
+        /// <returns>Alojamiento</returns>
         public Alojamiento obtenerAlojamientoPorCuit(string cuit)
         {
             try
@@ -49,6 +63,11 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene un alojamiento a partir de la Razon social
+        /// </summary>
+        /// <param name="razonSocial">String</param>
+        /// <returns>Alojamiento</returns>
         public Alojamiento obtenerAlojamientoPorRazon(String razonSocial)
         {
             try
@@ -61,6 +80,10 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene todos los alojamientos
+        /// </summary>
+        /// <returns>Lista</returns>
         public List<Alojamiento> obtenerAlojamientos()
         {
             try

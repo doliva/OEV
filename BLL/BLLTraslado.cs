@@ -13,6 +13,11 @@ namespace BLL
 {
     public class BLLTraslado : IBLLTraslado
     {
+        /// <summary>
+        /// Registra un traslado en la base de datos
+        /// </summary>
+        /// <param name="traslado">Traslado</param>
+        /// <returns>Identificador</returns>
         public int agregarTraslado(Traslado traslado)
         {
             try
@@ -25,6 +30,10 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Actualiza un traslado
+        /// </summary>
+        /// <param name="traslado">Traslado</param>
         public void actualizarTraslado(Traslado traslado)
         {
             try
@@ -37,6 +46,11 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene un traslado a partir del CUIT
+        /// </summary>
+        /// <param name="cuit">string</param>
+        /// <returns>Traslado</returns>
         public Traslado obtenerTrasladoPorCuit(string cuit)
         {
             try
@@ -49,6 +63,11 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene un traslado a partir de la Razon social
+        /// </summary>
+        /// <param name="razonSocial">string</param>
+        /// <returns>Traslado</returns>
         public Traslado obtenerTrasladoPorRazon(string razonSocial)
         {
             try
@@ -61,6 +80,10 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene todos los traslados
+        /// </summary>
+        /// <returns>Lista</returns>
         public List<Traslado> obtenerTraslados()
         {
             try

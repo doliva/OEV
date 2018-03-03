@@ -13,6 +13,11 @@ namespace BLL
 {
     public class BLLCalendario : IBLLCalendario
     {
+        /// <summary>
+        /// Registra un calendario en la base de datos
+        /// </summary>
+        /// <param name="calendario">Calendario</param>
+        /// <returns>Identificador</returns>
         public Int32 agregarCalendario(Calendario calendario)
         {
             try
@@ -25,6 +30,10 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Actualiza un calendario
+        /// </summary>
+        /// <param name="calendario">Calendario</param>
         public void actualizarCalendario(Calendario calendario)
         {
             try
@@ -36,7 +45,29 @@ namespace BLL
                 throw new Excepcion(Constantes.EXCEPCION_BLL_UPD + " Calendario " , dalE);
             }
         }
+
+        /// <summary>
+        /// Actualiza el cupo de un calendario
+        /// </summary>
+        /// <param name="idCalendario">Int32</param>
+        /// <param name="cupo">Int32</param>
+        public void actualizarCalendarioCupo(Int32 idCalendario, Int32 cupo)
+        {
+            try
+            {
+                CalendarioDAL.UpdateCupo(idCalendario, cupo);
+            }
+            catch (Excepcion dalE)
+            {
+                throw new Excepcion(Constantes.EXCEPCION_BLL_UPD + " Calendario cupo ", dalE);
+            }
+        }
         
+        /// <summary>
+        /// Verifica la existencia de un calendario
+        /// </summary>
+        /// <param name="anio">Int32</param>
+        /// <returns>Existencia</returns>
         public Boolean existeCalendario(Int32 anio)
         {
             try
@@ -49,6 +80,11 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene todos los calendarios
+        /// </summary>
+        /// <param name="anio">Int32</param>
+        /// <returns>Lista</returns>
         public List<Calendario> obtenerCalendarios(Int32 anio)
         {
             try
@@ -61,6 +97,11 @@ namespace BLL
             }
         }
 
+        /// <summary>
+        /// Obtiene un calendario
+        /// </summary>
+        /// <param name="cal">Calendario</param>
+        /// <returns>Calendario</returns>
         public Calendario obtenerCalendario(Calendario cal)
         {
             try
@@ -70,6 +111,23 @@ namespace BLL
             catch (Excepcion dalE)
             {
                 throw new Excepcion(Constantes.EXCEPCION_BLL_SEL + " Calendario ", dalE);
+            }
+        }
+
+        /// <summary>
+        /// Obtiene un calendario a partir de su identificador
+        /// </summary>
+        /// <param name="idCalendario">Int32</param>
+        /// <returns>Calendario</returns>
+        public Calendario obtenerCalendarioPorId(Int32 idCalendario)
+        {
+            try
+            {
+                return CalendarioDAL.GetCalendarioById(idCalendario);
+            }
+            catch (Excepcion dalE)
+            {
+                throw new Excepcion(Constantes.EXCEPCION_BLL_SEL + " Calendario por Id ", dalE);
             }
         }
     }
