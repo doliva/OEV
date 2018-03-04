@@ -16,6 +16,11 @@ namespace DAL
     {
         static string connectionString = ConfigurationManager.ConnectionStrings["OEVbdConnectionString"].ConnectionString;
 
+        /// <summary>
+        /// Registra un calendario en la base de datos
+        /// </summary>
+        /// <param name="calendario">Calendario</param>
+        /// <returns>Identificador</returns>
         public static Int32 InsertCalendario(Calendario calendario)
         {
             SqlConnection conn = new SqlConnection(connectionString);
@@ -52,9 +57,12 @@ namespace DAL
                 {
                     conn.Close();
                 }
-
         }
 
+        /// <summary>
+        /// Actualiza un calendario
+        /// </summary>
+        /// <param name="calendario">Calendario</param>
         public static void Update(Calendario calendario)
         {
             SqlConnection conn = new SqlConnection(connectionString);
@@ -88,6 +96,10 @@ namespace DAL
             }
         }
 
+        /// <summary>
+        /// Actualiza el horario para un curso
+        /// </summary>
+        /// <param name="producto">Producto</param>
         public static void UpdateHorario(Producto producto)
         {
             SqlConnection conn = new SqlConnection(connectionString);
@@ -112,9 +124,44 @@ namespace DAL
             {
                 conn.Close();
             }
-
         }
-    
+
+        /// <summary>
+        /// Actualiza el cupo de un calendario
+        /// </summary>
+        /// <param name="idCalendario">Int32</param>
+        /// <param name="cupo">Int32</param>
+        public static void UpdateCupo(Int32 idCalendario, Int32 cupo)
+        {
+            SqlConnection conn = new SqlConnection(connectionString);
+            StringBuilder queryBuilder = new StringBuilder();
+            queryBuilder.Append("UPDATE CALENDARIO SET CUPO=@cupo ");
+            queryBuilder.Append("WHERE ID_CALENDARIO = @idCalendario");
+            SqlCommand cmd = new SqlCommand(queryBuilder.ToString(), conn);
+            cmd.Parameters.Add("@idCalendario", SqlDbType.Int).Value = idCalendario;
+            cmd.Parameters.Add("@cupo", SqlDbType.Int).Value = cupo;
+            
+            cmd.CommandType = CommandType.Text;
+            conn.Open();
+            try
+            {
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw new Excepcion(Constantes.EXCEPCION_DAL_UPD + " cupo calendario " + idCalendario, ex);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        /// <summary>
+        /// Obtiene un calendario a partir de un año
+        /// </summary>
+        /// <param name="anio">Int32</param>
+        /// <returns>Calendario</returns>
         public static Calendario GetCalendarioByAnio(Int32 anio)
         {
             SqlConnection conn = new SqlConnection(connectionString);
@@ -149,6 +196,11 @@ namespace DAL
             }
         }
 
+        /// <summary>
+        /// Obtiene un calendario
+        /// </summary>
+        /// <param name="calendario">Calendario</param>
+        /// <returns>Calendario</returns>
         public static Calendario GetCalendario(Calendario calendario)
         {
             SqlConnection conn = new SqlConnection(connectionString);
@@ -205,6 +257,67 @@ namespace DAL
             }
         }
 
+        /// <summary>
+        /// Obtiene un calendario a partir de su identificador
+        /// </summary>
+        /// <param name="idCalendario">Int32</param>
+        /// <returns>Calendario</returns>
+        public static Calendario GetCalendarioById(Int32 idCalendario)
+        {
+            SqlConnection conn = new SqlConnection(connectionString);
+            StringBuilder queryBuilder = new StringBuilder();
+            queryBuilder.Append(" select * ");
+            queryBuilder.Append(" from [BD_OEV_C].[dbo].[Calendario] ");
+            queryBuilder.Append(" where id_calendario=@idCalendario ");
+            SqlCommand cmd = new SqlCommand(queryBuilder.ToString(), conn);
+            cmd.Parameters.Add("@idCalendario", SqlDbType.Int).Value = idCalendario;
+
+            cmd.CommandType = CommandType.Text;
+            SqlDataReader reader;
+            conn.Open();
+            Calendario cal = null;
+            try
+            {
+                reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    cal = new Calendario();
+                    cal.idCalendario = Int32.Parse(reader["id_calendario"].ToString());
+                    Alojamiento aloj = new Alojamiento();
+                    aloj.id = Int32.Parse(reader["id_alojamiento"].ToString());
+                    cal.alojamiento = aloj;
+                    cal.anio = Int32.Parse(reader["anio"].ToString());
+                    cal.cupo = Int32.Parse(reader["cupo"].ToString());
+                    cal.idCalendario = Int32.Parse(reader["id_calendario"].ToString());
+                    Instructor inst = new Instructor();
+                    inst.legajo = Int32.Parse(reader["legajo"].ToString());
+                    cal.instructor = inst;
+                    Producto prod = new Producto();
+                    prod.idProducto = Int32.Parse(reader["id_producto"].ToString());
+                    prod.fechaSalida = DateTime.Parse(reader["fecha_salida"].ToString());
+                    cal.producto = prod;
+                    Traslado tras = new Traslado();
+                    tras.id = Int32.Parse(reader["id_traslado"].ToString());
+                    cal.traslado = tras;
+
+                }
+                return cal;
+            }
+            catch (Exception ex)
+            {
+                throw new Excepcion(Constantes.EXCEPCION_DAL_SEL + " calendario  ", ex);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+        
+        /// <summary>
+        /// Obtiene los calendarios de un año
+        /// </summary>
+        /// <param name="anio">Int32</param>
+        /// <returns>Lista</returns>
         public static List<Calendario> GetAll(Int32 anio)
         {
             SqlConnection conn = new SqlConnection(connectionString);
