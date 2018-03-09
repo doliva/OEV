@@ -990,9 +990,10 @@ namespace OEVApp
                         DialogResult siNoRes = MessageBox.Show(confirmar, msjConfirmar, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                         if (siNoRes.Equals(DialogResult.Yes))
                         {
+                            codRolM = this.comboBoxRolM.SelectedValue.ToString().Trim();
                             Rol nuevoRol = rolBLL.obtenerRolPorId(rolBLL.obtenerRolPorDesc(codRolM).id);
                             Usuario viejoUsr = usuarioBLL.obtenerUsuarioPorId(usuario.id);
-                            Rol viejoRol = rolBLL.obtenerRolPorDesc(usuarioBLL.obtnerRolPorIdUsuario(viejoUsr.id));
+                            Rol viejoRol = rolBLL.obtenerRolPorId(Int32.Parse(usuarioBLL.obtnerRolPorIdUsuario(viejoUsr.id)));
                             if (nuevoRol.id != viejoRol.id)
                             {
                                 //Asocia al usuario con el nuevo rol seleccionado
@@ -1012,7 +1013,7 @@ namespace OEVApp
 
         private void comboRolM_SelectionChangeCommited(object sender, EventArgs e)
         {
-           codRolM = this.comboBoxRolM.SelectedValue.ToString();
+           codRolM = this.comboBoxRolM.SelectedValue.ToString().Trim();
         }
 
         private void tabItemAgregar_Click(object sender, EventArgs e)
@@ -1145,7 +1146,8 @@ namespace OEVApp
                     gridConsultaUsuario.Rows[i].Cells["hCiudad"].Value = usrList[i].ciudad;
                     gridConsultaUsuario.Rows[i].Cells["hTelefono"].Value = usrList[i].telefono;
                     gridConsultaUsuario.Rows[i].Cells["hEmail"].Value = usrList[i].email;
-                    gridConsultaUsuario.Rows[i].Cells["hRol"].Value = usuarioBLL.obtnerRolPorIdUsuario(usrList[i].id);
+                    gridConsultaUsuario.Rows[i].Cells["hRol"].Value = rolBLL.obtenerRolPorId(Int32.Parse(usuarioBLL.obtnerRolPorIdUsuario(usrList[i].id))).descripcion;
+                    
                     gridConsultaUsuario.Rows[i].Cells["hEstado"].Value = usrList[i].estado;
                     gridConsultaUsuario.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.DisplayedCells);
                 }

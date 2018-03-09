@@ -28,37 +28,7 @@ namespace OEVApp
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle58 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle57 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle68 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle59 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle60 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle74 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle61 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle62 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle63 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -66,17 +36,17 @@ namespace OEVApp
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle65 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle66 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle67 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle78 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle68 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle69 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle70 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle71 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle72 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle73 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle74 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle90 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle75 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle76 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle77 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle90 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle78 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle79 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle80 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle81 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -88,7 +58,8 @@ namespace OEVApp
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle87 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle88 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle89 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Director));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -97,19 +68,18 @@ namespace OEVApp
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Director));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -117,8 +87,38 @@ namespace OEVApp
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle60 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle57 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle58 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle59 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle91 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle98 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle92 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -159,6 +159,160 @@ namespace OEVApp
             this.lblUsuarioLogueado = new DevComponents.DotNetBar.LabelX();
             this.btnLogout = new DevComponents.DotNetBar.ButtonX();
             this.superTabControlDir = new DevComponents.DotNetBar.SuperTabControl();
+            this.superTabControlPanel4 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.txtAPDuracionE = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.lblAPDuracionE = new DevComponents.DotNetBar.LabelX();
+            this.txtAPDestinoE = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.lblAPDestinoE = new DevComponents.DotNetBar.LabelX();
+            this.txtAPActividadE = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.lblAPActividadE = new DevComponents.DotNetBar.LabelX();
+            this.chkAPEstadoE = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.labelX1 = new DevComponents.DotNetBar.LabelX();
+            this.txtAPDificultadE = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.lblAPIdE = new DevComponents.DotNetBar.LabelX();
+            this.doubleInAPPrecioE = new DevComponents.Editors.DoubleInput();
+            this.comboAPNombreE = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.lblAPNombreE = new DevComponents.DotNetBar.LabelX();
+            this.groupAPModalidadE = new System.Windows.Forms.GroupBox();
+            this.radioAPPaqueteE = new System.Windows.Forms.RadioButton();
+            this.radioAPEventoE = new System.Windows.Forms.RadioButton();
+            this.lblAPPrecioE = new DevComponents.DotNetBar.LabelX();
+            this.btnAPGuardarE = new DevComponents.DotNetBar.ButtonX();
+            this.lblAPItinerarioE = new DevComponents.DotNetBar.LabelX();
+            this.richTxtAPItinerarioE = new DevComponents.DotNetBar.Controls.RichTextBoxEx();
+            this.lblAPDificultadE = new DevComponents.DotNetBar.LabelX();
+            this.tabItemAPEditar = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel3 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.lblACIdE = new DevComponents.DotNetBar.LabelX();
+            this.txtACDificultadE = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.chkACEstadoE = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.lblACEstadoE = new DevComponents.DotNetBar.LabelX();
+            this.txtACActividadE = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.lblACActvidadE = new DevComponents.DotNetBar.LabelX();
+            this.doubleInACPrecioE = new DevComponents.Editors.DoubleInput();
+            this.comboACNombreE = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.btnACGuardarE = new DevComponents.DotNetBar.ButtonX();
+            this.lblACCursoE = new DevComponents.DotNetBar.LabelX();
+            this.lblACNombreE = new DevComponents.DotNetBar.LabelX();
+            this.lblACDescE = new DevComponents.DotNetBar.LabelX();
+            this.richTxtACDescE = new DevComponents.DotNetBar.Controls.RichTextBoxEx();
+            this.groupBoxACDiasE = new System.Windows.Forms.GroupBox();
+            this.checkACVieE = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.checkACJueE = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.checkACMieE = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.checkACMarE = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.checkACLunE = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.dTInputACHoraInicioE = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
+            this.dTInputACHoraFinE = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
+            this.lblACHoraIniE = new DevComponents.DotNetBar.LabelX();
+            this.lblACHoraFinE = new DevComponents.DotNetBar.LabelX();
+            this.lblACDificultadE = new DevComponents.DotNetBar.LabelX();
+            this.lblACPrecioE = new DevComponents.DotNetBar.LabelX();
+            this.tabItemACEditar = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel2 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.intInputAPDuracionA = new DevComponents.Editors.IntegerInput();
+            this.lblAPDuracionA = new DevComponents.DotNetBar.LabelX();
+            this.groupAPDestinoA = new System.Windows.Forms.GroupBox();
+            this.checkedListAPDestinoA = new System.Windows.Forms.CheckedListBox();
+            this.btnAPNombreA = new DevComponents.DotNetBar.ButtonX();
+            this.doubleInAPPrecioA = new DevComponents.Editors.DoubleInput();
+            this.groupAPActividadA = new System.Windows.Forms.GroupBox();
+            this.checkedListAPActividadA = new System.Windows.Forms.CheckedListBox();
+            this.groupAPModalidadA = new System.Windows.Forms.GroupBox();
+            this.radioAPPaqueteA = new System.Windows.Forms.RadioButton();
+            this.radioAPEventoA = new System.Windows.Forms.RadioButton();
+            this.lblAPPrecioA = new DevComponents.DotNetBar.LabelX();
+            this.btnAPGuardarA = new DevComponents.DotNetBar.ButtonX();
+            this.comboAPDificultadA = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.lblAPDificultadA = new DevComponents.DotNetBar.LabelX();
+            this.richTxtAPItinerarioA = new DevComponents.DotNetBar.Controls.RichTextBoxEx();
+            this.lblAPItinerarioA = new DevComponents.DotNetBar.LabelX();
+            this.txtAPNombreA = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.tabItemAPAgregar = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel1 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.btnACNombreA = new DevComponents.DotNetBar.ButtonX();
+            this.doubleInACPrecioA = new DevComponents.Editors.DoubleInput();
+            this.groupACEntrenA = new System.Windows.Forms.GroupBox();
+            this.radioACGpsA = new System.Windows.Forms.RadioButton();
+            this.radioACAuxA = new System.Windows.Forms.RadioButton();
+            this.radioACBikeA = new System.Windows.Forms.RadioButton();
+            this.radioACTrekA = new System.Windows.Forms.RadioButton();
+            this.radioACRunA = new System.Windows.Forms.RadioButton();
+            this.radioACMontA = new System.Windows.Forms.RadioButton();
+            this.btnACGuardarA = new DevComponents.DotNetBar.ButtonX();
+            this.lblACPrecioA = new DevComponents.DotNetBar.LabelX();
+            this.lblACCursoA = new DevComponents.DotNetBar.LabelX();
+            this.comboACDificultadA = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.lblACDificultadA = new DevComponents.DotNetBar.LabelX();
+            this.groupBoxACDiasA = new System.Windows.Forms.GroupBox();
+            this.checkACVieA = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.checkACJueA = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.dTInputACHoraFinA = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
+            this.checkACMieA = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.lblACHoraFinA = new DevComponents.DotNetBar.LabelX();
+            this.checkACMarA = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.lblACHoraIniA = new DevComponents.DotNetBar.LabelX();
+            this.checkACLunA = new DevComponents.DotNetBar.Controls.CheckBoxX();
+            this.dTInputACHoraInicioA = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
+            this.richTxtACDescA = new DevComponents.DotNetBar.Controls.RichTextBoxEx();
+            this.lblACDescA = new DevComponents.DotNetBar.LabelX();
+            this.txtACNombreA = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.tabItemACAgregar = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel15 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.btnCalEGuardar = new DevComponents.DotNetBar.ButtonX();
+            this.intInpCalEAnio = new DevComponents.Editors.IntegerInput();
+            this.lblCalEAnio = new DevComponents.DotNetBar.LabelX();
+            this.groupCalETipoProducto = new System.Windows.Forms.GroupBox();
+            this.radioCalEPaquete = new System.Windows.Forms.RadioButton();
+            this.radioCalECurso = new System.Windows.Forms.RadioButton();
+            this.radioCalEEvento = new System.Windows.Forms.RadioButton();
+            this.dataGridCalEProductos = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.HCalENombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalETipoProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalEDestino = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalEPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalEDuracion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalEActividades = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalEDias = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalEHoraInicio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalEHoraFin = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalEMes = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.HCalECupo = new DevComponents.DotNetBar.Controls.DataGridViewIntegerInputColumn();
+            this.HCalEFechaSalida = new DevComponents.DotNetBar.Controls.DataGridViewDateTimeInputColumn();
+            this.HCalEFechaRegreso = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalEInstructor = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.HCalEAlojamiento = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.HCalETraslado = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.HCalEAgregar = new DevComponents.DotNetBar.Controls.DataGridViewButtonXColumn();
+            this.HCalEIdCalendario = new DevComponents.DotNetBar.Controls.DataGridViewIntegerInputColumn();
+            this.btnCalEBuscar = new DevComponents.DotNetBar.ButtonX();
+            this.tabItemACalEditar = new DevComponents.DotNetBar.SuperTabItem();
+            this.superTabControlPanel14 = new DevComponents.DotNetBar.SuperTabControlPanel();
+            this.intInpCalCAnio = new DevComponents.Editors.IntegerInput();
+            this.lblCalCAnio = new DevComponents.DotNetBar.LabelX();
+            this.dataGridCalCProductos = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.HCalCNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalCTipoProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalCDestino = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalCPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalCDuracion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalCActividades = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalCCupo = new DevComponents.DotNetBar.Controls.DataGridViewIntegerInputColumn();
+            this.HCalCMes = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalCDias = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalCHoraInicio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalCHoraFin = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalCFechaSalida = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalCFechaRegreso = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalCInstructor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalCAlojamiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HCalCTraslado = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnCalCBuscar = new DevComponents.DotNetBar.ButtonX();
+            this.groupCalCTipoProducto = new System.Windows.Forms.GroupBox();
+            this.radioCalCCurso = new System.Windows.Forms.RadioButton();
+            this.radioCalCPaquete = new System.Windows.Forms.RadioButton();
+            this.radioCalCEvento = new System.Windows.Forms.RadioButton();
+            this.tabItemACalConsultar = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel13 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.WizPage1CalA = new DevComponents.DotNetBar.Wizard();
             this.WizPage0CalA = new DevComponents.DotNetBar.WizardPage();
@@ -247,90 +401,6 @@ namespace OEVApp
             this.lblPage6CalAPaqEvInstAlojTras = new DevComponents.DotNetBar.LabelX();
             this.lblPage6CalACarga = new DevComponents.DotNetBar.LabelX();
             this.tabItemACalAgregar = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel15 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.btnCalEGuardar = new DevComponents.DotNetBar.ButtonX();
-            this.intInpCalEAnio = new DevComponents.Editors.IntegerInput();
-            this.lblCalEAnio = new DevComponents.DotNetBar.LabelX();
-            this.groupCalETipoProducto = new System.Windows.Forms.GroupBox();
-            this.radioCalEPaquete = new System.Windows.Forms.RadioButton();
-            this.radioCalECurso = new System.Windows.Forms.RadioButton();
-            this.radioCalEEvento = new System.Windows.Forms.RadioButton();
-            this.dataGridCalEProductos = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.HCalENombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalETipoProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalEDestino = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalEPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalEDuracion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalEActividades = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalEDias = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalEHoraInicio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalEHoraFin = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalEMes = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.HCalECupo = new DevComponents.DotNetBar.Controls.DataGridViewIntegerInputColumn();
-            this.HCalEFechaSalida = new DevComponents.DotNetBar.Controls.DataGridViewDateTimeInputColumn();
-            this.HCalEFechaRegreso = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalEInstructor = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.HCalEAlojamiento = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.HCalETraslado = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.HCalEAgregar = new DevComponents.DotNetBar.Controls.DataGridViewButtonXColumn();
-            this.HCalEIdCalendario = new DevComponents.DotNetBar.Controls.DataGridViewIntegerInputColumn();
-            this.btnCalEBuscar = new DevComponents.DotNetBar.ButtonX();
-            this.tabItemACalEditar = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel14 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.intInpCalCAnio = new DevComponents.Editors.IntegerInput();
-            this.lblCalCAnio = new DevComponents.DotNetBar.LabelX();
-            this.dataGridCalCProductos = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.HCalCNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalCTipoProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalCDestino = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalCPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalCDuracion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalCActividades = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalCCupo = new DevComponents.DotNetBar.Controls.DataGridViewIntegerInputColumn();
-            this.HCalCMes = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalCDias = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalCHoraInicio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalCHoraFin = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalCFechaSalida = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalCFechaRegreso = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalCInstructor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalCAlojamiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HCalCTraslado = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnCalCBuscar = new DevComponents.DotNetBar.ButtonX();
-            this.groupCalCTipoProducto = new System.Windows.Forms.GroupBox();
-            this.radioCalCCurso = new System.Windows.Forms.RadioButton();
-            this.radioCalCPaquete = new System.Windows.Forms.RadioButton();
-            this.radioCalCEvento = new System.Windows.Forms.RadioButton();
-            this.tabItemACalConsultar = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel1 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.btnACNombreA = new DevComponents.DotNetBar.ButtonX();
-            this.doubleInACPrecioA = new DevComponents.Editors.DoubleInput();
-            this.groupACEntrenA = new System.Windows.Forms.GroupBox();
-            this.radioACGpsA = new System.Windows.Forms.RadioButton();
-            this.radioACAuxA = new System.Windows.Forms.RadioButton();
-            this.radioACBikeA = new System.Windows.Forms.RadioButton();
-            this.radioACTrekA = new System.Windows.Forms.RadioButton();
-            this.radioACRunA = new System.Windows.Forms.RadioButton();
-            this.radioACMontA = new System.Windows.Forms.RadioButton();
-            this.btnACGuardarA = new DevComponents.DotNetBar.ButtonX();
-            this.lblACPrecioA = new DevComponents.DotNetBar.LabelX();
-            this.lblACCursoA = new DevComponents.DotNetBar.LabelX();
-            this.comboACDificultadA = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.lblACDificultadA = new DevComponents.DotNetBar.LabelX();
-            this.groupBoxACDiasA = new System.Windows.Forms.GroupBox();
-            this.checkACVieA = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.checkACJueA = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.dTInputACHoraFinA = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
-            this.checkACMieA = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.lblACHoraFinA = new DevComponents.DotNetBar.LabelX();
-            this.checkACMarA = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.lblACHoraIniA = new DevComponents.DotNetBar.LabelX();
-            this.checkACLunA = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.dTInputACHoraInicioA = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
-            this.richTxtACDescA = new DevComponents.DotNetBar.Controls.RichTextBoxEx();
-            this.lblACDescA = new DevComponents.DotNetBar.LabelX();
-            this.txtACNombreA = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.tabItemACAgregar = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel10 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.radioGroupInstCons = new System.Windows.Forms.GroupBox();
             this.radioInstConsEspecialidad = new System.Windows.Forms.RadioButton();
@@ -401,76 +471,6 @@ namespace OEVApp
             this.comboAPDificultadC = new DevComponents.DotNetBar.Controls.ComboBoxEx();
             this.lblAPDificultadC = new DevComponents.DotNetBar.LabelX();
             this.tabItemAPConsultar = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel4 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.txtAPDuracionE = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.lblAPDuracionE = new DevComponents.DotNetBar.LabelX();
-            this.txtAPDestinoE = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.lblAPDestinoE = new DevComponents.DotNetBar.LabelX();
-            this.txtAPActividadE = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.lblAPActividadE = new DevComponents.DotNetBar.LabelX();
-            this.chkAPEstadoE = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.labelX1 = new DevComponents.DotNetBar.LabelX();
-            this.txtAPDificultadE = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.lblAPIdE = new DevComponents.DotNetBar.LabelX();
-            this.doubleInAPPrecioE = new DevComponents.Editors.DoubleInput();
-            this.comboAPNombreE = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.lblAPNombreE = new DevComponents.DotNetBar.LabelX();
-            this.groupAPModalidadE = new System.Windows.Forms.GroupBox();
-            this.radioAPPaqueteE = new System.Windows.Forms.RadioButton();
-            this.radioAPEventoE = new System.Windows.Forms.RadioButton();
-            this.lblAPPrecioE = new DevComponents.DotNetBar.LabelX();
-            this.btnAPGuardarE = new DevComponents.DotNetBar.ButtonX();
-            this.lblAPItinerarioE = new DevComponents.DotNetBar.LabelX();
-            this.richTxtAPItinerarioE = new DevComponents.DotNetBar.Controls.RichTextBoxEx();
-            this.lblAPDificultadE = new DevComponents.DotNetBar.LabelX();
-            this.tabItemAPEditar = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel3 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.lblACIdE = new DevComponents.DotNetBar.LabelX();
-            this.txtACDificultadE = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.chkACEstadoE = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.lblACEstadoE = new DevComponents.DotNetBar.LabelX();
-            this.txtACActividadE = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.lblACActvidadE = new DevComponents.DotNetBar.LabelX();
-            this.doubleInACPrecioE = new DevComponents.Editors.DoubleInput();
-            this.comboACNombreE = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.btnACGuardarE = new DevComponents.DotNetBar.ButtonX();
-            this.lblACCursoE = new DevComponents.DotNetBar.LabelX();
-            this.lblACNombreE = new DevComponents.DotNetBar.LabelX();
-            this.lblACDescE = new DevComponents.DotNetBar.LabelX();
-            this.richTxtACDescE = new DevComponents.DotNetBar.Controls.RichTextBoxEx();
-            this.groupBoxACDiasE = new System.Windows.Forms.GroupBox();
-            this.checkACVieE = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.checkACJueE = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.checkACMieE = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.checkACMarE = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.checkACLunE = new DevComponents.DotNetBar.Controls.CheckBoxX();
-            this.dTInputACHoraInicioE = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
-            this.dTInputACHoraFinE = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
-            this.lblACHoraIniE = new DevComponents.DotNetBar.LabelX();
-            this.lblACHoraFinE = new DevComponents.DotNetBar.LabelX();
-            this.lblACDificultadE = new DevComponents.DotNetBar.LabelX();
-            this.lblACPrecioE = new DevComponents.DotNetBar.LabelX();
-            this.tabItemACEditar = new DevComponents.DotNetBar.SuperTabItem();
-            this.superTabControlPanel2 = new DevComponents.DotNetBar.SuperTabControlPanel();
-            this.intInputAPDuracionA = new DevComponents.Editors.IntegerInput();
-            this.lblAPDuracionA = new DevComponents.DotNetBar.LabelX();
-            this.groupAPDestinoA = new System.Windows.Forms.GroupBox();
-            this.checkedListAPDestinoA = new System.Windows.Forms.CheckedListBox();
-            this.btnAPNombreA = new DevComponents.DotNetBar.ButtonX();
-            this.doubleInAPPrecioA = new DevComponents.Editors.DoubleInput();
-            this.groupAPActividadA = new System.Windows.Forms.GroupBox();
-            this.checkedListAPActividadA = new System.Windows.Forms.CheckedListBox();
-            this.groupAPModalidadA = new System.Windows.Forms.GroupBox();
-            this.radioAPPaqueteA = new System.Windows.Forms.RadioButton();
-            this.radioAPEventoA = new System.Windows.Forms.RadioButton();
-            this.lblAPPrecioA = new DevComponents.DotNetBar.LabelX();
-            this.btnAPGuardarA = new DevComponents.DotNetBar.ButtonX();
-            this.comboAPDificultadA = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.lblAPDificultadA = new DevComponents.DotNetBar.LabelX();
-            this.richTxtAPItinerarioA = new DevComponents.DotNetBar.Controls.RichTextBoxEx();
-            this.lblAPItinerarioA = new DevComponents.DotNetBar.LabelX();
-            this.txtAPNombreA = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.tabItemAPAgregar = new DevComponents.DotNetBar.SuperTabItem();
             this.superTabControlPanel7 = new DevComponents.DotNetBar.SuperTabControlPanel();
             this.integerInProvAgrCap = new DevComponents.Editors.IntegerInput();
             this.lblProvAgrCapacidad = new DevComponents.DotNetBar.LabelX();
@@ -599,6 +599,34 @@ namespace OEVApp
             this.superTabItem1 = new DevComponents.DotNetBar.SuperTabItem();
             ((System.ComponentModel.ISupportInitialize)(this.superTabControlDir)).BeginInit();
             this.superTabControlDir.SuspendLayout();
+            this.superTabControlPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.doubleInAPPrecioE)).BeginInit();
+            this.groupAPModalidadE.SuspendLayout();
+            this.superTabControlPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.doubleInACPrecioE)).BeginInit();
+            this.groupBoxACDiasE.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraInicioE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraFinE)).BeginInit();
+            this.superTabControlPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.intInputAPDuracionA)).BeginInit();
+            this.groupAPDestinoA.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.doubleInAPPrecioA)).BeginInit();
+            this.groupAPActividadA.SuspendLayout();
+            this.groupAPModalidadA.SuspendLayout();
+            this.superTabControlPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.doubleInACPrecioA)).BeginInit();
+            this.groupACEntrenA.SuspendLayout();
+            this.groupBoxACDiasA.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraFinA)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraInicioA)).BeginInit();
+            this.superTabControlPanel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.intInpCalEAnio)).BeginInit();
+            this.groupCalETipoProducto.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridCalEProductos)).BeginInit();
+            this.superTabControlPanel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.intInpCalCAnio)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridCalCProductos)).BeginInit();
+            this.groupCalCTipoProducto.SuspendLayout();
             this.superTabControlPanel13.SuspendLayout();
             this.WizPage1CalA.SuspendLayout();
             this.WizPage0CalA.SuspendLayout();
@@ -615,20 +643,6 @@ namespace OEVApp
             ((System.ComponentModel.ISupportInitialize)(this.gridPage5CalAInstPaqEvAloj)).BeginInit();
             this.WizPage6CalACurInstAlojTras.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridPage6CalAInstPaqEvAlojTras)).BeginInit();
-            this.superTabControlPanel15.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.intInpCalEAnio)).BeginInit();
-            this.groupCalETipoProducto.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridCalEProductos)).BeginInit();
-            this.superTabControlPanel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.intInpCalCAnio)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridCalCProductos)).BeginInit();
-            this.groupCalCTipoProducto.SuspendLayout();
-            this.superTabControlPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.doubleInACPrecioA)).BeginInit();
-            this.groupACEntrenA.SuspendLayout();
-            this.groupBoxACDiasA.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraFinA)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraInicioA)).BeginInit();
             this.superTabControlPanel10.SuspendLayout();
             this.radioGroupInstCons.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridInstCons)).BeginInit();
@@ -643,20 +657,6 @@ namespace OEVApp
             ((System.ComponentModel.ISupportInitialize)(this.doubleAPPrecioHastaC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.doubleAPPrecioDesdeC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewAPC)).BeginInit();
-            this.superTabControlPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.doubleInAPPrecioE)).BeginInit();
-            this.groupAPModalidadE.SuspendLayout();
-            this.superTabControlPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.doubleInACPrecioE)).BeginInit();
-            this.groupBoxACDiasE.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraInicioE)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraFinE)).BeginInit();
-            this.superTabControlPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.intInputAPDuracionA)).BeginInit();
-            this.groupAPDestinoA.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.doubleInAPPrecioA)).BeginInit();
-            this.groupAPActividadA.SuspendLayout();
-            this.groupAPModalidadA.SuspendLayout();
             this.superTabControlPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.integerInProvAgrCap)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.doubleInProvAgrTarifa)).BeginInit();
@@ -1124,13 +1124,13 @@ namespace OEVApp
             this.superTabControlDir.ControlBox.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.superTabControlDir.ControlBox.MenuBox,
             this.superTabControlDir.ControlBox.CloseBox});
+            this.superTabControlDir.Controls.Add(this.superTabControlPanel13);
             this.superTabControlDir.Controls.Add(this.superTabControlPanel4);
             this.superTabControlDir.Controls.Add(this.superTabControlPanel3);
             this.superTabControlDir.Controls.Add(this.superTabControlPanel2);
             this.superTabControlDir.Controls.Add(this.superTabControlPanel1);
             this.superTabControlDir.Controls.Add(this.superTabControlPanel15);
             this.superTabControlDir.Controls.Add(this.superTabControlPanel14);
-            this.superTabControlDir.Controls.Add(this.superTabControlPanel13);
             this.superTabControlDir.Controls.Add(this.superTabControlPanel10);
             this.superTabControlDir.Controls.Add(this.superTabControlPanel5);
             this.superTabControlDir.Controls.Add(this.superTabControlPanel6);
@@ -1167,2122 +1167,1051 @@ namespace OEVApp
             this.superTabControlDir.Text = "superTabControl1";
             this.superTabControlDir.Visible = false;
             // 
-            // superTabControlPanel13
+            // superTabControlPanel4
             // 
-            this.superTabControlPanel13.Controls.Add(this.WizPage1CalA);
-            this.superTabControlPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel13.Location = new System.Drawing.Point(0, 38);
-            this.superTabControlPanel13.Name = "superTabControlPanel13";
-            this.superTabControlPanel13.Size = new System.Drawing.Size(819, 430);
-            this.superTabControlPanel13.TabIndex = 0;
-            this.superTabControlPanel13.TabItem = this.tabItemACalAgregar;
+            this.superTabControlPanel4.Controls.Add(this.txtAPDuracionE);
+            this.superTabControlPanel4.Controls.Add(this.lblAPDuracionE);
+            this.superTabControlPanel4.Controls.Add(this.txtAPDestinoE);
+            this.superTabControlPanel4.Controls.Add(this.lblAPDestinoE);
+            this.superTabControlPanel4.Controls.Add(this.txtAPActividadE);
+            this.superTabControlPanel4.Controls.Add(this.lblAPActividadE);
+            this.superTabControlPanel4.Controls.Add(this.chkAPEstadoE);
+            this.superTabControlPanel4.Controls.Add(this.labelX1);
+            this.superTabControlPanel4.Controls.Add(this.txtAPDificultadE);
+            this.superTabControlPanel4.Controls.Add(this.lblAPIdE);
+            this.superTabControlPanel4.Controls.Add(this.doubleInAPPrecioE);
+            this.superTabControlPanel4.Controls.Add(this.comboAPNombreE);
+            this.superTabControlPanel4.Controls.Add(this.lblAPNombreE);
+            this.superTabControlPanel4.Controls.Add(this.groupAPModalidadE);
+            this.superTabControlPanel4.Controls.Add(this.lblAPPrecioE);
+            this.superTabControlPanel4.Controls.Add(this.btnAPGuardarE);
+            this.superTabControlPanel4.Controls.Add(this.lblAPItinerarioE);
+            this.superTabControlPanel4.Controls.Add(this.richTxtAPItinerarioE);
+            this.superTabControlPanel4.Controls.Add(this.lblAPDificultadE);
+            this.superTabControlPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel4.Location = new System.Drawing.Point(0, 0);
+            this.superTabControlPanel4.Name = "superTabControlPanel4";
+            this.superTabControlPanel4.Size = new System.Drawing.Size(819, 468);
+            this.superTabControlPanel4.TabIndex = 0;
+            this.superTabControlPanel4.TabItem = this.tabItemAPEditar;
             // 
-            // WizPage1CalA
+            // txtAPDuracionE
             // 
-            this.WizPage1CalA.BackButtonText = "< Atrás";
-            this.WizPage1CalA.CancelButtonText = "Cancelar";
-            this.WizPage1CalA.Cursor = System.Windows.Forms.Cursors.Default;
-            this.WizPage1CalA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.WizPage1CalA.FinishButtonTabIndex = 3;
-            this.WizPage1CalA.FinishButtonText = "Finalizar";
-            // 
-            // 
-            // 
-            this.WizPage1CalA.FooterStyle.BackColor = System.Drawing.SystemColors.Control;
-            this.WizPage1CalA.FooterStyle.BackColorGradientAngle = 90;
-            this.WizPage1CalA.FooterStyle.BorderBottomWidth = 1;
-            this.WizPage1CalA.FooterStyle.BorderColor = System.Drawing.SystemColors.Control;
-            this.WizPage1CalA.FooterStyle.BorderLeftWidth = 1;
-            this.WizPage1CalA.FooterStyle.BorderRightWidth = 1;
-            this.WizPage1CalA.FooterStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Etched;
-            this.WizPage1CalA.FooterStyle.BorderTopColor = System.Drawing.SystemColors.Control;
-            this.WizPage1CalA.FooterStyle.BorderTopWidth = 1;
-            this.WizPage1CalA.FooterStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.WizPage1CalA.FooterStyle.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.WizPage1CalA.FooterStyle.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.WizPage1CalA.HeaderCaptionFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WizPage1CalA.HeaderDescriptionFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WizPage1CalA.HeaderDescriptionIndent = 16;
+            this.txtAPDuracionE.BackColor = System.Drawing.Color.White;
             // 
             // 
             // 
-            this.WizPage1CalA.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.WizPage1CalA.HeaderStyle.BackColorGradientAngle = 90;
-            this.WizPage1CalA.HeaderStyle.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Etched;
-            this.WizPage1CalA.HeaderStyle.BorderBottomWidth = 1;
-            this.WizPage1CalA.HeaderStyle.BorderColor = System.Drawing.SystemColors.Control;
-            this.WizPage1CalA.HeaderStyle.BorderLeftWidth = 1;
-            this.WizPage1CalA.HeaderStyle.BorderRightWidth = 1;
-            this.WizPage1CalA.HeaderStyle.BorderTopWidth = 1;
-            this.WizPage1CalA.HeaderStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.WizPage1CalA.HeaderStyle.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
-            this.WizPage1CalA.HeaderStyle.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.WizPage1CalA.HelpButtonText = "Ayuda";
-            this.WizPage1CalA.HelpButtonVisible = false;
-            this.WizPage1CalA.Location = new System.Drawing.Point(0, 0);
-            this.WizPage1CalA.Name = "WizPage1CalA";
-            this.WizPage1CalA.NextButtonText = "Siguiente >";
-            this.WizPage1CalA.Size = new System.Drawing.Size(819, 430);
-            this.WizPage1CalA.TabIndex = 0;
-            this.WizPage1CalA.WizardPages.AddRange(new DevComponents.DotNetBar.WizardPage[] {
-            this.WizPage0CalA,
-            this.WizPage1CalACurso,
-            this.WizPage2CalAEvPaq,
-            this.WizPage3CalACurInstructor,
-            this.WizPage4CalAPaqEvInstructor,
-            this.WizPage5CalACurInstAloj,
-            this.WizPage6CalACurInstAlojTras});
-            this.WizPage1CalA.NextButtonClick += new System.ComponentModel.CancelEventHandler(this.WizPage1CalA_NextClick);
-            this.WizPage1CalA.CancelButtonClick += new System.ComponentModel.CancelEventHandler(this.WizPage1CalA_CancelClick);
+            this.txtAPDuracionE.Border.Class = "TextBoxBorder";
+            this.txtAPDuracionE.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtAPDuracionE.Enabled = false;
+            this.txtAPDuracionE.ForeColor = System.Drawing.Color.Black;
+            this.txtAPDuracionE.Location = new System.Drawing.Point(115, 253);
+            this.txtAPDuracionE.Name = "txtAPDuracionE";
+            this.txtAPDuracionE.Size = new System.Drawing.Size(228, 22);
+            this.txtAPDuracionE.TabIndex = 99;
             // 
-            // WizPage0CalA
+            // lblAPDuracionE
             // 
-            this.WizPage0CalA.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            // 
+            // 
+            // 
+            this.lblAPDuracionE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPDuracionE.Location = new System.Drawing.Point(22, 252);
+            this.lblAPDuracionE.Name = "lblAPDuracionE";
+            this.lblAPDuracionE.Size = new System.Drawing.Size(88, 23);
+            this.lblAPDuracionE.TabIndex = 98;
+            this.lblAPDuracionE.Text = "Duración (días):";
+            // 
+            // txtAPDestinoE
+            // 
+            this.txtAPDestinoE.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtAPDestinoE.Border.Class = "TextBoxBorder";
+            this.txtAPDestinoE.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtAPDestinoE.Enabled = false;
+            this.txtAPDestinoE.ForeColor = System.Drawing.Color.Black;
+            this.txtAPDestinoE.Location = new System.Drawing.Point(115, 171);
+            this.txtAPDestinoE.Multiline = true;
+            this.txtAPDestinoE.Name = "txtAPDestinoE";
+            this.txtAPDestinoE.Size = new System.Drawing.Size(228, 35);
+            this.txtAPDestinoE.TabIndex = 97;
+            // 
+            // lblAPDestinoE
+            // 
+            // 
+            // 
+            // 
+            this.lblAPDestinoE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPDestinoE.Location = new System.Drawing.Point(22, 177);
+            this.lblAPDestinoE.Name = "lblAPDestinoE";
+            this.lblAPDestinoE.Size = new System.Drawing.Size(87, 23);
+            this.lblAPDestinoE.TabIndex = 95;
+            this.lblAPDestinoE.Text = "Destino:";
+            // 
+            // txtAPActividadE
+            // 
+            this.txtAPActividadE.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtAPActividadE.Border.Class = "TextBoxBorder";
+            this.txtAPActividadE.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtAPActividadE.Enabled = false;
+            this.txtAPActividadE.ForeColor = System.Drawing.Color.Black;
+            this.txtAPActividadE.Location = new System.Drawing.Point(116, 138);
+            this.txtAPActividadE.Name = "txtAPActividadE";
+            this.txtAPActividadE.Size = new System.Drawing.Size(227, 22);
+            this.txtAPActividadE.TabIndex = 89;
+            // 
+            // lblAPActividadE
+            // 
+            // 
+            // 
+            // 
+            this.lblAPActividadE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPActividadE.Location = new System.Drawing.Point(23, 137);
+            this.lblAPActividadE.Name = "lblAPActividadE";
+            this.lblAPActividadE.Size = new System.Drawing.Size(87, 23);
+            this.lblAPActividadE.TabIndex = 88;
+            this.lblAPActividadE.Text = "Actividad:";
+            // 
+            // chkAPEstadoE
+            // 
+            // 
+            // 
+            // 
+            this.chkAPEstadoE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.chkAPEstadoE.Location = new System.Drawing.Point(120, 328);
+            this.chkAPEstadoE.Name = "chkAPEstadoE";
+            this.chkAPEstadoE.Size = new System.Drawing.Size(38, 23);
+            this.chkAPEstadoE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.chkAPEstadoE.TabIndex = 94;
+            // 
+            // labelX1
+            // 
+            // 
+            // 
+            // 
+            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX1.Location = new System.Drawing.Point(22, 328);
+            this.labelX1.Name = "labelX1";
+            this.labelX1.Size = new System.Drawing.Size(87, 23);
+            this.labelX1.TabIndex = 93;
+            this.labelX1.Text = "Estado:";
+            // 
+            // txtAPDificultadE
+            // 
+            this.txtAPDificultadE.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtAPDificultadE.Border.Class = "TextBoxBorder";
+            this.txtAPDificultadE.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtAPDificultadE.Enabled = false;
+            this.txtAPDificultadE.ForeColor = System.Drawing.Color.Black;
+            this.txtAPDificultadE.Location = new System.Drawing.Point(115, 218);
+            this.txtAPDificultadE.Name = "txtAPDificultadE";
+            this.txtAPDificultadE.Size = new System.Drawing.Size(228, 22);
+            this.txtAPDificultadE.TabIndex = 91;
+            // 
+            // lblAPIdE
+            // 
+            // 
+            // 
+            // 
+            this.lblAPIdE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPIdE.Location = new System.Drawing.Point(380, 25);
+            this.lblAPIdE.Name = "lblAPIdE";
+            this.lblAPIdE.Size = new System.Drawing.Size(87, 23);
+            this.lblAPIdE.TabIndex = 92;
+            this.lblAPIdE.Visible = false;
+            // 
+            // doubleInAPPrecioE
+            // 
+            // 
+            // 
+            // 
+            this.doubleInAPPrecioE.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.doubleInAPPrecioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.doubleInAPPrecioE.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.doubleInAPPrecioE.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.doubleInAPPrecioE.Increment = 100D;
+            this.doubleInAPPrecioE.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
+            this.doubleInAPPrecioE.Location = new System.Drawing.Point(115, 290);
+            this.doubleInAPPrecioE.MaxValue = 1000000D;
+            this.doubleInAPPrecioE.MinValue = 0D;
+            this.doubleInAPPrecioE.Name = "doubleInAPPrecioE";
+            this.doubleInAPPrecioE.ShowUpDown = true;
+            this.doubleInAPPrecioE.Size = new System.Drawing.Size(228, 22);
+            this.doubleInAPPrecioE.TabIndex = 88;
+            this.doubleInAPPrecioE.WatermarkText = "2.500";
+            // 
+            // comboAPNombreE
+            // 
+            this.comboAPNombreE.DisplayMember = "Text";
+            this.comboAPNombreE.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.comboAPNombreE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboAPNombreE.EnablePopupResize = false;
+            this.comboAPNombreE.ItemHeight = 16;
+            this.comboAPNombreE.Location = new System.Drawing.Point(115, 92);
+            this.comboAPNombreE.Name = "comboAPNombreE";
+            this.comboAPNombreE.Size = new System.Drawing.Size(228, 22);
+            this.comboAPNombreE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboAPNombreE.TabIndex = 85;
+            this.comboAPNombreE.SelectedValueChanged += new System.EventHandler(this.comboAPNombreE_SelectedChange);
+            // 
+            // lblAPNombreE
+            // 
+            // 
+            // 
+            // 
+            this.lblAPNombreE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPNombreE.Location = new System.Drawing.Point(22, 92);
+            this.lblAPNombreE.Name = "lblAPNombreE";
+            this.lblAPNombreE.Size = new System.Drawing.Size(87, 23);
+            this.lblAPNombreE.TabIndex = 74;
+            this.lblAPNombreE.Text = "Nombre:";
+            // 
+            // groupAPModalidadE
+            // 
+            this.groupAPModalidadE.Controls.Add(this.radioAPPaqueteE);
+            this.groupAPModalidadE.Controls.Add(this.radioAPEventoE);
+            this.groupAPModalidadE.Location = new System.Drawing.Point(27, 19);
+            this.groupAPModalidadE.Name = "groupAPModalidadE";
+            this.groupAPModalidadE.Size = new System.Drawing.Size(316, 52);
+            this.groupAPModalidadE.TabIndex = 85;
+            this.groupAPModalidadE.TabStop = false;
+            this.groupAPModalidadE.Text = "Modalidad:";
+            // 
+            // radioAPPaqueteE
+            // 
+            this.radioAPPaqueteE.AutoSize = true;
+            this.radioAPPaqueteE.Location = new System.Drawing.Point(192, 17);
+            this.radioAPPaqueteE.Name = "radioAPPaqueteE";
+            this.radioAPPaqueteE.Size = new System.Drawing.Size(67, 17);
+            this.radioAPPaqueteE.TabIndex = 1;
+            this.radioAPPaqueteE.TabStop = true;
+            this.radioAPPaqueteE.Text = "Paquete";
+            this.radioAPPaqueteE.UseVisualStyleBackColor = true;
+            this.radioAPPaqueteE.Click += new System.EventHandler(this.radioAPPaqueteE_Click);
+            // 
+            // radioAPEventoE
+            // 
+            this.radioAPEventoE.AutoSize = true;
+            this.radioAPEventoE.Checked = true;
+            this.radioAPEventoE.Location = new System.Drawing.Point(93, 17);
+            this.radioAPEventoE.Name = "radioAPEventoE";
+            this.radioAPEventoE.Size = new System.Drawing.Size(60, 17);
+            this.radioAPEventoE.TabIndex = 0;
+            this.radioAPEventoE.TabStop = true;
+            this.radioAPEventoE.Text = "Evento";
+            this.radioAPEventoE.UseVisualStyleBackColor = true;
+            this.radioAPEventoE.Click += new System.EventHandler(this.radioAPEventoE_Click);
+            // 
+            // lblAPPrecioE
+            // 
+            // 
+            // 
+            // 
+            this.lblAPPrecioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPPrecioE.Location = new System.Drawing.Point(22, 289);
+            this.lblAPPrecioE.Name = "lblAPPrecioE";
+            this.lblAPPrecioE.Size = new System.Drawing.Size(87, 23);
+            this.lblAPPrecioE.TabIndex = 83;
+            this.lblAPPrecioE.Text = "Precio $:";
+            // 
+            // btnAPGuardarE
+            // 
+            this.btnAPGuardarE.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAPGuardarE.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnAPGuardarE.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAPGuardarE.Image = global::OEVApp.Properties.Resources.Save32x32;
+            this.btnAPGuardarE.Location = new System.Drawing.Point(645, 21);
+            this.btnAPGuardarE.Name = "btnAPGuardarE";
+            this.btnAPGuardarE.Size = new System.Drawing.Size(110, 45);
+            this.btnAPGuardarE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnAPGuardarE.TabIndex = 77;
+            this.btnAPGuardarE.Text = "Guardar";
+            this.btnAPGuardarE.Click += new System.EventHandler(this.btnAPGuardarE_Click);
+            // 
+            // lblAPItinerarioE
+            // 
+            // 
+            // 
+            // 
+            this.lblAPItinerarioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPItinerarioE.Location = new System.Drawing.Point(368, 85);
+            this.lblAPItinerarioE.Name = "lblAPItinerarioE";
+            this.lblAPItinerarioE.Size = new System.Drawing.Size(87, 23);
+            this.lblAPItinerarioE.TabIndex = 76;
+            this.lblAPItinerarioE.Text = "Itinerario:";
+            // 
+            // richTxtAPItinerarioE
+            // 
+            // 
+            // 
+            // 
+            this.richTxtAPItinerarioE.BackgroundStyle.Class = "RichTextBoxBorder";
+            this.richTxtAPItinerarioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.richTxtAPItinerarioE.Location = new System.Drawing.Point(461, 85);
+            this.richTxtAPItinerarioE.MaxLength = 2000;
+            this.richTxtAPItinerarioE.Name = "richTxtAPItinerarioE";
+            this.richTxtAPItinerarioE.Size = new System.Drawing.Size(294, 324);
+            this.richTxtAPItinerarioE.TabIndex = 78;
+            // 
+            // lblAPDificultadE
+            // 
+            // 
+            // 
+            // 
+            this.lblAPDificultadE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPDificultadE.Location = new System.Drawing.Point(22, 217);
+            this.lblAPDificultadE.Name = "lblAPDificultadE";
+            this.lblAPDificultadE.Size = new System.Drawing.Size(87, 23);
+            this.lblAPDificultadE.TabIndex = 79;
+            this.lblAPDificultadE.Text = "Dificultad:";
+            // 
+            // tabItemAPEditar
+            // 
+            this.tabItemAPEditar.AttachedControl = this.superTabControlPanel4;
+            this.tabItemAPEditar.GlobalItem = false;
+            this.tabItemAPEditar.Image = global::OEVApp.Properties.Resources.addedit24x24;
+            this.tabItemAPEditar.Name = "tabItemAPEditar";
+            this.tabItemAPEditar.Text = "<b>Editar</b>";
+            this.tabItemAPEditar.Click += new System.EventHandler(this.tabItemAPEditar_Click);
+            // 
+            // superTabControlPanel3
+            // 
+            this.superTabControlPanel3.Controls.Add(this.lblACIdE);
+            this.superTabControlPanel3.Controls.Add(this.txtACDificultadE);
+            this.superTabControlPanel3.Controls.Add(this.chkACEstadoE);
+            this.superTabControlPanel3.Controls.Add(this.lblACEstadoE);
+            this.superTabControlPanel3.Controls.Add(this.txtACActividadE);
+            this.superTabControlPanel3.Controls.Add(this.lblACActvidadE);
+            this.superTabControlPanel3.Controls.Add(this.doubleInACPrecioE);
+            this.superTabControlPanel3.Controls.Add(this.comboACNombreE);
+            this.superTabControlPanel3.Controls.Add(this.btnACGuardarE);
+            this.superTabControlPanel3.Controls.Add(this.lblACCursoE);
+            this.superTabControlPanel3.Controls.Add(this.lblACNombreE);
+            this.superTabControlPanel3.Controls.Add(this.lblACDescE);
+            this.superTabControlPanel3.Controls.Add(this.richTxtACDescE);
+            this.superTabControlPanel3.Controls.Add(this.groupBoxACDiasE);
+            this.superTabControlPanel3.Controls.Add(this.lblACDificultadE);
+            this.superTabControlPanel3.Controls.Add(this.lblACPrecioE);
+            this.superTabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel3.Location = new System.Drawing.Point(0, 0);
+            this.superTabControlPanel3.Name = "superTabControlPanel3";
+            this.superTabControlPanel3.Size = new System.Drawing.Size(819, 468);
+            this.superTabControlPanel3.TabIndex = 0;
+            this.superTabControlPanel3.TabItem = this.tabItemACEditar;
+            // 
+            // lblACIdE
+            // 
+            // 
+            // 
+            // 
+            this.lblACIdE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACIdE.Location = new System.Drawing.Point(23, 56);
+            this.lblACIdE.Name = "lblACIdE";
+            this.lblACIdE.Size = new System.Drawing.Size(87, 23);
+            this.lblACIdE.TabIndex = 91;
+            this.lblACIdE.Visible = false;
+            // 
+            // txtACDificultadE
+            // 
+            this.txtACDificultadE.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtACDificultadE.Border.Class = "TextBoxBorder";
+            this.txtACDificultadE.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtACDificultadE.Enabled = false;
+            this.txtACDificultadE.ForeColor = System.Drawing.Color.Black;
+            this.txtACDificultadE.Location = new System.Drawing.Point(118, 141);
+            this.txtACDificultadE.Name = "txtACDificultadE";
+            this.txtACDificultadE.Size = new System.Drawing.Size(222, 22);
+            this.txtACDificultadE.TabIndex = 90;
+            // 
+            // chkACEstadoE
+            // 
+            // 
+            // 
+            // 
+            this.chkACEstadoE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.chkACEstadoE.Location = new System.Drawing.Point(124, 342);
+            this.chkACEstadoE.Name = "chkACEstadoE";
+            this.chkACEstadoE.Size = new System.Drawing.Size(38, 23);
+            this.chkACEstadoE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.chkACEstadoE.TabIndex = 89;
+            // 
+            // lblACEstadoE
+            // 
+            // 
+            // 
+            // 
+            this.lblACEstadoE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACEstadoE.Location = new System.Drawing.Point(24, 342);
+            this.lblACEstadoE.Name = "lblACEstadoE";
+            this.lblACEstadoE.Size = new System.Drawing.Size(87, 23);
+            this.lblACEstadoE.TabIndex = 88;
+            this.lblACEstadoE.Text = "Estado:";
+            // 
+            // txtACActividadE
+            // 
+            this.txtACActividadE.BackColor = System.Drawing.Color.White;
+            // 
+            // 
+            // 
+            this.txtACActividadE.Border.Class = "TextBoxBorder";
+            this.txtACActividadE.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtACActividadE.Enabled = false;
+            this.txtACActividadE.ForeColor = System.Drawing.Color.Black;
+            this.txtACActividadE.Location = new System.Drawing.Point(118, 112);
+            this.txtACActividadE.Name = "txtACActividadE";
+            this.txtACActividadE.Size = new System.Drawing.Size(222, 22);
+            this.txtACActividadE.TabIndex = 87;
+            // 
+            // lblACActvidadE
+            // 
+            // 
+            // 
+            // 
+            this.lblACActvidadE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACActvidadE.Location = new System.Drawing.Point(22, 111);
+            this.lblACActvidadE.Name = "lblACActvidadE";
+            this.lblACActvidadE.Size = new System.Drawing.Size(87, 23);
+            this.lblACActvidadE.TabIndex = 86;
+            this.lblACActvidadE.Text = "Actividad:";
+            // 
+            // doubleInACPrecioE
+            // 
+            // 
+            // 
+            // 
+            this.doubleInACPrecioE.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.doubleInACPrecioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.doubleInACPrecioE.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.doubleInACPrecioE.DisplayFormat = "000";
+            this.doubleInACPrecioE.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.doubleInACPrecioE.Increment = 100D;
+            this.doubleInACPrecioE.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
+            this.doubleInACPrecioE.Location = new System.Drawing.Point(120, 312);
+            this.doubleInACPrecioE.MaxValue = 1000000D;
+            this.doubleInACPrecioE.MinValue = 0D;
+            this.doubleInACPrecioE.Name = "doubleInACPrecioE";
+            this.doubleInACPrecioE.ShowUpDown = true;
+            this.doubleInACPrecioE.Size = new System.Drawing.Size(220, 22);
+            this.doubleInACPrecioE.TabIndex = 85;
+            this.doubleInACPrecioE.WatermarkText = "$ 2.500";
+            // 
+            // comboACNombreE
+            // 
+            this.comboACNombreE.DisplayMember = "Text";
+            this.comboACNombreE.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.comboACNombreE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboACNombreE.EnablePopupResize = false;
+            this.comboACNombreE.ItemHeight = 16;
+            this.comboACNombreE.Location = new System.Drawing.Point(118, 83);
+            this.comboACNombreE.Name = "comboACNombreE";
+            this.comboACNombreE.Size = new System.Drawing.Size(222, 22);
+            this.comboACNombreE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboACNombreE.TabIndex = 62;
+            this.comboACNombreE.SelectedValueChanged += new System.EventHandler(this.comboACNombreE_SelectedChange);
+            // 
+            // btnACGuardarE
+            // 
+            this.btnACGuardarE.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnACGuardarE.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnACGuardarE.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnACGuardarE.Image = global::OEVApp.Properties.Resources.Save32x32;
+            this.btnACGuardarE.Location = new System.Drawing.Point(576, 18);
+            this.btnACGuardarE.Name = "btnACGuardarE";
+            this.btnACGuardarE.Size = new System.Drawing.Size(110, 45);
+            this.btnACGuardarE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnACGuardarE.TabIndex = 77;
+            this.btnACGuardarE.Text = "Guardar";
+            this.btnACGuardarE.Click += new System.EventHandler(this.btnACGuardarE_Click);
+            // 
+            // lblACCursoE
+            // 
+            // 
+            // 
+            // 
+            this.lblACCursoE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACCursoE.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblACCursoE.ForeColor = System.Drawing.Color.Green;
+            this.lblACCursoE.Location = new System.Drawing.Point(22, 18);
+            this.lblACCursoE.Name = "lblACCursoE";
+            this.lblACCursoE.Size = new System.Drawing.Size(225, 23);
+            this.lblACCursoE.TabIndex = 75;
+            this.lblACCursoE.Text = "Curso de Entrenamiento";
+            // 
+            // lblACNombreE
+            // 
+            // 
+            // 
+            // 
+            this.lblACNombreE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACNombreE.Location = new System.Drawing.Point(22, 83);
+            this.lblACNombreE.Name = "lblACNombreE";
+            this.lblACNombreE.Size = new System.Drawing.Size(87, 23);
+            this.lblACNombreE.TabIndex = 68;
+            this.lblACNombreE.Text = "Nombre:";
+            // 
+            // lblACDescE
+            // 
+            // 
+            // 
+            // 
+            this.lblACDescE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACDescE.Location = new System.Drawing.Point(380, 82);
+            this.lblACDescE.Name = "lblACDescE";
+            this.lblACDescE.Size = new System.Drawing.Size(87, 23);
+            this.lblACDescE.TabIndex = 70;
+            this.lblACDescE.Text = "Descripción:";
+            // 
+            // richTxtACDescE
+            // 
+            // 
+            // 
+            // 
+            this.richTxtACDescE.BackgroundStyle.Class = "RichTextBoxBorder";
+            this.richTxtACDescE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.richTxtACDescE.Location = new System.Drawing.Point(380, 114);
+            this.richTxtACDescE.MaxLength = 2000;
+            this.richTxtACDescE.Name = "richTxtACDescE";
+            this.richTxtACDescE.Size = new System.Drawing.Size(306, 283);
+            this.richTxtACDescE.TabIndex = 71;
+            // 
+            // groupBoxACDiasE
+            // 
+            this.groupBoxACDiasE.Controls.Add(this.checkACVieE);
+            this.groupBoxACDiasE.Controls.Add(this.checkACJueE);
+            this.groupBoxACDiasE.Controls.Add(this.checkACMieE);
+            this.groupBoxACDiasE.Controls.Add(this.checkACMarE);
+            this.groupBoxACDiasE.Controls.Add(this.checkACLunE);
+            this.groupBoxACDiasE.Controls.Add(this.dTInputACHoraInicioE);
+            this.groupBoxACDiasE.Controls.Add(this.dTInputACHoraFinE);
+            this.groupBoxACDiasE.Controls.Add(this.lblACHoraIniE);
+            this.groupBoxACDiasE.Controls.Add(this.lblACHoraFinE);
+            this.groupBoxACDiasE.Location = new System.Drawing.Point(22, 175);
+            this.groupBoxACDiasE.Name = "groupBoxACDiasE";
+            this.groupBoxACDiasE.Size = new System.Drawing.Size(318, 125);
+            this.groupBoxACDiasE.TabIndex = 72;
+            this.groupBoxACDiasE.TabStop = false;
+            this.groupBoxACDiasE.Text = "Días";
+            // 
+            // checkACVieE
+            // 
+            // 
+            // 
+            // 
+            this.checkACVieE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.checkACVieE.Enabled = false;
+            this.checkACVieE.Location = new System.Drawing.Point(251, 15);
+            this.checkACVieE.Name = "checkACVieE";
+            this.checkACVieE.Size = new System.Drawing.Size(61, 23);
+            this.checkACVieE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.checkACVieE.TabIndex = 4;
+            this.checkACVieE.Text = "Viernes";
+            // 
+            // checkACJueE
+            // 
+            // 
+            // 
+            // 
+            this.checkACJueE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.checkACJueE.Enabled = false;
+            this.checkACJueE.Location = new System.Drawing.Point(191, 15);
+            this.checkACJueE.Name = "checkACJueE";
+            this.checkACJueE.Size = new System.Drawing.Size(61, 23);
+            this.checkACJueE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.checkACJueE.TabIndex = 3;
+            this.checkACJueE.Text = "Jueves";
+            // 
+            // checkACMieE
+            // 
+            // 
+            // 
+            // 
+            this.checkACMieE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.checkACMieE.Enabled = false;
+            this.checkACMieE.Location = new System.Drawing.Point(120, 16);
+            this.checkACMieE.Name = "checkACMieE";
+            this.checkACMieE.Size = new System.Drawing.Size(68, 23);
+            this.checkACMieE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.checkACMieE.TabIndex = 2;
+            this.checkACMieE.Text = "Miércoles";
+            // 
+            // checkACMarE
+            // 
+            // 
+            // 
+            // 
+            this.checkACMarE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.checkACMarE.Enabled = false;
+            this.checkACMarE.Location = new System.Drawing.Point(60, 17);
+            this.checkACMarE.Name = "checkACMarE";
+            this.checkACMarE.Size = new System.Drawing.Size(54, 23);
+            this.checkACMarE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.checkACMarE.TabIndex = 1;
+            this.checkACMarE.Text = "Martes";
+            // 
+            // checkACLunE
+            // 
+            // 
+            // 
+            // 
+            this.checkACLunE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.checkACLunE.Enabled = false;
+            this.checkACLunE.Location = new System.Drawing.Point(7, 16);
+            this.checkACLunE.Name = "checkACLunE";
+            this.checkACLunE.Size = new System.Drawing.Size(54, 23);
+            this.checkACLunE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.checkACLunE.TabIndex = 0;
+            this.checkACLunE.Text = "Lunes";
+            // 
+            // dTInputACHoraInicioE
+            // 
+            // 
+            // 
+            // 
+            this.dTInputACHoraInicioE.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.dTInputACHoraInicioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dTInputACHoraInicioE.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
+            this.dTInputACHoraInicioE.ButtonDropDown.Visible = true;
+            this.dTInputACHoraInicioE.DateTimeSelectorVisibility = DevComponents.Editors.DateTimeAdv.eDateTimeSelectorVisibility.TimeSelector;
+            this.dTInputACHoraInicioE.Enabled = false;
+            this.dTInputACHoraInicioE.Format = DevComponents.Editors.eDateTimePickerFormat.Custom;
+            this.dTInputACHoraInicioE.IsInputReadOnly = true;
+            this.dTInputACHoraInicioE.IsPopupCalendarOpen = false;
+            this.dTInputACHoraInicioE.Location = new System.Drawing.Point(107, 48);
+            // 
+            // 
+            // 
+            this.dTInputACHoraInicioE.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dTInputACHoraInicioE.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dTInputACHoraInicioE.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            this.dTInputACHoraInicioE.MonthCalendar.ClearButtonVisible = true;
+            // 
+            // 
+            // 
+            this.dTInputACHoraInicioE.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
+            this.dTInputACHoraInicioE.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
+            this.dTInputACHoraInicioE.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.dTInputACHoraInicioE.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.dTInputACHoraInicioE.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
+            this.dTInputACHoraInicioE.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
+            this.dTInputACHoraInicioE.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dTInputACHoraInicioE.MonthCalendar.DisplayMonth = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
+            this.dTInputACHoraInicioE.MonthCalendar.MarkedDates = new System.DateTime[0];
+            this.dTInputACHoraInicioE.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dTInputACHoraInicioE.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.dTInputACHoraInicioE.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
+            this.dTInputACHoraInicioE.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.dTInputACHoraInicioE.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dTInputACHoraInicioE.MonthCalendar.TodayButtonVisible = true;
+            this.dTInputACHoraInicioE.MonthCalendar.Visible = false;
+            this.dTInputACHoraInicioE.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
+            this.dTInputACHoraInicioE.Name = "dTInputACHoraInicioE";
+            this.dTInputACHoraInicioE.Size = new System.Drawing.Size(182, 22);
+            this.dTInputACHoraInicioE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.dTInputACHoraInicioE.TabIndex = 78;
+            this.dTInputACHoraInicioE.TimeSelectorTimeFormat = DevComponents.Editors.DateTimeAdv.eTimeSelectorFormat.Time24H;
+            this.dTInputACHoraInicioE.Value = new System.DateTime(2017, 12, 8, 8, 0, 0, 0);
+            // 
+            // dTInputACHoraFinE
+            // 
+            // 
+            // 
+            // 
+            this.dTInputACHoraFinE.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.dTInputACHoraFinE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dTInputACHoraFinE.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
+            this.dTInputACHoraFinE.ButtonDropDown.Visible = true;
+            this.dTInputACHoraFinE.DateTimeSelectorVisibility = DevComponents.Editors.DateTimeAdv.eDateTimeSelectorVisibility.TimeSelector;
+            this.dTInputACHoraFinE.Enabled = false;
+            this.dTInputACHoraFinE.Format = DevComponents.Editors.eDateTimePickerFormat.Custom;
+            this.dTInputACHoraFinE.IsInputReadOnly = true;
+            this.dTInputACHoraFinE.IsPopupCalendarOpen = false;
+            this.dTInputACHoraFinE.Location = new System.Drawing.Point(107, 82);
+            // 
+            // 
+            // 
+            this.dTInputACHoraFinE.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dTInputACHoraFinE.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dTInputACHoraFinE.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            this.dTInputACHoraFinE.MonthCalendar.ClearButtonVisible = true;
+            // 
+            // 
+            // 
+            this.dTInputACHoraFinE.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
+            this.dTInputACHoraFinE.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
+            this.dTInputACHoraFinE.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
+            this.dTInputACHoraFinE.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
+            this.dTInputACHoraFinE.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
+            this.dTInputACHoraFinE.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
+            this.dTInputACHoraFinE.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dTInputACHoraFinE.MonthCalendar.DisplayMonth = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
+            this.dTInputACHoraFinE.MonthCalendar.MarkedDates = new System.DateTime[0];
+            this.dTInputACHoraFinE.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.dTInputACHoraFinE.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
+            this.dTInputACHoraFinE.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
+            this.dTInputACHoraFinE.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
+            this.dTInputACHoraFinE.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.dTInputACHoraFinE.MonthCalendar.TodayButtonVisible = true;
+            this.dTInputACHoraFinE.MonthCalendar.Visible = false;
+            this.dTInputACHoraFinE.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
+            this.dTInputACHoraFinE.Name = "dTInputACHoraFinE";
+            this.dTInputACHoraFinE.Size = new System.Drawing.Size(182, 22);
+            this.dTInputACHoraFinE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.dTInputACHoraFinE.TabIndex = 81;
+            this.dTInputACHoraFinE.TimeSelectorTimeFormat = DevComponents.Editors.DateTimeAdv.eTimeSelectorFormat.Time12H;
+            this.dTInputACHoraFinE.Value = new System.DateTime(2017, 11, 26, 17, 49, 22, 0);
+            // 
+            // lblACHoraIniE
+            // 
+            // 
+            // 
+            // 
+            this.lblACHoraIniE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACHoraIniE.Location = new System.Drawing.Point(20, 47);
+            this.lblACHoraIniE.Name = "lblACHoraIniE";
+            this.lblACHoraIniE.Size = new System.Drawing.Size(87, 23);
+            this.lblACHoraIniE.TabIndex = 79;
+            this.lblACHoraIniE.Text = "Hora de Inicio:";
+            // 
+            // lblACHoraFinE
+            // 
+            // 
+            // 
+            // 
+            this.lblACHoraFinE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACHoraFinE.Location = new System.Drawing.Point(20, 81);
+            this.lblACHoraFinE.Name = "lblACHoraFinE";
+            this.lblACHoraFinE.Size = new System.Drawing.Size(87, 23);
+            this.lblACHoraFinE.TabIndex = 80;
+            this.lblACHoraFinE.Text = "Hora de Fin:";
+            // 
+            // lblACDificultadE
+            // 
+            // 
+            // 
+            // 
+            this.lblACDificultadE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACDificultadE.Location = new System.Drawing.Point(22, 140);
+            this.lblACDificultadE.Name = "lblACDificultadE";
+            this.lblACDificultadE.Size = new System.Drawing.Size(87, 23);
+            this.lblACDificultadE.TabIndex = 73;
+            this.lblACDificultadE.Text = "Dificultad:";
+            // 
+            // lblACPrecioE
+            // 
+            // 
+            // 
+            // 
+            this.lblACPrecioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblACPrecioE.Location = new System.Drawing.Point(24, 311);
+            this.lblACPrecioE.Name = "lblACPrecioE";
+            this.lblACPrecioE.Size = new System.Drawing.Size(87, 23);
+            this.lblACPrecioE.TabIndex = 76;
+            this.lblACPrecioE.Text = "Precio $:";
+            // 
+            // tabItemACEditar
+            // 
+            this.tabItemACEditar.AttachedControl = this.superTabControlPanel3;
+            this.tabItemACEditar.GlobalItem = false;
+            this.tabItemACEditar.Image = global::OEVApp.Properties.Resources.addedit24x24;
+            this.tabItemACEditar.Name = "tabItemACEditar";
+            this.tabItemACEditar.Text = "<b>Editar</b>";
+            this.tabItemACEditar.Click += new System.EventHandler(this.tabItemACEditar_Click);
+            // 
+            // superTabControlPanel2
+            // 
+            this.superTabControlPanel2.Controls.Add(this.intInputAPDuracionA);
+            this.superTabControlPanel2.Controls.Add(this.lblAPDuracionA);
+            this.superTabControlPanel2.Controls.Add(this.groupAPDestinoA);
+            this.superTabControlPanel2.Controls.Add(this.btnAPNombreA);
+            this.superTabControlPanel2.Controls.Add(this.doubleInAPPrecioA);
+            this.superTabControlPanel2.Controls.Add(this.groupAPActividadA);
+            this.superTabControlPanel2.Controls.Add(this.groupAPModalidadA);
+            this.superTabControlPanel2.Controls.Add(this.lblAPPrecioA);
+            this.superTabControlPanel2.Controls.Add(this.btnAPGuardarA);
+            this.superTabControlPanel2.Controls.Add(this.comboAPDificultadA);
+            this.superTabControlPanel2.Controls.Add(this.lblAPDificultadA);
+            this.superTabControlPanel2.Controls.Add(this.richTxtAPItinerarioA);
+            this.superTabControlPanel2.Controls.Add(this.lblAPItinerarioA);
+            this.superTabControlPanel2.Controls.Add(this.txtAPNombreA);
+            this.superTabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel2.Location = new System.Drawing.Point(0, 0);
+            this.superTabControlPanel2.Name = "superTabControlPanel2";
+            this.superTabControlPanel2.Size = new System.Drawing.Size(819, 468);
+            this.superTabControlPanel2.TabIndex = 0;
+            this.superTabControlPanel2.TabItem = this.tabItemAPAgregar;
+            // 
+            // intInputAPDuracionA
+            // 
+            // 
+            // 
+            // 
+            this.intInputAPDuracionA.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.intInputAPDuracionA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.intInputAPDuracionA.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.intInputAPDuracionA.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
+            this.intInputAPDuracionA.Location = new System.Drawing.Point(429, 118);
+            this.intInputAPDuracionA.MaxValue = 30;
+            this.intInputAPDuracionA.MinValue = 1;
+            this.intInputAPDuracionA.Name = "intInputAPDuracionA";
+            this.intInputAPDuracionA.ShowUpDown = true;
+            this.intInputAPDuracionA.Size = new System.Drawing.Size(120, 22);
+            this.intInputAPDuracionA.TabIndex = 76;
+            this.intInputAPDuracionA.Value = 1;
+            this.intInputAPDuracionA.WatermarkText = "2";
+            // 
+            // lblAPDuracionA
+            // 
+            // 
+            // 
+            // 
+            this.lblAPDuracionA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPDuracionA.Location = new System.Drawing.Point(321, 118);
+            this.lblAPDuracionA.Name = "lblAPDuracionA";
+            this.lblAPDuracionA.Size = new System.Drawing.Size(102, 23);
+            this.lblAPDuracionA.TabIndex = 74;
+            this.lblAPDuracionA.Text = "Duración (días):";
+            // 
+            // groupAPDestinoA
+            // 
+            this.groupAPDestinoA.Controls.Add(this.checkedListAPDestinoA);
+            this.groupAPDestinoA.Location = new System.Drawing.Point(28, 157);
+            this.groupAPDestinoA.Name = "groupAPDestinoA";
+            this.groupAPDestinoA.Size = new System.Drawing.Size(278, 165);
+            this.groupAPDestinoA.TabIndex = 73;
+            this.groupAPDestinoA.TabStop = false;
+            this.groupAPDestinoA.Text = "(*) Destino:";
+            // 
+            // checkedListAPDestinoA
+            // 
+            this.checkedListAPDestinoA.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.WizPage0CalA.BackColor = System.Drawing.Color.White;
-            this.WizPage0CalA.Controls.Add(this.lblPage0CalATitulo);
-            this.WizPage0CalA.Controls.Add(this.lblPage0CalADescripcion);
-            this.WizPage0CalA.InteriorPage = false;
-            this.WizPage0CalA.Location = new System.Drawing.Point(0, 0);
-            this.WizPage0CalA.Name = "WizPage0CalA";
-            this.WizPage0CalA.Size = new System.Drawing.Size(819, 384);
+            this.checkedListAPDestinoA.FormattingEnabled = true;
+            this.checkedListAPDestinoA.Location = new System.Drawing.Point(11, 21);
+            this.checkedListAPDestinoA.Name = "checkedListAPDestinoA";
+            this.checkedListAPDestinoA.Size = new System.Drawing.Size(248, 123);
+            this.checkedListAPDestinoA.TabIndex = 72;
+            // 
+            // btnAPNombreA
+            // 
+            this.btnAPNombreA.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAPNombreA.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnAPNombreA.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAPNombreA.Location = new System.Drawing.Point(38, 334);
+            this.btnAPNombreA.Name = "btnAPNombreA";
+            this.btnAPNombreA.Size = new System.Drawing.Size(249, 36);
+            this.btnAPNombreA.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.btnAPNombreA.TabIndex = 71;
+            this.btnAPNombreA.Text = "Generar Nombre";
+            this.btnAPNombreA.Click += new System.EventHandler(this.btnAPNombreA_Click);
+            // 
+            // doubleInAPPrecioA
             // 
             // 
             // 
-            this.WizPage0CalA.Style.BackColor = System.Drawing.Color.White;
-            this.WizPage0CalA.Style.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WizPage0CalA.Style.BackgroundImage")));
-            this.WizPage0CalA.Style.BackgroundImagePosition = DevComponents.DotNetBar.eStyleBackgroundImage.TopLeft;
-            this.WizPage0CalA.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             // 
+            this.doubleInAPPrecioA.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.doubleInAPPrecioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.doubleInAPPrecioA.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.doubleInAPPrecioA.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.doubleInAPPrecioA.Increment = 100D;
+            this.doubleInAPPrecioA.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
+            this.doubleInAPPrecioA.Location = new System.Drawing.Point(121, 118);
+            this.doubleInAPPrecioA.MaxValue = 1000000D;
+            this.doubleInAPPrecioA.MinValue = 0D;
+            this.doubleInAPPrecioA.Name = "doubleInAPPrecioA";
+            this.doubleInAPPrecioA.ShowUpDown = true;
+            this.doubleInAPPrecioA.Size = new System.Drawing.Size(185, 22);
+            this.doubleInAPPrecioA.TabIndex = 70;
+            this.doubleInAPPrecioA.WatermarkText = "2.500";
             // 
+            // groupAPActividadA
             // 
-            this.WizPage0CalA.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.groupAPActividadA.Controls.Add(this.checkedListAPActividadA);
+            this.groupAPActividadA.Location = new System.Drawing.Point(321, 157);
+            this.groupAPActividadA.Name = "groupAPActividadA";
+            this.groupAPActividadA.Size = new System.Drawing.Size(228, 165);
+            this.groupAPActividadA.TabIndex = 69;
+            this.groupAPActividadA.TabStop = false;
+            this.groupAPActividadA.Text = "(*) Actividad:";
             // 
+            // checkedListAPActividadA
             // 
-            // 
-            this.WizPage0CalA.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.WizPage0CalA.TabIndex = 7;
-            // 
-            // lblPage0CalATitulo
-            // 
-            this.lblPage0CalATitulo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblPage0CalATitulo.BackColor = System.Drawing.Color.Transparent;
-            this.lblPage0CalATitulo.Font = new System.Drawing.Font("Tahoma", 16F);
-            this.lblPage0CalATitulo.Location = new System.Drawing.Point(210, 18);
-            this.lblPage0CalATitulo.Name = "lblPage0CalATitulo";
-            this.lblPage0CalATitulo.Size = new System.Drawing.Size(466, 42);
-            this.lblPage0CalATitulo.TabIndex = 0;
-            this.lblPage0CalATitulo.Text = "Pasos para crear un calendario";
-            // 
-            // lblPage0CalADescripcion
-            // 
-            this.lblPage0CalADescripcion.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.checkedListAPActividadA.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblPage0CalADescripcion.BackColor = System.Drawing.Color.Transparent;
-            this.lblPage0CalADescripcion.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPage0CalADescripcion.Location = new System.Drawing.Point(225, 84);
-            this.lblPage0CalADescripcion.Name = "lblPage0CalADescripcion";
-            this.lblPage0CalADescripcion.Size = new System.Drawing.Size(554, 252);
-            this.lblPage0CalADescripcion.TabIndex = 1;
-            this.lblPage0CalADescripcion.Text = resources.GetString("lblPage0CalADescripcion.Text");
-            // 
-            // WizPage1CalACurso
-            // 
-            this.WizPage1CalACurso.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.WizPage1CalACurso.AntiAlias = false;
-            this.WizPage1CalACurso.Controls.Add(this.lblPage1CalACarga);
-            this.WizPage1CalACurso.Controls.Add(this.lblPage1CalACurso);
-            this.WizPage1CalACurso.Controls.Add(this.gridPage1CalACurso);
-            this.WizPage1CalACurso.Controls.Add(this.intInpPage1CalAAnio);
-            this.WizPage1CalACurso.Controls.Add(this.lblPage1CalAAnio);
-            this.WizPage1CalACurso.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WizPage1CalACurso.Location = new System.Drawing.Point(7, 72);
-            this.WizPage1CalACurso.Name = "WizPage1CalACurso";
-            this.WizPage1CalACurso.PageDescription = "Indicar el año para el cual será creado el calendario. Seleccionar los cursos dis" +
-    "ponibles asignarles cupos. Para agregar el mismo curso en diferentes meses presi" +
-    "one el botón \"Agregar\".";
-            this.WizPage1CalACurso.PageTitle = "Paso 1: Cursos, eventos y paquetes";
-            this.WizPage1CalACurso.Size = new System.Drawing.Size(805, 300);
-            // 
-            // 
-            // 
-            this.WizPage1CalACurso.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.WizPage1CalACurso.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.WizPage1CalACurso.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.WizPage1CalACurso.TabIndex = 8;
-            this.WizPage1CalACurso.NextButtonClick += new System.ComponentModel.CancelEventHandler(this.WizPage1CalACurso_NextClick);
-            // 
-            // lblPage1CalACarga
-            // 
-            this.lblPage1CalACarga.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            // 
-            // 
-            // 
-            this.lblPage1CalACarga.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblPage1CalACarga.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPage1CalACarga.ForeColor = System.Drawing.Color.Black;
-            this.lblPage1CalACarga.Location = new System.Drawing.Point(624, 0);
-            this.lblPage1CalACarga.Name = "lblPage1CalACarga";
-            this.lblPage1CalACarga.SingleLineColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblPage1CalACarga.Size = new System.Drawing.Size(105, 23);
-            this.lblPage1CalACarga.TabIndex = 93;
-            this.lblPage1CalACarga.Visible = false;
-            // 
-            // lblPage1CalACurso
-            // 
-            this.lblPage1CalACurso.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.lblPage1CalACurso.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblPage1CalACurso.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPage1CalACurso.ForeColor = System.Drawing.Color.Green;
-            this.lblPage1CalACurso.Location = new System.Drawing.Point(329, 1);
-            this.lblPage1CalACurso.Name = "lblPage1CalACurso";
-            this.lblPage1CalACurso.Size = new System.Drawing.Size(87, 23);
-            this.lblPage1CalACurso.TabIndex = 92;
-            this.lblPage1CalACurso.Text = "Cursos";
-            // 
-            // gridPage1CalACurso
-            // 
-            this.gridPage1CalACurso.AllowUserToAddRows = false;
-            this.gridPage1CalACurso.AllowUserToOrderColumns = true;
-            this.gridPage1CalACurso.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridPage1CalACurso.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridPage1CalACurso.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.HCursoPage1CalANombre,
-            this.HCursoPage1CalAActividad,
-            this.HCursoPage1CalAPrecio,
-            this.HCursoPage1CalADias,
-            this.HCursoPage1CalAHoraInicio,
-            this.HCursoPage1CalAHoraFin,
-            this.HCursoPage1CalACupo,
-            this.HCursoPage1CalAAgregar});
-            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle39.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle39.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle39.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridPage1CalACurso.DefaultCellStyle = dataGridViewCellStyle39;
-            this.gridPage1CalACurso.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
-            this.gridPage1CalACurso.Location = new System.Drawing.Point(10, 31);
-            this.gridPage1CalACurso.Name = "gridPage1CalACurso";
-            this.gridPage1CalACurso.Size = new System.Drawing.Size(779, 256);
-            this.gridPage1CalACurso.TabIndex = 91;
-            this.gridPage1CalACurso.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridPage1CalACurso_CellClick);
-            // 
-            // HCursoPage1CalANombre
-            // 
-            dataGridViewCellStyle31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HCursoPage1CalANombre.DefaultCellStyle = dataGridViewCellStyle31;
-            this.HCursoPage1CalANombre.HeaderText = "Nombre";
-            this.HCursoPage1CalANombre.MaxInputLength = 50;
-            this.HCursoPage1CalANombre.Name = "HCursoPage1CalANombre";
-            this.HCursoPage1CalANombre.ReadOnly = true;
-            this.HCursoPage1CalANombre.Visible = false;
-            // 
-            // HCursoPage1CalAActividad
-            // 
-            dataGridViewCellStyle32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HCursoPage1CalAActividad.DefaultCellStyle = dataGridViewCellStyle32;
-            this.HCursoPage1CalAActividad.HeaderText = "Actividad";
-            this.HCursoPage1CalAActividad.MaxInputLength = 200;
-            this.HCursoPage1CalAActividad.Name = "HCursoPage1CalAActividad";
-            this.HCursoPage1CalAActividad.ReadOnly = true;
-            // 
-            // HCursoPage1CalAPrecio
-            // 
-            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle33.Format = "C0";
-            dataGridViewCellStyle33.NullValue = null;
-            this.HCursoPage1CalAPrecio.DefaultCellStyle = dataGridViewCellStyle33;
-            this.HCursoPage1CalAPrecio.HeaderText = "Precio($)";
-            this.HCursoPage1CalAPrecio.Name = "HCursoPage1CalAPrecio";
-            this.HCursoPage1CalAPrecio.ReadOnly = true;
-            this.HCursoPage1CalAPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HCursoPage1CalADias
-            // 
-            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle34.Format = "N0";
-            dataGridViewCellStyle34.NullValue = null;
-            this.HCursoPage1CalADias.DefaultCellStyle = dataGridViewCellStyle34;
-            this.HCursoPage1CalADias.HeaderText = "Días";
-            this.HCursoPage1CalADias.MaxInputLength = 100;
-            this.HCursoPage1CalADias.Name = "HCursoPage1CalADias";
-            this.HCursoPage1CalADias.ReadOnly = true;
-            this.HCursoPage1CalADias.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.checkedListAPActividadA.FormattingEnabled = true;
+            this.checkedListAPActividadA.Items.AddRange(new object[] {
+            "Cabalgata",
+            "Canotaje",
+            "Ciclismo",
+            "Escalada en Hielo",
+            "Escalada en Roca",
+            "Kayak",
+            "Mountain Bike",
+            "Running",
+            "Trekking"});
+            this.checkedListAPActividadA.Location = new System.Drawing.Point(15, 23);
+            this.checkedListAPActividadA.Name = "checkedListAPActividadA";
+            this.checkedListAPActividadA.Size = new System.Drawing.Size(195, 123);
+            this.checkedListAPActividadA.TabIndex = 73;
+            // 
+            // groupAPModalidadA
+            // 
+            this.groupAPModalidadA.Controls.Add(this.radioAPPaqueteA);
+            this.groupAPModalidadA.Controls.Add(this.radioAPEventoA);
+            this.groupAPModalidadA.Location = new System.Drawing.Point(28, 15);
+            this.groupAPModalidadA.Name = "groupAPModalidadA";
+            this.groupAPModalidadA.Size = new System.Drawing.Size(278, 48);
+            this.groupAPModalidadA.TabIndex = 67;
+            this.groupAPModalidadA.TabStop = false;
+            this.groupAPModalidadA.Text = "Modalidad:";
+            // 
+            // radioAPPaqueteA
             // 
-            // HCursoPage1CalAHoraInicio
+            this.radioAPPaqueteA.AutoSize = true;
+            this.radioAPPaqueteA.Location = new System.Drawing.Point(192, 17);
+            this.radioAPPaqueteA.Name = "radioAPPaqueteA";
+            this.radioAPPaqueteA.Size = new System.Drawing.Size(67, 17);
+            this.radioAPPaqueteA.TabIndex = 1;
+            this.radioAPPaqueteA.TabStop = true;
+            this.radioAPPaqueteA.Text = "Paquete";
+            this.radioAPPaqueteA.UseVisualStyleBackColor = true;
             // 
-            dataGridViewCellStyle35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCursoPage1CalAHoraInicio.DefaultCellStyle = dataGridViewCellStyle35;
-            this.HCursoPage1CalAHoraInicio.HeaderText = "Hora Inicio";
-            this.HCursoPage1CalAHoraInicio.Name = "HCursoPage1CalAHoraInicio";
-            this.HCursoPage1CalAHoraInicio.ReadOnly = true;
-            this.HCursoPage1CalAHoraInicio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // radioAPEventoA
             // 
-            // HCursoPage1CalAHoraFin
+            this.radioAPEventoA.AutoSize = true;
+            this.radioAPEventoA.Checked = true;
+            this.radioAPEventoA.Location = new System.Drawing.Point(93, 17);
+            this.radioAPEventoA.Name = "radioAPEventoA";
+            this.radioAPEventoA.Size = new System.Drawing.Size(60, 17);
+            this.radioAPEventoA.TabIndex = 0;
+            this.radioAPEventoA.TabStop = true;
+            this.radioAPEventoA.Text = "Evento";
+            this.radioAPEventoA.UseVisualStyleBackColor = true;
+            // 
+            // lblAPPrecioA
+            // 
+            // 
+            // 
+            // 
+            this.lblAPPrecioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPPrecioA.Location = new System.Drawing.Point(27, 118);
+            this.lblAPPrecioA.Name = "lblAPPrecioA";
+            this.lblAPPrecioA.Size = new System.Drawing.Size(87, 23);
+            this.lblAPPrecioA.TabIndex = 65;
+            this.lblAPPrecioA.Text = "Precio $:";
+            // 
+            // btnAPGuardarA
+            // 
+            this.btnAPGuardarA.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnAPGuardarA.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnAPGuardarA.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAPGuardarA.Image = global::OEVApp.Properties.Resources.Save32x32;
+            this.btnAPGuardarA.Location = new System.Drawing.Point(657, 21);
+            this.btnAPGuardarA.Name = "btnAPGuardarA";
+            this.btnAPGuardarA.Size = new System.Drawing.Size(110, 45);
+            this.btnAPGuardarA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnAPGuardarA.TabIndex = 58;
+            this.btnAPGuardarA.Text = "Guardar";
+            this.btnAPGuardarA.Click += new System.EventHandler(this.btnAPGuardarA_Click);
+            // 
+            // comboAPDificultadA
+            // 
+            this.comboAPDificultadA.DisplayMember = "Text";
+            this.comboAPDificultadA.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.comboAPDificultadA.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboAPDificultadA.EnablePopupResize = false;
+            this.comboAPDificultadA.ItemHeight = 16;
+            this.comboAPDificultadA.Location = new System.Drawing.Point(121, 80);
+            this.comboAPDificultadA.Name = "comboAPDificultadA";
+            this.comboAPDificultadA.Size = new System.Drawing.Size(185, 22);
+            this.comboAPDificultadA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.comboAPDificultadA.TabIndex = 61;
+            // 
+            // lblAPDificultadA
+            // 
+            // 
+            // 
+            // 
+            this.lblAPDificultadA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPDificultadA.Location = new System.Drawing.Point(28, 79);
+            this.lblAPDificultadA.Name = "lblAPDificultadA";
+            this.lblAPDificultadA.Size = new System.Drawing.Size(87, 23);
+            this.lblAPDificultadA.TabIndex = 60;
+            this.lblAPDificultadA.Text = "Dificultad:";
+            // 
+            // richTxtAPItinerarioA
             // 
-            dataGridViewCellStyle36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCursoPage1CalAHoraFin.DefaultCellStyle = dataGridViewCellStyle36;
-            this.HCursoPage1CalAHoraFin.HeaderText = "Hora Fin";
-            this.HCursoPage1CalAHoraFin.Name = "HCursoPage1CalAHoraFin";
-            this.HCursoPage1CalAHoraFin.ReadOnly = true;
-            this.HCursoPage1CalAHoraFin.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
-            // HCursoPage1CalACupo
             // 
             // 
+            this.richTxtAPItinerarioA.BackgroundStyle.Class = "RichTextBoxBorder";
+            this.richTxtAPItinerarioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.richTxtAPItinerarioA.Location = new System.Drawing.Point(564, 109);
+            this.richTxtAPItinerarioA.MaxLength = 2000;
+            this.richTxtAPItinerarioA.Name = "richTxtAPItinerarioA";
+            this.richTxtAPItinerarioA.Size = new System.Drawing.Size(200, 309);
+            this.richTxtAPItinerarioA.TabIndex = 59;
             // 
+            // lblAPItinerarioA
             // 
-            this.HCursoPage1CalACupo.BackgroundStyle.Class = "DataGridViewNumericBorder";
-            this.HCursoPage1CalACupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle37.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle37.Format = "N0";
-            dataGridViewCellStyle37.NullValue = null;
-            this.HCursoPage1CalACupo.DefaultCellStyle = dataGridViewCellStyle37;
-            this.HCursoPage1CalACupo.HeaderText = "Cupo";
-            this.HCursoPage1CalACupo.Name = "HCursoPage1CalACupo";
-            this.HCursoPage1CalACupo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
-            // HCursoPage1CalAAgregar
             // 
-            this.HCursoPage1CalAAgregar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle38.BackColor = System.Drawing.Color.White;
-            this.HCursoPage1CalAAgregar.DefaultCellStyle = dataGridViewCellStyle38;
-            this.HCursoPage1CalAAgregar.HeaderText = "Agregar";
-            this.HCursoPage1CalAAgregar.Image = ((System.Drawing.Image)(resources.GetObject("HCursoPage1CalAAgregar.Image")));
-            this.HCursoPage1CalAAgregar.Name = "HCursoPage1CalAAgregar";
-            this.HCursoPage1CalAAgregar.Text = null;
-            this.HCursoPage1CalAAgregar.Width = 60;
-            // 
-            // intInpPage1CalAAnio
-            // 
-            // 
-            // 
-            // 
-            this.intInpPage1CalAAnio.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.intInpPage1CalAAnio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.intInpPage1CalAAnio.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
-            this.intInpPage1CalAAnio.Location = new System.Drawing.Point(75, 1);
-            this.intInpPage1CalAAnio.Name = "intInpPage1CalAAnio";
-            this.intInpPage1CalAAnio.ShowUpDown = true;
-            this.intInpPage1CalAAnio.Size = new System.Drawing.Size(80, 25);
-            this.intInpPage1CalAAnio.TabIndex = 56;
-            this.intInpPage1CalAAnio.Value = 2017;
-            // 
-            // lblPage1CalAAnio
-            // 
-            this.lblPage1CalAAnio.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.lblPage1CalAAnio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblPage1CalAAnio.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPage1CalAAnio.ForeColor = System.Drawing.Color.Green;
-            this.lblPage1CalAAnio.Location = new System.Drawing.Point(10, 1);
-            this.lblPage1CalAAnio.Name = "lblPage1CalAAnio";
-            this.lblPage1CalAAnio.Size = new System.Drawing.Size(66, 23);
-            this.lblPage1CalAAnio.TabIndex = 55;
-            this.lblPage1CalAAnio.Text = "Año:";
-            // 
-            // WizPage2CalAEvPaq
-            // 
-            this.WizPage2CalAEvPaq.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.WizPage2CalAEvPaq.AntiAlias = false;
-            this.WizPage2CalAEvPaq.Controls.Add(this.lblPage2CalACarga);
-            this.WizPage2CalAEvPaq.Controls.Add(this.gridPage2CalAEvPaq);
-            this.WizPage2CalAEvPaq.Controls.Add(this.lblPage2CalAEvPaq);
-            this.WizPage2CalAEvPaq.Location = new System.Drawing.Point(7, 72);
-            this.WizPage2CalAEvPaq.Name = "WizPage2CalAEvPaq";
-            this.WizPage2CalAEvPaq.PageDescription = resources.GetString("WizPage2CalAEvPaq.PageDescription");
-            this.WizPage2CalAEvPaq.PageTitle = "Paso 1: Cursos, eventos y paquetes";
-            this.WizPage2CalAEvPaq.Size = new System.Drawing.Size(805, 300);
-            // 
-            // 
-            // 
-            this.WizPage2CalAEvPaq.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.WizPage2CalAEvPaq.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.WizPage2CalAEvPaq.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.WizPage2CalAEvPaq.TabIndex = 9;
-            this.WizPage2CalAEvPaq.NextButtonClick += new System.ComponentModel.CancelEventHandler(this.WizPage2CalAEvPaq_NextClick);
-            // 
-            // lblPage2CalACarga
-            // 
-            this.lblPage2CalACarga.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            // 
-            // 
-            // 
-            this.lblPage2CalACarga.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblPage2CalACarga.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPage2CalACarga.ForeColor = System.Drawing.Color.Black;
-            this.lblPage2CalACarga.Location = new System.Drawing.Point(652, 2);
-            this.lblPage2CalACarga.Name = "lblPage2CalACarga";
-            this.lblPage2CalACarga.SingleLineColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblPage2CalACarga.Size = new System.Drawing.Size(105, 23);
-            this.lblPage2CalACarga.TabIndex = 97;
-            this.lblPage2CalACarga.Visible = false;
-            // 
-            // gridPage2CalAEvPaq
-            // 
-            this.gridPage2CalAEvPaq.AllowUserToAddRows = false;
-            this.gridPage2CalAEvPaq.AllowUserToOrderColumns = true;
-            this.gridPage2CalAEvPaq.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridPage2CalAEvPaq.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridPage2CalAEvPaq.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.HEvPaqPage2CalANombre,
-            this.HEvPaqPage2CalATipoProducto,
-            this.HEvPaqPage2CalADestino,
-            this.HEvPaqPage2CalAPrecio,
-            this.HEvPaqPage2CalADuracion,
-            this.HEvPaqPage2CalAActividades,
-            this.HEvPaqPage2CalACupo,
-            this.HEvPaqPage2CalAFSalida,
-            this.HEvPaqPage2CalAFRegreso,
-            this.HEvPaqPage2CalAAgregar});
-            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle50.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle50.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle50.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle50.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle50.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle50.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridPage2CalAEvPaq.DefaultCellStyle = dataGridViewCellStyle50;
-            this.gridPage2CalAEvPaq.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
-            this.gridPage2CalAEvPaq.Location = new System.Drawing.Point(14, 30);
-            this.gridPage2CalAEvPaq.Name = "gridPage2CalAEvPaq";
-            this.gridPage2CalAEvPaq.Size = new System.Drawing.Size(776, 267);
-            this.gridPage2CalAEvPaq.TabIndex = 96;
-            this.gridPage2CalAEvPaq.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridPage2CalAEvPaq_CellClick);
-            this.gridPage2CalAEvPaq.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridPage2CalAEvPaq_CellEndEdit);
-            // 
-            // HEvPaqPage2CalANombre
             // 
-            dataGridViewCellStyle40.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HEvPaqPage2CalANombre.DefaultCellStyle = dataGridViewCellStyle40;
-            this.HEvPaqPage2CalANombre.HeaderText = "Nombre";
-            this.HEvPaqPage2CalANombre.MaxInputLength = 50;
-            this.HEvPaqPage2CalANombre.Name = "HEvPaqPage2CalANombre";
-            this.HEvPaqPage2CalANombre.ReadOnly = true;
-            this.HEvPaqPage2CalANombre.Visible = false;
+            this.lblAPItinerarioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblAPItinerarioA.Location = new System.Drawing.Point(564, 80);
+            this.lblAPItinerarioA.Name = "lblAPItinerarioA";
+            this.lblAPItinerarioA.Size = new System.Drawing.Size(87, 23);
+            this.lblAPItinerarioA.TabIndex = 58;
+            this.lblAPItinerarioA.Text = "Itinerario:";
             // 
-            // HEvPaqPage2CalATipoProducto
+            // txtAPNombreA
             // 
-            dataGridViewCellStyle41.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HEvPaqPage2CalATipoProducto.DefaultCellStyle = dataGridViewCellStyle41;
-            this.HEvPaqPage2CalATipoProducto.HeaderText = "Tipo de Producto";
-            this.HEvPaqPage2CalATipoProducto.Name = "HEvPaqPage2CalATipoProducto";
-            this.HEvPaqPage2CalATipoProducto.ReadOnly = true;
-            this.HEvPaqPage2CalATipoProducto.Width = 135;
+            this.txtAPNombreA.BackColor = System.Drawing.Color.White;
             // 
-            // HEvPaqPage2CalADestino
             // 
-            dataGridViewCellStyle42.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HEvPaqPage2CalADestino.DefaultCellStyle = dataGridViewCellStyle42;
-            this.HEvPaqPage2CalADestino.HeaderText = "Destino";
-            this.HEvPaqPage2CalADestino.MaxInputLength = 200;
-            this.HEvPaqPage2CalADestino.Name = "HEvPaqPage2CalADestino";
-            this.HEvPaqPage2CalADestino.ReadOnly = true;
             // 
-            // HEvPaqPage2CalAPrecio
+            this.txtAPNombreA.Border.Class = "TextBoxBorder";
+            this.txtAPNombreA.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtAPNombreA.Enabled = false;
+            this.txtAPNombreA.ForeColor = System.Drawing.Color.Black;
+            this.txtAPNombreA.Location = new System.Drawing.Point(38, 382);
+            this.txtAPNombreA.Name = "txtAPNombreA";
+            this.txtAPNombreA.Size = new System.Drawing.Size(249, 22);
+            this.txtAPNombreA.TabIndex = 57;
+            this.txtAPNombreA.WatermarkText = "TREK_MED_MDZ_02022017:15022017";
             // 
-            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle43.Format = "C0";
-            dataGridViewCellStyle43.NullValue = null;
-            this.HEvPaqPage2CalAPrecio.DefaultCellStyle = dataGridViewCellStyle43;
-            this.HEvPaqPage2CalAPrecio.HeaderText = "Precio($)";
-            this.HEvPaqPage2CalAPrecio.Name = "HEvPaqPage2CalAPrecio";
-            this.HEvPaqPage2CalAPrecio.ReadOnly = true;
-            this.HEvPaqPage2CalAPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // tabItemAPAgregar
             // 
-            // HEvPaqPage2CalADuracion
-            // 
-            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle44.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle44.Format = "N0";
-            dataGridViewCellStyle44.NullValue = null;
-            this.HEvPaqPage2CalADuracion.DefaultCellStyle = dataGridViewCellStyle44;
-            this.HEvPaqPage2CalADuracion.HeaderText = "Duración(días)";
-            this.HEvPaqPage2CalADuracion.Name = "HEvPaqPage2CalADuracion";
-            this.HEvPaqPage2CalADuracion.ReadOnly = true;
-            // 
-            // HEvPaqPage2CalAActividades
-            // 
-            dataGridViewCellStyle45.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HEvPaqPage2CalAActividades.DefaultCellStyle = dataGridViewCellStyle45;
-            this.HEvPaqPage2CalAActividades.HeaderText = "Actividades";
-            this.HEvPaqPage2CalAActividades.MaxInputLength = 100;
-            this.HEvPaqPage2CalAActividades.Name = "HEvPaqPage2CalAActividades";
-            this.HEvPaqPage2CalAActividades.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HEvPaqPage2CalACupo
-            // 
-            // 
-            // 
-            // 
-            this.HEvPaqPage2CalACupo.BackgroundStyle.Class = "DataGridViewNumericBorder";
-            this.HEvPaqPage2CalACupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle46.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle46.Format = "N0";
-            dataGridViewCellStyle46.NullValue = null;
-            this.HEvPaqPage2CalACupo.DefaultCellStyle = dataGridViewCellStyle46;
-            this.HEvPaqPage2CalACupo.HeaderText = "Cupo";
-            this.HEvPaqPage2CalACupo.MinValue = 0;
-            this.HEvPaqPage2CalACupo.Name = "HEvPaqPage2CalACupo";
-            this.HEvPaqPage2CalACupo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HEvPaqPage2CalACupo.ShowUpDown = true;
-            this.HEvPaqPage2CalACupo.Width = 80;
-            // 
-            // HEvPaqPage2CalAFSalida
-            // 
-            // 
-            // 
-            // 
-            this.HEvPaqPage2CalAFSalida.BackgroundStyle.Class = "DataGridViewDateTimeBorder";
-            this.HEvPaqPage2CalAFSalida.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            dataGridViewCellStyle47.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HEvPaqPage2CalAFSalida.DefaultCellStyle = dataGridViewCellStyle47;
-            this.HEvPaqPage2CalAFSalida.HeaderText = "Fecha Salida";
-            this.HEvPaqPage2CalAFSalida.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
-            // 
-            // 
-            // 
-            this.HEvPaqPage2CalAFSalida.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.HEvPaqPage2CalAFSalida.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.HEvPaqPage2CalAFSalida.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            // 
-            // 
-            // 
-            this.HEvPaqPage2CalAFSalida.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.HEvPaqPage2CalAFSalida.MonthCalendar.DisplayMonth = new System.DateTime(2017, 12, 1, 0, 0, 0, 0);
-            this.HEvPaqPage2CalAFSalida.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.HEvPaqPage2CalAFSalida.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.HEvPaqPage2CalAFSalida.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.HEvPaqPage2CalAFSalida.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.HEvPaqPage2CalAFSalida.Name = "HEvPaqPage2CalAFSalida";
-            // 
-            // HEvPaqPage2CalAFRegreso
-            // 
-            dataGridViewCellStyle48.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HEvPaqPage2CalAFRegreso.DefaultCellStyle = dataGridViewCellStyle48;
-            this.HEvPaqPage2CalAFRegreso.HeaderText = "Fecha Regreso";
-            this.HEvPaqPage2CalAFRegreso.Name = "HEvPaqPage2CalAFRegreso";
-            this.HEvPaqPage2CalAFRegreso.ReadOnly = true;
-            this.HEvPaqPage2CalAFRegreso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HEvPaqPage2CalAAgregar
-            // 
-            this.HEvPaqPage2CalAAgregar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            dataGridViewCellStyle49.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.HEvPaqPage2CalAAgregar.DefaultCellStyle = dataGridViewCellStyle49;
-            this.HEvPaqPage2CalAAgregar.HeaderText = "Agregar";
-            this.HEvPaqPage2CalAAgregar.Image = ((System.Drawing.Image)(resources.GetObject("HEvPaqPage2CalAAgregar.Image")));
-            this.HEvPaqPage2CalAAgregar.Name = "HEvPaqPage2CalAAgregar";
-            this.HEvPaqPage2CalAAgregar.Text = null;
-            this.HEvPaqPage2CalAAgregar.ToolTipText = "Agregar";
-            this.HEvPaqPage2CalAAgregar.Width = 60;
-            // 
-            // lblPage2CalAEvPaq
-            // 
-            this.lblPage2CalAEvPaq.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.lblPage2CalAEvPaq.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblPage2CalAEvPaq.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPage2CalAEvPaq.ForeColor = System.Drawing.Color.Green;
-            this.lblPage2CalAEvPaq.Location = new System.Drawing.Point(14, 4);
-            this.lblPage2CalAEvPaq.Name = "lblPage2CalAEvPaq";
-            this.lblPage2CalAEvPaq.Size = new System.Drawing.Size(312, 23);
-            this.lblPage2CalAEvPaq.TabIndex = 95;
-            this.lblPage2CalAEvPaq.Text = "Paquetes - Eventos";
-            // 
-            // WizPage3CalACurInstructor
-            // 
-            this.WizPage3CalACurInstructor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.WizPage3CalACurInstructor.AntiAlias = false;
-            this.WizPage3CalACurInstructor.Controls.Add(this.lblPage3CalACarga);
-            this.WizPage3CalACurInstructor.Controls.Add(this.lblPage3CalACursoInst);
-            this.WizPage3CalACurInstructor.Controls.Add(this.gridPage3CalAInstCurso);
-            this.WizPage3CalACurInstructor.Location = new System.Drawing.Point(7, 72);
-            this.WizPage3CalACurInstructor.Name = "WizPage3CalACurInstructor";
-            this.WizPage3CalACurInstructor.PageDescription = "Asigne instructores para dictar los cursos.";
-            this.WizPage3CalACurInstructor.PageTitle = "Paso 2: Instructores";
-            this.WizPage3CalACurInstructor.Size = new System.Drawing.Size(805, 300);
-            // 
-            // 
-            // 
-            this.WizPage3CalACurInstructor.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.WizPage3CalACurInstructor.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.WizPage3CalACurInstructor.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.WizPage3CalACurInstructor.TabIndex = 10;
-            this.WizPage3CalACurInstructor.NextButtonClick += new System.ComponentModel.CancelEventHandler(this.WizPage3CalACurInstructor_NextClick);
-            // 
-            // lblPage3CalACarga
-            // 
-            this.lblPage3CalACarga.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            // 
-            // 
-            // 
-            this.lblPage3CalACarga.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblPage3CalACarga.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPage3CalACarga.ForeColor = System.Drawing.Color.Black;
-            this.lblPage3CalACarga.Location = new System.Drawing.Point(655, 8);
-            this.lblPage3CalACarga.Name = "lblPage3CalACarga";
-            this.lblPage3CalACarga.SingleLineColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblPage3CalACarga.Size = new System.Drawing.Size(105, 23);
-            this.lblPage3CalACarga.TabIndex = 98;
-            this.lblPage3CalACarga.Visible = false;
-            // 
-            // lblPage3CalACursoInst
-            // 
-            this.lblPage3CalACursoInst.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.lblPage3CalACursoInst.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblPage3CalACursoInst.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPage3CalACursoInst.ForeColor = System.Drawing.Color.Green;
-            this.lblPage3CalACursoInst.Location = new System.Drawing.Point(13, 7);
-            this.lblPage3CalACursoInst.Name = "lblPage3CalACursoInst";
-            this.lblPage3CalACursoInst.Size = new System.Drawing.Size(463, 23);
-            this.lblPage3CalACursoInst.TabIndex = 93;
-            this.lblPage3CalACursoInst.Text = "Curso - Instructor";
-            // 
-            // gridPage3CalAInstCurso
-            // 
-            this.gridPage3CalAInstCurso.AllowUserToAddRows = false;
-            this.gridPage3CalAInstCurso.AllowUserToOrderColumns = true;
-            this.gridPage3CalAInstCurso.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridPage3CalAInstCurso.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridPage3CalAInstCurso.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.HInstCursoPage3CalANombre,
-            this.HInstCursoPage3CalAActividad,
-            this.HInstCursoPage3CalAPrecio,
-            this.HInstCursoPage3CalADias,
-            this.HInstCursoPage3CalAHoraInicio,
-            this.HInstCursoPage3CalAHoraFin,
-            this.HInstCursoPage3CalACupo,
-            this.HInstCursoPage3CalAMes});
-            dataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle58.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle58.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle58.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle58.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle58.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle58.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridPage3CalAInstCurso.DefaultCellStyle = dataGridViewCellStyle58;
-            this.gridPage3CalAInstCurso.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
-            this.gridPage3CalAInstCurso.Location = new System.Drawing.Point(13, 40);
-            this.gridPage3CalAInstCurso.Name = "gridPage3CalAInstCurso";
-            this.gridPage3CalAInstCurso.Size = new System.Drawing.Size(779, 238);
-            this.gridPage3CalAInstCurso.TabIndex = 92;
-            // 
-            // HInstCursoPage3CalANombre
-            // 
-            dataGridViewCellStyle51.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HInstCursoPage3CalANombre.DefaultCellStyle = dataGridViewCellStyle51;
-            this.HInstCursoPage3CalANombre.HeaderText = "Nombre";
-            this.HInstCursoPage3CalANombre.MaxInputLength = 50;
-            this.HInstCursoPage3CalANombre.Name = "HInstCursoPage3CalANombre";
-            this.HInstCursoPage3CalANombre.ReadOnly = true;
-            this.HInstCursoPage3CalANombre.Visible = false;
-            // 
-            // HInstCursoPage3CalAActividad
-            // 
-            dataGridViewCellStyle52.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HInstCursoPage3CalAActividad.DefaultCellStyle = dataGridViewCellStyle52;
-            this.HInstCursoPage3CalAActividad.HeaderText = "Actividad";
-            this.HInstCursoPage3CalAActividad.MaxInputLength = 200;
-            this.HInstCursoPage3CalAActividad.Name = "HInstCursoPage3CalAActividad";
-            this.HInstCursoPage3CalAActividad.ReadOnly = true;
-            // 
-            // HInstCursoPage3CalAPrecio
-            // 
-            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle53.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle53.Format = "C0";
-            dataGridViewCellStyle53.NullValue = null;
-            this.HInstCursoPage3CalAPrecio.DefaultCellStyle = dataGridViewCellStyle53;
-            this.HInstCursoPage3CalAPrecio.HeaderText = "Precio($)";
-            this.HInstCursoPage3CalAPrecio.Name = "HInstCursoPage3CalAPrecio";
-            this.HInstCursoPage3CalAPrecio.ReadOnly = true;
-            this.HInstCursoPage3CalAPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HInstCursoPage3CalADias
-            // 
-            dataGridViewCellStyle54.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HInstCursoPage3CalADias.DefaultCellStyle = dataGridViewCellStyle54;
-            this.HInstCursoPage3CalADias.HeaderText = "Días";
-            this.HInstCursoPage3CalADias.MaxInputLength = 100;
-            this.HInstCursoPage3CalADias.Name = "HInstCursoPage3CalADias";
-            this.HInstCursoPage3CalADias.ReadOnly = true;
-            this.HInstCursoPage3CalADias.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HInstCursoPage3CalAHoraInicio
-            // 
-            dataGridViewCellStyle55.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HInstCursoPage3CalAHoraInicio.DefaultCellStyle = dataGridViewCellStyle55;
-            this.HInstCursoPage3CalAHoraInicio.HeaderText = "Hora Inicio";
-            this.HInstCursoPage3CalAHoraInicio.Name = "HInstCursoPage3CalAHoraInicio";
-            this.HInstCursoPage3CalAHoraInicio.ReadOnly = true;
-            this.HInstCursoPage3CalAHoraInicio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HInstCursoPage3CalAHoraFin
-            // 
-            dataGridViewCellStyle56.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HInstCursoPage3CalAHoraFin.DefaultCellStyle = dataGridViewCellStyle56;
-            this.HInstCursoPage3CalAHoraFin.HeaderText = "Hora Fin";
-            this.HInstCursoPage3CalAHoraFin.Name = "HInstCursoPage3CalAHoraFin";
-            this.HInstCursoPage3CalAHoraFin.ReadOnly = true;
-            this.HInstCursoPage3CalAHoraFin.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HInstCursoPage3CalACupo
-            // 
-            // 
-            // 
-            // 
-            this.HInstCursoPage3CalACupo.BackgroundStyle.Class = "DataGridViewNumericBorder";
-            this.HInstCursoPage3CalACupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            dataGridViewCellStyle57.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle57.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle57.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle57.Format = "N0";
-            dataGridViewCellStyle57.NullValue = null;
-            this.HInstCursoPage3CalACupo.DefaultCellStyle = dataGridViewCellStyle57;
-            this.HInstCursoPage3CalACupo.HeaderText = "Cupo";
-            this.HInstCursoPage3CalACupo.Name = "HInstCursoPage3CalACupo";
-            this.HInstCursoPage3CalACupo.ReadOnly = true;
-            this.HInstCursoPage3CalACupo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HInstCursoPage3CalAMes
-            // 
-            this.HInstCursoPage3CalAMes.HeaderText = "Mes";
-            this.HInstCursoPage3CalAMes.Name = "HInstCursoPage3CalAMes";
-            this.HInstCursoPage3CalAMes.ReadOnly = true;
-            // 
-            // WizPage4CalAPaqEvInstructor
-            // 
-            this.WizPage4CalAPaqEvInstructor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.WizPage4CalAPaqEvInstructor.AntiAlias = false;
-            this.WizPage4CalAPaqEvInstructor.Controls.Add(this.lblPage4CalACarga);
-            this.WizPage4CalAPaqEvInstructor.Controls.Add(this.gridPage4CalAInstPaqEv);
-            this.WizPage4CalAPaqEvInstructor.Controls.Add(this.lblPage4CalAPaqEvInst);
-            this.WizPage4CalAPaqEvInstructor.Location = new System.Drawing.Point(7, 72);
-            this.WizPage4CalAPaqEvInstructor.Name = "WizPage4CalAPaqEvInstructor";
-            this.WizPage4CalAPaqEvInstructor.PageDescription = "Asigne instructores para coordinar los paquetes y eventos.";
-            this.WizPage4CalAPaqEvInstructor.PageTitle = "Paso 2: Instructores";
-            this.WizPage4CalAPaqEvInstructor.Size = new System.Drawing.Size(805, 300);
-            // 
-            // 
-            // 
-            this.WizPage4CalAPaqEvInstructor.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.WizPage4CalAPaqEvInstructor.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.WizPage4CalAPaqEvInstructor.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.WizPage4CalAPaqEvInstructor.TabIndex = 11;
-            this.WizPage4CalAPaqEvInstructor.NextButtonClick += new System.ComponentModel.CancelEventHandler(this.WizPage4CalAPaqEvInstructor_NextClick);
-            // 
-            // lblPage4CalACarga
-            // 
-            this.lblPage4CalACarga.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            // 
-            // 
-            // 
-            this.lblPage4CalACarga.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblPage4CalACarga.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPage4CalACarga.ForeColor = System.Drawing.Color.Black;
-            this.lblPage4CalACarga.Location = new System.Drawing.Point(652, 4);
-            this.lblPage4CalACarga.Name = "lblPage4CalACarga";
-            this.lblPage4CalACarga.SingleLineColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblPage4CalACarga.Size = new System.Drawing.Size(105, 23);
-            this.lblPage4CalACarga.TabIndex = 100;
-            this.lblPage4CalACarga.Visible = false;
-            // 
-            // gridPage4CalAInstPaqEv
-            // 
-            this.gridPage4CalAInstPaqEv.AllowUserToAddRows = false;
-            this.gridPage4CalAInstPaqEv.AllowUserToOrderColumns = true;
-            this.gridPage4CalAInstPaqEv.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridPage4CalAInstPaqEv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridPage4CalAInstPaqEv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.HInstPaqEvPage4CalANombre,
-            this.HInstPaqEvPage4CalATipoProducto,
-            this.HInstPaqEvPage4CalADestino,
-            this.HInstPaqEvPage4CalAPrecio,
-            this.HInstPaqEvPage4CalADuracion,
-            this.HInstPaqEvPage4CalAActividades,
-            this.HInstPaqEvPage4CalACupo,
-            this.HInstPaqEvPage4CalAFechaSalida,
-            this.HInstPaqEvPage4CalAFechaRegreso});
-            dataGridViewCellStyle68.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle68.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle68.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle68.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle68.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle68.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle68.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridPage4CalAInstPaqEv.DefaultCellStyle = dataGridViewCellStyle68;
-            this.gridPage4CalAInstPaqEv.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
-            this.gridPage4CalAInstPaqEv.Location = new System.Drawing.Point(14, 32);
-            this.gridPage4CalAInstPaqEv.Name = "gridPage4CalAInstPaqEv";
-            this.gridPage4CalAInstPaqEv.Size = new System.Drawing.Size(776, 267);
-            this.gridPage4CalAInstPaqEv.TabIndex = 99;
-            // 
-            // HInstPaqEvPage4CalANombre
-            // 
-            dataGridViewCellStyle59.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HInstPaqEvPage4CalANombre.DefaultCellStyle = dataGridViewCellStyle59;
-            this.HInstPaqEvPage4CalANombre.HeaderText = "Nombre";
-            this.HInstPaqEvPage4CalANombre.MaxInputLength = 50;
-            this.HInstPaqEvPage4CalANombre.Name = "HInstPaqEvPage4CalANombre";
-            this.HInstPaqEvPage4CalANombre.ReadOnly = true;
-            this.HInstPaqEvPage4CalANombre.Visible = false;
-            // 
-            // HInstPaqEvPage4CalATipoProducto
-            // 
-            dataGridViewCellStyle60.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HInstPaqEvPage4CalATipoProducto.DefaultCellStyle = dataGridViewCellStyle60;
-            this.HInstPaqEvPage4CalATipoProducto.HeaderText = "Tipo de Producto";
-            this.HInstPaqEvPage4CalATipoProducto.Name = "HInstPaqEvPage4CalATipoProducto";
-            this.HInstPaqEvPage4CalATipoProducto.ReadOnly = true;
-            this.HInstPaqEvPage4CalATipoProducto.Width = 135;
-            // 
-            // HInstPaqEvPage4CalADestino
-            // 
-            dataGridViewCellStyle61.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HInstPaqEvPage4CalADestino.DefaultCellStyle = dataGridViewCellStyle61;
-            this.HInstPaqEvPage4CalADestino.HeaderText = "Destino";
-            this.HInstPaqEvPage4CalADestino.MaxInputLength = 200;
-            this.HInstPaqEvPage4CalADestino.Name = "HInstPaqEvPage4CalADestino";
-            this.HInstPaqEvPage4CalADestino.ReadOnly = true;
-            // 
-            // HInstPaqEvPage4CalAPrecio
-            // 
-            dataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle62.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle62.Format = "C0";
-            dataGridViewCellStyle62.NullValue = null;
-            this.HInstPaqEvPage4CalAPrecio.DefaultCellStyle = dataGridViewCellStyle62;
-            this.HInstPaqEvPage4CalAPrecio.HeaderText = "Precio($)";
-            this.HInstPaqEvPage4CalAPrecio.Name = "HInstPaqEvPage4CalAPrecio";
-            this.HInstPaqEvPage4CalAPrecio.ReadOnly = true;
-            this.HInstPaqEvPage4CalAPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HInstPaqEvPage4CalADuracion
-            // 
-            dataGridViewCellStyle63.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle63.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle63.Format = "N0";
-            dataGridViewCellStyle63.NullValue = null;
-            this.HInstPaqEvPage4CalADuracion.DefaultCellStyle = dataGridViewCellStyle63;
-            this.HInstPaqEvPage4CalADuracion.HeaderText = "Duración(días)";
-            this.HInstPaqEvPage4CalADuracion.Name = "HInstPaqEvPage4CalADuracion";
-            this.HInstPaqEvPage4CalADuracion.ReadOnly = true;
-            // 
-            // HInstPaqEvPage4CalAActividades
-            // 
-            dataGridViewCellStyle64.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HInstPaqEvPage4CalAActividades.DefaultCellStyle = dataGridViewCellStyle64;
-            this.HInstPaqEvPage4CalAActividades.HeaderText = "Actividades";
-            this.HInstPaqEvPage4CalAActividades.MaxInputLength = 100;
-            this.HInstPaqEvPage4CalAActividades.Name = "HInstPaqEvPage4CalAActividades";
-            this.HInstPaqEvPage4CalAActividades.ReadOnly = true;
-            this.HInstPaqEvPage4CalAActividades.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HInstPaqEvPage4CalACupo
-            // 
-            // 
-            // 
-            // 
-            this.HInstPaqEvPage4CalACupo.BackgroundStyle.Class = "DataGridViewNumericBorder";
-            this.HInstPaqEvPage4CalACupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            dataGridViewCellStyle65.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle65.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle65.Format = "C0";
-            dataGridViewCellStyle65.NullValue = null;
-            this.HInstPaqEvPage4CalACupo.DefaultCellStyle = dataGridViewCellStyle65;
-            this.HInstPaqEvPage4CalACupo.HeaderText = "Cupo";
-            this.HInstPaqEvPage4CalACupo.MinValue = 0;
-            this.HInstPaqEvPage4CalACupo.Name = "HInstPaqEvPage4CalACupo";
-            this.HInstPaqEvPage4CalACupo.ReadOnly = true;
-            this.HInstPaqEvPage4CalACupo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HInstPaqEvPage4CalACupo.ShowUpDown = true;
-            this.HInstPaqEvPage4CalACupo.Width = 50;
-            // 
-            // HInstPaqEvPage4CalAFechaSalida
-            // 
-            // 
-            // 
-            // 
-            this.HInstPaqEvPage4CalAFechaSalida.BackgroundStyle.Class = "DataGridViewDateTimeBorder";
-            this.HInstPaqEvPage4CalAFechaSalida.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            dataGridViewCellStyle66.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HInstPaqEvPage4CalAFechaSalida.DefaultCellStyle = dataGridViewCellStyle66;
-            this.HInstPaqEvPage4CalAFechaSalida.HeaderText = "Fecha Salida";
-            this.HInstPaqEvPage4CalAFechaSalida.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
-            // 
-            // 
-            // 
-            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            // 
-            // 
-            // 
-            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.DisplayMonth = new System.DateTime(2017, 12, 1, 0, 0, 0, 0);
-            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.HInstPaqEvPage4CalAFechaSalida.Name = "HInstPaqEvPage4CalAFechaSalida";
-            this.HInstPaqEvPage4CalAFechaSalida.ReadOnly = true;
-            // 
-            // HInstPaqEvPage4CalAFechaRegreso
-            // 
-            dataGridViewCellStyle67.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HInstPaqEvPage4CalAFechaRegreso.DefaultCellStyle = dataGridViewCellStyle67;
-            this.HInstPaqEvPage4CalAFechaRegreso.HeaderText = "Fecha Regreso";
-            this.HInstPaqEvPage4CalAFechaRegreso.Name = "HInstPaqEvPage4CalAFechaRegreso";
-            this.HInstPaqEvPage4CalAFechaRegreso.ReadOnly = true;
-            this.HInstPaqEvPage4CalAFechaRegreso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // lblPage4CalAPaqEvInst
-            // 
-            this.lblPage4CalAPaqEvInst.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.lblPage4CalAPaqEvInst.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblPage4CalAPaqEvInst.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPage4CalAPaqEvInst.ForeColor = System.Drawing.Color.Green;
-            this.lblPage4CalAPaqEvInst.Location = new System.Drawing.Point(14, 4);
-            this.lblPage4CalAPaqEvInst.Name = "lblPage4CalAPaqEvInst";
-            this.lblPage4CalAPaqEvInst.Size = new System.Drawing.Size(510, 23);
-            this.lblPage4CalAPaqEvInst.TabIndex = 98;
-            this.lblPage4CalAPaqEvInst.Text = "Paquetes - Eventos - Instructor";
-            // 
-            // WizPage5CalACurInstAloj
-            // 
-            this.WizPage5CalACurInstAloj.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.WizPage5CalACurInstAloj.AntiAlias = false;
-            this.WizPage5CalACurInstAloj.Controls.Add(this.gridPage5CalAInstPaqEvAloj);
-            this.WizPage5CalACurInstAloj.Controls.Add(this.lblPage5CalAPaqEvInstAloj);
-            this.WizPage5CalACurInstAloj.Controls.Add(this.lblPage5CalACarga);
-            this.WizPage5CalACurInstAloj.Location = new System.Drawing.Point(7, 72);
-            this.WizPage5CalACurInstAloj.Name = "WizPage5CalACurInstAloj";
-            this.WizPage5CalACurInstAloj.PageDescription = "Asigne alojamiento para los paquetes y eventos.";
-            this.WizPage5CalACurInstAloj.PageTitle = "Paso 3: Alojamiento";
-            this.WizPage5CalACurInstAloj.Size = new System.Drawing.Size(805, 300);
-            // 
-            // 
-            // 
-            this.WizPage5CalACurInstAloj.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.WizPage5CalACurInstAloj.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.WizPage5CalACurInstAloj.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.WizPage5CalACurInstAloj.TabIndex = 12;
-            this.WizPage5CalACurInstAloj.NextButtonClick += new System.ComponentModel.CancelEventHandler(this.WizPage5CalACurInstAloj_NextClick);
-            // 
-            // gridPage5CalAInstPaqEvAloj
-            // 
-            this.gridPage5CalAInstPaqEvAloj.AllowUserToAddRows = false;
-            this.gridPage5CalAInstPaqEvAloj.AllowUserToOrderColumns = true;
-            this.gridPage5CalAInstPaqEvAloj.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridPage5CalAInstPaqEvAloj.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridPage5CalAInstPaqEvAloj.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.HAlojPaqEvPage5CalANombre,
-            this.HAlojPaqEvPage5CalATipoProducto,
-            this.HAlojPaqEvPage5CalADestino,
-            this.HAlojPaqEvPage5CalAPrecio,
-            this.HAlojPaqEvPage5CalADuracion,
-            this.HAlojPaqEvPage5CalAActividades,
-            this.HAlojPaqEvPage5CalACupo,
-            this.HAlojPaqEvPage5CalAFechaSalida,
-            this.HAlojPaqEvPage5CalAFechaRegreso,
-            this.HAlojPaqEvPage5CalAInstructor});
-            dataGridViewCellStyle78.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle78.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle78.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle78.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle78.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle78.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle78.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridPage5CalAInstPaqEvAloj.DefaultCellStyle = dataGridViewCellStyle78;
-            this.gridPage5CalAInstPaqEvAloj.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
-            this.gridPage5CalAInstPaqEvAloj.Location = new System.Drawing.Point(13, 31);
-            this.gridPage5CalAInstPaqEvAloj.Name = "gridPage5CalAInstPaqEvAloj";
-            this.gridPage5CalAInstPaqEvAloj.Size = new System.Drawing.Size(776, 267);
-            this.gridPage5CalAInstPaqEvAloj.TabIndex = 103;
-            // 
-            // HAlojPaqEvPage5CalANombre
-            // 
-            dataGridViewCellStyle69.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HAlojPaqEvPage5CalANombre.DefaultCellStyle = dataGridViewCellStyle69;
-            this.HAlojPaqEvPage5CalANombre.HeaderText = "Nombre";
-            this.HAlojPaqEvPage5CalANombre.MaxInputLength = 50;
-            this.HAlojPaqEvPage5CalANombre.Name = "HAlojPaqEvPage5CalANombre";
-            this.HAlojPaqEvPage5CalANombre.ReadOnly = true;
-            this.HAlojPaqEvPage5CalANombre.Visible = false;
-            // 
-            // HAlojPaqEvPage5CalATipoProducto
-            // 
-            dataGridViewCellStyle70.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HAlojPaqEvPage5CalATipoProducto.DefaultCellStyle = dataGridViewCellStyle70;
-            this.HAlojPaqEvPage5CalATipoProducto.HeaderText = "Tipo de Producto";
-            this.HAlojPaqEvPage5CalATipoProducto.Name = "HAlojPaqEvPage5CalATipoProducto";
-            this.HAlojPaqEvPage5CalATipoProducto.ReadOnly = true;
-            this.HAlojPaqEvPage5CalATipoProducto.Width = 80;
-            // 
-            // HAlojPaqEvPage5CalADestino
-            // 
-            dataGridViewCellStyle71.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HAlojPaqEvPage5CalADestino.DefaultCellStyle = dataGridViewCellStyle71;
-            this.HAlojPaqEvPage5CalADestino.HeaderText = "Destino";
-            this.HAlojPaqEvPage5CalADestino.MaxInputLength = 200;
-            this.HAlojPaqEvPage5CalADestino.Name = "HAlojPaqEvPage5CalADestino";
-            this.HAlojPaqEvPage5CalADestino.ReadOnly = true;
-            // 
-            // HAlojPaqEvPage5CalAPrecio
-            // 
-            dataGridViewCellStyle72.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle72.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle72.Format = "C0";
-            dataGridViewCellStyle72.NullValue = null;
-            this.HAlojPaqEvPage5CalAPrecio.DefaultCellStyle = dataGridViewCellStyle72;
-            this.HAlojPaqEvPage5CalAPrecio.HeaderText = "Precio";
-            this.HAlojPaqEvPage5CalAPrecio.Name = "HAlojPaqEvPage5CalAPrecio";
-            this.HAlojPaqEvPage5CalAPrecio.ReadOnly = true;
-            this.HAlojPaqEvPage5CalAPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HAlojPaqEvPage5CalAPrecio.Width = 70;
-            // 
-            // HAlojPaqEvPage5CalADuracion
-            // 
-            dataGridViewCellStyle73.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle73.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle73.Format = "N0";
-            dataGridViewCellStyle73.NullValue = null;
-            this.HAlojPaqEvPage5CalADuracion.DefaultCellStyle = dataGridViewCellStyle73;
-            this.HAlojPaqEvPage5CalADuracion.HeaderText = "Duración (días)";
-            this.HAlojPaqEvPage5CalADuracion.Name = "HAlojPaqEvPage5CalADuracion";
-            this.HAlojPaqEvPage5CalADuracion.ReadOnly = true;
-            this.HAlojPaqEvPage5CalADuracion.Width = 70;
-            // 
-            // HAlojPaqEvPage5CalAActividades
-            // 
-            dataGridViewCellStyle74.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HAlojPaqEvPage5CalAActividades.DefaultCellStyle = dataGridViewCellStyle74;
-            this.HAlojPaqEvPage5CalAActividades.HeaderText = "Actividades";
-            this.HAlojPaqEvPage5CalAActividades.MaxInputLength = 100;
-            this.HAlojPaqEvPage5CalAActividades.Name = "HAlojPaqEvPage5CalAActividades";
-            this.HAlojPaqEvPage5CalAActividades.ReadOnly = true;
-            this.HAlojPaqEvPage5CalAActividades.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HAlojPaqEvPage5CalACupo
-            // 
-            // 
-            // 
-            // 
-            this.HAlojPaqEvPage5CalACupo.BackgroundStyle.Class = "DataGridViewNumericBorder";
-            this.HAlojPaqEvPage5CalACupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            dataGridViewCellStyle75.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle75.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle75.Format = "N0";
-            dataGridViewCellStyle75.NullValue = null;
-            this.HAlojPaqEvPage5CalACupo.DefaultCellStyle = dataGridViewCellStyle75;
-            this.HAlojPaqEvPage5CalACupo.HeaderText = "Cupo";
-            this.HAlojPaqEvPage5CalACupo.MinValue = 0;
-            this.HAlojPaqEvPage5CalACupo.Name = "HAlojPaqEvPage5CalACupo";
-            this.HAlojPaqEvPage5CalACupo.ReadOnly = true;
-            this.HAlojPaqEvPage5CalACupo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HAlojPaqEvPage5CalACupo.ShowUpDown = true;
-            this.HAlojPaqEvPage5CalACupo.Width = 50;
-            // 
-            // HAlojPaqEvPage5CalAFechaSalida
-            // 
-            // 
-            // 
-            // 
-            this.HAlojPaqEvPage5CalAFechaSalida.BackgroundStyle.Class = "DataGridViewDateTimeBorder";
-            this.HAlojPaqEvPage5CalAFechaSalida.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            dataGridViewCellStyle76.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HAlojPaqEvPage5CalAFechaSalida.DefaultCellStyle = dataGridViewCellStyle76;
-            this.HAlojPaqEvPage5CalAFechaSalida.HeaderText = "Fecha Salida";
-            this.HAlojPaqEvPage5CalAFechaSalida.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
-            // 
-            // 
-            // 
-            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            // 
-            // 
-            // 
-            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.DisplayMonth = new System.DateTime(2017, 12, 1, 0, 0, 0, 0);
-            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.HAlojPaqEvPage5CalAFechaSalida.Name = "HAlojPaqEvPage5CalAFechaSalida";
-            this.HAlojPaqEvPage5CalAFechaSalida.ReadOnly = true;
-            this.HAlojPaqEvPage5CalAFechaSalida.Width = 80;
-            // 
-            // HAlojPaqEvPage5CalAFechaRegreso
-            // 
-            dataGridViewCellStyle77.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HAlojPaqEvPage5CalAFechaRegreso.DefaultCellStyle = dataGridViewCellStyle77;
-            this.HAlojPaqEvPage5CalAFechaRegreso.HeaderText = "Fecha Regreso";
-            this.HAlojPaqEvPage5CalAFechaRegreso.Name = "HAlojPaqEvPage5CalAFechaRegreso";
-            this.HAlojPaqEvPage5CalAFechaRegreso.ReadOnly = true;
-            this.HAlojPaqEvPage5CalAFechaRegreso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HAlojPaqEvPage5CalAFechaRegreso.Width = 80;
-            // 
-            // HAlojPaqEvPage5CalAInstructor
-            // 
-            this.HAlojPaqEvPage5CalAInstructor.HeaderText = "Instructor";
-            this.HAlojPaqEvPage5CalAInstructor.Name = "HAlojPaqEvPage5CalAInstructor";
-            this.HAlojPaqEvPage5CalAInstructor.ReadOnly = true;
-            this.HAlojPaqEvPage5CalAInstructor.Width = 140;
-            // 
-            // lblPage5CalAPaqEvInstAloj
-            // 
-            this.lblPage5CalAPaqEvInstAloj.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.lblPage5CalAPaqEvInstAloj.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblPage5CalAPaqEvInstAloj.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPage5CalAPaqEvInstAloj.ForeColor = System.Drawing.Color.Green;
-            this.lblPage5CalAPaqEvInstAloj.Location = new System.Drawing.Point(13, 3);
-            this.lblPage5CalAPaqEvInstAloj.Name = "lblPage5CalAPaqEvInstAloj";
-            this.lblPage5CalAPaqEvInstAloj.Size = new System.Drawing.Size(586, 23);
-            this.lblPage5CalAPaqEvInstAloj.TabIndex = 102;
-            this.lblPage5CalAPaqEvInstAloj.Text = "Paquetes - Eventos + Instructor - Alojamiento";
-            // 
-            // lblPage5CalACarga
-            // 
-            this.lblPage5CalACarga.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            // 
-            // 
-            // 
-            this.lblPage5CalACarga.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblPage5CalACarga.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPage5CalACarga.ForeColor = System.Drawing.Color.Black;
-            this.lblPage5CalACarga.Location = new System.Drawing.Point(668, 3);
-            this.lblPage5CalACarga.Name = "lblPage5CalACarga";
-            this.lblPage5CalACarga.SingleLineColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblPage5CalACarga.Size = new System.Drawing.Size(105, 23);
-            this.lblPage5CalACarga.TabIndex = 101;
-            this.lblPage5CalACarga.Visible = false;
-            // 
-            // WizPage6CalACurInstAlojTras
-            // 
-            this.WizPage6CalACurInstAlojTras.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.WizPage6CalACurInstAlojTras.AntiAlias = false;
-            this.WizPage6CalACurInstAlojTras.Controls.Add(this.gridPage6CalAInstPaqEvAlojTras);
-            this.WizPage6CalACurInstAlojTras.Controls.Add(this.lblPage6CalAPaqEvInstAlojTras);
-            this.WizPage6CalACurInstAlojTras.Controls.Add(this.lblPage6CalACarga);
-            this.WizPage6CalACurInstAlojTras.Location = new System.Drawing.Point(7, 72);
-            this.WizPage6CalACurInstAlojTras.Name = "WizPage6CalACurInstAlojTras";
-            this.WizPage6CalACurInstAlojTras.PageDescription = "Asigne traslados para los paquetes y eventos.";
-            this.WizPage6CalACurInstAlojTras.PageTitle = "Paso 4: Traslado";
-            this.WizPage6CalACurInstAlojTras.Size = new System.Drawing.Size(805, 300);
-            // 
-            // 
-            // 
-            this.WizPage6CalACurInstAlojTras.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.WizPage6CalACurInstAlojTras.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.WizPage6CalACurInstAlojTras.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.WizPage6CalACurInstAlojTras.TabIndex = 13;
-            this.WizPage6CalACurInstAlojTras.FinishButtonClick += new System.ComponentModel.CancelEventHandler(this.WizPage6CalACurInstAlojTras_FinishClick);
-            // 
-            // gridPage6CalAInstPaqEvAlojTras
-            // 
-            this.gridPage6CalAInstPaqEvAlojTras.AllowUserToAddRows = false;
-            this.gridPage6CalAInstPaqEvAlojTras.AllowUserToOrderColumns = true;
-            this.gridPage6CalAInstPaqEvAlojTras.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridPage6CalAInstPaqEvAlojTras.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridPage6CalAInstPaqEvAlojTras.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.HTrasPaqEvPage6CalANombre,
-            this.HTrasPaqEvPage6CalATipoProducto,
-            this.HTrasPaqEvPage6CalADestino,
-            this.HTrasPaqEvPage6CalAPrecio,
-            this.HTrasPaqEvPage6CalADuracion,
-            this.HTrasPaqEvPage6CalAActividades,
-            this.HTrasPaqEvPage6CalACupo,
-            this.HTrasPaqEvPage6CalAFSalida,
-            this.HTrasPaqEvPage6CalAFRegreso,
-            this.HTrasPaqEvPage6CalAInstructor,
-            this.HTrasPaqEvPage6CalAAlojamiento});
-            dataGridViewCellStyle90.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle90.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle90.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle90.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle90.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle90.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle90.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridPage6CalAInstPaqEvAlojTras.DefaultCellStyle = dataGridViewCellStyle90;
-            this.gridPage6CalAInstPaqEvAlojTras.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
-            this.gridPage6CalAInstPaqEvAlojTras.Location = new System.Drawing.Point(6, 31);
-            this.gridPage6CalAInstPaqEvAlojTras.Name = "gridPage6CalAInstPaqEvAlojTras";
-            this.gridPage6CalAInstPaqEvAlojTras.Size = new System.Drawing.Size(776, 267);
-            this.gridPage6CalAInstPaqEvAlojTras.TabIndex = 106;
-            // 
-            // HTrasPaqEvPage6CalANombre
-            // 
-            dataGridViewCellStyle79.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HTrasPaqEvPage6CalANombre.DefaultCellStyle = dataGridViewCellStyle79;
-            this.HTrasPaqEvPage6CalANombre.HeaderText = "Nombre";
-            this.HTrasPaqEvPage6CalANombre.MaxInputLength = 50;
-            this.HTrasPaqEvPage6CalANombre.Name = "HTrasPaqEvPage6CalANombre";
-            this.HTrasPaqEvPage6CalANombre.ReadOnly = true;
-            this.HTrasPaqEvPage6CalANombre.Visible = false;
-            // 
-            // HTrasPaqEvPage6CalATipoProducto
-            // 
-            dataGridViewCellStyle80.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HTrasPaqEvPage6CalATipoProducto.DefaultCellStyle = dataGridViewCellStyle80;
-            this.HTrasPaqEvPage6CalATipoProducto.HeaderText = "Tipo de Producto";
-            this.HTrasPaqEvPage6CalATipoProducto.Name = "HTrasPaqEvPage6CalATipoProducto";
-            this.HTrasPaqEvPage6CalATipoProducto.ReadOnly = true;
-            this.HTrasPaqEvPage6CalATipoProducto.Width = 80;
-            // 
-            // HTrasPaqEvPage6CalADestino
-            // 
-            dataGridViewCellStyle81.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HTrasPaqEvPage6CalADestino.DefaultCellStyle = dataGridViewCellStyle81;
-            this.HTrasPaqEvPage6CalADestino.HeaderText = "Destino";
-            this.HTrasPaqEvPage6CalADestino.MaxInputLength = 200;
-            this.HTrasPaqEvPage6CalADestino.Name = "HTrasPaqEvPage6CalADestino";
-            this.HTrasPaqEvPage6CalADestino.ReadOnly = true;
-            // 
-            // HTrasPaqEvPage6CalAPrecio
-            // 
-            dataGridViewCellStyle82.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle82.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle82.Format = "C0";
-            dataGridViewCellStyle82.NullValue = null;
-            this.HTrasPaqEvPage6CalAPrecio.DefaultCellStyle = dataGridViewCellStyle82;
-            this.HTrasPaqEvPage6CalAPrecio.HeaderText = "Precio";
-            this.HTrasPaqEvPage6CalAPrecio.Name = "HTrasPaqEvPage6CalAPrecio";
-            this.HTrasPaqEvPage6CalAPrecio.ReadOnly = true;
-            this.HTrasPaqEvPage6CalAPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HTrasPaqEvPage6CalAPrecio.Width = 70;
-            // 
-            // HTrasPaqEvPage6CalADuracion
-            // 
-            dataGridViewCellStyle83.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle83.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle83.Format = "N0";
-            dataGridViewCellStyle83.NullValue = null;
-            this.HTrasPaqEvPage6CalADuracion.DefaultCellStyle = dataGridViewCellStyle83;
-            this.HTrasPaqEvPage6CalADuracion.HeaderText = "Duración (días)";
-            this.HTrasPaqEvPage6CalADuracion.Name = "HTrasPaqEvPage6CalADuracion";
-            this.HTrasPaqEvPage6CalADuracion.ReadOnly = true;
-            this.HTrasPaqEvPage6CalADuracion.Width = 70;
-            // 
-            // HTrasPaqEvPage6CalAActividades
-            // 
-            dataGridViewCellStyle84.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HTrasPaqEvPage6CalAActividades.DefaultCellStyle = dataGridViewCellStyle84;
-            this.HTrasPaqEvPage6CalAActividades.HeaderText = "Actividades";
-            this.HTrasPaqEvPage6CalAActividades.MaxInputLength = 100;
-            this.HTrasPaqEvPage6CalAActividades.Name = "HTrasPaqEvPage6CalAActividades";
-            this.HTrasPaqEvPage6CalAActividades.ReadOnly = true;
-            this.HTrasPaqEvPage6CalAActividades.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HTrasPaqEvPage6CalACupo
-            // 
-            // 
-            // 
-            // 
-            this.HTrasPaqEvPage6CalACupo.BackgroundStyle.Class = "DataGridViewNumericBorder";
-            this.HTrasPaqEvPage6CalACupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            dataGridViewCellStyle85.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle85.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle85.Format = "N0";
-            dataGridViewCellStyle85.NullValue = null;
-            this.HTrasPaqEvPage6CalACupo.DefaultCellStyle = dataGridViewCellStyle85;
-            this.HTrasPaqEvPage6CalACupo.HeaderText = "Cupo";
-            this.HTrasPaqEvPage6CalACupo.MinValue = 0;
-            this.HTrasPaqEvPage6CalACupo.Name = "HTrasPaqEvPage6CalACupo";
-            this.HTrasPaqEvPage6CalACupo.ReadOnly = true;
-            this.HTrasPaqEvPage6CalACupo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HTrasPaqEvPage6CalACupo.ShowUpDown = true;
-            this.HTrasPaqEvPage6CalACupo.Width = 50;
-            // 
-            // HTrasPaqEvPage6CalAFSalida
-            // 
-            // 
-            // 
-            // 
-            this.HTrasPaqEvPage6CalAFSalida.BackgroundStyle.Class = "DataGridViewDateTimeBorder";
-            this.HTrasPaqEvPage6CalAFSalida.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            dataGridViewCellStyle86.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HTrasPaqEvPage6CalAFSalida.DefaultCellStyle = dataGridViewCellStyle86;
-            this.HTrasPaqEvPage6CalAFSalida.HeaderText = "Fecha Salida";
-            this.HTrasPaqEvPage6CalAFSalida.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
-            // 
-            // 
-            // 
-            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            // 
-            // 
-            // 
-            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.DisplayMonth = new System.DateTime(2017, 12, 1, 0, 0, 0, 0);
-            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.HTrasPaqEvPage6CalAFSalida.Name = "HTrasPaqEvPage6CalAFSalida";
-            this.HTrasPaqEvPage6CalAFSalida.ReadOnly = true;
-            this.HTrasPaqEvPage6CalAFSalida.Width = 80;
-            // 
-            // HTrasPaqEvPage6CalAFRegreso
-            // 
-            dataGridViewCellStyle87.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HTrasPaqEvPage6CalAFRegreso.DefaultCellStyle = dataGridViewCellStyle87;
-            this.HTrasPaqEvPage6CalAFRegreso.HeaderText = "Fecha Regreso";
-            this.HTrasPaqEvPage6CalAFRegreso.Name = "HTrasPaqEvPage6CalAFRegreso";
-            this.HTrasPaqEvPage6CalAFRegreso.ReadOnly = true;
-            this.HTrasPaqEvPage6CalAFRegreso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HTrasPaqEvPage6CalAFRegreso.Width = 80;
-            // 
-            // HTrasPaqEvPage6CalAInstructor
-            // 
-            dataGridViewCellStyle88.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HTrasPaqEvPage6CalAInstructor.DefaultCellStyle = dataGridViewCellStyle88;
-            this.HTrasPaqEvPage6CalAInstructor.HeaderText = "Instructor";
-            this.HTrasPaqEvPage6CalAInstructor.Name = "HTrasPaqEvPage6CalAInstructor";
-            this.HTrasPaqEvPage6CalAInstructor.ReadOnly = true;
-            this.HTrasPaqEvPage6CalAInstructor.Width = 140;
-            // 
-            // HTrasPaqEvPage6CalAAlojamiento
-            // 
-            dataGridViewCellStyle89.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HTrasPaqEvPage6CalAAlojamiento.DefaultCellStyle = dataGridViewCellStyle89;
-            this.HTrasPaqEvPage6CalAAlojamiento.HeaderText = "Alojamiento";
-            this.HTrasPaqEvPage6CalAAlojamiento.Name = "HTrasPaqEvPage6CalAAlojamiento";
-            this.HTrasPaqEvPage6CalAAlojamiento.ReadOnly = true;
-            this.HTrasPaqEvPage6CalAAlojamiento.Width = 240;
-            // 
-            // lblPage6CalAPaqEvInstAlojTras
-            // 
-            this.lblPage6CalAPaqEvInstAlojTras.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.lblPage6CalAPaqEvInstAlojTras.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblPage6CalAPaqEvInstAlojTras.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPage6CalAPaqEvInstAlojTras.ForeColor = System.Drawing.Color.Green;
-            this.lblPage6CalAPaqEvInstAlojTras.Location = new System.Drawing.Point(6, 3);
-            this.lblPage6CalAPaqEvInstAlojTras.Name = "lblPage6CalAPaqEvInstAlojTras";
-            this.lblPage6CalAPaqEvInstAlojTras.Size = new System.Drawing.Size(586, 23);
-            this.lblPage6CalAPaqEvInstAlojTras.TabIndex = 105;
-            this.lblPage6CalAPaqEvInstAlojTras.Text = "Paquetes - Eventos + Instructor + Alojamiento - Traslado";
-            // 
-            // lblPage6CalACarga
-            // 
-            this.lblPage6CalACarga.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            // 
-            // 
-            // 
-            this.lblPage6CalACarga.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblPage6CalACarga.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPage6CalACarga.ForeColor = System.Drawing.Color.Black;
-            this.lblPage6CalACarga.Location = new System.Drawing.Point(661, 3);
-            this.lblPage6CalACarga.Name = "lblPage6CalACarga";
-            this.lblPage6CalACarga.SingleLineColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblPage6CalACarga.Size = new System.Drawing.Size(105, 23);
-            this.lblPage6CalACarga.TabIndex = 104;
-            this.lblPage6CalACarga.Visible = false;
-            // 
-            // tabItemACalAgregar
-            // 
-            this.tabItemACalAgregar.AttachedControl = this.superTabControlPanel13;
-            this.tabItemACalAgregar.GlobalItem = false;
-            this.tabItemACalAgregar.Image = global::OEVApp.Properties.Resources.upload_ok;
-            this.tabItemACalAgregar.Name = "tabItemACalAgregar";
-            this.tabItemACalAgregar.Text = "Agregar";
-            // 
-            // superTabControlPanel15
-            // 
-            this.superTabControlPanel15.Controls.Add(this.btnCalEGuardar);
-            this.superTabControlPanel15.Controls.Add(this.intInpCalEAnio);
-            this.superTabControlPanel15.Controls.Add(this.lblCalEAnio);
-            this.superTabControlPanel15.Controls.Add(this.groupCalETipoProducto);
-            this.superTabControlPanel15.Controls.Add(this.dataGridCalEProductos);
-            this.superTabControlPanel15.Controls.Add(this.btnCalEBuscar);
-            this.superTabControlPanel15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel15.Location = new System.Drawing.Point(0, 38);
-            this.superTabControlPanel15.Name = "superTabControlPanel15";
-            this.superTabControlPanel15.Size = new System.Drawing.Size(819, 430);
-            this.superTabControlPanel15.TabIndex = 0;
-            this.superTabControlPanel15.TabItem = this.tabItemACalEditar;
-            // 
-            // btnCalEGuardar
-            // 
-            this.btnCalEGuardar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnCalEGuardar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnCalEGuardar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalEGuardar.Image = global::OEVApp.Properties.Resources.Save32x32;
-            this.btnCalEGuardar.Location = new System.Drawing.Point(655, 25);
-            this.btnCalEGuardar.Name = "btnCalEGuardar";
-            this.btnCalEGuardar.Size = new System.Drawing.Size(110, 45);
-            this.btnCalEGuardar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnCalEGuardar.TabIndex = 115;
-            this.btnCalEGuardar.Text = "Guardar";
-            this.btnCalEGuardar.Click += new System.EventHandler(this.btnCalEGuardar_Click);
-            // 
-            // intInpCalEAnio
-            // 
-            // 
-            // 
-            // 
-            this.intInpCalEAnio.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.intInpCalEAnio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.intInpCalEAnio.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
-            this.intInpCalEAnio.Location = new System.Drawing.Point(143, 30);
-            this.intInpCalEAnio.Name = "intInpCalEAnio";
-            this.intInpCalEAnio.ShowUpDown = true;
-            this.intInpCalEAnio.Size = new System.Drawing.Size(80, 22);
-            this.intInpCalEAnio.TabIndex = 114;
-            this.intInpCalEAnio.Value = 2017;
-            // 
-            // lblCalEAnio
-            // 
-            this.lblCalEAnio.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.lblCalEAnio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblCalEAnio.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCalEAnio.ForeColor = System.Drawing.Color.Green;
-            this.lblCalEAnio.Location = new System.Drawing.Point(33, 27);
-            this.lblCalEAnio.Name = "lblCalEAnio";
-            this.lblCalEAnio.Size = new System.Drawing.Size(104, 23);
-            this.lblCalEAnio.TabIndex = 113;
-            this.lblCalEAnio.Text = "Calendario:";
-            // 
-            // groupCalETipoProducto
-            // 
-            this.groupCalETipoProducto.Controls.Add(this.radioCalEPaquete);
-            this.groupCalETipoProducto.Controls.Add(this.radioCalECurso);
-            this.groupCalETipoProducto.Controls.Add(this.radioCalEEvento);
-            this.groupCalETipoProducto.Location = new System.Drawing.Point(242, 25);
-            this.groupCalETipoProducto.Name = "groupCalETipoProducto";
-            this.groupCalETipoProducto.Size = new System.Drawing.Size(268, 48);
-            this.groupCalETipoProducto.TabIndex = 110;
-            this.groupCalETipoProducto.TabStop = false;
-            this.groupCalETipoProducto.Text = "Modalidad:";
-            // 
-            // radioCalEPaquete
-            // 
-            this.radioCalEPaquete.AutoSize = true;
-            this.radioCalEPaquete.Location = new System.Drawing.Point(187, 19);
-            this.radioCalEPaquete.Name = "radioCalEPaquete";
-            this.radioCalEPaquete.Size = new System.Drawing.Size(67, 17);
-            this.radioCalEPaquete.TabIndex = 3;
-            this.radioCalEPaquete.Text = "Paquete";
-            this.radioCalEPaquete.UseVisualStyleBackColor = true;
-            // 
-            // radioCalECurso
-            // 
-            this.radioCalECurso.AutoSize = true;
-            this.radioCalECurso.Checked = true;
-            this.radioCalECurso.Location = new System.Drawing.Point(44, 20);
-            this.radioCalECurso.Name = "radioCalECurso";
-            this.radioCalECurso.Size = new System.Drawing.Size(55, 17);
-            this.radioCalECurso.TabIndex = 2;
-            this.radioCalECurso.TabStop = true;
-            this.radioCalECurso.Text = "Curso";
-            this.radioCalECurso.UseVisualStyleBackColor = true;
-            // 
-            // radioCalEEvento
-            // 
-            this.radioCalEEvento.AutoSize = true;
-            this.radioCalEEvento.Location = new System.Drawing.Point(112, 20);
-            this.radioCalEEvento.Name = "radioCalEEvento";
-            this.radioCalEEvento.Size = new System.Drawing.Size(60, 17);
-            this.radioCalEEvento.TabIndex = 0;
-            this.radioCalEEvento.Text = "Evento";
-            this.radioCalEEvento.UseVisualStyleBackColor = true;
-            // 
-            // dataGridCalEProductos
-            // 
-            this.dataGridCalEProductos.AllowUserToAddRows = false;
-            this.dataGridCalEProductos.AllowUserToDeleteRows = false;
-            this.dataGridCalEProductos.AllowUserToOrderColumns = true;
-            this.dataGridCalEProductos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridCalEProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridCalEProductos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.HCalENombre,
-            this.HCalETipoProducto,
-            this.HCalEDestino,
-            this.HCalEPrecio,
-            this.HCalEDuracion,
-            this.HCalEActividades,
-            this.HCalEDias,
-            this.HCalEHoraInicio,
-            this.HCalEHoraFin,
-            this.HCalEMes,
-            this.HCalECupo,
-            this.HCalEFechaSalida,
-            this.HCalEFechaRegreso,
-            this.HCalEInstructor,
-            this.HCalEAlojamiento,
-            this.HCalETraslado,
-            this.HCalEAgregar,
-            this.HCalEIdCalendario});
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridCalEProductos.DefaultCellStyle = dataGridViewCellStyle14;
-            this.dataGridCalEProductos.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
-            this.dataGridCalEProductos.Location = new System.Drawing.Point(21, 90);
-            this.dataGridCalEProductos.Name = "dataGridCalEProductos";
-            this.dataGridCalEProductos.Size = new System.Drawing.Size(776, 316);
-            this.dataGridCalEProductos.TabIndex = 112;
-            this.dataGridCalEProductos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.CalEAgregarProd_CellClick);
-            this.dataGridCalEProductos.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridCalEProductos_EndEdit);
-            // 
-            // HCalENombre
-            // 
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalENombre.DefaultCellStyle = dataGridViewCellStyle1;
-            this.HCalENombre.HeaderText = "Nombre";
-            this.HCalENombre.MaxInputLength = 50;
-            this.HCalENombre.Name = "HCalENombre";
-            this.HCalENombre.ReadOnly = true;
-            // 
-            // HCalETipoProducto
-            // 
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HCalETipoProducto.DefaultCellStyle = dataGridViewCellStyle2;
-            this.HCalETipoProducto.HeaderText = "Tipo de Producto";
-            this.HCalETipoProducto.Name = "HCalETipoProducto";
-            this.HCalETipoProducto.ReadOnly = true;
-            this.HCalETipoProducto.Width = 80;
-            // 
-            // HCalEDestino
-            // 
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalEDestino.DefaultCellStyle = dataGridViewCellStyle3;
-            this.HCalEDestino.HeaderText = "Destino";
-            this.HCalEDestino.MaxInputLength = 200;
-            this.HCalEDestino.Name = "HCalEDestino";
-            this.HCalEDestino.ReadOnly = true;
-            // 
-            // HCalEPrecio
-            // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle4.Format = "C0";
-            dataGridViewCellStyle4.NullValue = null;
-            this.HCalEPrecio.DefaultCellStyle = dataGridViewCellStyle4;
-            this.HCalEPrecio.HeaderText = "Precio";
-            this.HCalEPrecio.Name = "HCalEPrecio";
-            this.HCalEPrecio.ReadOnly = true;
-            this.HCalEPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HCalEPrecio.Width = 70;
-            // 
-            // HCalEDuracion
-            // 
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle5.Format = "N0";
-            dataGridViewCellStyle5.NullValue = null;
-            this.HCalEDuracion.DefaultCellStyle = dataGridViewCellStyle5;
-            this.HCalEDuracion.HeaderText = "Duración (días)";
-            this.HCalEDuracion.Name = "HCalEDuracion";
-            this.HCalEDuracion.ReadOnly = true;
-            this.HCalEDuracion.Width = 70;
-            // 
-            // HCalEActividades
-            // 
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalEActividades.DefaultCellStyle = dataGridViewCellStyle6;
-            this.HCalEActividades.HeaderText = "Actividades";
-            this.HCalEActividades.MaxInputLength = 100;
-            this.HCalEActividades.Name = "HCalEActividades";
-            this.HCalEActividades.ReadOnly = true;
-            this.HCalEActividades.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HCalEDias
-            // 
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalEDias.DefaultCellStyle = dataGridViewCellStyle7;
-            this.HCalEDias.HeaderText = "Dias";
-            this.HCalEDias.Name = "HCalEDias";
-            this.HCalEDias.ReadOnly = true;
-            // 
-            // HCalEHoraInicio
-            // 
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalEHoraInicio.DefaultCellStyle = dataGridViewCellStyle8;
-            this.HCalEHoraInicio.HeaderText = "Hora Inicio";
-            this.HCalEHoraInicio.Name = "HCalEHoraInicio";
-            this.HCalEHoraInicio.ReadOnly = true;
-            // 
-            // HCalEHoraFin
-            // 
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalEHoraFin.DefaultCellStyle = dataGridViewCellStyle9;
-            this.HCalEHoraFin.HeaderText = "HoraFin";
-            this.HCalEHoraFin.Name = "HCalEHoraFin";
-            this.HCalEHoraFin.ReadOnly = true;
-            // 
-            // HCalEMes
-            // 
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalEMes.DefaultCellStyle = dataGridViewCellStyle10;
-            this.HCalEMes.HeaderText = "Mes";
-            this.HCalEMes.MaxDropDownItems = 12;
-            this.HCalEMes.Name = "HCalEMes";
-            this.HCalEMes.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HCalEMes.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // HCalECupo
-            // 
-            // 
-            // 
-            // 
-            this.HCalECupo.BackgroundStyle.Class = "DataGridViewNumericBorder";
-            this.HCalECupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle11.Format = "N0";
-            dataGridViewCellStyle11.NullValue = null;
-            this.HCalECupo.DefaultCellStyle = dataGridViewCellStyle11;
-            this.HCalECupo.HeaderText = "Cupo";
-            this.HCalECupo.MinValue = 0;
-            this.HCalECupo.Name = "HCalECupo";
-            this.HCalECupo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HCalECupo.ShowUpDown = true;
-            this.HCalECupo.Width = 50;
-            // 
-            // HCalEFechaSalida
-            // 
-            // 
-            // 
-            // 
-            this.HCalEFechaSalida.BackgroundStyle.Class = "DataGridViewDateTimeBorder";
-            this.HCalEFechaSalida.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalEFechaSalida.DefaultCellStyle = dataGridViewCellStyle12;
-            this.HCalEFechaSalida.HeaderText = "Fecha Salida";
-            this.HCalEFechaSalida.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
-            // 
-            // 
-            // 
-            this.HCalEFechaSalida.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.HCalEFechaSalida.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.HCalEFechaSalida.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            // 
-            // 
-            // 
-            this.HCalEFechaSalida.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.HCalEFechaSalida.MonthCalendar.DisplayMonth = new System.DateTime(2017, 12, 1, 0, 0, 0, 0);
-            this.HCalEFechaSalida.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.HCalEFechaSalida.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.HCalEFechaSalida.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.HCalEFechaSalida.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.HCalEFechaSalida.Name = "HCalEFechaSalida";
-            this.HCalEFechaSalida.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HCalEFechaSalida.Width = 80;
-            // 
-            // HCalEFechaRegreso
-            // 
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HCalEFechaRegreso.DefaultCellStyle = dataGridViewCellStyle13;
-            this.HCalEFechaRegreso.HeaderText = "Fecha Regreso";
-            this.HCalEFechaRegreso.Name = "HCalEFechaRegreso";
-            this.HCalEFechaRegreso.ReadOnly = true;
-            this.HCalEFechaRegreso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HCalEFechaRegreso.Width = 80;
-            // 
-            // HCalEInstructor
-            // 
-            this.HCalEInstructor.HeaderText = "Instructor";
-            this.HCalEInstructor.Name = "HCalEInstructor";
-            this.HCalEInstructor.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HCalEInstructor.Width = 140;
-            // 
-            // HCalEAlojamiento
-            // 
-            this.HCalEAlojamiento.HeaderText = "Alojamiento";
-            this.HCalEAlojamiento.Name = "HCalEAlojamiento";
-            this.HCalEAlojamiento.Width = 300;
-            // 
-            // HCalETraslado
-            // 
-            this.HCalETraslado.HeaderText = "Traslado";
-            this.HCalETraslado.Name = "HCalETraslado";
-            // 
-            // HCalEAgregar
-            // 
-            this.HCalEAgregar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.HCalEAgregar.HeaderText = "Agregar";
-            this.HCalEAgregar.Image = ((System.Drawing.Image)(resources.GetObject("HCalEAgregar.Image")));
-            this.HCalEAgregar.Name = "HCalEAgregar";
-            this.HCalEAgregar.Text = null;
-            this.HCalEAgregar.Width = 60;
-            // 
-            // HCalEIdCalendario
-            // 
-            // 
-            // 
-            // 
-            this.HCalEIdCalendario.BackgroundStyle.Class = "DataGridViewNumericBorder";
-            this.HCalEIdCalendario.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.HCalEIdCalendario.HeaderText = "IdCalendario";
-            this.HCalEIdCalendario.Name = "HCalEIdCalendario";
-            this.HCalEIdCalendario.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HCalEIdCalendario.Visible = false;
-            // 
-            // btnCalEBuscar
-            // 
-            this.btnCalEBuscar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnCalEBuscar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnCalEBuscar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalEBuscar.Image = global::OEVApp.Properties.Resources.search;
-            this.btnCalEBuscar.Location = new System.Drawing.Point(535, 26);
-            this.btnCalEBuscar.Name = "btnCalEBuscar";
-            this.btnCalEBuscar.Size = new System.Drawing.Size(110, 45);
-            this.btnCalEBuscar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnCalEBuscar.TabIndex = 111;
-            this.btnCalEBuscar.Text = "Buscar";
-            this.btnCalEBuscar.Click += new System.EventHandler(this.btnCalEBuscar_Click);
-            // 
-            // tabItemACalEditar
-            // 
-            this.tabItemACalEditar.AttachedControl = this.superTabControlPanel15;
-            this.tabItemACalEditar.GlobalItem = false;
-            this.tabItemACalEditar.Image = global::OEVApp.Properties.Resources.addedit;
-            this.tabItemACalEditar.Name = "tabItemACalEditar";
-            this.tabItemACalEditar.Text = "Editar";
-            // 
-            // superTabControlPanel14
-            // 
-            this.superTabControlPanel14.Controls.Add(this.intInpCalCAnio);
-            this.superTabControlPanel14.Controls.Add(this.lblCalCAnio);
-            this.superTabControlPanel14.Controls.Add(this.dataGridCalCProductos);
-            this.superTabControlPanel14.Controls.Add(this.btnCalCBuscar);
-            this.superTabControlPanel14.Controls.Add(this.groupCalCTipoProducto);
-            this.superTabControlPanel14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel14.Location = new System.Drawing.Point(0, 38);
-            this.superTabControlPanel14.Name = "superTabControlPanel14";
-            this.superTabControlPanel14.Size = new System.Drawing.Size(819, 430);
-            this.superTabControlPanel14.TabIndex = 0;
-            this.superTabControlPanel14.TabItem = this.tabItemACalConsultar;
-            // 
-            // intInpCalCAnio
-            // 
-            // 
-            // 
-            // 
-            this.intInpCalCAnio.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.intInpCalCAnio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.intInpCalCAnio.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
-            this.intInpCalCAnio.Location = new System.Drawing.Point(133, 21);
-            this.intInpCalCAnio.Name = "intInpCalCAnio";
-            this.intInpCalCAnio.ShowUpDown = true;
-            this.intInpCalCAnio.Size = new System.Drawing.Size(80, 22);
-            this.intInpCalCAnio.TabIndex = 109;
-            this.intInpCalCAnio.Value = 2017;
-            // 
-            // lblCalCAnio
-            // 
-            this.lblCalCAnio.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.lblCalCAnio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblCalCAnio.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCalCAnio.ForeColor = System.Drawing.Color.Green;
-            this.lblCalCAnio.Location = new System.Drawing.Point(23, 18);
-            this.lblCalCAnio.Name = "lblCalCAnio";
-            this.lblCalCAnio.Size = new System.Drawing.Size(104, 23);
-            this.lblCalCAnio.TabIndex = 108;
-            this.lblCalCAnio.Text = "Calendario:";
-            // 
-            // dataGridCalCProductos
-            // 
-            this.dataGridCalCProductos.AllowUserToAddRows = false;
-            this.dataGridCalCProductos.AllowUserToDeleteRows = false;
-            this.dataGridCalCProductos.AllowUserToOrderColumns = true;
-            this.dataGridCalCProductos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridCalCProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridCalCProductos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.HCalCNombre,
-            this.HCalCTipoProducto,
-            this.HCalCDestino,
-            this.HCalCPrecio,
-            this.HCalCDuracion,
-            this.HCalCActividades,
-            this.HCalCCupo,
-            this.HCalCMes,
-            this.HCalCDias,
-            this.HCalCHoraInicio,
-            this.HCalCHoraFin,
-            this.HCalCFechaSalida,
-            this.HCalCFechaRegreso,
-            this.HCalCInstructor,
-            this.HCalCAlojamiento,
-            this.HCalCTraslado});
-            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle30.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle30.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle30.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridCalCProductos.DefaultCellStyle = dataGridViewCellStyle30;
-            this.dataGridCalCProductos.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
-            this.dataGridCalCProductos.Location = new System.Drawing.Point(11, 81);
-            this.dataGridCalCProductos.Name = "dataGridCalCProductos";
-            this.dataGridCalCProductos.ReadOnly = true;
-            this.dataGridCalCProductos.Size = new System.Drawing.Size(776, 316);
-            this.dataGridCalCProductos.TabIndex = 107;
-            // 
-            // HCalCNombre
-            // 
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalCNombre.DefaultCellStyle = dataGridViewCellStyle15;
-            this.HCalCNombre.HeaderText = "Nombre";
-            this.HCalCNombre.MaxInputLength = 50;
-            this.HCalCNombre.Name = "HCalCNombre";
-            this.HCalCNombre.ReadOnly = true;
-            // 
-            // HCalCTipoProducto
-            // 
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HCalCTipoProducto.DefaultCellStyle = dataGridViewCellStyle16;
-            this.HCalCTipoProducto.HeaderText = "Tipo de Producto";
-            this.HCalCTipoProducto.Name = "HCalCTipoProducto";
-            this.HCalCTipoProducto.ReadOnly = true;
-            this.HCalCTipoProducto.Width = 80;
-            // 
-            // HCalCDestino
-            // 
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalCDestino.DefaultCellStyle = dataGridViewCellStyle17;
-            this.HCalCDestino.HeaderText = "Destino";
-            this.HCalCDestino.MaxInputLength = 200;
-            this.HCalCDestino.Name = "HCalCDestino";
-            this.HCalCDestino.ReadOnly = true;
-            // 
-            // HCalCPrecio
-            // 
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle18.Format = "C0";
-            dataGridViewCellStyle18.NullValue = null;
-            this.HCalCPrecio.DefaultCellStyle = dataGridViewCellStyle18;
-            this.HCalCPrecio.HeaderText = "Precio";
-            this.HCalCPrecio.Name = "HCalCPrecio";
-            this.HCalCPrecio.ReadOnly = true;
-            this.HCalCPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HCalCPrecio.Width = 70;
-            // 
-            // HCalCDuracion
-            // 
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle19.Format = "N0";
-            dataGridViewCellStyle19.NullValue = null;
-            this.HCalCDuracion.DefaultCellStyle = dataGridViewCellStyle19;
-            this.HCalCDuracion.HeaderText = "Duración (días)";
-            this.HCalCDuracion.Name = "HCalCDuracion";
-            this.HCalCDuracion.ReadOnly = true;
-            this.HCalCDuracion.Width = 70;
-            // 
-            // HCalCActividades
-            // 
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalCActividades.DefaultCellStyle = dataGridViewCellStyle20;
-            this.HCalCActividades.HeaderText = "Actividades";
-            this.HCalCActividades.MaxInputLength = 100;
-            this.HCalCActividades.Name = "HCalCActividades";
-            this.HCalCActividades.ReadOnly = true;
-            this.HCalCActividades.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // HCalCCupo
-            // 
-            // 
-            // 
-            // 
-            this.HCalCCupo.BackgroundStyle.Class = "DataGridViewNumericBorder";
-            this.HCalCCupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            dataGridViewCellStyle21.Format = "N0";
-            dataGridViewCellStyle21.NullValue = null;
-            this.HCalCCupo.DefaultCellStyle = dataGridViewCellStyle21;
-            this.HCalCCupo.HeaderText = "Cupo";
-            this.HCalCCupo.MinValue = 0;
-            this.HCalCCupo.Name = "HCalCCupo";
-            this.HCalCCupo.ReadOnly = true;
-            this.HCalCCupo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HCalCCupo.ShowUpDown = true;
-            this.HCalCCupo.Width = 50;
-            // 
-            // HCalCMes
-            // 
-            this.HCalCMes.HeaderText = "Mes";
-            this.HCalCMes.Name = "HCalCMes";
-            this.HCalCMes.ReadOnly = true;
-            // 
-            // HCalCDias
-            // 
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalCDias.DefaultCellStyle = dataGridViewCellStyle22;
-            this.HCalCDias.HeaderText = "Dias";
-            this.HCalCDias.Name = "HCalCDias";
-            this.HCalCDias.ReadOnly = true;
-            // 
-            // HCalCHoraInicio
-            // 
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalCHoraInicio.DefaultCellStyle = dataGridViewCellStyle23;
-            this.HCalCHoraInicio.HeaderText = "Hora Inicio";
-            this.HCalCHoraInicio.Name = "HCalCHoraInicio";
-            this.HCalCHoraInicio.ReadOnly = true;
-            // 
-            // HCalCHoraFin
-            // 
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalCHoraFin.DefaultCellStyle = dataGridViewCellStyle24;
-            this.HCalCHoraFin.HeaderText = "HoraFin";
-            this.HCalCHoraFin.Name = "HCalCHoraFin";
-            this.HCalCHoraFin.ReadOnly = true;
-            // 
-            // HCalCFechaSalida
-            // 
-            dataGridViewCellStyle25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalCFechaSalida.DefaultCellStyle = dataGridViewCellStyle25;
-            this.HCalCFechaSalida.HeaderText = "Fecha Salida";
-            this.HCalCFechaSalida.Name = "HCalCFechaSalida";
-            this.HCalCFechaSalida.ReadOnly = true;
-            this.HCalCFechaSalida.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HCalCFechaSalida.Width = 80;
-            // 
-            // HCalCFechaRegreso
-            // 
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HCalCFechaRegreso.DefaultCellStyle = dataGridViewCellStyle26;
-            this.HCalCFechaRegreso.HeaderText = "Fecha Regreso";
-            this.HCalCFechaRegreso.Name = "HCalCFechaRegreso";
-            this.HCalCFechaRegreso.ReadOnly = true;
-            this.HCalCFechaRegreso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.HCalCFechaRegreso.Width = 80;
-            // 
-            // HCalCInstructor
-            // 
-            dataGridViewCellStyle27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalCInstructor.DefaultCellStyle = dataGridViewCellStyle27;
-            this.HCalCInstructor.HeaderText = "Instructor";
-            this.HCalCInstructor.Name = "HCalCInstructor";
-            this.HCalCInstructor.ReadOnly = true;
-            this.HCalCInstructor.Width = 140;
-            // 
-            // HCalCAlojamiento
-            // 
-            dataGridViewCellStyle28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalCAlojamiento.DefaultCellStyle = dataGridViewCellStyle28;
-            this.HCalCAlojamiento.HeaderText = "Alojamiento";
-            this.HCalCAlojamiento.Name = "HCalCAlojamiento";
-            this.HCalCAlojamiento.ReadOnly = true;
-            this.HCalCAlojamiento.Width = 240;
-            // 
-            // HCalCTraslado
-            // 
-            dataGridViewCellStyle29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.HCalCTraslado.DefaultCellStyle = dataGridViewCellStyle29;
-            this.HCalCTraslado.HeaderText = "Traslado";
-            this.HCalCTraslado.Name = "HCalCTraslado";
-            this.HCalCTraslado.ReadOnly = true;
-            // 
-            // btnCalCBuscar
-            // 
-            this.btnCalCBuscar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnCalCBuscar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnCalCBuscar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalCBuscar.Image = global::OEVApp.Properties.Resources.search;
-            this.btnCalCBuscar.Location = new System.Drawing.Point(645, 19);
-            this.btnCalCBuscar.Name = "btnCalCBuscar";
-            this.btnCalCBuscar.Size = new System.Drawing.Size(110, 45);
-            this.btnCalCBuscar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnCalCBuscar.TabIndex = 87;
-            this.btnCalCBuscar.Text = "Buscar";
-            this.btnCalCBuscar.Click += new System.EventHandler(this.btnCalCBuscar_Click);
-            // 
-            // groupCalCTipoProducto
-            // 
-            this.groupCalCTipoProducto.Controls.Add(this.radioCalCCurso);
-            this.groupCalCTipoProducto.Controls.Add(this.radioCalCPaquete);
-            this.groupCalCTipoProducto.Controls.Add(this.radioCalCEvento);
-            this.groupCalCTipoProducto.Location = new System.Drawing.Point(265, 16);
-            this.groupCalCTipoProducto.Name = "groupCalCTipoProducto";
-            this.groupCalCTipoProducto.Size = new System.Drawing.Size(341, 48);
-            this.groupCalCTipoProducto.TabIndex = 68;
-            this.groupCalCTipoProducto.TabStop = false;
-            this.groupCalCTipoProducto.Text = "Modalidad:";
-            // 
-            // radioCalCCurso
-            // 
-            this.radioCalCCurso.AutoSize = true;
-            this.radioCalCCurso.Checked = true;
-            this.radioCalCCurso.Location = new System.Drawing.Point(68, 17);
-            this.radioCalCCurso.Name = "radioCalCCurso";
-            this.radioCalCCurso.Size = new System.Drawing.Size(55, 17);
-            this.radioCalCCurso.TabIndex = 2;
-            this.radioCalCCurso.TabStop = true;
-            this.radioCalCCurso.Text = "Curso";
-            this.radioCalCCurso.UseVisualStyleBackColor = true;
-            // 
-            // radioCalCPaquete
-            // 
-            this.radioCalCPaquete.AutoSize = true;
-            this.radioCalCPaquete.Location = new System.Drawing.Point(251, 17);
-            this.radioCalCPaquete.Name = "radioCalCPaquete";
-            this.radioCalCPaquete.Size = new System.Drawing.Size(67, 17);
-            this.radioCalCPaquete.TabIndex = 1;
-            this.radioCalCPaquete.Text = "Paquete";
-            this.radioCalCPaquete.UseVisualStyleBackColor = true;
-            // 
-            // radioCalCEvento
-            // 
-            this.radioCalCEvento.AutoSize = true;
-            this.radioCalCEvento.Location = new System.Drawing.Point(154, 17);
-            this.radioCalCEvento.Name = "radioCalCEvento";
-            this.radioCalCEvento.Size = new System.Drawing.Size(60, 17);
-            this.radioCalCEvento.TabIndex = 0;
-            this.radioCalCEvento.Text = "Evento";
-            this.radioCalCEvento.UseVisualStyleBackColor = true;
-            // 
-            // tabItemACalConsultar
-            // 
-            this.tabItemACalConsultar.AttachedControl = this.superTabControlPanel14;
-            this.tabItemACalConsultar.GlobalItem = false;
-            this.tabItemACalConsultar.Image = global::OEVApp.Properties.Resources.lupa;
-            this.tabItemACalConsultar.Name = "tabItemACalConsultar";
-            this.tabItemACalConsultar.Text = "Consultar";
+            this.tabItemAPAgregar.AttachedControl = this.superTabControlPanel2;
+            this.tabItemAPAgregar.GlobalItem = false;
+            this.tabItemAPAgregar.Image = global::OEVApp.Properties.Resources.upload_ok;
+            this.tabItemAPAgregar.Name = "tabItemAPAgregar";
+            this.tabItemAPAgregar.Text = "<b>Agregar</b>";
             // 
             // superTabControlPanel1
             // 
@@ -3300,10 +2229,10 @@ namespace OEVApp
             this.superTabControlPanel1.Controls.Add(this.lblACDescA);
             this.superTabControlPanel1.Controls.Add(this.txtACNombreA);
             this.superTabControlPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel1.Location = new System.Drawing.Point(0, 38);
+            this.superTabControlPanel1.Location = new System.Drawing.Point(0, 0);
             this.superTabControlPanel1.Margin = new System.Windows.Forms.Padding(1);
             this.superTabControlPanel1.Name = "superTabControlPanel1";
-            this.superTabControlPanel1.Size = new System.Drawing.Size(819, 430);
+            this.superTabControlPanel1.Size = new System.Drawing.Size(819, 468);
             this.superTabControlPanel1.TabIndex = 1;
             this.superTabControlPanel1.TabItem = this.tabItemACAgregar;
             // 
@@ -3751,6 +2680,2123 @@ namespace OEVApp
             this.tabItemACAgregar.Image = global::OEVApp.Properties.Resources.upload_ok;
             this.tabItemACAgregar.Name = "tabItemACAgregar";
             this.tabItemACAgregar.Text = "<b>Agregar</b>";
+            // 
+            // superTabControlPanel15
+            // 
+            this.superTabControlPanel15.Controls.Add(this.btnCalEGuardar);
+            this.superTabControlPanel15.Controls.Add(this.intInpCalEAnio);
+            this.superTabControlPanel15.Controls.Add(this.lblCalEAnio);
+            this.superTabControlPanel15.Controls.Add(this.groupCalETipoProducto);
+            this.superTabControlPanel15.Controls.Add(this.dataGridCalEProductos);
+            this.superTabControlPanel15.Controls.Add(this.btnCalEBuscar);
+            this.superTabControlPanel15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel15.Location = new System.Drawing.Point(0, 0);
+            this.superTabControlPanel15.Name = "superTabControlPanel15";
+            this.superTabControlPanel15.Size = new System.Drawing.Size(819, 468);
+            this.superTabControlPanel15.TabIndex = 0;
+            this.superTabControlPanel15.TabItem = this.tabItemACalEditar;
+            // 
+            // btnCalEGuardar
+            // 
+            this.btnCalEGuardar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnCalEGuardar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnCalEGuardar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalEGuardar.Image = global::OEVApp.Properties.Resources.Save32x32;
+            this.btnCalEGuardar.Location = new System.Drawing.Point(655, 25);
+            this.btnCalEGuardar.Name = "btnCalEGuardar";
+            this.btnCalEGuardar.Size = new System.Drawing.Size(110, 45);
+            this.btnCalEGuardar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnCalEGuardar.TabIndex = 115;
+            this.btnCalEGuardar.Text = "Guardar";
+            this.btnCalEGuardar.Click += new System.EventHandler(this.btnCalEGuardar_Click);
+            // 
+            // intInpCalEAnio
+            // 
+            // 
+            // 
+            // 
+            this.intInpCalEAnio.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.intInpCalEAnio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.intInpCalEAnio.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.intInpCalEAnio.Location = new System.Drawing.Point(143, 30);
+            this.intInpCalEAnio.Name = "intInpCalEAnio";
+            this.intInpCalEAnio.ShowUpDown = true;
+            this.intInpCalEAnio.Size = new System.Drawing.Size(80, 22);
+            this.intInpCalEAnio.TabIndex = 114;
+            this.intInpCalEAnio.Value = 2017;
+            // 
+            // lblCalEAnio
+            // 
+            this.lblCalEAnio.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.lblCalEAnio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblCalEAnio.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCalEAnio.ForeColor = System.Drawing.Color.Green;
+            this.lblCalEAnio.Location = new System.Drawing.Point(33, 27);
+            this.lblCalEAnio.Name = "lblCalEAnio";
+            this.lblCalEAnio.Size = new System.Drawing.Size(104, 23);
+            this.lblCalEAnio.TabIndex = 113;
+            this.lblCalEAnio.Text = "Calendario:";
+            // 
+            // groupCalETipoProducto
+            // 
+            this.groupCalETipoProducto.Controls.Add(this.radioCalEPaquete);
+            this.groupCalETipoProducto.Controls.Add(this.radioCalECurso);
+            this.groupCalETipoProducto.Controls.Add(this.radioCalEEvento);
+            this.groupCalETipoProducto.Location = new System.Drawing.Point(242, 25);
+            this.groupCalETipoProducto.Name = "groupCalETipoProducto";
+            this.groupCalETipoProducto.Size = new System.Drawing.Size(268, 48);
+            this.groupCalETipoProducto.TabIndex = 110;
+            this.groupCalETipoProducto.TabStop = false;
+            this.groupCalETipoProducto.Text = "Modalidad:";
+            // 
+            // radioCalEPaquete
+            // 
+            this.radioCalEPaquete.AutoSize = true;
+            this.radioCalEPaquete.Location = new System.Drawing.Point(187, 19);
+            this.radioCalEPaquete.Name = "radioCalEPaquete";
+            this.radioCalEPaquete.Size = new System.Drawing.Size(67, 17);
+            this.radioCalEPaquete.TabIndex = 3;
+            this.radioCalEPaquete.Text = "Paquete";
+            this.radioCalEPaquete.UseVisualStyleBackColor = true;
+            // 
+            // radioCalECurso
+            // 
+            this.radioCalECurso.AutoSize = true;
+            this.radioCalECurso.Checked = true;
+            this.radioCalECurso.Location = new System.Drawing.Point(44, 20);
+            this.radioCalECurso.Name = "radioCalECurso";
+            this.radioCalECurso.Size = new System.Drawing.Size(55, 17);
+            this.radioCalECurso.TabIndex = 2;
+            this.radioCalECurso.TabStop = true;
+            this.radioCalECurso.Text = "Curso";
+            this.radioCalECurso.UseVisualStyleBackColor = true;
+            // 
+            // radioCalEEvento
+            // 
+            this.radioCalEEvento.AutoSize = true;
+            this.radioCalEEvento.Location = new System.Drawing.Point(112, 20);
+            this.radioCalEEvento.Name = "radioCalEEvento";
+            this.radioCalEEvento.Size = new System.Drawing.Size(60, 17);
+            this.radioCalEEvento.TabIndex = 0;
+            this.radioCalEEvento.Text = "Evento";
+            this.radioCalEEvento.UseVisualStyleBackColor = true;
+            // 
+            // dataGridCalEProductos
+            // 
+            this.dataGridCalEProductos.AllowUserToAddRows = false;
+            this.dataGridCalEProductos.AllowUserToDeleteRows = false;
+            this.dataGridCalEProductos.AllowUserToOrderColumns = true;
+            this.dataGridCalEProductos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridCalEProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridCalEProductos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.HCalENombre,
+            this.HCalETipoProducto,
+            this.HCalEDestino,
+            this.HCalEPrecio,
+            this.HCalEDuracion,
+            this.HCalEActividades,
+            this.HCalEDias,
+            this.HCalEHoraInicio,
+            this.HCalEHoraFin,
+            this.HCalEMes,
+            this.HCalECupo,
+            this.HCalEFechaSalida,
+            this.HCalEFechaRegreso,
+            this.HCalEInstructor,
+            this.HCalEAlojamiento,
+            this.HCalETraslado,
+            this.HCalEAgregar,
+            this.HCalEIdCalendario});
+            dataGridViewCellStyle74.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle74.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle74.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle74.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle74.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle74.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle74.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridCalEProductos.DefaultCellStyle = dataGridViewCellStyle74;
+            this.dataGridCalEProductos.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.dataGridCalEProductos.Location = new System.Drawing.Point(21, 90);
+            this.dataGridCalEProductos.Name = "dataGridCalEProductos";
+            this.dataGridCalEProductos.Size = new System.Drawing.Size(776, 354);
+            this.dataGridCalEProductos.TabIndex = 112;
+            this.dataGridCalEProductos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.CalEAgregarProd_CellClick);
+            this.dataGridCalEProductos.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridCalEProductos_EndEdit);
+            // 
+            // HCalENombre
+            // 
+            dataGridViewCellStyle61.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalENombre.DefaultCellStyle = dataGridViewCellStyle61;
+            this.HCalENombre.HeaderText = "Nombre";
+            this.HCalENombre.MaxInputLength = 50;
+            this.HCalENombre.Name = "HCalENombre";
+            this.HCalENombre.ReadOnly = true;
+            // 
+            // HCalETipoProducto
+            // 
+            dataGridViewCellStyle62.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HCalETipoProducto.DefaultCellStyle = dataGridViewCellStyle62;
+            this.HCalETipoProducto.HeaderText = "Tipo de Producto";
+            this.HCalETipoProducto.Name = "HCalETipoProducto";
+            this.HCalETipoProducto.ReadOnly = true;
+            this.HCalETipoProducto.Width = 80;
+            // 
+            // HCalEDestino
+            // 
+            dataGridViewCellStyle63.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalEDestino.DefaultCellStyle = dataGridViewCellStyle63;
+            this.HCalEDestino.HeaderText = "Destino";
+            this.HCalEDestino.MaxInputLength = 200;
+            this.HCalEDestino.Name = "HCalEDestino";
+            this.HCalEDestino.ReadOnly = true;
+            // 
+            // HCalEPrecio
+            // 
+            dataGridViewCellStyle64.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle64.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle64.Format = "C0";
+            dataGridViewCellStyle64.NullValue = null;
+            this.HCalEPrecio.DefaultCellStyle = dataGridViewCellStyle64;
+            this.HCalEPrecio.HeaderText = "Precio";
+            this.HCalEPrecio.Name = "HCalEPrecio";
+            this.HCalEPrecio.ReadOnly = true;
+            this.HCalEPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HCalEPrecio.Width = 70;
+            // 
+            // HCalEDuracion
+            // 
+            dataGridViewCellStyle65.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle65.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle65.Format = "N0";
+            dataGridViewCellStyle65.NullValue = null;
+            this.HCalEDuracion.DefaultCellStyle = dataGridViewCellStyle65;
+            this.HCalEDuracion.HeaderText = "Duración (días)";
+            this.HCalEDuracion.Name = "HCalEDuracion";
+            this.HCalEDuracion.ReadOnly = true;
+            this.HCalEDuracion.Width = 70;
+            // 
+            // HCalEActividades
+            // 
+            dataGridViewCellStyle66.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalEActividades.DefaultCellStyle = dataGridViewCellStyle66;
+            this.HCalEActividades.HeaderText = "Actividades";
+            this.HCalEActividades.MaxInputLength = 100;
+            this.HCalEActividades.Name = "HCalEActividades";
+            this.HCalEActividades.ReadOnly = true;
+            this.HCalEActividades.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HCalEDias
+            // 
+            dataGridViewCellStyle67.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalEDias.DefaultCellStyle = dataGridViewCellStyle67;
+            this.HCalEDias.HeaderText = "Dias";
+            this.HCalEDias.Name = "HCalEDias";
+            this.HCalEDias.ReadOnly = true;
+            // 
+            // HCalEHoraInicio
+            // 
+            dataGridViewCellStyle68.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalEHoraInicio.DefaultCellStyle = dataGridViewCellStyle68;
+            this.HCalEHoraInicio.HeaderText = "Hora Inicio";
+            this.HCalEHoraInicio.Name = "HCalEHoraInicio";
+            this.HCalEHoraInicio.ReadOnly = true;
+            // 
+            // HCalEHoraFin
+            // 
+            dataGridViewCellStyle69.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalEHoraFin.DefaultCellStyle = dataGridViewCellStyle69;
+            this.HCalEHoraFin.HeaderText = "HoraFin";
+            this.HCalEHoraFin.Name = "HCalEHoraFin";
+            this.HCalEHoraFin.ReadOnly = true;
+            // 
+            // HCalEMes
+            // 
+            dataGridViewCellStyle70.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalEMes.DefaultCellStyle = dataGridViewCellStyle70;
+            this.HCalEMes.HeaderText = "Mes";
+            this.HCalEMes.MaxDropDownItems = 12;
+            this.HCalEMes.Name = "HCalEMes";
+            this.HCalEMes.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HCalEMes.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // HCalECupo
+            // 
+            // 
+            // 
+            // 
+            this.HCalECupo.BackgroundStyle.Class = "DataGridViewNumericBorder";
+            this.HCalECupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            dataGridViewCellStyle71.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle71.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle71.Format = "N0";
+            dataGridViewCellStyle71.NullValue = null;
+            this.HCalECupo.DefaultCellStyle = dataGridViewCellStyle71;
+            this.HCalECupo.HeaderText = "Cupo";
+            this.HCalECupo.MinValue = 0;
+            this.HCalECupo.Name = "HCalECupo";
+            this.HCalECupo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HCalECupo.ShowUpDown = true;
+            this.HCalECupo.Width = 50;
+            // 
+            // HCalEFechaSalida
+            // 
+            // 
+            // 
+            // 
+            this.HCalEFechaSalida.BackgroundStyle.Class = "DataGridViewDateTimeBorder";
+            this.HCalEFechaSalida.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            dataGridViewCellStyle72.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalEFechaSalida.DefaultCellStyle = dataGridViewCellStyle72;
+            this.HCalEFechaSalida.HeaderText = "Fecha Salida";
+            this.HCalEFechaSalida.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
+            // 
+            // 
+            // 
+            this.HCalEFechaSalida.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.HCalEFechaSalida.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.HCalEFechaSalida.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            // 
+            // 
+            // 
+            this.HCalEFechaSalida.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.HCalEFechaSalida.MonthCalendar.DisplayMonth = new System.DateTime(2017, 12, 1, 0, 0, 0, 0);
+            this.HCalEFechaSalida.MonthCalendar.MarkedDates = new System.DateTime[0];
+            this.HCalEFechaSalida.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.HCalEFechaSalida.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.HCalEFechaSalida.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
+            this.HCalEFechaSalida.Name = "HCalEFechaSalida";
+            this.HCalEFechaSalida.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HCalEFechaSalida.Width = 80;
+            // 
+            // HCalEFechaRegreso
+            // 
+            dataGridViewCellStyle73.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HCalEFechaRegreso.DefaultCellStyle = dataGridViewCellStyle73;
+            this.HCalEFechaRegreso.HeaderText = "Fecha Regreso";
+            this.HCalEFechaRegreso.Name = "HCalEFechaRegreso";
+            this.HCalEFechaRegreso.ReadOnly = true;
+            this.HCalEFechaRegreso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HCalEFechaRegreso.Width = 80;
+            // 
+            // HCalEInstructor
+            // 
+            this.HCalEInstructor.HeaderText = "Instructor";
+            this.HCalEInstructor.Name = "HCalEInstructor";
+            this.HCalEInstructor.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HCalEInstructor.Width = 140;
+            // 
+            // HCalEAlojamiento
+            // 
+            this.HCalEAlojamiento.HeaderText = "Alojamiento";
+            this.HCalEAlojamiento.Name = "HCalEAlojamiento";
+            this.HCalEAlojamiento.Width = 300;
+            // 
+            // HCalETraslado
+            // 
+            this.HCalETraslado.HeaderText = "Traslado";
+            this.HCalETraslado.Name = "HCalETraslado";
+            // 
+            // HCalEAgregar
+            // 
+            this.HCalEAgregar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.HCalEAgregar.HeaderText = "Agregar";
+            this.HCalEAgregar.Image = ((System.Drawing.Image)(resources.GetObject("HCalEAgregar.Image")));
+            this.HCalEAgregar.Name = "HCalEAgregar";
+            this.HCalEAgregar.Text = null;
+            this.HCalEAgregar.Width = 60;
+            // 
+            // HCalEIdCalendario
+            // 
+            // 
+            // 
+            // 
+            this.HCalEIdCalendario.BackgroundStyle.Class = "DataGridViewNumericBorder";
+            this.HCalEIdCalendario.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.HCalEIdCalendario.HeaderText = "IdCalendario";
+            this.HCalEIdCalendario.Name = "HCalEIdCalendario";
+            this.HCalEIdCalendario.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HCalEIdCalendario.Visible = false;
+            // 
+            // btnCalEBuscar
+            // 
+            this.btnCalEBuscar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnCalEBuscar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnCalEBuscar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalEBuscar.Image = global::OEVApp.Properties.Resources.search;
+            this.btnCalEBuscar.Location = new System.Drawing.Point(535, 26);
+            this.btnCalEBuscar.Name = "btnCalEBuscar";
+            this.btnCalEBuscar.Size = new System.Drawing.Size(110, 45);
+            this.btnCalEBuscar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnCalEBuscar.TabIndex = 111;
+            this.btnCalEBuscar.Text = "Buscar";
+            this.btnCalEBuscar.Click += new System.EventHandler(this.btnCalEBuscar_Click);
+            // 
+            // tabItemACalEditar
+            // 
+            this.tabItemACalEditar.AttachedControl = this.superTabControlPanel15;
+            this.tabItemACalEditar.GlobalItem = false;
+            this.tabItemACalEditar.Image = global::OEVApp.Properties.Resources.addedit;
+            this.tabItemACalEditar.Name = "tabItemACalEditar";
+            this.tabItemACalEditar.Text = "Editar";
+            // 
+            // superTabControlPanel14
+            // 
+            this.superTabControlPanel14.Controls.Add(this.intInpCalCAnio);
+            this.superTabControlPanel14.Controls.Add(this.lblCalCAnio);
+            this.superTabControlPanel14.Controls.Add(this.dataGridCalCProductos);
+            this.superTabControlPanel14.Controls.Add(this.btnCalCBuscar);
+            this.superTabControlPanel14.Controls.Add(this.groupCalCTipoProducto);
+            this.superTabControlPanel14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel14.Location = new System.Drawing.Point(0, 0);
+            this.superTabControlPanel14.Name = "superTabControlPanel14";
+            this.superTabControlPanel14.Size = new System.Drawing.Size(819, 468);
+            this.superTabControlPanel14.TabIndex = 0;
+            this.superTabControlPanel14.TabItem = this.tabItemACalConsultar;
+            // 
+            // intInpCalCAnio
+            // 
+            // 
+            // 
+            // 
+            this.intInpCalCAnio.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.intInpCalCAnio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.intInpCalCAnio.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.intInpCalCAnio.Location = new System.Drawing.Point(133, 21);
+            this.intInpCalCAnio.Name = "intInpCalCAnio";
+            this.intInpCalCAnio.ShowUpDown = true;
+            this.intInpCalCAnio.Size = new System.Drawing.Size(80, 22);
+            this.intInpCalCAnio.TabIndex = 109;
+            this.intInpCalCAnio.Value = 2017;
+            // 
+            // lblCalCAnio
+            // 
+            this.lblCalCAnio.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.lblCalCAnio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblCalCAnio.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCalCAnio.ForeColor = System.Drawing.Color.Green;
+            this.lblCalCAnio.Location = new System.Drawing.Point(23, 18);
+            this.lblCalCAnio.Name = "lblCalCAnio";
+            this.lblCalCAnio.Size = new System.Drawing.Size(104, 23);
+            this.lblCalCAnio.TabIndex = 108;
+            this.lblCalCAnio.Text = "Calendario:";
+            // 
+            // dataGridCalCProductos
+            // 
+            this.dataGridCalCProductos.AllowUserToAddRows = false;
+            this.dataGridCalCProductos.AllowUserToDeleteRows = false;
+            this.dataGridCalCProductos.AllowUserToOrderColumns = true;
+            this.dataGridCalCProductos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridCalCProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridCalCProductos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.HCalCNombre,
+            this.HCalCTipoProducto,
+            this.HCalCDestino,
+            this.HCalCPrecio,
+            this.HCalCDuracion,
+            this.HCalCActividades,
+            this.HCalCCupo,
+            this.HCalCMes,
+            this.HCalCDias,
+            this.HCalCHoraInicio,
+            this.HCalCHoraFin,
+            this.HCalCFechaSalida,
+            this.HCalCFechaRegreso,
+            this.HCalCInstructor,
+            this.HCalCAlojamiento,
+            this.HCalCTraslado});
+            dataGridViewCellStyle90.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle90.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle90.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle90.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle90.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle90.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle90.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridCalCProductos.DefaultCellStyle = dataGridViewCellStyle90;
+            this.dataGridCalCProductos.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.dataGridCalCProductos.Location = new System.Drawing.Point(11, 81);
+            this.dataGridCalCProductos.Name = "dataGridCalCProductos";
+            this.dataGridCalCProductos.ReadOnly = true;
+            this.dataGridCalCProductos.Size = new System.Drawing.Size(776, 354);
+            this.dataGridCalCProductos.TabIndex = 107;
+            // 
+            // HCalCNombre
+            // 
+            dataGridViewCellStyle75.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalCNombre.DefaultCellStyle = dataGridViewCellStyle75;
+            this.HCalCNombre.HeaderText = "Nombre";
+            this.HCalCNombre.MaxInputLength = 50;
+            this.HCalCNombre.Name = "HCalCNombre";
+            this.HCalCNombre.ReadOnly = true;
+            // 
+            // HCalCTipoProducto
+            // 
+            dataGridViewCellStyle76.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HCalCTipoProducto.DefaultCellStyle = dataGridViewCellStyle76;
+            this.HCalCTipoProducto.HeaderText = "Tipo de Producto";
+            this.HCalCTipoProducto.Name = "HCalCTipoProducto";
+            this.HCalCTipoProducto.ReadOnly = true;
+            this.HCalCTipoProducto.Width = 80;
+            // 
+            // HCalCDestino
+            // 
+            dataGridViewCellStyle77.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalCDestino.DefaultCellStyle = dataGridViewCellStyle77;
+            this.HCalCDestino.HeaderText = "Destino";
+            this.HCalCDestino.MaxInputLength = 200;
+            this.HCalCDestino.Name = "HCalCDestino";
+            this.HCalCDestino.ReadOnly = true;
+            // 
+            // HCalCPrecio
+            // 
+            dataGridViewCellStyle78.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle78.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle78.Format = "C0";
+            dataGridViewCellStyle78.NullValue = null;
+            this.HCalCPrecio.DefaultCellStyle = dataGridViewCellStyle78;
+            this.HCalCPrecio.HeaderText = "Precio";
+            this.HCalCPrecio.Name = "HCalCPrecio";
+            this.HCalCPrecio.ReadOnly = true;
+            this.HCalCPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HCalCPrecio.Width = 70;
+            // 
+            // HCalCDuracion
+            // 
+            dataGridViewCellStyle79.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle79.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle79.Format = "N0";
+            dataGridViewCellStyle79.NullValue = null;
+            this.HCalCDuracion.DefaultCellStyle = dataGridViewCellStyle79;
+            this.HCalCDuracion.HeaderText = "Duración (días)";
+            this.HCalCDuracion.Name = "HCalCDuracion";
+            this.HCalCDuracion.ReadOnly = true;
+            this.HCalCDuracion.Width = 70;
+            // 
+            // HCalCActividades
+            // 
+            dataGridViewCellStyle80.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalCActividades.DefaultCellStyle = dataGridViewCellStyle80;
+            this.HCalCActividades.HeaderText = "Actividades";
+            this.HCalCActividades.MaxInputLength = 100;
+            this.HCalCActividades.Name = "HCalCActividades";
+            this.HCalCActividades.ReadOnly = true;
+            this.HCalCActividades.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HCalCCupo
+            // 
+            // 
+            // 
+            // 
+            this.HCalCCupo.BackgroundStyle.Class = "DataGridViewNumericBorder";
+            this.HCalCCupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            dataGridViewCellStyle81.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle81.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle81.Format = "N0";
+            dataGridViewCellStyle81.NullValue = null;
+            this.HCalCCupo.DefaultCellStyle = dataGridViewCellStyle81;
+            this.HCalCCupo.HeaderText = "Cupo";
+            this.HCalCCupo.MinValue = 0;
+            this.HCalCCupo.Name = "HCalCCupo";
+            this.HCalCCupo.ReadOnly = true;
+            this.HCalCCupo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HCalCCupo.ShowUpDown = true;
+            this.HCalCCupo.Width = 50;
+            // 
+            // HCalCMes
+            // 
+            this.HCalCMes.HeaderText = "Mes";
+            this.HCalCMes.Name = "HCalCMes";
+            this.HCalCMes.ReadOnly = true;
+            // 
+            // HCalCDias
+            // 
+            dataGridViewCellStyle82.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalCDias.DefaultCellStyle = dataGridViewCellStyle82;
+            this.HCalCDias.HeaderText = "Dias";
+            this.HCalCDias.Name = "HCalCDias";
+            this.HCalCDias.ReadOnly = true;
+            // 
+            // HCalCHoraInicio
+            // 
+            dataGridViewCellStyle83.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalCHoraInicio.DefaultCellStyle = dataGridViewCellStyle83;
+            this.HCalCHoraInicio.HeaderText = "Hora Inicio";
+            this.HCalCHoraInicio.Name = "HCalCHoraInicio";
+            this.HCalCHoraInicio.ReadOnly = true;
+            // 
+            // HCalCHoraFin
+            // 
+            dataGridViewCellStyle84.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalCHoraFin.DefaultCellStyle = dataGridViewCellStyle84;
+            this.HCalCHoraFin.HeaderText = "HoraFin";
+            this.HCalCHoraFin.Name = "HCalCHoraFin";
+            this.HCalCHoraFin.ReadOnly = true;
+            // 
+            // HCalCFechaSalida
+            // 
+            dataGridViewCellStyle85.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalCFechaSalida.DefaultCellStyle = dataGridViewCellStyle85;
+            this.HCalCFechaSalida.HeaderText = "Fecha Salida";
+            this.HCalCFechaSalida.Name = "HCalCFechaSalida";
+            this.HCalCFechaSalida.ReadOnly = true;
+            this.HCalCFechaSalida.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HCalCFechaSalida.Width = 80;
+            // 
+            // HCalCFechaRegreso
+            // 
+            dataGridViewCellStyle86.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HCalCFechaRegreso.DefaultCellStyle = dataGridViewCellStyle86;
+            this.HCalCFechaRegreso.HeaderText = "Fecha Regreso";
+            this.HCalCFechaRegreso.Name = "HCalCFechaRegreso";
+            this.HCalCFechaRegreso.ReadOnly = true;
+            this.HCalCFechaRegreso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HCalCFechaRegreso.Width = 80;
+            // 
+            // HCalCInstructor
+            // 
+            dataGridViewCellStyle87.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalCInstructor.DefaultCellStyle = dataGridViewCellStyle87;
+            this.HCalCInstructor.HeaderText = "Instructor";
+            this.HCalCInstructor.Name = "HCalCInstructor";
+            this.HCalCInstructor.ReadOnly = true;
+            this.HCalCInstructor.Width = 140;
+            // 
+            // HCalCAlojamiento
+            // 
+            dataGridViewCellStyle88.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalCAlojamiento.DefaultCellStyle = dataGridViewCellStyle88;
+            this.HCalCAlojamiento.HeaderText = "Alojamiento";
+            this.HCalCAlojamiento.Name = "HCalCAlojamiento";
+            this.HCalCAlojamiento.ReadOnly = true;
+            this.HCalCAlojamiento.Width = 240;
+            // 
+            // HCalCTraslado
+            // 
+            dataGridViewCellStyle89.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCalCTraslado.DefaultCellStyle = dataGridViewCellStyle89;
+            this.HCalCTraslado.HeaderText = "Traslado";
+            this.HCalCTraslado.Name = "HCalCTraslado";
+            this.HCalCTraslado.ReadOnly = true;
+            // 
+            // btnCalCBuscar
+            // 
+            this.btnCalCBuscar.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnCalCBuscar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.btnCalCBuscar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalCBuscar.Image = global::OEVApp.Properties.Resources.search;
+            this.btnCalCBuscar.Location = new System.Drawing.Point(645, 19);
+            this.btnCalCBuscar.Name = "btnCalCBuscar";
+            this.btnCalCBuscar.Size = new System.Drawing.Size(110, 45);
+            this.btnCalCBuscar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnCalCBuscar.TabIndex = 87;
+            this.btnCalCBuscar.Text = "Buscar";
+            this.btnCalCBuscar.Click += new System.EventHandler(this.btnCalCBuscar_Click);
+            // 
+            // groupCalCTipoProducto
+            // 
+            this.groupCalCTipoProducto.Controls.Add(this.radioCalCCurso);
+            this.groupCalCTipoProducto.Controls.Add(this.radioCalCPaquete);
+            this.groupCalCTipoProducto.Controls.Add(this.radioCalCEvento);
+            this.groupCalCTipoProducto.Location = new System.Drawing.Point(265, 16);
+            this.groupCalCTipoProducto.Name = "groupCalCTipoProducto";
+            this.groupCalCTipoProducto.Size = new System.Drawing.Size(341, 48);
+            this.groupCalCTipoProducto.TabIndex = 68;
+            this.groupCalCTipoProducto.TabStop = false;
+            this.groupCalCTipoProducto.Text = "Modalidad:";
+            // 
+            // radioCalCCurso
+            // 
+            this.radioCalCCurso.AutoSize = true;
+            this.radioCalCCurso.Checked = true;
+            this.radioCalCCurso.Location = new System.Drawing.Point(68, 17);
+            this.radioCalCCurso.Name = "radioCalCCurso";
+            this.radioCalCCurso.Size = new System.Drawing.Size(55, 17);
+            this.radioCalCCurso.TabIndex = 2;
+            this.radioCalCCurso.TabStop = true;
+            this.radioCalCCurso.Text = "Curso";
+            this.radioCalCCurso.UseVisualStyleBackColor = true;
+            // 
+            // radioCalCPaquete
+            // 
+            this.radioCalCPaquete.AutoSize = true;
+            this.radioCalCPaquete.Location = new System.Drawing.Point(251, 17);
+            this.radioCalCPaquete.Name = "radioCalCPaquete";
+            this.radioCalCPaquete.Size = new System.Drawing.Size(67, 17);
+            this.radioCalCPaquete.TabIndex = 1;
+            this.radioCalCPaquete.Text = "Paquete";
+            this.radioCalCPaquete.UseVisualStyleBackColor = true;
+            // 
+            // radioCalCEvento
+            // 
+            this.radioCalCEvento.AutoSize = true;
+            this.radioCalCEvento.Location = new System.Drawing.Point(154, 17);
+            this.radioCalCEvento.Name = "radioCalCEvento";
+            this.radioCalCEvento.Size = new System.Drawing.Size(60, 17);
+            this.radioCalCEvento.TabIndex = 0;
+            this.radioCalCEvento.Text = "Evento";
+            this.radioCalCEvento.UseVisualStyleBackColor = true;
+            // 
+            // tabItemACalConsultar
+            // 
+            this.tabItemACalConsultar.AttachedControl = this.superTabControlPanel14;
+            this.tabItemACalConsultar.GlobalItem = false;
+            this.tabItemACalConsultar.Image = global::OEVApp.Properties.Resources.lupa;
+            this.tabItemACalConsultar.Name = "tabItemACalConsultar";
+            this.tabItemACalConsultar.Text = "Consultar";
+            // 
+            // superTabControlPanel13
+            // 
+            this.superTabControlPanel13.Controls.Add(this.WizPage1CalA);
+            this.superTabControlPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.superTabControlPanel13.Location = new System.Drawing.Point(0, 38);
+            this.superTabControlPanel13.Name = "superTabControlPanel13";
+            this.superTabControlPanel13.Size = new System.Drawing.Size(819, 430);
+            this.superTabControlPanel13.TabIndex = 0;
+            this.superTabControlPanel13.TabItem = this.tabItemACalAgregar;
+            // 
+            // WizPage1CalA
+            // 
+            this.WizPage1CalA.BackButtonText = "< Atrás";
+            this.WizPage1CalA.CancelButtonText = "Cancelar";
+            this.WizPage1CalA.Cursor = System.Windows.Forms.Cursors.Default;
+            this.WizPage1CalA.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.WizPage1CalA.FinishButtonTabIndex = 3;
+            this.WizPage1CalA.FinishButtonText = "Finalizar";
+            // 
+            // 
+            // 
+            this.WizPage1CalA.FooterStyle.BackColor = System.Drawing.SystemColors.Control;
+            this.WizPage1CalA.FooterStyle.BackColorGradientAngle = 90;
+            this.WizPage1CalA.FooterStyle.BorderBottomWidth = 1;
+            this.WizPage1CalA.FooterStyle.BorderColor = System.Drawing.SystemColors.Control;
+            this.WizPage1CalA.FooterStyle.BorderLeftWidth = 1;
+            this.WizPage1CalA.FooterStyle.BorderRightWidth = 1;
+            this.WizPage1CalA.FooterStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Etched;
+            this.WizPage1CalA.FooterStyle.BorderTopColor = System.Drawing.SystemColors.Control;
+            this.WizPage1CalA.FooterStyle.BorderTopWidth = 1;
+            this.WizPage1CalA.FooterStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.WizPage1CalA.FooterStyle.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.WizPage1CalA.FooterStyle.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.WizPage1CalA.HeaderCaptionFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WizPage1CalA.HeaderDescriptionFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WizPage1CalA.HeaderDescriptionIndent = 16;
+            // 
+            // 
+            // 
+            this.WizPage1CalA.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.WizPage1CalA.HeaderStyle.BackColorGradientAngle = 90;
+            this.WizPage1CalA.HeaderStyle.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Etched;
+            this.WizPage1CalA.HeaderStyle.BorderBottomWidth = 1;
+            this.WizPage1CalA.HeaderStyle.BorderColor = System.Drawing.SystemColors.Control;
+            this.WizPage1CalA.HeaderStyle.BorderLeftWidth = 1;
+            this.WizPage1CalA.HeaderStyle.BorderRightWidth = 1;
+            this.WizPage1CalA.HeaderStyle.BorderTopWidth = 1;
+            this.WizPage1CalA.HeaderStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.WizPage1CalA.HeaderStyle.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center;
+            this.WizPage1CalA.HeaderStyle.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
+            this.WizPage1CalA.HelpButtonText = "Ayuda";
+            this.WizPage1CalA.HelpButtonVisible = false;
+            this.WizPage1CalA.Location = new System.Drawing.Point(0, 0);
+            this.WizPage1CalA.Name = "WizPage1CalA";
+            this.WizPage1CalA.NextButtonText = "Siguiente >";
+            this.WizPage1CalA.Size = new System.Drawing.Size(819, 430);
+            this.WizPage1CalA.TabIndex = 0;
+            this.WizPage1CalA.WizardPages.AddRange(new DevComponents.DotNetBar.WizardPage[] {
+            this.WizPage0CalA,
+            this.WizPage1CalACurso,
+            this.WizPage2CalAEvPaq,
+            this.WizPage3CalACurInstructor,
+            this.WizPage4CalAPaqEvInstructor,
+            this.WizPage5CalACurInstAloj,
+            this.WizPage6CalACurInstAlojTras});
+            this.WizPage1CalA.NextButtonClick += new System.ComponentModel.CancelEventHandler(this.WizPage1CalA_NextClick);
+            this.WizPage1CalA.CancelButtonClick += new System.ComponentModel.CancelEventHandler(this.WizPage1CalA_CancelClick);
+            // 
+            // WizPage0CalA
+            // 
+            this.WizPage0CalA.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.WizPage0CalA.BackColor = System.Drawing.Color.White;
+            this.WizPage0CalA.Controls.Add(this.lblPage0CalATitulo);
+            this.WizPage0CalA.Controls.Add(this.lblPage0CalADescripcion);
+            this.WizPage0CalA.InteriorPage = false;
+            this.WizPage0CalA.Location = new System.Drawing.Point(0, 0);
+            this.WizPage0CalA.Name = "WizPage0CalA";
+            this.WizPage0CalA.Size = new System.Drawing.Size(819, 384);
+            // 
+            // 
+            // 
+            this.WizPage0CalA.Style.BackColor = System.Drawing.Color.White;
+            this.WizPage0CalA.Style.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WizPage0CalA.Style.BackgroundImage")));
+            this.WizPage0CalA.Style.BackgroundImagePosition = DevComponents.DotNetBar.eStyleBackgroundImage.TopLeft;
+            this.WizPage0CalA.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.WizPage0CalA.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.WizPage0CalA.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.WizPage0CalA.TabIndex = 7;
+            // 
+            // lblPage0CalATitulo
+            // 
+            this.lblPage0CalATitulo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblPage0CalATitulo.BackColor = System.Drawing.Color.Transparent;
+            this.lblPage0CalATitulo.Font = new System.Drawing.Font("Tahoma", 16F);
+            this.lblPage0CalATitulo.Location = new System.Drawing.Point(210, 18);
+            this.lblPage0CalATitulo.Name = "lblPage0CalATitulo";
+            this.lblPage0CalATitulo.Size = new System.Drawing.Size(466, 42);
+            this.lblPage0CalATitulo.TabIndex = 0;
+            this.lblPage0CalATitulo.Text = "Pasos para crear un calendario";
+            // 
+            // lblPage0CalADescripcion
+            // 
+            this.lblPage0CalADescripcion.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblPage0CalADescripcion.BackColor = System.Drawing.Color.Transparent;
+            this.lblPage0CalADescripcion.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPage0CalADescripcion.Location = new System.Drawing.Point(225, 84);
+            this.lblPage0CalADescripcion.Name = "lblPage0CalADescripcion";
+            this.lblPage0CalADescripcion.Size = new System.Drawing.Size(554, 252);
+            this.lblPage0CalADescripcion.TabIndex = 1;
+            this.lblPage0CalADescripcion.Text = resources.GetString("lblPage0CalADescripcion.Text");
+            // 
+            // WizPage1CalACurso
+            // 
+            this.WizPage1CalACurso.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.WizPage1CalACurso.AntiAlias = false;
+            this.WizPage1CalACurso.Controls.Add(this.lblPage1CalACarga);
+            this.WizPage1CalACurso.Controls.Add(this.lblPage1CalACurso);
+            this.WizPage1CalACurso.Controls.Add(this.gridPage1CalACurso);
+            this.WizPage1CalACurso.Controls.Add(this.intInpPage1CalAAnio);
+            this.WizPage1CalACurso.Controls.Add(this.lblPage1CalAAnio);
+            this.WizPage1CalACurso.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WizPage1CalACurso.Location = new System.Drawing.Point(7, 72);
+            this.WizPage1CalACurso.Name = "WizPage1CalACurso";
+            this.WizPage1CalACurso.PageDescription = "Indicar el año para el cual será creado el calendario. Seleccionar los cursos dis" +
+    "ponibles asignarles cupos. Para agregar el mismo curso en diferentes meses presi" +
+    "one el botón \"Agregar\".";
+            this.WizPage1CalACurso.PageTitle = "Paso 1: Cursos, eventos y paquetes";
+            this.WizPage1CalACurso.Size = new System.Drawing.Size(805, 300);
+            // 
+            // 
+            // 
+            this.WizPage1CalACurso.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.WizPage1CalACurso.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.WizPage1CalACurso.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.WizPage1CalACurso.TabIndex = 8;
+            this.WizPage1CalACurso.NextButtonClick += new System.ComponentModel.CancelEventHandler(this.WizPage1CalACurso_NextClick);
+            // 
+            // lblPage1CalACarga
+            // 
+            this.lblPage1CalACarga.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            // 
+            // 
+            // 
+            this.lblPage1CalACarga.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblPage1CalACarga.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPage1CalACarga.ForeColor = System.Drawing.Color.Black;
+            this.lblPage1CalACarga.Location = new System.Drawing.Point(624, 0);
+            this.lblPage1CalACarga.Name = "lblPage1CalACarga";
+            this.lblPage1CalACarga.SingleLineColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblPage1CalACarga.Size = new System.Drawing.Size(105, 23);
+            this.lblPage1CalACarga.TabIndex = 93;
+            this.lblPage1CalACarga.Visible = false;
+            // 
+            // lblPage1CalACurso
+            // 
+            this.lblPage1CalACurso.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.lblPage1CalACurso.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblPage1CalACurso.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPage1CalACurso.ForeColor = System.Drawing.Color.Green;
+            this.lblPage1CalACurso.Location = new System.Drawing.Point(329, 1);
+            this.lblPage1CalACurso.Name = "lblPage1CalACurso";
+            this.lblPage1CalACurso.Size = new System.Drawing.Size(87, 23);
+            this.lblPage1CalACurso.TabIndex = 92;
+            this.lblPage1CalACurso.Text = "Cursos";
+            // 
+            // gridPage1CalACurso
+            // 
+            this.gridPage1CalACurso.AllowUserToAddRows = false;
+            this.gridPage1CalACurso.AllowUserToOrderColumns = true;
+            this.gridPage1CalACurso.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridPage1CalACurso.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridPage1CalACurso.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.HCursoPage1CalANombre,
+            this.HCursoPage1CalAActividad,
+            this.HCursoPage1CalAPrecio,
+            this.HCursoPage1CalADias,
+            this.HCursoPage1CalAHoraInicio,
+            this.HCursoPage1CalAHoraFin,
+            this.HCursoPage1CalACupo,
+            this.HCursoPage1CalAAgregar});
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridPage1CalACurso.DefaultCellStyle = dataGridViewCellStyle9;
+            this.gridPage1CalACurso.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.gridPage1CalACurso.Location = new System.Drawing.Point(10, 31);
+            this.gridPage1CalACurso.Name = "gridPage1CalACurso";
+            this.gridPage1CalACurso.Size = new System.Drawing.Size(779, 256);
+            this.gridPage1CalACurso.TabIndex = 91;
+            this.gridPage1CalACurso.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridPage1CalACurso_CellClick);
+            // 
+            // HCursoPage1CalANombre
+            // 
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HCursoPage1CalANombre.DefaultCellStyle = dataGridViewCellStyle1;
+            this.HCursoPage1CalANombre.HeaderText = "Nombre";
+            this.HCursoPage1CalANombre.MaxInputLength = 50;
+            this.HCursoPage1CalANombre.Name = "HCursoPage1CalANombre";
+            this.HCursoPage1CalANombre.ReadOnly = true;
+            this.HCursoPage1CalANombre.Visible = false;
+            // 
+            // HCursoPage1CalAActividad
+            // 
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HCursoPage1CalAActividad.DefaultCellStyle = dataGridViewCellStyle2;
+            this.HCursoPage1CalAActividad.HeaderText = "Actividad";
+            this.HCursoPage1CalAActividad.MaxInputLength = 200;
+            this.HCursoPage1CalAActividad.Name = "HCursoPage1CalAActividad";
+            this.HCursoPage1CalAActividad.ReadOnly = true;
+            // 
+            // HCursoPage1CalAPrecio
+            // 
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.Format = "C0";
+            dataGridViewCellStyle3.NullValue = null;
+            this.HCursoPage1CalAPrecio.DefaultCellStyle = dataGridViewCellStyle3;
+            this.HCursoPage1CalAPrecio.HeaderText = "Precio($)";
+            this.HCursoPage1CalAPrecio.Name = "HCursoPage1CalAPrecio";
+            this.HCursoPage1CalAPrecio.ReadOnly = true;
+            this.HCursoPage1CalAPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HCursoPage1CalADias
+            // 
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle4.Format = "N0";
+            dataGridViewCellStyle4.NullValue = null;
+            this.HCursoPage1CalADias.DefaultCellStyle = dataGridViewCellStyle4;
+            this.HCursoPage1CalADias.HeaderText = "Días";
+            this.HCursoPage1CalADias.MaxInputLength = 100;
+            this.HCursoPage1CalADias.Name = "HCursoPage1CalADias";
+            this.HCursoPage1CalADias.ReadOnly = true;
+            this.HCursoPage1CalADias.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HCursoPage1CalAHoraInicio
+            // 
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCursoPage1CalAHoraInicio.DefaultCellStyle = dataGridViewCellStyle5;
+            this.HCursoPage1CalAHoraInicio.HeaderText = "Hora Inicio";
+            this.HCursoPage1CalAHoraInicio.Name = "HCursoPage1CalAHoraInicio";
+            this.HCursoPage1CalAHoraInicio.ReadOnly = true;
+            this.HCursoPage1CalAHoraInicio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HCursoPage1CalAHoraFin
+            // 
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HCursoPage1CalAHoraFin.DefaultCellStyle = dataGridViewCellStyle6;
+            this.HCursoPage1CalAHoraFin.HeaderText = "Hora Fin";
+            this.HCursoPage1CalAHoraFin.Name = "HCursoPage1CalAHoraFin";
+            this.HCursoPage1CalAHoraFin.ReadOnly = true;
+            this.HCursoPage1CalAHoraFin.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HCursoPage1CalACupo
+            // 
+            // 
+            // 
+            // 
+            this.HCursoPage1CalACupo.BackgroundStyle.Class = "DataGridViewNumericBorder";
+            this.HCursoPage1CalACupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.Format = "N0";
+            dataGridViewCellStyle7.NullValue = null;
+            this.HCursoPage1CalACupo.DefaultCellStyle = dataGridViewCellStyle7;
+            this.HCursoPage1CalACupo.HeaderText = "Cupo";
+            this.HCursoPage1CalACupo.Name = "HCursoPage1CalACupo";
+            this.HCursoPage1CalACupo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HCursoPage1CalAAgregar
+            // 
+            this.HCursoPage1CalAAgregar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
+            this.HCursoPage1CalAAgregar.DefaultCellStyle = dataGridViewCellStyle8;
+            this.HCursoPage1CalAAgregar.HeaderText = "Agregar";
+            this.HCursoPage1CalAAgregar.Image = ((System.Drawing.Image)(resources.GetObject("HCursoPage1CalAAgregar.Image")));
+            this.HCursoPage1CalAAgregar.Name = "HCursoPage1CalAAgregar";
+            this.HCursoPage1CalAAgregar.Text = null;
+            this.HCursoPage1CalAAgregar.Width = 60;
+            // 
+            // intInpPage1CalAAnio
+            // 
+            // 
+            // 
+            // 
+            this.intInpPage1CalAAnio.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.intInpPage1CalAAnio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.intInpPage1CalAAnio.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.intInpPage1CalAAnio.Location = new System.Drawing.Point(75, 1);
+            this.intInpPage1CalAAnio.Name = "intInpPage1CalAAnio";
+            this.intInpPage1CalAAnio.ShowUpDown = true;
+            this.intInpPage1CalAAnio.Size = new System.Drawing.Size(80, 25);
+            this.intInpPage1CalAAnio.TabIndex = 56;
+            this.intInpPage1CalAAnio.Value = 2017;
+            // 
+            // lblPage1CalAAnio
+            // 
+            this.lblPage1CalAAnio.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.lblPage1CalAAnio.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblPage1CalAAnio.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPage1CalAAnio.ForeColor = System.Drawing.Color.Green;
+            this.lblPage1CalAAnio.Location = new System.Drawing.Point(10, 1);
+            this.lblPage1CalAAnio.Name = "lblPage1CalAAnio";
+            this.lblPage1CalAAnio.Size = new System.Drawing.Size(66, 23);
+            this.lblPage1CalAAnio.TabIndex = 55;
+            this.lblPage1CalAAnio.Text = "Año:";
+            // 
+            // WizPage2CalAEvPaq
+            // 
+            this.WizPage2CalAEvPaq.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.WizPage2CalAEvPaq.AntiAlias = false;
+            this.WizPage2CalAEvPaq.Controls.Add(this.lblPage2CalACarga);
+            this.WizPage2CalAEvPaq.Controls.Add(this.gridPage2CalAEvPaq);
+            this.WizPage2CalAEvPaq.Controls.Add(this.lblPage2CalAEvPaq);
+            this.WizPage2CalAEvPaq.Location = new System.Drawing.Point(7, 72);
+            this.WizPage2CalAEvPaq.Name = "WizPage2CalAEvPaq";
+            this.WizPage2CalAEvPaq.PageDescription = resources.GetString("WizPage2CalAEvPaq.PageDescription");
+            this.WizPage2CalAEvPaq.PageTitle = "Paso 1: Cursos, eventos y paquetes";
+            this.WizPage2CalAEvPaq.Size = new System.Drawing.Size(805, 300);
+            // 
+            // 
+            // 
+            this.WizPage2CalAEvPaq.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.WizPage2CalAEvPaq.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.WizPage2CalAEvPaq.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.WizPage2CalAEvPaq.TabIndex = 9;
+            this.WizPage2CalAEvPaq.NextButtonClick += new System.ComponentModel.CancelEventHandler(this.WizPage2CalAEvPaq_NextClick);
+            // 
+            // lblPage2CalACarga
+            // 
+            this.lblPage2CalACarga.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            // 
+            // 
+            // 
+            this.lblPage2CalACarga.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblPage2CalACarga.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPage2CalACarga.ForeColor = System.Drawing.Color.Black;
+            this.lblPage2CalACarga.Location = new System.Drawing.Point(652, 2);
+            this.lblPage2CalACarga.Name = "lblPage2CalACarga";
+            this.lblPage2CalACarga.SingleLineColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblPage2CalACarga.Size = new System.Drawing.Size(105, 23);
+            this.lblPage2CalACarga.TabIndex = 97;
+            this.lblPage2CalACarga.Visible = false;
+            // 
+            // gridPage2CalAEvPaq
+            // 
+            this.gridPage2CalAEvPaq.AllowUserToAddRows = false;
+            this.gridPage2CalAEvPaq.AllowUserToOrderColumns = true;
+            this.gridPage2CalAEvPaq.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridPage2CalAEvPaq.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridPage2CalAEvPaq.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.HEvPaqPage2CalANombre,
+            this.HEvPaqPage2CalATipoProducto,
+            this.HEvPaqPage2CalADestino,
+            this.HEvPaqPage2CalAPrecio,
+            this.HEvPaqPage2CalADuracion,
+            this.HEvPaqPage2CalAActividades,
+            this.HEvPaqPage2CalACupo,
+            this.HEvPaqPage2CalAFSalida,
+            this.HEvPaqPage2CalAFRegreso,
+            this.HEvPaqPage2CalAAgregar});
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle20.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle20.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridPage2CalAEvPaq.DefaultCellStyle = dataGridViewCellStyle20;
+            this.gridPage2CalAEvPaq.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.gridPage2CalAEvPaq.Location = new System.Drawing.Point(14, 30);
+            this.gridPage2CalAEvPaq.Name = "gridPage2CalAEvPaq";
+            this.gridPage2CalAEvPaq.Size = new System.Drawing.Size(776, 267);
+            this.gridPage2CalAEvPaq.TabIndex = 96;
+            this.gridPage2CalAEvPaq.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridPage2CalAEvPaq_CellClick);
+            this.gridPage2CalAEvPaq.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridPage2CalAEvPaq_CellEndEdit);
+            // 
+            // HEvPaqPage2CalANombre
+            // 
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HEvPaqPage2CalANombre.DefaultCellStyle = dataGridViewCellStyle10;
+            this.HEvPaqPage2CalANombre.HeaderText = "Nombre";
+            this.HEvPaqPage2CalANombre.MaxInputLength = 50;
+            this.HEvPaqPage2CalANombre.Name = "HEvPaqPage2CalANombre";
+            this.HEvPaqPage2CalANombre.ReadOnly = true;
+            this.HEvPaqPage2CalANombre.Visible = false;
+            // 
+            // HEvPaqPage2CalATipoProducto
+            // 
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HEvPaqPage2CalATipoProducto.DefaultCellStyle = dataGridViewCellStyle11;
+            this.HEvPaqPage2CalATipoProducto.HeaderText = "Tipo de Producto";
+            this.HEvPaqPage2CalATipoProducto.Name = "HEvPaqPage2CalATipoProducto";
+            this.HEvPaqPage2CalATipoProducto.ReadOnly = true;
+            this.HEvPaqPage2CalATipoProducto.Width = 135;
+            // 
+            // HEvPaqPage2CalADestino
+            // 
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HEvPaqPage2CalADestino.DefaultCellStyle = dataGridViewCellStyle12;
+            this.HEvPaqPage2CalADestino.HeaderText = "Destino";
+            this.HEvPaqPage2CalADestino.MaxInputLength = 200;
+            this.HEvPaqPage2CalADestino.Name = "HEvPaqPage2CalADestino";
+            this.HEvPaqPage2CalADestino.ReadOnly = true;
+            // 
+            // HEvPaqPage2CalAPrecio
+            // 
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle13.Format = "C0";
+            dataGridViewCellStyle13.NullValue = null;
+            this.HEvPaqPage2CalAPrecio.DefaultCellStyle = dataGridViewCellStyle13;
+            this.HEvPaqPage2CalAPrecio.HeaderText = "Precio($)";
+            this.HEvPaqPage2CalAPrecio.Name = "HEvPaqPage2CalAPrecio";
+            this.HEvPaqPage2CalAPrecio.ReadOnly = true;
+            this.HEvPaqPage2CalAPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HEvPaqPage2CalADuracion
+            // 
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle14.Format = "N0";
+            dataGridViewCellStyle14.NullValue = null;
+            this.HEvPaqPage2CalADuracion.DefaultCellStyle = dataGridViewCellStyle14;
+            this.HEvPaqPage2CalADuracion.HeaderText = "Duración(días)";
+            this.HEvPaqPage2CalADuracion.Name = "HEvPaqPage2CalADuracion";
+            this.HEvPaqPage2CalADuracion.ReadOnly = true;
+            // 
+            // HEvPaqPage2CalAActividades
+            // 
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HEvPaqPage2CalAActividades.DefaultCellStyle = dataGridViewCellStyle15;
+            this.HEvPaqPage2CalAActividades.HeaderText = "Actividades";
+            this.HEvPaqPage2CalAActividades.MaxInputLength = 100;
+            this.HEvPaqPage2CalAActividades.Name = "HEvPaqPage2CalAActividades";
+            this.HEvPaqPage2CalAActividades.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HEvPaqPage2CalACupo
+            // 
+            // 
+            // 
+            // 
+            this.HEvPaqPage2CalACupo.BackgroundStyle.Class = "DataGridViewNumericBorder";
+            this.HEvPaqPage2CalACupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle16.Format = "N0";
+            dataGridViewCellStyle16.NullValue = null;
+            this.HEvPaqPage2CalACupo.DefaultCellStyle = dataGridViewCellStyle16;
+            this.HEvPaqPage2CalACupo.HeaderText = "Cupo";
+            this.HEvPaqPage2CalACupo.MinValue = 0;
+            this.HEvPaqPage2CalACupo.Name = "HEvPaqPage2CalACupo";
+            this.HEvPaqPage2CalACupo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HEvPaqPage2CalACupo.ShowUpDown = true;
+            this.HEvPaqPage2CalACupo.Width = 80;
+            // 
+            // HEvPaqPage2CalAFSalida
+            // 
+            // 
+            // 
+            // 
+            this.HEvPaqPage2CalAFSalida.BackgroundStyle.Class = "DataGridViewDateTimeBorder";
+            this.HEvPaqPage2CalAFSalida.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HEvPaqPage2CalAFSalida.DefaultCellStyle = dataGridViewCellStyle17;
+            this.HEvPaqPage2CalAFSalida.HeaderText = "Fecha Salida";
+            this.HEvPaqPage2CalAFSalida.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
+            // 
+            // 
+            // 
+            this.HEvPaqPage2CalAFSalida.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.HEvPaqPage2CalAFSalida.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.HEvPaqPage2CalAFSalida.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            // 
+            // 
+            // 
+            this.HEvPaqPage2CalAFSalida.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.HEvPaqPage2CalAFSalida.MonthCalendar.DisplayMonth = new System.DateTime(2017, 12, 1, 0, 0, 0, 0);
+            this.HEvPaqPage2CalAFSalida.MonthCalendar.MarkedDates = new System.DateTime[0];
+            this.HEvPaqPage2CalAFSalida.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.HEvPaqPage2CalAFSalida.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.HEvPaqPage2CalAFSalida.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
+            this.HEvPaqPage2CalAFSalida.Name = "HEvPaqPage2CalAFSalida";
+            // 
+            // HEvPaqPage2CalAFRegreso
+            // 
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HEvPaqPage2CalAFRegreso.DefaultCellStyle = dataGridViewCellStyle18;
+            this.HEvPaqPage2CalAFRegreso.HeaderText = "Fecha Regreso";
+            this.HEvPaqPage2CalAFRegreso.Name = "HEvPaqPage2CalAFRegreso";
+            this.HEvPaqPage2CalAFRegreso.ReadOnly = true;
+            this.HEvPaqPage2CalAFRegreso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HEvPaqPage2CalAAgregar
+            // 
+            this.HEvPaqPage2CalAAgregar.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.HEvPaqPage2CalAAgregar.DefaultCellStyle = dataGridViewCellStyle19;
+            this.HEvPaqPage2CalAAgregar.HeaderText = "Agregar";
+            this.HEvPaqPage2CalAAgregar.Image = ((System.Drawing.Image)(resources.GetObject("HEvPaqPage2CalAAgregar.Image")));
+            this.HEvPaqPage2CalAAgregar.Name = "HEvPaqPage2CalAAgregar";
+            this.HEvPaqPage2CalAAgregar.Text = null;
+            this.HEvPaqPage2CalAAgregar.ToolTipText = "Agregar";
+            this.HEvPaqPage2CalAAgregar.Width = 60;
+            // 
+            // lblPage2CalAEvPaq
+            // 
+            this.lblPage2CalAEvPaq.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.lblPage2CalAEvPaq.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblPage2CalAEvPaq.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPage2CalAEvPaq.ForeColor = System.Drawing.Color.Green;
+            this.lblPage2CalAEvPaq.Location = new System.Drawing.Point(14, 4);
+            this.lblPage2CalAEvPaq.Name = "lblPage2CalAEvPaq";
+            this.lblPage2CalAEvPaq.Size = new System.Drawing.Size(312, 23);
+            this.lblPage2CalAEvPaq.TabIndex = 95;
+            this.lblPage2CalAEvPaq.Text = "Paquetes - Eventos";
+            // 
+            // WizPage3CalACurInstructor
+            // 
+            this.WizPage3CalACurInstructor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.WizPage3CalACurInstructor.AntiAlias = false;
+            this.WizPage3CalACurInstructor.Controls.Add(this.lblPage3CalACarga);
+            this.WizPage3CalACurInstructor.Controls.Add(this.lblPage3CalACursoInst);
+            this.WizPage3CalACurInstructor.Controls.Add(this.gridPage3CalAInstCurso);
+            this.WizPage3CalACurInstructor.Location = new System.Drawing.Point(7, 72);
+            this.WizPage3CalACurInstructor.Name = "WizPage3CalACurInstructor";
+            this.WizPage3CalACurInstructor.PageDescription = "Asigne instructores para dictar los cursos.";
+            this.WizPage3CalACurInstructor.PageTitle = "Paso 2: Instructores";
+            this.WizPage3CalACurInstructor.Size = new System.Drawing.Size(805, 300);
+            // 
+            // 
+            // 
+            this.WizPage3CalACurInstructor.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.WizPage3CalACurInstructor.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.WizPage3CalACurInstructor.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.WizPage3CalACurInstructor.TabIndex = 10;
+            this.WizPage3CalACurInstructor.NextButtonClick += new System.ComponentModel.CancelEventHandler(this.WizPage3CalACurInstructor_NextClick);
+            // 
+            // lblPage3CalACarga
+            // 
+            this.lblPage3CalACarga.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            // 
+            // 
+            // 
+            this.lblPage3CalACarga.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblPage3CalACarga.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPage3CalACarga.ForeColor = System.Drawing.Color.Black;
+            this.lblPage3CalACarga.Location = new System.Drawing.Point(655, 8);
+            this.lblPage3CalACarga.Name = "lblPage3CalACarga";
+            this.lblPage3CalACarga.SingleLineColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblPage3CalACarga.Size = new System.Drawing.Size(105, 23);
+            this.lblPage3CalACarga.TabIndex = 98;
+            this.lblPage3CalACarga.Visible = false;
+            // 
+            // lblPage3CalACursoInst
+            // 
+            this.lblPage3CalACursoInst.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.lblPage3CalACursoInst.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblPage3CalACursoInst.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPage3CalACursoInst.ForeColor = System.Drawing.Color.Green;
+            this.lblPage3CalACursoInst.Location = new System.Drawing.Point(13, 7);
+            this.lblPage3CalACursoInst.Name = "lblPage3CalACursoInst";
+            this.lblPage3CalACursoInst.Size = new System.Drawing.Size(463, 23);
+            this.lblPage3CalACursoInst.TabIndex = 93;
+            this.lblPage3CalACursoInst.Text = "Curso - Instructor";
+            // 
+            // gridPage3CalAInstCurso
+            // 
+            this.gridPage3CalAInstCurso.AllowUserToAddRows = false;
+            this.gridPage3CalAInstCurso.AllowUserToOrderColumns = true;
+            this.gridPage3CalAInstCurso.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridPage3CalAInstCurso.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridPage3CalAInstCurso.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.HInstCursoPage3CalANombre,
+            this.HInstCursoPage3CalAActividad,
+            this.HInstCursoPage3CalAPrecio,
+            this.HInstCursoPage3CalADias,
+            this.HInstCursoPage3CalAHoraInicio,
+            this.HInstCursoPage3CalAHoraFin,
+            this.HInstCursoPage3CalACupo,
+            this.HInstCursoPage3CalAMes});
+            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle28.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle28.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridPage3CalAInstCurso.DefaultCellStyle = dataGridViewCellStyle28;
+            this.gridPage3CalAInstCurso.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.gridPage3CalAInstCurso.Location = new System.Drawing.Point(13, 40);
+            this.gridPage3CalAInstCurso.Name = "gridPage3CalAInstCurso";
+            this.gridPage3CalAInstCurso.Size = new System.Drawing.Size(779, 238);
+            this.gridPage3CalAInstCurso.TabIndex = 92;
+            // 
+            // HInstCursoPage3CalANombre
+            // 
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HInstCursoPage3CalANombre.DefaultCellStyle = dataGridViewCellStyle21;
+            this.HInstCursoPage3CalANombre.HeaderText = "Nombre";
+            this.HInstCursoPage3CalANombre.MaxInputLength = 50;
+            this.HInstCursoPage3CalANombre.Name = "HInstCursoPage3CalANombre";
+            this.HInstCursoPage3CalANombre.ReadOnly = true;
+            this.HInstCursoPage3CalANombre.Visible = false;
+            // 
+            // HInstCursoPage3CalAActividad
+            // 
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HInstCursoPage3CalAActividad.DefaultCellStyle = dataGridViewCellStyle22;
+            this.HInstCursoPage3CalAActividad.HeaderText = "Actividad";
+            this.HInstCursoPage3CalAActividad.MaxInputLength = 200;
+            this.HInstCursoPage3CalAActividad.Name = "HInstCursoPage3CalAActividad";
+            this.HInstCursoPage3CalAActividad.ReadOnly = true;
+            // 
+            // HInstCursoPage3CalAPrecio
+            // 
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle23.Format = "C0";
+            dataGridViewCellStyle23.NullValue = null;
+            this.HInstCursoPage3CalAPrecio.DefaultCellStyle = dataGridViewCellStyle23;
+            this.HInstCursoPage3CalAPrecio.HeaderText = "Precio($)";
+            this.HInstCursoPage3CalAPrecio.Name = "HInstCursoPage3CalAPrecio";
+            this.HInstCursoPage3CalAPrecio.ReadOnly = true;
+            this.HInstCursoPage3CalAPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HInstCursoPage3CalADias
+            // 
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HInstCursoPage3CalADias.DefaultCellStyle = dataGridViewCellStyle24;
+            this.HInstCursoPage3CalADias.HeaderText = "Días";
+            this.HInstCursoPage3CalADias.MaxInputLength = 100;
+            this.HInstCursoPage3CalADias.Name = "HInstCursoPage3CalADias";
+            this.HInstCursoPage3CalADias.ReadOnly = true;
+            this.HInstCursoPage3CalADias.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HInstCursoPage3CalAHoraInicio
+            // 
+            dataGridViewCellStyle25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HInstCursoPage3CalAHoraInicio.DefaultCellStyle = dataGridViewCellStyle25;
+            this.HInstCursoPage3CalAHoraInicio.HeaderText = "Hora Inicio";
+            this.HInstCursoPage3CalAHoraInicio.Name = "HInstCursoPage3CalAHoraInicio";
+            this.HInstCursoPage3CalAHoraInicio.ReadOnly = true;
+            this.HInstCursoPage3CalAHoraInicio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HInstCursoPage3CalAHoraFin
+            // 
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HInstCursoPage3CalAHoraFin.DefaultCellStyle = dataGridViewCellStyle26;
+            this.HInstCursoPage3CalAHoraFin.HeaderText = "Hora Fin";
+            this.HInstCursoPage3CalAHoraFin.Name = "HInstCursoPage3CalAHoraFin";
+            this.HInstCursoPage3CalAHoraFin.ReadOnly = true;
+            this.HInstCursoPage3CalAHoraFin.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HInstCursoPage3CalACupo
+            // 
+            // 
+            // 
+            // 
+            this.HInstCursoPage3CalACupo.BackgroundStyle.Class = "DataGridViewNumericBorder";
+            this.HInstCursoPage3CalACupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle27.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle27.Format = "N0";
+            dataGridViewCellStyle27.NullValue = null;
+            this.HInstCursoPage3CalACupo.DefaultCellStyle = dataGridViewCellStyle27;
+            this.HInstCursoPage3CalACupo.HeaderText = "Cupo";
+            this.HInstCursoPage3CalACupo.Name = "HInstCursoPage3CalACupo";
+            this.HInstCursoPage3CalACupo.ReadOnly = true;
+            this.HInstCursoPage3CalACupo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HInstCursoPage3CalAMes
+            // 
+            this.HInstCursoPage3CalAMes.HeaderText = "Mes";
+            this.HInstCursoPage3CalAMes.Name = "HInstCursoPage3CalAMes";
+            this.HInstCursoPage3CalAMes.ReadOnly = true;
+            // 
+            // WizPage4CalAPaqEvInstructor
+            // 
+            this.WizPage4CalAPaqEvInstructor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.WizPage4CalAPaqEvInstructor.AntiAlias = false;
+            this.WizPage4CalAPaqEvInstructor.Controls.Add(this.lblPage4CalACarga);
+            this.WizPage4CalAPaqEvInstructor.Controls.Add(this.gridPage4CalAInstPaqEv);
+            this.WizPage4CalAPaqEvInstructor.Controls.Add(this.lblPage4CalAPaqEvInst);
+            this.WizPage4CalAPaqEvInstructor.Location = new System.Drawing.Point(7, 72);
+            this.WizPage4CalAPaqEvInstructor.Name = "WizPage4CalAPaqEvInstructor";
+            this.WizPage4CalAPaqEvInstructor.PageDescription = "Asigne instructores para coordinar los paquetes y eventos.";
+            this.WizPage4CalAPaqEvInstructor.PageTitle = "Paso 2: Instructores";
+            this.WizPage4CalAPaqEvInstructor.Size = new System.Drawing.Size(805, 300);
+            // 
+            // 
+            // 
+            this.WizPage4CalAPaqEvInstructor.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.WizPage4CalAPaqEvInstructor.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.WizPage4CalAPaqEvInstructor.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.WizPage4CalAPaqEvInstructor.TabIndex = 11;
+            this.WizPage4CalAPaqEvInstructor.NextButtonClick += new System.ComponentModel.CancelEventHandler(this.WizPage4CalAPaqEvInstructor_NextClick);
+            // 
+            // lblPage4CalACarga
+            // 
+            this.lblPage4CalACarga.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            // 
+            // 
+            // 
+            this.lblPage4CalACarga.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblPage4CalACarga.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPage4CalACarga.ForeColor = System.Drawing.Color.Black;
+            this.lblPage4CalACarga.Location = new System.Drawing.Point(652, 4);
+            this.lblPage4CalACarga.Name = "lblPage4CalACarga";
+            this.lblPage4CalACarga.SingleLineColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblPage4CalACarga.Size = new System.Drawing.Size(105, 23);
+            this.lblPage4CalACarga.TabIndex = 100;
+            this.lblPage4CalACarga.Visible = false;
+            // 
+            // gridPage4CalAInstPaqEv
+            // 
+            this.gridPage4CalAInstPaqEv.AllowUserToAddRows = false;
+            this.gridPage4CalAInstPaqEv.AllowUserToOrderColumns = true;
+            this.gridPage4CalAInstPaqEv.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridPage4CalAInstPaqEv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridPage4CalAInstPaqEv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.HInstPaqEvPage4CalANombre,
+            this.HInstPaqEvPage4CalATipoProducto,
+            this.HInstPaqEvPage4CalADestino,
+            this.HInstPaqEvPage4CalAPrecio,
+            this.HInstPaqEvPage4CalADuracion,
+            this.HInstPaqEvPage4CalAActividades,
+            this.HInstPaqEvPage4CalACupo,
+            this.HInstPaqEvPage4CalAFechaSalida,
+            this.HInstPaqEvPage4CalAFechaRegreso});
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle38.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle38.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle38.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridPage4CalAInstPaqEv.DefaultCellStyle = dataGridViewCellStyle38;
+            this.gridPage4CalAInstPaqEv.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.gridPage4CalAInstPaqEv.Location = new System.Drawing.Point(14, 32);
+            this.gridPage4CalAInstPaqEv.Name = "gridPage4CalAInstPaqEv";
+            this.gridPage4CalAInstPaqEv.Size = new System.Drawing.Size(776, 267);
+            this.gridPage4CalAInstPaqEv.TabIndex = 99;
+            // 
+            // HInstPaqEvPage4CalANombre
+            // 
+            dataGridViewCellStyle29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HInstPaqEvPage4CalANombre.DefaultCellStyle = dataGridViewCellStyle29;
+            this.HInstPaqEvPage4CalANombre.HeaderText = "Nombre";
+            this.HInstPaqEvPage4CalANombre.MaxInputLength = 50;
+            this.HInstPaqEvPage4CalANombre.Name = "HInstPaqEvPage4CalANombre";
+            this.HInstPaqEvPage4CalANombre.ReadOnly = true;
+            this.HInstPaqEvPage4CalANombre.Visible = false;
+            // 
+            // HInstPaqEvPage4CalATipoProducto
+            // 
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HInstPaqEvPage4CalATipoProducto.DefaultCellStyle = dataGridViewCellStyle30;
+            this.HInstPaqEvPage4CalATipoProducto.HeaderText = "Tipo de Producto";
+            this.HInstPaqEvPage4CalATipoProducto.Name = "HInstPaqEvPage4CalATipoProducto";
+            this.HInstPaqEvPage4CalATipoProducto.ReadOnly = true;
+            this.HInstPaqEvPage4CalATipoProducto.Width = 135;
+            // 
+            // HInstPaqEvPage4CalADestino
+            // 
+            dataGridViewCellStyle31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HInstPaqEvPage4CalADestino.DefaultCellStyle = dataGridViewCellStyle31;
+            this.HInstPaqEvPage4CalADestino.HeaderText = "Destino";
+            this.HInstPaqEvPage4CalADestino.MaxInputLength = 200;
+            this.HInstPaqEvPage4CalADestino.Name = "HInstPaqEvPage4CalADestino";
+            this.HInstPaqEvPage4CalADestino.ReadOnly = true;
+            // 
+            // HInstPaqEvPage4CalAPrecio
+            // 
+            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle32.Format = "C0";
+            dataGridViewCellStyle32.NullValue = null;
+            this.HInstPaqEvPage4CalAPrecio.DefaultCellStyle = dataGridViewCellStyle32;
+            this.HInstPaqEvPage4CalAPrecio.HeaderText = "Precio($)";
+            this.HInstPaqEvPage4CalAPrecio.Name = "HInstPaqEvPage4CalAPrecio";
+            this.HInstPaqEvPage4CalAPrecio.ReadOnly = true;
+            this.HInstPaqEvPage4CalAPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HInstPaqEvPage4CalADuracion
+            // 
+            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle33.Format = "N0";
+            dataGridViewCellStyle33.NullValue = null;
+            this.HInstPaqEvPage4CalADuracion.DefaultCellStyle = dataGridViewCellStyle33;
+            this.HInstPaqEvPage4CalADuracion.HeaderText = "Duración(días)";
+            this.HInstPaqEvPage4CalADuracion.Name = "HInstPaqEvPage4CalADuracion";
+            this.HInstPaqEvPage4CalADuracion.ReadOnly = true;
+            // 
+            // HInstPaqEvPage4CalAActividades
+            // 
+            dataGridViewCellStyle34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HInstPaqEvPage4CalAActividades.DefaultCellStyle = dataGridViewCellStyle34;
+            this.HInstPaqEvPage4CalAActividades.HeaderText = "Actividades";
+            this.HInstPaqEvPage4CalAActividades.MaxInputLength = 100;
+            this.HInstPaqEvPage4CalAActividades.Name = "HInstPaqEvPage4CalAActividades";
+            this.HInstPaqEvPage4CalAActividades.ReadOnly = true;
+            this.HInstPaqEvPage4CalAActividades.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HInstPaqEvPage4CalACupo
+            // 
+            // 
+            // 
+            // 
+            this.HInstPaqEvPage4CalACupo.BackgroundStyle.Class = "DataGridViewNumericBorder";
+            this.HInstPaqEvPage4CalACupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle35.Format = "C0";
+            dataGridViewCellStyle35.NullValue = null;
+            this.HInstPaqEvPage4CalACupo.DefaultCellStyle = dataGridViewCellStyle35;
+            this.HInstPaqEvPage4CalACupo.HeaderText = "Cupo";
+            this.HInstPaqEvPage4CalACupo.MinValue = 0;
+            this.HInstPaqEvPage4CalACupo.Name = "HInstPaqEvPage4CalACupo";
+            this.HInstPaqEvPage4CalACupo.ReadOnly = true;
+            this.HInstPaqEvPage4CalACupo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HInstPaqEvPage4CalACupo.ShowUpDown = true;
+            this.HInstPaqEvPage4CalACupo.Width = 50;
+            // 
+            // HInstPaqEvPage4CalAFechaSalida
+            // 
+            // 
+            // 
+            // 
+            this.HInstPaqEvPage4CalAFechaSalida.BackgroundStyle.Class = "DataGridViewDateTimeBorder";
+            this.HInstPaqEvPage4CalAFechaSalida.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            dataGridViewCellStyle36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HInstPaqEvPage4CalAFechaSalida.DefaultCellStyle = dataGridViewCellStyle36;
+            this.HInstPaqEvPage4CalAFechaSalida.HeaderText = "Fecha Salida";
+            this.HInstPaqEvPage4CalAFechaSalida.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
+            // 
+            // 
+            // 
+            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            // 
+            // 
+            // 
+            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.DisplayMonth = new System.DateTime(2017, 12, 1, 0, 0, 0, 0);
+            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.MarkedDates = new System.DateTime[0];
+            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.HInstPaqEvPage4CalAFechaSalida.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
+            this.HInstPaqEvPage4CalAFechaSalida.Name = "HInstPaqEvPage4CalAFechaSalida";
+            this.HInstPaqEvPage4CalAFechaSalida.ReadOnly = true;
+            // 
+            // HInstPaqEvPage4CalAFechaRegreso
+            // 
+            dataGridViewCellStyle37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HInstPaqEvPage4CalAFechaRegreso.DefaultCellStyle = dataGridViewCellStyle37;
+            this.HInstPaqEvPage4CalAFechaRegreso.HeaderText = "Fecha Regreso";
+            this.HInstPaqEvPage4CalAFechaRegreso.Name = "HInstPaqEvPage4CalAFechaRegreso";
+            this.HInstPaqEvPage4CalAFechaRegreso.ReadOnly = true;
+            this.HInstPaqEvPage4CalAFechaRegreso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // lblPage4CalAPaqEvInst
+            // 
+            this.lblPage4CalAPaqEvInst.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.lblPage4CalAPaqEvInst.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblPage4CalAPaqEvInst.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPage4CalAPaqEvInst.ForeColor = System.Drawing.Color.Green;
+            this.lblPage4CalAPaqEvInst.Location = new System.Drawing.Point(14, 4);
+            this.lblPage4CalAPaqEvInst.Name = "lblPage4CalAPaqEvInst";
+            this.lblPage4CalAPaqEvInst.Size = new System.Drawing.Size(510, 23);
+            this.lblPage4CalAPaqEvInst.TabIndex = 98;
+            this.lblPage4CalAPaqEvInst.Text = "Paquetes - Eventos - Instructor";
+            // 
+            // WizPage5CalACurInstAloj
+            // 
+            this.WizPage5CalACurInstAloj.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.WizPage5CalACurInstAloj.AntiAlias = false;
+            this.WizPage5CalACurInstAloj.Controls.Add(this.gridPage5CalAInstPaqEvAloj);
+            this.WizPage5CalACurInstAloj.Controls.Add(this.lblPage5CalAPaqEvInstAloj);
+            this.WizPage5CalACurInstAloj.Controls.Add(this.lblPage5CalACarga);
+            this.WizPage5CalACurInstAloj.Location = new System.Drawing.Point(7, 72);
+            this.WizPage5CalACurInstAloj.Name = "WizPage5CalACurInstAloj";
+            this.WizPage5CalACurInstAloj.PageDescription = "Asigne alojamiento para los paquetes y eventos.";
+            this.WizPage5CalACurInstAloj.PageTitle = "Paso 3: Alojamiento";
+            this.WizPage5CalACurInstAloj.Size = new System.Drawing.Size(805, 300);
+            // 
+            // 
+            // 
+            this.WizPage5CalACurInstAloj.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.WizPage5CalACurInstAloj.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.WizPage5CalACurInstAloj.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.WizPage5CalACurInstAloj.TabIndex = 12;
+            this.WizPage5CalACurInstAloj.NextButtonClick += new System.ComponentModel.CancelEventHandler(this.WizPage5CalACurInstAloj_NextClick);
+            // 
+            // gridPage5CalAInstPaqEvAloj
+            // 
+            this.gridPage5CalAInstPaqEvAloj.AllowUserToAddRows = false;
+            this.gridPage5CalAInstPaqEvAloj.AllowUserToOrderColumns = true;
+            this.gridPage5CalAInstPaqEvAloj.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridPage5CalAInstPaqEvAloj.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridPage5CalAInstPaqEvAloj.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.HAlojPaqEvPage5CalANombre,
+            this.HAlojPaqEvPage5CalATipoProducto,
+            this.HAlojPaqEvPage5CalADestino,
+            this.HAlojPaqEvPage5CalAPrecio,
+            this.HAlojPaqEvPage5CalADuracion,
+            this.HAlojPaqEvPage5CalAActividades,
+            this.HAlojPaqEvPage5CalACupo,
+            this.HAlojPaqEvPage5CalAFechaSalida,
+            this.HAlojPaqEvPage5CalAFechaRegreso,
+            this.HAlojPaqEvPage5CalAInstructor});
+            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle48.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle48.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle48.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle48.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle48.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle48.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridPage5CalAInstPaqEvAloj.DefaultCellStyle = dataGridViewCellStyle48;
+            this.gridPage5CalAInstPaqEvAloj.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.gridPage5CalAInstPaqEvAloj.Location = new System.Drawing.Point(13, 31);
+            this.gridPage5CalAInstPaqEvAloj.Name = "gridPage5CalAInstPaqEvAloj";
+            this.gridPage5CalAInstPaqEvAloj.Size = new System.Drawing.Size(776, 267);
+            this.gridPage5CalAInstPaqEvAloj.TabIndex = 103;
+            // 
+            // HAlojPaqEvPage5CalANombre
+            // 
+            dataGridViewCellStyle39.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HAlojPaqEvPage5CalANombre.DefaultCellStyle = dataGridViewCellStyle39;
+            this.HAlojPaqEvPage5CalANombre.HeaderText = "Nombre";
+            this.HAlojPaqEvPage5CalANombre.MaxInputLength = 50;
+            this.HAlojPaqEvPage5CalANombre.Name = "HAlojPaqEvPage5CalANombre";
+            this.HAlojPaqEvPage5CalANombre.ReadOnly = true;
+            this.HAlojPaqEvPage5CalANombre.Visible = false;
+            // 
+            // HAlojPaqEvPage5CalATipoProducto
+            // 
+            dataGridViewCellStyle40.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HAlojPaqEvPage5CalATipoProducto.DefaultCellStyle = dataGridViewCellStyle40;
+            this.HAlojPaqEvPage5CalATipoProducto.HeaderText = "Tipo de Producto";
+            this.HAlojPaqEvPage5CalATipoProducto.Name = "HAlojPaqEvPage5CalATipoProducto";
+            this.HAlojPaqEvPage5CalATipoProducto.ReadOnly = true;
+            this.HAlojPaqEvPage5CalATipoProducto.Width = 80;
+            // 
+            // HAlojPaqEvPage5CalADestino
+            // 
+            dataGridViewCellStyle41.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HAlojPaqEvPage5CalADestino.DefaultCellStyle = dataGridViewCellStyle41;
+            this.HAlojPaqEvPage5CalADestino.HeaderText = "Destino";
+            this.HAlojPaqEvPage5CalADestino.MaxInputLength = 200;
+            this.HAlojPaqEvPage5CalADestino.Name = "HAlojPaqEvPage5CalADestino";
+            this.HAlojPaqEvPage5CalADestino.ReadOnly = true;
+            // 
+            // HAlojPaqEvPage5CalAPrecio
+            // 
+            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle42.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle42.Format = "C0";
+            dataGridViewCellStyle42.NullValue = null;
+            this.HAlojPaqEvPage5CalAPrecio.DefaultCellStyle = dataGridViewCellStyle42;
+            this.HAlojPaqEvPage5CalAPrecio.HeaderText = "Precio";
+            this.HAlojPaqEvPage5CalAPrecio.Name = "HAlojPaqEvPage5CalAPrecio";
+            this.HAlojPaqEvPage5CalAPrecio.ReadOnly = true;
+            this.HAlojPaqEvPage5CalAPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HAlojPaqEvPage5CalAPrecio.Width = 70;
+            // 
+            // HAlojPaqEvPage5CalADuracion
+            // 
+            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle43.Format = "N0";
+            dataGridViewCellStyle43.NullValue = null;
+            this.HAlojPaqEvPage5CalADuracion.DefaultCellStyle = dataGridViewCellStyle43;
+            this.HAlojPaqEvPage5CalADuracion.HeaderText = "Duración (días)";
+            this.HAlojPaqEvPage5CalADuracion.Name = "HAlojPaqEvPage5CalADuracion";
+            this.HAlojPaqEvPage5CalADuracion.ReadOnly = true;
+            this.HAlojPaqEvPage5CalADuracion.Width = 70;
+            // 
+            // HAlojPaqEvPage5CalAActividades
+            // 
+            dataGridViewCellStyle44.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HAlojPaqEvPage5CalAActividades.DefaultCellStyle = dataGridViewCellStyle44;
+            this.HAlojPaqEvPage5CalAActividades.HeaderText = "Actividades";
+            this.HAlojPaqEvPage5CalAActividades.MaxInputLength = 100;
+            this.HAlojPaqEvPage5CalAActividades.Name = "HAlojPaqEvPage5CalAActividades";
+            this.HAlojPaqEvPage5CalAActividades.ReadOnly = true;
+            this.HAlojPaqEvPage5CalAActividades.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HAlojPaqEvPage5CalACupo
+            // 
+            // 
+            // 
+            // 
+            this.HAlojPaqEvPage5CalACupo.BackgroundStyle.Class = "DataGridViewNumericBorder";
+            this.HAlojPaqEvPage5CalACupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            dataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle45.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle45.Format = "N0";
+            dataGridViewCellStyle45.NullValue = null;
+            this.HAlojPaqEvPage5CalACupo.DefaultCellStyle = dataGridViewCellStyle45;
+            this.HAlojPaqEvPage5CalACupo.HeaderText = "Cupo";
+            this.HAlojPaqEvPage5CalACupo.MinValue = 0;
+            this.HAlojPaqEvPage5CalACupo.Name = "HAlojPaqEvPage5CalACupo";
+            this.HAlojPaqEvPage5CalACupo.ReadOnly = true;
+            this.HAlojPaqEvPage5CalACupo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HAlojPaqEvPage5CalACupo.ShowUpDown = true;
+            this.HAlojPaqEvPage5CalACupo.Width = 50;
+            // 
+            // HAlojPaqEvPage5CalAFechaSalida
+            // 
+            // 
+            // 
+            // 
+            this.HAlojPaqEvPage5CalAFechaSalida.BackgroundStyle.Class = "DataGridViewDateTimeBorder";
+            this.HAlojPaqEvPage5CalAFechaSalida.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            dataGridViewCellStyle46.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HAlojPaqEvPage5CalAFechaSalida.DefaultCellStyle = dataGridViewCellStyle46;
+            this.HAlojPaqEvPage5CalAFechaSalida.HeaderText = "Fecha Salida";
+            this.HAlojPaqEvPage5CalAFechaSalida.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
+            // 
+            // 
+            // 
+            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            // 
+            // 
+            // 
+            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.DisplayMonth = new System.DateTime(2017, 12, 1, 0, 0, 0, 0);
+            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.MarkedDates = new System.DateTime[0];
+            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.HAlojPaqEvPage5CalAFechaSalida.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
+            this.HAlojPaqEvPage5CalAFechaSalida.Name = "HAlojPaqEvPage5CalAFechaSalida";
+            this.HAlojPaqEvPage5CalAFechaSalida.ReadOnly = true;
+            this.HAlojPaqEvPage5CalAFechaSalida.Width = 80;
+            // 
+            // HAlojPaqEvPage5CalAFechaRegreso
+            // 
+            dataGridViewCellStyle47.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HAlojPaqEvPage5CalAFechaRegreso.DefaultCellStyle = dataGridViewCellStyle47;
+            this.HAlojPaqEvPage5CalAFechaRegreso.HeaderText = "Fecha Regreso";
+            this.HAlojPaqEvPage5CalAFechaRegreso.Name = "HAlojPaqEvPage5CalAFechaRegreso";
+            this.HAlojPaqEvPage5CalAFechaRegreso.ReadOnly = true;
+            this.HAlojPaqEvPage5CalAFechaRegreso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HAlojPaqEvPage5CalAFechaRegreso.Width = 80;
+            // 
+            // HAlojPaqEvPage5CalAInstructor
+            // 
+            this.HAlojPaqEvPage5CalAInstructor.HeaderText = "Instructor";
+            this.HAlojPaqEvPage5CalAInstructor.Name = "HAlojPaqEvPage5CalAInstructor";
+            this.HAlojPaqEvPage5CalAInstructor.ReadOnly = true;
+            this.HAlojPaqEvPage5CalAInstructor.Width = 140;
+            // 
+            // lblPage5CalAPaqEvInstAloj
+            // 
+            this.lblPage5CalAPaqEvInstAloj.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.lblPage5CalAPaqEvInstAloj.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblPage5CalAPaqEvInstAloj.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPage5CalAPaqEvInstAloj.ForeColor = System.Drawing.Color.Green;
+            this.lblPage5CalAPaqEvInstAloj.Location = new System.Drawing.Point(13, 3);
+            this.lblPage5CalAPaqEvInstAloj.Name = "lblPage5CalAPaqEvInstAloj";
+            this.lblPage5CalAPaqEvInstAloj.Size = new System.Drawing.Size(586, 23);
+            this.lblPage5CalAPaqEvInstAloj.TabIndex = 102;
+            this.lblPage5CalAPaqEvInstAloj.Text = "Paquetes - Eventos + Instructor - Alojamiento";
+            // 
+            // lblPage5CalACarga
+            // 
+            this.lblPage5CalACarga.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            // 
+            // 
+            // 
+            this.lblPage5CalACarga.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblPage5CalACarga.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPage5CalACarga.ForeColor = System.Drawing.Color.Black;
+            this.lblPage5CalACarga.Location = new System.Drawing.Point(668, 3);
+            this.lblPage5CalACarga.Name = "lblPage5CalACarga";
+            this.lblPage5CalACarga.SingleLineColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblPage5CalACarga.Size = new System.Drawing.Size(105, 23);
+            this.lblPage5CalACarga.TabIndex = 101;
+            this.lblPage5CalACarga.Visible = false;
+            // 
+            // WizPage6CalACurInstAlojTras
+            // 
+            this.WizPage6CalACurInstAlojTras.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.WizPage6CalACurInstAlojTras.AntiAlias = false;
+            this.WizPage6CalACurInstAlojTras.Controls.Add(this.gridPage6CalAInstPaqEvAlojTras);
+            this.WizPage6CalACurInstAlojTras.Controls.Add(this.lblPage6CalAPaqEvInstAlojTras);
+            this.WizPage6CalACurInstAlojTras.Controls.Add(this.lblPage6CalACarga);
+            this.WizPage6CalACurInstAlojTras.Location = new System.Drawing.Point(7, 72);
+            this.WizPage6CalACurInstAlojTras.Name = "WizPage6CalACurInstAlojTras";
+            this.WizPage6CalACurInstAlojTras.PageDescription = "Asigne traslados para los paquetes y eventos.";
+            this.WizPage6CalACurInstAlojTras.PageTitle = "Paso 4: Traslado";
+            this.WizPage6CalACurInstAlojTras.Size = new System.Drawing.Size(805, 300);
+            // 
+            // 
+            // 
+            this.WizPage6CalACurInstAlojTras.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.WizPage6CalACurInstAlojTras.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.WizPage6CalACurInstAlojTras.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.WizPage6CalACurInstAlojTras.TabIndex = 13;
+            this.WizPage6CalACurInstAlojTras.FinishButtonClick += new System.ComponentModel.CancelEventHandler(this.WizPage6CalACurInstAlojTras_FinishClick);
+            // 
+            // gridPage6CalAInstPaqEvAlojTras
+            // 
+            this.gridPage6CalAInstPaqEvAlojTras.AllowUserToAddRows = false;
+            this.gridPage6CalAInstPaqEvAlojTras.AllowUserToOrderColumns = true;
+            this.gridPage6CalAInstPaqEvAlojTras.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridPage6CalAInstPaqEvAlojTras.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridPage6CalAInstPaqEvAlojTras.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.HTrasPaqEvPage6CalANombre,
+            this.HTrasPaqEvPage6CalATipoProducto,
+            this.HTrasPaqEvPage6CalADestino,
+            this.HTrasPaqEvPage6CalAPrecio,
+            this.HTrasPaqEvPage6CalADuracion,
+            this.HTrasPaqEvPage6CalAActividades,
+            this.HTrasPaqEvPage6CalACupo,
+            this.HTrasPaqEvPage6CalAFSalida,
+            this.HTrasPaqEvPage6CalAFRegreso,
+            this.HTrasPaqEvPage6CalAInstructor,
+            this.HTrasPaqEvPage6CalAAlojamiento});
+            dataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle60.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle60.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle60.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle60.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle60.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle60.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridPage6CalAInstPaqEvAlojTras.DefaultCellStyle = dataGridViewCellStyle60;
+            this.gridPage6CalAInstPaqEvAlojTras.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.gridPage6CalAInstPaqEvAlojTras.Location = new System.Drawing.Point(6, 31);
+            this.gridPage6CalAInstPaqEvAlojTras.Name = "gridPage6CalAInstPaqEvAlojTras";
+            this.gridPage6CalAInstPaqEvAlojTras.Size = new System.Drawing.Size(776, 267);
+            this.gridPage6CalAInstPaqEvAlojTras.TabIndex = 106;
+            // 
+            // HTrasPaqEvPage6CalANombre
+            // 
+            dataGridViewCellStyle49.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HTrasPaqEvPage6CalANombre.DefaultCellStyle = dataGridViewCellStyle49;
+            this.HTrasPaqEvPage6CalANombre.HeaderText = "Nombre";
+            this.HTrasPaqEvPage6CalANombre.MaxInputLength = 50;
+            this.HTrasPaqEvPage6CalANombre.Name = "HTrasPaqEvPage6CalANombre";
+            this.HTrasPaqEvPage6CalANombre.ReadOnly = true;
+            this.HTrasPaqEvPage6CalANombre.Visible = false;
+            // 
+            // HTrasPaqEvPage6CalATipoProducto
+            // 
+            dataGridViewCellStyle50.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HTrasPaqEvPage6CalATipoProducto.DefaultCellStyle = dataGridViewCellStyle50;
+            this.HTrasPaqEvPage6CalATipoProducto.HeaderText = "Tipo de Producto";
+            this.HTrasPaqEvPage6CalATipoProducto.Name = "HTrasPaqEvPage6CalATipoProducto";
+            this.HTrasPaqEvPage6CalATipoProducto.ReadOnly = true;
+            this.HTrasPaqEvPage6CalATipoProducto.Width = 80;
+            // 
+            // HTrasPaqEvPage6CalADestino
+            // 
+            dataGridViewCellStyle51.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HTrasPaqEvPage6CalADestino.DefaultCellStyle = dataGridViewCellStyle51;
+            this.HTrasPaqEvPage6CalADestino.HeaderText = "Destino";
+            this.HTrasPaqEvPage6CalADestino.MaxInputLength = 200;
+            this.HTrasPaqEvPage6CalADestino.Name = "HTrasPaqEvPage6CalADestino";
+            this.HTrasPaqEvPage6CalADestino.ReadOnly = true;
+            // 
+            // HTrasPaqEvPage6CalAPrecio
+            // 
+            dataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle52.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle52.Format = "C0";
+            dataGridViewCellStyle52.NullValue = null;
+            this.HTrasPaqEvPage6CalAPrecio.DefaultCellStyle = dataGridViewCellStyle52;
+            this.HTrasPaqEvPage6CalAPrecio.HeaderText = "Precio";
+            this.HTrasPaqEvPage6CalAPrecio.Name = "HTrasPaqEvPage6CalAPrecio";
+            this.HTrasPaqEvPage6CalAPrecio.ReadOnly = true;
+            this.HTrasPaqEvPage6CalAPrecio.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HTrasPaqEvPage6CalAPrecio.Width = 70;
+            // 
+            // HTrasPaqEvPage6CalADuracion
+            // 
+            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle53.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle53.Format = "N0";
+            dataGridViewCellStyle53.NullValue = null;
+            this.HTrasPaqEvPage6CalADuracion.DefaultCellStyle = dataGridViewCellStyle53;
+            this.HTrasPaqEvPage6CalADuracion.HeaderText = "Duración (días)";
+            this.HTrasPaqEvPage6CalADuracion.Name = "HTrasPaqEvPage6CalADuracion";
+            this.HTrasPaqEvPage6CalADuracion.ReadOnly = true;
+            this.HTrasPaqEvPage6CalADuracion.Width = 70;
+            // 
+            // HTrasPaqEvPage6CalAActividades
+            // 
+            dataGridViewCellStyle54.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HTrasPaqEvPage6CalAActividades.DefaultCellStyle = dataGridViewCellStyle54;
+            this.HTrasPaqEvPage6CalAActividades.HeaderText = "Actividades";
+            this.HTrasPaqEvPage6CalAActividades.MaxInputLength = 100;
+            this.HTrasPaqEvPage6CalAActividades.Name = "HTrasPaqEvPage6CalAActividades";
+            this.HTrasPaqEvPage6CalAActividades.ReadOnly = true;
+            this.HTrasPaqEvPage6CalAActividades.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // HTrasPaqEvPage6CalACupo
+            // 
+            // 
+            // 
+            // 
+            this.HTrasPaqEvPage6CalACupo.BackgroundStyle.Class = "DataGridViewNumericBorder";
+            this.HTrasPaqEvPage6CalACupo.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            dataGridViewCellStyle55.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle55.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            dataGridViewCellStyle55.Format = "N0";
+            dataGridViewCellStyle55.NullValue = null;
+            this.HTrasPaqEvPage6CalACupo.DefaultCellStyle = dataGridViewCellStyle55;
+            this.HTrasPaqEvPage6CalACupo.HeaderText = "Cupo";
+            this.HTrasPaqEvPage6CalACupo.MinValue = 0;
+            this.HTrasPaqEvPage6CalACupo.Name = "HTrasPaqEvPage6CalACupo";
+            this.HTrasPaqEvPage6CalACupo.ReadOnly = true;
+            this.HTrasPaqEvPage6CalACupo.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HTrasPaqEvPage6CalACupo.ShowUpDown = true;
+            this.HTrasPaqEvPage6CalACupo.Width = 50;
+            // 
+            // HTrasPaqEvPage6CalAFSalida
+            // 
+            // 
+            // 
+            // 
+            this.HTrasPaqEvPage6CalAFSalida.BackgroundStyle.Class = "DataGridViewDateTimeBorder";
+            this.HTrasPaqEvPage6CalAFSalida.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            dataGridViewCellStyle56.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HTrasPaqEvPage6CalAFSalida.DefaultCellStyle = dataGridViewCellStyle56;
+            this.HTrasPaqEvPage6CalAFSalida.HeaderText = "Fecha Salida";
+            this.HTrasPaqEvPage6CalAFSalida.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
+            // 
+            // 
+            // 
+            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
+            // 
+            // 
+            // 
+            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.DisplayMonth = new System.DateTime(2017, 12, 1, 0, 0, 0, 0);
+            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.MarkedDates = new System.DateTime[0];
+            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
+            // 
+            // 
+            // 
+            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.HTrasPaqEvPage6CalAFSalida.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
+            this.HTrasPaqEvPage6CalAFSalida.Name = "HTrasPaqEvPage6CalAFSalida";
+            this.HTrasPaqEvPage6CalAFSalida.ReadOnly = true;
+            this.HTrasPaqEvPage6CalAFSalida.Width = 80;
+            // 
+            // HTrasPaqEvPage6CalAFRegreso
+            // 
+            dataGridViewCellStyle57.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HTrasPaqEvPage6CalAFRegreso.DefaultCellStyle = dataGridViewCellStyle57;
+            this.HTrasPaqEvPage6CalAFRegreso.HeaderText = "Fecha Regreso";
+            this.HTrasPaqEvPage6CalAFRegreso.Name = "HTrasPaqEvPage6CalAFRegreso";
+            this.HTrasPaqEvPage6CalAFRegreso.ReadOnly = true;
+            this.HTrasPaqEvPage6CalAFRegreso.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.HTrasPaqEvPage6CalAFRegreso.Width = 80;
+            // 
+            // HTrasPaqEvPage6CalAInstructor
+            // 
+            dataGridViewCellStyle58.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HTrasPaqEvPage6CalAInstructor.DefaultCellStyle = dataGridViewCellStyle58;
+            this.HTrasPaqEvPage6CalAInstructor.HeaderText = "Instructor";
+            this.HTrasPaqEvPage6CalAInstructor.Name = "HTrasPaqEvPage6CalAInstructor";
+            this.HTrasPaqEvPage6CalAInstructor.ReadOnly = true;
+            this.HTrasPaqEvPage6CalAInstructor.Width = 140;
+            // 
+            // HTrasPaqEvPage6CalAAlojamiento
+            // 
+            dataGridViewCellStyle59.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.HTrasPaqEvPage6CalAAlojamiento.DefaultCellStyle = dataGridViewCellStyle59;
+            this.HTrasPaqEvPage6CalAAlojamiento.HeaderText = "Alojamiento";
+            this.HTrasPaqEvPage6CalAAlojamiento.Name = "HTrasPaqEvPage6CalAAlojamiento";
+            this.HTrasPaqEvPage6CalAAlojamiento.ReadOnly = true;
+            this.HTrasPaqEvPage6CalAAlojamiento.Width = 240;
+            // 
+            // lblPage6CalAPaqEvInstAlojTras
+            // 
+            this.lblPage6CalAPaqEvInstAlojTras.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.lblPage6CalAPaqEvInstAlojTras.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblPage6CalAPaqEvInstAlojTras.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPage6CalAPaqEvInstAlojTras.ForeColor = System.Drawing.Color.Green;
+            this.lblPage6CalAPaqEvInstAlojTras.Location = new System.Drawing.Point(6, 3);
+            this.lblPage6CalAPaqEvInstAlojTras.Name = "lblPage6CalAPaqEvInstAlojTras";
+            this.lblPage6CalAPaqEvInstAlojTras.Size = new System.Drawing.Size(586, 23);
+            this.lblPage6CalAPaqEvInstAlojTras.TabIndex = 105;
+            this.lblPage6CalAPaqEvInstAlojTras.Text = "Paquetes - Eventos + Instructor + Alojamiento - Traslado";
+            // 
+            // lblPage6CalACarga
+            // 
+            this.lblPage6CalACarga.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            // 
+            // 
+            // 
+            this.lblPage6CalACarga.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblPage6CalACarga.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPage6CalACarga.ForeColor = System.Drawing.Color.Black;
+            this.lblPage6CalACarga.Location = new System.Drawing.Point(661, 3);
+            this.lblPage6CalACarga.Name = "lblPage6CalACarga";
+            this.lblPage6CalACarga.SingleLineColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblPage6CalACarga.Size = new System.Drawing.Size(105, 23);
+            this.lblPage6CalACarga.TabIndex = 104;
+            this.lblPage6CalACarga.Visible = false;
+            // 
+            // tabItemACalAgregar
+            // 
+            this.tabItemACalAgregar.AttachedControl = this.superTabControlPanel13;
+            this.tabItemACalAgregar.GlobalItem = false;
+            this.tabItemACalAgregar.Image = global::OEVApp.Properties.Resources.upload_ok;
+            this.tabItemACalAgregar.Name = "tabItemACalAgregar";
+            this.tabItemACalAgregar.Text = "Agregar";
             // 
             // superTabControlPanel10
             // 
@@ -4639,1052 +5685,6 @@ namespace OEVApp
             this.tabItemAPConsultar.Image = global::OEVApp.Properties.Resources.lupa;
             this.tabItemAPConsultar.Name = "tabItemAPConsultar";
             this.tabItemAPConsultar.Text = "<b>Consultar</b>";
-            // 
-            // superTabControlPanel4
-            // 
-            this.superTabControlPanel4.Controls.Add(this.txtAPDuracionE);
-            this.superTabControlPanel4.Controls.Add(this.lblAPDuracionE);
-            this.superTabControlPanel4.Controls.Add(this.txtAPDestinoE);
-            this.superTabControlPanel4.Controls.Add(this.lblAPDestinoE);
-            this.superTabControlPanel4.Controls.Add(this.txtAPActividadE);
-            this.superTabControlPanel4.Controls.Add(this.lblAPActividadE);
-            this.superTabControlPanel4.Controls.Add(this.chkAPEstadoE);
-            this.superTabControlPanel4.Controls.Add(this.labelX1);
-            this.superTabControlPanel4.Controls.Add(this.txtAPDificultadE);
-            this.superTabControlPanel4.Controls.Add(this.lblAPIdE);
-            this.superTabControlPanel4.Controls.Add(this.doubleInAPPrecioE);
-            this.superTabControlPanel4.Controls.Add(this.comboAPNombreE);
-            this.superTabControlPanel4.Controls.Add(this.lblAPNombreE);
-            this.superTabControlPanel4.Controls.Add(this.groupAPModalidadE);
-            this.superTabControlPanel4.Controls.Add(this.lblAPPrecioE);
-            this.superTabControlPanel4.Controls.Add(this.btnAPGuardarE);
-            this.superTabControlPanel4.Controls.Add(this.lblAPItinerarioE);
-            this.superTabControlPanel4.Controls.Add(this.richTxtAPItinerarioE);
-            this.superTabControlPanel4.Controls.Add(this.lblAPDificultadE);
-            this.superTabControlPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel4.Location = new System.Drawing.Point(0, 38);
-            this.superTabControlPanel4.Name = "superTabControlPanel4";
-            this.superTabControlPanel4.Size = new System.Drawing.Size(819, 430);
-            this.superTabControlPanel4.TabIndex = 0;
-            this.superTabControlPanel4.TabItem = this.tabItemAPEditar;
-            // 
-            // txtAPDuracionE
-            // 
-            this.txtAPDuracionE.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtAPDuracionE.Border.Class = "TextBoxBorder";
-            this.txtAPDuracionE.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtAPDuracionE.Enabled = false;
-            this.txtAPDuracionE.ForeColor = System.Drawing.Color.Black;
-            this.txtAPDuracionE.Location = new System.Drawing.Point(115, 253);
-            this.txtAPDuracionE.Name = "txtAPDuracionE";
-            this.txtAPDuracionE.Size = new System.Drawing.Size(228, 22);
-            this.txtAPDuracionE.TabIndex = 99;
-            // 
-            // lblAPDuracionE
-            // 
-            // 
-            // 
-            // 
-            this.lblAPDuracionE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPDuracionE.Location = new System.Drawing.Point(22, 252);
-            this.lblAPDuracionE.Name = "lblAPDuracionE";
-            this.lblAPDuracionE.Size = new System.Drawing.Size(88, 23);
-            this.lblAPDuracionE.TabIndex = 98;
-            this.lblAPDuracionE.Text = "Duración (días):";
-            // 
-            // txtAPDestinoE
-            // 
-            this.txtAPDestinoE.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtAPDestinoE.Border.Class = "TextBoxBorder";
-            this.txtAPDestinoE.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtAPDestinoE.Enabled = false;
-            this.txtAPDestinoE.ForeColor = System.Drawing.Color.Black;
-            this.txtAPDestinoE.Location = new System.Drawing.Point(115, 171);
-            this.txtAPDestinoE.Multiline = true;
-            this.txtAPDestinoE.Name = "txtAPDestinoE";
-            this.txtAPDestinoE.Size = new System.Drawing.Size(228, 35);
-            this.txtAPDestinoE.TabIndex = 97;
-            // 
-            // lblAPDestinoE
-            // 
-            // 
-            // 
-            // 
-            this.lblAPDestinoE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPDestinoE.Location = new System.Drawing.Point(22, 177);
-            this.lblAPDestinoE.Name = "lblAPDestinoE";
-            this.lblAPDestinoE.Size = new System.Drawing.Size(87, 23);
-            this.lblAPDestinoE.TabIndex = 95;
-            this.lblAPDestinoE.Text = "Destino:";
-            // 
-            // txtAPActividadE
-            // 
-            this.txtAPActividadE.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtAPActividadE.Border.Class = "TextBoxBorder";
-            this.txtAPActividadE.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtAPActividadE.Enabled = false;
-            this.txtAPActividadE.ForeColor = System.Drawing.Color.Black;
-            this.txtAPActividadE.Location = new System.Drawing.Point(116, 138);
-            this.txtAPActividadE.Name = "txtAPActividadE";
-            this.txtAPActividadE.Size = new System.Drawing.Size(227, 22);
-            this.txtAPActividadE.TabIndex = 89;
-            // 
-            // lblAPActividadE
-            // 
-            // 
-            // 
-            // 
-            this.lblAPActividadE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPActividadE.Location = new System.Drawing.Point(23, 137);
-            this.lblAPActividadE.Name = "lblAPActividadE";
-            this.lblAPActividadE.Size = new System.Drawing.Size(87, 23);
-            this.lblAPActividadE.TabIndex = 88;
-            this.lblAPActividadE.Text = "Actividad:";
-            // 
-            // chkAPEstadoE
-            // 
-            // 
-            // 
-            // 
-            this.chkAPEstadoE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.chkAPEstadoE.Location = new System.Drawing.Point(120, 328);
-            this.chkAPEstadoE.Name = "chkAPEstadoE";
-            this.chkAPEstadoE.Size = new System.Drawing.Size(38, 23);
-            this.chkAPEstadoE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.chkAPEstadoE.TabIndex = 94;
-            // 
-            // labelX1
-            // 
-            // 
-            // 
-            // 
-            this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX1.Location = new System.Drawing.Point(22, 328);
-            this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(87, 23);
-            this.labelX1.TabIndex = 93;
-            this.labelX1.Text = "Estado:";
-            // 
-            // txtAPDificultadE
-            // 
-            this.txtAPDificultadE.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtAPDificultadE.Border.Class = "TextBoxBorder";
-            this.txtAPDificultadE.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtAPDificultadE.Enabled = false;
-            this.txtAPDificultadE.ForeColor = System.Drawing.Color.Black;
-            this.txtAPDificultadE.Location = new System.Drawing.Point(115, 218);
-            this.txtAPDificultadE.Name = "txtAPDificultadE";
-            this.txtAPDificultadE.Size = new System.Drawing.Size(228, 22);
-            this.txtAPDificultadE.TabIndex = 91;
-            // 
-            // lblAPIdE
-            // 
-            // 
-            // 
-            // 
-            this.lblAPIdE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPIdE.Location = new System.Drawing.Point(380, 25);
-            this.lblAPIdE.Name = "lblAPIdE";
-            this.lblAPIdE.Size = new System.Drawing.Size(87, 23);
-            this.lblAPIdE.TabIndex = 92;
-            this.lblAPIdE.Visible = false;
-            // 
-            // doubleInAPPrecioE
-            // 
-            // 
-            // 
-            // 
-            this.doubleInAPPrecioE.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.doubleInAPPrecioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.doubleInAPPrecioE.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
-            this.doubleInAPPrecioE.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.doubleInAPPrecioE.Increment = 100D;
-            this.doubleInAPPrecioE.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
-            this.doubleInAPPrecioE.Location = new System.Drawing.Point(115, 290);
-            this.doubleInAPPrecioE.MaxValue = 1000000D;
-            this.doubleInAPPrecioE.MinValue = 0D;
-            this.doubleInAPPrecioE.Name = "doubleInAPPrecioE";
-            this.doubleInAPPrecioE.ShowUpDown = true;
-            this.doubleInAPPrecioE.Size = new System.Drawing.Size(228, 22);
-            this.doubleInAPPrecioE.TabIndex = 88;
-            this.doubleInAPPrecioE.WatermarkText = "2.500";
-            // 
-            // comboAPNombreE
-            // 
-            this.comboAPNombreE.DisplayMember = "Text";
-            this.comboAPNombreE.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboAPNombreE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboAPNombreE.EnablePopupResize = false;
-            this.comboAPNombreE.ItemHeight = 16;
-            this.comboAPNombreE.Location = new System.Drawing.Point(115, 92);
-            this.comboAPNombreE.Name = "comboAPNombreE";
-            this.comboAPNombreE.Size = new System.Drawing.Size(228, 22);
-            this.comboAPNombreE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboAPNombreE.TabIndex = 85;
-            this.comboAPNombreE.SelectedValueChanged += new System.EventHandler(this.comboAPNombreE_SelectedChange);
-            // 
-            // lblAPNombreE
-            // 
-            // 
-            // 
-            // 
-            this.lblAPNombreE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPNombreE.Location = new System.Drawing.Point(22, 92);
-            this.lblAPNombreE.Name = "lblAPNombreE";
-            this.lblAPNombreE.Size = new System.Drawing.Size(87, 23);
-            this.lblAPNombreE.TabIndex = 74;
-            this.lblAPNombreE.Text = "Nombre:";
-            // 
-            // groupAPModalidadE
-            // 
-            this.groupAPModalidadE.Controls.Add(this.radioAPPaqueteE);
-            this.groupAPModalidadE.Controls.Add(this.radioAPEventoE);
-            this.groupAPModalidadE.Location = new System.Drawing.Point(27, 19);
-            this.groupAPModalidadE.Name = "groupAPModalidadE";
-            this.groupAPModalidadE.Size = new System.Drawing.Size(316, 52);
-            this.groupAPModalidadE.TabIndex = 85;
-            this.groupAPModalidadE.TabStop = false;
-            this.groupAPModalidadE.Text = "Modalidad:";
-            // 
-            // radioAPPaqueteE
-            // 
-            this.radioAPPaqueteE.AutoSize = true;
-            this.radioAPPaqueteE.Location = new System.Drawing.Point(192, 17);
-            this.radioAPPaqueteE.Name = "radioAPPaqueteE";
-            this.radioAPPaqueteE.Size = new System.Drawing.Size(67, 17);
-            this.radioAPPaqueteE.TabIndex = 1;
-            this.radioAPPaqueteE.TabStop = true;
-            this.radioAPPaqueteE.Text = "Paquete";
-            this.radioAPPaqueteE.UseVisualStyleBackColor = true;
-            this.radioAPPaqueteE.Click += new System.EventHandler(this.radioAPPaqueteE_Click);
-            // 
-            // radioAPEventoE
-            // 
-            this.radioAPEventoE.AutoSize = true;
-            this.radioAPEventoE.Checked = true;
-            this.radioAPEventoE.Location = new System.Drawing.Point(93, 17);
-            this.radioAPEventoE.Name = "radioAPEventoE";
-            this.radioAPEventoE.Size = new System.Drawing.Size(60, 17);
-            this.radioAPEventoE.TabIndex = 0;
-            this.radioAPEventoE.TabStop = true;
-            this.radioAPEventoE.Text = "Evento";
-            this.radioAPEventoE.UseVisualStyleBackColor = true;
-            this.radioAPEventoE.Click += new System.EventHandler(this.radioAPEventoE_Click);
-            // 
-            // lblAPPrecioE
-            // 
-            // 
-            // 
-            // 
-            this.lblAPPrecioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPPrecioE.Location = new System.Drawing.Point(22, 289);
-            this.lblAPPrecioE.Name = "lblAPPrecioE";
-            this.lblAPPrecioE.Size = new System.Drawing.Size(87, 23);
-            this.lblAPPrecioE.TabIndex = 83;
-            this.lblAPPrecioE.Text = "Precio $:";
-            // 
-            // btnAPGuardarE
-            // 
-            this.btnAPGuardarE.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnAPGuardarE.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnAPGuardarE.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAPGuardarE.Image = global::OEVApp.Properties.Resources.Save32x32;
-            this.btnAPGuardarE.Location = new System.Drawing.Point(645, 21);
-            this.btnAPGuardarE.Name = "btnAPGuardarE";
-            this.btnAPGuardarE.Size = new System.Drawing.Size(110, 45);
-            this.btnAPGuardarE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnAPGuardarE.TabIndex = 77;
-            this.btnAPGuardarE.Text = "Guardar";
-            this.btnAPGuardarE.Click += new System.EventHandler(this.btnAPGuardarE_Click);
-            // 
-            // lblAPItinerarioE
-            // 
-            // 
-            // 
-            // 
-            this.lblAPItinerarioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPItinerarioE.Location = new System.Drawing.Point(368, 85);
-            this.lblAPItinerarioE.Name = "lblAPItinerarioE";
-            this.lblAPItinerarioE.Size = new System.Drawing.Size(87, 23);
-            this.lblAPItinerarioE.TabIndex = 76;
-            this.lblAPItinerarioE.Text = "Itinerario:";
-            // 
-            // richTxtAPItinerarioE
-            // 
-            // 
-            // 
-            // 
-            this.richTxtAPItinerarioE.BackgroundStyle.Class = "RichTextBoxBorder";
-            this.richTxtAPItinerarioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.richTxtAPItinerarioE.Location = new System.Drawing.Point(461, 85);
-            this.richTxtAPItinerarioE.MaxLength = 2000;
-            this.richTxtAPItinerarioE.Name = "richTxtAPItinerarioE";
-            this.richTxtAPItinerarioE.Size = new System.Drawing.Size(294, 324);
-            this.richTxtAPItinerarioE.TabIndex = 78;
-            // 
-            // lblAPDificultadE
-            // 
-            // 
-            // 
-            // 
-            this.lblAPDificultadE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPDificultadE.Location = new System.Drawing.Point(22, 217);
-            this.lblAPDificultadE.Name = "lblAPDificultadE";
-            this.lblAPDificultadE.Size = new System.Drawing.Size(87, 23);
-            this.lblAPDificultadE.TabIndex = 79;
-            this.lblAPDificultadE.Text = "Dificultad:";
-            // 
-            // tabItemAPEditar
-            // 
-            this.tabItemAPEditar.AttachedControl = this.superTabControlPanel4;
-            this.tabItemAPEditar.GlobalItem = false;
-            this.tabItemAPEditar.Image = global::OEVApp.Properties.Resources.addedit24x24;
-            this.tabItemAPEditar.Name = "tabItemAPEditar";
-            this.tabItemAPEditar.Text = "<b>Editar</b>";
-            this.tabItemAPEditar.Click += new System.EventHandler(this.tabItemAPEditar_Click);
-            // 
-            // superTabControlPanel3
-            // 
-            this.superTabControlPanel3.Controls.Add(this.lblACIdE);
-            this.superTabControlPanel3.Controls.Add(this.txtACDificultadE);
-            this.superTabControlPanel3.Controls.Add(this.chkACEstadoE);
-            this.superTabControlPanel3.Controls.Add(this.lblACEstadoE);
-            this.superTabControlPanel3.Controls.Add(this.txtACActividadE);
-            this.superTabControlPanel3.Controls.Add(this.lblACActvidadE);
-            this.superTabControlPanel3.Controls.Add(this.doubleInACPrecioE);
-            this.superTabControlPanel3.Controls.Add(this.comboACNombreE);
-            this.superTabControlPanel3.Controls.Add(this.btnACGuardarE);
-            this.superTabControlPanel3.Controls.Add(this.lblACCursoE);
-            this.superTabControlPanel3.Controls.Add(this.lblACNombreE);
-            this.superTabControlPanel3.Controls.Add(this.lblACDescE);
-            this.superTabControlPanel3.Controls.Add(this.richTxtACDescE);
-            this.superTabControlPanel3.Controls.Add(this.groupBoxACDiasE);
-            this.superTabControlPanel3.Controls.Add(this.lblACDificultadE);
-            this.superTabControlPanel3.Controls.Add(this.lblACPrecioE);
-            this.superTabControlPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel3.Location = new System.Drawing.Point(0, 38);
-            this.superTabControlPanel3.Name = "superTabControlPanel3";
-            this.superTabControlPanel3.Size = new System.Drawing.Size(819, 430);
-            this.superTabControlPanel3.TabIndex = 0;
-            this.superTabControlPanel3.TabItem = this.tabItemACEditar;
-            // 
-            // lblACIdE
-            // 
-            // 
-            // 
-            // 
-            this.lblACIdE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACIdE.Location = new System.Drawing.Point(23, 56);
-            this.lblACIdE.Name = "lblACIdE";
-            this.lblACIdE.Size = new System.Drawing.Size(87, 23);
-            this.lblACIdE.TabIndex = 91;
-            this.lblACIdE.Visible = false;
-            // 
-            // txtACDificultadE
-            // 
-            this.txtACDificultadE.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtACDificultadE.Border.Class = "TextBoxBorder";
-            this.txtACDificultadE.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtACDificultadE.Enabled = false;
-            this.txtACDificultadE.ForeColor = System.Drawing.Color.Black;
-            this.txtACDificultadE.Location = new System.Drawing.Point(118, 141);
-            this.txtACDificultadE.Name = "txtACDificultadE";
-            this.txtACDificultadE.Size = new System.Drawing.Size(222, 22);
-            this.txtACDificultadE.TabIndex = 90;
-            // 
-            // chkACEstadoE
-            // 
-            // 
-            // 
-            // 
-            this.chkACEstadoE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.chkACEstadoE.Location = new System.Drawing.Point(124, 342);
-            this.chkACEstadoE.Name = "chkACEstadoE";
-            this.chkACEstadoE.Size = new System.Drawing.Size(38, 23);
-            this.chkACEstadoE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.chkACEstadoE.TabIndex = 89;
-            // 
-            // lblACEstadoE
-            // 
-            // 
-            // 
-            // 
-            this.lblACEstadoE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACEstadoE.Location = new System.Drawing.Point(24, 342);
-            this.lblACEstadoE.Name = "lblACEstadoE";
-            this.lblACEstadoE.Size = new System.Drawing.Size(87, 23);
-            this.lblACEstadoE.TabIndex = 88;
-            this.lblACEstadoE.Text = "Estado:";
-            // 
-            // txtACActividadE
-            // 
-            this.txtACActividadE.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtACActividadE.Border.Class = "TextBoxBorder";
-            this.txtACActividadE.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtACActividadE.Enabled = false;
-            this.txtACActividadE.ForeColor = System.Drawing.Color.Black;
-            this.txtACActividadE.Location = new System.Drawing.Point(118, 112);
-            this.txtACActividadE.Name = "txtACActividadE";
-            this.txtACActividadE.Size = new System.Drawing.Size(222, 22);
-            this.txtACActividadE.TabIndex = 87;
-            // 
-            // lblACActvidadE
-            // 
-            // 
-            // 
-            // 
-            this.lblACActvidadE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACActvidadE.Location = new System.Drawing.Point(22, 111);
-            this.lblACActvidadE.Name = "lblACActvidadE";
-            this.lblACActvidadE.Size = new System.Drawing.Size(87, 23);
-            this.lblACActvidadE.TabIndex = 86;
-            this.lblACActvidadE.Text = "Actividad:";
-            // 
-            // doubleInACPrecioE
-            // 
-            // 
-            // 
-            // 
-            this.doubleInACPrecioE.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.doubleInACPrecioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.doubleInACPrecioE.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
-            this.doubleInACPrecioE.DisplayFormat = "000";
-            this.doubleInACPrecioE.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.doubleInACPrecioE.Increment = 100D;
-            this.doubleInACPrecioE.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
-            this.doubleInACPrecioE.Location = new System.Drawing.Point(120, 312);
-            this.doubleInACPrecioE.MaxValue = 1000000D;
-            this.doubleInACPrecioE.MinValue = 0D;
-            this.doubleInACPrecioE.Name = "doubleInACPrecioE";
-            this.doubleInACPrecioE.ShowUpDown = true;
-            this.doubleInACPrecioE.Size = new System.Drawing.Size(220, 22);
-            this.doubleInACPrecioE.TabIndex = 85;
-            this.doubleInACPrecioE.WatermarkText = "$ 2.500";
-            // 
-            // comboACNombreE
-            // 
-            this.comboACNombreE.DisplayMember = "Text";
-            this.comboACNombreE.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboACNombreE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboACNombreE.EnablePopupResize = false;
-            this.comboACNombreE.ItemHeight = 16;
-            this.comboACNombreE.Location = new System.Drawing.Point(118, 83);
-            this.comboACNombreE.Name = "comboACNombreE";
-            this.comboACNombreE.Size = new System.Drawing.Size(222, 22);
-            this.comboACNombreE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboACNombreE.TabIndex = 62;
-            this.comboACNombreE.SelectedValueChanged += new System.EventHandler(this.comboACNombreE_SelectedChange);
-            // 
-            // btnACGuardarE
-            // 
-            this.btnACGuardarE.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnACGuardarE.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnACGuardarE.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnACGuardarE.Image = global::OEVApp.Properties.Resources.Save32x32;
-            this.btnACGuardarE.Location = new System.Drawing.Point(576, 18);
-            this.btnACGuardarE.Name = "btnACGuardarE";
-            this.btnACGuardarE.Size = new System.Drawing.Size(110, 45);
-            this.btnACGuardarE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnACGuardarE.TabIndex = 77;
-            this.btnACGuardarE.Text = "Guardar";
-            this.btnACGuardarE.Click += new System.EventHandler(this.btnACGuardarE_Click);
-            // 
-            // lblACCursoE
-            // 
-            // 
-            // 
-            // 
-            this.lblACCursoE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACCursoE.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblACCursoE.ForeColor = System.Drawing.Color.Green;
-            this.lblACCursoE.Location = new System.Drawing.Point(22, 18);
-            this.lblACCursoE.Name = "lblACCursoE";
-            this.lblACCursoE.Size = new System.Drawing.Size(225, 23);
-            this.lblACCursoE.TabIndex = 75;
-            this.lblACCursoE.Text = "Curso de Entrenamiento";
-            // 
-            // lblACNombreE
-            // 
-            // 
-            // 
-            // 
-            this.lblACNombreE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACNombreE.Location = new System.Drawing.Point(22, 83);
-            this.lblACNombreE.Name = "lblACNombreE";
-            this.lblACNombreE.Size = new System.Drawing.Size(87, 23);
-            this.lblACNombreE.TabIndex = 68;
-            this.lblACNombreE.Text = "Nombre:";
-            // 
-            // lblACDescE
-            // 
-            // 
-            // 
-            // 
-            this.lblACDescE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACDescE.Location = new System.Drawing.Point(380, 82);
-            this.lblACDescE.Name = "lblACDescE";
-            this.lblACDescE.Size = new System.Drawing.Size(87, 23);
-            this.lblACDescE.TabIndex = 70;
-            this.lblACDescE.Text = "Descripción:";
-            // 
-            // richTxtACDescE
-            // 
-            // 
-            // 
-            // 
-            this.richTxtACDescE.BackgroundStyle.Class = "RichTextBoxBorder";
-            this.richTxtACDescE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.richTxtACDescE.Location = new System.Drawing.Point(380, 114);
-            this.richTxtACDescE.MaxLength = 2000;
-            this.richTxtACDescE.Name = "richTxtACDescE";
-            this.richTxtACDescE.Size = new System.Drawing.Size(306, 283);
-            this.richTxtACDescE.TabIndex = 71;
-            // 
-            // groupBoxACDiasE
-            // 
-            this.groupBoxACDiasE.Controls.Add(this.checkACVieE);
-            this.groupBoxACDiasE.Controls.Add(this.checkACJueE);
-            this.groupBoxACDiasE.Controls.Add(this.checkACMieE);
-            this.groupBoxACDiasE.Controls.Add(this.checkACMarE);
-            this.groupBoxACDiasE.Controls.Add(this.checkACLunE);
-            this.groupBoxACDiasE.Controls.Add(this.dTInputACHoraInicioE);
-            this.groupBoxACDiasE.Controls.Add(this.dTInputACHoraFinE);
-            this.groupBoxACDiasE.Controls.Add(this.lblACHoraIniE);
-            this.groupBoxACDiasE.Controls.Add(this.lblACHoraFinE);
-            this.groupBoxACDiasE.Location = new System.Drawing.Point(22, 175);
-            this.groupBoxACDiasE.Name = "groupBoxACDiasE";
-            this.groupBoxACDiasE.Size = new System.Drawing.Size(318, 125);
-            this.groupBoxACDiasE.TabIndex = 72;
-            this.groupBoxACDiasE.TabStop = false;
-            this.groupBoxACDiasE.Text = "Días";
-            // 
-            // checkACVieE
-            // 
-            // 
-            // 
-            // 
-            this.checkACVieE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.checkACVieE.Enabled = false;
-            this.checkACVieE.Location = new System.Drawing.Point(251, 15);
-            this.checkACVieE.Name = "checkACVieE";
-            this.checkACVieE.Size = new System.Drawing.Size(61, 23);
-            this.checkACVieE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.checkACVieE.TabIndex = 4;
-            this.checkACVieE.Text = "Viernes";
-            // 
-            // checkACJueE
-            // 
-            // 
-            // 
-            // 
-            this.checkACJueE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.checkACJueE.Enabled = false;
-            this.checkACJueE.Location = new System.Drawing.Point(191, 15);
-            this.checkACJueE.Name = "checkACJueE";
-            this.checkACJueE.Size = new System.Drawing.Size(61, 23);
-            this.checkACJueE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.checkACJueE.TabIndex = 3;
-            this.checkACJueE.Text = "Jueves";
-            // 
-            // checkACMieE
-            // 
-            // 
-            // 
-            // 
-            this.checkACMieE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.checkACMieE.Enabled = false;
-            this.checkACMieE.Location = new System.Drawing.Point(120, 16);
-            this.checkACMieE.Name = "checkACMieE";
-            this.checkACMieE.Size = new System.Drawing.Size(68, 23);
-            this.checkACMieE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.checkACMieE.TabIndex = 2;
-            this.checkACMieE.Text = "Miércoles";
-            // 
-            // checkACMarE
-            // 
-            // 
-            // 
-            // 
-            this.checkACMarE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.checkACMarE.Enabled = false;
-            this.checkACMarE.Location = new System.Drawing.Point(60, 17);
-            this.checkACMarE.Name = "checkACMarE";
-            this.checkACMarE.Size = new System.Drawing.Size(54, 23);
-            this.checkACMarE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.checkACMarE.TabIndex = 1;
-            this.checkACMarE.Text = "Martes";
-            // 
-            // checkACLunE
-            // 
-            // 
-            // 
-            // 
-            this.checkACLunE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.checkACLunE.Enabled = false;
-            this.checkACLunE.Location = new System.Drawing.Point(7, 16);
-            this.checkACLunE.Name = "checkACLunE";
-            this.checkACLunE.Size = new System.Drawing.Size(54, 23);
-            this.checkACLunE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.checkACLunE.TabIndex = 0;
-            this.checkACLunE.Text = "Lunes";
-            // 
-            // dTInputACHoraInicioE
-            // 
-            // 
-            // 
-            // 
-            this.dTInputACHoraInicioE.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.dTInputACHoraInicioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dTInputACHoraInicioE.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
-            this.dTInputACHoraInicioE.ButtonDropDown.Visible = true;
-            this.dTInputACHoraInicioE.DateTimeSelectorVisibility = DevComponents.Editors.DateTimeAdv.eDateTimeSelectorVisibility.TimeSelector;
-            this.dTInputACHoraInicioE.Enabled = false;
-            this.dTInputACHoraInicioE.Format = DevComponents.Editors.eDateTimePickerFormat.Custom;
-            this.dTInputACHoraInicioE.IsInputReadOnly = true;
-            this.dTInputACHoraInicioE.IsPopupCalendarOpen = false;
-            this.dTInputACHoraInicioE.Location = new System.Drawing.Point(107, 48);
-            // 
-            // 
-            // 
-            this.dTInputACHoraInicioE.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dTInputACHoraInicioE.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dTInputACHoraInicioE.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            this.dTInputACHoraInicioE.MonthCalendar.ClearButtonVisible = true;
-            // 
-            // 
-            // 
-            this.dTInputACHoraInicioE.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
-            this.dTInputACHoraInicioE.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
-            this.dTInputACHoraInicioE.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
-            this.dTInputACHoraInicioE.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.dTInputACHoraInicioE.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
-            this.dTInputACHoraInicioE.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
-            this.dTInputACHoraInicioE.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dTInputACHoraInicioE.MonthCalendar.DisplayMonth = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
-            this.dTInputACHoraInicioE.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.dTInputACHoraInicioE.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dTInputACHoraInicioE.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.dTInputACHoraInicioE.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
-            this.dTInputACHoraInicioE.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.dTInputACHoraInicioE.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dTInputACHoraInicioE.MonthCalendar.TodayButtonVisible = true;
-            this.dTInputACHoraInicioE.MonthCalendar.Visible = false;
-            this.dTInputACHoraInicioE.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.dTInputACHoraInicioE.Name = "dTInputACHoraInicioE";
-            this.dTInputACHoraInicioE.Size = new System.Drawing.Size(182, 22);
-            this.dTInputACHoraInicioE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.dTInputACHoraInicioE.TabIndex = 78;
-            this.dTInputACHoraInicioE.TimeSelectorTimeFormat = DevComponents.Editors.DateTimeAdv.eTimeSelectorFormat.Time24H;
-            this.dTInputACHoraInicioE.Value = new System.DateTime(2017, 12, 8, 8, 0, 0, 0);
-            // 
-            // dTInputACHoraFinE
-            // 
-            // 
-            // 
-            // 
-            this.dTInputACHoraFinE.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.dTInputACHoraFinE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dTInputACHoraFinE.ButtonDropDown.Shortcut = DevComponents.DotNetBar.eShortcut.AltDown;
-            this.dTInputACHoraFinE.ButtonDropDown.Visible = true;
-            this.dTInputACHoraFinE.DateTimeSelectorVisibility = DevComponents.Editors.DateTimeAdv.eDateTimeSelectorVisibility.TimeSelector;
-            this.dTInputACHoraFinE.Enabled = false;
-            this.dTInputACHoraFinE.Format = DevComponents.Editors.eDateTimePickerFormat.Custom;
-            this.dTInputACHoraFinE.IsInputReadOnly = true;
-            this.dTInputACHoraFinE.IsPopupCalendarOpen = false;
-            this.dTInputACHoraFinE.Location = new System.Drawing.Point(107, 82);
-            // 
-            // 
-            // 
-            this.dTInputACHoraFinE.MonthCalendar.AnnuallyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dTInputACHoraFinE.MonthCalendar.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dTInputACHoraFinE.MonthCalendar.CalendarDimensions = new System.Drawing.Size(1, 1);
-            this.dTInputACHoraFinE.MonthCalendar.ClearButtonVisible = true;
-            // 
-            // 
-            // 
-            this.dTInputACHoraFinE.MonthCalendar.CommandsBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2;
-            this.dTInputACHoraFinE.MonthCalendar.CommandsBackgroundStyle.BackColorGradientAngle = 90;
-            this.dTInputACHoraFinE.MonthCalendar.CommandsBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground;
-            this.dTInputACHoraFinE.MonthCalendar.CommandsBackgroundStyle.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid;
-            this.dTInputACHoraFinE.MonthCalendar.CommandsBackgroundStyle.BorderTopColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder;
-            this.dTInputACHoraFinE.MonthCalendar.CommandsBackgroundStyle.BorderTopWidth = 1;
-            this.dTInputACHoraFinE.MonthCalendar.CommandsBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dTInputACHoraFinE.MonthCalendar.DisplayMonth = new System.DateTime(2017, 9, 1, 0, 0, 0, 0);
-            this.dTInputACHoraFinE.MonthCalendar.MarkedDates = new System.DateTime[0];
-            this.dTInputACHoraFinE.MonthCalendar.MonthlyMarkedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.dTInputACHoraFinE.MonthCalendar.NavigationBackgroundStyle.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2;
-            this.dTInputACHoraFinE.MonthCalendar.NavigationBackgroundStyle.BackColorGradientAngle = 90;
-            this.dTInputACHoraFinE.MonthCalendar.NavigationBackgroundStyle.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground;
-            this.dTInputACHoraFinE.MonthCalendar.NavigationBackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.dTInputACHoraFinE.MonthCalendar.TodayButtonVisible = true;
-            this.dTInputACHoraFinE.MonthCalendar.Visible = false;
-            this.dTInputACHoraFinE.MonthCalendar.WeeklyMarkedDays = new System.DayOfWeek[0];
-            this.dTInputACHoraFinE.Name = "dTInputACHoraFinE";
-            this.dTInputACHoraFinE.Size = new System.Drawing.Size(182, 22);
-            this.dTInputACHoraFinE.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.dTInputACHoraFinE.TabIndex = 81;
-            this.dTInputACHoraFinE.TimeSelectorTimeFormat = DevComponents.Editors.DateTimeAdv.eTimeSelectorFormat.Time12H;
-            this.dTInputACHoraFinE.Value = new System.DateTime(2017, 11, 26, 17, 49, 22, 0);
-            // 
-            // lblACHoraIniE
-            // 
-            // 
-            // 
-            // 
-            this.lblACHoraIniE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACHoraIniE.Location = new System.Drawing.Point(20, 47);
-            this.lblACHoraIniE.Name = "lblACHoraIniE";
-            this.lblACHoraIniE.Size = new System.Drawing.Size(87, 23);
-            this.lblACHoraIniE.TabIndex = 79;
-            this.lblACHoraIniE.Text = "Hora de Inicio:";
-            // 
-            // lblACHoraFinE
-            // 
-            // 
-            // 
-            // 
-            this.lblACHoraFinE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACHoraFinE.Location = new System.Drawing.Point(20, 81);
-            this.lblACHoraFinE.Name = "lblACHoraFinE";
-            this.lblACHoraFinE.Size = new System.Drawing.Size(87, 23);
-            this.lblACHoraFinE.TabIndex = 80;
-            this.lblACHoraFinE.Text = "Hora de Fin:";
-            // 
-            // lblACDificultadE
-            // 
-            // 
-            // 
-            // 
-            this.lblACDificultadE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACDificultadE.Location = new System.Drawing.Point(22, 140);
-            this.lblACDificultadE.Name = "lblACDificultadE";
-            this.lblACDificultadE.Size = new System.Drawing.Size(87, 23);
-            this.lblACDificultadE.TabIndex = 73;
-            this.lblACDificultadE.Text = "Dificultad:";
-            // 
-            // lblACPrecioE
-            // 
-            // 
-            // 
-            // 
-            this.lblACPrecioE.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblACPrecioE.Location = new System.Drawing.Point(24, 311);
-            this.lblACPrecioE.Name = "lblACPrecioE";
-            this.lblACPrecioE.Size = new System.Drawing.Size(87, 23);
-            this.lblACPrecioE.TabIndex = 76;
-            this.lblACPrecioE.Text = "Precio $:";
-            // 
-            // tabItemACEditar
-            // 
-            this.tabItemACEditar.AttachedControl = this.superTabControlPanel3;
-            this.tabItemACEditar.GlobalItem = false;
-            this.tabItemACEditar.Image = global::OEVApp.Properties.Resources.addedit24x24;
-            this.tabItemACEditar.Name = "tabItemACEditar";
-            this.tabItemACEditar.Text = "<b>Editar</b>";
-            this.tabItemACEditar.Click += new System.EventHandler(this.tabItemACEditar_Click);
-            // 
-            // superTabControlPanel2
-            // 
-            this.superTabControlPanel2.Controls.Add(this.intInputAPDuracionA);
-            this.superTabControlPanel2.Controls.Add(this.lblAPDuracionA);
-            this.superTabControlPanel2.Controls.Add(this.groupAPDestinoA);
-            this.superTabControlPanel2.Controls.Add(this.btnAPNombreA);
-            this.superTabControlPanel2.Controls.Add(this.doubleInAPPrecioA);
-            this.superTabControlPanel2.Controls.Add(this.groupAPActividadA);
-            this.superTabControlPanel2.Controls.Add(this.groupAPModalidadA);
-            this.superTabControlPanel2.Controls.Add(this.lblAPPrecioA);
-            this.superTabControlPanel2.Controls.Add(this.btnAPGuardarA);
-            this.superTabControlPanel2.Controls.Add(this.comboAPDificultadA);
-            this.superTabControlPanel2.Controls.Add(this.lblAPDificultadA);
-            this.superTabControlPanel2.Controls.Add(this.richTxtAPItinerarioA);
-            this.superTabControlPanel2.Controls.Add(this.lblAPItinerarioA);
-            this.superTabControlPanel2.Controls.Add(this.txtAPNombreA);
-            this.superTabControlPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.superTabControlPanel2.Location = new System.Drawing.Point(0, 38);
-            this.superTabControlPanel2.Name = "superTabControlPanel2";
-            this.superTabControlPanel2.Size = new System.Drawing.Size(819, 430);
-            this.superTabControlPanel2.TabIndex = 0;
-            this.superTabControlPanel2.TabItem = this.tabItemAPAgregar;
-            // 
-            // intInputAPDuracionA
-            // 
-            // 
-            // 
-            // 
-            this.intInputAPDuracionA.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.intInputAPDuracionA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.intInputAPDuracionA.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
-            this.intInputAPDuracionA.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
-            this.intInputAPDuracionA.Location = new System.Drawing.Point(429, 118);
-            this.intInputAPDuracionA.MaxValue = 30;
-            this.intInputAPDuracionA.MinValue = 1;
-            this.intInputAPDuracionA.Name = "intInputAPDuracionA";
-            this.intInputAPDuracionA.ShowUpDown = true;
-            this.intInputAPDuracionA.Size = new System.Drawing.Size(120, 22);
-            this.intInputAPDuracionA.TabIndex = 76;
-            this.intInputAPDuracionA.Value = 1;
-            this.intInputAPDuracionA.WatermarkText = "2";
-            // 
-            // lblAPDuracionA
-            // 
-            // 
-            // 
-            // 
-            this.lblAPDuracionA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPDuracionA.Location = new System.Drawing.Point(321, 118);
-            this.lblAPDuracionA.Name = "lblAPDuracionA";
-            this.lblAPDuracionA.Size = new System.Drawing.Size(102, 23);
-            this.lblAPDuracionA.TabIndex = 74;
-            this.lblAPDuracionA.Text = "Duración (días):";
-            // 
-            // groupAPDestinoA
-            // 
-            this.groupAPDestinoA.Controls.Add(this.checkedListAPDestinoA);
-            this.groupAPDestinoA.Location = new System.Drawing.Point(28, 157);
-            this.groupAPDestinoA.Name = "groupAPDestinoA";
-            this.groupAPDestinoA.Size = new System.Drawing.Size(278, 165);
-            this.groupAPDestinoA.TabIndex = 73;
-            this.groupAPDestinoA.TabStop = false;
-            this.groupAPDestinoA.Text = "(*) Destino:";
-            // 
-            // checkedListAPDestinoA
-            // 
-            this.checkedListAPDestinoA.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkedListAPDestinoA.FormattingEnabled = true;
-            this.checkedListAPDestinoA.Location = new System.Drawing.Point(11, 21);
-            this.checkedListAPDestinoA.Name = "checkedListAPDestinoA";
-            this.checkedListAPDestinoA.Size = new System.Drawing.Size(248, 123);
-            this.checkedListAPDestinoA.TabIndex = 72;
-            // 
-            // btnAPNombreA
-            // 
-            this.btnAPNombreA.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnAPNombreA.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnAPNombreA.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAPNombreA.Location = new System.Drawing.Point(38, 334);
-            this.btnAPNombreA.Name = "btnAPNombreA";
-            this.btnAPNombreA.Size = new System.Drawing.Size(249, 36);
-            this.btnAPNombreA.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
-            this.btnAPNombreA.TabIndex = 71;
-            this.btnAPNombreA.Text = "Generar Nombre";
-            this.btnAPNombreA.Click += new System.EventHandler(this.btnAPNombreA_Click);
-            // 
-            // doubleInAPPrecioA
-            // 
-            // 
-            // 
-            // 
-            this.doubleInAPPrecioA.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.doubleInAPPrecioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.doubleInAPPrecioA.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
-            this.doubleInAPPrecioA.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.doubleInAPPrecioA.Increment = 100D;
-            this.doubleInAPPrecioA.InputHorizontalAlignment = DevComponents.Editors.eHorizontalAlignment.Left;
-            this.doubleInAPPrecioA.Location = new System.Drawing.Point(121, 118);
-            this.doubleInAPPrecioA.MaxValue = 1000000D;
-            this.doubleInAPPrecioA.MinValue = 0D;
-            this.doubleInAPPrecioA.Name = "doubleInAPPrecioA";
-            this.doubleInAPPrecioA.ShowUpDown = true;
-            this.doubleInAPPrecioA.Size = new System.Drawing.Size(185, 22);
-            this.doubleInAPPrecioA.TabIndex = 70;
-            this.doubleInAPPrecioA.WatermarkText = "2.500";
-            // 
-            // groupAPActividadA
-            // 
-            this.groupAPActividadA.Controls.Add(this.checkedListAPActividadA);
-            this.groupAPActividadA.Location = new System.Drawing.Point(321, 157);
-            this.groupAPActividadA.Name = "groupAPActividadA";
-            this.groupAPActividadA.Size = new System.Drawing.Size(228, 165);
-            this.groupAPActividadA.TabIndex = 69;
-            this.groupAPActividadA.TabStop = false;
-            this.groupAPActividadA.Text = "(*) Actividad:";
-            // 
-            // checkedListAPActividadA
-            // 
-            this.checkedListAPActividadA.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkedListAPActividadA.FormattingEnabled = true;
-            this.checkedListAPActividadA.Items.AddRange(new object[] {
-            "Cabalgata",
-            "Canotaje",
-            "Ciclismo",
-            "Escalada en Hielo",
-            "Escalada en Roca",
-            "Kayak",
-            "Mountain Bike",
-            "Running",
-            "Trekking"});
-            this.checkedListAPActividadA.Location = new System.Drawing.Point(15, 23);
-            this.checkedListAPActividadA.Name = "checkedListAPActividadA";
-            this.checkedListAPActividadA.Size = new System.Drawing.Size(195, 123);
-            this.checkedListAPActividadA.TabIndex = 73;
-            // 
-            // groupAPModalidadA
-            // 
-            this.groupAPModalidadA.Controls.Add(this.radioAPPaqueteA);
-            this.groupAPModalidadA.Controls.Add(this.radioAPEventoA);
-            this.groupAPModalidadA.Location = new System.Drawing.Point(28, 15);
-            this.groupAPModalidadA.Name = "groupAPModalidadA";
-            this.groupAPModalidadA.Size = new System.Drawing.Size(278, 48);
-            this.groupAPModalidadA.TabIndex = 67;
-            this.groupAPModalidadA.TabStop = false;
-            this.groupAPModalidadA.Text = "Modalidad:";
-            // 
-            // radioAPPaqueteA
-            // 
-            this.radioAPPaqueteA.AutoSize = true;
-            this.radioAPPaqueteA.Location = new System.Drawing.Point(192, 17);
-            this.radioAPPaqueteA.Name = "radioAPPaqueteA";
-            this.radioAPPaqueteA.Size = new System.Drawing.Size(67, 17);
-            this.radioAPPaqueteA.TabIndex = 1;
-            this.radioAPPaqueteA.TabStop = true;
-            this.radioAPPaqueteA.Text = "Paquete";
-            this.radioAPPaqueteA.UseVisualStyleBackColor = true;
-            // 
-            // radioAPEventoA
-            // 
-            this.radioAPEventoA.AutoSize = true;
-            this.radioAPEventoA.Checked = true;
-            this.radioAPEventoA.Location = new System.Drawing.Point(93, 17);
-            this.radioAPEventoA.Name = "radioAPEventoA";
-            this.radioAPEventoA.Size = new System.Drawing.Size(60, 17);
-            this.radioAPEventoA.TabIndex = 0;
-            this.radioAPEventoA.TabStop = true;
-            this.radioAPEventoA.Text = "Evento";
-            this.radioAPEventoA.UseVisualStyleBackColor = true;
-            // 
-            // lblAPPrecioA
-            // 
-            // 
-            // 
-            // 
-            this.lblAPPrecioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPPrecioA.Location = new System.Drawing.Point(27, 118);
-            this.lblAPPrecioA.Name = "lblAPPrecioA";
-            this.lblAPPrecioA.Size = new System.Drawing.Size(87, 23);
-            this.lblAPPrecioA.TabIndex = 65;
-            this.lblAPPrecioA.Text = "Precio $:";
-            // 
-            // btnAPGuardarA
-            // 
-            this.btnAPGuardarA.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.btnAPGuardarA.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
-            this.btnAPGuardarA.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAPGuardarA.Image = global::OEVApp.Properties.Resources.Save32x32;
-            this.btnAPGuardarA.Location = new System.Drawing.Point(657, 21);
-            this.btnAPGuardarA.Name = "btnAPGuardarA";
-            this.btnAPGuardarA.Size = new System.Drawing.Size(110, 45);
-            this.btnAPGuardarA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.btnAPGuardarA.TabIndex = 58;
-            this.btnAPGuardarA.Text = "Guardar";
-            this.btnAPGuardarA.Click += new System.EventHandler(this.btnAPGuardarA_Click);
-            // 
-            // comboAPDificultadA
-            // 
-            this.comboAPDificultadA.DisplayMember = "Text";
-            this.comboAPDificultadA.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboAPDificultadA.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboAPDificultadA.EnablePopupResize = false;
-            this.comboAPDificultadA.ItemHeight = 16;
-            this.comboAPDificultadA.Location = new System.Drawing.Point(121, 80);
-            this.comboAPDificultadA.Name = "comboAPDificultadA";
-            this.comboAPDificultadA.Size = new System.Drawing.Size(185, 22);
-            this.comboAPDificultadA.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.comboAPDificultadA.TabIndex = 61;
-            // 
-            // lblAPDificultadA
-            // 
-            // 
-            // 
-            // 
-            this.lblAPDificultadA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPDificultadA.Location = new System.Drawing.Point(28, 79);
-            this.lblAPDificultadA.Name = "lblAPDificultadA";
-            this.lblAPDificultadA.Size = new System.Drawing.Size(87, 23);
-            this.lblAPDificultadA.TabIndex = 60;
-            this.lblAPDificultadA.Text = "Dificultad:";
-            // 
-            // richTxtAPItinerarioA
-            // 
-            // 
-            // 
-            // 
-            this.richTxtAPItinerarioA.BackgroundStyle.Class = "RichTextBoxBorder";
-            this.richTxtAPItinerarioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.richTxtAPItinerarioA.Location = new System.Drawing.Point(564, 109);
-            this.richTxtAPItinerarioA.MaxLength = 2000;
-            this.richTxtAPItinerarioA.Name = "richTxtAPItinerarioA";
-            this.richTxtAPItinerarioA.Size = new System.Drawing.Size(200, 309);
-            this.richTxtAPItinerarioA.TabIndex = 59;
-            // 
-            // lblAPItinerarioA
-            // 
-            // 
-            // 
-            // 
-            this.lblAPItinerarioA.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblAPItinerarioA.Location = new System.Drawing.Point(564, 80);
-            this.lblAPItinerarioA.Name = "lblAPItinerarioA";
-            this.lblAPItinerarioA.Size = new System.Drawing.Size(87, 23);
-            this.lblAPItinerarioA.TabIndex = 58;
-            this.lblAPItinerarioA.Text = "Itinerario:";
-            // 
-            // txtAPNombreA
-            // 
-            this.txtAPNombreA.BackColor = System.Drawing.Color.White;
-            // 
-            // 
-            // 
-            this.txtAPNombreA.Border.Class = "TextBoxBorder";
-            this.txtAPNombreA.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtAPNombreA.Enabled = false;
-            this.txtAPNombreA.ForeColor = System.Drawing.Color.Black;
-            this.txtAPNombreA.Location = new System.Drawing.Point(38, 382);
-            this.txtAPNombreA.Name = "txtAPNombreA";
-            this.txtAPNombreA.Size = new System.Drawing.Size(249, 22);
-            this.txtAPNombreA.TabIndex = 57;
-            this.txtAPNombreA.WatermarkText = "TREK_MED_MDZ_02022017:15022017";
-            // 
-            // tabItemAPAgregar
-            // 
-            this.tabItemAPAgregar.AttachedControl = this.superTabControlPanel2;
-            this.tabItemAPAgregar.GlobalItem = false;
-            this.tabItemAPAgregar.Image = global::OEVApp.Properties.Resources.upload_ok;
-            this.tabItemAPAgregar.Name = "tabItemAPAgregar";
-            this.tabItemAPAgregar.Text = "<b>Agregar</b>";
             // 
             // superTabControlPanel7
             // 
@@ -7449,59 +7449,12 @@ namespace OEVApp
             this.Controls.Add(this.sideBarPanelDirector);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Director";
             this.Text = "OEV - Director";
             ((System.ComponentModel.ISupportInitialize)(this.superTabControlDir)).EndInit();
             this.superTabControlDir.ResumeLayout(false);
             this.superTabControlDir.PerformLayout();
-            this.superTabControlPanel13.ResumeLayout(false);
-            this.WizPage1CalA.ResumeLayout(false);
-            this.WizPage0CalA.ResumeLayout(false);
-            this.WizPage1CalACurso.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridPage1CalACurso)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.intInpPage1CalAAnio)).EndInit();
-            this.WizPage2CalAEvPaq.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridPage2CalAEvPaq)).EndInit();
-            this.WizPage3CalACurInstructor.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridPage3CalAInstCurso)).EndInit();
-            this.WizPage4CalAPaqEvInstructor.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridPage4CalAInstPaqEv)).EndInit();
-            this.WizPage5CalACurInstAloj.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridPage5CalAInstPaqEvAloj)).EndInit();
-            this.WizPage6CalACurInstAlojTras.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridPage6CalAInstPaqEvAlojTras)).EndInit();
-            this.superTabControlPanel15.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.intInpCalEAnio)).EndInit();
-            this.groupCalETipoProducto.ResumeLayout(false);
-            this.groupCalETipoProducto.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridCalEProductos)).EndInit();
-            this.superTabControlPanel14.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.intInpCalCAnio)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridCalCProductos)).EndInit();
-            this.groupCalCTipoProducto.ResumeLayout(false);
-            this.groupCalCTipoProducto.PerformLayout();
-            this.superTabControlPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.doubleInACPrecioA)).EndInit();
-            this.groupACEntrenA.ResumeLayout(false);
-            this.groupACEntrenA.PerformLayout();
-            this.groupBoxACDiasA.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraFinA)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraInicioA)).EndInit();
-            this.superTabControlPanel10.ResumeLayout(false);
-            this.radioGroupInstCons.ResumeLayout(false);
-            this.radioGroupInstCons.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridInstCons)).EndInit();
-            this.superTabControlPanel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.doubleACPrecioHastaC)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.doubleACPrecioDesdeC)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridViewACC)).EndInit();
-            this.groupACEntrenC.ResumeLayout(false);
-            this.superTabControlPanel6.ResumeLayout(false);
-            this.groupAPActividadC.ResumeLayout(false);
-            this.groupAPDestinoC.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.doubleAPPrecioHastaC)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.doubleAPPrecioDesdeC)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridViewAPC)).EndInit();
             this.superTabControlPanel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.doubleInAPPrecioE)).EndInit();
             this.groupAPModalidadE.ResumeLayout(false);
@@ -7518,6 +7471,54 @@ namespace OEVApp
             this.groupAPActividadA.ResumeLayout(false);
             this.groupAPModalidadA.ResumeLayout(false);
             this.groupAPModalidadA.PerformLayout();
+            this.superTabControlPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.doubleInACPrecioA)).EndInit();
+            this.groupACEntrenA.ResumeLayout(false);
+            this.groupACEntrenA.PerformLayout();
+            this.groupBoxACDiasA.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraFinA)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dTInputACHoraInicioA)).EndInit();
+            this.superTabControlPanel15.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.intInpCalEAnio)).EndInit();
+            this.groupCalETipoProducto.ResumeLayout(false);
+            this.groupCalETipoProducto.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridCalEProductos)).EndInit();
+            this.superTabControlPanel14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.intInpCalCAnio)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridCalCProductos)).EndInit();
+            this.groupCalCTipoProducto.ResumeLayout(false);
+            this.groupCalCTipoProducto.PerformLayout();
+            this.superTabControlPanel13.ResumeLayout(false);
+            this.WizPage1CalA.ResumeLayout(false);
+            this.WizPage0CalA.ResumeLayout(false);
+            this.WizPage1CalACurso.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridPage1CalACurso)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.intInpPage1CalAAnio)).EndInit();
+            this.WizPage2CalAEvPaq.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridPage2CalAEvPaq)).EndInit();
+            this.WizPage3CalACurInstructor.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridPage3CalAInstCurso)).EndInit();
+            this.WizPage4CalAPaqEvInstructor.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridPage4CalAInstPaqEv)).EndInit();
+            this.WizPage5CalACurInstAloj.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridPage5CalAInstPaqEvAloj)).EndInit();
+            this.WizPage6CalACurInstAlojTras.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridPage6CalAInstPaqEvAlojTras)).EndInit();
+            this.superTabControlPanel10.ResumeLayout(false);
+            this.radioGroupInstCons.ResumeLayout(false);
+            this.radioGroupInstCons.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridInstCons)).EndInit();
+            this.superTabControlPanel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.doubleACPrecioHastaC)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.doubleACPrecioDesdeC)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridViewACC)).EndInit();
+            this.groupACEntrenC.ResumeLayout(false);
+            this.superTabControlPanel6.ResumeLayout(false);
+            this.groupAPActividadC.ResumeLayout(false);
+            this.groupAPDestinoC.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.doubleAPPrecioHastaC)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.doubleAPPrecioDesdeC)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridViewAPC)).EndInit();
             this.superTabControlPanel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.integerInProvAgrCap)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.doubleInProvAgrTarifa)).EndInit();

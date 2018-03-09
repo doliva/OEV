@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.imageContainer1 = new Telerik.QuickStart.WinControls.ImageContainer();
             this.txtUsuario = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.txtClave = new DevComponents.DotNetBar.Controls.TextBoxX();
@@ -143,6 +144,7 @@
             this.Controls.Add(this.txtClave);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.imageContainer1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
             this.Text = "OEV - Login";
             ((System.ComponentModel.ISupportInitialize)(this.imageContainer1)).EndInit();
